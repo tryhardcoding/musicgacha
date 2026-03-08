@@ -1,0 +1,59 @@
+{
+    "packs": [
+        {
+            "id": "standard",
+            "icon": "🎵",
+            "color": "#8b5cf6",
+            "gradient": "linear-gradient(135deg, #8b5cf6, #ec4899)"
+        },
+        {
+            "id": "jpop",
+            "icon": "🌸",
+            "color": "#f472b6",
+            "gradient": "linear-gradient(135deg, #f472b6, #ec4899)"
+        },
+        {
+            "id": "kpop",
+            "icon": "💎",
+            "color": "#c084fc",
+            "gradient": "linear-gradient(135deg, #c084fc, #a855f7)"
+        },
+        {
+            "id": "vocaloid",
+            "icon": "🎤",
+            "color": "#22d3ee",
+            "gradient": "linear-gradient(135deg, #22d3ee, #06b6d4)"
+        },
+        {
+            "id": "anime",
+            "icon": "🌟",
+            "color": "#ef4444",
+            "gradient": "linear-gradient(135deg, #ef4444, #f97316)"
+        },
+        {
+            "id": "hiphop",
+            "icon": "🎧",
+            "color": "#8b5cf6",
+            "gradient": "linear-gradient(135deg, #8b5cf6, #6366f1)"
+        },
+        {
+            "id": "idol",
+            "icon": "⭐",
+            "color": "#f472b6",
+            "gradient": "linear-gradient(135deg, #f472b6, #f59e0b)"
+        },
+        {
+            "id": "western",
+            "icon": "🌍",
+            "color": "#3b82f6",
+            "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)"
+        },
+        {
+            "id": "top200",
+            "icon": "🏆",
+            "color": "#f59e0b",
+            "gradient": "linear-gradient(135deg, #f59e0b, #ef4444)",
+            "isDaily": true
+        }
+    ]
+}

@@ -1,0 +1,1389 @@
+{
+  "artists": {
+    "LR": [
+      {
+        "name": "The Beatles",
+        "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Queen",
+        "mbid": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Michael Jackson",
+        "mbid": "f27ec8db-af05-4f36-916e-3571e2806109",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "David Bowie",
+        "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Prince",
+        "mbid": "070d193a-845c-479f-980e-bef15710653e",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Elvis Presley",
+        "mbid": "01809552-4f87-45d0-8afa-624f4e5a8429",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Led Zeppelin",
+        "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Pink Floyd",
+        "mbid": "83d91898-7763-47d7-b03b-b92132571559",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "The Rolling Stones",
+        "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Bob Dylan",
+        "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Jimi Hendrix",
+        "mbid": "06fb1c8b-566e-4cb2-985b-b467c90781d4",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Stevie Wonder",
+        "mbid": "1ee18fb3-18a6-4c7f-8b18-571f2a09d348",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "Bob Marley",
+        "mbid": "c296e10c-110a-4103-9e77-47bfebb7571e",
+        "tags": [
+          "country:jm",
+          "genre:reggae"
+        ]
+      },
+      {
+        "name": "Aretha Franklin",
+        "mbid": "afa40b7e-ce95-4482-a3d9-d7e385555401",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "Frank Sinatra",
+        "mbid": "197450cd-0124-4f94-8bc4-462ef3650994",
+        "tags": [
+          "country:us",
+          "genre:jazz"
+        ]
+      },
+      {
+        "name": "Nirvana",
+        "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "The Who",
+        "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "AC/DC",
+        "mbid": "66c662b6-6e2f-4930-8610-912e24c63571",
+        "tags": [
+          "country:au",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "John Lennon",
+        "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Whitney Houston",
+        "mbid": "bfcc6d75-a6a5-4bc6-8571-76f4b55a0571",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Miles Davis",
+        "mbid": "561d854a-6a28-4aa7-8c99-323e6ce46c2a",
+        "tags": [
+          "country:us",
+          "genre:jazz"
+        ]
+      },
+      {
+        "name": "Johnny Cash",
+        "mbid": "d59c8066-8d95-4fbe-97e5-5ef2fd02d8c2",
+        "tags": [
+          "country:us",
+          "genre:country"
+        ]
+      },
+      {
+        "name": "Marvin Gaye",
+        "mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "The Beach Boys",
+        "mbid": "ebfc1398-8d96-47e3-82c3-f782abcdb13d",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Ray Charles",
+        "mbid": "063b58e0-5e1b-44a1-96da-02e25aae0630",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "James Brown",
+        "mbid": "20ff3303-4fe2-4a47-a1e0-92d86a1bc725",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "U2",
+        "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+        "tags": [
+          "country:ie",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Elton John",
+        "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Madonna",
+        "mbid": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Freddie Mercury",
+        "mbid": "362ecc9e-3646-4f42-bda3-ba4bb0aeaf12",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      }
+    ],
+    "UR": [
+      {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889f84",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4f51-bb50-f1a4afa17d02",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "BTS",
+        "mbid": "e65da31b-8ebc-4de3-8bff-529de540976e",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "Adele",
+        "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9",
+        "tags": [
+          "country:uk",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Beyoncé",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "Ed Sheeran",
+        "mbid": "b8a7c51f-362c-4dcb-a259-bc6f0b8fcc55",
+        "tags": [
+          "country:uk",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Rihanna",
+        "mbid": "73e5e69d-3554-40d8-8516-00cb38737571",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Lady Gaga",
+        "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Bruno Mars",
+        "mbid": "525df017-5757-4399-85e6-7847eb4521a5",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Billie Eilish",
+        "mbid": "f4abc0b5-3f02-4c0f-b4cb-e52b34436a0d",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Post Malone",
+        "mbid": "b1e26560-60e5-4236-bbdb-9aa5a8c5ee67",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "Ariana Grande",
+        "mbid": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Dua Lipa",
+        "mbid": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+        "tags": [
+          "country:uk",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Bad Bunny",
+        "mbid": "9e737880-25e5-4d7d-a27a-b05e40020e51",
+        "tags": [
+          "country:pr",
+          "genre:reggaeton"
+        ]
+      },
+      {
+        "name": "Travis Scott",
+        "mbid": "975043e7-5755-4bda-8697-e8e91a649a86",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Jay-Z",
+        "mbid": "f82bcf78-5b69-4622-a5ef-73800768d9ac",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Daft Punk",
+        "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+        "tags": [
+          "country:fr",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Radiohead",
+        "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Björk",
+        "mbid": "87c5dedd-371d-4571-9023-1d85e37f2940",
+        "tags": [
+          "country:is",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Amy Winehouse",
+        "mbid": "6da0515e-a27d-449c-8a85-f38db7116a74",
+        "tags": [
+          "country:uk",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Green Day",
+        "mbid": "084308bd-1571-4c91-a734-6d4df3006cc6",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Red Hot Chili Peppers",
+        "mbid": "8bfac288-ccc5-448d-9573-c33ea2aa5c30",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Foo Fighters",
+        "mbid": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Imagine Dragons",
+        "mbid": "012151a8-0f9a-44c9-997f-ebd68b5571a9",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "BLACKPINK",
+        "mbid": "0ac398bb-7175-41a6-8367-f7b38e3dffc8",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "SZA",
+        "mbid": "2da72092-5048-4b26-9cff-ddd44502a9be",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      }
+    ],
+    "SR": [
+      {
+        "name": "Arctic Monkeys",
+        "mbid": "ada7a83c-e3e1-40f1-93f9-3e73571d7e73",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Gorillaz",
+        "mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Tame Impala",
+        "mbid": "63aa26c3-d59b-4da4-84ac-716571571ccc",
+        "tags": [
+          "country:au",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Tyler, The Creator",
+        "mbid": "4b83447e-b8e4-45f4-a4c0-1e926f6fc777",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Frank Ocean",
+        "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Muse",
+        "mbid": "9c9f1380-2516-4fc9-a3e6-f9f61941d090",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "System of a Down",
+        "mbid": "cc0b7089-c08d-4c10-b6b0-873582c17fd6",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Depeche Mode",
+        "mbid": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "The Cure",
+        "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Oasis",
+        "mbid": "39ab1aed-75e0-4140-bd47-540571f5e1d1",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Massive Attack",
+        "mbid": "10adbe5e-a2c0-4bf3-8249-2b4cbf6e6ca8",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Aphex Twin",
+        "mbid": "f22942a1-6f70-4f48-866e-238cb2571fbc",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "The Chemical Brothers",
+        "mbid": "6b266b0b-8894-43d7-b6e6-3c7e13beef36",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Kraftwerk",
+        "mbid": "5c05e374-e9b0-4892-b4dd-89af2adce8e2",
+        "tags": [
+          "country:de",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Fleetwood Mac",
+        "mbid": "bd13909f-1c20-4e18-b133-184e4f9cb17a",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Outkast",
+        "mbid": "526f4b99-2172-4e65-863e-4ebceb6e5898",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "FKA Twigs",
+        "mbid": "6e7cb09b-caa4-46ec-8957-e8cfc1a38bd0",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Childish Gambino",
+        "mbid": "c4efa2a0-f5cf-4157-88ac-3a519a86fe01",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Flying Lotus",
+        "mbid": "a47bf107-39ac-4959-b1e9-75c2ae2c11cb",
+        "tags": [
+          "country:us",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Thundercat",
+        "mbid": "1cd8a03a-0bf1-486d-b72e-82ced9e07bd0",
+        "tags": [
+          "country:us",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "Grimes",
+        "mbid": "7e0e8ff4-477e-4ea0-a63b-1fdbe7919072",
+        "tags": [
+          "country:ca",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Beach House",
+        "mbid": "ae62a662-c187-4b47-affc-c9950f4adaa2",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Sigur Rós",
+        "mbid": "fe5f7c22-3e4e-4e2d-82ef-ef3bc7053905",
+        "tags": [
+          "country:is",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Jack White",
+        "mbid": "3ae2fb37-8a30-4991-8264-1451bdb1eab3",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      }
+    ],
+    "R": [
+      {
+        "name": "宇多田ヒカル",
+        "mbid": "b539e453-c4fe-47e3-8a07-8517eac74429",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "YOASOBI",
+        "mbid": "b1ef8e5e-a9e5-4d8b-aeef-e3b84e4f3008",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "米津玄師",
+        "mbid": "f85a06af-7c57-4625-878f-eae73f0e5076",
+        "tags": [
+          "country:jp",
+          "genre:pop",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "Ado",
+        "mbid": "7e3e1cc0-2eb9-4268-9cd2-3e168ad3d2dd",
+        "tags": [
+          "country:jp",
+          "genre:pop",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "King Gnu",
+        "mbid": "f9b997f5-d3b8-4a51-8a73-a29bc1e769a3",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Official髭男dism",
+        "mbid": "dd2f7f8e-ae8c-460a-ad2d-1bf580f6c32d",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "あいみょん",
+        "mbid": "3a1e5ccc-7c2d-4c89-b54c-15c3f7e93757",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Aimer",
+        "mbid": "ee1a7fd1-37ee-4e6f-923d-83ddcb222093",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "椎名林檎",
+        "mbid": "4e954b02-fae2-4bd7-9547-e055a6ac0527",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "サカナクション",
+        "mbid": "ab07e5d7-6293-4a4d-b66d-8ae8c49e8f78",
+        "tags": [
+          "country:jp",
+          "genre:electronic",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "RADWIMPS",
+        "mbid": "72dd7c63-9299-4e3e-b8ee-98d63caf8c82",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "ONE OK ROCK",
+        "mbid": "7ff993f8-83b2-4cd6-b31a-cf11a2fa7264",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "BABYMETAL",
+        "mbid": "a21635e1-06d8-43f0-8ef0-07e2a78b7079",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Nujabes",
+        "mbid": "cc380516-c527-4194-8028-cf36a38e72e1",
+        "tags": [
+          "country:jp",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Yellow Magic Orchestra",
+        "mbid": "fce19077-b3ff-467e-b400-4be85b860dad",
+        "tags": [
+          "country:jp",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Cornelius",
+        "mbid": "16e3bdfe-d580-4d14-b575-8c533a7d6eb4",
+        "tags": [
+          "country:jp",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "TWICE",
+        "mbid": "4d7c1f9c-9e0e-4e5f-8c0d-1a2b3c4d5e6f",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "NewJeans",
+        "mbid": "5e8f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "Stray Kids",
+        "mbid": "b5a4c3d2-e1f0-9a8b-7c6d-5e4f3a2b1c0d",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "aespa",
+        "mbid": "c6b5d4e3-f2a1-0b9c-8d7e-6f5a4b3c2d1e",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "Red Velvet",
+        "mbid": "3a89f750-48ce-4f39-85e8-4a3f0b41b578",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "EXO",
+        "mbid": "0b40e0e8-1f4d-40fd-8fa7-51e6e007edc9",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "SEVENTEEN",
+        "mbid": "e8d9f0a1-b2c3-4d5e-6f7a-8b9c0d1e2f3a",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "Mac DeMarco",
+        "mbid": "2291c90e-36c3-443e-bf5c-e671a35c4a6b",
+        "tags": [
+          "country:ca",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Glass Animals",
+        "mbid": "59d91e0c-34cf-48cb-90fa-21a38c092a38",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Phoebe Bridgers",
+        "mbid": "e8a9c59f-96fa-4a21-9e03-71d02e1e5ea0",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Mitski",
+        "mbid": "c61fd5dc-ec4e-4afe-ad7b-1fb0ad26c89a",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "King Krule",
+        "mbid": "cf0d4b03-cfe2-4f29-9c06-5e5b06f2a0be",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Slowdive",
+        "mbid": "49c99b5f-a07c-4e41-a02e-3a1f11fb2efa",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "My Bloody Valentine",
+        "mbid": "421a5156-d291-4d05-a9d0-ee66af5e1fbb",
+        "tags": [
+          "country:ie",
+          "genre:rock"
+        ]
+      }
+    ],
+    "UC": [
+      {
+        "name": "初音ミク",
+        "mbid": "dummymiku-0001-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "ハチ (米津玄師)",
+        "mbid": "f85a06af-7c57-4625-878f-eae73f0e5076",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "DECO*27",
+        "mbid": "dummydeco-0001-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "wowaka",
+        "mbid": "dummywowaka-001-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "ryo (supercell)",
+        "mbid": "dummyryo-0001-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "じん (自然の敵P)",
+        "mbid": "dummyjin-0001-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "ピノキオピー",
+        "mbid": "dummypino-0001-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "すりぃ",
+        "mbid": "dummysuri-0001-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "Kanaria",
+        "mbid": "dummykanaria-01-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "syudou",
+        "mbid": "dummysyudou-01-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "Chinozo",
+        "mbid": "dummychinozo-1-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "藤井風",
+        "mbid": "a5b6c7c8-b9c0-c1d2-d3e4-e5f6a7b8c9d0",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "ずっと真夜中でいいのに。",
+        "mbid": "b6c7d8d9-c0d1-d2e3-e4f5-f6a7b8c9d0e1",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Vaundy",
+        "mbid": "c7d8e9e0-d1e2-e3f4-f5a6-a7b8c9d0e1f2",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "(G)I-DLE",
+        "mbid": "b2c3d4d5-c6d7-d8e9-e0f1-f2a3b4c5d6e7",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "LE SSERAFIM",
+        "mbid": "c3d4e5e6-d7e8-e9f0-f1a2-a3b4c5d6e7f8",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "IVE",
+        "mbid": "d4e5f6f7-e8f9-f0a1-a2b3-b4c5d6e7f8a9",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "NCT 127",
+        "mbid": "e5f6a7a8-f9a0-a1b2-b3c4-c5d6e7f8a9b0",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "TXT",
+        "mbid": "f6a7b8b9-a0b1-b2c3-c4d5-d6e7f8a9b0c1",
+        "tags": [
+          "country:kr",
+          "genre:kpop"
+        ]
+      },
+      {
+        "name": "Charli XCX",
+        "mbid": "b3869bc3-1796-4cda-8d02-05b5bf828e76",
+        "tags": [
+          "country:uk",
+          "genre:pop",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Burial",
+        "mbid": "02ee34f1-abb9-4e0d-8c67-3f0d7cd55839",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Four Tet",
+        "mbid": "05a1e8f3-e3c1-4d2c-a40a-2e59e8b1f5cc",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Caribou",
+        "mbid": "1c22f2d4-9f9f-4e0a-9c60-e5f34c0a7ab5",
+        "tags": [
+          "country:ca",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Jamie xx",
+        "mbid": "f86c2a2c-6547-49a5-a636-87c3fb09a03b",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Bonobo",
+        "mbid": "19407837-a832-48f5-a478-3add00ec6260",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Little Simz",
+        "mbid": "c5d6d7d8-d9e0-e1f2-f3a4-a5b6b7b8c9d0",
+        "tags": [
+          "country:uk",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "JPEGMAFIA",
+        "mbid": "d0e1e2e3-e4e5-f6f7-a8a9-b0c1c2c3d4d5",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Alvvays",
+        "mbid": "4bc4d0ae-3e8f-4df7-b2d9-a7e3f88def6f",
+        "tags": [
+          "country:ca",
+          "genre:rock"
+        ]
+      }
+    ],
+    "C": [
+      {
+        "name": "きくお",
+        "mbid": "dummykikuo-01-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "Neru",
+        "mbid": "dummyneru-0001-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "kemu",
+        "mbid": "dummykemu-0001-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "ナユタン星人",
+        "mbid": "dummynayutan-1-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "稲葉曇",
+        "mbid": "dummyinaba-01-0001-0001-000000000001",
+        "tags": [
+          "country:jp",
+          "genre:vocaloid"
+        ]
+      },
+      {
+        "name": "Ichiko Aoba",
+        "mbid": "44556677-8899-aabb-ccdd-eeff00112255",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Lamp",
+        "mbid": "55667788-99aa-bbcc-ddee-ff0011223366",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "カネコアヤノ",
+        "mbid": "66778899-aabb-ccdd-eeff-001122334477",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "羊文学",
+        "mbid": "8899aabb-ccdd-eeff-0011-223344556699",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "女王蜂",
+        "mbid": "99aabbcc-ddee-ff00-1122-3344556677aa",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "CHAI",
+        "mbid": "aabbccdd-eeff-0011-2233-4455667788bb",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Asian Kung-Fu Generation",
+        "mbid": "4ab3e3f0-3a5a-4064-9a09-6b4e42ea0b56",
+        "tags": [
+          "country:jp",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "back number",
+        "mbid": "55667788-99aa-bbcc-ddee-ff0011223377",
+        "tags": [
+          "country:jp",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "Creepy Nuts",
+        "mbid": "778899aa-bbcc-ddee-ff00-112233445599",
+        "tags": [
+          "country:jp",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Ginger Root",
+        "mbid": "11223344-5566-7788-99aa-bbccddeeff00",
+        "tags": [
+          "country:us",
+          "genre:pop"
+        ]
+      },
+      {
+        "name": "shame",
+        "mbid": "aabbccdd-eeff-0011-2233-445566778899",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "PinkPantheress",
+        "mbid": "ddeeff00-1122-3344-5566-778899aabbcc",
+        "tags": [
+          "country:uk",
+          "genre:electronic"
+        ]
+      },
+      {
+        "name": "Ice Spice",
+        "mbid": "eeff0011-2233-4455-6677-8899aabbccdd",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      },
+      {
+        "name": "Raye",
+        "mbid": "ff001122-3344-5566-7788-99aabbccddee",
+        "tags": [
+          "country:uk",
+          "genre:rnb"
+        ]
+      },
+      {
+        "name": "Mogwai",
+        "mbid": "d700b3f5-45af-4d02-95ed-57d301bda93e",
+        "tags": [
+          "country:uk",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Explosions in the Sky",
+        "mbid": "182d79c5-3fb7-4a5d-822d-9a7dcbf4c5a5",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Polyphia",
+        "mbid": "11223344-5566-7788-99aa-bbccddeeff22",
+        "tags": [
+          "country:us",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Viagra Boys",
+        "mbid": "ff001122-3344-5566-7788-99aabbccddf0",
+        "tags": [
+          "country:se",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Amyl and the Sniffers",
+        "mbid": "44556677-8899-aabb-ccdd-eeff00112244",
+        "tags": [
+          "country:au",
+          "genre:rock"
+        ]
+      },
+      {
+        "name": "Baby Keem",
+        "mbid": "33445566-7788-99aa-bbcc-ddeeff001133",
+        "tags": [
+          "country:us",
+          "genre:hiphop"
+        ]
+      }
+    ]
+  },
+  "version": "2.0.0"
+}

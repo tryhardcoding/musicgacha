@@ -1,0 +1,97 @@
+{
+    "genres": {
+        "Rock": {
+            "icon": "🎸",
+            "color": "#ef4444"
+        },
+        "Pop": {
+            "icon": "🎤",
+            "color": "#ec4899"
+        },
+        "Hip-Hop": {
+            "icon": "🎧",
+            "color": "#f59e0b"
+        },
+        "R&B": {
+            "icon": "🎹",
+            "color": "#a855f7"
+        },
+        "Electronic": {
+            "icon": "🎛️",
+            "color": "#06b6d4"
+        },
+        "Jazz": {
+            "icon": "🎷",
+            "color": "#eab308"
+        },
+        "Classical": {
+            "icon": "🎻",
+            "color": "#64748b"
+        },
+        "Country": {
+            "icon": "🤠",
+            "color": "#d97706"
+        },
+        "Metal": {
+            "icon": "🤘",
+            "color": "#6b7280"
+        },
+        "Punk": {
+            "icon": "⚡",
+            "color": "#22c55e"
+        },
+        "Blues": {
+            "icon": "🎺",
+            "color": "#3b82f6"
+        },
+        "Reggae": {
+            "icon": "🌴",
+            "color": "#16a34a"
+        },
+        "Latin": {
+            "icon": "💃",
+            "color": "#f97316"
+        },
+        "Folk": {
+            "icon": "🪕",
+            "color": "#92400e"
+        },
+        "Soul": {
+            "icon": "💜",
+            "color": "#7c3aed"
+        },
+        "Funk": {
+            "icon": "🕺",
+            "color": "#e11d48"
+        },
+        "Indie": {
+            "icon": "🌙",
+            "color": "#8b5cf6"
+        },
+        "Alternative": {
+            "icon": "🔮",
+            "color": "#6366f1"
+        },
+        "J-Pop": {
+            "icon": "🌸",
+            "color": "#f472b6"
+        },
+        "K-Pop": {
+            "icon": "💎",
+            "color": "#c084fc"
+        },
+        "World": {
+            "icon": "🌍",
+            "color": "#14b8a6"
+        },
+        "Soundtrack": {
+            "icon": "🎬",
+            "color": "#475569"
+        },
+        "Unknown": {
+            "icon": "🎵",
+            "color": "#6b7280"
+        }
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MusicGacha - 音楽ガチャで新しい曲と出会おう</title>
+  <meta name="description" content="ガチャで世界中の音楽カードを集めよう。Spotify・YouTubeで即試聴。レアカードをコンプリートして最強のコレクションを作ろう。">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- ===== 統一ヘッダー ===== -->
+  <header class="unified-header" id="unified-header">
+    <div class="unified-header-top">
+      <h1 class="header-logo">
+        <span class="title-icon">🎵</span>
+        <span class="title-text">Music<span class="title-accent">Gacha</span></span>
+      </h1>
+      <div class="header-volume">
+        <button class="volume-btn" id="volume-btn" aria-label="ミュート">
+          <span class="volume-icon" id="volume-icon">🔊</span>
+        </button>
+        <input type="range" class="volume-slider" id="volume-slider" min="0" max="100" value="50">
+      </div>
+    </div>
+    <nav class="header-nav" id="header-nav">
+      <a href="#home" class="nav-item active" data-screen="home" data-i18n="nav.home">
+        <span class="nav-label">ホーム</span>
+      </a>
+      <a href="#collection" class="nav-item" data-screen="collection" data-i18n="nav.collection">
+        <span class="nav-label">コレクション</span>
+      </a>
+      <a href="#settings" class="nav-item" data-screen="settings" data-i18n="nav.settings">
+        <span class="nav-label">設定</span>
+      </a>
+    </nav>
+  </header>
+
+  <!-- ===== Screen: ホーム ===== -->
+  <section class="screen active" id="screen-home">
+    <div class="screen-content">
+      <div class="home-subtitle-section">
+        <p class="app-subtitle" data-i18n="home.subtitle">音楽ガチャで新しい曲と出会おう</p>
+      </div>
+
+      <!-- パック情報 -->
+      <div class="pack-info-card">
+        <div class="pack-count">
+          <span class="pack-count-current" id="pack-count-current">10</span>
+          <span class="pack-count-separator">/</span>
+          <span class="pack-count-max">10</span>
+          <span class="pack-count-label" data-i18n="home.packs">パック</span>
+        </div>
+        <div class="pack-regen-timer" id="pack-regen-timer"></div>
+      </div>
+
+      <!-- パック選択カルーセル -->
+      <div class="pack-selector" id="pack-selector">
+        <div class="pack-selector-scroll" id="pack-selector-scroll">
+          <button class="pack-card active" data-pack="standard">
+            <span class="pack-card-icon">🎵</span>
+            <span class="pack-card-name" data-i18n="pack.standard">スタンダード</span>
+          </button>
+          <button class="pack-card" data-pack="jpop">
+            <span class="pack-card-icon">🌸</span>
+            <span class="pack-card-name" data-i18n="pack.jpop">J-POP</span>
+          </button>
+          <button class="pack-card" data-pack="kpop">
+            <span class="pack-card-icon">💎</span>
+            <span class="pack-card-name" data-i18n="pack.kpop">K-POP</span>
+          </button>
+          <button class="pack-card" data-pack="vocaloid">
+            <span class="pack-card-icon">🎤</span>
+            <span class="pack-card-name" data-i18n="pack.vocaloid">ボカロ</span>
+          </button>
+          <button class="pack-card" data-pack="anime">
+            <span class="pack-card-icon">🌟</span>
+            <span class="pack-card-name" data-i18n="pack.anime">Anime</span>
+          </button>
+          <button class="pack-card" data-pack="hiphop">
+            <span class="pack-card-icon">🎧</span>
+            <span class="pack-card-name" data-i18n="pack.hiphop">Hip-Hop</span>
+          </button>
+          <button class="pack-card" data-pack="idol">
+            <span class="pack-card-icon">⭐</span>
+            <span class="pack-card-name" data-i18n="pack.idol">アイドル</span>
+          </button>
+          <button class="pack-card" data-pack="western">
+            <span class="pack-card-icon">🌍</span>
+            <span class="pack-card-name" data-i18n="pack.western">洋楽</span>
+          </button>
+          <button class="pack-card pack-card-daily" data-pack="top200">
+            <span class="pack-card-icon">🏆</span>
+            <span class="pack-card-name" data-i18n="pack.top200">Top 200</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Top 200 進捗表示 -->
+      <div class="top200-progress" id="top200-progress" style="display:none;">
+        <div class="top200-progress-header">
+          <span class="top200-progress-label" data-i18n="home.top200Title">📊 本日のiTunes Top 200</span>
+          <span class="top200-progress-count" id="top200-progress-count">0/200</span>
+        </div>
+        <div class="top200-progress-bar">
+          <div class="top200-progress-fill" id="top200-progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <!-- 開封ボタン -->
+      <button class="btn-open-pack" id="btn-open-pack" data-i18n="home.openPack">
+        <span class="btn-open-pack-inner">
+          <span class="btn-open-pack-icon">🎁</span>
+          <span class="btn-open-pack-text">パックを開ける</span>
+        </span>
+      </button>
+
+      <!-- ゴールドパック進捗 -->
+      <div class="gold-pack-progress" id="gold-pack-progress">
+        <div class="gold-pack-bar">
+          <div class="gold-pack-fill" id="gold-pack-fill" style="width: 0%"></div>
+        </div>
+        <span class="gold-pack-label" id="gold-pack-label">0/10 ゴールドパックまで</span>
+      </div>
+
+      <!-- 広告バナー（ホーム） -->
+      <div class="ad-container" id="ad-home-banner">
+        <!-- AdSense設定後に自動差し替え -->
+      </div>
+
+      <!-- デイリーボーナス -->
+      <div class="daily-bonus-card" id="daily-bonus-card">
+        <div class="daily-bonus-icon">🎁</div>
+        <div class="daily-bonus-info">
+          <span class="daily-bonus-title" data-i18n="home.dailyBonus">デイリーボーナス</span>
+          <span class="daily-bonus-desc" data-i18n="home.dailyBonusDesc">3パック獲得！</span>
+        </div>
+        <button class="btn-daily-bonus" id="btn-daily-bonus" data-i18n="home.claim">受け取る</button>
+      </div>
+
+      <!-- 追加パック -->
+      <button class="btn-ad-pack" id="btn-ad-pack">
+        <span class="btn-ad-icon">▶</span>
+        <span data-i18n="home.watchAd">広告を見てパックを獲得</span>
+      </button>
+
+      <!-- 収集進捗 -->
+      <div class="collection-progress" id="collection-progress">
+        <div class="progress-ring">
+          <svg viewBox="0 0 100 100">
+            <circle class="progress-ring-bg" cx="50" cy="50" r="44" />
+            <circle class="progress-ring-fill" id="progress-ring-fill" cx="50" cy="50" r="44" />
+          </svg>
+          <span class="progress-ring-text" id="progress-ring-text">0</span>
+        </div>
+        <div class="progress-info">
+          <span class="progress-label" data-i18n="home.collected">曲収集済み</span>
+          <span class="progress-total" id="progress-total">0 / ∞</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Screen: パック開封 ===== -->
+  <section class="screen" id="screen-pack">
+    <div class="screen-content pack-screen">
+      <!-- パック開封演出コンテナ -->
+      <div class="pack-opening-container" id="pack-opening-container">
+        <div class="pack-wrapper" id="pack-wrapper">
+          <div class="pack-visual" id="pack-visual">
+            <img class="pack-image" src="assets/pack-standard.png" alt="Music Pack" draggable="false">
+          </div>
+          <p class="pack-tap-hint" data-i18n="pack.tapToOpen">▲ タップで開ける ▲</p>
+        </div>
+      </div>
+
+      <!-- カード表示エリア -->
+      <div class="pack-cards-container" id="pack-cards-container" style="display:none;">
+        <div class="pack-cards" id="pack-cards">
+          <!-- カードは動的に生成 -->
+        </div>
+        <div class="pack-actions">
+          <div class="pack-auto-open-toggle">
+            <div class="pack-auto-open-info">
+              <span class="pack-auto-open-label" data-i18n="pack.autoOpen">自動開封</span>
+              <span class="pack-auto-open-desc" data-i18n="pack.autoOpenDesc">6曲の試聴後に次のパックを自動開封</span>
+            </div>
+            <label class="toggle-switch toggle-switch-sm">
+              <input type="checkbox" id="setting-auto-open">
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+          <button class="btn-primary" id="btn-open-another" data-i18n="pack.openAnother">もう1パック開ける</button>
+          <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.viewCollection">コレクションを見る</button>
+          <button class="btn-tertiary" id="btn-back-home" data-i18n="pack.backHome">🏠 ホームに戻る</button>
+        </div>
+      </div>
+
+      <!-- パーティクルエフェクト用 -->
+      <canvas class="particle-canvas" id="particle-canvas"></canvas>
+    </div>
+  </section>
+
+  <!-- ===== Screen: コレクション ===== -->
+  <section class="screen" id="screen-collection">
+    <div class="screen-content">
+      <div class="collection-stats" id="collection-stats">
+        <span class="stat-badge" id="stat-total">0曲</span>
+        <span class="stat-badge stat-unique" id="stat-unique">0種類</span>
+      </div>
+
+      <!-- パック選択タブ -->
+      <div class="pack-filter-tabs" id="pack-filter-tabs">
+        <button class="pack-filter-tab active" data-pack-filter="all">全て</button>
+        <button class="pack-filter-tab" data-pack-filter="jpop">🌸 J-POP</button>
+        <button class="pack-filter-tab" data-pack-filter="kpop">💎 K-POP</button>
+        <button class="pack-filter-tab" data-pack-filter="vocaloid">🎤 ボカロ</button>
+        <button class="pack-filter-tab" data-pack-filter="anime">🌟 Anime</button>
+        <button class="pack-filter-tab" data-pack-filter="hiphop">🎧 Hip-Hop</button>
+        <button class="pack-filter-tab" data-pack-filter="idol">⭐ アイドル</button>
+        <button class="pack-filter-tab" data-pack-filter="western">🌍 洋楽</button>
+        <button class="pack-filter-tab pack-filter-tab-top200" data-pack-filter="top200">🏆 Top 200</button>
+      </div>
+
+      <!-- 広告バナー（コレクション） -->
+      <div class="ad-container" id="ad-collection-banner">
+        <!-- AdSense設定後に自動差し替え -->
+      </div>
+
+      <!-- 通常コレクションビュー -->
+      <div id="collection-normal-view">
+        <!-- フィルタ -->
+        <div class="filter-bar" id="filter-bar">
+          <div class="filter-group">
+            <label class="filter-label" data-i18n="collection.rarity">レアリティ</label>
+            <div class="filter-pills" id="filter-rarity">
+              <button class="pill active" data-filter="all" data-i18n="collection.all">全て</button>
+              <button class="pill pill-c" data-filter="C">C</button>
+              <button class="pill pill-uc" data-filter="UC">UC</button>
+              <button class="pill pill-r" data-filter="R">R</button>
+              <button class="pill pill-sr" data-filter="SR">SR</button>
+              <button class="pill pill-ur" data-filter="UR">UR</button>
+              <button class="pill pill-lr" data-filter="LR">LR</button>
+            </div>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label" data-i18n="collection.sort">ソート</label>
+            <select class="sort-select" id="sort-select">
+              <option value="acquiredAt" data-i18n="collection.sortDate">取得日順</option>
+              <option value="favorite" data-i18n="collection.sortFavorite">お気に入り順</option>
+              <option value="rarity" data-i18n="collection.sortRarity">レアリティ順</option>
+              <option value="atk" data-i18n="collection.sortAtk">ATK順</option>
+              <option value="def" data-i18n="collection.sortDef">DEF順</option>
+              <option value="artist" data-i18n="collection.sortArtist">アーティスト名順</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <input type="text" class="search-input" id="search-input" placeholder="アーティスト検索..."
+              data-i18n-placeholder="collection.searchPlaceholder">
+          </div>
+        </div>
+
+        <!-- カードグリッド -->
+        <div class="card-grid" id="card-grid">
+          <!-- カードは動的に生成 -->
+          <div class="empty-collection" id="empty-collection">
+            <span class="empty-icon">🎵</span>
+            <p data-i18n="collection.empty">まだカードがありません。パックを開封して集めましょう！</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top 200 ランキングビュー -->
+      <div id="collection-top200-view" style="display:none;">
+        <div class="top200-date-selector">
+          <button class="top200-date-btn" id="top200-date-prev">◀</button>
+          <span class="top200-date-label" id="top200-date-label">2026-03-07</span>
+          <button class="top200-date-btn" id="top200-date-next">▶</button>
+        </div>
+        <div class="top200-collection-stats" id="top200-collection-stats">
+          <span class="stat-badge">0/200 取得済み</span>
+        </div>
+        <div class="top200-ranking-grid" id="top200-ranking-grid">
+          <!-- 200スロットが動的に生成 -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Screen: 設定 ===== -->
+  <section class="screen" id="screen-settings">
+    <div class="screen-content">
+
+
+      <div class="settings-list">
+        <!-- 言語 -->
+        <div class="settings-item">
+          <span class="settings-item-label" data-i18n="settings.language">言語</span>
+          <select class="settings-select" id="setting-language">
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+
+        <!-- データリセット -->
+        <div class="settings-item settings-item-danger">
+          <span class="settings-item-label" data-i18n="settings.resetData">データリセット</span>
+          <button class="btn-danger" id="btn-reset-data" data-i18n="settings.reset">リセット</button>
+        </div>
+
+        <!-- クレジット -->
+        <div class="settings-section">
+          <h3 class="settings-section-title" data-i18n="settings.credits">クレジット</h3>
+          <div class="credits-list">
+            <a href="https://affiliate.itunes.apple.com/" target="_blank" rel="noopener" class="credit-link">
+              <span class="credit-name">Apple / iTunes</span>
+              <span class="credit-desc">Music data & album artwork</span>
+            </a>
+            <a href="https://spotify.com/" target="_blank" rel="noopener" class="credit-link">
+              <span class="credit-name">Spotify</span>
+              <span class="credit-desc">Music streaming</span>
+            </a>
+            <a href="https://youtube.com/" target="_blank" rel="noopener" class="credit-link">
+              <span class="credit-name">YouTube</span>
+              <span class="credit-desc">Video streaming</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- リンク -->
+        <div class="settings-section">
+          <h3 class="settings-section-title" data-i18n="settings.legal">法的情報</h3>
+          <a href="privacy.html" class="settings-link" data-i18n="settings.privacy">プライバシーポリシー</a>
+          <a href="terms.html" class="settings-link" data-i18n="settings.terms">利用規約</a>
+        </div>
+
+        <div class="settings-version">
+          MusicGacha v1.0.0
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== カード詳細モーダル ===== -->
+  <div class="modal-overlay" id="card-detail-modal" style="display:none;">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <div class="modal-card-container" id="modal-card-container">
+        <!-- カード拡大表示 -->
+      </div>
+      <div class="modal-info" id="modal-info">
+        <!-- 曲情報 -->
+      </div>
+      <div class="modal-player" id="modal-player">
+        <!-- Spotify / YouTube -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== カード受取確認モーダル ===== -->
+  <div class="modal-overlay share-receive-modal" id="share-receive-modal" style="display:none;">
+    <div class="share-receive-content">
+      <div class="share-receive-header">
+        <span class="share-receive-icon">🎁</span>
+        <h2 class="share-receive-title">カードが届いています！</h2>
+        <p class="share-receive-subtitle"></p>
+      </div>
+      <div class="share-receive-card">
+        <!-- カードは動的に生成 -->
+      </div>
+      <div class="share-receive-actions">
+        <button class="btn-primary share-receive-accept" id="btn-share-accept">受け取る</button>
+        <button class="btn-secondary share-receive-decline" id="btn-share-decline">キャンセル</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 確認ダイアログ ===== -->
+  <div class="dialog-overlay" id="confirm-dialog" style="display:none;">
+    <div class="dialog-content">
+      <p class="dialog-message" id="dialog-message"></p>
+      <div class="dialog-actions">
+        <button class="btn-secondary" id="dialog-cancel" data-i18n="dialog.cancel">キャンセル</button>
+        <button class="btn-danger" id="dialog-confirm" data-i18n="dialog.confirm">確認</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ローディング ===== -->
+  <div class="loading-overlay" id="loading-overlay" style="display:none;">
+    <div class="loading-spinner">
+      <div class="spinner"></div>
+      <p class="loading-text" data-i18n="loading">読み込み中...</p>
+    </div>
+  </div>
+
+  <!-- ===== トースト通知 ===== -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- JS Modules -->
+  <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

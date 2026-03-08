@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Backup files
+*.backup
+data/songs.json.backup
+
+# Temp files
+check-lr-temp.js
+/tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
