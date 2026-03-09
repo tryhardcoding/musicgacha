@@ -9,7 +9,7 @@ import { getTop200Tracks } from './api.js';
 import './gacha.js'; // ガチャモジュール（グローバル参照にopenPackを登録）
 import { initCollection, renderCollection } from './collection.js';
 import { initShareHandler } from './transfer.js';
-import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, showInterstitialAd, refreshModalBannerAd } from './ads.js';
+import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, refreshModalBannerAd } from './ads.js';
 import { icon, refreshIcons } from './icons.js';
 
 // ---- Screen Routing ----
@@ -323,8 +323,6 @@ function setupEventListeners() {
     const btnOpenAnother = document.getElementById('btn-open-another');
     if (btnOpenAnother) {
         btnOpenAnother.addEventListener('click', async () => {
-            // インタースティシャル広告を表示（3回に1回）
-            await showInterstitialAd();
             navigateTo('pack');
             if (window.MusicGacha && window.MusicGacha.openPack) {
                 await window.MusicGacha.openPack(selectedPackType);
@@ -332,12 +330,10 @@ function setupEventListeners() {
         });
     }
 
-    // ホームに戻るボタン（旧コレクションを見る）
+    // ホームに戻るボタン
     const btnViewCollection = document.getElementById('btn-view-collection');
     if (btnViewCollection) {
-        btnViewCollection.addEventListener('click', async () => {
-            // インタースティシャル広告を表示（3回に1回）
-            await showInterstitialAd();
+        btnViewCollection.addEventListener('click', () => {
             navigateTo('home');
         });
     }
