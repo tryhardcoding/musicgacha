@@ -5,6 +5,9 @@ on:
     # 毎日 20:00 UTC = JST 05:00
     - cron: '0 20 * * *'
   workflow_dispatch: # 手動実行も可能
+  push:
+    paths:
+      - '.github/workflows/daily-update.yml'
 
 jobs:
   update:
