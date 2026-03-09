@@ -506,4 +506,24 @@ export function initAds() {
     });
 
     console.log('[Ads] i-mobile ad system initialized');
+
+    // ★★★ 一時デバッグUI（iPhone確認後に削除） ★★★
+    setTimeout(() => {
+        const debugDiv = document.createElement('div');
+        debugDiv.id = 'ad-debug-panel';
+        debugDiv.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:#111;color:#0f0;font-size:10px;padding:6px;z-index:9999;max-height:150px;overflow:auto;font-family:monospace;';
+        const info = {
+            w: window.innerWidth,
+            mobile: isMobile(),
+            mid: isMobile() ? IMOBILE_CONFIG.sp.mid : IMOBILE_CONFIG.pc.mid,
+            pushCount: (window.adsbyimobile || []).length,
+            asids: (window.adsbyimobile || []).map(a => a.asid),
+            spotScripts: document.querySelectorAll('script[src*="imp-adedge"]').length,
+            homeBanner: document.getElementById('ad-home-banner')?.children?.length || 0,
+            homeBannerHTML: document.getElementById('ad-home-banner')?.innerHTML?.substring(0, 100) || 'N/A',
+            ua: navigator.userAgent.substring(0, 60),
+        };
+        debugDiv.textContent = JSON.stringify(info, null, 1);
+        document.body.appendChild(debugDiv);
+    }, 3000);
 }
