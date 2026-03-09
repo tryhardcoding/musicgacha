@@ -9,6 +9,9 @@ data/songs.json.backup
 check-lr-temp.js
 /tmp/
 
+# Logs
+logs/
+
 # OS files
 .DS_Store
 Thumbs.db

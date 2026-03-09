@@ -25,12 +25,14 @@ const AFFILIATE_CONFIG = {
     },
 };
 
-// ---- Amazon Music Domain Map ----
-const AMAZON_MUSIC_DOMAINS = {
-    jp: 'https://music.amazon.co.jp',
-    us: 'https://music.amazon.com',
-    uk: 'https://music.amazon.co.uk',
-    de: 'https://music.amazon.de',
+// ---- Amazon Retail Domain Map ----
+// Note: music.amazon.co.jp/search/ は外部リンクをサポートしないため、
+//       小売サイトのデジタルミュージック検索を使用する
+const AMAZON_DOMAINS = {
+    jp: 'https://www.amazon.co.jp',
+    us: 'https://www.amazon.com',
+    uk: 'https://www.amazon.co.uk',
+    de: 'https://www.amazon.de',
 };
 
 // ---- URL Generators ----
@@ -68,19 +70,20 @@ export function getSpotifyUrl(card) {
 }
 
 /**
- * Amazon Music 検索URL生成
- * アソシエイトタグが設定済みの場合、tag= パラメータを付与
+ * Amazon Music 検索URL生成（デジタルミュージックカテゴリ）
+ * music.amazon.co.jp は外部検索リンクをサポートしないため、
+ * Amazon小売サイトの /s?k=...&i=digital-music 形式を使用
  * @param {Object} card - カードデータ { artist, title }
- * @returns {string} Amazon Music URL
+ * @returns {string} Amazon デジタルミュージック検索 URL
  */
 export function getAmazonMusicUrl(card) {
     const region = AFFILIATE_CONFIG.amazon.region || 'jp';
-    const domain = AMAZON_MUSIC_DOMAINS[region] || AMAZON_MUSIC_DOMAINS.jp;
+    const domain = AMAZON_DOMAINS[region] || AMAZON_DOMAINS.jp;
     const searchTerm = encodeURIComponent(`${card.artist} ${card.title}`);
-    let url = `${domain}/search/${searchTerm}`;
+    let url = `${domain}/s?k=${searchTerm}&i=digital-music`;
 
     if (AFFILIATE_CONFIG.amazon.tag) {
-        url += `?tag=${AFFILIATE_CONFIG.amazon.tag}`;
+        url += `&tag=${AFFILIATE_CONFIG.amazon.tag}`;
     }
 
     return url;

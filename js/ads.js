@@ -85,6 +85,18 @@ function loadIMobileScript() {
 }
 
 /**
+ * spot.jsを再挿入してadsbyimobile配列を再スキャンさせる
+ * i-mobileはロード時に1回だけ配列をスキャンするため、
+ * 動的に追加した広告を表示するには再挿入が必要
+ */
+function reloadIMobileScript() {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://imp-adedge.i-mobile.co.jp/script/v1/spot.js?20220104';
+    document.head.appendChild(script);
+}
+
+/**
  * i-mobile広告タグをコンテナにセットする
  * @param {HTMLElement} container - 広告を入れるDOM要素
  * @param {Object} adConfig - { asid, elementId, type, display }
@@ -333,8 +345,8 @@ function showIMobileRewardedAd() {
             display: adConfig.display,
             elementid: adConfig.elementId,
         });
-
-        // カウントダウン開始
+        // 動的追加なのでspot.jsを再挿入して再スキャン
+        reloadIMobileScript();
         let countdown = REWARDED_AD_COUNTDOWN;
         const countdownEl = overlay.querySelector('#rewarded-ad-countdown');
         const progressEl = overlay.querySelector('#rewarded-ad-progress-fill');
@@ -512,6 +524,8 @@ export function showInterstitialAd() {
             display: adConfig.display,
             elementid: adConfig.elementId,
         });
+        // 動的追加なのでspot.jsを再挿入して再スキャン
+        reloadIMobileScript();
 
         // カウントダウン
         let countdown = INTERSTITIAL_COUNTDOWN;
@@ -546,6 +560,8 @@ export function refreshModalBannerAd() {
     container.innerHTML = '';
     const config = getDeviceConfig();
     insertIMobileAd(container, config.modalBanner);
+    // 動的追加なのでspot.jsを再挿入して再スキャン
+    reloadIMobileScript();
 }
 
 // ---- Initialization ----
@@ -554,10 +570,10 @@ export function refreshModalBannerAd() {
  * 広告システムを初期化
  */
 export function initAds() {
-    // i-mobileスクリプト読み込み & バナー広告初期化
-    loadIMobileScript().then(() => {
-        initBannerAds();
-    });
+    // 重要: 先にバナー広告の定義をpushしてからスクリプトを読み込む
+    // i-mobileのspot.jsはロード時に1回だけadsbyimobile配列をスキャンするため
+    initBannerAds();
+    loadIMobileScript();
 
     // 広告ボタンの初期状態設定
     updateAdButton();
