@@ -497,7 +497,10 @@ export function initAds() {
                 if (collectionContainer) collectionContainer.innerHTML = '';
                 if (packResultContainer) packResultContainer.innerHTML = '';
                 if (modalContainer) modalContainer.innerHTML = '';
+                // 配列をリセットして新しいデバイス用の設定のみにする
+                window.adsbyimobile = [];
                 initBannerAds();
+                reloadIMobileScript();
             }
         }, 300);
     });
