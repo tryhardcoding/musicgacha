@@ -13,16 +13,16 @@ const IMOBILE_CONFIG = {
         homeBanner: { asid: 1925457, elementId: 'im-0575e7d34ae149e49683feba2b4c3848', type: 'banner', display: 'inline' },
         collectionBanner: { asid: 1925458, elementId: 'im-c96599839f57449a90a5f7eaf1120592', type: 'banner', display: 'inline' },
         rewardedAd: { asid: 1925459, elementId: 'im-844f2c69ae494feb8ba2d09239047dac', type: 'banner', display: 'inline' },
-        packResultBanner: { asid: 1925457, elementId: 'im-packresult-pc', type: 'banner', display: 'inline' },
-        modalBanner: { asid: 1925458, elementId: 'im-modal-pc', type: 'banner', display: 'inline' },
+        packResultBanner: { asid: 1925545, elementId: 'im-ddf2974ecf5d447592acb8a36c6e2d7b', type: 'banner', display: 'inline' },
+        modalBanner: { asid: 1925546, elementId: 'im-710639c064e345cbb23f6f91b68f3b24', type: 'banner', display: 'inline' },
     },
     sp: {
         mid: 591288,
         homeBanner: { asid: 1925460, elementId: 'im-ca22b6ac099f483d83e9ace9474cad54', type: 'banner', display: 'inline' },
         collectionBanner: { asid: 1925461, elementId: 'im-b00425ea41db4901b4cc3f78193b4cd5', type: 'banner', display: 'inline' },
         rewardedAd: { asid: 1925462, elementId: 'im-3d1fe6202c794611b5a677b49de61c0f', type: 'banner', display: 'inline' },
-        packResultBanner: { asid: 1925460, elementId: 'im-packresult-sp', type: 'banner', display: 'inline' },
-        modalBanner: { asid: 1925461, elementId: 'im-modal-sp', type: 'banner', display: 'inline' },
+        packResultBanner: { asid: 1925547, elementId: 'im-9b7a78541056472c8cf575cf13ee9602', type: 'banner', display: 'inline' },
+        modalBanner: { asid: 1925548, elementId: 'im-69b5867f7c264c95af436a84c8a74504', type: 'banner', display: 'inline' },
     },
 };
 
