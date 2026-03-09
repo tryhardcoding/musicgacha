@@ -13,12 +13,18 @@ const IMOBILE_CONFIG = {
         homeBanner: { asid: 1925457, elementId: 'im-0575e7d34ae149e49683feba2b4c3848', type: 'banner', display: 'inline' },
         collectionBanner: { asid: 1925458, elementId: 'im-c96599839f57449a90a5f7eaf1120592', type: 'banner', display: 'inline' },
         rewardedAd: { asid: 1925459, elementId: 'im-844f2c69ae494feb8ba2d09239047dac', type: 'banner', display: 'inline' },
+        interstitial: { asid: 1925459, elementId: 'im-interstitial-pc', type: 'banner', display: 'inline' },
+        packResultBanner: { asid: 1925457, elementId: 'im-packresult-pc', type: 'banner', display: 'inline' },
+        modalBanner: { asid: 1925458, elementId: 'im-modal-pc', type: 'banner', display: 'inline' },
     },
     sp: {
         mid: 591288,
         homeBanner: { asid: 1925460, elementId: 'im-ca22b6ac099f483d83e9ace9474cad54', type: 'banner', display: 'inline' },
         collectionBanner: { asid: 1925461, elementId: 'im-b00425ea41db4901b4cc3f78193b4cd5', type: 'banner', display: 'inline' },
         rewardedAd: { asid: 1925462, elementId: 'im-3d1fe6202c794611b5a677b49de61c0f', type: 'banner', display: 'inline' },
+        interstitial: { asid: 1925462, elementId: 'im-interstitial-sp', type: 'banner', display: 'inline' },
+        packResultBanner: { asid: 1925460, elementId: 'im-packresult-sp', type: 'banner', display: 'inline' },
+        modalBanner: { asid: 1925461, elementId: 'im-modal-sp', type: 'banner', display: 'inline' },
     },
 };
 
@@ -28,6 +34,11 @@ const COOLDOWN_MS = 5 * 60 * 1000; // 5分
 const MAX_DAILY_WATCHES = 5;
 const REWARD_PACKS = 1;
 const REWARDED_AD_COUNTDOWN = 5; // 秒
+
+// ---- Interstitial Ad Constants ----
+const INTERSTITIAL_KEY = 'musicgacha_interstitial';
+const INTERSTITIAL_EVERY_N = 3; // N回に1回表示
+const INTERSTITIAL_COUNTDOWN = 3; // 秒
 
 // ---- Device Detection ----
 
@@ -110,7 +121,7 @@ function insertIMobileAd(container, adConfig) {
 // ---- Banner Ad Initialization ----
 
 /**
- * バナー広告を初期化（ホーム・コレクション）
+ * バナー広告を初期化（ホーム・コレクション・パック結果・モーダル）
  */
 function initBannerAds() {
     const config = getDeviceConfig();
@@ -125,6 +136,18 @@ function initBannerAds() {
     const collectionContainer = document.getElementById('ad-collection-banner');
     if (collectionContainer) {
         insertIMobileAd(collectionContainer, config.collectionBanner);
+    }
+
+    // パック開封結果バナー
+    const packResultContainer = document.getElementById('ad-pack-result-banner');
+    if (packResultContainer) {
+        insertIMobileAd(packResultContainer, config.packResultBanner);
+    }
+
+    // モーダルバナー
+    const modalContainer = document.getElementById('ad-modal-banner');
+    if (modalContainer) {
+        insertIMobileAd(modalContainer, config.modalBanner);
     }
 }
 
@@ -403,6 +426,128 @@ export function startCooldownTimer() {
     }, 1000);
 }
 
+// ---- Interstitial Ad ----
+
+/**
+ * インタースティシャル広告の表示カウントを取得
+ * @returns {number}
+ */
+function getInterstitialCount() {
+    try {
+        return parseInt(localStorage.getItem(INTERSTITIAL_KEY) || '0', 10);
+    } catch {
+        return 0;
+    }
+}
+
+/**
+ * インタースティシャル広告の表示カウントをインクリメント
+ */
+function incrementInterstitialCount() {
+    try {
+        const count = getInterstitialCount() + 1;
+        localStorage.setItem(INTERSTITIAL_KEY, String(count));
+    } catch (e) {
+        console.warn('[Ads] Failed to save interstitial count:', e.message);
+    }
+}
+
+/**
+ * インタースティシャル広告を表示すべきかチェック
+ * @returns {boolean}
+ */
+function shouldShowInterstitial() {
+    const count = getInterstitialCount();
+    return (count + 1) % INTERSTITIAL_EVERY_N === 0; // 3回目, 6回目, 9回目...
+}
+
+/**
+ * インタースティシャル広告を表示
+ * パック開封後に呼ばれる。N回に1回の頻度で表示。
+ * @returns {Promise<boolean>} 表示されたかどうか
+ */
+export function showInterstitialAd() {
+    incrementInterstitialCount();
+
+    if (!shouldShowInterstitial()) {
+        return Promise.resolve(false);
+    }
+
+    return new Promise((resolve) => {
+        const config = getDeviceConfig();
+        const adConfig = config.interstitial;
+
+        // オーバーレイ作成
+        const overlay = document.createElement('div');
+        overlay.className = 'interstitial-ad-overlay';
+        overlay.id = 'interstitial-ad-overlay';
+        overlay.innerHTML = `
+            <div class="interstitial-ad-content">
+                <div class="interstitial-ad-header">
+                    <span class="interstitial-ad-label">広告</span>
+                    <span class="interstitial-ad-countdown" id="interstitial-countdown">${INTERSTITIAL_COUNTDOWN}</span>
+                </div>
+                <div class="interstitial-ad-slot" id="interstitial-ad-slot">
+                    <div id="${adConfig.elementId}"></div>
+                </div>
+                <button class="interstitial-ad-close" id="interstitial-ad-close" style="display:none;">
+                    ✕ 閉じる
+                </button>
+            </div>
+        `;
+        document.body.appendChild(overlay);
+
+        // フェードイン
+        requestAnimationFrame(() => {
+            overlay.classList.add('active');
+        });
+
+        // i-mobile広告を挿入
+        window.adsbyimobile = window.adsbyimobile || [];
+        window.adsbyimobile.push({
+            pid: IMOBILE_CONFIG.pid,
+            mid: isMobile() ? IMOBILE_CONFIG.sp.mid : IMOBILE_CONFIG.pc.mid,
+            asid: adConfig.asid,
+            type: adConfig.type,
+            display: adConfig.display,
+            elementid: adConfig.elementId,
+        });
+
+        // カウントダウン
+        let countdown = INTERSTITIAL_COUNTDOWN;
+        const countdownEl = overlay.querySelector('#interstitial-countdown');
+        const closeBtn = overlay.querySelector('#interstitial-ad-close');
+
+        const timer = setInterval(() => {
+            countdown--;
+            if (countdownEl) countdownEl.textContent = countdown;
+
+            if (countdown <= 0) {
+                clearInterval(timer);
+                if (countdownEl) countdownEl.style.display = 'none';
+                if (closeBtn) closeBtn.style.display = '';
+
+                closeBtn.addEventListener('click', () => {
+                    overlay.classList.remove('active');
+                    setTimeout(() => overlay.remove(), 300);
+                    resolve(true);
+                }, { once: true });
+            }
+        }, 1000);
+    });
+}
+
+/**
+ * モーダル表示時にバナー広告を再挿入
+ */
+export function refreshModalBannerAd() {
+    const container = document.getElementById('ad-modal-banner');
+    if (!container) return;
+    container.innerHTML = '';
+    const config = getDeviceConfig();
+    insertIMobileAd(container, config.modalBanner);
+}
+
 // ---- Initialization ----
 
 /**
@@ -429,8 +574,12 @@ export function initAds() {
                 // PC/スマホが切り替わったらバナーを再挿入
                 const homeContainer = document.getElementById('ad-home-banner');
                 const collectionContainer = document.getElementById('ad-collection-banner');
+                const packResultContainer = document.getElementById('ad-pack-result-banner');
+                const modalContainer = document.getElementById('ad-modal-banner');
                 if (homeContainer) homeContainer.innerHTML = '';
                 if (collectionContainer) collectionContainer.innerHTML = '';
+                if (packResultContainer) packResultContainer.innerHTML = '';
+                if (modalContainer) modalContainer.innerHTML = '';
                 initBannerAds();
             }
         }, 300);

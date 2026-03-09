@@ -73,7 +73,7 @@ async function loadSongPool() {
 // ---- iTunes Lookup Cache ----
 // key: "artist::title", value: { iTunesData, fetchedAt }
 const itunesCache = new Map();
-const CACHE_TTL = 30 * 60 * 1000; // 30分
+const CACHE_TTL = Infinity; // セッション中は無期限（曲メタデータは変わらない）
 
 // ---- iTunes API 利用可否フラグ ----
 // iOS Safari等でiTunes APIが完全にブロックされる環境では、
@@ -361,16 +361,35 @@ export async function fetchCardFromGenre(packConfig, rarity) {
 
         const selectedTrack = tierTracks[Math.floor(Math.random() * tierTracks.length)];
 
-        // 3. iTunesで詳細データを取得（ジャケット、試聴URL等）
-        const itunesData = await lookupITunes(selectedTrack.name, selectedTrack.artist);
-
-        // 4. カードデータ生成
-        // songs.jsonの事前取得artworkUrlをフォールバックとして利用
+        // 3. 事前取得データの確認
         const fallbackCoverUrl = selectedTrack.artworkUrl || null;
         const fallbackYear = selectedTrack.releaseDate
             ? parseInt(selectedTrack.releaseDate.substring(0, 4), 10)
             : null;
         const fallbackUrl = selectedTrack.url || null;
+
+        // songs.jsonに事前取得データ（previewUrl等）がある場合、iTunes APIをスキップ
+        if (selectedTrack.previewUrl || selectedTrack.itunesTrackId) {
+            return {
+                id: selectedTrack.itunesTrackId ? String(selectedTrack.itunesTrackId) : `pool-${hashCode(`${selectedTrack.artist}::${selectedTrack.name}`)}`,
+                title: selectedTrack.name,
+                artist: selectedTrack.artist,
+                originalName: selectedTrack.name,
+                originalArtist: selectedTrack.artist,
+                album: selectedTrack.collectionName || 'Unknown Album',
+                year: fallbackYear,
+                genre: selectedTrack.primaryGenreName || 'Unknown',
+                duration: selectedTrack.trackTimeMillis ? Math.round(selectedTrack.trackTimeMillis / 1000) : 200,
+                listeners: selectedTrack.playcount || 0,
+                coverUrl: fallbackCoverUrl,
+                previewUrl: selectedTrack.previewUrl || null,
+                trackViewUrl: selectedTrack.trackViewUrl || fallbackUrl,
+                rarity,
+            };
+        }
+
+        // 4. 事前データがない場合のみiTunesにフォールバック
+        const itunesData = await lookupITunes(selectedTrack.name, selectedTrack.artist);
 
         if (itunesData) {
             const coverUrl = itunesData.artworkUrl100
@@ -516,7 +535,37 @@ export async function fetchCardFromTop200(obtainedKeys, rarity) {
 
         const selectedTrack = candidates[Math.floor(Math.random() * candidates.length)];
 
-        // iTunesで詳細データを取得（リトライあり）
+        const trackKey = `${selectedTrack.artist.toLowerCase()}::${selectedTrack.name.toLowerCase()}`;
+
+        // top200-daily.jsonに事前取得データがある場合、iTunes APIをスキップ
+        if (selectedTrack.previewUrl || selectedTrack.itunesTrackId) {
+            const coverUrl = selectedTrack.artworkUrl || null;
+            const year = selectedTrack.releaseDate
+                ? parseInt(selectedTrack.releaseDate.substring(0, 4), 10)
+                : null;
+
+            return {
+                id: selectedTrack.itunesTrackId ? String(selectedTrack.itunesTrackId) : `top200-${hashCode(`${selectedTrack.artist}::${selectedTrack.name}`)}`,
+                title: selectedTrack.name,
+                artist: selectedTrack.artist,
+                originalName: selectedTrack.name,
+                originalArtist: selectedTrack.artist,
+                album: selectedTrack.collectionName || 'Unknown Album',
+                year,
+                genre: selectedTrack.primaryGenreName || 'Unknown',
+                duration: selectedTrack.trackTimeMillis ? Math.round(selectedTrack.trackTimeMillis / 1000) : 200,
+                listeners: 10000000 - (selectedTrack.rank * 49000),
+                coverUrl,
+                previewUrl: selectedTrack.previewUrl || null,
+                trackViewUrl: selectedTrack.trackViewUrl || null,
+                rarity,
+                chartRank: selectedTrack.rank,
+                top200Key: trackKey,
+                isComplete: false,
+            };
+        }
+
+        // 事前データがない場合：iTunesで詳細データを取得（リトライあり）
         let itunesData = await lookupITunes(selectedTrack.name, selectedTrack.artist);
 
         // リトライ1: アーティスト名の最初の部分だけで検索（"Kenshi Yonezu & Hikaru Utada" → "Kenshi Yonezu"）
@@ -528,8 +577,6 @@ export async function fetchCardFromTop200(obtainedKeys, rarity) {
             const firstArtist = selectedTrack.artist.split(', ')[0].trim();
             itunesData = await lookupITunes(selectedTrack.name, firstArtist);
         }
-
-        const trackKey = `${selectedTrack.artist.toLowerCase()}::${selectedTrack.name.toLowerCase()}`;
 
         if (itunesData) {
             const coverUrl = itunesData.artworkUrl100

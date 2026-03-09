@@ -317,6 +317,11 @@ export async function openCardDetail(card) {
   modal.style.display = '';
   refreshIcons();
 
+  // モーダル内バナー広告をリフレッシュ
+  if (window.MusicGacha?.refreshModalBannerAd) {
+    window.MusicGacha.refreshModalBannerAd();
+  }
+
   // アニメーション: ステータスバーを遅延で表示
   setTimeout(() => {
     modal.querySelectorAll('.modal-stat-fill').forEach(fill => {
