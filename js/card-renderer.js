@@ -249,29 +249,6 @@ export async function openCardDetail(card) {
         <span class="modal-info-label">所持数</span>
         <span class="modal-info-value">×${card.count}</span>
       </div>` : ''}
-      <div class="modal-debug-section" style="margin-top: 12px; padding: 8px; background: rgba(255,255,255,0.05); border-radius: 6px; border: 1px solid rgba(255,255,255,0.1); font-size: 11px;">
-        <div style="color: #888; margin-bottom: 4px; font-weight: bold;">${icon('search', { size: 14 })} Debug: データソース比較</div>
-        <div class="modal-info-row">
-          <span class="modal-info-label" style="color: #f80;">iTunes曲名</span>
-          <span class="modal-info-value" style="color: #f80;">${escapeHtml(card.title)}</span>
-        </div>
-        <div class="modal-info-row">
-          <span class="modal-info-label" style="color: #0af;">Last.fm曲名</span>
-          <span class="modal-info-value" style="color: #0af;">${escapeHtml(card.originalName || '(なし)')}</span>
-        </div>
-        <div class="modal-info-row">
-          <span class="modal-info-label" style="color: #f80;">iTunesアーティスト</span>
-          <span class="modal-info-value" style="color: #f80;">${escapeHtml(card.artist)}</span>
-        </div>
-        <div class="modal-info-row">
-          <span class="modal-info-label" style="color: #0af;">Last.fmアーティスト</span>
-          <span class="modal-info-value" style="color: #0af;">${escapeHtml(card.originalArtist || '(なし)')}</span>
-        </div>
-        <div class="modal-info-row">
-          <span class="modal-info-label" style="color: #888;">カードID</span>
-          <span class="modal-info-value" style="color: #888;">${escapeHtml(card.id || '(なし)')}</span>
-        </div>
-      </div>
     `;
   }
 
