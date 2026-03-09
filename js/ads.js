@@ -308,6 +308,9 @@ function showIMobileRewardedAd() {
         const config = getDeviceConfig();
         const adConfig = config.rewardedAd;
 
+        // 毎回ユニークなIDを生成（spot.jsは同じIDを再処理しないため）
+        const uniqueId = `im-rewarded-${Date.now()}`;
+
         // オーバーレイ作成
         const overlay = document.createElement('div');
         overlay.className = 'rewarded-ad-overlay';
@@ -320,7 +323,7 @@ function showIMobileRewardedAd() {
                     <p class="rewarded-ad-desc">視聴完了でパック1個を獲得できます</p>
                 </div>
                 <div class="rewarded-ad-slot" id="rewarded-ad-slot">
-                    <div id="${adConfig.elementId}"></div>
+                    <div id="${uniqueId}"></div>
                 </div>
                 <div class="rewarded-ad-countdown-area">
                     <div class="rewarded-ad-countdown" id="rewarded-ad-countdown">${REWARDED_AD_COUNTDOWN}</div>
@@ -335,7 +338,7 @@ function showIMobileRewardedAd() {
         `;
         document.body.appendChild(overlay);
 
-        // i-mobile広告を挿入
+        // i-mobile広告を挿入（ユニークIDを使用）
         window.adsbyimobile = window.adsbyimobile || [];
         window.adsbyimobile.push({
             pid: IMOBILE_CONFIG.pid,
@@ -343,10 +346,10 @@ function showIMobileRewardedAd() {
             asid: adConfig.asid,
             type: adConfig.type,
             display: adConfig.display,
-            elementid: adConfig.elementId,
+            elementid: uniqueId,
         });
-        // 動的追加なのでspot.jsを再挿入して再スキャン
-        reloadIMobileScript();
+        // DOMが確実に準備された後にspot.jsを再スキャン
+        setTimeout(() => reloadIMobileScript(), 50);
         let countdown = REWARDED_AD_COUNTDOWN;
         const countdownEl = overlay.querySelector('#rewarded-ad-countdown');
         const progressEl = overlay.querySelector('#rewarded-ad-progress-fill');
@@ -489,6 +492,9 @@ export function showInterstitialAd() {
         const config = getDeviceConfig();
         const adConfig = config.interstitial;
 
+        // 毎回ユニークなIDを生成（spot.jsは同じIDを再処理しないため）
+        const uniqueId = `im-interstitial-${Date.now()}`;
+
         // オーバーレイ作成
         const overlay = document.createElement('div');
         overlay.className = 'interstitial-ad-overlay';
@@ -500,7 +506,7 @@ export function showInterstitialAd() {
                     <span class="interstitial-ad-countdown" id="interstitial-countdown">${INTERSTITIAL_COUNTDOWN}</span>
                 </div>
                 <div class="interstitial-ad-slot" id="interstitial-ad-slot">
-                    <div id="${adConfig.elementId}"></div>
+                    <div id="${uniqueId}"></div>
                 </div>
                 <button class="interstitial-ad-close" id="interstitial-ad-close" style="display:none;">
                     ✕ 閉じる
@@ -514,7 +520,7 @@ export function showInterstitialAd() {
             overlay.classList.add('active');
         });
 
-        // i-mobile広告を挿入
+        // i-mobile広告を挿入（ユニークIDを使用）
         window.adsbyimobile = window.adsbyimobile || [];
         window.adsbyimobile.push({
             pid: IMOBILE_CONFIG.pid,
@@ -522,10 +528,10 @@ export function showInterstitialAd() {
             asid: adConfig.asid,
             type: adConfig.type,
             display: adConfig.display,
-            elementid: adConfig.elementId,
+            elementid: uniqueId,
         });
-        // 動的追加なのでspot.jsを再挿入して再スキャン
-        reloadIMobileScript();
+        // DOMが確実に準備された後にspot.jsを再スキャン
+        setTimeout(() => reloadIMobileScript(), 50);
 
         // カウントダウン
         let countdown = INTERSTITIAL_COUNTDOWN;
@@ -558,10 +564,25 @@ export function refreshModalBannerAd() {
     const container = document.getElementById('ad-modal-banner');
     if (!container) return;
     container.innerHTML = '';
+
     const config = getDeviceConfig();
-    insertIMobileAd(container, config.modalBanner);
-    // 動的追加なのでspot.jsを再挿入して再スキャン
-    reloadIMobileScript();
+    const adConfig = config.modalBanner;
+    const uniqueId = `im-modal-${Date.now()}`;
+
+    const adDiv = document.createElement('div');
+    adDiv.id = uniqueId;
+    container.appendChild(adDiv);
+
+    window.adsbyimobile = window.adsbyimobile || [];
+    window.adsbyimobile.push({
+        pid: IMOBILE_CONFIG.pid,
+        mid: isMobile() ? IMOBILE_CONFIG.sp.mid : IMOBILE_CONFIG.pc.mid,
+        asid: adConfig.asid,
+        type: adConfig.type,
+        display: adConfig.display,
+        elementid: uniqueId,
+    });
+    setTimeout(() => reloadIMobileScript(), 50);
 }
 
 // ---- Initialization ----
