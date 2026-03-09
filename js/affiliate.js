@@ -18,12 +18,10 @@ const AFFILIATE_CONFIG = {
         tag: 'musicgacha-22',
         region: 'jp', // jp, us, uk, etc.
     },
-    adsense: {
-        // Google AdSense
-        // 取得先: https://www.google.com/adsense
-        clientId: '',  // 例: 'ca-pub-1234567890123456'
-        bannerSlotHome: '',
-        bannerSlotCollection: '',
+    imobile: {
+        // i-mobile Ad Network
+        // 取得先: https://i-mobile.co.jp/
+        configured: true,
     },
 };
 
@@ -112,19 +110,27 @@ export function isAffiliateConfigured() {
 }
 
 /**
- * AdSense設定が有効か
+ * AdSense設定が有効か（後方互換性）
  * @returns {boolean}
  */
 export function isAdSenseConfigured() {
-    return !!AFFILIATE_CONFIG.adsense.clientId;
+    return false;
 }
 
 /**
- * AdSenseのclientIdを取得
+ * i-mobile設定が有効か
+ * @returns {boolean}
+ */
+export function isIMobileConfigured() {
+    return !!AFFILIATE_CONFIG.imobile.configured;
+}
+
+/**
+ * AdSenseのclientIdを取得（後方互換性）
  * @returns {string}
  */
 export function getAdSenseClientId() {
-    return AFFILIATE_CONFIG.adsense.clientId;
+    return '';
 }
 
 /**

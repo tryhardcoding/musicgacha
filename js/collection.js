@@ -7,6 +7,7 @@ import { getCollection, getTop200Data, getFavorites } from './storage.js';
 import { renderCard, renderCardBack, openCardDetail } from './card-renderer.js';
 import { RARITY_CONFIG } from './card.js';
 import { t } from './i18n.js';
+import { refreshIcons } from './icons.js';
 
 // ---- State ----
 let currentFilter = 'all';
@@ -178,6 +179,9 @@ export function renderCollection() {
 
     // 統計更新
     updateStats(collection);
+
+    // Lucideアイコン描画
+    refreshIcons();
 }
 
 function sortCollection(collection, sortBy) {
@@ -344,6 +348,9 @@ async function renderTop200View() {
     if (statsEl) {
         statsEl.innerHTML = `<span class="stat-badge">${obtainedCount}/200 取得済み</span>`;
     }
+
+    // Lucideアイコン描画
+    refreshIcons();
 }
 
 // ---- Filter Listeners ----

@@ -7,6 +7,7 @@ import { RARITY_CONFIG, formatDuration } from './card.js';
 import { getSetting, toggleFavorite, isFavorite } from './storage.js';
 import { copyShareLink } from './transfer.js';
 import { getAppleMusicUrl, getSpotifyUrl, getAmazonMusicUrl, getYouTubeUrl } from './affiliate.js';
+import { icon, refreshIcons, PACK_ICONS, GENRE_ICONS } from './icons.js';
 
 // ---- Default Cover ----
 const DEFAULT_COVER = 'data:image/svg+xml,' + encodeURIComponent(`
@@ -18,7 +19,11 @@ const DEFAULT_COVER = 'data:image/svg+xml,' + encodeURIComponent(`
     </linearGradient>
   </defs>
   <rect width="250" height="250" fill="url(#g)"/>
-  <text x="125" y="115" text-anchor="middle" font-size="60" fill="#333">🎵</text>
+  <g transform="translate(105, 85)" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 18V5l12-2v13"/>
+    <circle cx="6" cy="18" r="3"/>
+    <circle cx="18" cy="16" r="3"/>
+  </g>
   <text x="125" y="155" text-anchor="middle" font-size="14" fill="#555" font-family="sans-serif">No Cover</text>
 </svg>
 `);
@@ -26,6 +31,9 @@ const DEFAULT_COVER = 'data:image/svg+xml,' + encodeURIComponent(`
 // ---- Card Preview Audio (standalone for non-gacha screens) ----
 let activeCardAudio = null;
 let activeCardBtn = null;
+
+const ICON_PLAY_SM = '<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>';
+const ICON_PAUSE_SM = '<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>';
 
 function toggleCardPreview(btn, previewUrl) {
   // ガチャ結果画面のプレイリストに登録済みならそちらに委任
@@ -43,7 +51,7 @@ function toggleCardPreview(btn, previewUrl) {
   if (activeCardBtn === btn && activeCardAudio && !activeCardAudio.paused) {
     activeCardAudio.pause();
     activeCardAudio.currentTime = 0;
-    btn.textContent = '▶';
+    btn.innerHTML = ICON_PLAY_SM;
     btn.classList.remove('playing');
     activeCardAudio = null;
     activeCardBtn = null;
@@ -55,7 +63,7 @@ function toggleCardPreview(btn, previewUrl) {
     activeCardAudio.pause();
     activeCardAudio.currentTime = 0;
     if (activeCardBtn) {
-      activeCardBtn.textContent = '▶';
+      activeCardBtn.innerHTML = ICON_PLAY_SM;
       activeCardBtn.classList.remove('playing');
     }
   }
@@ -64,16 +72,17 @@ function toggleCardPreview(btn, previewUrl) {
   const isMuted = getSetting('muted') === true;
   const vol = getSetting('volume');
   const audio = new Audio(previewUrl);
-  audio.volume = isMuted ? 0 : (vol !== null ? parseInt(vol, 10) / 100 : 0.5);
+  const parsedVol = vol != null ? parseInt(vol, 10) : NaN;
+  audio.volume = isMuted ? 0 : (isNaN(parsedVol) ? 0.1 : parsedVol / 100);
   audio.addEventListener('ended', () => {
-    btn.textContent = '▶';
+    btn.innerHTML = ICON_PLAY_SM;
     btn.classList.remove('playing');
     activeCardAudio = null;
     activeCardBtn = null;
   });
   audio.play().catch(e => console.warn('[CardPreview] Autoplay blocked:', e.message));
 
-  btn.textContent = '⏸';
+  btn.innerHTML = ICON_PAUSE_SM;
   btn.classList.add('playing');
   activeCardAudio = audio;
   activeCardBtn = btn;
@@ -101,13 +110,13 @@ export function renderCard(card, options = {}) {
     <div class="card-overlay"></div>
     <div class="card-border"></div>
     <span class="card-rarity-badge rarity-badge-${card.rarity.toLowerCase()}">${card.rarity}</span>
-    <span class="card-fav-icon${isFav ? ' active' : ''}" title="お気に入り">${isFav ? '❤' : ''}</span>
+    <span class="card-fav-icon${isFav ? ' active' : ''}" title="お気に入り">${isFav ? icon('heart', { size: 16, class: 'fav-heart' }) : ''}</span>
     <div class="card-content">
       <div class="card-title" title="${escapeHtml(card.title)}">${escapeHtml(card.title)}</div>
       <div class="card-artist" title="${escapeHtml(card.artist)}">${escapeHtml(card.artist)}</div>
 
     </div>
-    ${card.previewUrl ? `<button class="card-listen-btn" data-preview-url="${escapeHtml(card.previewUrl)}" title="試聴">▶</button>` : ''}
+    ${card.previewUrl ? `<button class="card-listen-btn" data-preview-url="${escapeHtml(card.previewUrl)}" title="試聴"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></button>` : ''}
     ${showNew && card.isNew ? '<span class="card-new-badge">NEW</span>' : ''}
   `;
 
@@ -125,7 +134,7 @@ export function renderCard(card, options = {}) {
     const result = toggleFavorite(card.id);
     const favIcon = el.querySelector('.card-fav-icon');
     if (favIcon) {
-      favIcon.textContent = result.isFavorite ? '❤' : '';
+      favIcon.innerHTML = result.isFavorite ? icon('heart', { size: 16, class: 'fav-heart' }) : '';
       favIcon.classList.toggle('active', result.isFavorite);
       // バウンスアニメーション
       favIcon.classList.remove('bounce');
@@ -134,7 +143,7 @@ export function renderCard(card, options = {}) {
     }
     if (window.MusicGacha?.showToast) {
       window.MusicGacha.showToast(
-        result.isFavorite ? '❤ お気に入りに追加しました' : 'お気に入りを解除しました',
+        result.isFavorite ? 'お気に入りに追加しました' : 'お気に入りを解除しました',
         result.isFavorite ? 'success' : 'info'
       );
     }
@@ -206,7 +215,7 @@ export async function openCardDetail(card) {
   // パック情報を取得（standard以外）- songs.jsonとの照合のためoriginalName/originalArtistを使用
   const packs = await findPacksForTrack(card.originalArtist || card.artist, card.originalName || card.title);
   const packDisplayHtml = packs.length > 0
-    ? packs.map(p => `<span class="pack-tag">${escapeHtml(p.icon)} ${escapeHtml(p.name)}</span>`).join(' ')
+    ? packs.map(p => `<span class="pack-tag">${icon(p.icon, { size: 14 })} ${escapeHtml(p.name)}</span>`).join(' ')
     : '';
 
   // 曲情報
@@ -241,7 +250,7 @@ export async function openCardDetail(card) {
         <span class="modal-info-value">×${card.count}</span>
       </div>` : ''}
       <div class="modal-debug-section" style="margin-top: 12px; padding: 8px; background: rgba(255,255,255,0.05); border-radius: 6px; border: 1px solid rgba(255,255,255,0.1); font-size: 11px;">
-        <div style="color: #888; margin-bottom: 4px; font-weight: bold;">🔍 Debug: データソース比較</div>
+        <div style="color: #888; margin-bottom: 4px; font-weight: bold;">${icon('search', { size: 14 })} Debug: データソース比較</div>
         <div class="modal-info-row">
           <span class="modal-info-label" style="color: #f80;">iTunes曲名</span>
           <span class="modal-info-value" style="color: #f80;">${escapeHtml(card.title)}</span>
@@ -276,20 +285,20 @@ export async function openCardDetail(card) {
     playerContainer.innerHTML = `
       <div class="modal-player-actions">
         <a href="${appleMusicUrl}" target="_blank" rel="noopener" class="btn-apple-music">
-          🍎 Apple Musicで聴く
+          ${icon('apple', { size: 16 })} Apple Musicで聴く
         </a>
         <a href="${spotifyUrl}" target="_blank" rel="noopener" class="btn-spotify">
-          🎵 Spotifyで聴く
+          ${icon('music', { size: 16 })} Spotifyで聴く
         </a>
         <a href="${amazonMusicUrl}" target="_blank" rel="noopener" class="btn-amazon-music">
-          🛒 Amazon Musicで聴く
+          ${icon('shopping-cart', { size: 16 })} Amazon Musicで聴く
         </a>
         <a href="${youtubeUrl}" target="_blank" rel="noopener" class="btn-youtube">
-          ▶ YouTubeで観る
+          ${icon('play', { size: 16 })} YouTubeで観る
         </a>
       </div>
       <div class="modal-share-section">
-        <button class="btn-share-card" id="btn-share-card">🔗 カードを共有する</button>
+        <button class="btn-share-card" id="btn-share-card">${icon('link', { size: 16 })} カードを共有する</button>
       </div>
     `;
 
@@ -306,6 +315,7 @@ export async function openCardDetail(card) {
   }
 
   modal.style.display = '';
+  refreshIcons();
 
   // アニメーション: ステータスバーを遅延で表示
   setTimeout(() => {
@@ -337,12 +347,11 @@ async function loadGenreData() {
 
 // 同期版（キャッシュ済みの場合のみ使用）
 function getGenreIcon(genre) {
+  const iconName = GENRE_ICONS[genre] || 'music';
   if (!genreData) {
-    // 非同期で読み込み開始
     loadGenreData();
-    return '🎵';
   }
-  return genreData[genre]?.icon || '🎵';
+  return icon(iconName, { size: 14 });
 }
 
 // 初期読み込み
@@ -351,13 +360,13 @@ loadGenreData();
 // ---- Pack Lookup (曲からパック逆引き) ----
 
 const PACK_DISPLAY_NAMES = {
-  jpop: { name: 'J-POP', icon: '🌸' },
-  kpop: { name: 'K-POP', icon: '💎' },
-  vocaloid: { name: 'Vocaloid', icon: '🎤' },
-  anime: { name: 'Anime', icon: '🌟' },
-  hiphop: { name: 'Hip-Hop', icon: '🎧' },
-  idol: { name: 'Idol', icon: '⭐' },
-  western: { name: 'Western', icon: '🌍' },
+  jpop: { name: 'J-POP', icon: 'flower-2' },
+  kpop: { name: 'K-POP', icon: 'gem' },
+  vocaloid: { name: 'Vocaloid', icon: 'mic' },
+  anime: { name: 'Anime', icon: 'sparkles' },
+  hiphop: { name: 'Hip-Hop', icon: 'headphones' },
+
+  western: { name: 'Western', icon: 'globe' },
 };
 
 let songPoolCache = null;
@@ -420,7 +429,7 @@ function getPackBadgesHtml(card) {
   const packs = findPacksForTrackSync(artist, title);
   if (packs.length === 0) return '';
   return packs.map(p =>
-    `<span class="card-genre-badge">${escapeHtml(p.icon)} ${escapeHtml(p.name)}</span>`
+    `<span class="card-genre-badge">${icon(p.icon, { size: 12 })} ${escapeHtml(p.name)}</span>`
   ).join('');
 }
 
@@ -465,7 +474,7 @@ if (typeof window !== 'undefined') {
       activeCardAudio.pause();
       activeCardAudio.currentTime = 0;
       if (activeCardBtn) {
-        activeCardBtn.textContent = '▶';
+        activeCardBtn.innerHTML = ICON_PLAY_SM;
         activeCardBtn.classList.remove('playing');
       }
       activeCardAudio = null;

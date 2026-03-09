@@ -24,7 +24,9 @@ const CROSSFADE_OFFSET = 2; // 曲終了N秒前からクロスフェード開始
 function getVolume() {
     if (getSetting('muted') === true) return 0;
     const saved = getSetting('volume');
-    return saved !== null ? parseInt(saved, 10) / 100 : 0.5;
+    if (saved == null) return 0.1;
+    const parsed = parseInt(saved, 10);
+    return isNaN(parsed) ? 0.1 : parsed / 100;
 }
 
 function resetPlaylist() {
@@ -167,16 +169,20 @@ function startPlayback(index) {
             }
         });
         audio.addEventListener('error', () => {
+            console.warn(`[Playlist] Audio error for track ${index}`);
             updateButton(index, false);
             updateProgressBar(index, 0);
-            playNext();
+            // エラー時は停止（playNextで無限ループしない）
         });
 
         audio.play().then(() => {
             fadeInAudio(audio, targetVol);
         }).catch(e => {
             console.warn('[Playlist] Autoplay blocked:', e.message);
-            playNext();
+            // iOS Safari: autoplayブロック時は停止して手動再生を待つ
+            // playNext()を呼ぶと無限ループになるため呼ばない
+            updateButton(index, false);
+            isPlaying = false;
         });
 
         currentAudio = audio;
@@ -261,11 +267,14 @@ function cancelProgressUpdate() {
 
 // ---- Button State ----
 
+const ICON_PLAY = '<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>';
+const ICON_PAUSE = '<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>';
+
 function updateButton(index, playing) {
     if (index < 0 || index >= playlist.length) return;
     const btn = playlist[index].btnEl;
     if (!btn) return;
-    btn.textContent = playing ? '⏸' : '▶';
+    btn.innerHTML = playing ? ICON_PAUSE : ICON_PLAY;
     if (playing) btn.classList.add('playing');
     else btn.classList.remove('playing');
 }
@@ -340,7 +349,8 @@ export async function renderPackOpening(cardsPromise, isGold = false, autoTap = 
             packImage.style.opacity = '';
             packImage.style.visibility = '';
         }
-        packVisual.querySelectorAll('.pack-split-half, .pack-split-loading').forEach(el => el.remove());
+        packVisual.querySelectorAll('.pack-split-half, .pack-split-loading, .pack-tear-glow, .pack-tear-spark').forEach(el => el.remove());
+        document.querySelectorAll('.pack-split-flash').forEach(el => el.remove());
         packVisual.style.animation = '';
     }
 
@@ -528,6 +538,89 @@ export async function renderPackOpening(cardsPromise, isGold = false, autoTap = 
 
 // ---- Pack Open Animation ----
 
+/**
+ * ギザギザ切断ラインを生成するヘルパー
+ * アルミパックを手で破いたような不規則形状のclip-pathを作る
+ * @param {number} splitY - 切断位置のパーセント (0-100)
+ * @param {number} segments - ギザギザの分割数
+ * @param {number} amplitude - ギザギザの振幅 (%)
+ * @returns {{topClip: string, bottomClip: string, tearY: number}}
+ */
+function generateTearLine(splitY = 22, segments = 16, amplitude = 3) {
+    const points = [];
+    for (let i = 0; i <= segments; i++) {
+        const x = (i / segments) * 100;
+        // 端は振幅を小さくして自然に
+        const edgeFactor = Math.min(i, segments - i) / (segments * 0.3);
+        const factor = Math.min(edgeFactor, 1);
+        const jitter = (Math.random() - 0.5) * 2 * amplitude * factor;
+        points.push({ x, y: splitY + jitter });
+    }
+
+    // 上パーツ: 上端→左端→ギザギザ→右端
+    const topPoints = [
+        '0% 0%', '100% 0%',
+        ...points.slice().reverse().map(p => `${p.x}% ${p.y}%`)
+    ];
+    const topClip = `polygon(${topPoints.join(', ')})`;
+
+    // 下パーツ: ギザギザ→右端→下端→左端
+    const bottomPoints = [
+        ...points.map(p => `${p.x}% ${p.y}%`),
+        '100% 100%', '0% 100%'
+    ];
+    const bottomClip = `polygon(${bottomPoints.join(', ')})`;
+
+    return { topClip, bottomClip, tearY: splitY };
+}
+
+/**
+ * 切断ライン沿いに火花パーティクルを放出
+ */
+function emitTearSparks(packVisual, tearYPercent, count = 12) {
+    const rect = packVisual.getBoundingClientRect();
+    const tearPixelY = (tearYPercent / 100) * rect.height;
+
+    for (let i = 0; i < count; i++) {
+        const spark = document.createElement('div');
+        spark.className = 'pack-tear-spark';
+
+        // 切断ライン上のランダム位置
+        const startX = Math.random() * rect.width;
+        spark.style.left = `${startX}px`;
+        spark.style.top = `${tearPixelY}px`;
+
+        // 飛散方向: 上下左右にランダム
+        const angle = (Math.random() - 0.5) * Math.PI * 1.5;
+        const distance = 40 + Math.random() * 80;
+        const dx = Math.cos(angle) * distance;
+        const dy = -Math.abs(Math.sin(angle) * distance) - 20; // 上方向バイアス
+
+        spark.style.setProperty('--spark-x', `${dx}px`);
+        spark.style.setProperty('--spark-y', `${dy}px`);
+        spark.style.setProperty('--spark-duration', `${0.4 + Math.random() * 0.4}s`);
+
+        // サイズと色のバリエーション
+        const size = 3 + Math.random() * 5;
+        spark.style.width = `${size}px`;
+        spark.style.height = `${size}px`;
+
+        if (Math.random() > 0.6) {
+            spark.style.background = 'rgba(200, 170, 255, 0.9)';
+        }
+
+        packVisual.appendChild(spark);
+
+        // アニメーション開始を少しずらす
+        setTimeout(() => {
+            spark.classList.add('animate');
+        }, i * 15);
+
+        // クリーンアップ
+        setTimeout(() => spark.remove(), 1000);
+    }
+}
+
 async function animatePackOpen(packVisual) {
     if (!packVisual) return;
 
@@ -536,60 +629,99 @@ async function animatePackOpen(packVisual) {
 
     const imgSrc = packImage.src;
 
-    // 揺れ → 光る → 上下分裂
-    packVisual.style.transition = 'all 0.3s ease';
-
-    // 揺れ
-    for (let i = 0; i < 3; i++) {
-        packVisual.style.transform = `rotate(${i % 2 === 0 ? 3 : -3}deg) scale(1.05)`;
-        await delay(80);
+    // ---- Phase 1: 揺れ（ポケポケ風の小刻みな揺れ）----
+    packVisual.style.transition = 'all 0.15s ease';
+    for (let i = 0; i < 5; i++) {
+        const angle = (i % 2 === 0 ? 1 : -1) * (2 + Math.random() * 2);
+        const scale = 1.03 + Math.random() * 0.03;
+        packVisual.style.transform = `rotate(${angle}deg) scale(${scale})`;
+        await delay(60 + i * 10);
     }
-    packVisual.style.transform = '';
+    packVisual.style.transform = 'scale(1.06)';
+    await delay(100);
 
-    // 光る（drop-shadowでパック画像の形に沿って光る）
-    packVisual.style.filter = 'drop-shadow(0 0 30px rgba(139, 92, 246, 0.8)) drop-shadow(0 0 60px rgba(236, 72, 153, 0.4))';
+    // ---- Phase 2: 光る（強化版）----
+    packVisual.style.transition = 'filter 0.3s ease';
+    packVisual.style.filter = 'drop-shadow(0 0 20px rgba(139, 92, 246, 0.6)) drop-shadow(0 0 40px rgba(236, 72, 153, 0.3))';
+    await delay(150);
+    packVisual.style.filter = 'drop-shadow(0 0 40px rgba(200, 170, 255, 0.9)) drop-shadow(0 0 70px rgba(139, 92, 246, 0.6)) brightness(1.15)';
     await delay(200);
 
-    // フロートアニメーションを停止
+    // フロートアニメーション停止
     packVisual.style.animation = 'none';
 
-    // 分割パーツを先に生成（まだDOMに追加しない）
+    // ---- Phase 3: ギザギザ切断面を生成 ----
+    const { topClip, bottomClip, tearY } = generateTearLine(22, 12, 0.8);
+
+    // 分割パーツ生成
     const topHalf = document.createElement('div');
     topHalf.className = 'pack-split-half pack-split-top';
     topHalf.innerHTML = `<img src="${imgSrc}" alt="" draggable="false">`;
+    topHalf.style.clipPath = topClip;
 
     const bottomHalf = document.createElement('div');
     bottomHalf.className = 'pack-split-half pack-split-bottom';
     bottomHalf.innerHTML = `<img src="${imgSrc}" alt="" draggable="false">`;
+    bottomHalf.style.clipPath = bottomClip;
 
+    // 光漏れグロー要素
+    const tearGlow = document.createElement('div');
+    tearGlow.className = 'pack-tear-glow';
+    const rect = packVisual.getBoundingClientRect();
+    const packImg = packVisual.querySelector('.pack-image');
+    const imgRect = packImg ? packImg.getBoundingClientRect() : rect;
+    tearGlow.style.top = `${(tearY / 100) * imgRect.height}px`;
+
+    // ローディング
     const loading = document.createElement('div');
     loading.className = 'pack-split-loading';
     loading.innerHTML = '<div class="pack-split-spinner"></div>';
 
-    // 元画像を即座に非表示（transitionを無効化して確実に即時反映）
+    // 画面フラッシュ
+    const flash = document.createElement('div');
+    flash.className = 'pack-split-flash';
+    document.body.appendChild(flash);
+
+    // ---- Phase 4: 瞬間的に分割（ポケポケ的なスナップ感）----
+    // 元画像を即座に非表示
     packImage.style.transition = 'none';
     packImage.style.opacity = '0';
     packImage.style.visibility = 'hidden';
-    void packImage.offsetHeight; // 強制リフローで描画を確定
+    void packImage.offsetHeight;
 
-    // 分割パーツをDOMに追加（元画像は完全に非表示済み）
-    packVisual.appendChild(topHalf);
+    // パーツをDOMに追加
     packVisual.appendChild(bottomHalf);
+    packVisual.appendChild(topHalf);
+    packVisual.appendChild(tearGlow);
     packVisual.appendChild(loading);
 
-    // 分裂開始（次フレームでクラス追加→CSSトランジション発火）
-    await delay(50);
-    topHalf.classList.add('split');
-    bottomHalf.classList.add('split');
-    loading.classList.add('visible');
-
-    // フィルターも解除
+    // フィルタリセット＆スケールリセット
     packVisual.style.filter = '';
+    packVisual.style.transform = '';
+    packVisual.style.transition = '';
 
-    // 分裂アニメーション完了まで待つ（transformの1.2sに合わせる）
-    await delay(1200);
+    // 1フレーム待ってからアニメーション発火
+    await delay(30);
 
-    // スタイルリセットのみ（分割パーツはコンテナ非表示で消える → 次回renderPackOpening冒頭で除去）
+    // 同時発火: フラッシュ + 光漏れ + 火花 + 上パーツ飛散 + 下パーツスライド
+    flash.classList.add('active');
+    tearGlow.classList.add('active');
+    topHalf.classList.add('fly-away');
+    bottomHalf.classList.add('split');
+
+    // 火花パーティクルを切断ラインに沿って放出
+    emitTearSparks(packVisual, tearY, 14);
+
+    // ローディング表示（少し遅延後）
+    setTimeout(() => loading.classList.add('visible'), 300);
+
+    // アニメーション完了を待つ
+    await delay(900);
+
+    // フラッシュのクリーンアップ
+    flash.remove();
+
+    // スタイルリセット
     packVisual.style.transition = '';
     packVisual.style.transform = '';
     packVisual.style.filter = '';

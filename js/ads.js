@@ -1,69 +1,131 @@
 // ============================================================
 // MusicGacha - Ads Module
-// Google AdSense 統合 & リワード広告管理
+// i-mobile 広告統合 & リワード広告管理
 // ============================================================
 
-import { isAdSenseConfigured, getAdSenseClientId } from './affiliate.js';
 import { addPacks, getPackData } from './storage.js';
+
+// ---- i-mobile Ad Config ----
+const IMOBILE_CONFIG = {
+    pid: 40644,
+    pc: {
+        mid: 591287,
+        homeBanner: { asid: 1925457, elementId: 'im-0575e7d34ae149e49683feba2b4c3848', type: 'banner', display: 'inline' },
+        collectionBanner: { asid: 1925458, elementId: 'im-c96599839f57449a90a5f7eaf1120592', type: 'banner', display: 'inline' },
+        rewardedAd: { asid: 1925459, elementId: 'im-844f2c69ae494feb8ba2d09239047dac', type: 'banner', display: 'inline' },
+    },
+    sp: {
+        mid: 591288,
+        homeBanner: { asid: 1925460, elementId: 'im-ca22b6ac099f483d83e9ace9474cad54', type: 'banner', display: 'inline' },
+        collectionBanner: { asid: 1925461, elementId: 'im-b00425ea41db4901b4cc3f78193b4cd5', type: 'banner', display: 'inline' },
+        rewardedAd: { asid: 1925462, elementId: 'im-3d1fe6202c794611b5a677b49de61c0f', type: 'banner', display: 'inline' },
+    },
+};
 
 // ---- Constants ----
 const AD_REWARD_KEY = 'musicgacha_ad_reward';
 const COOLDOWN_MS = 5 * 60 * 1000; // 5分
 const MAX_DAILY_WATCHES = 5;
 const REWARD_PACKS = 1;
+const REWARDED_AD_COUNTDOWN = 5; // 秒
 
-// ---- AdSense Initialization ----
+// ---- Device Detection ----
 
-let adSenseLoaded = false;
+function isMobile() {
+    return window.innerWidth <= 767;
+}
+
+function getDeviceConfig() {
+    return isMobile() ? IMOBILE_CONFIG.sp : IMOBILE_CONFIG.pc;
+}
+
+// ---- i-mobile Script Loading ----
+
+let imobileScriptLoaded = false;
 
 /**
- * AdSenseスクリプトを動的に読み込み
+ * i-mobileのspot.jsを1回だけ読み込む
  */
-function loadAdSenseScript() {
-    if (adSenseLoaded || !isAdSenseConfigured()) return;
+function loadIMobileScript() {
+    if (imobileScriptLoaded) return Promise.resolve();
 
-    const script = document.createElement('script');
-    script.async = true;
-    script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${getAdSenseClientId()}`;
-    script.crossOrigin = 'anonymous';
-    script.onerror = () => {
-        console.warn('[Ads] AdSense script blocked or failed to load');
-        showAdPlaceholders();
-    };
-    script.onload = () => {
-        adSenseLoaded = true;
-        console.log('[Ads] AdSense script loaded');
-        initBannerAds();
-    };
-    document.head.appendChild(script);
+    return new Promise((resolve) => {
+        // 既にロード済みなら即resolve
+        if (document.querySelector('script[src*="imp-adedge.i-mobile.co.jp"]')) {
+            imobileScriptLoaded = true;
+            resolve();
+            return;
+        }
+
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://imp-adedge.i-mobile.co.jp/script/v1/spot.js?20220104';
+        script.onload = () => {
+            imobileScriptLoaded = true;
+            console.log('[Ads] i-mobile script loaded');
+            resolve();
+        };
+        script.onerror = () => {
+            console.warn('[Ads] i-mobile script blocked or failed to load');
+            resolve(); // エラーでも続行
+        };
+        document.head.appendChild(script);
+    });
 }
 
 /**
- * バナー広告を初期化
+ * i-mobile広告タグをコンテナにセットする
+ * @param {HTMLElement} container - 広告を入れるDOM要素
+ * @param {Object} adConfig - { asid, elementId, type, display }
+ */
+function insertIMobileAd(container, adConfig) {
+    if (!container) return;
+
+    const config = getDeviceConfig();
+    const mid = config === IMOBILE_CONFIG.pc ? IMOBILE_CONFIG.pc : IMOBILE_CONFIG.sp;
+
+    // 既に挿入済みなら何もしない
+    if (container.querySelector(`#${adConfig.elementId}`)) return;
+
+    // コンテナをクリア
+    container.innerHTML = '';
+
+    // 広告用のdivを作成
+    const adDiv = document.createElement('div');
+    adDiv.id = adConfig.elementId;
+    container.appendChild(adDiv);
+
+    // i-mobileのpushを実行
+    window.adsbyimobile = window.adsbyimobile || [];
+    window.adsbyimobile.push({
+        pid: IMOBILE_CONFIG.pid,
+        mid: isMobile() ? IMOBILE_CONFIG.sp.mid : IMOBILE_CONFIG.pc.mid,
+        asid: adConfig.asid,
+        type: adConfig.type,
+        display: adConfig.display,
+        elementid: adConfig.elementId,
+    });
+}
+
+// ---- Banner Ad Initialization ----
+
+/**
+ * バナー広告を初期化（ホーム・コレクション）
  */
 function initBannerAds() {
-    if (!adSenseLoaded) return;
+    const config = getDeviceConfig();
 
-    try {
-        const adContainers = document.querySelectorAll('.ad-container ins.adsbygoogle');
-        adContainers.forEach(() => {
-            (window.adsbygoogle = window.adsbygoogle || []).push({});
-        });
-    } catch (e) {
-        console.warn('[Ads] Banner ad init failed:', e.message);
+    // ホームバナー
+    const homeContainer = document.getElementById('ad-home-banner');
+    if (homeContainer) {
+        insertIMobileAd(homeContainer, config.homeBanner);
     }
-}
 
-/**
- * 広告ブロッカー検知時にプレースホルダーを表示
- */
-function showAdPlaceholders() {
-    const containers = document.querySelectorAll('.ad-container');
-    containers.forEach(container => {
-        if (!container.querySelector('.ad-placeholder')) {
-            container.innerHTML = '<div class="ad-placeholder">広告を表示できませんでした</div>';
-        }
-    });
+    // コレクションバナー
+    const collectionContainer = document.getElementById('ad-collection-banner');
+    if (collectionContainer) {
+        insertIMobileAd(collectionContainer, config.collectionBanner);
+    }
 }
 
 // ---- Rewarded Ad State Management ----
@@ -190,7 +252,8 @@ export function getRemainingAdWatches() {
 
 /**
  * リワード広告フローを開始
- * AdSense未設定時はダミーフローで動作（開発・テスト用）
+ * i-mobileのレクタングル広告をオーバーレイ内に表示し、
+ * カウントダウン後に閉じるボタンを出してパックを付与する
  * @returns {Promise<{success: boolean, newPackCount?: number, remaining?: number, error?: string}>}
  */
 export async function showRewardedAd() {
@@ -199,93 +262,82 @@ export async function showRewardedAd() {
         return { success: false, error: check.reason };
     }
 
-    // AdSense が設定済みかつロード済みの場合 → 実広告を表示
-    if (isAdSenseConfigured() && adSenseLoaded) {
-        try {
-            const result = await showAdSenseRewardedAd();
-            if (result.completed) {
-                return recordAdWatch();
-            }
-            return { success: false, error: '広告の視聴が完了しませんでした' };
-        } catch (e) {
-            console.warn('[Ads] Rewarded ad error, falling back to dummy:', e.message);
-            // フォールバック: ダミーフロー
-        }
-    }
-
-    // ダミーリワードフロー（AdSense未設定時）
-    return await showDummyRewardedAd();
+    return await showIMobileRewardedAd();
 }
 
 /**
- * AdSense リワード広告を表示（実装はAdSense設定完了後に本番化）
- * GPT (Google Publisher Tag) 経由でリワード広告を表示
+ * i-mobileリワード広告をオーバーレイ表示
  */
-async function showAdSenseRewardedAd() {
-    // NOTE: 実際のAdSense/Ad Manager リワード広告は
-    // Google Publisher Tag (GPT) の RewardedSlotReadyEvent 等を使用
-    // ここでは将来の実装のためのスケルトン
+function showIMobileRewardedAd() {
     return new Promise((resolve) => {
-        console.log('[Ads] AdSense rewarded ad would play here');
-        // 将来的にはGPT APIを使用:
-        // googletag.cmd.push(() => { ... })
-        resolve({ completed: true });
-    });
-}
+        const config = getDeviceConfig();
+        const adConfig = config.rewardedAd;
 
-/**
- * ダミーリワード広告（開発用）
- * 3秒のカウントダウンでシミュレート
- */
-function showDummyRewardedAd() {
-    return new Promise((resolve) => {
-        // ダミー広告モーダル表示
+        // オーバーレイ作成
         const overlay = document.createElement('div');
-        overlay.className = 'modal-overlay';
-        overlay.id = 'dummy-ad-overlay';
-        overlay.style.zIndex = '99999';
+        overlay.className = 'rewarded-ad-overlay';
+        overlay.id = 'rewarded-ad-overlay';
         overlay.innerHTML = `
-            <div style="background: var(--bg-secondary, #1a1a2e); border: 1px solid rgba(255,255,255,0.1); 
-                        border-radius: 16px; padding: 40px; text-align: center; max-width: 360px; width: 90%;">
-                <div style="font-size: 3rem; margin-bottom: 16px;">📺</div>
-                <h3 style="color: #fff; font-size: 1.2rem; margin-bottom: 8px;">広告を視聴中...</h3>
-                <p style="color: #888; font-size: 0.85rem; margin-bottom: 24px;">
-                    視聴完了でパック1個を獲得できます
-                </p>
-                <div id="dummy-ad-countdown" style="font-size: 2rem; font-weight: bold; 
-                     background: linear-gradient(135deg, #8b5cf6, #ec4899);
-                     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-                     margin-bottom: 16px;">3</div>
-                <div style="height: 4px; background: rgba(255,255,255,0.1); border-radius: 4px; overflow: hidden;">
-                    <div id="dummy-ad-progress" style="height: 100%; width: 0%; 
-                         background: linear-gradient(90deg, #8b5cf6, #ec4899);
-                         transition: width 1s linear;"></div>
+            <div class="rewarded-ad-content">
+                <div class="rewarded-ad-header">
+                    <span class="rewarded-ad-icon"><i data-lucide="monitor-play"></i></span>
+                    <h3 class="rewarded-ad-title">広告を表示中...</h3>
+                    <p class="rewarded-ad-desc">視聴完了でパック1個を獲得できます</p>
                 </div>
+                <div class="rewarded-ad-slot" id="rewarded-ad-slot">
+                    <div id="${adConfig.elementId}"></div>
+                </div>
+                <div class="rewarded-ad-countdown-area">
+                    <div class="rewarded-ad-countdown" id="rewarded-ad-countdown">${REWARDED_AD_COUNTDOWN}</div>
+                    <div class="rewarded-ad-progress-bar">
+                        <div class="rewarded-ad-progress-fill" id="rewarded-ad-progress-fill"></div>
+                    </div>
+                </div>
+                <button class="rewarded-ad-close" id="rewarded-ad-close" style="display:none;">
+                    ✕ 閉じてパックを受け取る
+                </button>
             </div>
         `;
         document.body.appendChild(overlay);
 
-        let countdown = 3;
-        const countdownEl = overlay.querySelector('#dummy-ad-countdown');
-        const progressEl = overlay.querySelector('#dummy-ad-progress');
+        // i-mobile広告を挿入
+        window.adsbyimobile = window.adsbyimobile || [];
+        window.adsbyimobile.push({
+            pid: IMOBILE_CONFIG.pid,
+            mid: isMobile() ? IMOBILE_CONFIG.sp.mid : IMOBILE_CONFIG.pc.mid,
+            asid: adConfig.asid,
+            type: adConfig.type,
+            display: adConfig.display,
+            elementid: adConfig.elementId,
+        });
 
-        // プログレスバー開始
+        // カウントダウン開始
+        let countdown = REWARDED_AD_COUNTDOWN;
+        const countdownEl = overlay.querySelector('#rewarded-ad-countdown');
+        const progressEl = overlay.querySelector('#rewarded-ad-progress-fill');
+        const closeBtn = overlay.querySelector('#rewarded-ad-close');
+
+        // 初期プログレス
         requestAnimationFrame(() => {
-            progressEl.style.width = '33%';
+            if (progressEl) progressEl.style.width = `${(1 / REWARDED_AD_COUNTDOWN) * 100}%`;
         });
 
         const timer = setInterval(() => {
             countdown--;
             if (countdownEl) countdownEl.textContent = countdown;
-            if (progressEl) progressEl.style.width = `${((3 - countdown) / 3) * 100}%`;
+            if (progressEl) progressEl.style.width = `${((REWARDED_AD_COUNTDOWN - countdown) / REWARDED_AD_COUNTDOWN) * 100}%`;
 
             if (countdown <= 0) {
                 clearInterval(timer);
-                setTimeout(() => {
+                // カウントダウン完了 → 閉じるボタン表示
+                if (countdownEl) countdownEl.textContent = '✓';
+                if (closeBtn) closeBtn.style.display = '';
+
+                closeBtn.addEventListener('click', () => {
                     overlay.remove();
                     const result = recordAdWatch();
                     resolve(result);
-                }, 500);
+                }, { once: true });
             }
         }, 1000);
     });
@@ -357,12 +409,32 @@ export function startCooldownTimer() {
  * 広告システムを初期化
  */
 export function initAds() {
-    // AdSenseスクリプト読み込み
-    loadAdSenseScript();
+    // i-mobileスクリプト読み込み & バナー広告初期化
+    loadIMobileScript().then(() => {
+        initBannerAds();
+    });
 
     // 広告ボタンの初期状態設定
     updateAdButton();
 
-    console.log('[Ads] Ad system initialized',
-        isAdSenseConfigured() ? '(AdSense configured)' : '(AdSense not configured - using dummy mode)');
+    // 画面リサイズ時にバナーを再初期化（PC↔スマホ切替対応）
+    let resizeTimer = null;
+    let lastIsMobile = isMobile();
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            const currentIsMobile = isMobile();
+            if (currentIsMobile !== lastIsMobile) {
+                lastIsMobile = currentIsMobile;
+                // PC/スマホが切り替わったらバナーを再挿入
+                const homeContainer = document.getElementById('ad-home-banner');
+                const collectionContainer = document.getElementById('ad-collection-banner');
+                if (homeContainer) homeContainer.innerHTML = '';
+                if (collectionContainer) collectionContainer.innerHTML = '';
+                initBannerAds();
+            }
+        }, 300);
+    });
+
+    console.log('[Ads] i-mobile ad system initialized');
 }

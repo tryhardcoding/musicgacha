@@ -4,7 +4,10 @@
 // ============================================================
 
 // ---- Constants ----
-const ITUNES_BASE = 'https://itunes.apple.com';
+// iOS SafariがiTunes APIへの直接アクセスをブロックするため、
+// Cloudflare Pages Functionプロキシを経由（同一ドメイン＝CORS問題なし）
+const IS_LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+const ITUNES_BASE = IS_LOCAL ? 'https://itunes.apple.com' : '/api/itunes';
 
 // ---- Rate Limiter ----
 class RateLimiter {
@@ -72,12 +75,83 @@ async function loadSongPool() {
 const itunesCache = new Map();
 const CACHE_TTL = 30 * 60 * 1000; // 30分
 
+// ---- iTunes API 利用可否フラグ ----
+// iOS Safari等でiTunes APIが完全にブロックされる環境では、
+// 最初の失敗時にフラグを立てて以降の呼び出しをスキップ（10秒×6枚=60秒待ち回避）
+let itunesAvailable = true;
+let itunesCheckDone = false;
+
 // ---- Fetch Helpers ----
 
-async function fetchJSON(url) {
-    const response = await fetch(url, {
-        headers: { 'Accept': 'application/json' },
+// JSONP カウンター（一意なコールバック名生成用）
+let jsonpCounter = 0;
+
+/**
+ * JSONP方式でJSONデータを取得（CORS回避）
+ * iTunes APIはcallbackパラメータをサポート → scriptタグで読み込む
+ * iOS Safari等でfetchがブロックされる問題を根本解決
+ */
+function fetchJSONP(url, timeoutMs = 10000) {
+    return new Promise((resolve, reject) => {
+        const callbackName = `_itunesCallback_${Date.now()}_${jsonpCounter++}`;
+        const separator = url.includes('?') ? '&' : '?';
+        const scriptUrl = `${url}${separator}callback=${callbackName}`;
+
+        const script = document.createElement('script');
+        let settled = false;
+
+        // タイムアウト
+        const timer = setTimeout(() => {
+            if (!settled) {
+                settled = true;
+                cleanup();
+                reject(new Error(`JSONP timeout: ${url}`));
+            }
+        }, timeoutMs);
+
+        // クリーンアップ
+        function cleanup() {
+            clearTimeout(timer);
+            delete window[callbackName];
+            if (script.parentNode) script.parentNode.removeChild(script);
+        }
+
+        // コールバック関数をwindowに登録
+        window[callbackName] = (data) => {
+            if (!settled) {
+                settled = true;
+                cleanup();
+                resolve(data);
+            }
+        };
+
+        // エラーハンドリング
+        script.onerror = () => {
+            if (!settled) {
+                settled = true;
+                cleanup();
+                reject(new Error(`JSONP load failed: ${url}`));
+            }
+        };
+
+        script.src = scriptUrl;
+        document.head.appendChild(script);
     });
+}
+
+/**
+ * JSONデータを取得
+ * - itunes.apple.com直アクセス（ローカル開発）→ JSONP方式
+ * - プロキシ経由（/api/itunes）→ 通常fetch（同一ドメイン）
+ * - その他 → 通常fetch
+ */
+async function fetchJSON(url) {
+    // iTunes直アクセスの場合のみJSONP（ローカル開発等）
+    if (url.includes('itunes.apple.com')) {
+        return fetchJSONP(url);
+    }
+    // プロキシ経由・その他は通常のfetch
+    const response = await fetch(url);
     if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${url}`);
     }
@@ -107,6 +181,11 @@ function isExcludedResult(track) {
  * @returns {Promise<Object|null>} iTunes楽曲データ or null
  */
 async function lookupITunes(trackName, artistName) {
+    // iTunes APIが使えない環境では即座にnullを返す（iOS Safari等）
+    if (itunesCheckDone && !itunesAvailable) {
+        return null;
+    }
+
     const cacheKey = `${artistName.toLowerCase()}::${trackName.toLowerCase()}`;
 
     // キャッシュチェック
@@ -118,7 +197,8 @@ async function lookupITunes(trackName, artistName) {
     return itunesLimiter.enqueue(async () => {
         try {
             const query = encodeURIComponent(`${artistName} ${trackName}`);
-            const url = `${ITUNES_BASE}/search?term=${query}&media=music&entity=song&limit=10&country=JP`;
+            const itunesPath = IS_LOCAL ? '/search' : '';
+            const url = `${ITUNES_BASE}${itunesPath}?term=${query}&media=music&entity=song&limit=10&country=JP`;
 
             const result = await fetchJSON(url);
             const songs = (result.results || []).filter(s => !isExcludedResult(s));
@@ -190,11 +270,24 @@ async function lookupITunes(trackName, artistName) {
                 return songs.length > 0 ? songs[0] : null;
             })() || null;
 
+            // iTunes API利用可能を確認
+            if (!itunesCheckDone) {
+                itunesCheckDone = true;
+                itunesAvailable = true;
+                console.log('[API] iTunes API is available');
+            }
+
             // キャッシュ保存
             itunesCache.set(cacheKey, { data: match, fetchedAt: Date.now() });
 
             return match;
         } catch (error) {
+            // 最初の失敗時にiTunes APIを無効化（iOS Safari等のブロック対策）
+            if (!itunesCheckDone) {
+                itunesCheckDone = true;
+                itunesAvailable = false;
+                console.warn('[API] iTunes API blocked on this device. Using songs.json fallback.');
+            }
             console.warn(`[API] iTunes lookup failed for "${trackName}" by ${artistName}:`, error.message);
             return null;
         }
@@ -272,13 +365,20 @@ export async function fetchCardFromGenre(packConfig, rarity) {
         const itunesData = await lookupITunes(selectedTrack.name, selectedTrack.artist);
 
         // 4. カードデータ生成
+        // songs.jsonの事前取得artworkUrlをフォールバックとして利用
+        const fallbackCoverUrl = selectedTrack.artworkUrl || null;
+        const fallbackYear = selectedTrack.releaseDate
+            ? parseInt(selectedTrack.releaseDate.substring(0, 4), 10)
+            : null;
+        const fallbackUrl = selectedTrack.url || null;
+
         if (itunesData) {
             const coverUrl = itunesData.artworkUrl100
                 ? itunesData.artworkUrl100.replace('100x100bb', '600x600bb')
-                : null;
+                : fallbackCoverUrl;
             const year = itunesData.releaseDate
                 ? parseInt(itunesData.releaseDate.substring(0, 4), 10)
-                : null;
+                : fallbackYear;
 
             return {
                 id: String(itunesData.trackId),
@@ -293,28 +393,28 @@ export async function fetchCardFromGenre(packConfig, rarity) {
                 listeners: selectedTrack.playcount || 0,
                 coverUrl,
                 previewUrl: itunesData.previewUrl || null,
-                trackViewUrl: itunesData.trackViewUrl || null,
+                trackViewUrl: itunesData.trackViewUrl || fallbackUrl,
                 rarity,
             };
         }
 
-        // iTunesにヒットしなかった場合（Last.fmデータのみで生成）
-        const atkBase = (Math.abs(hashCode(`${selectedTrack.artist}::${selectedTrack.name}`)) % 4900000) + 100000;
+        // iTunesに接続できなかった場合（songs.jsonデータで生成）
+        console.warn(`[API] iTunes unavailable, using songs.json fallback for "${selectedTrack.name}"`);
 
         return {
-            id: `lastfm-${hashCode(`${selectedTrack.artist}::${selectedTrack.name}`)}`,
+            id: `pool-${hashCode(`${selectedTrack.artist}::${selectedTrack.name}`)}`,
             title: selectedTrack.name,
             artist: selectedTrack.artist,
             originalName: selectedTrack.name,
             originalArtist: selectedTrack.artist,
             album: 'Unknown Album',
-            year: null,
+            year: fallbackYear,
             genre: 'Unknown',
             duration: 200,
-            listeners: atkBase,
-            coverUrl: null,
+            listeners: selectedTrack.playcount || 0,
+            coverUrl: fallbackCoverUrl,
             previewUrl: null,
-            trackViewUrl: null,
+            trackViewUrl: fallbackUrl,
             rarity,
         };
     } catch (error) {
@@ -460,7 +560,13 @@ export async function fetchCardFromTop200(obtainedKeys, rarity) {
             };
         }
 
-        // iTunesにヒットしなかった場合
+        // iTunesに接続できなかった場合（事前取得データで生成）
+        console.warn(`[API] iTunes unavailable for Top200, using fallback for "${selectedTrack.name}"`);
+        const fallbackCover = selectedTrack.artworkUrl || null;
+        const fallbackYr = selectedTrack.releaseDate
+            ? parseInt(selectedTrack.releaseDate.substring(0, 4), 10)
+            : null;
+
         return {
             id: `top200-${hashCode(`${selectedTrack.artist}::${selectedTrack.name}`)}`,
             title: selectedTrack.name,
@@ -468,13 +574,13 @@ export async function fetchCardFromTop200(obtainedKeys, rarity) {
             originalName: selectedTrack.name,
             originalArtist: selectedTrack.artist,
             album: 'Unknown Album',
-            year: null,
+            year: fallbackYr,
             genre: 'Unknown',
             duration: 200,
             listeners: 10000000 - (selectedTrack.rank * 49000),
-            coverUrl: null,
+            coverUrl: fallbackCover,
             previewUrl: null,
-            trackViewUrl: null,
+            trackViewUrl: selectedTrack.url || null,
             rarity,
             chartRank: selectedTrack.rank,
             top200Key: trackKey,

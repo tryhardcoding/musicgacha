@@ -23,6 +23,8 @@ const DEFAULT_SETTINGS = {
   language: 'ja',
   selectedPack: 'standard',
   autoOpen: false,
+  volume: '10',
+  muted: false,
 };
 
 const PACK_REGEN_INTERVAL_MS = 60 * 1000; // 1分
@@ -143,7 +145,7 @@ export function consumePack() {
 
 export function addPacks(count) {
   const data = getPackData();
-  data.current = Math.min(data.current + count, data.max);
+  data.current = data.current + count;
   savePackData(data);
   return data;
 }
@@ -178,7 +180,7 @@ export function claimDailyBonus() {
   const data = getPackData();
   const today = new Date().toISOString().split('T')[0];
   data.dailyBonusClaimed = today;
-  data.current = Math.min(data.current + 3, data.max);
+  data.current = data.current + 3;
   savePackData(data);
   return data;
 }

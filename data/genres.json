@@ -1,95 +1,95 @@
 {
     "genres": {
         "Rock": {
-            "icon": "🎸",
+            "icon": "guitar",
             "color": "#ef4444"
         },
         "Pop": {
-            "icon": "🎤",
+            "icon": "mic",
             "color": "#ec4899"
         },
         "Hip-Hop": {
-            "icon": "🎧",
+            "icon": "headphones",
             "color": "#f59e0b"
         },
         "R&B": {
-            "icon": "🎹",
+            "icon": "music",
             "color": "#a855f7"
         },
         "Electronic": {
-            "icon": "🎛️",
+            "icon": "sliders-horizontal",
             "color": "#06b6d4"
         },
         "Jazz": {
-            "icon": "🎷",
+            "icon": "music",
             "color": "#eab308"
         },
         "Classical": {
-            "icon": "🎻",
+            "icon": "music",
             "color": "#64748b"
         },
         "Country": {
-            "icon": "🤠",
+            "icon": "wheat",
             "color": "#d97706"
         },
         "Metal": {
-            "icon": "🤘",
+            "icon": "zap",
             "color": "#6b7280"
         },
         "Punk": {
-            "icon": "⚡",
+            "icon": "zap",
             "color": "#22c55e"
         },
         "Blues": {
-            "icon": "🎺",
+            "icon": "music",
             "color": "#3b82f6"
         },
         "Reggae": {
-            "icon": "🌴",
+            "icon": "palm-tree",
             "color": "#16a34a"
         },
         "Latin": {
-            "icon": "💃",
+            "icon": "flame",
             "color": "#f97316"
         },
         "Folk": {
-            "icon": "🪕",
+            "icon": "guitar",
             "color": "#92400e"
         },
         "Soul": {
-            "icon": "💜",
+            "icon": "heart",
             "color": "#7c3aed"
         },
         "Funk": {
-            "icon": "🕺",
+            "icon": "disc",
             "color": "#e11d48"
         },
         "Indie": {
-            "icon": "🌙",
+            "icon": "moon",
             "color": "#8b5cf6"
         },
         "Alternative": {
-            "icon": "🔮",
+            "icon": "sparkle",
             "color": "#6366f1"
         },
         "J-Pop": {
-            "icon": "🌸",
+            "icon": "flower-2",
             "color": "#f472b6"
         },
         "K-Pop": {
-            "icon": "💎",
+            "icon": "gem",
             "color": "#c084fc"
         },
         "World": {
-            "icon": "🌍",
+            "icon": "globe",
             "color": "#14b8a6"
         },
         "Soundtrack": {
-            "icon": "🎬",
+            "icon": "clapperboard",
             "color": "#475569"
         },
         "Unknown": {
-            "icon": "🎵",
+            "icon": "music",
             "color": "#6b7280"
         }
     },

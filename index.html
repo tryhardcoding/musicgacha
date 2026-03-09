@@ -11,38 +11,42 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="index.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 
 <body>
-  <!-- ===== 統一ヘッダー ===== -->
+  <!-- ===== 統一ヘッダー（1行） ===== -->
   <header class="unified-header" id="unified-header">
-    <div class="unified-header-top">
+    <div class="header-row">
       <h1 class="header-logo">
-        <span class="title-icon">🎵</span>
+        <span class="title-icon"><i data-lucide="music"></i></span>
         <span class="title-text">Music<span class="title-accent">Gacha</span></span>
       </h1>
-      <div class="header-volume">
-        <button class="volume-btn" id="volume-btn" aria-label="ミュート">
-          <span class="volume-icon" id="volume-icon">🔊</span>
+      <nav class="header-nav" id="header-nav">
+        <a href="#home" class="nav-item active" data-screen="home" data-i18n="nav.home">
+          <span class="nav-label">ホーム</span>
+        </a>
+        <a href="#collection" class="nav-item" data-screen="collection" data-i18n="nav.collection">
+          <span class="nav-label">コレクション</span>
+        </a>
+      </nav>
+      <div class="header-actions">
+        <button class="country-btn" id="country-btn" aria-label="国切替">
+          <i data-lucide="globe"></i>
+          <span class="country-code">JP</span>
         </button>
-        <input type="range" class="volume-slider" id="volume-slider" min="0" max="100" value="50">
+        <div class="header-volume">
+          <button class="volume-btn" id="volume-btn" aria-label="ミュート">
+            <span class="volume-icon" id="volume-icon"><i data-lucide="volume-2"></i></span>
+          </button>
+          <input type="range" class="volume-slider" id="volume-slider" min="0" max="100" value="50">
+        </div>
       </div>
     </div>
-    <nav class="header-nav" id="header-nav">
-      <a href="#home" class="nav-item active" data-screen="home" data-i18n="nav.home">
-        <span class="nav-label">ホーム</span>
-      </a>
-      <a href="#collection" class="nav-item" data-screen="collection" data-i18n="nav.collection">
-        <span class="nav-label">コレクション</span>
-      </a>
-      <a href="#settings" class="nav-item" data-screen="settings" data-i18n="nav.settings">
-        <span class="nav-label">設定</span>
-      </a>
-    </nav>
   </header>
 
   <!-- ===== Screen: ホーム ===== -->
@@ -52,77 +56,63 @@
         <p class="app-subtitle" data-i18n="home.subtitle">音楽ガチャで新しい曲と出会おう</p>
       </div>
 
-      <!-- パック情報 -->
-      <div class="pack-info-card">
-        <div class="pack-count">
-          <span class="pack-count-current" id="pack-count-current">10</span>
-          <span class="pack-count-separator">/</span>
-          <span class="pack-count-max">10</span>
-          <span class="pack-count-label" data-i18n="home.packs">パック</span>
+      <!-- パック情報バー -->
+      <div class="pack-info-bar">
+        <div class="pack-info-item">
+          <span class="pack-info-icon"><i data-lucide="layers"></i></span>
+          <span class="pack-info-value"><span id="pack-count-current">10</span>/10</span>
+          <span class="pack-info-label" data-i18n="home.packs">パック</span>
+          <span class="pack-regen-timer" id="pack-regen-timer"></span>
         </div>
-        <div class="pack-regen-timer" id="pack-regen-timer"></div>
-      </div>
-
-      <!-- パック選択カルーセル -->
-      <div class="pack-selector" id="pack-selector">
-        <div class="pack-selector-scroll" id="pack-selector-scroll">
-          <button class="pack-card active" data-pack="standard">
-            <span class="pack-card-icon">🎵</span>
-            <span class="pack-card-name" data-i18n="pack.standard">スタンダード</span>
-          </button>
-          <button class="pack-card" data-pack="jpop">
-            <span class="pack-card-icon">🌸</span>
-            <span class="pack-card-name" data-i18n="pack.jpop">J-POP</span>
-          </button>
-          <button class="pack-card" data-pack="kpop">
-            <span class="pack-card-icon">💎</span>
-            <span class="pack-card-name" data-i18n="pack.kpop">K-POP</span>
-          </button>
-          <button class="pack-card" data-pack="vocaloid">
-            <span class="pack-card-icon">🎤</span>
-            <span class="pack-card-name" data-i18n="pack.vocaloid">ボカロ</span>
-          </button>
-          <button class="pack-card" data-pack="anime">
-            <span class="pack-card-icon">🌟</span>
-            <span class="pack-card-name" data-i18n="pack.anime">Anime</span>
-          </button>
-          <button class="pack-card" data-pack="hiphop">
-            <span class="pack-card-icon">🎧</span>
-            <span class="pack-card-name" data-i18n="pack.hiphop">Hip-Hop</span>
-          </button>
-          <button class="pack-card" data-pack="idol">
-            <span class="pack-card-icon">⭐</span>
-            <span class="pack-card-name" data-i18n="pack.idol">アイドル</span>
-          </button>
-          <button class="pack-card" data-pack="western">
-            <span class="pack-card-icon">🌍</span>
-            <span class="pack-card-name" data-i18n="pack.western">洋楽</span>
-          </button>
-          <button class="pack-card pack-card-daily" data-pack="top200">
-            <span class="pack-card-icon">🏆</span>
-            <span class="pack-card-name" data-i18n="pack.top200">Top 200</span>
-          </button>
+        <div class="pack-info-divider"></div>
+        <div class="pack-info-item">
+          <span class="pack-info-icon"><i data-lucide="trophy"></i></span>
+          <span class="pack-info-value"><span id="top200-collected">0</span>/200</span>
+          <div style="display:flex;flex-direction:column;">
+            <span class="pack-info-label">TOP 200</span>
+            <span class="pack-info-desc">毎日更新のチャートを集めよう</span>
+          </div>
         </div>
       </div>
 
-      <!-- Top 200 進捗表示 -->
-      <div class="top200-progress" id="top200-progress" style="display:none;">
-        <div class="top200-progress-header">
-          <span class="top200-progress-label" data-i18n="home.top200Title">📊 本日のiTunes Top 200</span>
-          <span class="top200-progress-count" id="top200-progress-count">0/200</span>
-        </div>
-        <div class="top200-progress-bar">
-          <div class="top200-progress-fill" id="top200-progress-fill" style="width: 0%"></div>
+      <!-- パックカルーセル - 横スクロール周回 -->
+      <div class="pack-carousel" id="pack-carousel">
+        <div class="pack-carousel-track" id="pack-carousel-track">
+          <button class="pack-item" data-pack="top200">
+            <span class="pack-badge">おすすめ</span>
+            <img class="pack-item-img" src="assets/pack-top200.png" alt="Top 200" draggable="false">
+            <span class="pack-item-name" data-i18n="pack.top200">Top 200</span>
+          </button>
+          <button class="pack-item" data-pack="standard">
+            <img class="pack-item-img" src="assets/pack-standard.png" alt="All" draggable="false">
+            <span class="pack-item-name" data-i18n="pack.standard">オール</span>
+          </button>
+          <button class="pack-item" data-pack="jpop">
+            <img class="pack-item-img" src="assets/pack-jpop.png" alt="J-POP" draggable="false">
+            <span class="pack-item-name" data-i18n="pack.jpop">J-POP</span>
+          </button>
+          <button class="pack-item" data-pack="kpop">
+            <img class="pack-item-img" src="assets/pack-kpop.png" alt="K-POP" draggable="false">
+            <span class="pack-item-name" data-i18n="pack.kpop">K-POP</span>
+          </button>
+          <button class="pack-item" data-pack="vocaloid">
+            <img class="pack-item-img" src="assets/pack-vocaloid.png" alt="Vocaloid" draggable="false">
+            <span class="pack-item-name" data-i18n="pack.vocaloid">ボカロ</span>
+          </button>
+          <button class="pack-item" data-pack="anime">
+            <img class="pack-item-img" src="assets/pack-anime.png" alt="Anime" draggable="false">
+            <span class="pack-item-name" data-i18n="pack.anime">Anime</span>
+          </button>
+          <button class="pack-item" data-pack="hiphop">
+            <img class="pack-item-img" src="assets/pack-hiphop.png" alt="Hip-Hop" draggable="false">
+            <span class="pack-item-name" data-i18n="pack.hiphop">Hip-Hop</span>
+          </button>
+          <button class="pack-item" data-pack="western">
+            <img class="pack-item-img" src="assets/pack-western.png" alt="Western" draggable="false">
+            <span class="pack-item-name" data-i18n="pack.western">洋楽</span>
+          </button>
         </div>
       </div>
-
-      <!-- 開封ボタン -->
-      <button class="btn-open-pack" id="btn-open-pack" data-i18n="home.openPack">
-        <span class="btn-open-pack-inner">
-          <span class="btn-open-pack-icon">🎁</span>
-          <span class="btn-open-pack-text">パックを開ける</span>
-        </span>
-      </button>
 
       <!-- ゴールドパック進捗 -->
       <div class="gold-pack-progress" id="gold-pack-progress">
@@ -139,7 +129,7 @@
 
       <!-- デイリーボーナス -->
       <div class="daily-bonus-card" id="daily-bonus-card">
-        <div class="daily-bonus-icon">🎁</div>
+        <div class="daily-bonus-icon"><i data-lucide="gift"></i></div>
         <div class="daily-bonus-info">
           <span class="daily-bonus-title" data-i18n="home.dailyBonus">デイリーボーナス</span>
           <span class="daily-bonus-desc" data-i18n="home.dailyBonusDesc">3パック獲得！</span>
@@ -200,8 +190,7 @@
             </label>
           </div>
           <button class="btn-primary" id="btn-open-another" data-i18n="pack.openAnother">もう1パック開ける</button>
-          <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.viewCollection">コレクションを見る</button>
-          <button class="btn-tertiary" id="btn-back-home" data-i18n="pack.backHome">🏠 ホームに戻る</button>
+          <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.backHome">ホームに戻る</button>
         </div>
       </div>
 
@@ -221,14 +210,14 @@
       <!-- パック選択タブ -->
       <div class="pack-filter-tabs" id="pack-filter-tabs">
         <button class="pack-filter-tab active" data-pack-filter="all">全て</button>
-        <button class="pack-filter-tab" data-pack-filter="jpop">🌸 J-POP</button>
-        <button class="pack-filter-tab" data-pack-filter="kpop">💎 K-POP</button>
-        <button class="pack-filter-tab" data-pack-filter="vocaloid">🎤 ボカロ</button>
-        <button class="pack-filter-tab" data-pack-filter="anime">🌟 Anime</button>
-        <button class="pack-filter-tab" data-pack-filter="hiphop">🎧 Hip-Hop</button>
-        <button class="pack-filter-tab" data-pack-filter="idol">⭐ アイドル</button>
-        <button class="pack-filter-tab" data-pack-filter="western">🌍 洋楽</button>
-        <button class="pack-filter-tab pack-filter-tab-top200" data-pack-filter="top200">🏆 Top 200</button>
+        <button class="pack-filter-tab pack-filter-tab-top200" data-pack-filter="top200"><i data-lucide="trophy"></i>
+          Top 200</button>
+        <button class="pack-filter-tab" data-pack-filter="jpop"><i data-lucide="flower-2"></i> J-POP</button>
+        <button class="pack-filter-tab" data-pack-filter="kpop"><i data-lucide="gem"></i> K-POP</button>
+        <button class="pack-filter-tab" data-pack-filter="vocaloid"><i data-lucide="mic"></i> ボカロ</button>
+        <button class="pack-filter-tab" data-pack-filter="anime"><i data-lucide="sparkles"></i> Anime</button>
+        <button class="pack-filter-tab" data-pack-filter="hiphop"><i data-lucide="headphones"></i> Hip-Hop</button>
+        <button class="pack-filter-tab" data-pack-filter="western"><i data-lucide="globe"></i> 洋楽</button>
       </div>
 
       <!-- 広告バナー（コレクション） -->
@@ -273,7 +262,7 @@
         <div class="card-grid" id="card-grid">
           <!-- カードは動的に生成 -->
           <div class="empty-collection" id="empty-collection">
-            <span class="empty-icon">🎵</span>
+            <span class="empty-icon"><i data-lucide="music"></i></span>
             <p data-i18n="collection.empty">まだカードがありません。パックを開封して集めましょう！</p>
           </div>
         </div>
@@ -297,59 +286,35 @@
     </div>
   </section>
 
-  <!-- ===== Screen: 設定 ===== -->
-  <section class="screen" id="screen-settings">
-    <div class="screen-content">
+  <!-- ===== フッター ===== -->
+  <footer class="app-footer" id="app-footer">
+    <div class="footer-content">
+      <!-- 法的情報リンク + データリセット -->
+      <div class="footer-links">
+        <a href="terms.html" class="footer-link" data-i18n="settings.terms">利用規約</a>
+        <span class="footer-link-sep">|</span>
+        <a href="privacy.html" class="footer-link" data-i18n="settings.privacy">プライバシーポリシー</a>
+        <span class="footer-link-sep">|</span>
+        <a href="#" class="footer-link footer-link-danger" id="btn-reset-data"
+          data-i18n="settings.resetData">データリセット</a>
+      </div>
 
-
-      <div class="settings-list">
-        <!-- 言語 -->
-        <div class="settings-item">
-          <span class="settings-item-label" data-i18n="settings.language">言語</span>
-          <select class="settings-select" id="setting-language">
-            <option value="ja">日本語</option>
-            <option value="en">English</option>
-          </select>
-        </div>
-
-        <!-- データリセット -->
-        <div class="settings-item settings-item-danger">
-          <span class="settings-item-label" data-i18n="settings.resetData">データリセット</span>
-          <button class="btn-danger" id="btn-reset-data" data-i18n="settings.reset">リセット</button>
-        </div>
-
-        <!-- クレジット -->
-        <div class="settings-section">
-          <h3 class="settings-section-title" data-i18n="settings.credits">クレジット</h3>
-          <div class="credits-list">
-            <a href="https://affiliate.itunes.apple.com/" target="_blank" rel="noopener" class="credit-link">
-              <span class="credit-name">Apple / iTunes</span>
-              <span class="credit-desc">Music data & album artwork</span>
-            </a>
-            <a href="https://spotify.com/" target="_blank" rel="noopener" class="credit-link">
-              <span class="credit-name">Spotify</span>
-              <span class="credit-desc">Music streaming</span>
-            </a>
-            <a href="https://youtube.com/" target="_blank" rel="noopener" class="credit-link">
-              <span class="credit-name">YouTube</span>
-              <span class="credit-desc">Video streaming</span>
-            </a>
-          </div>
-        </div>
-
-        <!-- リンク -->
-        <div class="settings-section">
-          <h3 class="settings-section-title" data-i18n="settings.legal">法的情報</h3>
-          <a href="privacy.html" class="settings-link" data-i18n="settings.privacy">プライバシーポリシー</a>
-          <a href="terms.html" class="settings-link" data-i18n="settings.terms">利用規約</a>
-        </div>
-
-        <div class="settings-version">
-          MusicGacha v1.0.0
+      <!-- クレジット -->
+      <div class="footer-credits">
+        <p class="footer-credits-title" data-i18n="settings.credits">クレジット</p>
+        <div class="footer-credits-list">
+          <a href="https://affiliate.itunes.apple.com/" target="_blank" rel="noopener" class="footer-credit">Apple /
+            iTunes</a>
+          <span class="footer-link-sep">·</span>
+          <a href="https://spotify.com/" target="_blank" rel="noopener" class="footer-credit">Spotify</a>
+          <span class="footer-link-sep">·</span>
+          <a href="https://youtube.com/" target="_blank" rel="noopener" class="footer-credit">YouTube</a>
         </div>
       </div>
+
+      <div class="footer-version">MusicGacha v1.0.0</div>
     </div>
-  </section>
+  </footer>
 
   <!-- ===== カード詳細モーダル ===== -->
   <div class="modal-overlay" id="card-detail-modal" style="display:none;">
@@ -371,7 +336,7 @@
   <div class="modal-overlay share-receive-modal" id="share-receive-modal" style="display:none;">
     <div class="share-receive-content">
       <div class="share-receive-header">
-        <span class="share-receive-icon">🎁</span>
+        <span class="share-receive-icon"><i data-lucide="gift"></i></span>
         <h2 class="share-receive-title">カードが届いています！</h2>
         <p class="share-receive-subtitle"></p>
       </div>

@@ -10,12 +10,13 @@ import './gacha.js'; // ガチャモジュール（グローバル参照にopenP
 import { initCollection, renderCollection } from './collection.js';
 import { initShareHandler } from './transfer.js';
 import { initAds, showRewardedAd, updateAdButton, startCooldownTimer } from './ads.js';
+import { icon, refreshIcons } from './icons.js';
 
 // ---- Screen Routing ----
 
-const screens = ['home', 'pack', 'collection', 'settings'];
+const screens = ['home', 'pack', 'collection'];
 let currentScreen = 'home';
-let selectedPackType = 'standard';
+let selectedPackType = 'top200';
 
 function showScreen(screenId) {
     if (!screens.includes(screenId)) screenId = 'home';
@@ -60,6 +61,9 @@ export function navigateTo(screenId) {
     if (screenId !== 'pack') {
         window.location.hash = screenId;
     }
+    if (screenId === 'home') {
+        updateHomeScreen();
+    }
 }
 
 // ---- Home Screen Updates ----
@@ -72,6 +76,13 @@ function updateHomeScreen() {
     // パック残数
     const currentEl = document.getElementById('pack-count-current');
     if (currentEl) currentEl.textContent = packData.current;
+
+    // TOP200 収集枚数
+    const top200El = document.getElementById('top200-collected');
+    if (top200El) {
+        const top200Data = getTop200Data();
+        top200El.textContent = top200Data.obtainedKeys ? top200Data.obtainedKeys.length : 0;
+    }
 
     // 開封ボタン
     const btnOpen = document.getElementById('btn-open-pack');
@@ -94,7 +105,9 @@ function updateHomeScreen() {
     const bonusCard = document.getElementById('daily-bonus-card');
     const btnBonus = document.getElementById('btn-daily-bonus');
     const canClaim = canClaimDailyBonus();
-    if (bonusCard) bonusCard.classList.toggle('claimed', !canClaim);
+    if (bonusCard) {
+        bonusCard.style.display = canClaim ? '' : 'none';
+    }
     if (btnBonus) {
         btnBonus.disabled = !canClaim;
         btnBonus.textContent = canClaim ? t('home.claim') : t('home.dailyBonusClaimed');
@@ -124,25 +137,22 @@ function updateRegenTimer() {
     const timerEl = document.getElementById('pack-regen-timer');
     if (!timerEl) return;
 
-    const remaining = getNextRegenTime();
-
-    if (remaining === null || remaining <= 0) {
-        timerEl.textContent = '';
-        return;
-    }
-
     function tick() {
+        // パック数を毎tick再計算（recalculatePacksで自動回復される）
+        const packData = getPackData();
+        const currentEl = document.getElementById('pack-count-current');
+        if (currentEl) currentEl.textContent = packData.current;
+
         const ms = getNextRegenTime();
-        if (ms === null || ms <= 0) {
+        if (ms === null) {
+            // 満タン - タイマー不要
             timerEl.textContent = '';
             clearInterval(regenTimerInterval);
             regenTimerInterval = null;
-            // パック更新
-            updateHomeScreen();
             return;
         }
         const sec = Math.ceil(ms / 1000);
-        timerEl.textContent = t('home.regenIn', { time: `${sec}s` });
+        timerEl.textContent = `${sec}s`;
     }
 
     tick();
@@ -279,16 +289,7 @@ function setupEventListeners() {
         });
     });
 
-    // パック開封ボタン
-    const btnOpen = document.getElementById('btn-open-pack');
-    if (btnOpen) {
-        btnOpen.addEventListener('click', async () => {
-            navigateTo('pack');
-            if (window.MusicGacha && window.MusicGacha.openPack) {
-                await window.MusicGacha.openPack(selectedPackType);
-            }
-        });
-    }
+
 
     // デイリーボーナス
     const btnBonus = document.getElementById('btn-daily-bonus');
@@ -308,7 +309,7 @@ function setupEventListeners() {
         btnAd.addEventListener('click', async () => {
             const result = await showRewardedAd();
             if (result.success) {
-                showToast(`🎁 パック1個獲得！（残り${result.remaining}回）`, 'success');
+                showToast(`パック1個獲得！（残り${result.remaining}回）`, 'success');
                 updateHomeScreen();
                 updateAdButton();
                 startCooldownTimer();
@@ -329,18 +330,10 @@ function setupEventListeners() {
         });
     }
 
-    // コレクションを見るボタン
+    // ホームに戻るボタン（旧コレクションを見る）
     const btnViewCollection = document.getElementById('btn-view-collection');
     if (btnViewCollection) {
         btnViewCollection.addEventListener('click', () => {
-            navigateTo('collection');
-        });
-    }
-
-    // ホームに戻るボタン
-    const btnBackHome = document.getElementById('btn-back-home');
-    if (btnBackHome) {
-        btnBackHome.addEventListener('click', () => {
             navigateTo('home');
         });
     }
@@ -360,7 +353,8 @@ function setupEventListeners() {
     // 設定: データリセット
     const btnReset = document.getElementById('btn-reset-data');
     if (btnReset) {
-        btnReset.addEventListener('click', async () => {
+        btnReset.addEventListener('click', async (e) => {
+            e.preventDefault();
             const confirmed = await showConfirmDialog(t('dialog.resetMessage'));
             if (confirmed) {
                 resetAllData();
@@ -371,26 +365,106 @@ function setupEventListeners() {
         });
     }
 
-    // パック選択カルーセル
-    const packSelector = document.getElementById('pack-selector-scroll');
-    if (packSelector) {
-        packSelector.addEventListener('click', (e) => {
-            const card = e.target.closest('.pack-card');
-            if (!card) return;
-            const packType = card.getAttribute('data-pack');
+    // パックカルーセル - クリックで直接開封 + ドラッグスクロール + 無限ループ
+    const carousel = document.getElementById('pack-carousel');
+    const track = document.getElementById('pack-carousel-track');
+    if (carousel && track) {
+        // -- 無限ループ用にクローンを追加 --
+        const origItems = Array.from(track.querySelectorAll('.pack-item'));
+        // 後ろにクローンセットを追加
+        origItems.forEach(item => {
+            const clone = item.cloneNode(true);
+            clone.classList.add('pack-clone');
+            track.appendChild(clone);
+        });
+        // 前にクローンセットを追加（逆順でinsertBeforeすることで正しい順序を維持）
+        [...origItems].reverse().forEach(item => {
+            const clone = item.cloneNode(true);
+            clone.classList.add('pack-clone');
+            track.insertBefore(clone, track.firstChild);
+        });
+
+        // 初期スクロール位置を1セット分ずらす（クローン分）
+        requestAnimationFrame(() => {
+            const firstItem = origItems[0];
+            const itemWidth = firstItem.offsetWidth + parseFloat(getComputedStyle(firstItem).marginLeft) + parseFloat(getComputedStyle(firstItem).marginRight);
+            track.scrollLeft = itemWidth * origItems.length;
+        });
+
+        // -- 無限ループ: スクロール端で位置をリセット --
+        let isResetting = false;
+        track.addEventListener('scroll', () => {
+            if (isResetting) return;
+            const firstItem = origItems[0];
+            const itemWidth = firstItem.offsetWidth + parseFloat(getComputedStyle(firstItem).marginLeft) + parseFloat(getComputedStyle(firstItem).marginRight);
+            const setWidth = itemWidth * origItems.length;
+            const maxScroll = track.scrollWidth - track.clientWidth;
+
+            if (track.scrollLeft <= itemWidth * 0.5) {
+                isResetting = true;
+                track.scrollLeft += setWidth;
+                isResetting = false;
+            } else if (track.scrollLeft >= maxScroll - itemWidth * 0.5) {
+                isResetting = true;
+                track.scrollLeft -= setWidth;
+                isResetting = false;
+            }
+        });
+
+        // -- ドラッグスクロール --
+        let isDragging = false;
+        let dragStartX = 0;
+        let dragScrollLeft = 0;
+        let hasDragged = false;
+
+        track.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            hasDragged = false;
+            dragStartX = e.pageX - track.offsetLeft;
+            dragScrollLeft = track.scrollLeft;
+            track.style.scrollBehavior = 'auto';
+        });
+
+        track.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            e.preventDefault();
+            const x = e.pageX - track.offsetLeft;
+            const walk = (x - dragStartX) * 1.5;
+            if (Math.abs(walk) > 5) hasDragged = true;
+            track.scrollLeft = dragScrollLeft - walk;
+        });
+
+        const endDrag = () => { isDragging = false; };
+        track.addEventListener('mouseup', endDrag);
+        track.addEventListener('mouseleave', endDrag);
+
+        // -- クリックで直接開封 --
+        track.addEventListener('click', async (e) => {
+            if (hasDragged) return; // ドラッグ後はクリック無効
+            const item = e.target.closest('.pack-item');
+            if (!item) return;
+            const packType = item.getAttribute('data-pack');
             if (!packType) return;
 
-            // 選択状態を更新 & 保存
+            // パック残数チェック
+            const packData = getPackData();
+            if (packData.current <= 0) {
+                showToast(t('toast.noPacks'), 'info');
+                return;
+            }
+
+            // 選択状態を保存
             selectedPackType = packType;
             setSetting('selectedPack', packType);
-            packSelector.querySelectorAll('.pack-card').forEach(c => c.classList.remove('active'));
-            card.classList.add('active');
 
             // パック画像を切り替え
             updatePackImage(packType);
 
-            // Top 200 進捗表示の更新
-            updateTop200Progress();
+            // 直接開封
+            navigateTo('pack');
+            if (window.MusicGacha && window.MusicGacha.openPack) {
+                await window.MusicGacha.openPack(packType);
+            }
         });
     }
 
@@ -410,20 +484,28 @@ function setupEventListeners() {
 
     function updateVolumeIcon(vol) {
         if (!volumeIcon) return;
+        let iconName;
         if (vol === 0 || isMuted) {
-            volumeIcon.textContent = '🔇';
+            iconName = 'volume-x';
         } else if (vol < 33) {
-            volumeIcon.textContent = '🔈';
+            iconName = 'volume';
         } else if (vol < 66) {
-            volumeIcon.textContent = '🔉';
+            iconName = 'volume-1';
         } else {
-            volumeIcon.textContent = '🔊';
+            iconName = 'volume-2';
         }
+        volumeIcon.innerHTML = icon(iconName, { size: 20 });
+        refreshIcons();
     }
 
     if (volumeSlider) {
-        const savedVol = parseInt(getSetting('volume') ?? '50', 10);
-        volumeSlider.value = savedVol;
+        const DEFAULT_VOLUME = 10;
+        const savedVol = getSetting('volume') != null ? parseInt(getSetting('volume'), 10) : DEFAULT_VOLUME;
+        volumeSlider.value = isNaN(savedVol) ? DEFAULT_VOLUME : savedVol;
+        // 初回アクセス時は即座にlocalStorageに保存（音が鳴るようにする）
+        if (getSetting('volume') == null) {
+            setSetting('volume', String(DEFAULT_VOLUME));
+        }
         updateVolumeIcon(isMuted ? 0 : savedVol);
 
         volumeSlider.addEventListener('input', (e) => {
@@ -501,12 +583,8 @@ function init() {
     if (langSelect) langSelect.value = settings.language;
 
     // パック選択の復元
-    const savedPack = getSetting('selectedPack') || 'standard';
+    const savedPack = getSetting('selectedPack') || 'top200';
     selectedPackType = savedPack;
-    const packCards = document.querySelectorAll('#pack-selector-scroll .pack-card');
-    packCards.forEach(card => {
-        card.classList.toggle('active', card.getAttribute('data-pack') === savedPack);
-    });
 
     // パック画像の初期設定
     updatePackImage(savedPack);
@@ -547,6 +625,17 @@ function init() {
 
     // 広告システム初期化
     initAds();
+
+    // Lucideアイコン初期化
+    refreshIcons();
+
+    // 初回アクセス時の音声注意トースト
+    if (!getSetting('firstVisitDone')) {
+        setSetting('firstVisitDone', true);
+        setTimeout(() => {
+            showToast('🔊 パック開封時に音楽が流れます。音量は右上で調整できます', 'info', 5000);
+        }, 1500);
+    }
 
     console.log('[MusicGacha] App initialized');
 }
