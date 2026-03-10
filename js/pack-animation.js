@@ -134,6 +134,27 @@ function crossfadeTo(newIndex) {
     startPlayback(newIndex);
 }
 
+// ---- iOS Audio Pool ----
+// iOS Safari では new Audio() をユーザージェスチャー外で play() できないため、
+// Audio 要素を2つ事前作成し src を切り替えて交互に再利用する
+const audioPool = [new Audio(), new Audio()];
+let audioPoolIndex = 0;
+
+function getNextPoolAudio() {
+    const audio = audioPool[audioPoolIndex];
+    audioPoolIndex = (audioPoolIndex + 1) % audioPool.length;
+    // 前回の再生状態をクリーンアップ
+    try {
+        audio.pause();
+        audio.currentTime = 0;
+    } catch (e) { /* ignore */ }
+    // イベントリスナーをリセット（古いリスナーが残るのを防ぐ）
+    audio.onended = null;
+    audio.onerror = null;
+    audio.ontimeupdate = null;
+    return audio;
+}
+
 /**
  * 曲を開始（フェードイン付き）
  */
@@ -151,12 +172,14 @@ function startPlayback(index) {
     let crossfadeStarted = false;
 
     try {
-        const audio = new Audio(item.previewUrl);
+        // iOS対応: Audio要素プールから再利用（new Audio()はiOSで自動再生不可）
+        const audio = getNextPoolAudio();
+        audio.src = item.previewUrl;
         audio.volume = 0;
-        audio.muted = getSetting('muted') === true; // iOS対応
+        audio.muted = getSetting('muted') === true;
 
         // プログレスバー更新 + 終了前クロスフェード検知
-        audio.addEventListener('timeupdate', () => {
+        audio.ontimeupdate = () => {
             // クロスフェード開始済み or 別の曲に切り替わった → 更新しない
             if (crossfadeStarted || playlistIndex !== index) return;
             // プログレスバー更新
@@ -169,21 +192,21 @@ function startPlayback(index) {
                 updateProgressBar(index, 0);
                 playNext();
             }
-        });
+        };
 
-        audio.addEventListener('ended', () => {
+        audio.onended = () => {
             if (!crossfadeStarted) {
                 crossfadeStarted = true;
                 updateProgressBar(index, 0);
                 playNext();
             }
-        });
-        audio.addEventListener('error', () => {
+        };
+        audio.onerror = () => {
             console.warn(`[Playlist] Audio error for track ${index}`);
             updateButton(index, false);
             updateProgressBar(index, 0);
             // エラー時は停止（playNextで無限ループしない）
-        });
+        };
 
         audio.play().then(() => {
             fadeInAudio(audio, targetVol);
