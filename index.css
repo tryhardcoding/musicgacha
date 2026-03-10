@@ -393,16 +393,16 @@ input {
     display: none;
   }
 
+  .header-volume {
+    display: none;
+  }
+
   .header-nav .nav-item {
     padding: 4px 8px;
   }
 
   .header-nav .nav-label {
     font-size: 0.72rem;
-  }
-
-  .volume-slider {
-    width: 50px;
   }
 
   .header-row {
