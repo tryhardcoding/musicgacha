@@ -252,7 +252,7 @@ export async function openCardDetail(card) {
     `;
   }
 
-  // 外部リンク（アフィリエイト対応）
+  // 外部リンク（アフィリエイト対応 - Amazon Music優先）
   if (playerContainer) {
     const appleMusicUrl = getAppleMusicUrl(card);
     const spotifyUrl = getSpotifyUrl(card);
@@ -261,18 +261,30 @@ export async function openCardDetail(card) {
 
     playerContainer.innerHTML = `
       <div class="modal-player-actions">
-        <a href="${appleMusicUrl}" target="_blank" rel="noopener" class="btn-apple-music">
-          ${icon('apple', { size: 16 })} Apple Musicで聴く
+        <a href="${amazonMusicUrl}" target="_blank" rel="noopener" class="btn-affiliate-primary btn-affiliate-amazon">
+          <span class="btn-affiliate-icon">🎧</span>
+          <span class="btn-affiliate-text">
+            <span class="btn-affiliate-label">フルで聴く</span>
+            <span class="btn-affiliate-sub">Amazon Music</span>
+          </span>
+          <span class="btn-affiliate-arrow">→</span>
         </a>
-        <a href="${spotifyUrl}" target="_blank" rel="noopener" class="btn-spotify">
-          ${icon('music', { size: 16 })} Spotifyで聴く
+        <a href="${appleMusicUrl}" target="_blank" rel="noopener" class="btn-affiliate-primary btn-affiliate-apple">
+          <span class="btn-affiliate-icon">🎵</span>
+          <span class="btn-affiliate-text">
+            <span class="btn-affiliate-label">フルで聴く</span>
+            <span class="btn-affiliate-sub">Apple Music</span>
+          </span>
+          <span class="btn-affiliate-arrow">→</span>
         </a>
-        <a href="${amazonMusicUrl}" target="_blank" rel="noopener" class="btn-amazon-music">
-          ${icon('shopping-cart', { size: 16 })} Amazon Musicで聴く
-        </a>
-        <a href="${youtubeUrl}" target="_blank" rel="noopener" class="btn-youtube">
-          ${icon('play', { size: 16 })} YouTubeで観る
-        </a>
+        <div class="modal-player-secondary">
+          <a href="${spotifyUrl}" target="_blank" rel="noopener" class="btn-service-sm btn-spotify-sm" title="Spotify">
+            ${icon('music', { size: 18 })}
+          </a>
+          <a href="${youtubeUrl}" target="_blank" rel="noopener" class="btn-service-sm btn-youtube-sm" title="YouTube">
+            ${icon('play', { size: 18 })}
+          </a>
+        </div>
       </div>
       <div class="modal-share-section">
         <button class="btn-share-card" id="btn-share-card">${icon('link', { size: 16 })} カードを共有する</button>

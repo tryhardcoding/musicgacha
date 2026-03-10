@@ -2935,6 +2935,294 @@ input {
   box-shadow: 0 4px 20px rgba(255, 0, 0, 0.2);
 }
 
+/* ---- Affiliate Primary CTA (Modal) ---- */
+.btn-affiliate-primary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-lg);
+  font-weight: 700;
+  color: #fff;
+  transition: all 0.3s var(--ease-spring);
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.btn-affiliate-primary::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 60%);
+  animation: affiliateShine 3s ease-in-out infinite;
+}
+
+@keyframes affiliateShine {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+  }
+
+  50% {
+    transform: translateX(100%) rotate(45deg);
+  }
+
+  100% {
+    transform: translateX(100%) rotate(45deg);
+  }
+}
+
+.btn-affiliate-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.btn-affiliate-primary:hover .btn-affiliate-arrow {
+  transform: translateX(4px);
+}
+
+/* Amazon variant */
+.btn-affiliate-amazon {
+  background: linear-gradient(135deg, #ff9900, #ff6600);
+  animation: amazonPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes amazonPulse {
+
+  0%,
+  100% {
+    box-shadow: 0 4px 20px rgba(255, 153, 0, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 6px 30px rgba(255, 153, 0, 0.5), 0 0 50px rgba(255, 102, 0, 0.15);
+  }
+}
+
+.btn-affiliate-amazon:hover {
+  box-shadow: 0 8px 32px rgba(255, 153, 0, 0.5), 0 0 60px rgba(255, 102, 0, 0.2);
+}
+
+/* Apple Music variant */
+.btn-affiliate-apple {
+  background: linear-gradient(135deg, #fc3c44, #d63384);
+  animation: applePulse 2.5s ease-in-out infinite;
+}
+
+@keyframes applePulse {
+
+  0%,
+  100% {
+    box-shadow: 0 4px 20px rgba(252, 60, 68, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 6px 30px rgba(252, 60, 68, 0.5), 0 0 50px rgba(214, 51, 132, 0.15);
+  }
+}
+
+.btn-affiliate-apple:hover {
+  box-shadow: 0 8px 32px rgba(252, 60, 68, 0.5), 0 0 60px rgba(214, 51, 132, 0.2);
+}
+
+.btn-affiliate-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-affiliate-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-affiliate-label {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.btn-affiliate-sub {
+  font-size: 0.75rem;
+  opacity: 0.85;
+  font-weight: 500;
+}
+
+.btn-affiliate-arrow {
+  font-size: 1.2rem;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s ease;
+}
+
+/* ---- Secondary Service Buttons (Modal) ---- */
+.modal-player-secondary {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  margin-top: var(--space-xs);
+}
+
+.btn-service-sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  transition: all 0.2s var(--ease-spring);
+  text-decoration: none;
+}
+
+.btn-apple-sm {
+  background: rgba(252, 60, 68, 0.12);
+  border: 1px solid rgba(252, 60, 68, 0.25);
+  color: #fc3c44;
+}
+
+.btn-apple-sm:hover {
+  background: rgba(252, 60, 68, 0.25);
+  border-color: rgba(252, 60, 68, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(252, 60, 68, 0.2);
+}
+
+.btn-spotify-sm {
+  background: rgba(29, 185, 84, 0.12);
+  border: 1px solid rgba(29, 185, 84, 0.25);
+  color: #1db954;
+}
+
+.btn-spotify-sm:hover {
+  background: rgba(29, 185, 84, 0.25);
+  border-color: rgba(29, 185, 84, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(29, 185, 84, 0.2);
+}
+
+.btn-youtube-sm {
+  background: rgba(255, 0, 0, 0.12);
+  border: 1px solid rgba(255, 0, 0, 0.25);
+  color: #ff4444;
+}
+
+.btn-youtube-sm:hover {
+  background: rgba(255, 0, 0, 0.25);
+  border-color: rgba(255, 0, 0, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(255, 0, 0, 0.2);
+}
+
+/* ---- Amazon Music CTA Banner (Post-Preview) ---- */
+.amazon-cta-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-toast);
+  padding: 0 var(--space-md) var(--space-md);
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.4s var(--ease-spring), opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.amazon-cta-banner.visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.amazon-cta-banner.hiding {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.3s ease-in, opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.amazon-cta-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  background: linear-gradient(135deg, #ff9900, #ff6600);
+  border-radius: var(--radius-lg);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 8px 32px rgba(255, 153, 0, 0.4), 0 -4px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s var(--ease-spring);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.amazon-cta-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(255, 153, 0, 0.5), 0 -4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.amazon-cta-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.amazon-cta-label {
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+.amazon-cta-song {
+  font-size: 0.72rem;
+  opacity: 0.85;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.amazon-cta-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.amazon-cta-close {
+  position: absolute;
+  top: -8px;
+  right: var(--space-lg);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.amazon-cta-close:hover {
+  background: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+
+/* Legacy: keep .btn-amazon-music for backward compat */
 .btn-amazon-music {
   display: flex;
   align-items: center;

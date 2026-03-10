@@ -6,9 +6,10 @@
 import { renderCard } from './card-renderer.js';
 import { t } from './i18n.js';
 import { getSetting } from './storage.js';
+import { showAmazonCta } from './amazon-cta.js';
 
 // ---- Playlist Controller ----
-let playlist = [];        // { previewUrl, btnEl, cardEl } の配列
+let playlist = [];        // { previewUrl, btnEl, cardEl, cardData } の配列
 let playlistIndex = -1;
 let currentAudio = null;
 let isPlaying = false;
@@ -35,8 +36,8 @@ function resetPlaylist() {
     playlistIndex = -1;
 }
 
-function registerCard(previewUrl, btnEl, cardEl) {
-    playlist.push({ previewUrl, btnEl, cardEl });
+function registerCard(previewUrl, btnEl, cardEl, cardData = null) {
+    playlist.push({ previewUrl, btnEl, cardEl, cardData });
 }
 
 /**
@@ -70,16 +71,24 @@ function playCard(btnEl) {
 function playNext() {
     if (playlist.length === 0) return;
 
-    // 最後の曲が終了 → 自動開封チェック
-    if (playlistIndex === playlist.length - 1 && window.MusicGacha?.isAutoOpenEnabled?.()) {
-        stopPlayback();
-        // 少し遅延してから自動開封（フェードアウトの余韻）
-        setTimeout(() => {
-            if (window.MusicGacha?.triggerAutoOpen) {
-                window.MusicGacha.triggerAutoOpen();
-            }
-        }, 500);
-        return;
+    // 最後の曲が終了
+    if (playlistIndex === playlist.length - 1) {
+        // Amazon Music CTA表示（最後に再生した曲のデータを使用）
+        const lastCard = playlist[playlistIndex]?.cardData;
+        if (lastCard) {
+            // 少し遅延してからCTA表示（フェードアウトの余韻）
+            setTimeout(() => showAmazonCta(lastCard), 600);
+        }
+
+        if (window.MusicGacha?.isAutoOpenEnabled?.()) {
+            stopPlayback();
+            setTimeout(() => {
+                if (window.MusicGacha?.triggerAutoOpen) {
+                    window.MusicGacha.triggerAutoOpen();
+                }
+            }, 500);
+            return;
+        }
     }
 
     let attempts = 0;
@@ -441,7 +450,7 @@ export async function renderPackOpening(cardsPromise, isGold = false, autoTap = 
 
                 // カードの再生ボタンをプレイリストに登録
                 const listenBtn = cardEl.querySelector('.card-listen-btn');
-                registerCard(card.previewUrl || null, listenBtn, cardEl);
+                registerCard(card.previewUrl || null, listenBtn, cardEl, card);
 
                 // プログレスバーをカードに追加
                 const progressBar = document.createElement('div');
