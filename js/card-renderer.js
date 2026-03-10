@@ -269,15 +269,10 @@ export async function openCardDetail(card) {
           </span>
           <span class="btn-affiliate-arrow">→</span>
         </a>
-        <a href="${appleMusicUrl}" target="_blank" rel="noopener" class="btn-affiliate-primary btn-affiliate-apple">
-          <span class="btn-affiliate-icon">🎵</span>
-          <span class="btn-affiliate-text">
-            <span class="btn-affiliate-label">フルで聴く</span>
-            <span class="btn-affiliate-sub">Apple Music</span>
-          </span>
-          <span class="btn-affiliate-arrow">→</span>
-        </a>
         <div class="modal-player-secondary">
+          <a href="${appleMusicUrl}" target="_blank" rel="noopener" class="btn-service-sm btn-apple-sm" title="Apple Music">
+            ${icon('music', { size: 18 })}
+          </a>
           <a href="${spotifyUrl}" target="_blank" rel="noopener" class="btn-service-sm btn-spotify-sm" title="Spotify">
             ${icon('music', { size: 18 })}
           </a>

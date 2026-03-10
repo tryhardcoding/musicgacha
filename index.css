@@ -4383,6 +4383,13 @@ svg.lucide {
   padding-top: var(--space-sm);
 }
 
+.footer-itunes-credit {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.15);
+  padding-top: var(--space-xs);
+  font-style: italic;
+}
+
 /* ============================================================
    Ad System Styles
    ============================================================ */
