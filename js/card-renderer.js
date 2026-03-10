@@ -74,6 +74,7 @@ function toggleCardPreview(btn, previewUrl) {
   const audio = new Audio(previewUrl);
   const parsedVol = vol != null ? parseInt(vol, 10) : NaN;
   audio.volume = isMuted ? 0 : (isNaN(parsedVol) ? 0.1 : parsedVol / 100);
+  audio.muted = isMuted; // iOS対応: audio.volumeが効かないためmutedプロパティも設定
   audio.addEventListener('ended', () => {
     btn.innerHTML = ICON_PLAY_SM;
     btn.classList.remove('playing');

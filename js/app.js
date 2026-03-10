@@ -517,9 +517,15 @@ function setupEventListeners() {
             if (window.MusicGacha?.setPreviewVolume) {
                 window.MusicGacha.setPreviewVolume(vol / 100);
             }
+            if (window.MusicGacha?.setPreviewMuted) {
+                window.MusicGacha.setPreviewMuted(false);
+            }
             // カード単体再生の音量も連動
             const cardAudio = window.MusicGacha?.getActiveCardAudio?.();
-            if (cardAudio) cardAudio.volume = vol / 100;
+            if (cardAudio) {
+                cardAudio.volume = vol / 100;
+                cardAudio.muted = false;
+            }
         });
     }
 
@@ -529,12 +535,19 @@ function setupEventListeners() {
             setSetting('muted', isMuted);
             const vol = isMuted ? 0 : parseInt(volumeSlider?.value || '50', 10);
             updateVolumeIcon(vol);
-            if (window.MusicGacha?.setPreviewVolume) {
+            // iOS対応: audio.mutedを使用（audio.volumeはiOSで無効）
+            if (window.MusicGacha?.setPreviewMuted) {
+                window.MusicGacha.setPreviewMuted(isMuted);
+            }
+            if (!isMuted && window.MusicGacha?.setPreviewVolume) {
                 window.MusicGacha.setPreviewVolume(vol / 100);
             }
             // カード単体再生のミュートも連動
             const cardAudio = window.MusicGacha?.getActiveCardAudio?.();
-            if (cardAudio) cardAudio.volume = vol / 100;
+            if (cardAudio) {
+                cardAudio.muted = isMuted;
+                if (!isMuted) cardAudio.volume = vol / 100;
+            }
         });
     }
 

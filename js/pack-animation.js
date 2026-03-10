@@ -153,6 +153,7 @@ function startPlayback(index) {
     try {
         const audio = new Audio(item.previewUrl);
         audio.volume = 0;
+        audio.muted = getSetting('muted') === true; // iOS対応
 
         // プログレスバー更新 + 終了前クロスフェード検知
         audio.addEventListener('timeupdate', () => {
@@ -300,6 +301,12 @@ function setPreviewVolume(vol) {
     }
 }
 
+function setPreviewMuted(muted) {
+    if (currentAudio) {
+        currentAudio.muted = muted;
+    }
+}
+
 // パック開封セッションをキャンセル（画面遷移時に呼ばれる）
 function cancelPackSession() {
     packSessionId++;
@@ -310,6 +317,7 @@ if (typeof window !== 'undefined') {
     window.MusicGacha = window.MusicGacha || {};
     window.MusicGacha.stopPreview = stopPlayback;
     window.MusicGacha.setPreviewVolume = setPreviewVolume;
+    window.MusicGacha.setPreviewMuted = setPreviewMuted;
     window.MusicGacha.playlistPlayCard = playCard;
     window.MusicGacha.cancelPackSession = cancelPackSession;
 }
