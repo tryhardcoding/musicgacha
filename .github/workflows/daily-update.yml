@@ -12,7 +12,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 720 # 12時間（エンリッチに長時間かかるため）
+    timeout-minutes: 45 # 無料枠節約（Fetch/Merge/Assign + Enrich 50曲で十分）
     permissions:
       contents: write
     steps:
@@ -31,8 +31,8 @@ jobs:
       - name: Assign rarity
         run: node scripts/assign-rarity.js
 
-      - name: Enrich iTunes data (songs.json)
-        run: node scripts/enrich-itunes-data.js
+      - name: Enrich iTunes data (songs.json, max 50)
+        run: node scripts/enrich-itunes-data.js --limit 50
 
       - name: Enrich iTunes data (Top 200)
         run: node scripts/enrich-itunes-data.js --top200
