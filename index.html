@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css?v=20260311">
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 
   <!-- Google AdSense -->
@@ -68,18 +68,10 @@
           <span class="pack-info-label" data-i18n="home.packs">パック</span>
           <span class="pack-regen-timer" id="pack-regen-timer"></span>
         </div>
-        <div class="pack-info-divider"></div>
-        <div class="pack-info-item">
-          <span class="pack-info-icon"><i data-lucide="trophy"></i></span>
-          <span class="pack-info-value"><span id="top200-collected">0</span>/200</span>
-          <div style="display:flex;flex-direction:column;">
-            <span class="pack-info-label">TOP 200</span>
-            <span class="pack-info-desc">毎日更新のチャートを集めよう</span>
-          </div>
-        </div>
       </div>
 
       <!-- パックカルーセル - 横スクロール周回 -->
+      <h2 class="section-title">🎵 パックを選ぶ</h2>
       <div class="pack-carousel" id="pack-carousel">
         <div class="pack-carousel-track" id="pack-carousel-track">
           <button class="pack-item" data-pack="top200">
@@ -115,6 +107,42 @@
             <img class="pack-item-img" src="assets/pack-western.png" alt="Western" draggable="false">
             <span class="pack-item-name" data-i18n="pack.western">洋楽</span>
           </button>
+        </div>
+      </div>
+
+      <!-- TOP200 チャレンジカード -->
+      <div class="top200-challenge-card" id="top200-challenge-card">
+        <div class="top200-challenge-glow"></div>
+        <div class="top200-challenge-content">
+          <div class="top200-challenge-left">
+            <div class="top200-ring-container">
+              <svg class="top200-ring" viewBox="0 0 120 120">
+                <circle class="top200-ring-track" cx="60" cy="60" r="52" />
+                <circle class="top200-ring-fill" id="top200-ring-fill" cx="60" cy="60" r="52" />
+              </svg>
+              <div class="top200-ring-center">
+                <span class="top200-ring-number" id="top200-ring-number">0</span>
+                <span class="top200-ring-total">/200</span>
+              </div>
+            </div>
+          </div>
+          <div class="top200-challenge-right">
+            <div class="top200-challenge-header">
+              <span class="top200-challenge-icon"><i data-lucide="trophy"></i></span>
+              <span class="top200-challenge-title">TOP 200 チャレンジ</span>
+            </div>
+            <div class="top200-challenge-bar-container">
+              <div class="top200-challenge-bar">
+                <div class="top200-challenge-bar-fill" id="top200-challenge-bar-fill"></div>
+                <div class="top200-challenge-bar-shine"></div>
+              </div>
+              <span class="top200-challenge-percent" id="top200-challenge-percent">0%</span>
+            </div>
+            <div class="top200-challenge-milestone" id="top200-challenge-milestone"></div>
+            <div class="top200-challenge-cta" id="top200-challenge-cta">
+              毎日更新のチャートを集めよう →
+            </div>
+          </div>
         </div>
       </div>
 
@@ -306,6 +334,14 @@
         <span class="footer-link-sep">|</span>
         <a href="#" class="footer-link footer-link-danger" id="btn-reset-data"
           data-i18n="settings.resetData">データリセット</a>
+      </div>
+
+      <!-- Buy Me a Coffee -->
+      <div class="footer-support">
+        <p class="footer-support-msg">サーバー代で赤字運営中です…<br>もしよければ、コーヒー1杯分のご支援をいただけると嬉しいです！</p>
+        <a href="https://buymeacoffee.com/musicgacha" target="_blank" rel="noopener" class="btn-buymeacoffee">
+          ☕ Buy me a coffee
+        </a>
       </div>
 
       <!-- クレジット -->

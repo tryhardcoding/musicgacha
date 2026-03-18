@@ -121,7 +121,11 @@ async function main() {
 
         // 4. JSONに保存
         const now = new Date();
-        const chartDate = now.toISOString().split('T')[0]; // YYYY-MM-DD
+        // JST (UTC+9) の翌日をチャート日付とする
+        // 例: 3/10 JST 05:00 (= 3/9 UTC 20:00) に取得 → chartDate = 3/11
+        const jstNow = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+        const jstTomorrow = new Date(jstNow.getTime() + 24 * 60 * 60 * 1000);
+        const chartDate = jstTomorrow.toISOString().split('T')[0]; // YYYY-MM-DD
 
         const output = {
             fetchedAt: now.toISOString(),

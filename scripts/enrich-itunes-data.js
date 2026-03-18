@@ -18,7 +18,7 @@ const path = require('path');
 // ---- 設定 ----
 const ITUNES_API = 'https://itunes.apple.com/search';
 const RATE_LIMIT_MS = 3000; // 3秒間隔（20回/分以内、余裕を持って）
-const REQUEST_TIMEOUT_MS = 15000; // 15秒タイムアウト
+const REQUEST_TIMEOUT_MS = 10000; // 10秒タイムアウト
 
 // ---- 除外設定 ----
 const EXCLUDED_TITLE_KEYWORDS = ['instrumental'];
@@ -178,11 +178,11 @@ async function enrichSongsJson(options) {
     if (options.dryRun) console.log(`DRY RUN: No files will be written`);
     if (options.force) console.log(`FORCE: Re-fetching existing data`);
 
-    // フィルタリング: previewUrl が既にあるものはスキップ（--force でない場合）
+    // フィルタリング: itunesSearched 済みのものはスキップ（--force でない場合）
     let targets = allTracks;
     if (!options.force) {
-        targets = allTracks.filter(item => !item.track.previewUrl);
-        console.log(`Tracks needing enrichment: ${targets.length} (${allTracks.length - targets.length} already have previewUrl)`);
+        targets = allTracks.filter(item => !item.track.itunesSearched);
+        console.log(`Tracks needing enrichment: ${targets.length} (${allTracks.length - targets.length} already searched)`);
     }
 
     // --limit
@@ -231,22 +231,34 @@ async function enrichSongsJson(options) {
                 // 全参照先のトラックに反映
                 for (const ref of item.refs) {
                     Object.assign(packs[ref.packId][ref.index], enrichedData);
+                    packs[ref.packId][ref.index].itunesSearched = true;
                 }
 
                 success++;
             } else {
+                // 見つからなかった場合もマーク
+                for (const ref of item.refs) {
+                    packs[ref.packId][ref.index].itunesSearched = true;
+                }
                 failed++;
             }
         } catch (err) {
             if (err.message.includes('Rate limited')) {
                 rateLimitHits++;
-                console.warn(`  ⚠ Rate limited! Waiting 60s before retry...`);
-                await sleep(60000); // 60秒待機
+                console.warn(`  ⚠ Rate limited! Waiting 30s before retry...`);
+                await sleep(30000); // 30秒待機
                 i--; // リトライ
                 continue;
             }
             console.warn(`  ✗ Error for "${track.name}" by ${track.artist}: ${err.message}`);
             failed++;
+        }
+
+        // 50曲ごとに中間保存
+        if ((i + 1) % 50 === 0 && !options.dryRun) {
+            data.enrichedAt = new Date().toISOString();
+            fs.writeFileSync(songsPath, JSON.stringify(data, null, 2), 'utf-8');
+            console.log(`  💾 中間保存 (${i + 1}/${targets.length})`);
         }
 
         // レート制限（最後以外）
@@ -338,8 +350,8 @@ async function enrichTop200(options) {
             }
         } catch (err) {
             if (err.message.includes('Rate limited')) {
-                console.warn(`  ⚠ Rate limited! Waiting 60s...`);
-                await sleep(60000);
+                console.warn(`  ⚠ Rate limited! Waiting 30s...`);
+                await sleep(30000);
                 i--;
                 continue;
             }

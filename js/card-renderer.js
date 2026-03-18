@@ -111,6 +111,7 @@ export function renderCard(card, options = {}) {
     <div class="card-overlay"></div>
     <div class="card-border"></div>
     <span class="card-rarity-badge rarity-badge-${card.rarity.toLowerCase()}">${card.rarity}</span>
+    ${card.chartRank ? `<span class="card-rank-badge">No.${card.chartRank}</span>` : ''}
     <span class="card-fav-icon${isFav ? ' active' : ''}" title="お気に入り">${isFav ? icon('heart', { size: 16, class: 'fav-heart' }) : ''}</span>
     <div class="card-content">
       <div class="card-title" title="${escapeHtml(card.title)}">${escapeHtml(card.title)}</div>

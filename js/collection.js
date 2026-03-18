@@ -27,7 +27,25 @@ export function initCollection() {
     initialized = true;
     setupFilterListeners();
     setupPackFilterListeners();
-    renderCollection();
+
+    // デフォルトをTOP200ビューにする
+    currentPackFilter = 'top200';
+
+    // タブのアクティブ状態を切替
+    const tabContainer = document.getElementById('pack-filter-tabs');
+    if (tabContainer) {
+        tabContainer.querySelectorAll('.pack-filter-tab').forEach(t => t.classList.remove('active'));
+        const top200Tab = tabContainer.querySelector('[data-pack-filter="top200"]');
+        if (top200Tab) top200Tab.classList.add('active');
+    }
+
+    // ビュー切替
+    const normalView = document.getElementById('collection-normal-view');
+    const top200View = document.getElementById('collection-top200-view');
+    if (normalView) normalView.style.display = 'none';
+    if (top200View) top200View.style.display = '';
+
+    loadTop200DateList().then(() => renderTop200View());
 }
 
 // ---- Pack Filter ----

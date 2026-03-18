@@ -646,7 +646,7 @@ function emitTearSparks(packVisual, tearYPercent, count = 12) {
         spark.style.height = `${size}px`;
 
         if (Math.random() > 0.6) {
-            spark.style.background = 'rgba(200, 170, 255, 0.9)';
+            spark.style.background = 'rgba(100, 220, 150, 0.9)';
         }
 
         packVisual.appendChild(spark);
@@ -682,9 +682,9 @@ async function animatePackOpen(packVisual) {
 
     // ---- Phase 2: 光る（強化版）----
     packVisual.style.transition = 'filter 0.3s ease';
-    packVisual.style.filter = 'drop-shadow(0 0 20px rgba(139, 92, 246, 0.6)) drop-shadow(0 0 40px rgba(236, 72, 153, 0.3))';
+    packVisual.style.filter = 'drop-shadow(0 0 20px rgba(29, 185, 84, 0.6)) drop-shadow(0 0 40px rgba(255, 107, 53, 0.3))';
     await delay(150);
-    packVisual.style.filter = 'drop-shadow(0 0 40px rgba(200, 170, 255, 0.9)) drop-shadow(0 0 70px rgba(139, 92, 246, 0.6)) brightness(1.15)';
+    packVisual.style.filter = 'drop-shadow(0 0 40px rgba(100, 220, 150, 0.9)) drop-shadow(0 0 70px rgba(29, 185, 84, 0.6)) brightness(1.15)';
     await delay(200);
 
     // フロートアニメーション停止

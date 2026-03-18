@@ -77,12 +77,8 @@ function updateHomeScreen() {
     const currentEl = document.getElementById('pack-count-current');
     if (currentEl) currentEl.textContent = packData.current;
 
-    // TOP200 収集枚数
-    const top200El = document.getElementById('top200-collected');
-    if (top200El) {
-        const top200Data = getTop200Data();
-        top200El.textContent = top200Data.obtainedKeys ? top200Data.obtainedKeys.length : 0;
-    }
+    // TOP200 チャレンジカード更新
+    updateTop200ChallengeCard();
 
     // 開封ボタン
     const btnOpen = document.getElementById('btn-open-pack');
@@ -157,6 +153,76 @@ function updateRegenTimer() {
 
     tick();
     regenTimerInterval = setInterval(tick, 1000);
+}
+
+function updateTop200ChallengeCard() {
+    const card = document.getElementById('top200-challenge-card');
+    if (!card) return;
+
+    const top200Data = getTop200Data();
+    const obtained = top200Data.obtainedKeys ? top200Data.obtainedKeys.length : 0;
+    const total = 200;
+    const percentage = Math.min((obtained / total) * 100, 100);
+    const remaining = total - obtained;
+
+    // 円形プログレスリング更新
+    const ringFill = document.getElementById('top200-ring-fill');
+    const ringNumber = document.getElementById('top200-ring-number');
+    if (ringFill) {
+        const circumference = 2 * Math.PI * 52; // r=52
+        const offset = circumference - (percentage / 100) * circumference;
+        ringFill.style.strokeDashoffset = offset;
+    }
+    if (ringNumber) ringNumber.textContent = obtained;
+
+    // プログレスバー更新
+    const barFill = document.getElementById('top200-challenge-bar-fill');
+    const percentEl = document.getElementById('top200-challenge-percent');
+    if (barFill) barFill.style.width = `${percentage}%`;
+    if (percentEl) percentEl.textContent = `${Math.round(percentage)}%`;
+
+    // マイルストーンバッジ
+    const milestoneEl = document.getElementById('top200-challenge-milestone');
+    if (milestoneEl) {
+        const milestones = [
+            { threshold: 0, title: 'ビギナー', iconName: 'music' },
+            { threshold: 50, title: 'ハンター', iconName: 'target' },
+            { threshold: 100, title: 'コレクター', iconName: 'gem' },
+            { threshold: 150, title: 'マスター', iconName: 'crown' },
+            { threshold: 200, title: 'コンプリート', iconName: 'trophy' }
+        ];
+
+        let currentMilestone = milestones[0];
+        let nextMilestone = milestones[1];
+        for (let i = milestones.length - 1; i >= 0; i--) {
+            if (obtained >= milestones[i].threshold) {
+                currentMilestone = milestones[i];
+                nextMilestone = milestones[i + 1] || null;
+                break;
+            }
+        }
+
+        let html = `<span class="milestone-badge milestone-badge-current"><i data-lucide="${currentMilestone.iconName}"></i> ${currentMilestone.title}</span>`;
+        if (nextMilestone) {
+            html += `<span class="milestone-badge milestone-badge-next">次: <i data-lucide="${nextMilestone.iconName}"></i> ${nextMilestone.title} (${nextMilestone.threshold}曲)</span>`;
+        }
+        milestoneEl.innerHTML = html;
+        refreshIcons();
+    }
+
+    // CTAテキスト
+    const ctaEl = document.getElementById('top200-challenge-cta');
+    if (ctaEl) {
+        if (remaining === 0) {
+            ctaEl.textContent = '全200曲コンプリート！';
+        } else if (remaining <= 10) {
+            ctaEl.textContent = `あと${remaining}曲で完全制覇！ →`;
+        } else if (remaining <= 50) {
+            ctaEl.textContent = `あと${remaining}曲！ゴールが見えてきた →`;
+        } else {
+            ctaEl.textContent = `あと${remaining}曲で完全制覇！ →`;
+        }
+    }
 }
 
 async function updateTop200Progress() {
@@ -289,7 +355,17 @@ function setupEventListeners() {
         });
     });
 
-
+    // TOP200チャレンジカード クリック
+    const challengeCard = document.getElementById('top200-challenge-card');
+    if (challengeCard) {
+        challengeCard.addEventListener('click', () => {
+            navigateTo('collection');
+            setTimeout(() => {
+                const top200Tab = document.querySelector('[data-pack-filter="top200"]');
+                if (top200Tab) top200Tab.click();
+            }, 100);
+        });
+    }
 
     // デイリーボーナス
     const btnBonus = document.getElementById('btn-daily-bonus');
@@ -577,6 +653,23 @@ function setupEventListeners() {
     });
 }
 
+// ---- SVG Gradient Injection for Top200 Ring ----
+function injectTop200Gradient() {
+    const svg = document.querySelector('.top200-ring');
+    if (!svg) return;
+    // Check if gradient already injected
+    if (document.getElementById('top200-gradient')) return;
+    const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+    defs.innerHTML = `
+        <linearGradient id="top200-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fbbf24" />
+            <stop offset="50%" stop-color="#f59e0b" />
+            <stop offset="100%" stop-color="#ef4444" />
+        </linearGradient>
+    `;
+    svg.insertBefore(defs, svg.firstChild);
+}
+
 // ---- Initialization ----
 
 function init() {
@@ -642,6 +735,9 @@ function init() {
 
     // Lucideアイコン初期化
     refreshIcons();
+
+    // SVGグラデーション定義を注入
+    injectTop200Gradient();
 
     // 初回アクセス時の音声注意トースト
     if (!getSetting('firstVisitDone')) {
