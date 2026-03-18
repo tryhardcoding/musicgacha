@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-18T20:07:39.243Z",
+  "fetchedAt": "2026-03-18T21:16:26.226Z",
   "chartDate": "2026-03-20",
   "source": "kworb.net/charts/itunes/jp.html",
   "totalTracks": 200,
@@ -31,13 +31,13 @@
     },
     {
       "rank": 6,
-      "artist": "Yuuri",
-      "name": "The World Has Ended"
+      "artist": "SixTONES",
+      "name": "Ichibyo"
     },
     {
       "rank": 7,
-      "artist": "SixTONES",
-      "name": "Ichibyo"
+      "artist": "Yuuri",
+      "name": "The World Has Ended"
     },
     {
       "rank": 8,
@@ -156,13 +156,13 @@
     },
     {
       "rank": 31,
-      "artist": "Aina The End",
-      "name": "On The Way"
+      "artist": "SG",
+      "name": "Us, Again"
     },
     {
       "rank": 32,
-      "artist": "SG",
-      "name": "Us, Again"
+      "artist": "Aina The End",
+      "name": "On The Way"
     },
     {
       "rank": 33,
@@ -191,23 +191,23 @@
     },
     {
       "rank": 38,
-      "artist": "back number",
-      "name": "Suiheisen"
-    },
-    {
-      "rank": 39,
       "artist": "Kaguya(cv.Yuko Natsuyoshi) & Yachiyo Runami(cv.Saori Hayami)",
       "name": "Ray (Cosmic Princess Kaguya! Version)"
     },
     {
+      "rank": 39,
+      "artist": "back number",
+      "name": "Suiheisen"
+    },
+    {
       "rank": 40,
       "artist": "Mrs. GREEN APPLE",
-      "name": "Tenbyouno Uta (feat. Sonoko Inoue)"
+      "name": "Lilac"
     },
     {
       "rank": 41,
       "artist": "Mrs. GREEN APPLE",
-      "name": "Lilac"
+      "name": "Tenbyouno Uta (feat. Sonoko Inoue)"
     },
     {
       "rank": 42,
@@ -231,18 +231,18 @@
     },
     {
       "rank": 46,
-      "artist": "Snow Man",
-      "name": "CHARISMAX"
-    },
-    {
-      "rank": 47,
       "artist": "sakanaction",
       "name": "IRANAI"
     },
     {
+      "rank": 47,
+      "artist": "Snow Man",
+      "name": "CHARISMAX"
+    },
+    {
       "rank": 48,
-      "artist": "Tatsuya Kitani",
-      "name": "Kasuka na Hana (OP Theme to Hell's Paradise: Jigokuraku Season 2) [feat. BABYMETAL]"
+      "artist": "MAISONdes",
+      "name": "Ash&Ember (feat. LiSA & Nanahoshikanngenngakudan)"
     },
     {
       "rank": 49,
@@ -251,33 +251,33 @@
     },
     {
       "rank": 50,
+      "artist": "SYOYA(JO1) & PUPPET SUNSUN",
+      "name": "Puppet Land"
+    },
+    {
+      "rank": 51,
       "artist": "Charlie Puth",
       "name": "Home (feat. Hikaru Utada)"
     },
     {
-      "rank": 51,
-      "artist": "HANA",
-      "name": "Cold Night"
+      "rank": 52,
+      "artist": "Tatsuya Kitani",
+      "name": "Kasuka na Hana (OP Theme to Hell's Paradise: Jigokuraku Season 2) [feat. BABYMETAL]"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "artist": "Natsuki Shinomiya, Jinguji Ren, RANMARU KUROSAKI(CV.Tatsuhisa Suzuki), CAMUS(CV.Tomoaki Maeno), EIJI OTORI(CV.Yuma Uchida) & VAN KIRYUIN(CV.Hidenori Takahashi)",
       "name": "メガLOVEハッピーワールド"
     },
     {
-      "rank": 53,
-      "artist": "MAISONdes",
-      "name": "Ash&Ember (feat. LiSA & Nanahoshikanngenngakudan)"
-    },
-    {
       "rank": 54,
-      "artist": "MASATO HIJIRIKAWA(CV.Kenichi Suzumura), Ichinose Tokiya, Aijima Cecil, AI MIKAZE(CV.Shouta Aoi), KIRA SUMERAGI(CV.Daisuke Ono) & SHION AMAKUSA(CV.Daiki Yamashita)",
-      "name": "夢ノ聖火"
+      "artist": "HANA",
+      "name": "Cold Night"
     },
     {
       "rank": 55,
-      "artist": "HANA",
-      "name": "ALL IN"
+      "artist": "MASATO HIJIRIKAWA(CV.Kenichi Suzumura), Ichinose Tokiya, Aijima Cecil, AI MIKAZE(CV.Shouta Aoi), KIRA SUMERAGI(CV.Daisuke Ono) & SHION AMAKUSA(CV.Daiki Yamashita)",
+      "name": "夢ノ聖火"
     },
     {
       "rank": 56,
@@ -291,13 +291,13 @@
     },
     {
       "rank": 58,
-      "artist": "C&K",
-      "name": "Y"
+      "artist": "OTOYA ITTOKI(CV.Takuma Terashima), Syo Kurusu, REIJI KOTOBUKI(CV.Showtaro Morikubo), EIICHI OTORI(CV.Hikaru Midorikawa), NAGI MIKADO(CV.Tsubasa Yonaga) & YAMATO HYUGA(CV.Ryohei Kimura)",
+      "name": "MUSIC ENERGY"
     },
     {
       "rank": 59,
-      "artist": "OTOYA ITTOKI(CV.Takuma Terashima), Syo Kurusu, REIJI KOTOBUKI(CV.Showtaro Morikubo), EIICHI OTORI(CV.Hikaru Midorikawa), NAGI MIKADO(CV.Tsubasa Yonaga) & YAMATO HYUGA(CV.Ryohei Kimura)",
-      "name": "MUSIC ENERGY"
+      "artist": "HANA",
+      "name": "ALL IN"
     },
     {
       "rank": 60,
@@ -306,8 +306,8 @@
     },
     {
       "rank": 61,
-      "artist": "Humbert Humbert",
-      "name": "Smiles and Stumbles"
+      "artist": "C&K",
+      "name": "Y"
     },
     {
       "rank": 62,
@@ -316,158 +316,158 @@
     },
     {
       "rank": 63,
+      "artist": "Humbert Humbert",
+      "name": "Smiles and Stumbles"
+    },
+    {
+      "rank": 64,
       "artist": "OFFICIAL HIGE DANDISM",
       "name": "Subtitle"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "artist": "M!LK",
       "name": "E Jan"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "artist": "Mrs. GREEN APPLE",
       "name": "Darling"
     },
     {
-      "rank": 66,
-      "artist": "Stray Kids",
-      "name": "Endless Sun"
-    },
-    {
       "rank": 67,
-      "artist": "HE★VENS, HYPNOSISMIC -D.R.B- (Buster Bros!!!) & HYPNOSISMIC -D.R.B- (Bad Ass Temple)",
-      "name": "FLAG"
-    },
-    {
-      "rank": 68,
-      "artist": "Ryokuoushoku Shakai",
-      "name": "étoile"
-    },
-    {
-      "rank": 69,
-      "artist": "Shakira",
-      "name": "Zoo"
-    },
-    {
-      "rank": 70,
-      "artist": "Yorushika",
-      "name": "Plover"
-    },
-    {
-      "rank": 71,
-      "artist": "MELLOW DEAR US",
-      "name": "Dear World"
-    },
-    {
-      "rank": 72,
       "artist": "Chanmina",
       "name": "TEST ME"
     },
     {
-      "rank": 73,
+      "rank": 68,
+      "artist": "HE★VENS, HYPNOSISMIC -D.R.B- (Buster Bros!!!) & HYPNOSISMIC -D.R.B- (Bad Ass Temple)",
+      "name": "FLAG"
+    },
+    {
+      "rank": 69,
+      "artist": "Ryokuoushoku Shakai",
+      "name": "étoile"
+    },
+    {
+      "rank": 70,
+      "artist": "Shakira",
+      "name": "Zoo"
+    },
+    {
+      "rank": 71,
       "artist": "BIALYSTOCKS",
       "name": "Everyday"
     },
     {
+      "rank": 72,
+      "artist": "Stray Kids",
+      "name": "Endless Sun"
+    },
+    {
+      "rank": 73,
+      "artist": "Yorushika",
+      "name": "Plover"
+    },
+    {
       "rank": 74,
-      "artist": "KANA-BOON",
-      "name": "Silhouette"
+      "artist": "MELLOW DEAR US",
+      "name": "Dear World"
     },
     {
       "rank": 75,
-      "artist": "ARASHI",
-      "name": "CARNIVAL NIGHT part 2"
-    },
-    {
-      "rank": 76,
-      "artist": "SawanoHiroyuki[nZk]",
-      "name": "PROVANT (feat. Jean-Ken Johnny & TAKUMA)"
-    },
-    {
-      "rank": 77,
-      "artist": "Mrs. GREEN APPLE",
-      "name": "Soranji"
-    },
-    {
-      "rank": 78,
-      "artist": "ARASHI",
-      "name": "Lucky Man"
-    },
-    {
-      "rank": 79,
-      "artist": "King Gnu",
-      "name": "Hakujitsu"
-    },
-    {
-      "rank": 80,
-      "artist": "back number",
-      "name": "Takaneno Hanakosan"
-    },
-    {
-      "rank": 81,
-      "artist": "GReeeeN",
-      "name": "Haruka"
-    },
-    {
-      "rank": 82,
-      "artist": "Toshinobu Kubota",
-      "name": "La La La Love Song (with NAOMI CAMPBELL)"
-    },
-    {
-      "rank": 83,
-      "artist": "MELLOW DEAR US",
-      "name": "BUBBLE GUM DANCE"
-    },
-    {
-      "rank": 84,
       "artist": "ryo (supercell), Kaguya(cv.Yuko Natsuyoshi) & Yachiyo Runami(cv.Saori Hayami)",
       "name": "Ex-Otogibanashi"
     },
     {
-      "rank": 85,
+      "rank": 76,
+      "artist": "Mrs. GREEN APPLE",
+      "name": "Soranji"
+    },
+    {
+      "rank": 77,
+      "artist": "King Gnu",
+      "name": "Hakujitsu"
+    },
+    {
+      "rank": 78,
       "artist": "KZ & Kaguya(cv.Yuko Natsuyoshi)",
       "name": "Reply"
     },
     {
+      "rank": 79,
+      "artist": "SawanoHiroyuki[nZk]",
+      "name": "PROVANT (feat. Jean-Ken Johnny & TAKUMA)"
+    },
+    {
+      "rank": 80,
+      "artist": "ARASHI",
+      "name": "CARNIVAL NIGHT part 2"
+    },
+    {
+      "rank": 81,
+      "artist": "back number",
+      "name": "Takaneno Hanakosan"
+    },
+    {
+      "rank": 82,
+      "artist": "KANA-BOON",
+      "name": "Silhouette"
+    },
+    {
+      "rank": 83,
+      "artist": "ARASHI",
+      "name": "Lucky Man"
+    },
+    {
+      "rank": 84,
+      "artist": "Toshinobu Kubota",
+      "name": "La La La Love Song (with NAOMI CAMPBELL)"
+    },
+    {
+      "rank": 85,
+      "artist": "Kenshi Yonezu & Hikaru Utada",
+      "name": "JANE DOE"
+    },
+    {
       "rank": 86,
-      "artist": "PUPPET SUNSUN",
-      "name": "TOTETO"
+      "artist": "GReeeeN",
+      "name": "Haruka"
     },
     {
       "rank": 87,
-      "artist": "ARASHI",
-      "name": "カイト"
+      "artist": "MELLOW DEAR US",
+      "name": "BUBBLE GUM DANCE"
     },
     {
       "rank": 88,
-      "artist": "ケツメイシ",
-      "name": "Tomoyo Konosakimozutto"
-    },
-    {
-      "rank": 89,
-      "artist": "ARASHI",
-      "name": "エナジーソング～絶好調超!!!!～"
-    },
-    {
-      "rank": 90,
       "artist": "ARASHI",
       "name": "Love so Sweet"
     },
     {
-      "rank": 91,
+      "rank": 89,
+      "artist": "PUPPET SUNSUN",
+      "name": "TOTETO"
+    },
+    {
+      "rank": 90,
       "artist": "Chanmina",
       "name": "Sad Song"
     },
     {
-      "rank": 92,
+      "rank": 91,
       "artist": "MISIA",
       "name": "Ainokatachi (feat. HIDE)"
     },
     {
+      "rank": 92,
+      "artist": "EIJI OTORI(CV.Yuma Uchida)",
+      "name": "宵闇Secret moon"
+    },
+    {
       "rank": 93,
-      "artist": "Kenshi Yonezu & Hikaru Utada",
-      "name": "JANE DOE"
+      "artist": "Tokyo Ska Paradise Orchestra & Koshi Inaba",
+      "name": "Action (VS. Koshi Inaba)"
     },
     {
       "rank": 94,
@@ -476,178 +476,178 @@
     },
     {
       "rank": 95,
+      "artist": "ARASHI",
+      "name": "カイト"
+    },
+    {
+      "rank": 96,
+      "artist": "ARASHI",
+      "name": "エナジーソング～絶好調超!!!!～"
+    },
+    {
+      "rank": 97,
       "artist": "Fujifabric",
       "name": "Wakamono No Subete"
     },
     {
-      "rank": 96,
-      "artist": "EIJI OTORI(CV.Yuma Uchida)",
-      "name": "宵闇Secret moon"
-    },
-    {
-      "rank": 97,
-      "artist": "井上陽水・安全地帯",
-      "name": "Natsuno Owarino Harmony"
-    },
-    {
       "rank": 98,
-      "artist": "Tokyo Ska Paradise Orchestra & Koshi Inaba",
-      "name": "Action (VS. Koshi Inaba)"
+      "artist": "ケツメイシ",
+      "name": "Tomoyo Konosakimozutto"
     },
     {
       "rank": 99,
-      "artist": "MISIA",
-      "name": "Aitakute Ima"
+      "artist": "Remioromen",
+      "name": "Konayuki"
     },
     {
       "rank": 100,
-      "artist": "FloweRiЯy",
-      "name": "Statice"
+      "artist": "ryo (supercell), Kaguya(cv.Yuko Natsuyoshi) & Yachiyo Runami(cv.Saori Hayami)",
+      "name": "World Is Mine (Kaguya&Yachiyo Runami Ver.) [Cpk! Remix]"
     },
     {
       "rank": 101,
-      "artist": "Mrs. GREEN APPLE",
-      "name": "GOOD DAY"
+      "artist": "井上陽水・安全地帯",
+      "name": "夏の終りのハーモニー"
     },
     {
       "rank": 102,
-      "artist": "MELLOW DEAR US",
-      "name": "Mellow Addiction"
-    },
-    {
-      "rank": 103,
-      "artist": "嵐",
-      "name": "Happiness"
-    },
-    {
-      "rank": 104,
-      "artist": "鳳 瑛一(CV.緑川 光)",
-      "name": "暁の宴"
-    },
-    {
-      "rank": 105,
-      "artist": "レミオロメン",
-      "name": "粉雪"
-    },
-    {
-      "rank": 106,
-      "artist": "蒼井翔太",
-      "name": "あいことば"
-    },
-    {
-      "rank": 107,
-      "artist": "Vaundy",
-      "name": "呼び声"
-    },
-    {
-      "rank": 108,
-      "artist": "ryo (supercell), かぐや(cv.夏吉ゆうこ) & 月見ヤチヨ(cv.早見沙織)",
-      "name": "ワールドイズマイン (かぐや&月見ヤチヨ ver.) [CPK! Remix]"
-    },
-    {
-      "rank": 109,
       "artist": "Aqu3ra & 月見ヤチヨ(cv.早見沙織)",
       "name": "星降る海"
     },
     {
-      "rank": 110,
-      "artist": "B'z",
-      "name": "LOVE PHANTOM"
+      "rank": 103,
+      "artist": "鳳 瑛一(CV.緑川 光)",
+      "name": "暁の宴"
     },
     {
-      "rank": 111,
-      "artist": "Hearts2Hearts",
-      "name": "RUDE! (Japanese Ver.)"
-    },
-    {
-      "rank": 112,
-      "artist": "MISIA",
-      "name": "Everything"
-    },
-    {
-      "rank": 113,
-      "artist": "HANA",
-      "name": "Bloom"
-    },
-    {
-      "rank": 114,
-      "artist": "皇 綺羅(CV.小野大輔)",
-      "name": "Morning in the sky"
-    },
-    {
-      "rank": 115,
-      "artist": "天草シオン(CV.山下大輝)",
-      "name": "黎明drops"
-    },
-    {
-      "rank": 116,
-      "artist": "嵐",
-      "name": "Yes?No?"
-    },
-    {
-      "rank": 117,
+      "rank": 104,
       "artist": "Official髭男dism",
       "name": "Pretender"
     },
     {
-      "rank": 118,
-      "artist": "ゆず",
-      "name": "栄光の架橋"
+      "rank": 105,
+      "artist": "MISIA",
+      "name": "逢いたくていま"
     },
     {
-      "rank": 119,
+      "rank": 106,
+      "artist": "Mrs. GREEN APPLE",
+      "name": "GOOD DAY"
+    },
+    {
+      "rank": 107,
+      "artist": "MELLOW DEAR US",
+      "name": "Mellow Addiction"
+    },
+    {
+      "rank": 108,
+      "artist": "FloweRiЯy",
+      "name": "スターチス"
+    },
+    {
+      "rank": 109,
+      "artist": "嵐",
+      "name": "Happiness"
+    },
+    {
+      "rank": 110,
+      "artist": "天草シオン(CV.山下大輝)",
+      "name": "黎明drops"
+    },
+    {
+      "rank": 111,
+      "artist": "皇 綺羅(CV.小野大輔)",
+      "name": "Morning in the sky"
+    },
+    {
+      "rank": 112,
       "artist": "帝 ナギ(CV.代永 翼)",
       "name": "Lovable midday"
     },
     {
-      "rank": 120,
-      "artist": "Mrs. GREEN APPLE",
-      "name": "青と夏"
+      "rank": 113,
+      "artist": "Vaundy",
+      "name": "呼び声"
     },
     {
-      "rank": 121,
+      "rank": 114,
       "artist": "桐生院ヴァン(CV.高橋英則)",
       "name": "黄昏Hugging"
     },
     {
-      "rank": 122,
-      "artist": "藤井 風",
-      "name": "My Place"
+      "rank": 115,
+      "artist": "B'z",
+      "name": "LOVE PHANTOM"
     },
     {
-      "rank": 123,
-      "artist": "Mr.Children",
-      "name": "Tomorrow never knows"
+      "rank": 116,
+      "artist": "Hearts2Hearts",
+      "name": "RUDE! (Japanese Ver.)"
     },
     {
-      "rank": 124,
+      "rank": 117,
+      "artist": "蒼井翔太",
+      "name": "あいことば"
+    },
+    {
+      "rank": 118,
       "artist": "日向大和(CV.木村良平)",
       "name": "オウマガトキ・メア"
     },
     {
-      "rank": 125,
-      "artist": "乃紫",
-      "name": "メガネを外して"
+      "rank": 119,
+      "artist": "MISIA",
+      "name": "Everything"
     },
     {
-      "rank": 126,
+      "rank": 120,
+      "artist": "嵐",
+      "name": "Yes?No?"
+    },
+    {
+      "rank": 121,
+      "artist": "藤井 風",
+      "name": "My Place"
+    },
+    {
+      "rank": 122,
+      "artist": "HANA",
+      "name": "Bloom"
+    },
+    {
+      "rank": 123,
+      "artist": "ゆず",
+      "name": "栄光の架橋"
+    },
+    {
+      "rank": 124,
+      "artist": "Mrs. GREEN APPLE",
+      "name": "青と夏"
+    },
+    {
+      "rank": 125,
       "artist": "IVE",
       "name": "BANG BANG"
     },
     {
+      "rank": 126,
+      "artist": "ONE OK ROCK",
+      "name": "The Beginning"
+    },
+    {
       "rank": 127,
+      "artist": "乃紫",
+      "name": "メガネを外して"
+    },
+    {
+      "rank": 128,
       "artist": "芹澤 優",
       "name": "TIMELESS POWER feat. MOTSU"
     },
     {
-      "rank": 128,
-      "artist": "大森元貴",
-      "name": "0.2mm"
-    },
-    {
       "rank": 129,
-      "artist": "The Biscats",
-      "name": "恋をとめないで"
+      "artist": "ZORN",
+      "name": "家庭の事情"
     },
     {
       "rank": 130,
@@ -656,43 +656,43 @@
     },
     {
       "rank": 131,
-      "artist": "BE:FIRST",
-      "name": "夢中"
-    },
-    {
-      "rank": 132,
-      "artist": "ONE OK ROCK",
-      "name": "The Beginning"
-    },
-    {
-      "rank": 133,
-      "artist": "Vaundy",
-      "name": "踊り子"
-    },
-    {
-      "rank": 134,
-      "artist": "ヨルシカ",
-      "name": "晴る"
-    },
-    {
-      "rank": 135,
       "artist": "優里",
       "name": "ドライフラワー"
     },
     {
-      "rank": 136,
-      "artist": "QUARTET NIGHT, ヒプノシスマイク -D.R.B- (MAD TRIGGER CREW) & ヒプノシスマイク -D.R.B- (どついたれ本舗)",
-      "name": "Go the Route"
+      "rank": 132,
+      "artist": "Mr.Children",
+      "name": "Tomorrow never knows"
     },
     {
-      "rank": 137,
+      "rank": 133,
+      "artist": "Ado",
+      "name": "Vivarium"
+    },
+    {
+      "rank": 134,
+      "artist": "The Biscats",
+      "name": "恋をとめないで"
+    },
+    {
+      "rank": 135,
       "artist": "Official髭男dism",
       "name": "Make Me Wonder"
     },
     {
+      "rank": 136,
+      "artist": "大森元貴",
+      "name": "0.2mm"
+    },
+    {
+      "rank": 137,
+      "artist": "Vaundy",
+      "name": "踊り子"
+    },
+    {
       "rank": 138,
-      "artist": "Ado",
-      "name": "Vivarium"
+      "artist": "平井 堅",
+      "name": "瞳をとじて"
     },
     {
       "rank": 139,
@@ -701,48 +701,48 @@
     },
     {
       "rank": 140,
-      "artist": "嵐",
-      "name": "One Love"
+      "artist": "ヨルシカ",
+      "name": "晴る"
     },
     {
       "rank": 141,
-      "artist": "jo0ji",
-      "name": "よあけのうた - Yoake no uta"
+      "artist": "BE:FIRST",
+      "name": "夢中"
     },
     {
       "rank": 142,
-      "artist": "ZORN",
-      "name": "家庭の事情"
+      "artist": "QUARTET NIGHT, ヒプノシスマイク -D.R.B- (MAD TRIGGER CREW) & ヒプノシスマイク -D.R.B- (どついたれ本舗)",
+      "name": "Go the Route"
     },
     {
       "rank": 143,
-      "artist": "平井 堅",
-      "name": "瞳をとじて"
-    },
-    {
-      "rank": 144,
       "artist": "HANA",
       "name": "Blue Jeans"
     },
     {
+      "rank": 144,
+      "artist": "jo0ji",
+      "name": "よあけのうた - Yoake no uta"
+    },
+    {
       "rank": 145,
-      "artist": "ゆず",
-      "name": "友 〜旅立ちの時〜"
-    },
-    {
-      "rank": 146,
-      "artist": "Mrs. GREEN APPLE",
-      "name": "春愁"
-    },
-    {
-      "rank": 147,
       "artist": "嵐",
       "name": "Oh Yeah!"
     },
     {
+      "rank": 146,
+      "artist": "TWO-MIX",
+      "name": "RHYTHM EMOTION -EW-"
+    },
+    {
+      "rank": 147,
+      "artist": "SUPER BEAVER",
+      "name": "燦然 - Sanzen"
+    },
+    {
       "rank": 148,
-      "artist": "嵐",
-      "name": "スケッチ"
+      "artist": "ゆず",
+      "name": "友 〜旅立ちの時〜"
     },
     {
       "rank": 149,
@@ -751,258 +751,258 @@
     },
     {
       "rank": 150,
-      "artist": "ZORN",
-      "name": "All My Homies"
+      "artist": "嵐",
+      "name": "One Love"
     },
     {
       "rank": 151,
-      "artist": "GReeeeN",
-      "name": "キセキ"
-    },
-    {
-      "rank": 152,
-      "artist": "Superfly",
-      "name": "愛をこめて花束を"
-    },
-    {
-      "rank": 153,
-      "artist": "TWO-MIX",
-      "name": "RHYTHM EMOTION -EW-"
-    },
-    {
-      "rank": 154,
-      "artist": "SUPER BEAVER",
-      "name": "燦然 - Sanzen"
-    },
-    {
-      "rank": 155,
       "artist": "tuki.",
       "name": "晩餐歌 - Bansanka"
     },
     {
-      "rank": 156,
-      "artist": "LANA & Elle Teresa",
-      "name": "こんな日は"
-    },
-    {
-      "rank": 157,
-      "artist": "HIROTO (INI)",
-      "name": "ONLY YOU"
-    },
-    {
-      "rank": 158,
-      "artist": "MISIA",
-      "name": "つつみ込むように・・・"
-    },
-    {
-      "rank": 159,
-      "artist": "嵐",
-      "name": "サクラ咲ケ"
-    },
-    {
-      "rank": 160,
-      "artist": "Original Love",
-      "name": "接吻"
-    },
-    {
-      "rank": 161,
-      "artist": "三代目 J SOUL BROTHERS from EXILE TRIBE",
-      "name": "Through The RAIN"
-    },
-    {
-      "rank": 162,
-      "artist": "Official髭男dism",
-      "name": "らしさ"
-    },
-    {
-      "rank": 163,
+      "rank": 152,
       "artist": "Mr.Children",
       "name": "Saturday"
     },
     {
-      "rank": 164,
-      "artist": "VERRY SMoL",
-      "name": "雨上がり"
+      "rank": 153,
+      "artist": "Mrs. GREEN APPLE",
+      "name": "春愁"
     },
     {
-      "rank": 165,
+      "rank": 154,
+      "artist": "ZORN",
+      "name": "All My Homies"
+    },
+    {
+      "rank": 155,
       "artist": "鳳 瑛一(CV.緑川 光)、皇 綺羅(CV.小野大輔)、帝 ナギ(CV.代永 翼)、鳳 瑛二(CV.内田雄馬)、桐生院ヴァン(CV.高橋英則)、日向大和(CV.木村良平)、天草シオン(CV.山下大輝)",
       "name": "One Day"
     },
     {
-      "rank": 166,
-      "artist": "いきものがかり",
-      "name": "YELL"
+      "rank": 156,
+      "artist": "Superfly",
+      "name": "愛をこめて花束を"
     },
     {
-      "rank": 167,
-      "artist": "B'z",
-      "name": "ultra soul"
-    },
-    {
-      "rank": 168,
-      "artist": "BUMP OF CHICKEN",
-      "name": "天体観測"
-    },
-    {
-      "rank": 169,
-      "artist": "森山直太朗",
-      "name": "さくら(独唱)"
-    },
-    {
-      "rank": 170,
-      "artist": "&TEAM",
-      "name": "桜色Yell"
-    },
-    {
-      "rank": 171,
-      "artist": "Uru",
-      "name": "今日という日を"
-    },
-    {
-      "rank": 172,
-      "artist": "BUMP OF CHICKEN",
-      "name": "ray"
-    },
-    {
-      "rank": 173,
-      "artist": "米津玄師",
-      "name": "さよーならまたいつか!- Sayonara"
-    },
-    {
-      "rank": 174,
-      "artist": "HIROTO (INI)",
-      "name": "CRUISING"
-    },
-    {
-      "rank": 175,
-      "artist": "久保田利伸",
-      "name": "Missing"
-    },
-    {
-      "rank": 176,
+      "rank": 157,
       "artist": "Uru",
       "name": "心得"
     },
     {
-      "rank": 177,
+      "rank": 158,
+      "artist": "GReeeeN",
+      "name": "キセキ"
+    },
+    {
+      "rank": 159,
+      "artist": "嵐",
+      "name": "スケッチ"
+    },
+    {
+      "rank": 160,
+      "artist": "LANA & Elle Teresa",
+      "name": "こんな日は"
+    },
+    {
+      "rank": 161,
+      "artist": "BUMP OF CHICKEN",
+      "name": "ray"
+    },
+    {
+      "rank": 162,
       "artist": "HIROTO (INI)",
-      "name": "ROLLER COASTER"
+      "name": "ONLY YOU"
     },
     {
-      "rank": 178,
-      "artist": "back number",
-      "name": "ブルーアンバー"
+      "rank": 163,
+      "artist": "嵐",
+      "name": "サクラ咲ケ"
     },
     {
-      "rank": 179,
-      "artist": "スピッツ",
-      "name": "空も飛べるはず"
+      "rank": 164,
+      "artist": "BUMP OF CHICKEN",
+      "name": "天体観測"
     },
     {
-      "rank": 180,
+      "rank": 165,
       "artist": "yuigot & 月見ヤチヨ(cv.早見沙織)",
       "name": "Remember"
     },
     {
-      "rank": 181,
-      "artist": "初星学園 & 雨夜 燕",
-      "name": "SEARCH RIGHT [雨夜 燕 Solo ver.]"
+      "rank": 166,
+      "artist": "Uru",
+      "name": "今日という日を"
     },
     {
-      "rank": 182,
-      "artist": "ClariS",
-      "name": "Radiant"
+      "rank": 167,
+      "artist": "三代目 J SOUL BROTHERS from EXILE TRIBE",
+      "name": "Through The RAIN"
     },
     {
-      "rank": 183,
-      "artist": "ケツメイシ",
-      "name": "さくら"
-    },
-    {
-      "rank": 184,
-      "artist": "嵐",
-      "name": "P・A・R・A・D・O・X"
-    },
-    {
-      "rank": 185,
-      "artist": "=LOVE",
-      "name": "劇薬中毒"
-    },
-    {
-      "rank": 186,
-      "artist": "菅田 将暉",
-      "name": "虹"
-    },
-    {
-      "rank": 187,
-      "artist": "いきものがかり",
-      "name": "ありがとう"
-    },
-    {
-      "rank": 188,
-      "artist": "阿部海太郎 & 武田カオリ",
-      "name": "Mal Také Ebisu"
-    },
-    {
-      "rank": 189,
-      "artist": "ゆず",
-      "name": "幾重"
-    },
-    {
-      "rank": 190,
-      "artist": "DISH//",
-      "name": "沈丁花"
-    },
-    {
-      "rank": 191,
-      "artist": "izna",
-      "name": "Love All"
-    },
-    {
-      "rank": 192,
-      "artist": "宇多田光",
-      "name": "First Love (Remastered 2014)"
-    },
-    {
-      "rank": 193,
+      "rank": 168,
       "artist": "クレイジーウォウウォ!!",
       "name": "トンツカタンタン"
     },
     {
-      "rank": 194,
-      "artist": "miwa",
-      "name": "桜みたいな恋なんだ"
+      "rank": 169,
+      "artist": "米津玄師",
+      "name": "さよーならまたいつか!- Sayonara"
     },
     {
-      "rank": 195,
-      "artist": "Snow Man",
-      "name": "STARS"
+      "rank": 170,
+      "artist": "VERRY SMoL",
+      "name": "雨上がり"
     },
     {
-      "rank": 196,
+      "rank": 171,
+      "artist": "MISIA",
+      "name": "つつみ込むように・・・"
+    },
+    {
+      "rank": 172,
+      "artist": "B'z",
+      "name": "ultra soul"
+    },
+    {
+      "rank": 173,
+      "artist": "HIROTO (INI)",
+      "name": "CRUISING"
+    },
+    {
+      "rank": 174,
+      "artist": "久保田利伸",
+      "name": "Missing"
+    },
+    {
+      "rank": 175,
+      "artist": "HIROTO (INI)",
+      "name": "ROLLER COASTER"
+    },
+    {
+      "rank": 176,
+      "artist": "スピッツ",
+      "name": "空も飛べるはず"
+    },
+    {
+      "rank": 177,
+      "artist": "初星学園 & 雨夜 燕",
+      "name": "SEARCH RIGHT [雨夜 燕 Solo ver.]"
+    },
+    {
+      "rank": 178,
+      "artist": "Original Love",
+      "name": "接吻"
+    },
+    {
+      "rank": 179,
+      "artist": "ケツメイシ",
+      "name": "さくら"
+    },
+    {
+      "rank": 180,
+      "artist": "嵐",
+      "name": "P・A・R・A・D・O・X"
+    },
+    {
+      "rank": 181,
+      "artist": "Official髭男dism",
+      "name": "らしさ"
+    },
+    {
+      "rank": 182,
+      "artist": "いきものがかり",
+      "name": "YELL"
+    },
+    {
+      "rank": 183,
       "artist": "13.3g",
       "name": "潜在的なアイ"
     },
     {
-      "rank": 197,
-      "artist": "嵐",
-      "name": "Love Rainbow"
+      "rank": 184,
+      "artist": "森山直太朗",
+      "name": "さくら(独唱)"
     },
     {
-      "rank": 198,
-      "artist": "YENA",
-      "name": "Catch Catch"
+      "rank": 185,
+      "artist": "DISH//",
+      "name": "沈丁花"
     },
     {
-      "rank": 199,
+      "rank": 186,
+      "artist": "ClariS",
+      "name": "Radiant"
+    },
+    {
+      "rank": 187,
+      "artist": "&TEAM",
+      "name": "桜色Yell"
+    },
+    {
+      "rank": 188,
+      "artist": "izna",
+      "name": "Love All"
+    },
+    {
+      "rank": 189,
       "artist": "40mP & かぐや(cv.夏吉ゆうこ)",
       "name": "瞬間、シンフォニー。"
     },
     {
+      "rank": 190,
+      "artist": "miwa",
+      "name": "桜みたいな恋なんだ"
+    },
+    {
+      "rank": 191,
+      "artist": "Christina Perri",
+      "name": "A Thousand Years"
+    },
+    {
+      "rank": 192,
+      "artist": "=LOVE",
+      "name": "劇薬中毒"
+    },
+    {
+      "rank": 193,
+      "artist": "菅田 将暉",
+      "name": "虹"
+    },
+    {
+      "rank": 194,
+      "artist": "Snow Man",
+      "name": "STARS"
+    },
+    {
+      "rank": 195,
+      "artist": "back number",
+      "name": "ブルーアンバー"
+    },
+    {
+      "rank": 196,
+      "artist": "嵐",
+      "name": "Still..."
+    },
+    {
+      "rank": 197,
+      "artist": "ゆず",
+      "name": "幾重"
+    },
+    {
+      "rank": 198,
+      "artist": "宇多田光",
+      "name": "First Love (Remastered 2014)"
+    },
+    {
+      "rank": 199,
+      "artist": "ReoNa",
+      "name": "結々の唄"
+    },
+    {
       "rank": 200,
-      "artist": "Riddim Saunter",
-      "name": "Seasons of Love"
+      "artist": "いきものがかり",
+      "name": "ありがとう"
     }
   ]
 }
