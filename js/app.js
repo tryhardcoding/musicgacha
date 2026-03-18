@@ -271,7 +271,7 @@ async function updateTop200Progress() {
 function updatePackImage(packType) {
     const packImage = document.querySelector('#pack-visual .pack-image');
     if (packImage) {
-        packImage.src = `assets/pack-${packType}.png`;
+        packImage.src = `assets/pack-${packType}.webp`;
     }
 }
 

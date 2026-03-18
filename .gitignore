@@ -4,6 +4,7 @@ node_modules/
 # Backup files
 *.backup
 data/songs.json.backup
+data/songs.json.pre-optimize
 
 # Temp files
 check-lr-temp.js
@@ -23,3 +24,6 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Build artifacts (unused in production)
+js/pack-animation.js.backup

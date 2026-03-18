@@ -8,6 +8,7 @@ import { getSetting, toggleFavorite, isFavorite } from './storage.js';
 import { copyShareLink } from './transfer.js';
 import { getAppleMusicUrl, getSpotifyUrl, getAmazonMusicUrl, getYouTubeUrl } from './affiliate.js';
 import { icon, refreshIcons, PACK_ICONS, GENRE_ICONS } from './icons.js';
+import { getSongPool, getGenreData } from './data-loader.js';
 
 // ---- Default Cover ----
 const DEFAULT_COVER = 'data:image/svg+xml,' + encodeURIComponent(`
@@ -27,6 +28,18 @@ const DEFAULT_COVER = 'data:image/svg+xml,' + encodeURIComponent(`
   <text x="125" y="155" text-anchor="middle" font-size="14" fill="#555" font-family="sans-serif">No Cover</text>
 </svg>
 `);
+
+/**
+ * iTunes CDN URLの画像サイズを動的に変更
+ * 例: 600x600bb.jpg → 200x200bb.jpg
+ * @param {string} url - iTunes CDN画像URL
+ * @param {number} size - 希望サイズ（正方形）
+ * @returns {string} サイズ変更済みURL
+ */
+function resizeCoverUrl(url, size) {
+  if (!url || url.startsWith('data:')) return url;
+  return url.replace(/\/\d+x\d+bb\./, `/${size}x${size}bb.`);
+}
 
 // ---- Card Preview Audio (standalone for non-gacha screens) ----
 let activeCardAudio = null;
@@ -102,7 +115,8 @@ export function renderCard(card, options = {}) {
   el.className = `music-card card-rarity-${card.rarity.toLowerCase()}`;
   if (compact) el.classList.add('card-compact');
 
-  const coverUrl = card.coverUrl || DEFAULT_COVER;
+  // カードサムネイル: 200x200で十分（元は600x600）
+  const coverUrl = card.coverUrl ? resizeCoverUrl(card.coverUrl, 200) : DEFAULT_COVER;
 
   const isFav = isFavorite(card.id);
 
@@ -320,19 +334,13 @@ export async function openCardDetail(card) {
   }, 100);
 }
 
-// ---- Genre Icon Lookup ----
+// ---- Genre Icon Lookup (共通キャッシュ経由) ----
 
 let genreData = null;
 
 async function loadGenreData() {
   if (genreData) return genreData;
-  try {
-    const response = await fetch('./data/genres.json');
-    const data = await response.json();
-    genreData = data.genres;
-  } catch {
-    genreData = {};
-  }
+  genreData = await getGenreData();
   return genreData;
 }
 
@@ -345,7 +353,7 @@ function getGenreIcon(genre) {
   return icon(iconName, { size: 14 });
 }
 
-// 初期読み込み
+// 初期読み込み（共通キャッシュ経由）
 loadGenreData();
 
 // ---- Pack Lookup (曲からパック逆引き) ----
@@ -364,17 +372,11 @@ let songPoolCache = null;
 
 async function loadSongPoolForLookup() {
   if (songPoolCache) return songPoolCache;
-  try {
-    const response = await fetch('./data/songs.json');
-    const data = await response.json();
-    songPoolCache = data.packs;
-  } catch {
-    songPoolCache = {};
-  }
+  songPoolCache = await getSongPool() || {};
   return songPoolCache;
 }
 
-// 初期ロード（カード描画時に同期的に使えるように事前読み込み）
+// 初期ロード（共通キャッシュ経由）
 loadSongPoolForLookup();
 
 /**

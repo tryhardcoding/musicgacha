@@ -8,6 +8,7 @@ import { createCard } from './card.js';
 import { consumePack, addCardToCollection, getPackData, isGoldPack, getTop200Data, addTop200Obtained, syncTop200WithNewChart } from './storage.js';
 import { renderPackOpening } from './pack-animation.js';
 import { t } from './i18n.js';
+import { getPacksConfig } from './data-loader.js';
 
 // ---- Rarity Rates ----
 
@@ -76,22 +77,14 @@ function calculateHintRarity(rarities) {
     }
 }
 
-// ---- Packs Config ----
+// ---- Packs Config (共通キャッシュ経由) ----
 
 let packsConfig = null;
 
 async function loadPacksConfig() {
     if (packsConfig) return packsConfig;
-
-    try {
-        const response = await fetch('./data/packs.json');
-        const data = await response.json();
-        packsConfig = data.packs;
-        return packsConfig;
-    } catch (error) {
-        console.error('[Gacha] Failed to load packs config:', error);
-        return null;
-    }
+    packsConfig = await getPacksConfig();
+    return packsConfig;
 }
 
 // ---- Rarity Roll ----

@@ -83,11 +83,17 @@ function loadIMobileScript() {
  * spot.jsを再挿入してadsbyimobile配列を再スキャンさせる
  * i-mobileはロード時に1回だけ配列をスキャンするため、
  * 動的に追加した広告を表示するには再挿入が必要
+ * ※ 古いリロードタグは除去して蓄積を防止
  */
 function reloadIMobileScript() {
+    // 前回の再読込タグを削除（初回ロード分は保持、蓄積防止）
+    const oldReloads = document.querySelectorAll('script[data-imobile-reload="true"]');
+    oldReloads.forEach(s => s.remove());
+
     const script = document.createElement('script');
     script.async = true;
     script.src = 'https://imp-adedge.i-mobile.co.jp/script/v1/spot.js?20220104';
+    script.dataset.imobileReload = 'true';
     document.head.appendChild(script);
 }
 

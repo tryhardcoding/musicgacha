@@ -4,6 +4,7 @@
 // ============================================================
 
 import { getCollection, getTop200Data, getFavorites } from './storage.js';
+import { getSongPool, getTop200Daily } from './data-loader.js';
 import { renderCard, renderCardBack, openCardDetail } from './card-renderer.js';
 import { RARITY_CONFIG } from './card.js';
 import { t } from './i18n.js';
@@ -110,17 +111,11 @@ let songPoolCache = null;
 
 async function loadSongPoolForFilter() {
     if (songPoolCache) return songPoolCache;
-    try {
-        const response = await fetch('./data/songs.json');
-        const data = await response.json();
-        songPoolCache = data.packs;
-    } catch {
-        songPoolCache = {};
-    }
+    songPoolCache = await getSongPool() || {};
     return songPoolCache;
 }
 
-// 初期ロード
+// 初期ロード（共通キャッシュ経由）
 loadSongPoolForFilter();
 
 /**
@@ -258,13 +253,12 @@ async function loadTop200DateList() {
         top200DateList = await response.json();
         top200CurrentDateIndex = 0; // 最新を表示
     } catch {
-        // index.jsonがない場合は現在のdailyデータの日付を使用
-        try {
-            const response = await fetch('./data/top200-daily.json');
-            const data = await response.json();
+        // index.jsonがない場合は現在のdailyデータの日付を使用（共通キャッシュ経由）
+        const data = await getTop200Daily();
+        if (data) {
             top200DateList = [data.chartDate];
             top200CurrentDateIndex = 0;
-        } catch {
+        } else {
             top200DateList = [];
         }
     }

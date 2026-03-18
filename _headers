@@ -1,0 +1,36 @@
+# Static assets (images): long-term cache
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Data files: songs.json - 1 day cache with revalidation
+/data/songs.json
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
+
+# Data files: top200-daily.json - 1 hour cache
+/data/top200-daily.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=600
+
+# Data files: historical archives - immutable
+/data/top200-history/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Data files: rarely changing config
+/data/packs.json
+  Cache-Control: public, max-age=604800
+
+/data/genres.json
+  Cache-Control: public, max-age=604800
+
+# CSS/JS: medium-term cache with revalidation
+/*.css
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
+
+/js/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
+
+# HTML: short-term cache
+/
+  Cache-Control: public, max-age=300
+
+/index.html
+  Cache-Control: public, max-age=300

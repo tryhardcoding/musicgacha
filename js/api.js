@@ -3,22 +3,18 @@
 // songs.json / top200-daily.json 事前取得データのみで動作
 // ============================================================
 
-// ---- Song Pool (Last.fm事前取得データ) ----
+import { getSongPool, getTop200Daily } from './data-loader.js';
+
+// ---- Song Pool (共通キャッシュ経由) ----
 let songPool = null;
 
 async function loadSongPool() {
     if (songPool) return songPool;
-
-    try {
-        const response = await fetch('./data/songs.json');
-        const data = await response.json();
-        songPool = data.packs;
+    songPool = await getSongPool();
+    if (songPool) {
         console.log('[API] Song pool loaded:', Object.entries(songPool).map(([k, v]) => `${k}: ${v.length}`).join(', '));
-        return songPool;
-    } catch (error) {
-        console.error('[API] Failed to load song pool:', error);
-        return null;
     }
+    return songPool;
 }
 
 // ---- Hash Function ----
@@ -136,22 +132,17 @@ function createFallbackCard(rarity) {
     };
 }
 
-// ---- Top 200 Daily Chart ----
+// ---- Top 200 Daily Chart (共通キャッシュ経由) ----
 
 let top200Data = null;
 
 async function loadTop200Data() {
     if (top200Data) return top200Data;
-
-    try {
-        const response = await fetch('./data/top200-daily.json');
-        top200Data = await response.json();
+    top200Data = await getTop200Daily();
+    if (top200Data) {
         console.log('[API] Top 200 data loaded:', top200Data.totalTracks, 'tracks, chart date:', top200Data.chartDate);
-        return top200Data;
-    } catch (error) {
-        console.error('[API] Failed to load Top 200 data:', error);
-        return null;
     }
+    return top200Data;
 }
 
 /**
