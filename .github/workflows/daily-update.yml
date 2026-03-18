@@ -12,7 +12,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45 # 無料枠節約（Fetch/Merge/Assign + Enrich 50曲で十分）
+    timeout-minutes: 120 # Publicリポジトリのため余裕を持たせる
     permissions:
       contents: write
     steps:
@@ -35,7 +35,7 @@ jobs:
         run: node scripts/enrich-itunes-data.js --limit 50
 
       - name: Enrich iTunes data (Top 200)
-        run: node scripts/enrich-itunes-data.js --top200
+        run: node scripts/enrich-itunes-data.js --top200-only
 
       - name: Commit and push if changed
         run: |

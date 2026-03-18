@@ -382,6 +382,7 @@ async function main() {
         dryRun: args.includes('--dry-run'),
         force: args.includes('--force'),
         top200: args.includes('--top200'),
+        top200Only: args.includes('--top200-only'),
         limit: 0,
     };
 
@@ -393,11 +394,16 @@ async function main() {
     console.log('=== iTunes Data Enrichment Script ===');
     console.log(`Options: ${JSON.stringify(options)}`);
 
-    // songs.json のエンリッチ
-    await enrichSongsJson(options);
+    // --top200-only の場合は songs.json スキップ
+    if (!options.top200Only) {
+        // songs.json のエンリッチ
+        await enrichSongsJson(options);
+    } else {
+        console.log('\n--top200-only: songs.json のエンリッチをスキップします');
+    }
 
-    // --top200 フラグがある場合、top200-daily.json もエンリッチ
-    if (options.top200) {
+    // --top200 または --top200-only フラグがある場合、top200-daily.json もエンリッチ
+    if (options.top200 || options.top200Only) {
         await enrichTop200(options);
     }
 
