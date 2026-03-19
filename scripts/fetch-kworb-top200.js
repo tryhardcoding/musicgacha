@@ -119,7 +119,40 @@ async function main() {
             console.log(`  #${t.rank}: ${t.artist} - ${t.name}`);
         });
 
-        // 4. JSONに保存
+        // 4. 既存データからiTunesメタデータを引き継ぎ
+        const outputPath = path.join(__dirname, '..', 'data', 'top200-daily.json');
+        const ITUNES_FIELDS = ['previewUrl', 'trackViewUrl', 'itunesTrackId', 'artworkUrl',
+            'collectionName', 'primaryGenreName', 'trackTimeMillis', 'releaseDate'];
+
+        if (fs.existsSync(outputPath)) {
+            try {
+                const existing = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+                const existingMap = new Map();
+                for (const t of (existing.tracks || [])) {
+                    const key = `${t.artist.toLowerCase()}::${t.name.toLowerCase()}`;
+                    existingMap.set(key, t);
+                }
+
+                let carried = 0;
+                for (const track of tracks) {
+                    const key = `${track.artist.toLowerCase()}::${track.name.toLowerCase()}`;
+                    const prev = existingMap.get(key);
+                    if (prev) {
+                        for (const field of ITUNES_FIELDS) {
+                            if (prev[field] && !track[field]) {
+                                track[field] = prev[field];
+                            }
+                        }
+                        carried++;
+                    }
+                }
+                console.log(`\niTunesメタデータ引き継ぎ: ${carried}/${tracks.length} 曲 (新規: ${tracks.length - carried} 曲)`);
+            } catch (e) {
+                console.warn('既存データ読み込みスキップ:', e.message);
+            }
+        }
+
+        // 5. JSONに保存
         const now = new Date();
         // JST (UTC+9) の当日をチャート日付とする
         // 例: 3/20 JST 05:00 (= 3/19 UTC 20:00) に取得 → chartDate = 3/20
@@ -135,7 +168,6 @@ async function main() {
         };
 
         // 最新データ
-        const outputPath = path.join(__dirname, '..', 'data', 'top200-daily.json');
         fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), 'utf-8');
 
         // 日別アーカイブ
