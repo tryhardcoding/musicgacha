@@ -3522,9 +3522,9 @@ input {
   width: 100%;
   max-width: 100%;
   margin: var(--space-md) auto;
-  padding: var(--space-xs);
-  border-radius: var(--radius-md);
-  overflow: hidden;
+  padding: 0;
+  border-radius: 0;
+  overflow: visible;
   min-height: 50px;
   display: flex;
   align-items: center;
@@ -4691,9 +4691,10 @@ svg.lucide {
   align-items: center;
   justify-content: center;
   min-height: 50px;
-  border-radius: var(--radius-sm);
-  overflow: hidden;
+  border-radius: 0;
+  overflow: visible;
   position: relative;
+  padding: 0;
 }
 
 .ad-container:empty {
