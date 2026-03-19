@@ -197,9 +197,11 @@ export async function openPack(packType = 'standard', autoTap = false) {
             );
 
             const cardsPromise = Promise.all(cardPromises);
-            // カードデータ取得完了時点で即座に共有用データをセット（アニメーション完了を待たない）
-            cardsPromise.then(cards => {
-                window.MusicGacha._lastPackResult = { cards, packType, isGold: gold, isGod: god };
+            // カードデータ取得Promiseを保存（シェアボタン早押し対応）
+            window.MusicGacha._packResultPromise = cardsPromise.then(cards => {
+                const result = { cards, packType, isGold: gold, isGod: god };
+                window.MusicGacha._lastPackResult = result;
+                return result;
             });
 
             await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity);
@@ -228,9 +230,11 @@ export async function openPack(packType = 'standard', autoTap = false) {
 
         // カードデータの Promise をまとめる
         const cardsPromise = Promise.all(cardPromises);
-        // カードデータ取得完了時点で即座に共有用データをセット（アニメーション完了を待たない）
-        cardsPromise.then(cards => {
-            window.MusicGacha._lastPackResult = { cards, packType, isGold: gold, isGod: god };
+        // カードデータ取得Promiseを保存（シェアボタン早押し対応）
+        window.MusicGacha._packResultPromise = cardsPromise.then(cards => {
+            const result = { cards, packType, isGold: gold, isGod: god };
+            window.MusicGacha._lastPackResult = result;
+            return result;
         });
 
         // パック画面をすぐに表示（APIの完了を待たずに）
