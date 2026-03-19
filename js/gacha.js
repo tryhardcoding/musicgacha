@@ -197,10 +197,15 @@ export async function openPack(packType = 'standard', autoTap = false) {
             );
 
             const cardsPromise = Promise.all(cardPromises);
+            // シェアボタンを非表示（カード表示完了まで）
+            window.MusicGacha._lastPackResult = null;
+            const shareBtn = document.getElementById('btn-share-pack-result');
+            if (shareBtn) shareBtn.style.display = 'none';
+
             await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity);
-            // X共有用にパック結果を保存（renderPackOpening完了時点でresolve済み）
             const resolvedCards = await cardsPromise;
             window.MusicGacha._lastPackResult = { cards: resolvedCards, packType, isGold: gold, isGod: god };
+            if (shareBtn) shareBtn.style.display = '';
             window.MusicGacha?.updateHomeScreen?.();
             return;
         }
@@ -227,11 +232,16 @@ export async function openPack(packType = 'standard', autoTap = false) {
         // カードデータのPromiseをまとめる
         const cardsPromise = Promise.all(cardPromises);
 
+        // シェアボタンを非表示（カード表示完了まで）
+        window.MusicGacha._lastPackResult = null;
+        const shareBtn = document.getElementById('btn-share-pack-result');
+        if (shareBtn) shareBtn.style.display = 'none';
+
         // パック画面をすぐに表示（APIの完了を待たずに）
         await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity);
-        // X共有用にパック結果を保存（renderPackOpening完了時点でresolve済み）
         const resolvedCards = await cardsPromise;
         window.MusicGacha._lastPackResult = { cards: resolvedCards, packType, isGold: gold, isGod: god };
+        if (shareBtn) shareBtn.style.display = '';
 
         // ホーム画面更新
         window.MusicGacha?.updateHomeScreen?.();
