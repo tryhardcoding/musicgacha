@@ -439,7 +439,7 @@
           // CSSキャッシュ対策: スタイルを強制リセット
           container.style.padding = '0';
           container.style.borderRadius = '0';
-          container.style.overflow = 'visible';
+          container.style.overflow = 'hidden';
           var cw = container.clientWidth;
           if (cw <= 0) return;
           var adEl = container.querySelector('[data-imobile-creative-width]');
@@ -447,8 +447,11 @@
           var aw = parseInt(adEl.getAttribute('data-imobile-creative-width'), 10) || adEl.offsetWidth;
           if (aw > cw) {
             var s = cw / aw;
-            adEl.style.transformOrigin = 'center top';
+            // top leftを基準にスケーリング → scaleした幅がコンテナにぴったり
+            adEl.style.transformOrigin = 'top left';
             adEl.style.transform = 'scale(' + s + ')';
+            // コンテナをblock表示に変更（flex centeringによるズレ防止）
+            container.style.display = 'block';
             var ah = parseInt(adEl.getAttribute('data-imobile-creative-height'), 10) || adEl.offsetHeight || 90;
             container.style.height = (ah * s) + 'px';
           }
