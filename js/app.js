@@ -406,10 +406,9 @@ function setupEventListeners() {
     // パック結果をXでシェアボタン
     const btnSharePack = document.getElementById('btn-share-pack-result');
     if (btnSharePack) {
-        btnSharePack.addEventListener('click', async () => {
-            const promise = window.MusicGacha?._packResultPromise;
-            if (promise) {
-                const result = await promise;
+        btnSharePack.addEventListener('click', () => {
+            const result = window.MusicGacha?._lastPackResult;
+            if (result && result.cards) {
                 sharePackResult(result.cards, result.packType, result.isGold, result.isGod);
             } else {
                 showToast('共有するパック結果がありません', 'info');

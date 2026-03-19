@@ -6,7 +6,7 @@
 import { fetchCardFromGenre, fetchCardFromTop200, getTop200ChartDate, getTop200Tracks } from './api.js';
 import { createCard } from './card.js';
 import { consumePack, addCardToCollection, getPackData, isGoldPack, getTop200Data, addTop200Obtained, syncTop200WithNewChart } from './storage.js';
-import { renderPackOpening } from './pack-animation.js';
+import { renderPackOpening } from './pack-animation.js?v=20260320c';
 import { t } from './i18n.js';
 import { getPacksConfig } from './data-loader.js';
 
@@ -197,14 +197,8 @@ export async function openPack(packType = 'standard', autoTap = false) {
             );
 
             const cardsPromise = Promise.all(cardPromises);
-            // カードデータ取得Promiseを保存（シェアボタン早押し対応）
-            window.MusicGacha._packResultPromise = cardsPromise.then(cards => {
-                const result = { cards, packType, isGold: gold, isGod: god };
-                window.MusicGacha._lastPackResult = result;
-                return result;
-            });
 
-            await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity);
+            await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity, packType);
             window.MusicGacha?.updateHomeScreen?.();
             return;
         }
@@ -230,15 +224,9 @@ export async function openPack(packType = 'standard', autoTap = false) {
 
         // カードデータの Promise をまとめる
         const cardsPromise = Promise.all(cardPromises);
-        // カードデータ取得Promiseを保存（シェアボタン早押し対応）
-        window.MusicGacha._packResultPromise = cardsPromise.then(cards => {
-            const result = { cards, packType, isGold: gold, isGod: god };
-            window.MusicGacha._lastPackResult = result;
-            return result;
-        });
 
         // パック画面をすぐに表示（APIの完了を待たずに）
-        await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity);
+        await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity, packType);
 
         // ホーム画面更新
         window.MusicGacha?.updateHomeScreen?.();

@@ -359,8 +359,12 @@ const RARITY_EFFECTS = {
  * パック開封演出のメインフロー
  * @param {Promise<Array>} cardsPromise - カードデータのPromise
  * @param {boolean} isGold - ゴールドパックか
+ * @param {boolean} autoTap - 自動開封か
+ * @param {boolean} isGod - ゴッドパックか
+ * @param {string|null} hintRarity - 示唆レアリティ
+ * @param {string} packType - パックタイプ
  */
-export async function renderPackOpening(cardsPromise, isGold = false, autoTap = false, isGod = false, hintRarity = null) {
+export async function renderPackOpening(cardsPromise, isGold = false, autoTap = false, isGod = false, hintRarity = null, packType = 'standard') {
     const container = document.getElementById('pack-opening-container');
     const cardsContainer = document.getElementById('pack-cards-container');
     const packCardsEl = document.getElementById('pack-cards');
@@ -438,6 +442,10 @@ export async function renderPackOpening(cardsPromise, isGold = false, autoTap = 
                     cardsPromise,
                 ]);
                 cards = fetchedCards;
+
+                // シェアデータを即座にセット（カードデータ取得完了時点で確実に利用可能）
+                window.MusicGacha = window.MusicGacha || {};
+                window.MusicGacha._lastPackResult = { cards, packType, isGold, isGod };
             } catch (err) {
                 console.error('[PackAnimation] Failed to load cards:', err);
                 window.MusicGacha?.hideLoading?.();
