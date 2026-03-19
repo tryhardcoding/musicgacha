@@ -459,6 +459,7 @@ async function main() {
     }
     console.log(`\n保存先: ${songsPath}`);
     console.log('Done!');
+    process.exit(0);
 }
 
 main().catch(err => {
