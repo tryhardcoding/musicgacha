@@ -215,6 +215,13 @@ input {
   gap: var(--space-sm);
 }
 
+.header-logo-link {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
 .header-logo {
   font-family: var(--font-gaming);
   font-size: 1.15rem;
@@ -3742,6 +3749,25 @@ input {
   transform: translateY(0);
 }
 
+/* Share note (sender side) */
+.share-note {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin: var(--space-xs) 0 0;
+  opacity: 0.7;
+  line-height: 1.4;
+}
+
+/* Share receive note (receiver side) */
+.share-receive-note {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: var(--space-xs);
+  opacity: 0.8;
+}
+
 /* ---- Share Receive Modal ---- */
 .share-receive-modal {
   z-index: calc(var(--z-modal) + 1);
@@ -4971,4 +4997,91 @@ svg.lucide {
   transform: translateY(-2px) scale(1.05);
   box-shadow: 0 6px 24px rgba(255, 221, 0, 0.4);
   color: #1a1a1a;
+}
+
+/* ===== X (Twitter) Share Button ===== */
+.btn-share-x {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-gaming);
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  transition: all 0.3s var(--ease-spring);
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.btn-share-x:hover {
+  background: #1a1a1a;
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 0 12px rgba(255, 255, 255, 0.08);
+}
+
+.btn-share-x:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.btn-share-x .x-logo {
+  flex-shrink: 0;
+}
+
+/* Pack result variant - prominent */
+.btn-share-x-pack {
+  width: 100%;
+  padding: 12px 24px;
+  font-size: 0.9rem;
+  background: linear-gradient(135deg, #111, #000);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-share-x-pack:hover {
+  background: linear-gradient(135deg, #222, #111);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5), 0 0 16px rgba(255, 255, 255, 0.06);
+}
+
+/* Modal variant */
+.btn-share-x-modal {
+  padding: 8px 16px;
+  font-size: 0.8rem;
+}
+
+/* Collection stats variant - small inline */
+.btn-share-x-sm {
+  padding: 6px 12px;
+  font-size: 0.72rem;
+  margin-left: auto;
+}
+
+/* Modal share buttons container */
+.modal-share-section {
+  margin-top: var(--space-md);
+  text-align: center;
+}
+
+.modal-share-buttons {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.share-note {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: var(--space-xs);
+}
+
+/* Collection progress - add flex for share button */
+.collection-progress {
+  flex-wrap: wrap;
 }

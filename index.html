@@ -35,10 +35,12 @@
   <!-- ===== 統一ヘッダー（1行） ===== -->
   <header class="unified-header" id="unified-header">
     <div class="header-row">
-      <h1 class="header-logo">
-        <span class="title-icon"><i data-lucide="music"></i></span>
-        <span class="title-text">Music<span class="title-accent">Gacha</span></span>
-      </h1>
+      <a href="#home" class="header-logo-link">
+        <h1 class="header-logo">
+          <span class="title-icon"><i data-lucide="music"></i></span>
+          <span class="title-text">Music<span class="title-accent">Gacha</span></span>
+        </h1>
+      </a>
       <nav class="header-nav" id="header-nav">
         <a href="#home" class="nav-item active" data-screen="home" data-i18n="nav.home">
           <span class="nav-label">ホーム</span>
@@ -197,6 +199,10 @@
           <span class="progress-label" data-i18n="home.collected">曲収集済み</span>
           <span class="progress-total" id="progress-total">0 / ∞</span>
         </div>
+        <button class="btn-share-x btn-share-x-sm" id="btn-share-collection" title="コレクションをXでシェア">
+          <svg class="x-logo" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          シェア
+        </button>
       </div>
     </div>
   </section>
@@ -220,6 +226,10 @@
           <!-- カードは動的に生成 -->
         </div>
         <div class="pack-actions">
+          <button class="btn-share-x btn-share-x-pack" id="btn-share-pack-result">
+            <svg class="x-logo" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            結果をXでシェア
+          </button>
           <div class="pack-auto-open-toggle">
             <div class="pack-auto-open-info">
               <span class="pack-auto-open-label" data-i18n="pack.autoOpen">自動開封</span>
@@ -403,7 +413,7 @@
         <!-- カードは動的に生成 -->
       </div>
       <div class="share-receive-actions">
-        <button class="btn-primary share-receive-accept" id="btn-share-accept">受け取る</button>
+        <button class="btn-primary share-receive-accept" id="btn-share-accept">コレクションに追加する</button>
         <button class="btn-secondary share-receive-decline" id="btn-share-decline">キャンセル</button>
       </div>
     </div>

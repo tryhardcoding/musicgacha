@@ -118,10 +118,10 @@ function showReceiveModal(cardData) {
 
     // テキスト
     if (titleEl) {
-        titleEl.textContent = 'カードが届いています！';
+        titleEl.textContent = 'カードが届いています！🎉';
     }
     if (subtitleEl) {
-        subtitleEl.innerHTML = `<strong>${escapeHtml(cardData.artist)}</strong> - ${escapeHtml(cardData.title)}<br><span class="share-receive-rarity rarity-${cardData.rarity.toLowerCase()}">${cardData.rarity}</span>`;
+        subtitleEl.innerHTML = `<strong>${escapeHtml(cardData.artist)}</strong> - ${escapeHtml(cardData.title)}<br><span class="share-receive-rarity rarity-${cardData.rarity.toLowerCase()}">${cardData.rarity}</span><br><span class="share-receive-note">受け取るとあなたのコレクションに追加されます</span>`;
     }
 
     modal.style.display = '';
@@ -145,7 +145,7 @@ function showReceiveModal(cardData) {
 
         // トースト
         if (window.MusicGacha?.showToast) {
-            window.MusicGacha.showToast(`「${cardData.title}」を受け取りました！`, 'success');
+            window.MusicGacha.showToast(`「${cardData.title}」をコレクションに追加しました！`, 'success');
         }
 
         // コレクション画面に遷移

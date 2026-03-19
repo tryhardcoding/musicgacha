@@ -6,6 +6,7 @@
 import { RARITY_CONFIG, formatDuration } from './card.js';
 import { getSetting, toggleFavorite, isFavorite } from './storage.js';
 import { copyShareLink } from './transfer.js';
+import { shareCard } from './share-sns.js';
 import { getAmazonMusicUrl } from './affiliate.js';
 import { icon, refreshIcons, PACK_ICONS, GENRE_ICONS } from './icons.js';
 import { getSongPool, getGenreData } from './data-loader.js';
@@ -284,17 +285,32 @@ export async function openCardDetail(card) {
         </a>
       </div>
       <div class="modal-share-section">
-        <button class="btn-share-card" id="btn-share-card">${icon('link', { size: 16 })} カードを共有する</button>
+        <div class="modal-share-buttons">
+          <button class="btn-share-x btn-share-x-modal" id="btn-share-card-x">
+            <svg class="x-logo" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Xでシェア
+          </button>
+          <button class="btn-share-card" id="btn-share-card">${icon('send', { size: 16 })} 友達にカードを送る</button>
+        </div>
+        <p class="share-note">※「友達にカードを送る」はリンクコピー。あなたのカードはなくなりません</p>
       </div>
     `;
 
-    // 共有ボタンのイベント
+    // X共有ボタンのイベント
+    const btnShareX = playerContainer.querySelector('#btn-share-card-x');
+    if (btnShareX) {
+      btnShareX.addEventListener('click', () => {
+        shareCard(card);
+      });
+    }
+
+    // カード送信ボタンのイベント
     const btnShare = playerContainer.querySelector('#btn-share-card');
     if (btnShare) {
       btnShare.addEventListener('click', async () => {
         await copyShareLink(card);
         if (window.MusicGacha?.showToast) {
-          window.MusicGacha.showToast('共有リンクをコピーしました！', 'success');
+          window.MusicGacha.showToast('共有リンクをコピーしました！（あなたのカードはそのまま残ります）', 'success');
         }
       });
     }

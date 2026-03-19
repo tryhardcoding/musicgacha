@@ -11,6 +11,7 @@ import { initCollection, renderCollection } from './collection.js';
 import { initShareHandler } from './transfer.js';
 import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, refreshModalBannerAd } from './ads.js?v=20260320';
 import { icon, refreshIcons } from './icons.js';
+import { sharePackResult, shareCollectionStats } from './share-sns.js';
 
 // ---- Screen Routing ----
 
@@ -399,6 +400,40 @@ function setupEventListeners() {
             } else if (result.error) {
                 showToast(result.error, 'info');
             }
+        });
+    }
+
+    // パック結果をXでシェアボタン
+    const btnSharePack = document.getElementById('btn-share-pack-result');
+    if (btnSharePack) {
+        btnSharePack.addEventListener('click', () => {
+            const lastResult = window.MusicGacha?._lastPackResult;
+            if (lastResult && lastResult.cards) {
+                sharePackResult(lastResult.cards, lastResult.packType, lastResult.isGold, lastResult.isGod);
+            } else {
+                showToast('共有するパック結果がありません', 'info');
+            }
+        });
+    }
+
+    // コレクションをXでシェアボタン
+    const btnShareCollection = document.getElementById('btn-share-collection');
+    if (btnShareCollection) {
+        btnShareCollection.addEventListener('click', () => {
+            const collection = JSON.parse(localStorage.getItem('musicgacha_collection') || '[]');
+            const rarityCounts = {};
+            const seen = new Set();
+            for (const card of collection) {
+                if (!seen.has(card.id)) {
+                    seen.add(card.id);
+                    rarityCounts[card.rarity] = (rarityCounts[card.rarity] || 0) + 1;
+                }
+            }
+            shareCollectionStats({
+                uniqueCount: seen.size,
+                totalCount: collection.length,
+                rarityCounts,
+            });
         });
     }
 

@@ -60,19 +60,19 @@ function calculateHintRarity(rarities) {
 
     const roll = Math.random();
 
-    if (roll < 0.45) {
-        // 45%: 示唆なし
+    if (roll < 0.70) {
+        // 70%: 示唆なし
         return null;
-    } else if (roll < 0.65) {
-        // 20%: 1段下の示唆
+    } else if (roll < 0.80) {
+        // 10%: 1段下の示唆
         const hintIdx = Math.max(maxIdx - 1, 2); // R以上を保証
         return RARITY_ORDER[hintIdx];
-    } else if (roll < 0.75) {
-        // 10%: 2段下の示唆
+    } else if (roll < 0.85) {
+        // 5%: 2段下の示唆
         const hintIdx = Math.max(maxIdx - 2, 2); // R以上を保証
         return RARITY_ORDER[hintIdx];
     } else {
-        // 25%: 正確な示唆
+        // 15%: 正確な示唆
         return RARITY_ORDER[maxIdx];
     }
 }
@@ -198,6 +198,10 @@ export async function openPack(packType = 'standard', autoTap = false) {
 
             const cardsPromise = Promise.all(cardPromises);
             await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity);
+            // X共有用にパック結果を保存
+            cardsPromise.then(cards => {
+                window.MusicGacha._lastPackResult = { cards, packType, isGold: gold, isGod: god };
+            });
             window.MusicGacha?.updateHomeScreen?.();
             return;
         }
@@ -226,6 +230,10 @@ export async function openPack(packType = 'standard', autoTap = false) {
 
         // パック画面をすぐに表示（APIの完了を待たずに）
         await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity);
+        // X共有用にパック結果を保存
+        cardsPromise.then(cards => {
+            window.MusicGacha._lastPackResult = { cards, packType, isGold: gold, isGod: god };
+        });
 
         // ホーム画面更新
         window.MusicGacha?.updateHomeScreen?.();
