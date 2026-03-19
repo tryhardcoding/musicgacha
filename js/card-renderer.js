@@ -6,7 +6,7 @@
 import { RARITY_CONFIG, formatDuration } from './card.js';
 import { getSetting, toggleFavorite, isFavorite } from './storage.js';
 import { copyShareLink } from './transfer.js';
-import { getAppleMusicUrl, getSpotifyUrl, getAmazonMusicUrl, getYouTubeUrl } from './affiliate.js';
+import { getAmazonMusicUrl } from './affiliate.js';
 import { icon, refreshIcons, PACK_ICONS, GENRE_ICONS } from './icons.js';
 import { getSongPool, getGenreData } from './data-loader.js';
 
@@ -268,12 +268,9 @@ export async function openCardDetail(card) {
     `;
   }
 
-  // 外部リンク（アフィリエイト対応 - Amazon Music優先）
+  // 外部リンク（アフィリエイト対応 - Amazon Music）
   if (playerContainer) {
-    const appleMusicUrl = getAppleMusicUrl(card);
-    const spotifyUrl = getSpotifyUrl(card);
     const amazonMusicUrl = getAmazonMusicUrl(card);
-    const youtubeUrl = getYouTubeUrl(card);
 
     playerContainer.innerHTML = `
       <div class="modal-player-actions">
@@ -285,17 +282,6 @@ export async function openCardDetail(card) {
           </span>
           <span class="btn-affiliate-arrow">→</span>
         </a>
-        <div class="modal-player-secondary">
-          <a href="${appleMusicUrl}" target="_blank" rel="noopener" class="btn-service-sm btn-apple-sm" title="Apple Music">
-            ${icon('music', { size: 18 })}
-          </a>
-          <a href="${spotifyUrl}" target="_blank" rel="noopener" class="btn-service-sm btn-spotify-sm" title="Spotify">
-            ${icon('music', { size: 18 })}
-          </a>
-          <a href="${youtubeUrl}" target="_blank" rel="noopener" class="btn-service-sm btn-youtube-sm" title="YouTube">
-            ${icon('play', { size: 18 })}
-          </a>
-        </div>
       </div>
       <div class="modal-share-section">
         <button class="btn-share-card" id="btn-share-card">${icon('link', { size: 16 })} カードを共有する</button>
