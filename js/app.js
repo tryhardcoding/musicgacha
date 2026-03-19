@@ -6,7 +6,7 @@
 import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining } from './storage.js';
 import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
-import './gacha.js'; // ガチャモジュール（グローバル参照にopenPackを登録）
+import './gacha.js?v=20260320b'; // ガチャモジュール（グローバル参照にopenPackを登録）
 import { initCollection, renderCollection } from './collection.js';
 import { initShareHandler } from './transfer.js';
 import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, refreshModalBannerAd } from './ads.js?v=20260320';
