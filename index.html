@@ -431,6 +431,43 @@
   <!-- ===== トースト通知 ===== -->
   <div class="toast-container" id="toast-container"></div>
 
+  <!-- 広告スケーリング（インライン: キャッシュ回避のため） -->
+  <script>
+    (function() {
+      function scaleAds() {
+        document.querySelectorAll('.ad-container').forEach(function(container) {
+          var cw = container.clientWidth;
+          if (cw <= 0) return;
+          var adEl = container.querySelector('[data-imobile-creative-width]');
+          if (!adEl) return;
+          var aw = parseInt(adEl.getAttribute('data-imobile-creative-width'), 10) || adEl.offsetWidth;
+          if (aw > cw) {
+            var s = cw / aw;
+            adEl.style.transformOrigin = 'center top';
+            adEl.style.transform = 'scale(' + s + ')';
+            var ah = parseInt(adEl.getAttribute('data-imobile-creative-height'), 10) || adEl.offsetHeight || 90;
+            container.style.height = (ah * s) + 'px';
+          }
+        });
+      }
+      // 定期チェック（i-mobileの広告挿入タイミングが不定のため）
+      var t = setInterval(scaleAds, 1000);
+      setTimeout(function() { clearInterval(t); }, 15000);
+      // DOMの変更も監視
+      if (window.MutationObserver) {
+        new MutationObserver(function() { setTimeout(scaleAds, 300); })
+          .observe(document.body || document.documentElement, { childList: true, subtree: true });
+      }
+      window.addEventListener('resize', function() {
+        document.querySelectorAll('.ad-container [data-imobile-creative-width]').forEach(function(el) {
+          el.style.transform = '';
+          el.parentElement.style.height = '';
+        });
+        setTimeout(scaleAds, 300);
+      });
+    })();
+  </script>
+
   <!-- JS Modules -->
   <script type="module" src="js/app.js?v=20260320"></script>
 
