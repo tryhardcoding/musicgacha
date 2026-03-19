@@ -25,30 +25,72 @@ export function sharePackResult(cards, packType, isGold = false, isGod = false) 
     const packName = packNames[packType] || packType;
     const rarityOrder = ['C', 'UC', 'R', 'SR', 'UR', 'LR'];
 
-    let bestCard = cards[0];
-    for (const card of cards) {
-        if (rarityOrder.indexOf(card.rarity) > rarityOrder.indexOf(bestCard.rarity)) bestCard = card;
-    }
-
-    const rarityCounts = {};
-    for (const card of cards) rarityCounts[card.rarity] = (rarityCounts[card.rarity] || 0) + 1;
-    const rarityText = rarityOrder.filter(r => rarityCounts[r]).map(r => `${r}×${rarityCounts[r]}`).join(', ');
-
     let header;
+    const bestRarity = cards.reduce((best, c) =>
+        rarityOrder.indexOf(c.rarity) > rarityOrder.indexOf(best) ? c.rarity : best, cards[0].rarity);
     if (isGod) header = '⚡ 神パック降臨！！！';
     else if (isGold) header = '💰 ゴールドパック開封！';
-    else if (rarityOrder.indexOf(bestCard.rarity) >= rarityOrder.indexOf('UR')) header = '✨ 激レア降臨！';
+    else if (rarityOrder.indexOf(bestRarity) >= rarityOrder.indexOf('UR')) header = '✨ 激レア降臨！';
     else header = '🎵 パック開封結果';
 
-    const text = [
-        header, '',
-        `📦 ${packName}パック`,
-        `🎵 ${bestCard.rarity}「${bestCard.title} / ${bestCard.artist}」`,
-        `内訳: ${rarityText}`, '',
-        '#MusicGacha #音楽ガチャ',
-        'musicgacha.com',
-    ].join('\n');
+    // X文字数カウント: URL=23固定、日本語等=2、ASCII=1
+    function xCharCount(str) {
+        let count = 0;
+        for (const ch of str) {
+            count += ch.charCodeAt(0) > 127 ? 2 : 1;
+        }
+        return count;
+    }
 
+    // 固定部分を先に構築
+    const footer = '\n\n#MusicGacha #音楽ガチャ\nmusicgacha.com';
+    const headerLine = `${header}\n📦 ${packName}パック\n`;
+    // URL=23固定, ハッシュタグと改行の文字数
+    const fixedCost = xCharCount(headerLine) + xCharCount('\n\n#MusicGacha #音楽ガチャ\n') + 23;
+
+    // 残り文字数で曲リストを構築
+    const maxTotal = 280;
+    let remaining = maxTotal - fixedCost;
+
+    // 各カードの行を生成（レアリティ + 曲名 / アーティスト）
+    const cardLines = cards.map(card => {
+        return `${card.rarity}｜${card.title} / ${card.artist}`;
+    });
+
+    // 文字数に収まるようにトリミング（後ろのカードの曲名から短縮）
+    const finalLines = [];
+    for (let i = 0; i < cardLines.length; i++) {
+        let line = cardLines[i];
+        const lineCost = xCharCount(line) + 1; // +1 for newline
+
+        if (remaining >= lineCost) {
+            finalLines.push(line);
+            remaining -= lineCost;
+        } else {
+            // 残り文字数に収まるようトリミング
+            const prefix = `${cards[i].rarity}｜`;
+            const ellipsis = '…';
+            const prefixCost = xCharCount(prefix);
+            const availableForTitle = remaining - prefixCost - xCharCount(ellipsis) - 1;
+
+            if (availableForTitle > 4) {
+                // タイトルを短縮して入れる
+                let trimmed = `${cards[i].title} / ${cards[i].artist}`;
+                while (xCharCount(trimmed) > availableForTitle && trimmed.length > 1) {
+                    trimmed = trimmed.slice(0, -1);
+                }
+                finalLines.push(`${prefix}${trimmed}${ellipsis}`);
+                remaining = 0;
+            } else {
+                // もう入らない → 残り曲数表示
+                const left = cardLines.length - i;
+                finalLines.push(`...他${left}曲`);
+                break;
+            }
+        }
+    }
+
+    const text = headerLine + finalLines.join('\n') + footer;
     openXIntent(text);
 }
 
