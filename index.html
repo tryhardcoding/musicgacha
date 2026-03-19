@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css?v=20260311">
+  <link rel="stylesheet" href="index.css?v=20260320">
   <script src="https://unpkg.com/lucide@0.577.0/dist/umd/lucide.min.js"></script>
 
   <!-- Google AdSense (遅延読込: 初期表示を高速化) -->
@@ -436,6 +436,10 @@
     (function() {
       function scaleAds() {
         document.querySelectorAll('.ad-container').forEach(function(container) {
+          // CSSキャッシュ対策: スタイルを強制リセット
+          container.style.padding = '0';
+          container.style.borderRadius = '0';
+          container.style.overflow = 'visible';
           var cw = container.clientWidth;
           if (cw <= 0) return;
           var adEl = container.querySelector('[data-imobile-creative-width]');
