@@ -99,9 +99,18 @@ function reloadIMobileScript() {
 
 /**
  * i-mobile広告がコンテナからはみ出す場合にスケーリングする
- * i-mobileはインラインでmin-width: 728pxを設定するため、
- * CSSのmax-widthでは対応できない → transform: scaleで縮小
- * @param {HTMLElement} container - 広告コンテナ
+ * 
+ * i-mobileのDOM構造:
+ *   container (#ad-home-banner)
+ *     └ div#im-xxxxx [data-imobile-creative-width="728"]
+ *         └ ins
+ *             └ div [inline: width:728px; min-width:728px; transform:translate3d(0,0,0)]
+ *                 └ iframe [inline: width:728px; min-width:728px]
+ * 
+ * CSSのmax-widthは効かない（min-widthがインラインで設定されるため）。
+ * im-xxxxx div自体にtransform:scaleを適用してコンテナに収める。
+ * 
+ * @param {HTMLElement} container - 広告コンテナ (.ad-container)
  */
 function scaleAdToFit(container) {
     if (!container) return;
@@ -110,38 +119,56 @@ function scaleAdToFit(container) {
         const containerWidth = container.clientWidth;
         if (containerWidth <= 0) return;
 
-        // 広告内の実際の幅を持つ要素を探す
-        const adContent = container.querySelector('iframe, [id^="im-"]');
-        if (!adContent) return;
+        // i-mobileが挿入するdiv[id^="im-"]を取得
+        const adWrapper = container.querySelector('[data-imobile-creative-width]');
+        if (!adWrapper) return;
 
-        const adWidth = adContent.offsetWidth || adContent.scrollWidth;
-        if (adWidth > containerWidth) {
-            const scale = containerWidth / adWidth;
-            adContent.style.transformOrigin = 'top left';
-            adContent.style.transform = `scale(${scale})`;
-            // コンテナの高さを調整（スケール後の見た目に合わせる）
-            const adHeight = adContent.offsetHeight || adContent.scrollHeight;
-            container.style.height = `${adHeight * scale}px`;
+        // data属性またはoffsetWidthから広告の元サイズを取得
+        const creativeWidth = parseInt(adWrapper.dataset.imobileCreativeWidth, 10)
+            || adWrapper.offsetWidth
+            || adWrapper.scrollWidth;
+
+        if (creativeWidth > containerWidth) {
+            const scale = containerWidth / creativeWidth;
+            // adWrapper自体にスケーリングを適用（中央配置を維持）
+            adWrapper.style.transformOrigin = 'center top';
+            adWrapper.style.transform = `scale(${scale})`;
+            adWrapper.style.display = 'block';
+            // コンテナの高さをスケール後に合わせる
+            const creativeHeight = parseInt(adWrapper.dataset.imobileCreativeHeight, 10)
+                || adWrapper.offsetHeight || 90;
+            container.style.height = `${creativeHeight * scale}px`;
+            container.style.display = 'flex';
+            container.style.justifyContent = 'center';
         }
     };
 
     // MutationObserverで広告の挿入を監視
     const observer = new MutationObserver(() => {
-        // 少し待ってからスケーリング（i-mobileがiframeをレンダリングするのを待つ）
-        setTimeout(applyScale, 500);
-        setTimeout(applyScale, 1500); // 広告読み込みが遅い場合のフォールバック
+        // i-mobileがiframeをレンダリングするのを待つ
+        setTimeout(applyScale, 300);
+        setTimeout(applyScale, 800);
+        setTimeout(applyScale, 2000); // 遅い回線のフォールバック
     });
     observer.observe(container, { childList: true, subtree: true });
 
+    // 初回チェック（既にDOMがあるかもしれない）
+    setTimeout(applyScale, 500);
+
     // リサイズ時にも再計算
-    window.addEventListener('resize', () => {
-        // 一度スケールをリセット
-        const adContent = container.querySelector('iframe, [id^="im-"]');
-        if (adContent) {
-            adContent.style.transform = '';
+    const resizeHandler = () => {
+        const adWrapper = container.querySelector('[data-imobile-creative-width]');
+        if (adWrapper) {
+            adWrapper.style.transform = '';
             container.style.height = '';
         }
         setTimeout(applyScale, 300);
+    };
+    // デバウンス付きリサイズ
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(resizeHandler, 200);
     });
 }
 
