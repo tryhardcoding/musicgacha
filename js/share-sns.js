@@ -50,44 +50,63 @@ export function sharePackResult(cards, packType, isGold = false, isGod = false) 
 
     // 残り文字数で曲リストを構築
     const maxTotal = 280;
-    let remaining = maxTotal - fixedCost;
+    const available = maxTotal - fixedCost;
 
-    // 各カードの行を生成（レアリティ + 曲名 / アーティスト）
-    const cardLines = cards.map(card => {
-        return `${card.rarity}｜${card.title} / ${card.artist}`;
+    // 各カードの情報を構造化（プレフィックスと本文を分離）
+    const ellipsis = '…';
+    const ellipsisCost = xCharCount(ellipsis);
+    const cardInfos = cards.map(card => {
+        const prefix = `${card.rarity}｜`;
+        const body = `${card.title} / ${card.artist}`;
+        return { prefix, body, prefixCost: xCharCount(prefix), bodyCost: xCharCount(body) };
     });
 
-    // 文字数に収まるようにトリミング（後ろのカードの曲名から短縮）
-    const finalLines = [];
-    for (let i = 0; i < cardLines.length; i++) {
-        let line = cardLines[i];
-        const lineCost = xCharCount(line) + 1; // +1 for newline
+    // 全行の合計コスト（改行含む）を計算
+    const newlineCosts = cards.length; // 各行の改行分
+    const totalPrefixCost = cardInfos.reduce((sum, c) => sum + c.prefixCost, 0);
+    const totalBodyCost = cardInfos.reduce((sum, c) => sum + c.bodyCost, 0);
+    const totalCost = totalPrefixCost + totalBodyCost + newlineCosts;
 
-        if (remaining >= lineCost) {
-            finalLines.push(line);
-            remaining -= lineCost;
-        } else {
-            // 残り文字数に収まるようトリミング
-            const prefix = `${cards[i].rarity}｜`;
-            const ellipsis = '…';
-            const prefixCost = xCharCount(prefix);
-            const availableForTitle = remaining - prefixCost - xCharCount(ellipsis) - 1;
-
-            if (availableForTitle > 4) {
-                // タイトルを短縮して入れる
-                let trimmed = `${cards[i].title} / ${cards[i].artist}`;
-                while (xCharCount(trimmed) > availableForTitle && trimmed.length > 1) {
-                    trimmed = trimmed.slice(0, -1);
+    let finalLines;
+    if (totalCost <= available) {
+        // 全曲そのまま収まる
+        finalLines = cardInfos.map(c => `${c.prefix}${c.body}`);
+    } else {
+        // 長い曲名を均等にトリミング: 全行の本文に共通の上限文字数を設定
+        // 二分探索で最適な上限を見つける
+        let lo = 4, hi = Math.max(...cardInfos.map(c => c.bodyCost));
+        while (lo < hi) {
+            const mid = Math.ceil((lo + hi) / 2);
+            // この上限でのコストを計算
+            let cost = newlineCosts;
+            for (const c of cardInfos) {
+                cost += c.prefixCost;
+                if (c.bodyCost <= mid) {
+                    cost += c.bodyCost;
+                } else {
+                    cost += mid + ellipsisCost; // トリミング時は省略記号分も加算
                 }
-                finalLines.push(`${prefix}${trimmed}${ellipsis}`);
-                remaining = 0;
+            }
+            if (cost <= available) {
+                lo = mid;
             } else {
-                // もう入らない → 残り曲数表示
-                const left = cardLines.length - i;
-                finalLines.push(`...他${left}曲`);
-                break;
+                hi = mid - 1;
             }
         }
+        const maxBodyCost = lo;
+
+        // 上限に基づいて各行をトリミング
+        finalLines = cardInfos.map(c => {
+            if (c.bodyCost <= maxBodyCost) {
+                return `${c.prefix}${c.body}`;
+            }
+            // 本文をmaxBodyCostに収まるようトリミング
+            let trimmed = c.body;
+            while (xCharCount(trimmed) > maxBodyCost && trimmed.length > 1) {
+                trimmed = trimmed.slice(0, -1);
+            }
+            return `${c.prefix}${trimmed}${ellipsis}`;
+        });
     }
 
     const text = headerLine + finalLines.join('\n') + footer;
