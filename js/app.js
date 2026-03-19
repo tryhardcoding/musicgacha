@@ -9,7 +9,7 @@ import { getTop200Tracks } from './api.js';
 import './gacha.js'; // ガチャモジュール（グローバル参照にopenPackを登録）
 import { initCollection, renderCollection } from './collection.js';
 import { initShareHandler } from './transfer.js';
-import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, refreshModalBannerAd } from './ads.js';
+import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, refreshModalBannerAd } from './ads.js?v=20260320';
 import { icon, refreshIcons } from './icons.js';
 
 // ---- Screen Routing ----
