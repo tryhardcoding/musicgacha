@@ -11,7 +11,7 @@ import { initCollection, renderCollection } from './collection.js';
 import { initShareHandler } from './transfer.js';
 import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, refreshModalBannerAd } from './ads.js?v=20260320';
 import { icon, refreshIcons } from './icons.js';
-import { sharePackResult, shareCollectionStats } from './share-sns.js';
+import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260320b';
 
 // ---- Screen Routing ----
 

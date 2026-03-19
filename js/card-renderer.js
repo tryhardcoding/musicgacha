@@ -6,7 +6,7 @@
 import { RARITY_CONFIG, formatDuration } from './card.js';
 import { getSetting, toggleFavorite, isFavorite } from './storage.js';
 import { copyShareLink } from './transfer.js';
-import { shareCard } from './share-sns.js';
+import { shareCard } from './share-sns.js?v=20260320b';
 import { getAmazonMusicUrl } from './affiliate.js';
 import { icon, refreshIcons, PACK_ICONS, GENRE_ICONS } from './icons.js';
 import { getSongPool, getGenreData } from './data-loader.js';

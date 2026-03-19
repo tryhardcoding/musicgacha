@@ -3,7 +3,7 @@
 // オフラインキャッシュ + 再訪問時の通信量削減
 // ============================================================
 
-const CACHE_VERSION = 'musicgacha-v7';
+const CACHE_VERSION = 'musicgacha-v8';
 
 // プリキャッシュする静的アセット（初回インストール時に取得）
 const PRECACHE_ASSETS = [
@@ -105,10 +105,14 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 6. 静的アセット（画像・CSS・JS・設定JSON）→ Cache First
+  // 6. JS・CSS → Stale While Revalidate（キャッシュ即返し＋バックグラウンド更新）
+  if (url.pathname.endsWith('.js') || url.pathname.endsWith('.css')) {
+    event.respondWith(staleWhileRevalidate(event.request));
+    return;
+  }
+
+  // 7. 静的アセット（画像・設定JSON）→ Cache First
   if (url.pathname.startsWith('/assets/') ||
-      url.pathname.endsWith('.css') ||
-      url.pathname.endsWith('.js') ||
       url.pathname === '/data/packs.json' ||
       url.pathname === '/data/genres.json') {
     event.respondWith(cacheFirst(event.request));
