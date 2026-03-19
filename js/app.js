@@ -155,13 +155,20 @@ function updateRegenTimer() {
     regenTimerInterval = setInterval(tick, 1000);
 }
 
-function updateTop200ChallengeCard() {
+async function updateTop200ChallengeCard() {
     const card = document.getElementById('top200-challenge-card');
     if (!card) return;
 
+    // 現在のチャートトラックと照合して正確なobtained数をカウント
+    const chartTracks = await getTop200Tracks();
     const top200Data = getTop200Data();
-    const obtained = top200Data.obtainedKeys ? top200Data.obtainedKeys.length : 0;
-    const total = 200;
+    const obtainedSet = new Set(top200Data.obtainedKeys);
+    const total = chartTracks.length || 200;
+    let obtained = 0;
+    for (const track of chartTracks) {
+        const key = `${track.artist.toLowerCase()}::${track.name.toLowerCase()}`;
+        if (obtainedSet.has(key)) obtained++;
+    }
     const percentage = Math.min((obtained / total) * 100, 100);
     const remaining = total - obtained;
 

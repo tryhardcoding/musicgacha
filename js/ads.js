@@ -98,6 +98,54 @@ function reloadIMobileScript() {
 }
 
 /**
+ * i-mobile広告がコンテナからはみ出す場合にスケーリングする
+ * i-mobileはインラインでmin-width: 728pxを設定するため、
+ * CSSのmax-widthでは対応できない → transform: scaleで縮小
+ * @param {HTMLElement} container - 広告コンテナ
+ */
+function scaleAdToFit(container) {
+    if (!container) return;
+
+    const applyScale = () => {
+        const containerWidth = container.clientWidth;
+        if (containerWidth <= 0) return;
+
+        // 広告内の実際の幅を持つ要素を探す
+        const adContent = container.querySelector('iframe, [id^="im-"]');
+        if (!adContent) return;
+
+        const adWidth = adContent.offsetWidth || adContent.scrollWidth;
+        if (adWidth > containerWidth) {
+            const scale = containerWidth / adWidth;
+            adContent.style.transformOrigin = 'top left';
+            adContent.style.transform = `scale(${scale})`;
+            // コンテナの高さを調整（スケール後の見た目に合わせる）
+            const adHeight = adContent.offsetHeight || adContent.scrollHeight;
+            container.style.height = `${adHeight * scale}px`;
+        }
+    };
+
+    // MutationObserverで広告の挿入を監視
+    const observer = new MutationObserver(() => {
+        // 少し待ってからスケーリング（i-mobileがiframeをレンダリングするのを待つ）
+        setTimeout(applyScale, 500);
+        setTimeout(applyScale, 1500); // 広告読み込みが遅い場合のフォールバック
+    });
+    observer.observe(container, { childList: true, subtree: true });
+
+    // リサイズ時にも再計算
+    window.addEventListener('resize', () => {
+        // 一度スケールをリセット
+        const adContent = container.querySelector('iframe, [id^="im-"]');
+        if (adContent) {
+            adContent.style.transform = '';
+            container.style.height = '';
+        }
+        setTimeout(applyScale, 300);
+    });
+}
+
+/**
  * i-mobile広告タグをコンテナにセットする
  * @param {HTMLElement} container - 広告を入れるDOM要素
  * @param {Object} adConfig - { asid, elementId, type, display }
@@ -129,6 +177,9 @@ function insertIMobileAd(container, adConfig) {
         display: adConfig.display,
         elementid: adConfig.elementId,
     });
+
+    // 広告がコンテナから溢れないようスケーリングを適用
+    scaleAdToFit(container);
 }
 
 // ---- Banner Ad Initialization ----
@@ -469,6 +520,9 @@ export function refreshModalBannerAd() {
         elementid: uniqueId,
     });
     setTimeout(() => reloadIMobileScript(), 50);
+
+    // 広告がコンテナから溢れないようスケーリングを適用
+    scaleAdToFit(container);
 }
 
 // ---- Initialization ----

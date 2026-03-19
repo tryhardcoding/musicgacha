@@ -1140,21 +1140,7 @@ input {
 }
 
 .daily-bonus-card::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: conic-gradient(from 0deg, transparent, rgba(245, 158, 11, 0.06), transparent, rgba(250, 204, 21, 0.06), transparent);
-  animation: dailyBonusRotate 6s linear infinite;
-  pointer-events: none;
-}
-
-@keyframes dailyBonusRotate {
-  to {
-    transform: rotate(360deg);
-  }
+  display: none;
 }
 
 .daily-bonus-card:hover {
@@ -1174,24 +1160,7 @@ input {
 
 .daily-bonus-icon {
   font-size: 2.2rem;
-  animation: bonusBounce 2s ease-in-out infinite;
-  filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.4));
-}
-
-@keyframes bonusBounce {
-
-  0%,
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-
-  25% {
-    transform: translateY(-6px) rotate(-5deg);
-  }
-
-  75% {
-    transform: translateY(-2px) rotate(5deg);
-  }
+  filter: drop-shadow(0 0 4px rgba(245, 158, 11, 0.2));
 }
 
 .daily-bonus-info {
@@ -3551,7 +3520,7 @@ input {
 /* ---- Ad Container ---- */
 .ad-container {
   width: 100%;
-  max-width: 728px;
+  max-width: 100%;
   margin: var(--space-md) auto;
   padding: var(--space-xs);
   border-radius: var(--radius-md);
@@ -3565,6 +3534,13 @@ input {
 .ad-container ins {
   display: block;
   width: 100%;
+}
+
+.ad-container iframe,
+.ad-container img,
+.ad-container > div {
+  max-width: 100%;
+  height: auto;
 }
 
 .ad-placeholder {
@@ -3598,7 +3574,7 @@ input {
 
 @media (max-width: 479px) {
   .ad-container {
-    max-width: 320px;
+    max-width: 100%;
     min-height: 50px;
   }
 }
@@ -4709,7 +4685,7 @@ svg.lucide {
 /* ---- Ad Container (Banner) ---- */
 .ad-container {
   width: 100%;
-  max-width: 728px;
+  max-width: 100%;
   margin: var(--space-md) auto;
   display: flex;
   align-items: center;
