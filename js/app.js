@@ -3,7 +3,7 @@
 // アプリ初期化・画面ルーティング・UIイベント管理
 // ============================================================
 
-import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining } from './storage.js';
+import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining, getCollection } from './storage.js';
 import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
 import './gacha.js?v=20260320b'; // ガチャモジュール（グローバル参照にopenPackを登録）
@@ -161,14 +161,25 @@ async function updateTop200ChallengeCard() {
     if (!card) return;
 
     // 現在のチャートトラックと照合して正確なobtained数をカウント
+    // コレクション画面(collection.js)と同じロジック: obtainedKeys AND コレクション内にカードが存在
     const chartTracks = await getTop200Tracks();
     const top200Data = getTop200Data();
     const obtainedSet = new Set(top200Data.obtainedKeys);
     const total = chartTracks.length || 200;
+
+    // コレクション内のカードをキーでルックアップ
+    const collection = getCollection();
+    const collectionKeySet = new Set();
+    for (const c of collection) {
+        const artist = (c.originalArtist || c.artist || '').toLowerCase();
+        const title = (c.originalName || c.title || '').toLowerCase();
+        collectionKeySet.add(`${artist}::${title}`);
+    }
+
     let obtained = 0;
     for (const track of chartTracks) {
         const key = `${track.artist.toLowerCase()}::${track.name.toLowerCase()}`;
-        if (obtainedSet.has(key)) obtained++;
+        if (obtainedSet.has(key) && collectionKeySet.has(key)) obtained++;
     }
     const percentage = Math.min((obtained / total) * 100, 100);
     const remaining = total - obtained;
@@ -250,12 +261,20 @@ async function updateTop200Progress() {
     const total = chartTracks.length || 200;
 
     // 今日のチャートの曲キーとobtainedKeysの一致数をカウント
+    // コレクション画面と同じロジック: obtainedKeys AND コレクション内にカードが存在
     const top200Data = getTop200Data();
     const obtainedSet = new Set(top200Data.obtainedKeys);
+    const collection = getCollection();
+    const collectionKeySet = new Set();
+    for (const c of collection) {
+        const artist = (c.originalArtist || c.artist || '').toLowerCase();
+        const title = (c.originalName || c.title || '').toLowerCase();
+        collectionKeySet.add(`${artist}::${title}`);
+    }
     let obtained = 0;
     for (const track of chartTracks) {
         const key = `${track.artist.toLowerCase()}::${track.name.toLowerCase()}`;
-        if (obtainedSet.has(key)) obtained++;
+        if (obtainedSet.has(key) && collectionKeySet.has(key)) obtained++;
     }
 
     const remaining = total - obtained;

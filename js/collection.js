@@ -331,16 +331,13 @@ async function renderTop200View() {
 
         if (isObtained && cardData) {
             obtainedCount++;
-            // 取得済み: カード表示 + ランク番号
+            // 取得済み: カード表示 + ランク番号（カード内部にchartRankとして表示）
             const wrapper = document.createElement('div');
             wrapper.className = 'top200-slot top200-slot-obtained';
 
-            const rankBadge = document.createElement('span');
-            rankBadge.className = 'top200-rank-badge';
-            rankBadge.textContent = `#${track.rank}`;
-            wrapper.appendChild(rankBadge);
-
-            const cardEl = renderCard(cardData, {
+            // chartRankを設定してカード内部にランクバッジを表示（ガチャ結果と同じ表示）
+            const cardWithRank = { ...cardData, chartRank: track.rank };
+            const cardEl = renderCard(cardWithRank, {
                 compact: true,
                 onClick: (c) => openCardDetail(c),
             });

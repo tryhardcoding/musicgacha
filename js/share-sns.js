@@ -109,6 +109,43 @@ export function sharePackResult(cards, packType, isGold = false, isGod = false) 
         });
     }
 
+    // 安全ネット: 最終テキストがmaxTotalを超過していないか再検証
+    // URL部分(musicgacha.com)を23文字として計算
+    let textWithoutUrl = headerLine + finalLines.join('\n') + '\n\n#MusicGacha #音楽ガチャ\n';
+    let safeTotal = xCharCount(textWithoutUrl) + 23;
+
+    if (safeTotal > maxTotal) {
+        // 最も長いbodyを持つ行から1文字ずつ削って280に収める
+        // finalLinesとcardInfosの対応を保持して修正
+        const bodyTexts = cardInfos.map((c, i) => {
+            const line = finalLines[i];
+            return line.startsWith(c.prefix) ? line.slice(c.prefix.length).replace(/…$/, '') : line;
+        });
+        const isEllipsized = finalLines.map(l => l.endsWith(ellipsis));
+
+        while (safeTotal > maxTotal) {
+            // 最もbodyが長い行のインデックスを見つける
+            let longestIdx = 0, longestCost = 0;
+            for (let i = 0; i < bodyTexts.length; i++) {
+                const cost = xCharCount(bodyTexts[i]);
+                if (cost > longestCost) {
+                    longestCost = cost;
+                    longestIdx = i;
+                }
+            }
+            if (longestCost <= 1) break; // これ以上短くできない
+            // 1文字削る
+            bodyTexts[longestIdx] = bodyTexts[longestIdx].slice(0, -1);
+            isEllipsized[longestIdx] = true;
+            // 再構築して再計算
+            finalLines = cardInfos.map((c, i) =>
+                `${c.prefix}${bodyTexts[i]}${isEllipsized[i] ? ellipsis : ''}`
+            );
+            textWithoutUrl = headerLine + finalLines.join('\n') + '\n\n#MusicGacha #音楽ガチャ\n';
+            safeTotal = xCharCount(textWithoutUrl) + 23;
+        }
+    }
+
     const text = headerLine + finalLines.join('\n') + footer;
     openXIntent(text);
 }
