@@ -191,7 +191,7 @@
         "collectionName": "HANA",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 205307,
-        "bestChartRank": 98,
+        "bestChartRank": 96,
         "itunesSearched": true
       },
       {
@@ -235,7 +235,8 @@
         "collectionName": "SAD SONG - From THE FIRST TAKE (feat. No No Girls FINALISTS) - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 286555,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 115
       },
       {
         "name": "Tiger",
@@ -278,7 +279,8 @@
         "collectionName": "ケセラセラ - Single",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 272965,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 103
       },
       {
         "name": "NON STOP",
@@ -349,7 +351,8 @@
         "collectionName": "Attitude (Expanded Edition)",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 307120,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 121
       },
       {
         "name": "高嶺の花子さん",
@@ -391,7 +394,7 @@
         "collectionName": "JANE DOE - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 235947,
-        "bestChartRank": 122,
+        "bestChartRank": 101,
         "itunesSearched": true
       },
       {
@@ -420,7 +423,8 @@
         "collectionName": "ハレンチ",
         "primaryGenreName": "ヒップホップ／ラップ",
         "trackTimeMillis": 198709,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 181
       },
       {
         "name": "ヒロイン",
@@ -522,7 +526,8 @@
         "collectionName": "Never Grow Up",
         "primaryGenreName": "ヒップホップ／ラップ",
         "trackTimeMillis": 196253,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 198
       },
       {
         "name": "どうしてもどうしても",
@@ -550,7 +555,8 @@
         "collectionName": "水平線 - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 285396,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 108
       },
       {
         "name": "Golden",
@@ -607,7 +613,8 @@
         "collectionName": "ダンスホール - Single",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 203150,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 179
       },
       {
         "name": "BANG BANG",
@@ -636,7 +643,7 @@
         "collectionName": "GOOD DAY - Single",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 257070,
-        "bestChartRank": 199,
+        "bestChartRank": 159,
         "itunesSearched": true
       },
       {
@@ -749,7 +756,8 @@
         "itunesTrackId": 1536455325,
         "collectionName": "シルエット - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 241520
+        "trackTimeMillis": 241520,
+        "itunesSearched": true
       },
       {
         "name": "Burning Flower",
@@ -762,7 +770,8 @@
         "itunesTrackId": 1816111098,
         "collectionName": "Burning Flower - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 177898
+        "trackTimeMillis": 177898,
+        "itunesSearched": true
       },
       {
         "name": "Theater",
@@ -775,7 +784,8 @@
         "itunesTrackId": 1860159898,
         "collectionName": "STARRING",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 200227
+        "trackTimeMillis": 200227,
+        "itunesSearched": true
       },
       {
         "name": "TEST ME",
@@ -789,7 +799,8 @@
         "collectionName": "TEST ME - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 171483,
-        "bestChartRank": 80
+        "bestChartRank": 80,
+        "itunesSearched": true
       },
       {
         "name": "マリーゴールド",
@@ -802,7 +813,8 @@
         "itunesTrackId": 1402042897,
         "collectionName": "マリーゴールド - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 308107
+        "trackTimeMillis": 308107,
+        "itunesSearched": true
       },
       {
         "name": "My Body",
@@ -815,7 +827,8 @@
         "itunesTrackId": 1842761903,
         "collectionName": "My Body - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 203297
+        "trackTimeMillis": 203297,
+        "itunesSearched": true
       },
       {
         "name": "StaRt",
@@ -828,7 +841,8 @@
         "itunesTrackId": 1440745441,
         "collectionName": "Variety - EP",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 211427
+        "trackTimeMillis": 211427,
+        "itunesSearched": true
       },
       {
         "name": "千鳥",
@@ -841,7 +855,9 @@
         "itunesTrackId": 1876728685,
         "collectionName": "二人称",
         "primaryGenreName": "オルタナティブ",
-        "trackTimeMillis": 252116
+        "trackTimeMillis": 252116,
+        "bestChartRank": 106,
+        "itunesSearched": true
       },
       {
         "name": "タッチ",
@@ -855,7 +871,8 @@
         "collectionName": "タッチ - Single",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 208947,
-        "bestChartRank": 6
+        "bestChartRank": 6,
+        "itunesSearched": true
       },
       {
         "name": "Pretender",
@@ -869,7 +886,8 @@
         "collectionName": "Traveler",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 326843,
-        "bestChartRank": 159
+        "bestChartRank": 159,
+        "itunesSearched": true
       },
       {
         "name": "オドロウゼ!",
@@ -882,7 +900,8 @@
         "itunesTrackId": 1874808353,
         "collectionName": "オドロウゼ! - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 231127
+        "trackTimeMillis": 231127,
+        "itunesSearched": true
       },
       {
         "name": "Blue Jeans",
@@ -910,7 +929,8 @@
         "collectionName": "Subtitle - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 305509,
-        "bestChartRank": 154
+        "bestChartRank": 154,
+        "itunesSearched": true
       },
       {
         "name": "RUDE!",
@@ -923,7 +943,8 @@
         "itunesTrackId": 1877032243,
         "collectionName": "RUDE! - Single",
         "primaryGenreName": "K-Pop",
-        "trackTimeMillis": 200000
+        "trackTimeMillis": 200000,
+        "itunesSearched": true
       },
       {
         "name": "アイラブユー",
@@ -936,7 +957,8 @@
         "itunesTrackId": 1648411352,
         "collectionName": "アイラブユー - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 235683
+        "trackTimeMillis": 235683,
+        "itunesSearched": true
       },
       {
         "name": "インフェルノ",
@@ -949,7 +971,8 @@
         "itunesTrackId": 1471459432,
         "collectionName": "インフェルノ - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 212547
+        "trackTimeMillis": 212547,
+        "itunesSearched": true
       },
       {
         "name": "BAD LOVE",
@@ -962,7 +985,8 @@
         "itunesTrackId": 1836082423,
         "collectionName": "BAD LOVE - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 185438
+        "trackTimeMillis": 185438,
+        "itunesSearched": true
       },
       {
         "name": "Again",
@@ -976,7 +1000,8 @@
         "collectionName": "Again - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 294053,
-        "bestChartRank": 10
+        "bestChartRank": 10,
+        "itunesSearched": true
       },
       {
         "name": "いらない",
@@ -989,7 +1014,8 @@
         "itunesTrackId": 1874114093,
         "collectionName": "いらない - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 226314
+        "trackTimeMillis": 226314,
+        "itunesSearched": true
       },
       {
         "name": "B級",
@@ -1002,7 +1028,8 @@
         "itunesTrackId": 1676285875,
         "collectionName": "Naked",
         "primaryGenreName": "ヒップホップ／ラップ",
-        "trackTimeMillis": 196747
+        "trackTimeMillis": 196747,
+        "itunesSearched": true
       },
       {
         "name": "NON STOP",
@@ -1029,7 +1056,8 @@
         "itunesTrackId": 1537460612,
         "collectionName": "Lemon - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 256116
+        "trackTimeMillis": 256116,
+        "itunesSearched": true
       },
       {
         "name": "SPECIALZ",
@@ -1042,7 +1070,9 @@
         "itunesTrackId": 1702823583,
         "collectionName": "SPECIALZ - Single",
         "primaryGenreName": "オルタナティブ",
-        "trackTimeMillis": 238987
+        "trackTimeMillis": 238987,
+        "bestChartRank": 200,
+        "itunesSearched": true
       },
       {
         "name": "ドライフラワー",
@@ -1055,7 +1085,8 @@
         "itunesTrackId": 1534620183,
         "collectionName": "ドライフラワー - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 285587
+        "trackTimeMillis": 285587,
+        "itunesSearched": true
       },
       {
         "name": "幾億光年",
@@ -1068,7 +1099,8 @@
         "itunesTrackId": 1725229931,
         "collectionName": "幾億光年 - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 276918
+        "trackTimeMillis": 276918,
+        "itunesSearched": true
       },
       {
         "name": "ラブソングに襲われる",
@@ -1081,7 +1113,8 @@
         "itunesTrackId": 1835368696,
         "collectionName": "ラブソングに襲われる - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 218321
+        "trackTimeMillis": 218321,
+        "itunesSearched": true
       },
       {
         "name": "わたがし",
@@ -1094,7 +1127,8 @@
         "itunesTrackId": 1451577945,
         "collectionName": "アンコール",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 262000
+        "trackTimeMillis": 262000,
+        "itunesSearched": true
       },
       {
         "name": "産声",
@@ -1107,7 +1141,8 @@
         "collectionName": "産声",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 357093,
-        "bestChartRank": 107
+        "bestChartRank": 107,
+        "itunesSearched": true
       },
       {
         "name": "ロマンチシズム",
@@ -1120,7 +1155,8 @@
         "itunesTrackId": 1454643219,
         "collectionName": "ロマンチシズム - EP",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 213747
+        "trackTimeMillis": 213747,
+        "itunesSearched": true
       },
       {
         "name": "My Body",
@@ -1133,7 +1169,8 @@
         "itunesTrackId": 1842761903,
         "collectionName": "My Body - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 203297
+        "trackTimeMillis": 203297,
+        "itunesSearched": true
       },
       {
         "name": "Burning Flower",
@@ -1146,7 +1183,8 @@
         "itunesTrackId": 1816111098,
         "collectionName": "Burning Flower - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 177898
+        "trackTimeMillis": 177898,
+        "itunesSearched": true
       },
       {
         "name": "JUMP",
@@ -1159,7 +1197,8 @@
         "itunesTrackId": 1825308259,
         "collectionName": "JUMP - Single",
         "primaryGenreName": "K-Pop",
-        "trackTimeMillis": 164719
+        "trackTimeMillis": 164719,
+        "itunesSearched": true
       },
       {
         "name": "Wherever you are",
@@ -1172,7 +1211,8 @@
         "itunesTrackId": 1838917139,
         "collectionName": "Nicheシンドローム",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 295600
+        "trackTimeMillis": 295600,
+        "itunesSearched": true
       },
       {
         "name": "風神",
@@ -1185,7 +1225,8 @@
         "itunesTrackId": 1771366342,
         "collectionName": "風神 - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 235543
+        "trackTimeMillis": 235543,
+        "itunesSearched": true
       },
       {
         "name": "SAD SONG - From THE FIRST TAKE (feat. No No Girls FINALISTS)",
@@ -1198,7 +1239,8 @@
         "itunesTrackId": 1817600814,
         "collectionName": "SAD SONG - From THE FIRST TAKE (feat. No No Girls FINALISTS) - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 286555
+        "trackTimeMillis": 286555,
+        "itunesSearched": true
       },
       {
         "name": "夜に駆ける",
@@ -1211,7 +1253,8 @@
         "itunesTrackId": 1542182776,
         "collectionName": "THE BOOK",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 258840
+        "trackTimeMillis": 258840,
+        "itunesSearched": true
       },
       {
         "name": "満ちてゆく",
@@ -1224,7 +1267,8 @@
         "itunesTrackId": 1733130377,
         "collectionName": "満ちてゆく - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 310997
+        "trackTimeMillis": 310997,
+        "itunesSearched": true
       },
       {
         "name": "Automatic (Remastered 2014)",
@@ -1237,7 +1281,8 @@
         "itunesTrackId": 1440763351,
         "collectionName": "First Love (2014 Remastered Album)",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 328208
+        "trackTimeMillis": 328208,
+        "itunesSearched": true
       },
       {
         "name": "群青",
@@ -1250,7 +1295,8 @@
         "itunesTrackId": 1528119630,
         "collectionName": "群青 - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 248444
+        "trackTimeMillis": 248444,
+        "itunesSearched": true
       },
       {
         "name": "Zoo",
@@ -1264,7 +1310,8 @@
         "collectionName": "ズートピア2 (オリジナル・サウンドトラック)",
         "primaryGenreName": "サウンドトラック",
         "trackTimeMillis": 190823,
-        "bestChartRank": 72
+        "bestChartRank": 72,
+        "itunesSearched": true
       },
       {
         "name": "BAD LOVE",
@@ -1277,7 +1324,8 @@
         "itunesTrackId": 1836082423,
         "collectionName": "BAD LOVE - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 185438
+        "trackTimeMillis": 185438,
+        "itunesSearched": true
       },
       {
         "name": "怪盗",
@@ -1290,7 +1338,8 @@
         "itunesTrackId": 1566811795,
         "collectionName": "怪盗 - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 196226
+        "trackTimeMillis": 196226,
+        "itunesSearched": true
       },
       {
         "name": "白日",
@@ -1304,7 +1353,8 @@
         "collectionName": "白日 - Single",
         "primaryGenreName": "オルタナティブ",
         "trackTimeMillis": 274913,
-        "bestChartRank": 113
+        "bestChartRank": 113,
+        "itunesSearched": true
       },
       {
         "name": "イエスタデイ",
@@ -1317,7 +1367,8 @@
         "itunesTrackId": 1479397583,
         "collectionName": "Traveler",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 299164
+        "trackTimeMillis": 299164,
+        "itunesSearched": true
       },
       {
         "name": "NG",
@@ -1330,7 +1381,8 @@
         "itunesTrackId": 1585848049,
         "collectionName": "ハレンチ",
         "primaryGenreName": "ヒップホップ／ラップ",
-        "trackTimeMillis": 191567
+        "trackTimeMillis": 191567,
+        "itunesSearched": true
       },
       {
         "name": "breakfast",
@@ -1343,7 +1395,8 @@
         "itunesTrackId": 1817561951,
         "collectionName": "breakfast - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 228972
+        "trackTimeMillis": 228972,
+        "itunesSearched": true
       },
       {
         "name": "First Love (Remastered 2014)",
@@ -1356,7 +1409,8 @@
         "itunesTrackId": 1440763358,
         "collectionName": "First Love (2014 Remastered Album)",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 257894
+        "trackTimeMillis": 257894,
+        "itunesSearched": true
       },
       {
         "name": "踊り子",
@@ -1370,7 +1424,8 @@
         "trackTimeMillis": 230110,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f1/cd/f7/f1cdf773-5dca-3d6d-6c14-2fb9871a83a9/197189838330.jpg/600x600bb.jpg",
         "releaseDate": "2021-11-17",
-        "bestChartRank": 170
+        "bestChartRank": 170,
+        "itunesSearched": true
       },
       {
         "name": "たぶん",
@@ -1383,7 +1438,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 258667,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bf/1c/3b/bf1c3bdd-a128-2843-776a-35bf3c879d98/195081850498.jpg/600x600bb.jpg",
-        "releaseDate": "2020-07-20"
+        "releaseDate": "2020-07-20",
+        "itunesSearched": true
       },
       {
         "name": "Tiger – HANA with HONEYs Ver.",
@@ -1396,7 +1452,8 @@
         "itunesTrackId": 1874511683,
         "collectionName": "HANA",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 274040
+        "trackTimeMillis": 274040,
+        "itunesSearched": true
       },
       {
         "name": "Dream Lantern",
@@ -1409,7 +1466,8 @@
         "primaryGenreName": "ロック",
         "trackTimeMillis": 130267,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/f7/28/a2/f728a24e-ca7b-c267-32f1-7c5d9ede199c/16UMGIM87518.rgb.jpg/600x600bb.jpg",
-        "releaseDate": "2017-02-22"
+        "releaseDate": "2017-02-22",
+        "itunesSearched": true
       },
       {
         "name": "うっせぇわ",
@@ -1422,7 +1480,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 204920,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/82/41/cb8241a3-5324-bbaa-8da2-33c5b29b1c7d/20UMGIM76771.rgb.jpg/600x600bb.jpg",
-        "releaseDate": "2020-10-23"
+        "releaseDate": "2020-10-23",
+        "itunesSearched": true
       },
       {
         "name": "Aishite Aishite Aishite",
@@ -1435,7 +1494,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 258373,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/e9/42/fae942a7-dca5-6cc0-9e49-4a4f2da6b81e/23UM1IM45777.rgb.jpg/600x600bb.jpg",
-        "releaseDate": "2023-12-12"
+        "releaseDate": "2023-12-12",
+        "itunesSearched": true
       },
       {
         "name": "New Genesis",
@@ -1448,7 +1508,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 228214,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/22/1c/ec/221cec90-5ec0-422a-3ddd-1aeeac06bb59/22UMGIM51053.rgb.jpg/600x600bb.jpg",
-        "releaseDate": "2022-06-08"
+        "releaseDate": "2022-06-08",
+        "itunesSearched": true
       },
       {
         "name": "ハルジオン",
@@ -1461,7 +1522,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 198000,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d3/23/ac/d323ac61-2d0b-2d15-6907-fdf994be8ba1/195081470399.jpg/600x600bb.jpg",
-        "releaseDate": "2020-05-11"
+        "releaseDate": "2020-05-11",
+        "itunesSearched": true
       },
       {
         "name": "あの夢をなぞって",
@@ -6253,7 +6315,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 201280,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/b2/13/3eb21367-be26-2634-d90f-bc8182d3d0b2/4547366699760.jpg/600x600bb.jpg",
-        "releaseDate": "2024-04-08"
+        "releaseDate": "2024-04-08",
+        "bestChartRank": 173
       },
       {
         "name": "Wishing",
@@ -18465,7 +18528,8 @@
         "primaryGenreName": "ロック",
         "trackTimeMillis": 329760,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/b1/66/40/mzi.jmwxhlcj.jpg/600x600bb.jpg",
-        "releaseDate": "1994-07-10"
+        "releaseDate": "1994-07-10",
+        "bestChartRank": 194
       },
       {
         "name": "Take me Take me",
@@ -20247,7 +20311,7 @@
         "trackTimeMillis": 271880,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/59/71/a5/5971a58d-9b81-1c64-195e-9e896c804d06/00044002897312.rgb.jpg/600x600bb.jpg",
         "releaseDate": "2008-05-28",
-        "bestChartRank": 173
+        "bestChartRank": 163
       },
       {
         "name": "サムライハート(Some Like It Hot!!)",
@@ -74219,6 +74283,19 @@
         "source": "top200_merge"
       },
       {
+        "name": "SWIM",
+        "artist": "BTS",
+        "playcount": 9951000,
+        "rank": 1,
+        "bestChartRank": 1,
+        "url": "https://music.apple.com/jp/album/swim/1868991573?i=1868991957&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/89/5c/fb895cd5-6fe7-351e-7215-5cbcf40dbe1c/26UMGIM03002.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
+      },
+      {
         "name": "Ichibyo",
         "artist": "SixTONES",
         "playcount": 9804000,
@@ -74291,6 +74368,19 @@
         "bestChartRank": 26
       },
       {
+        "name": "2.0",
+        "artist": "BTS",
+        "playcount": 9167000,
+        "rank": 17,
+        "bestChartRank": 17,
+        "url": "https://music.apple.com/jp/album/2-0/1869053670?i=1869053679&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/16/73/8e1673a3-5e13-ef95-131f-483903947fed/26UMGIM03003.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
+      },
+      {
         "name": "Hanakotoba",
         "artist": "TAGRIGHT",
         "playcount": 9069000,
@@ -74303,6 +74393,19 @@
         "playcount": 8971000,
         "rarity": "LR",
         "bestChartRank": 23
+      },
+      {
+        "name": "BTS on NORMAL",
+        "artist": "BTS",
+        "playcount": 8971000,
+        "rank": 21,
+        "bestChartRank": 21,
+        "url": "https://music.apple.com/jp/album/bts-on-normal/1884126400?i=1884126410&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/01/06/d70106f0-31f5-721b-471b-551bf083d677/ticket.ecruyjar.png/600x600bb.jpg",
+        "releaseDate": "2026-03-19",
+        "rarity": "LR"
       },
       {
         "name": "Sangatsu Kokonoka",
@@ -74495,6 +74598,19 @@
         "bestChartRank": 71
       },
       {
+        "name": "Glory Days",
+        "artist": "ICEx",
+        "playcount": 7795000,
+        "rank": 45,
+        "bestChartRank": 45,
+        "url": "https://music.apple.com/jp/album/glory-days/1878613045?i=1878613047&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/dd/ff/57ddffcd-d746-5624-32f7-acad2ead9476/VEATP-45393.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-14",
+        "rarity": "LR"
+      },
+      {
         "name": "CHARISMAX (English ver.)",
         "artist": "Snow Man",
         "playcount": 7746000,
@@ -74502,7 +74618,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/64/7c/e5647c0d-febf-59b8-cce5-f109a0f85f63/ANTCD-A0000018598.jpg/600x600bb.jpg",
         "releaseDate": "2025-11-05",
         "rarity": "LR",
-        "bestChartRank": 59
+        "bestChartRank": 52
       },
       {
         "name": "IRANAI",
@@ -74551,6 +74667,14 @@
         "bestChartRank": 94
       },
       {
+        "name": "Smiles and Stumbles",
+        "artist": "Humbert Humbert",
+        "playcount": 7354000,
+        "rarity": "LR",
+        "bestChartRank": 54,
+        "source": "top200_merge"
+      },
+      {
         "name": "Main theme song -RHYTHM EMOTION 30th Anniversary-(NEW MOBILE REPORT GUNDAM WING -Operation30th-)",
         "artist": "Two-Mix",
         "playcount": 7256000,
@@ -74589,13 +74713,6 @@
         "source": "top200_merge"
       },
       {
-        "name": "Smiles and Stumbles",
-        "artist": "Humbert Humbert",
-        "playcount": 7011000,
-        "rarity": "LR",
-        "bestChartRank": 93
-      },
-      {
         "name": "Shin Takara Jima",
         "artist": "sakanaction",
         "playcount": 6962000,
@@ -74630,7 +74747,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/70/ab/1a/70ab1a87-a5db-9fb3-f42b-aafac79d5143/4547366809411.jpg/600x600bb.jpg",
         "releaseDate": "2026-03-18",
         "rarity": "LR",
-        "bestChartRank": 103
+        "bestChartRank": 92
       },
       {
         "name": "Silhouette",
@@ -74646,6 +74763,19 @@
         "playcount": 6570000,
         "rarity": "LR",
         "bestChartRank": 78
+      },
+      {
+        "name": "Dance with STEEL BALL RUN",
+        "artist": "Yugo Kanno",
+        "playcount": 6521000,
+        "rank": 83,
+        "bestChartRank": 71,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "LR"
       },
       {
         "name": "PROVANT (feat. Jean-Ken Johnny & TAKUMA)",
@@ -74681,6 +74811,19 @@
         "bestChartRank": 116
       },
       {
+        "name": "Spring Song",
+        "artist": "Ayane",
+        "playcount": 6080000,
+        "rank": 80,
+        "bestChartRank": 80,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "LR"
+      },
+      {
         "name": "Haruka",
         "artist": "GReeeeN",
         "playcount": 6031000,
@@ -74693,11 +74836,11 @@
         "rarity": "LR"
       },
       {
-        "name": "Dance with STEEL BALL RUN",
-        "artist": "Yugo Kanno",
-        "playcount": 5933000,
-        "rank": 83,
-        "bestChartRank": 83,
+        "name": "World Is Mine (Kaguya&Yachiyo Runami Ver.) [Cpk! Remix]",
+        "artist": "ryo (supercell), Kaguya(cv.Yuko Natsuyoshi) & Yachiyo Runami(cv.Saori Hayami)",
+        "playcount": 5884000,
+        "rank": 84,
+        "bestChartRank": 84,
         "url": null,
         "mbid": null,
         "source": "top200_merge",
@@ -74706,11 +74849,11 @@
         "rarity": "LR"
       },
       {
-        "name": "World Is Mine (Kaguya&Yachiyo Runami Ver.) [Cpk! Remix]",
-        "artist": "ryo (supercell), Kaguya(cv.Yuko Natsuyoshi) & Yachiyo Runami(cv.Saori Hayami)",
-        "playcount": 5884000,
-        "rank": 84,
-        "bestChartRank": 84,
+        "name": "Song With You",
+        "artist": "Ayane",
+        "playcount": 5835000,
+        "rank": 85,
+        "bestChartRank": 85,
         "url": null,
         "mbid": null,
         "source": "top200_merge",
@@ -74887,7 +75030,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/6a/5e/116a5ebb-51dc-6edf-f493-d9b171a1f554/194491808013.jpg/600x600bb.jpg",
         "releaseDate": "2005-08-03",
         "rarity": "LR",
-        "bestChartRank": 185
+        "bestChartRank": 171
       },
       {
         "name": "栄光の架橋",
@@ -74900,14 +75043,38 @@
         "bestChartRank": 132
       },
       {
+        "name": "春の人",
+        "artist": "Ayane",
+        "playcount": 4169000,
+        "rank": 119,
+        "bestChartRank": 119,
+        "url": "https://music.apple.com/jp/album/%E6%98%A5%E3%81%AE%E4%BA%BA/1872661348?i=1872661369&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/37/7c/9f/377c9fde-d930-0daa-c8c5-6c0eb5359a59/ANTCD-A0000019117.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-02",
+        "rarity": "LR"
+      },
+      {
         "name": "メガネを外して",
         "artist": "乃紫",
-        "playcount": 3973000,
+        "playcount": 4120000,
         "url": "https://music.apple.com/jp/album/%E3%83%A1%E3%82%AC%E3%83%8D%E3%82%92%E5%A4%96%E3%81%97%E3%81%A6/1862678951?i=1862678952&uo=4",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/ab/77/c1ab77fd-07b9-ae42-0ab9-91495b5a1def/NOAA-00017-T01.jpg/600x600bb.jpg",
         "releaseDate": "2026-01-14",
         "rarity": "LR",
-        "bestChartRank": 123,
+        "bestChartRank": 120,
+        "source": "top200_merge"
+      },
+      {
+        "name": "よあけのうた - Yoake no uta",
+        "artist": "jo0ji",
+        "playcount": 4022000,
+        "url": "https://music.apple.com/jp/album/%E3%82%88%E3%81%82%E3%81%91%E3%81%AE%E3%81%86%E3%81%9F-yoake-no-uta/1860793459?i=1860793850&uo=4",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/94/dd/5a94dd05-d5e3-9d02-9688-324b2c62ae38/4547366794731.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-10",
+        "rarity": "LR",
+        "bestChartRank": 122,
         "source": "top200_merge"
       },
       {
@@ -74921,6 +75088,19 @@
         "source": "top200_merge",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
         "releaseDate": "2016-04-20",
+        "rarity": "LR"
+      },
+      {
+        "name": "Ash&Ember (feat. LiSA, ナナホシ管弦楽団)",
+        "artist": "MAISONdes",
+        "playcount": 3826000,
+        "rank": 126,
+        "bestChartRank": 126,
+        "url": "https://music.apple.com/jp/album/ash-ember-feat-lisa-%E3%83%8A%E3%83%8A%E3%83%9B%E3%82%B7%E7%AE%A1%E5%BC%A6%E6%A5%BD%E5%9B%A3/1882646539?i=1882646544&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/2d/b4/712db447-9384-7343-b383-e85930935325/820200553836.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-18",
         "rarity": "LR"
       },
       {
@@ -74954,7 +75134,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/f9/4a/9df94a2a-b9fa-f488-24a1-af45240d1f81/5026854804453.jpg/600x600bb.jpg",
         "releaseDate": "2026-03-09",
         "rarity": "LR",
-        "bestChartRank": 189
+        "bestChartRank": 156
       },
       {
         "name": "Caught In The Echo",
@@ -74977,17 +75157,6 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/64/75/c9/6475c9a0-6b8e-e818-66b2-0cb594c8decc/ANTCD-A0000019282.jpg/600x600bb.jpg",
         "releaseDate": "2026-03-08",
         "rarity": "LR"
-      },
-      {
-        "name": "よあけのうた - Yoake no uta",
-        "artist": "jo0ji",
-        "playcount": 3630000,
-        "url": "https://music.apple.com/jp/album/%E3%82%88%E3%81%82%E3%81%91%E3%81%AE%E3%81%86%E3%81%9F-yoake-no-uta/1860793459?i=1860793850&uo=4",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/94/dd/5a94dd05-d5e3-9d02-9688-324b2c62ae38/4547366794731.jpg/600x600bb.jpg",
-        "releaseDate": "2026-01-10",
-        "rarity": "LR",
-        "bestChartRank": 130,
-        "source": "top200_merge"
       },
       {
         "name": "燦然 - Sanzen",
@@ -75091,6 +75260,19 @@
         "source": "top200_merge"
       },
       {
+        "name": "倍倍FIGHT! (CANDY TUNE JAPAN TOUR 2025 -AUTUMN- TUNE QUEST 勇気の証バンドver.)",
+        "artist": "CANDY TUNE",
+        "playcount": 3042000,
+        "rank": 176,
+        "bestChartRank": 142,
+        "url": "https://music.apple.com/jp/album/%E5%80%8D%E5%80%8Dfight-candy-tune-japan-tour-2025-autumn-tune-quest/1868679870?i=1868680780&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/fa/e2/3cfae229-2054-f6e6-0efe-842b119eddbb/199806798683.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-17",
+        "rarity": "LR"
+      },
+      {
         "name": "瞳をとじて (less vocal)",
         "artist": "平井 堅",
         "playcount": 2993000,
@@ -75109,6 +75291,19 @@
         "rarity": "LR",
         "bestChartRank": 143,
         "source": "top200_merge"
+      },
+      {
+        "name": "Main theme song ～ RHYTHM EMOTION 30th Anniversary～(新機動戦記ガンダムW-Operation30th-)",
+        "artist": "TWO-MIX",
+        "playcount": 2944000,
+        "rank": 144,
+        "bestChartRank": 144,
+        "url": "https://music.apple.com/jp/album/main-theme-song-rhythm-emotion-30th-anniversary-%E6%96%B0%E6%A9%9F%E5%8B%95%E6%88%A6%E8%A8%98%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0w/1882588439?i=1882588927&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/19/f9/0e19f99a-a748-8ad4-159d-6611c2ed2679/NOPA-8438.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-18",
+        "rarity": "LR"
       },
       {
         "name": "友 〜旅立ちの時〜(ゆずと合唱バージョン)",
@@ -75138,6 +75333,19 @@
         "url": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%B1%E3%83%83%E3%83%81/1573381037?i=1573382045&uo=4",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fd/7e/0e/fd7e0ecb-68db-8d66-4504-3808c43a4040/196006841607.jpg/600x600bb.jpg",
         "releaseDate": "2012-09-20",
+        "rarity": "LR"
+      },
+      {
+        "name": "メロディー",
+        "artist": "玉置浩二",
+        "playcount": 2699000,
+        "rank": 149,
+        "bestChartRank": 149,
+        "url": "https://music.apple.com/jp/album/%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E3%83%BC/1536905489?i=1536905491&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9a/1f/95/9a1f95f7-260c-7399-6c07-920cf889d452/jacket_MHXX00952B00Z_550.jpg/600x600bb.jpg",
+        "releaseDate": "1996-05-22",
         "rarity": "LR"
       },
       {
@@ -75190,7 +75398,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8e/b2/2b/8eb22b06-8bae-21fa-821e-d6c44558372f/4580789757709.png/600x600bb.jpg",
         "releaseDate": "2026-03-18",
         "rarity": "LR",
-        "bestChartRank": 194
+        "bestChartRank": 158
       },
       {
         "name": "今日という日を",
@@ -75233,6 +75441,19 @@
         "source": "top200_merge"
       },
       {
+        "name": "仲間",
+        "artist": "EL NAOYA",
+        "playcount": 2160000,
+        "rank": 160,
+        "bestChartRank": 160,
+        "url": "https://music.apple.com/jp/album/%E4%BB%B2%E9%96%93/1885716617?i=1885716618&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/8d/ba/ea8dbabb-a43d-4a38-b19a-fb2103fd38ed/4550754513166_cover.png/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
+      },
+      {
         "name": "雨上がり",
         "artist": "VERRY SMoL",
         "playcount": 1964000,
@@ -75258,6 +75479,19 @@
         "rarity": "UR"
       },
       {
+        "name": "APT.",
+        "artist": "ROSÉ & ブルーノ・マーズ",
+        "playcount": 1474000,
+        "rank": 174,
+        "bestChartRank": 174,
+        "url": "https://music.apple.com/jp/album/apt/1773452219?i=1773452221&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/1a/7d/2d1a7d91-587e-0ceb-d434-327bd66d9e86/075679628312.jpg/600x600bb.jpg",
+        "releaseDate": "2024-10-17",
+        "rarity": "UR"
+      },
+      {
         "name": "Missing",
         "artist": "久保田利伸",
         "playcount": 1425000,
@@ -75267,16 +75501,16 @@
         "rarity": "UR"
       },
       {
-        "name": "倍倍FIGHT! (CANDY TUNE JAPAN TOUR 2025 -AUTUMN- TUNE QUEST 勇気の証バンドver.)",
-        "artist": "CANDY TUNE",
-        "playcount": 1376000,
-        "rank": 176,
-        "bestChartRank": 176,
-        "url": "https://music.apple.com/jp/album/%E5%80%8D%E5%80%8Dfight-candy-tune-japan-tour-2025-autumn-tune-quest/1868679870?i=1868680780&uo=4",
+        "name": "拝啓、少年よ",
+        "artist": "Hump Back",
+        "playcount": 1425000,
+        "rank": 190,
+        "bestChartRank": 175,
+        "url": "https://music.apple.com/jp/album/%E6%8B%9D%E5%95%93-%E5%B0%91%E5%B9%B4%E3%82%88/1395024571?i=1395024580&uo=4",
         "mbid": null,
         "source": "top200_merge",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/fa/e2/3cfae229-2054-f6e6-0efe-842b119eddbb/199806798683.jpg/600x600bb.jpg",
-        "releaseDate": "2026-01-17",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/d5/8a/fad58adc-218c-3fe3-1428-040a5187729c/4988021823470.png/600x600bb.jpg",
+        "releaseDate": "2018-06-10",
         "rarity": "UR"
       },
       {
@@ -75321,6 +75555,19 @@
         "rarity": "UR"
       },
       {
+        "name": "Hanamushiro",
+        "artist": "yama",
+        "playcount": 984000,
+        "rank": 184,
+        "bestChartRank": 184,
+        "url": "https://music.apple.com/jp/album/hanamushiro/1882328330?i=1882328335&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/92/56/7b925657-a8e1-9300-3ca9-ecf72ba36f9f/4547366810691.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-18",
+        "rarity": "UR"
+      },
+      {
         "name": "Mal Také Ebisu",
         "artist": "阿部海太郎 & 武田カオリ",
         "playcount": 788000,
@@ -75341,16 +75588,16 @@
         "source": "top200_merge"
       },
       {
-        "name": "拝啓、少年よ",
-        "artist": "Hump Back",
-        "playcount": 690000,
-        "rank": 190,
-        "bestChartRank": 190,
-        "url": "https://music.apple.com/jp/album/%E6%8B%9D%E5%95%93-%E5%B0%91%E5%B9%B4%E3%82%88/1395024571?i=1395024580&uo=4",
+        "name": "HYPNOTIZE",
+        "artist": "XG",
+        "playcount": 739000,
+        "rank": 189,
+        "bestChartRank": 189,
+        "url": "https://music.apple.com/jp/album/hypnotize/1860565513?i=1860565732&uo=4",
         "mbid": null,
         "source": "top200_merge",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/d5/8a/fad58adc-218c-3fe3-1428-040a5187729c/4988021823470.png/600x600bb.jpg",
-        "releaseDate": "2018-06-10",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/98/5e/e9985e9d-034d-d97f-365d-f3a4887c0afa/ANTCD-A0000018810.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-23",
         "rarity": "UR"
       },
       {
@@ -75402,6 +75649,19 @@
         "rarity": "SR"
       },
       {
+        "name": "Die With A Smile",
+        "artist": "レディー・ガガ & ブルーノ・マーズ",
+        "playcount": 396000,
+        "rank": 196,
+        "bestChartRank": 196,
+        "url": "https://music.apple.com/jp/album/die-with-a-smile/1762656724?i=1762656732&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2024-08-16",
+        "rarity": "SR"
+      },
+      {
         "name": "Seasons of Love",
         "artist": "Riddim Saunter",
         "playcount": 200000,
@@ -75423,7 +75683,8 @@
         "itunesTrackId": 1877032243,
         "collectionName": "RUDE! - Single",
         "primaryGenreName": "K-Pop",
-        "trackTimeMillis": 200000
+        "trackTimeMillis": 200000,
+        "itunesSearched": true
       },
       {
         "name": "404 (New Era)",
@@ -76684,7 +76945,8 @@
         "itunesTrackId": 1825308259,
         "collectionName": "JUMP - Single",
         "primaryGenreName": "K-Pop",
-        "trackTimeMillis": 164719
+        "trackTimeMillis": 164719,
+        "itunesSearched": true
       },
       {
         "name": "Black Swan",
@@ -77770,7 +78032,8 @@
         "itunesTrackId": 1706828627,
         "collectionName": "踊り子 - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 230110
+        "trackTimeMillis": 230110,
+        "itunesSearched": true
       },
       {
         "name": "XO (Only If You Say Yes)",
@@ -87315,6 +87578,19 @@
         "releaseDate": "2012-03-19"
       },
       {
+        "name": "Rekindling Memories",
+        "artist": "SOOBIN",
+        "playcount": 9755000,
+        "rank": 5,
+        "bestChartRank": 5,
+        "url": "https://music.apple.com/jp/album/rekindling-memories/1884854889?i=1884854890&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/76/27/bd762761-c550-7bcf-8a4b-8b3537be19ac/cover_KM0024388_1.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
+      },
+      {
         "name": "Endless Sun",
         "artist": "Stray Kids",
         "playcount": 6766000,
@@ -87323,6 +87599,19 @@
         "releaseDate": "2026-03-13",
         "rarity": "LR",
         "bestChartRank": 118
+      },
+      {
+        "name": "THAT'S A NO NO",
+        "artist": "ITZY",
+        "playcount": 2895000,
+        "rank": 174,
+        "bestChartRank": 145,
+        "url": "https://music.apple.com/jp/album/thats-a-no-no/1581631723?i=1581631726&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4f/af/b5/4fafb598-6a1e-c9cb-2cf4-4e2189cc5f10/190296490002.jpg/600x600bb.jpg",
+        "releaseDate": "2020-03-09",
+        "rarity": "LR"
       },
       {
         "name": "BLACKHOLE",
@@ -87336,19 +87625,6 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/c1/eb/e6c1eb1d-830b-c8b5-4e3b-0735daad8bea/199806315972.jpg/600x600bb.jpg",
         "releaseDate": "2026-02-23",
         "rarity": "LR"
-      },
-      {
-        "name": "THAT'S A NO NO",
-        "artist": "ITZY",
-        "playcount": 1474000,
-        "rank": 174,
-        "bestChartRank": 174,
-        "url": "https://music.apple.com/jp/album/thats-a-no-no/1581631723?i=1581631726&uo=4",
-        "mbid": null,
-        "source": "top200_merge",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4f/af/b5/4fafb598-6a1e-c9cb-2cf4-4e2189cc5f10/190296490002.jpg/600x600bb.jpg",
-        "releaseDate": "2020-03-09",
-        "rarity": "UR"
       },
       {
         "name": "Love All",
@@ -115495,7 +115771,8 @@
         "itunesTrackId": 1536455325,
         "collectionName": "シルエット - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 241520
+        "trackTimeMillis": 241520,
+        "itunesSearched": true
       },
       {
         "name": "Bling-Bang-Bang-Born",
@@ -115610,7 +115887,8 @@
         "itunesTrackId": 1471459432,
         "collectionName": "インフェルノ - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 212547
+        "trackTimeMillis": 212547,
+        "itunesSearched": true
       },
       {
         "name": "Falling Down",
@@ -115647,7 +115925,8 @@
         "itunesTrackId": 1702823583,
         "collectionName": "SPECIALZ - Single",
         "primaryGenreName": "オルタナティブ",
-        "trackTimeMillis": 238987
+        "trackTimeMillis": 238987,
+        "itunesSearched": true
       },
       {
         "name": "LOST IN PARADISE",
@@ -151144,6 +151423,19 @@
         "bestChartRank": 7
       },
       {
+        "name": "Wildest Flower",
+        "artist": "初星学園 & 花海咲季",
+        "playcount": 9657000,
+        "rank": 16,
+        "bestChartRank": 7,
+        "url": "https://music.apple.com/jp/album/wildest-flower/1884849761?i=1884849764&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/6e/65/686e65ad-48fe-a044-35b8-3e65c5f45fd5/PA00214944_0_241907_jacket.jpg/600x600bb.jpg",
+        "releaseDate": null,
+        "rarity": "LR"
+      },
+      {
         "name": "GO!ALEX!～希望誕生～",
         "artist": "JAM Project",
         "playcount": 9412000,
@@ -151152,19 +151444,6 @@
         "releaseDate": "2026-03-17",
         "rarity": "LR",
         "bestChartRank": 22
-      },
-      {
-        "name": "Wildest Flower",
-        "artist": "初星学園 & 花海咲季",
-        "playcount": 9216000,
-        "rank": 16,
-        "bestChartRank": 16,
-        "url": "https://music.apple.com/jp/album/wildest-flower/1884849761?i=1884849764&uo=4",
-        "mbid": null,
-        "source": "top200_merge",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/6e/65/686e65ad-48fe-a044-35b8-3e65c5f45fd5/PA00214944_0_241907_jacket.jpg/600x600bb.jpg",
-        "releaseDate": null,
-        "rarity": "LR"
       },
       {
         "name": "メガLOVEハッピーワールド",
@@ -151268,6 +151547,19 @@
         "bestChartRank": 105
       },
       {
+        "name": "魔女の呼び声",
+        "artist": "末廣健一郎",
+        "playcount": 5002000,
+        "rank": 102,
+        "bestChartRank": 102,
+        "url": "https://music.apple.com/jp/album/%E9%AD%94%E5%A5%B3%E3%81%AE%E5%91%BC%E3%81%B3%E5%A3%B0/1164412281?i=1164412733&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/94/82/c7/9482c7b4-816e-2362-4af7-b389e06bc3ef/JK_ZMCZ-10885.jpg/600x600bb.jpg",
+        "releaseDate": "2016-10-26",
+        "rarity": "LR"
+      },
+      {
         "name": "結々の唄",
         "artist": "ReoNa",
         "playcount": 4659000,
@@ -151300,6 +151592,19 @@
         "releaseDate": "2026-01-29",
         "rarity": "LR",
         "bestChartRank": 145
+      },
+      {
+        "name": "虚無さん (feat. 宵崎奏, 朝比奈まふゆ, 東雲絵名, 暁山瑞希 & 鏡音レン)",
+        "artist": "25時、ナイトコードで。",
+        "playcount": 2993000,
+        "rank": 143,
+        "bestChartRank": 143,
+        "url": "https://music.apple.com/jp/album/%E8%99%9A%E7%84%A1%E3%81%95%E3%82%93-feat-%E5%AE%B5%E5%B4%8E%E5%A5%8F-%E6%9C%9D%E6%AF%94%E5%A5%88%E3%81%BE%E3%81%B5%E3%82%86-%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D-%E6%9A%81%E5%B1%B1%E7%91%9E%E5%B8%8C-%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/1885492730?i=1885492731&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/17/c8/cc17c83b-1ea8-71bc-2507-8f995bbb470e/4511820-61516.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-18",
+        "rarity": "LR"
       },
       {
         "name": "男気全開Go! Fight!!",
@@ -151378,15 +151683,15 @@
       {
         "name": "Knocking on the mind",
         "artist": "聖川真斗(CV.鈴村健一) & うたの☆プリンスさまっ♪",
-        "playcount": 445000,
+        "playcount": 592000,
         "rank": 195,
-        "bestChartRank": 195,
+        "bestChartRank": 192,
         "url": "https://music.apple.com/jp/album/knocking-on-the-mind/627420960?i=627420964&uo=4",
         "mbid": null,
         "source": "top200_merge",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/c3/a9/b7/c3a9b7e0-96a8-7ca7-4bad-d9226af2cdd6/QECB-32_Book-h1-1.jpg/600x600bb.jpg",
         "releaseDate": "2011-08-03",
-        "rarity": "SR"
+        "rarity": "UR"
       },
       {
         "name": "世界の果てまでBelieve Heart",
@@ -178935,7 +179240,8 @@
         "primaryGenreName": "ポップ",
         "trackTimeMillis": 233713,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/600x600bb.jpg",
-        "releaseDate": "2017-01-06"
+        "releaseDate": "2017-01-06",
+        "bestChartRank": 187
       },
       {
         "name": "Hotel Room Service",
@@ -183941,7 +184247,8 @@
         "itunesTrackId": 1825308259,
         "collectionName": "JUMP - Single",
         "primaryGenreName": "K-Pop",
-        "trackTimeMillis": 164719
+        "trackTimeMillis": 164719,
+        "itunesSearched": true
       },
       {
         "name": "Beautiful",
@@ -187435,7 +187742,7 @@
         "collectionName": "HANA",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 205307,
-        "bestChartRank": 98,
+        "bestChartRank": 96,
         "itunesSearched": true
       },
       {
@@ -187479,7 +187786,8 @@
         "collectionName": "SAD SONG - From THE FIRST TAKE (feat. No No Girls FINALISTS) - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 286555,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 115
       },
       {
         "name": "Tiger",
@@ -187522,7 +187830,8 @@
         "collectionName": "ケセラセラ - Single",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 272965,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 103
       },
       {
         "name": "NON STOP",
@@ -187593,7 +187902,8 @@
         "collectionName": "Attitude (Expanded Edition)",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 307120,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 121
       },
       {
         "name": "高嶺の花子さん",
@@ -187635,7 +187945,7 @@
         "collectionName": "JANE DOE - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 235947,
-        "bestChartRank": 122,
+        "bestChartRank": 101,
         "itunesSearched": true
       },
       {
@@ -187664,7 +187974,8 @@
         "collectionName": "ハレンチ",
         "primaryGenreName": "ヒップホップ／ラップ",
         "trackTimeMillis": 198709,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 181
       },
       {
         "name": "ヒロイン",
@@ -187766,7 +188077,8 @@
         "collectionName": "Never Grow Up",
         "primaryGenreName": "ヒップホップ／ラップ",
         "trackTimeMillis": 196253,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 198
       },
       {
         "name": "どうしてもどうしても",
@@ -187794,7 +188106,8 @@
         "collectionName": "水平線 - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 285396,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 108
       },
       {
         "name": "Golden",
@@ -187851,7 +188164,8 @@
         "collectionName": "ダンスホール - Single",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 203150,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "bestChartRank": 179
       },
       {
         "name": "BANG BANG",
@@ -187880,7 +188194,7 @@
         "collectionName": "GOOD DAY - Single",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 257070,
-        "bestChartRank": 199,
+        "bestChartRank": 159,
         "itunesSearched": true
       },
       {
@@ -187979,7 +188293,8 @@
         "itunesTrackId": 1536455325,
         "collectionName": "シルエット - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 241520
+        "trackTimeMillis": 241520,
+        "itunesSearched": true
       },
       {
         "name": "Burning Flower",
@@ -187992,7 +188307,8 @@
         "itunesTrackId": 1816111098,
         "collectionName": "Burning Flower - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 177898
+        "trackTimeMillis": 177898,
+        "itunesSearched": true
       },
       {
         "name": "Theater",
@@ -188005,7 +188321,8 @@
         "itunesTrackId": 1860159898,
         "collectionName": "STARRING",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 200227
+        "trackTimeMillis": 200227,
+        "itunesSearched": true
       },
       {
         "name": "TEST ME",
@@ -188019,7 +188336,8 @@
         "collectionName": "TEST ME - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 171483,
-        "bestChartRank": 80
+        "bestChartRank": 80,
+        "itunesSearched": true
       },
       {
         "name": "マリーゴールド",
@@ -188032,7 +188350,8 @@
         "itunesTrackId": 1402042897,
         "collectionName": "マリーゴールド - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 308107
+        "trackTimeMillis": 308107,
+        "itunesSearched": true
       },
       {
         "name": "My Body",
@@ -188045,7 +188364,8 @@
         "itunesTrackId": 1842761903,
         "collectionName": "My Body - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 203297
+        "trackTimeMillis": 203297,
+        "itunesSearched": true
       },
       {
         "name": "StaRt",
@@ -188058,7 +188378,8 @@
         "itunesTrackId": 1440745441,
         "collectionName": "Variety - EP",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 211427
+        "trackTimeMillis": 211427,
+        "itunesSearched": true
       },
       {
         "name": "千鳥",
@@ -188071,7 +188392,9 @@
         "itunesTrackId": 1876728685,
         "collectionName": "二人称",
         "primaryGenreName": "オルタナティブ",
-        "trackTimeMillis": 252116
+        "trackTimeMillis": 252116,
+        "bestChartRank": 106,
+        "itunesSearched": true
       },
       {
         "name": "タッチ",
@@ -188085,7 +188408,8 @@
         "collectionName": "タッチ - Single",
         "primaryGenreName": "ロック",
         "trackTimeMillis": 208947,
-        "bestChartRank": 6
+        "bestChartRank": 6,
+        "itunesSearched": true
       },
       {
         "name": "Pretender",
@@ -188099,7 +188423,8 @@
         "collectionName": "Traveler",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 326843,
-        "bestChartRank": 159
+        "bestChartRank": 159,
+        "itunesSearched": true
       },
       {
         "name": "オドロウゼ!",
@@ -188112,7 +188437,8 @@
         "itunesTrackId": 1874808353,
         "collectionName": "オドロウゼ! - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 231127
+        "trackTimeMillis": 231127,
+        "itunesSearched": true
       },
       {
         "name": "Subtitle",
@@ -188126,7 +188452,8 @@
         "collectionName": "Subtitle - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 305509,
-        "bestChartRank": 154
+        "bestChartRank": 154,
+        "itunesSearched": true
       },
       {
         "name": "RUDE!",
@@ -188139,7 +188466,8 @@
         "itunesTrackId": 1877032243,
         "collectionName": "RUDE! - Single",
         "primaryGenreName": "K-Pop",
-        "trackTimeMillis": 200000
+        "trackTimeMillis": 200000,
+        "itunesSearched": true
       },
       {
         "name": "アイラブユー",
@@ -188152,7 +188480,8 @@
         "itunesTrackId": 1648411352,
         "collectionName": "アイラブユー - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 235683
+        "trackTimeMillis": 235683,
+        "itunesSearched": true
       },
       {
         "name": "インフェルノ",
@@ -188165,7 +188494,8 @@
         "itunesTrackId": 1471459432,
         "collectionName": "インフェルノ - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 212547
+        "trackTimeMillis": 212547,
+        "itunesSearched": true
       },
       {
         "name": "BAD LOVE",
@@ -188178,7 +188508,8 @@
         "itunesTrackId": 1836082423,
         "collectionName": "BAD LOVE - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 185438
+        "trackTimeMillis": 185438,
+        "itunesSearched": true
       },
       {
         "name": "Again",
@@ -188192,7 +188523,8 @@
         "collectionName": "Again - Single",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 294053,
-        "bestChartRank": 10
+        "bestChartRank": 10,
+        "itunesSearched": true
       },
       {
         "name": "いらない",
@@ -188205,7 +188537,8 @@
         "itunesTrackId": 1874114093,
         "collectionName": "いらない - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 226314
+        "trackTimeMillis": 226314,
+        "itunesSearched": true
       },
       {
         "name": "B級",
@@ -188218,7 +188551,8 @@
         "itunesTrackId": 1676285875,
         "collectionName": "Naked",
         "primaryGenreName": "ヒップホップ／ラップ",
-        "trackTimeMillis": 196747
+        "trackTimeMillis": 196747,
+        "itunesSearched": true
       },
       {
         "name": "Lemon",
@@ -188231,7 +188565,8 @@
         "itunesTrackId": 1537460612,
         "collectionName": "Lemon - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 256116
+        "trackTimeMillis": 256116,
+        "itunesSearched": true
       },
       {
         "name": "SPECIALZ",
@@ -188244,7 +188579,9 @@
         "itunesTrackId": 1702823583,
         "collectionName": "SPECIALZ - Single",
         "primaryGenreName": "オルタナティブ",
-        "trackTimeMillis": 238987
+        "trackTimeMillis": 238987,
+        "bestChartRank": 200,
+        "itunesSearched": true
       },
       {
         "name": "ドライフラワー",
@@ -188257,7 +188594,8 @@
         "itunesTrackId": 1534620183,
         "collectionName": "ドライフラワー - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 285587
+        "trackTimeMillis": 285587,
+        "itunesSearched": true
       },
       {
         "name": "幾億光年",
@@ -188270,7 +188608,8 @@
         "itunesTrackId": 1725229931,
         "collectionName": "幾億光年 - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 276918
+        "trackTimeMillis": 276918,
+        "itunesSearched": true
       },
       {
         "name": "ラブソングに襲われる",
@@ -188283,7 +188622,8 @@
         "itunesTrackId": 1835368696,
         "collectionName": "ラブソングに襲われる - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 218321
+        "trackTimeMillis": 218321,
+        "itunesSearched": true
       },
       {
         "name": "わたがし",
@@ -188296,7 +188636,8 @@
         "itunesTrackId": 1451577945,
         "collectionName": "アンコール",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 262000
+        "trackTimeMillis": 262000,
+        "itunesSearched": true
       },
       {
         "name": "産声",
@@ -188309,7 +188650,8 @@
         "collectionName": "産声",
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 357093,
-        "bestChartRank": 107
+        "bestChartRank": 107,
+        "itunesSearched": true
       },
       {
         "name": "ロマンチシズム",
@@ -188322,7 +188664,8 @@
         "itunesTrackId": 1454643219,
         "collectionName": "ロマンチシズム - EP",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 213747
+        "trackTimeMillis": 213747,
+        "itunesSearched": true
       },
       {
         "name": "JUMP",
@@ -188335,7 +188678,8 @@
         "itunesTrackId": 1825308259,
         "collectionName": "JUMP - Single",
         "primaryGenreName": "K-Pop",
-        "trackTimeMillis": 164719
+        "trackTimeMillis": 164719,
+        "itunesSearched": true
       },
       {
         "name": "Wherever you are",
@@ -188348,7 +188692,8 @@
         "itunesTrackId": 1838917139,
         "collectionName": "Nicheシンドローム",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 295600
+        "trackTimeMillis": 295600,
+        "itunesSearched": true
       },
       {
         "name": "風神",
@@ -188361,7 +188706,8 @@
         "itunesTrackId": 1771366342,
         "collectionName": "風神 - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 235543
+        "trackTimeMillis": 235543,
+        "itunesSearched": true
       },
       {
         "name": "SAD SONG - From THE FIRST TAKE (feat. No No Girls FINALISTS)",
@@ -188374,7 +188720,8 @@
         "itunesTrackId": 1817600814,
         "collectionName": "SAD SONG - From THE FIRST TAKE (feat. No No Girls FINALISTS) - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 286555
+        "trackTimeMillis": 286555,
+        "itunesSearched": true
       },
       {
         "name": "夜に駆ける",
@@ -188387,7 +188734,8 @@
         "itunesTrackId": 1542182776,
         "collectionName": "THE BOOK",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 258840
+        "trackTimeMillis": 258840,
+        "itunesSearched": true
       },
       {
         "name": "満ちてゆく",
@@ -188400,7 +188748,8 @@
         "itunesTrackId": 1733130377,
         "collectionName": "満ちてゆく - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 310997
+        "trackTimeMillis": 310997,
+        "itunesSearched": true
       },
       {
         "name": "Automatic (Remastered 2014)",
@@ -188413,7 +188762,8 @@
         "itunesTrackId": 1440763351,
         "collectionName": "First Love (2014 Remastered Album)",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 328208
+        "trackTimeMillis": 328208,
+        "itunesSearched": true
       },
       {
         "name": "群青",
@@ -188426,7 +188776,8 @@
         "itunesTrackId": 1528119630,
         "collectionName": "群青 - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 248444
+        "trackTimeMillis": 248444,
+        "itunesSearched": true
       },
       {
         "name": "Zoo",
@@ -188440,7 +188791,8 @@
         "collectionName": "ズートピア2 (オリジナル・サウンドトラック)",
         "primaryGenreName": "サウンドトラック",
         "trackTimeMillis": 190823,
-        "bestChartRank": 72
+        "bestChartRank": 72,
+        "itunesSearched": true
       },
       {
         "name": "怪盗",
@@ -188453,7 +188805,8 @@
         "itunesTrackId": 1566811795,
         "collectionName": "怪盗 - Single",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 196226
+        "trackTimeMillis": 196226,
+        "itunesSearched": true
       },
       {
         "name": "白日",
@@ -188467,7 +188820,8 @@
         "collectionName": "白日 - Single",
         "primaryGenreName": "オルタナティブ",
         "trackTimeMillis": 274913,
-        "bestChartRank": 113
+        "bestChartRank": 113,
+        "itunesSearched": true
       },
       {
         "name": "イエスタデイ",
@@ -188480,7 +188834,8 @@
         "itunesTrackId": 1479397583,
         "collectionName": "Traveler",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 299164
+        "trackTimeMillis": 299164,
+        "itunesSearched": true
       },
       {
         "name": "NG",
@@ -188493,7 +188848,8 @@
         "itunesTrackId": 1585848049,
         "collectionName": "ハレンチ",
         "primaryGenreName": "ヒップホップ／ラップ",
-        "trackTimeMillis": 191567
+        "trackTimeMillis": 191567,
+        "itunesSearched": true
       },
       {
         "name": "breakfast",
@@ -188506,7 +188862,8 @@
         "itunesTrackId": 1817561951,
         "collectionName": "breakfast - Single",
         "primaryGenreName": "ロック",
-        "trackTimeMillis": 228972
+        "trackTimeMillis": 228972,
+        "itunesSearched": true
       },
       {
         "name": "First Love (Remastered 2014)",
@@ -188519,7 +188876,8 @@
         "itunesTrackId": 1440763358,
         "collectionName": "First Love (2014 Remastered Album)",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 257894
+        "trackTimeMillis": 257894,
+        "itunesSearched": true
       },
       {
         "name": "踊り子",
@@ -188533,7 +188891,8 @@
         "trackTimeMillis": 230110,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f1/cd/f7/f1cdf773-5dca-3d6d-6c14-2fb9871a83a9/197189838330.jpg/600x600bb.jpg",
         "releaseDate": "2021-11-17",
-        "bestChartRank": 170
+        "bestChartRank": 170,
+        "itunesSearched": true
       },
       {
         "name": "たぶん",
@@ -188546,7 +188905,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 258667,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bf/1c/3b/bf1c3bdd-a128-2843-776a-35bf3c879d98/195081850498.jpg/600x600bb.jpg",
-        "releaseDate": "2020-07-20"
+        "releaseDate": "2020-07-20",
+        "itunesSearched": true
       },
       {
         "name": "Tiger – HANA with HONEYs Ver.",
@@ -188559,7 +188919,8 @@
         "itunesTrackId": 1874511683,
         "collectionName": "HANA",
         "primaryGenreName": "J-Pop",
-        "trackTimeMillis": 274040
+        "trackTimeMillis": 274040,
+        "itunesSearched": true
       },
       {
         "name": "Dream Lantern",
@@ -188572,7 +188933,8 @@
         "primaryGenreName": "ロック",
         "trackTimeMillis": 130267,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/f7/28/a2/f728a24e-ca7b-c267-32f1-7c5d9ede199c/16UMGIM87518.rgb.jpg/600x600bb.jpg",
-        "releaseDate": "2017-02-22"
+        "releaseDate": "2017-02-22",
+        "itunesSearched": true
       },
       {
         "name": "うっせぇわ",
@@ -188585,7 +188947,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 204920,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/82/41/cb8241a3-5324-bbaa-8da2-33c5b29b1c7d/20UMGIM76771.rgb.jpg/600x600bb.jpg",
-        "releaseDate": "2020-10-23"
+        "releaseDate": "2020-10-23",
+        "itunesSearched": true
       },
       {
         "name": "Aishite Aishite Aishite",
@@ -188598,7 +188961,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 258373,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/e9/42/fae942a7-dca5-6cc0-9e49-4a4f2da6b81e/23UM1IM45777.rgb.jpg/600x600bb.jpg",
-        "releaseDate": "2023-12-12"
+        "releaseDate": "2023-12-12",
+        "itunesSearched": true
       },
       {
         "name": "New Genesis",
@@ -188611,7 +188975,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 228214,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/22/1c/ec/221cec90-5ec0-422a-3ddd-1aeeac06bb59/22UMGIM51053.rgb.jpg/600x600bb.jpg",
-        "releaseDate": "2022-06-08"
+        "releaseDate": "2022-06-08",
+        "itunesSearched": true
       },
       {
         "name": "ハルジオン",
@@ -188624,7 +188989,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 198000,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d3/23/ac/d323ac61-2d0b-2d15-6907-fdf994be8ba1/195081470399.jpg/600x600bb.jpg",
-        "releaseDate": "2020-05-11"
+        "releaseDate": "2020-05-11",
+        "itunesSearched": true
       },
       {
         "name": "あの夢をなぞって",
@@ -193402,7 +193768,8 @@
         "primaryGenreName": "J-Pop",
         "trackTimeMillis": 201280,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/b2/13/3eb21367-be26-2634-d90f-bc8182d3d0b2/4547366699760.jpg/600x600bb.jpg",
-        "releaseDate": "2024-04-08"
+        "releaseDate": "2024-04-08",
+        "bestChartRank": 173
       },
       {
         "name": "Wishing",
@@ -205614,7 +205981,8 @@
         "primaryGenreName": "ロック",
         "trackTimeMillis": 329760,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/b1/66/40/mzi.jmwxhlcj.jpg/600x600bb.jpg",
-        "releaseDate": "1994-07-10"
+        "releaseDate": "1994-07-10",
+        "bestChartRank": 194
       },
       {
         "name": "Take me Take me",
@@ -207396,7 +207764,7 @@
         "trackTimeMillis": 271880,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/59/71/a5/5971a58d-9b81-1c64-195e-9e896c804d06/00044002897312.rgb.jpg/600x600bb.jpg",
         "releaseDate": "2008-05-28",
-        "bestChartRank": 173
+        "bestChartRank": 163
       },
       {
         "name": "サムライハート(Some Like It Hot!!)",
@@ -261368,6 +261736,19 @@
         "source": "top200_merge"
       },
       {
+        "name": "SWIM",
+        "artist": "BTS",
+        "playcount": 9951000,
+        "rank": 1,
+        "bestChartRank": 1,
+        "url": "https://music.apple.com/jp/album/swim/1868991573?i=1868991957&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/89/5c/fb895cd5-6fe7-351e-7215-5cbcf40dbe1c/26UMGIM03002.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
+      },
+      {
         "name": "Ichibyo",
         "artist": "SixTONES",
         "playcount": 9804000,
@@ -261392,6 +261773,32 @@
         "rarity": "LR",
         "bestChartRank": 5,
         "source": "top200_merge"
+      },
+      {
+        "name": "Rekindling Memories",
+        "artist": "SOOBIN",
+        "playcount": 9755000,
+        "rank": 5,
+        "bestChartRank": 5,
+        "url": "https://music.apple.com/jp/album/rekindling-memories/1884854889?i=1884854890&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/76/27/bd762761-c550-7bcf-8a4b-8b3537be19ac/cover_KM0024388_1.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
+      },
+      {
+        "name": "Wildest Flower",
+        "artist": "初星学園 & 花海咲季",
+        "playcount": 9657000,
+        "rank": 16,
+        "bestChartRank": 7,
+        "url": "https://music.apple.com/jp/album/wildest-flower/1884849761?i=1884849764&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/6e/65/686e65ad-48fe-a044-35b8-3e65c5f45fd5/PA00214944_0_241907_jacket.jpg/600x600bb.jpg",
+        "releaseDate": null,
+        "rarity": "LR"
       },
       {
         "name": "AiAiA",
@@ -261433,24 +261840,24 @@
         "bestChartRank": 21
       },
       {
-        "name": "Wildest Flower",
-        "artist": "初星学園 & 花海咲季",
-        "playcount": 9216000,
-        "rank": 16,
-        "bestChartRank": 16,
-        "url": "https://music.apple.com/jp/album/wildest-flower/1884849761?i=1884849764&uo=4",
-        "mbid": null,
-        "source": "top200_merge",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/6e/65/686e65ad-48fe-a044-35b8-3e65c5f45fd5/PA00214944_0_241907_jacket.jpg/600x600bb.jpg",
-        "releaseDate": null,
-        "rarity": "LR"
-      },
-      {
         "name": "Bokuno Koto",
         "artist": "Mrs. GREEN APPLE",
         "playcount": 9167000,
         "rarity": "LR",
         "bestChartRank": 26
+      },
+      {
+        "name": "2.0",
+        "artist": "BTS",
+        "playcount": 9167000,
+        "rank": 17,
+        "bestChartRank": 17,
+        "url": "https://music.apple.com/jp/album/2-0/1869053670?i=1869053679&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/16/73/8e1673a3-5e13-ef95-131f-483903947fed/26UMGIM03003.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
       },
       {
         "name": "Hanakotoba",
@@ -261465,6 +261872,19 @@
         "playcount": 8971000,
         "rarity": "LR",
         "bestChartRank": 23
+      },
+      {
+        "name": "BTS on NORMAL",
+        "artist": "BTS",
+        "playcount": 8971000,
+        "rank": 21,
+        "bestChartRank": 21,
+        "url": "https://music.apple.com/jp/album/bts-on-normal/1884126400?i=1884126410&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/01/06/d70106f0-31f5-721b-471b-551bf083d677/ticket.ecruyjar.png/600x600bb.jpg",
+        "releaseDate": "2026-03-19",
+        "rarity": "LR"
       },
       {
         "name": "Sangatsu Kokonoka",
@@ -261657,6 +262077,19 @@
         "bestChartRank": 71
       },
       {
+        "name": "Glory Days",
+        "artist": "ICEx",
+        "playcount": 7795000,
+        "rank": 45,
+        "bestChartRank": 45,
+        "url": "https://music.apple.com/jp/album/glory-days/1878613045?i=1878613047&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/dd/ff/57ddffcd-d746-5624-32f7-acad2ead9476/VEATP-45393.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-14",
+        "rarity": "LR"
+      },
+      {
         "name": "CHARISMAX (English ver.)",
         "artist": "Snow Man",
         "playcount": 7746000,
@@ -261664,7 +262097,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/64/7c/e5647c0d-febf-59b8-cce5-f109a0f85f63/ANTCD-A0000018598.jpg/600x600bb.jpg",
         "releaseDate": "2025-11-05",
         "rarity": "LR",
-        "bestChartRank": 59
+        "bestChartRank": 52
       },
       {
         "name": "IRANAI",
@@ -261713,6 +262146,14 @@
         "bestChartRank": 94
       },
       {
+        "name": "Smiles and Stumbles",
+        "artist": "Humbert Humbert",
+        "playcount": 7354000,
+        "rarity": "LR",
+        "bestChartRank": 54,
+        "source": "top200_merge"
+      },
+      {
         "name": "Main theme song -RHYTHM EMOTION 30th Anniversary-(NEW MOBILE REPORT GUNDAM WING -Operation30th-)",
         "artist": "Two-Mix",
         "playcount": 7256000,
@@ -261751,13 +262192,6 @@
         "source": "top200_merge"
       },
       {
-        "name": "Smiles and Stumbles",
-        "artist": "Humbert Humbert",
-        "playcount": 7011000,
-        "rarity": "LR",
-        "bestChartRank": 93
-      },
-      {
         "name": "Shin Takara Jima",
         "artist": "sakanaction",
         "playcount": 6962000,
@@ -261792,7 +262226,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/70/ab/1a/70ab1a87-a5db-9fb3-f42b-aafac79d5143/4547366809411.jpg/600x600bb.jpg",
         "releaseDate": "2026-03-18",
         "rarity": "LR",
-        "bestChartRank": 103
+        "bestChartRank": 92
       },
       {
         "name": "Silhouette",
@@ -261808,6 +262242,19 @@
         "playcount": 6570000,
         "rarity": "LR",
         "bestChartRank": 78
+      },
+      {
+        "name": "Dance with STEEL BALL RUN",
+        "artist": "Yugo Kanno",
+        "playcount": 6521000,
+        "rank": 83,
+        "bestChartRank": 71,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "LR"
       },
       {
         "name": "PROVANT (feat. Jean-Ken Johnny & TAKUMA)",
@@ -261843,6 +262290,19 @@
         "bestChartRank": 116
       },
       {
+        "name": "Spring Song",
+        "artist": "Ayane",
+        "playcount": 6080000,
+        "rank": 80,
+        "bestChartRank": 80,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "LR"
+      },
+      {
         "name": "Haruka",
         "artist": "GReeeeN",
         "playcount": 6031000,
@@ -261855,11 +262315,11 @@
         "rarity": "LR"
       },
       {
-        "name": "Dance with STEEL BALL RUN",
-        "artist": "Yugo Kanno",
-        "playcount": 5933000,
-        "rank": 83,
-        "bestChartRank": 83,
+        "name": "World Is Mine (Kaguya&Yachiyo Runami Ver.) [Cpk! Remix]",
+        "artist": "ryo (supercell), Kaguya(cv.Yuko Natsuyoshi) & Yachiyo Runami(cv.Saori Hayami)",
+        "playcount": 5884000,
+        "rank": 84,
+        "bestChartRank": 84,
         "url": null,
         "mbid": null,
         "source": "top200_merge",
@@ -261868,11 +262328,11 @@
         "rarity": "LR"
       },
       {
-        "name": "World Is Mine (Kaguya&Yachiyo Runami Ver.) [Cpk! Remix]",
-        "artist": "ryo (supercell), Kaguya(cv.Yuko Natsuyoshi) & Yachiyo Runami(cv.Saori Hayami)",
-        "playcount": 5884000,
-        "rank": 84,
-        "bestChartRank": 84,
+        "name": "Song With You",
+        "artist": "Ayane",
+        "playcount": 5835000,
+        "rank": 85,
+        "bestChartRank": 85,
         "url": null,
         "mbid": null,
         "source": "top200_merge",
@@ -262049,7 +262509,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/6a/5e/116a5ebb-51dc-6edf-f493-d9b171a1f554/194491808013.jpg/600x600bb.jpg",
         "releaseDate": "2005-08-03",
         "rarity": "LR",
-        "bestChartRank": 185
+        "bestChartRank": 171
       },
       {
         "name": "栄光の架橋",
@@ -262062,14 +262522,38 @@
         "bestChartRank": 132
       },
       {
+        "name": "春の人",
+        "artist": "Ayane",
+        "playcount": 4169000,
+        "rank": 119,
+        "bestChartRank": 119,
+        "url": "https://music.apple.com/jp/album/%E6%98%A5%E3%81%AE%E4%BA%BA/1872661348?i=1872661369&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/37/7c/9f/377c9fde-d930-0daa-c8c5-6c0eb5359a59/ANTCD-A0000019117.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-02",
+        "rarity": "LR"
+      },
+      {
         "name": "メガネを外して",
         "artist": "乃紫",
-        "playcount": 3973000,
+        "playcount": 4120000,
         "url": "https://music.apple.com/jp/album/%E3%83%A1%E3%82%AC%E3%83%8D%E3%82%92%E5%A4%96%E3%81%97%E3%81%A6/1862678951?i=1862678952&uo=4",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/ab/77/c1ab77fd-07b9-ae42-0ab9-91495b5a1def/NOAA-00017-T01.jpg/600x600bb.jpg",
         "releaseDate": "2026-01-14",
         "rarity": "LR",
-        "bestChartRank": 123,
+        "bestChartRank": 120,
+        "source": "top200_merge"
+      },
+      {
+        "name": "よあけのうた - Yoake no uta",
+        "artist": "jo0ji",
+        "playcount": 4022000,
+        "url": "https://music.apple.com/jp/album/%E3%82%88%E3%81%82%E3%81%91%E3%81%AE%E3%81%86%E3%81%9F-yoake-no-uta/1860793459?i=1860793850&uo=4",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/94/dd/5a94dd05-d5e3-9d02-9688-324b2c62ae38/4547366794731.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-10",
+        "rarity": "LR",
+        "bestChartRank": 122,
         "source": "top200_merge"
       },
       {
@@ -262083,6 +262567,19 @@
         "source": "top200_merge",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
         "releaseDate": "2016-04-20",
+        "rarity": "LR"
+      },
+      {
+        "name": "Ash&Ember (feat. LiSA, ナナホシ管弦楽団)",
+        "artist": "MAISONdes",
+        "playcount": 3826000,
+        "rank": 126,
+        "bestChartRank": 126,
+        "url": "https://music.apple.com/jp/album/ash-ember-feat-lisa-%E3%83%8A%E3%83%8A%E3%83%9B%E3%82%B7%E7%AE%A1%E5%BC%A6%E6%A5%BD%E5%9B%A3/1882646539?i=1882646544&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/2d/b4/712db447-9384-7343-b383-e85930935325/820200553836.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-18",
         "rarity": "LR"
       },
       {
@@ -262116,7 +262613,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/f9/4a/9df94a2a-b9fa-f488-24a1-af45240d1f81/5026854804453.jpg/600x600bb.jpg",
         "releaseDate": "2026-03-09",
         "rarity": "LR",
-        "bestChartRank": 189
+        "bestChartRank": 156
       },
       {
         "name": "Caught In The Echo",
@@ -262139,17 +262636,6 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/64/75/c9/6475c9a0-6b8e-e818-66b2-0cb594c8decc/ANTCD-A0000019282.jpg/600x600bb.jpg",
         "releaseDate": "2026-03-08",
         "rarity": "LR"
-      },
-      {
-        "name": "よあけのうた - Yoake no uta",
-        "artist": "jo0ji",
-        "playcount": 3630000,
-        "url": "https://music.apple.com/jp/album/%E3%82%88%E3%81%82%E3%81%91%E3%81%AE%E3%81%86%E3%81%9F-yoake-no-uta/1860793459?i=1860793850&uo=4",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/94/dd/5a94dd05-d5e3-9d02-9688-324b2c62ae38/4547366794731.jpg/600x600bb.jpg",
-        "releaseDate": "2026-01-10",
-        "rarity": "LR",
-        "bestChartRank": 130,
-        "source": "top200_merge"
       },
       {
         "name": "燦然 - Sanzen",
@@ -262253,6 +262739,19 @@
         "source": "top200_merge"
       },
       {
+        "name": "倍倍FIGHT! (CANDY TUNE JAPAN TOUR 2025 -AUTUMN- TUNE QUEST 勇気の証バンドver.)",
+        "artist": "CANDY TUNE",
+        "playcount": 3042000,
+        "rank": 176,
+        "bestChartRank": 142,
+        "url": "https://music.apple.com/jp/album/%E5%80%8D%E5%80%8Dfight-candy-tune-japan-tour-2025-autumn-tune-quest/1868679870?i=1868680780&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/fa/e2/3cfae229-2054-f6e6-0efe-842b119eddbb/199806798683.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-17",
+        "rarity": "LR"
+      },
+      {
         "name": "瞳をとじて (less vocal)",
         "artist": "平井 堅",
         "playcount": 2993000,
@@ -262271,6 +262770,19 @@
         "rarity": "LR",
         "bestChartRank": 143,
         "source": "top200_merge"
+      },
+      {
+        "name": "Main theme song ～ RHYTHM EMOTION 30th Anniversary～(新機動戦記ガンダムW-Operation30th-)",
+        "artist": "TWO-MIX",
+        "playcount": 2944000,
+        "rank": 144,
+        "bestChartRank": 144,
+        "url": "https://music.apple.com/jp/album/main-theme-song-rhythm-emotion-30th-anniversary-%E6%96%B0%E6%A9%9F%E5%8B%95%E6%88%A6%E8%A8%98%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0w/1882588439?i=1882588927&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/19/f9/0e19f99a-a748-8ad4-159d-6611c2ed2679/NOPA-8438.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-18",
+        "rarity": "LR"
       },
       {
         "name": "友 〜旅立ちの時〜(ゆずと合唱バージョン)",
@@ -262300,6 +262812,19 @@
         "url": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%B1%E3%83%83%E3%83%81/1573381037?i=1573382045&uo=4",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fd/7e/0e/fd7e0ecb-68db-8d66-4504-3808c43a4040/196006841607.jpg/600x600bb.jpg",
         "releaseDate": "2012-09-20",
+        "rarity": "LR"
+      },
+      {
+        "name": "メロディー",
+        "artist": "玉置浩二",
+        "playcount": 2699000,
+        "rank": 149,
+        "bestChartRank": 149,
+        "url": "https://music.apple.com/jp/album/%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E3%83%BC/1536905489?i=1536905491&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9a/1f/95/9a1f95f7-260c-7399-6c07-920cf889d452/jacket_MHXX00952B00Z_550.jpg/600x600bb.jpg",
+        "releaseDate": "1996-05-22",
         "rarity": "LR"
       },
       {
@@ -262352,7 +262877,7 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8e/b2/2b/8eb22b06-8bae-21fa-821e-d6c44558372f/4580789757709.png/600x600bb.jpg",
         "releaseDate": "2026-03-18",
         "rarity": "LR",
-        "bestChartRank": 194
+        "bestChartRank": 158
       },
       {
         "name": "今日という日を",
@@ -262395,6 +262920,19 @@
         "source": "top200_merge"
       },
       {
+        "name": "仲間",
+        "artist": "EL NAOYA",
+        "playcount": 2160000,
+        "rank": 160,
+        "bestChartRank": 160,
+        "url": "https://music.apple.com/jp/album/%E4%BB%B2%E9%96%93/1885716617?i=1885716618&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/8d/ba/ea8dbabb-a43d-4a38-b19a-fb2103fd38ed/4550754513166_cover.png/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
+      },
+      {
         "name": "雨上がり",
         "artist": "VERRY SMoL",
         "playcount": 1964000,
@@ -262420,6 +262958,19 @@
         "rarity": "UR"
       },
       {
+        "name": "APT.",
+        "artist": "ROSÉ & ブルーノ・マーズ",
+        "playcount": 1474000,
+        "rank": 174,
+        "bestChartRank": 174,
+        "url": "https://music.apple.com/jp/album/apt/1773452219?i=1773452221&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/1a/7d/2d1a7d91-587e-0ceb-d434-327bd66d9e86/075679628312.jpg/600x600bb.jpg",
+        "releaseDate": "2024-10-17",
+        "rarity": "UR"
+      },
+      {
         "name": "Missing",
         "artist": "久保田利伸",
         "playcount": 1425000,
@@ -262429,16 +262980,16 @@
         "rarity": "UR"
       },
       {
-        "name": "倍倍FIGHT! (CANDY TUNE JAPAN TOUR 2025 -AUTUMN- TUNE QUEST 勇気の証バンドver.)",
-        "artist": "CANDY TUNE",
-        "playcount": 1376000,
-        "rank": 176,
-        "bestChartRank": 176,
-        "url": "https://music.apple.com/jp/album/%E5%80%8D%E5%80%8Dfight-candy-tune-japan-tour-2025-autumn-tune-quest/1868679870?i=1868680780&uo=4",
+        "name": "拝啓、少年よ",
+        "artist": "Hump Back",
+        "playcount": 1425000,
+        "rank": 190,
+        "bestChartRank": 175,
+        "url": "https://music.apple.com/jp/album/%E6%8B%9D%E5%95%93-%E5%B0%91%E5%B9%B4%E3%82%88/1395024571?i=1395024580&uo=4",
         "mbid": null,
         "source": "top200_merge",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/fa/e2/3cfae229-2054-f6e6-0efe-842b119eddbb/199806798683.jpg/600x600bb.jpg",
-        "releaseDate": "2026-01-17",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/d5/8a/fad58adc-218c-3fe3-1428-040a5187729c/4988021823470.png/600x600bb.jpg",
+        "releaseDate": "2018-06-10",
         "rarity": "UR"
       },
       {
@@ -262483,6 +263034,19 @@
         "rarity": "UR"
       },
       {
+        "name": "Hanamushiro",
+        "artist": "yama",
+        "playcount": 984000,
+        "rank": 184,
+        "bestChartRank": 184,
+        "url": "https://music.apple.com/jp/album/hanamushiro/1882328330?i=1882328335&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/92/56/7b925657-a8e1-9300-3ca9-ecf72ba36f9f/4547366810691.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-18",
+        "rarity": "UR"
+      },
+      {
         "name": "Mal Také Ebisu",
         "artist": "阿部海太郎 & 武田カオリ",
         "playcount": 788000,
@@ -262503,16 +263067,16 @@
         "source": "top200_merge"
       },
       {
-        "name": "拝啓、少年よ",
-        "artist": "Hump Back",
-        "playcount": 690000,
-        "rank": 190,
-        "bestChartRank": 190,
-        "url": "https://music.apple.com/jp/album/%E6%8B%9D%E5%95%93-%E5%B0%91%E5%B9%B4%E3%82%88/1395024571?i=1395024580&uo=4",
+        "name": "HYPNOTIZE",
+        "artist": "XG",
+        "playcount": 739000,
+        "rank": 189,
+        "bestChartRank": 189,
+        "url": "https://music.apple.com/jp/album/hypnotize/1860565513?i=1860565732&uo=4",
         "mbid": null,
         "source": "top200_merge",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/d5/8a/fad58adc-218c-3fe3-1428-040a5187729c/4988021823470.png/600x600bb.jpg",
-        "releaseDate": "2018-06-10",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/98/5e/e9985e9d-034d-d97f-365d-f3a4887c0afa/ANTCD-A0000018810.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-23",
         "rarity": "UR"
       },
       {
@@ -262561,6 +263125,28 @@
         "url": "https://music.apple.com/jp/album/%E6%A1%9C%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AA%E6%81%8B%E3%81%AA%E3%82%93%E3%81%A0/1877843783?i=1877843784&uo=4",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/47/c1/a347c1ca-1fe6-8099-f85d-f9c6ea339e96/4547366809251.jpg/600x600bb.jpg",
         "releaseDate": "2026-03-08",
+        "rarity": "SR"
+      },
+      {
+        "name": "Die With A Smile",
+        "artist": "レディー・ガガ & ブルーノ・マーズ",
+        "playcount": 396000,
+        "rank": 196,
+        "bestChartRank": 196,
+        "url": "https://music.apple.com/jp/album/die-with-a-smile/1762656724?i=1762656732&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2024-08-16",
+        "rarity": "SR"
+      },
+      {
+        "name": "Seasons of Love",
+        "artist": "Riddim Saunter",
+        "playcount": 200000,
+        "url": "https://music.apple.com/jp/album/seasons-of-love/1879991347?i=1879991350&uo=4",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/84/e1/8784e1bc-c7c1-58b3-838f-18e2d706f29e/4988044137622.png/600x600bb.jpg",
+        "releaseDate": "2026-03-18",
         "rarity": "SR"
       },
       {
@@ -274374,6 +274960,19 @@
         "bestChartRank": 118
       },
       {
+        "name": "THAT'S A NO NO",
+        "artist": "ITZY",
+        "playcount": 2895000,
+        "rank": 174,
+        "bestChartRank": 145,
+        "url": "https://music.apple.com/jp/album/thats-a-no-no/1581631723?i=1581631726&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4f/af/b5/4fafb598-6a1e-c9cb-2cf4-4e2189cc5f10/190296490002.jpg/600x600bb.jpg",
+        "releaseDate": "2020-03-09",
+        "rarity": "LR"
+      },
+      {
         "name": "BLACKHOLE",
         "artist": "IVE",
         "playcount": 2160000,
@@ -274385,19 +274984,6 @@
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/c1/eb/e6c1eb1d-830b-c8b5-4e3b-0735daad8bea/199806315972.jpg/600x600bb.jpg",
         "releaseDate": "2026-02-23",
         "rarity": "LR"
-      },
-      {
-        "name": "THAT'S A NO NO",
-        "artist": "ITZY",
-        "playcount": 1474000,
-        "rank": 174,
-        "bestChartRank": 174,
-        "url": "https://music.apple.com/jp/album/thats-a-no-no/1581631723?i=1581631726&uo=4",
-        "mbid": null,
-        "source": "top200_merge",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4f/af/b5/4fafb598-6a1e-c9cb-2cf4-4e2189cc5f10/190296490002.jpg/600x600bb.jpg",
-        "releaseDate": "2020-03-09",
-        "rarity": "UR"
       },
       {
         "name": "Love All",
@@ -325459,6 +326045,19 @@
         "bestChartRank": 105
       },
       {
+        "name": "魔女の呼び声",
+        "artist": "末廣健一郎",
+        "playcount": 5002000,
+        "rank": 102,
+        "bestChartRank": 102,
+        "url": "https://music.apple.com/jp/album/%E9%AD%94%E5%A5%B3%E3%81%AE%E5%91%BC%E3%81%B3%E5%A3%B0/1164412281?i=1164412733&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/94/82/c7/9482c7b4-816e-2362-4af7-b389e06bc3ef/JK_ZMCZ-10885.jpg/600x600bb.jpg",
+        "releaseDate": "2016-10-26",
+        "rarity": "LR"
+      },
+      {
         "name": "結々の唄",
         "artist": "ReoNa",
         "playcount": 4659000,
@@ -325491,6 +326090,19 @@
         "releaseDate": "2026-01-29",
         "rarity": "LR",
         "bestChartRank": 145
+      },
+      {
+        "name": "虚無さん (feat. 宵崎奏, 朝比奈まふゆ, 東雲絵名, 暁山瑞希 & 鏡音レン)",
+        "artist": "25時、ナイトコードで。",
+        "playcount": 2993000,
+        "rank": 143,
+        "bestChartRank": 143,
+        "url": "https://music.apple.com/jp/album/%E8%99%9A%E7%84%A1%E3%81%95%E3%82%93-feat-%E5%AE%B5%E5%B4%8E%E5%A5%8F-%E6%9C%9D%E6%AF%94%E5%A5%88%E3%81%BE%E3%81%B5%E3%82%86-%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D-%E6%9A%81%E5%B1%B1%E7%91%9E%E5%B8%8C-%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/1885492730?i=1885492731&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/17/c8/cc17c83b-1ea8-71bc-2507-8f995bbb470e/4511820-61516.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-18",
+        "rarity": "LR"
       },
       {
         "name": "男気全開Go! Fight!!",
@@ -325569,15 +326181,15 @@
       {
         "name": "Knocking on the mind",
         "artist": "聖川真斗(CV.鈴村健一) & うたの☆プリンスさまっ♪",
-        "playcount": 445000,
+        "playcount": 592000,
         "rank": 195,
-        "bestChartRank": 195,
+        "bestChartRank": 192,
         "url": "https://music.apple.com/jp/album/knocking-on-the-mind/627420960?i=627420964&uo=4",
         "mbid": null,
         "source": "top200_merge",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/c3/a9/b7/c3a9b7e0-96a8-7ca7-4bad-d9226af2cdd6/QECB-32_Book-h1-1.jpg/600x600bb.jpg",
         "releaseDate": "2011-08-03",
-        "rarity": "SR"
+        "rarity": "UR"
       },
       {
         "name": "世界の果てまでBelieve Heart",
@@ -325603,15 +326215,6 @@
         "source": "top200_merge",
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0f/9c/b6/0f9cb6f5-6c43-501f-3c9c-560eaa8270b0/PA00136332_1_182706_jacket.jpg/600x600bb.jpg",
         "releaseDate": "2024-02-28",
-        "rarity": "SR"
-      },
-      {
-        "name": "Seasons of Love",
-        "artist": "Riddim Saunter",
-        "playcount": 200000,
-        "url": "https://music.apple.com/jp/album/seasons-of-love/1879991347?i=1879991350&uo=4",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/84/e1/8784e1bc-c7c1-58b3-838f-18e2d706f29e/4988044137622.png/600x600bb.jpg",
-        "releaseDate": "2026-03-18",
         "rarity": "SR"
       },
       {
@@ -352528,7 +353131,8 @@
         "primaryGenreName": "ポップ",
         "trackTimeMillis": 233713,
         "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/600x600bb.jpg",
-        "releaseDate": "2017-01-06"
+        "releaseDate": "2017-01-06",
+        "bestChartRank": 187
       },
       {
         "name": "Hotel Room Service",
@@ -360816,6 +361420,6 @@
       }
     ]
   },
-  "lastMergedTop200": "2026-03-20",
-  "enrichedAt": "2026-03-19T23:48:46.032Z"
+  "lastMergedTop200": "2026-03-21",
+  "enrichedAt": "2026-03-20T20:29:08.619Z"
 }
