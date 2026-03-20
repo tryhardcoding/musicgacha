@@ -265,13 +265,21 @@ async function loadTop200DateList() {
 }
 
 async function loadTop200ForDate(date) {
+    // 最新日付（index 0）の場合は top200-daily.json を優先（ホーム画面と同じデータソース）
+    if (top200CurrentDateIndex === 0) {
+        try {
+            const response = await fetch('./data/top200-daily.json');
+            if (response.ok) return await response.json();
+        } catch { }
+    }
+
+    // 過去日、またはdailyが取得できない場合は日別アーカイブを使用
     try {
-        // まず日別アーカイブを試す
         const response = await fetch(`./data/top200-history/${date}.json`);
         if (response.ok) return await response.json();
     } catch { }
 
-    // フォールバック: 最新データ
+    // 最終フォールバック: top200-daily.json
     try {
         const response = await fetch('./data/top200-daily.json');
         return await response.json();
