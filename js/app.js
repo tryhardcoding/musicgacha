@@ -204,11 +204,11 @@ async function updateTop200ChallengeCard() {
     const milestoneEl = document.getElementById('top200-challenge-milestone');
     if (milestoneEl) {
         const milestones = [
-            { threshold: 0, title: 'ビギナー', iconName: 'music' },
-            { threshold: 50, title: 'ハンター', iconName: 'target' },
-            { threshold: 100, title: 'コレクター', iconName: 'gem' },
-            { threshold: 150, title: 'マスター', iconName: 'crown' },
-            { threshold: 200, title: 'コンプリート', iconName: 'trophy' }
+            { threshold: 0, title: 'デビュー', iconName: 'music' },
+            { threshold: 50, title: 'シルバーディスク', iconName: 'disc-3' },
+            { threshold: 100, title: 'ゴールドディスク', iconName: 'disc-3' },
+            { threshold: 150, title: 'プラチナディスク', iconName: 'disc-3' },
+            { threshold: 200, title: 'ダイヤモンドディスク', iconName: 'diamond' }
         ];
 
         let currentMilestone = milestones[0];
