@@ -1,6 +1,12 @@
 # Dependencies
 node_modules/
 
+# Pipeline (separate repo)
+scripts/
+musicgacha-pipeline/
+package.json
+package-lock.json
+
 # Backup files
 *.backup
 data/songs.json.backup
