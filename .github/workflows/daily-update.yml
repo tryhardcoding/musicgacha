@@ -1,0 +1,74 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    # 毎日 20:00 UTC = JST 05:00
+    - cron: '0 20 * * *'
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      # 1. Public リポジトリ（自身）をcheckout
+      - name: Checkout public repo
+        uses: actions/checkout@v4
+
+      # 2. Private リポジトリ（スクリプト）をcheckout
+      - name: Checkout pipeline scripts
+        uses: actions/checkout@v4
+        with:
+          repository: tryhardcoding/musicgacha-pipeline
+          token: ${{ secrets.PIPELINE_REPO_TOKEN }}
+          path: pipeline
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install pipeline dependencies
+        run: npm ci
+        working-directory: ./pipeline
+
+      - name: Fetch Top200 data
+        run: node pipeline/scripts/fetch-kworb-top200.js
+        timeout-minutes: 5
+        env:
+          DATA_DIR: ./data
+
+      - name: Merge Top200 to packs
+        run: node pipeline/scripts/merge-top200-to-packs.js
+        timeout-minutes: 10
+        env:
+          DATA_DIR: ./data
+
+      - name: Assign rarity
+        run: node pipeline/scripts/assign-rarity.js
+        timeout-minutes: 3
+        env:
+          DATA_DIR: ./data
+
+      - name: Enrich iTunes data (songs.json, max 50)
+        run: node pipeline/scripts/enrich-itunes-data.js --limit 50
+        timeout-minutes: 10
+        env:
+          DATA_DIR: ./data
+
+      - name: Enrich iTunes data (Top 200)
+        run: node pipeline/scripts/enrich-itunes-data.js --top200-only
+        timeout-minutes: 15
+        env:
+          DATA_DIR: ./data
+
+      # 3. データをコミット＆プッシュ
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
+          git pull --rebase origin master
+          git push
