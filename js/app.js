@@ -7,7 +7,7 @@ import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDa
 import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
 import './gacha.js?v=20260320b'; // ガチャモジュール（グローバル参照にopenPackを登録）
-import { initCollection, renderCollection } from './collection.js';
+import { initCollection, renderCollection, refreshCollection } from './collection.js';
 import { initShareHandler } from './transfer.js';
 import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, refreshModalBannerAd } from './ads.js?v=20260320';
 import { icon, refreshIcons } from './icons.js';
@@ -52,8 +52,8 @@ function showScreen(screenId) {
         updateHomeScreen();
     } else if (screenId === 'collection') {
         updateCollectionScreen();
-        initCollection(); // Added based on instruction text
-        renderCollection(); // Added based on provided code edit
+        initCollection();
+        refreshCollection(); // TOP200ビューも含めて再描画
     }
 }
 
@@ -487,18 +487,36 @@ function setupEventListeners() {
     }
 
 
-    // 設定: データリセット
+    // 設定: データリセット（4段階確認）
     const btnReset = document.getElementById('btn-reset-data');
     if (btnReset) {
         btnReset.addEventListener('click', async (e) => {
             e.preventDefault();
-            const confirmed = await showConfirmDialog(t('dialog.resetMessage'));
-            if (confirmed) {
-                resetAllData();
-                showToast(t('toast.dataReset'), 'info');
-                updateHomeScreen();
-                updateCollectionScreen();
-            }
+
+            // 第1段階: 基本確認
+            const step1 = await showConfirmDialog(t('dialog.resetMessage'));
+            if (!step1) return;
+
+            // 第2段階: 復元不可の警告
+            const step2 = await showConfirmDialog(t('dialog.resetStep2'));
+            if (!step2) return;
+
+            // 第3段階: コレクション数の提示
+            const uniqueCount = getUniqueCardCount();
+            const totalCount = getTotalCardCount();
+            const step3 = await showConfirmDialog(
+                t('dialog.resetStep3', { unique: uniqueCount, total: totalCount })
+            );
+            if (!step3) return;
+
+            // 第4段階: 最終確認
+            const step4 = await showConfirmDialog(t('dialog.resetFinal'));
+            if (!step4) return;
+
+            resetAllData();
+            showToast(t('toast.dataReset'), 'info');
+            updateHomeScreen();
+            updateCollectionScreen();
         });
     }
 

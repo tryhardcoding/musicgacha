@@ -288,7 +288,7 @@ async function loadTop200ForDate(date) {
     }
 }
 
-async function renderTop200View() {
+export async function renderTop200View() {
     const grid = document.getElementById('top200-ranking-grid');
     const dateLabel = document.getElementById('top200-date-label');
     const statsEl = document.getElementById('top200-collection-stats');
@@ -411,9 +411,22 @@ function setupFilterListeners() {
     }
 }
 
+/**
+ * コレクション画面を再描画（現在のフィルタに応じて通常/TOP200ビューを更新）
+ * パック開封後など、データ変更後にコレクション画面を更新するために使用
+ */
+export function refreshCollection() {
+    if (currentPackFilter === 'top200') {
+        renderTop200View();
+    } else {
+        renderCollection();
+    }
+}
+
 // グローバル参照
 if (typeof window !== 'undefined') {
     window.MusicGacha = window.MusicGacha || {};
     window.MusicGacha.renderCollection = renderCollection;
     window.MusicGacha.initCollection = initCollection;
+    window.MusicGacha.refreshCollection = refreshCollection;
 }

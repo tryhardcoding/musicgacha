@@ -102,7 +102,10 @@ const translations = {
         // Dialog
         'dialog.cancel': 'キャンセル',
         'dialog.confirm': '確認',
-        'dialog.resetMessage': '全てのコレクションデータを削除しますか？この操作は取り消せません。',
+        'dialog.resetMessage': 'データをリセットしますか？\nこうかいしませんね？',
+        'dialog.resetStep2': '集めたカードやTOP200の進捗が\n全て消えますが、よろしいですか？',
+        'dialog.resetStep3': '現在 {unique}種類（{total}枚）のカードを所持しています。\nこのデータは復元できません。続けますか？',
+        'dialog.resetFinal': '🚨 これが最後の確認です。\n本当に削除しますか？',
 
         // Loading
         'loading': '読み込み中...',
@@ -214,7 +217,10 @@ const translations = {
         // Dialog
         'dialog.cancel': 'Cancel',
         'dialog.confirm': 'Confirm',
-        'dialog.resetMessage': 'Delete all collection data? This action cannot be undone.',
+        'dialog.resetMessage': 'Reset all data?\nYou won\'t regret this, right?',
+        'dialog.resetStep2': 'All collected cards and TOP200 progress\nwill be lost. Are you sure?',
+        'dialog.resetStep3': 'You own {unique} unique cards ({total} total).\nThis data cannot be recovered. Continue?',
+        'dialog.resetFinal': '🚨 This is the final confirmation.\nReally delete everything?',
 
         // Loading
         'loading': 'Loading...',

@@ -301,7 +301,7 @@ export async function openCardDetail(card) {
           </button>
           <button class="btn-share-card" id="btn-share-card">${icon('send', { size: 16 })} 友達にカードを送る</button>
         </div>
-        <p class="share-note">※「友達にカードを送る」はリンクコピー。あなたのカードはなくなりません</p>
+        <p class="share-note">※ 共有用リンクをコピーします（カードはなくなりません）</p>
       </div>
     `;
 
