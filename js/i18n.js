@@ -70,6 +70,9 @@ const translations = {
         'collection.empty': 'まだカードがありません。パックを開封して集めましょう！',
         'collection.songs': '曲',
         'collection.types': '種類',
+        'collection.obtained': '取得済み',
+        'collection.noChartData': 'チャートデータがありません',
+        'collection.allTab': '全て',
 
         // Card Detail
         'card.title': '曲名',
@@ -179,6 +182,9 @@ const translations = {
         'collection.empty': 'No cards yet. Open packs to start collecting!',
         'collection.songs': 'songs',
         'collection.types': 'unique',
+        'collection.obtained': 'obtained',
+        'collection.noChartData': 'No chart data available',
+        'collection.allTab': 'All',
 
         // Card Detail
         'card.title': 'Title',

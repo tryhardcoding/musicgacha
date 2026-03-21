@@ -539,12 +539,16 @@ function setupEventListeners() {
 
             if (track.scrollLeft <= itemWidth * 0.5) {
                 isResetting = true;
-                track.scrollLeft += setWidth;
-                isResetting = false;
+                requestAnimationFrame(() => {
+                    track.scrollLeft += setWidth;
+                    isResetting = false;
+                });
             } else if (track.scrollLeft >= maxScroll - itemWidth * 0.5) {
                 isResetting = true;
-                track.scrollLeft -= setWidth;
-                isResetting = false;
+                requestAnimationFrame(() => {
+                    track.scrollLeft -= setWidth;
+                    isResetting = false;
+                });
             }
         });
 
@@ -688,12 +692,15 @@ function setupEventListeners() {
         });
     }
 
-    // モーダルを閉じる
     const modalClose = document.getElementById('modal-close');
     if (modalClose) {
         modalClose.addEventListener('click', () => {
             const modal = document.getElementById('card-detail-modal');
             if (modal) modal.style.display = 'none';
+            // 再生中の音声を停止
+            if (window.MusicGacha?.stopCardPreview) {
+                window.MusicGacha.stopCardPreview();
+            }
         });
     }
 
@@ -703,6 +710,10 @@ function setupEventListeners() {
         modalOverlay.addEventListener('click', (e) => {
             if (e.target === modalOverlay) {
                 modalOverlay.style.display = 'none';
+                // 再生中の音声を停止
+                if (window.MusicGacha?.stopCardPreview) {
+                    window.MusicGacha.stopCardPreview();
+                }
             }
         });
     }

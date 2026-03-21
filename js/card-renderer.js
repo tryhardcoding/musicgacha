@@ -42,6 +42,15 @@ function resizeCoverUrl(url, size) {
   return url.replace(/\/\d+x\d+bb\./, `/${size}x${size}bb.`);
 }
 
+/**
+ * CSSのbackground-image用にURLをサニタイズ
+ * シングルクォート・括弧・バックスラッシュを除去してCSS注入を防止
+ */
+function sanitizeCssUrl(url) {
+  if (!url) return '';
+  return url.replace(/['")\\]/g, '');
+}
+
 // ---- Card Preview Audio (standalone for non-gacha screens) ----
 let activeCardAudio = null;
 let activeCardBtn = null;
@@ -122,7 +131,7 @@ export function renderCard(card, options = {}) {
   const isFav = isFavorite(card.id);
 
   el.innerHTML = `
-    <div class="card-bg" style="background-image: url('${escapeHtml(coverUrl)}')"></div>
+    <div class="card-bg" style="background-image: url('${sanitizeCssUrl(coverUrl)}')"></div>
     <div class="card-overlay"></div>
     <div class="card-border"></div>
     <span class="card-rarity-badge rarity-badge-${card.rarity.toLowerCase()}">${card.rarity}</span>

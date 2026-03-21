@@ -308,7 +308,7 @@ async function renderTop200View() {
     // チャートデータ読み込み
     const chartData = await loadTop200ForDate(currentDate);
     if (!chartData || !chartData.tracks) {
-        grid.innerHTML = '<p style="text-align:center; color: var(--text-muted);">チャートデータがありません</p>';
+        grid.innerHTML = `<p style="text-align:center; color: var(--text-muted);">${t('collection.noChartData')}</p>`;
         return;
     }
 
@@ -363,7 +363,7 @@ async function renderTop200View() {
 
     // 統計更新
     if (statsEl) {
-        statsEl.innerHTML = `<span class="stat-badge">${obtainedCount}/200 取得済み</span>`;
+        statsEl.innerHTML = `<span class="stat-badge">${obtainedCount}/200 ${t('collection.obtained')}</span>`;
     }
 
     // Lucideアイコン描画

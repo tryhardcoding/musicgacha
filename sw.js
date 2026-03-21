@@ -3,7 +3,7 @@
 // オフラインキャッシュ + 再訪問時の通信量削減
 // ============================================================
 
-const CACHE_VERSION = 'musicgacha-v9';
+const CACHE_VERSION = 'musicgacha-v10';
 
 // プリキャッシュする静的アセット（初回インストール時に取得）
 const PRECACHE_ASSETS = [
@@ -34,7 +34,6 @@ const PRECACHE_ASSETS = [
 const PACK_IMAGES = [
   '/assets/pack-anime.webp',
   '/assets/pack-hiphop.webp',
-  '/assets/pack-idol.webp',
   '/assets/pack-jpop.webp',
   '/assets/pack-kpop.webp',
   '/assets/pack-standard.webp',
@@ -99,15 +98,22 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 5. top200-history → Cache First（過去データは不変）
+  // 5a. top200-history/index.json → Network First（日付リストは更新される）
+  if (url.pathname === '/data/top200-history/index.json') {
+    event.respondWith(networkFirst(event.request));
+    return;
+  }
+
+  // 5b. top200-history（個別日付ファイル）→ Cache First（過去データは不変）
   if (url.pathname.startsWith('/data/top200-history/')) {
     event.respondWith(cacheFirst(event.request));
     return;
   }
 
   // 6. JS・CSS → Stale While Revalidate（キャッシュ即返し＋バックグラウンド更新）
+  //    ?v=xxx のようなキャッシュバスティングパラメータを無視してマッチさせる
   if (url.pathname.endsWith('.js') || url.pathname.endsWith('.css')) {
-    event.respondWith(staleWhileRevalidate(event.request));
+    event.respondWith(staleWhileRevalidateIgnoreSearch(event.request));
     return;
   }
 
@@ -181,5 +187,30 @@ async function staleWhileRevalidate(request) {
   }).catch(() => null);
 
   // キャッシュがあればすぐ返す、なければネットワークを待つ
+  return cached || fetchPromise || new Response('Offline', { status: 503 });
+}
+
+/**
+ * Stale While Revalidate (検索パラメータ無視版):
+ * ?v=xxx などのキャッシュバスティングパラメータを無視してキャッシュをマッチさせる。
+ * JS・CSS向け。
+ */
+async function staleWhileRevalidateIgnoreSearch(request) {
+  const cache = await caches.open(CACHE_VERSION);
+  const cached = await cache.match(request, { ignoreSearch: true });
+
+  // バックグラウンドで最新版を取得（パラメータ無しのURLでキャッシュ）
+  const url = new URL(request.url);
+  url.search = '';
+  const cleanRequest = new Request(url.toString(), { mode: 'cors' });
+
+  const fetchPromise = fetch(request).then((response) => {
+    if (response.ok) {
+      // パラメータ無しのURLをキーとしてキャッシュに保存
+      cache.put(cleanRequest, response.clone());
+    }
+    return response;
+  }).catch(() => null);
+
   return cached || fetchPromise || new Response('Offline', { status: 503 });
 }

@@ -307,15 +307,6 @@ export function canWatchAd() {
         };
     }
 
-    // パックが上限でないかチェック
-    const packData = getPackData();
-    if (packData.current >= 10) {
-        return {
-            canWatch: false,
-            reason: 'パックが上限のため獲得できません',
-        };
-    }
-
     return { canWatch: true };
 }
 
