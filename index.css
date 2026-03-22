@@ -4727,11 +4727,23 @@ svg.lucide {
   display: none;
 }
 
+/* 広告未配信時に黒いボックスが表示されるのを防止 */
+.ad-container:not(:has(iframe)):not(:has(img)):not(:has(ins)) {
+  background: transparent !important;
+  border-color: transparent !important;
+  min-height: 0 !important;
+}
+
 /* パック結果エリアの広告 */
 .ad-pack-result {
   margin-top: var(--space-lg);
   border: 1px solid rgba(255, 255, 255, 0.04);
   background: rgba(13, 13, 13, 0.3);
+}
+
+.ad-pack-result:empty,
+.ad-pack-result:not(:has(iframe)):not(:has(img)):not(:has(ins)) {
+  display: none;
 }
 
 /* モーダル内広告 */
@@ -4740,6 +4752,11 @@ svg.lucide {
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   padding-top: var(--space-sm);
   border-radius: 0;
+}
+
+.ad-modal:empty,
+.ad-modal:not(:has(iframe)):not(:has(img)):not(:has(ins)) {
+  display: none;
 }
 
 /* ---- Interstitial Ad Overlay ---- */
