@@ -173,6 +173,38 @@ function scaleAdToFit(container) {
 }
 
 /**
+ * 広告未配信時にコンテナが黒ボックスとして表示されるのを防ぐ
+ * i-mobileは広告がなくても空のdiv > ins > iframe を挿入するため、
+ * CSSの :empty や :has() では検出できない。
+ * 一定時間後に実際のクリエイティブが存在するかチェックし、
+ * なければコンテナを非表示にする。
+ * @param {HTMLElement} container - 広告コンテナ
+ */
+function hideEmptyAdContainer(container) {
+    if (!container) return;
+
+    const checkAndHide = () => {
+        // i-mobileの広告が正常にレンダリングされたかチェック
+        const hasCreative = container.querySelector('[data-imobile-creative-width]');
+        const hasVisibleIframe = container.querySelector('iframe[src]:not([src=""])');
+
+        if (hasCreative || hasVisibleIframe) {
+            // 広告あり → 表示を維持
+            container.style.display = '';
+            return;
+        }
+
+        // 広告なし → 非表示化
+        container.style.display = 'none';
+    };
+
+    // i-mobileの広告レンダリングは非同期なので複数回チェック
+    setTimeout(checkAndHide, 3000);
+    setTimeout(checkAndHide, 5000);
+    setTimeout(checkAndHide, 8000);
+}
+
+/**
  * i-mobile広告タグをコンテナにセットする
  * @param {HTMLElement} container - 広告を入れるDOM要素
  * @param {Object} adConfig - { asid, elementId, type, display }
@@ -207,6 +239,9 @@ function insertIMobileAd(container, adConfig) {
 
     // 広告がコンテナから溢れないようスケーリングを適用
     scaleAdToFit(container);
+
+    // 広告未配信時の空コンテナ（黒ボックス）を隠す
+    hideEmptyAdContainer(container);
 }
 
 // ---- Banner Ad Initialization ----
