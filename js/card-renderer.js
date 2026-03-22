@@ -118,11 +118,19 @@ function toggleCardPreview(btn, previewUrl) {
  * @param {Object} options - { showNew: bool, compact: bool, onClick: fn }
  * @returns {HTMLElement}
  */
+// セキュリティ: rarity の許可リスト（XSS防止）
+const VALID_RARITIES_RENDERER = ['c', 'uc', 'r', 'sr', 'ur', 'lr'];
+
 export function renderCard(card, options = {}) {
   const { showNew = false, compact = false, onClick = null } = options;
 
+  // セキュリティ: rarity をクラス名に挿入する前に許可リスト検証
+  const rarityLower = (card.rarity || 'c').toLowerCase();
+  const safeRarityClass = VALID_RARITIES_RENDERER.includes(rarityLower) ? rarityLower : 'c';
+  const safeRarityDisplay = VALID_RARITIES_RENDERER.includes(rarityLower) ? card.rarity : 'C';
+
   const el = document.createElement('div');
-  el.className = `music-card card-rarity-${card.rarity.toLowerCase()}`;
+  el.className = `music-card card-rarity-${safeRarityClass}`;
   if (compact) el.classList.add('card-compact');
 
   // カードサムネイル: 200x200で十分（元は600x600）
@@ -134,7 +142,7 @@ export function renderCard(card, options = {}) {
     <div class="card-bg" style="background-image: url('${sanitizeCssUrl(coverUrl)}')"></div>
     <div class="card-overlay"></div>
     <div class="card-border"></div>
-    <span class="card-rarity-badge rarity-badge-${card.rarity.toLowerCase()}">${card.rarity}</span>
+    <span class="card-rarity-badge rarity-badge-${safeRarityClass}">${escapeHtml(safeRarityDisplay)}</span>
     ${card.chartRank ? `<span class="card-rank-badge">No.${card.chartRank}</span>` : ''}
     <span class="card-fav-icon${isFav ? ' active' : ''}" title="お気に入り">${isFav ? icon('heart', { size: 16, class: 'fav-heart' }) : ''}</span>
     <div class="card-content">

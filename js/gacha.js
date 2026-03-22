@@ -35,8 +35,6 @@ const GOD_RATES = [
 
 // ゴッドパック確率 (1/200)
 const GOD_PACK_CHANCE = 1 / 200;
-// デバッグ: true にすると常にゴッドパック
-const DEBUG_FORCE_GOD_PACK = false;
 
 // ---- Hint Rarity (ホバー示唆) ----
 
@@ -106,7 +104,6 @@ function rollRarity(isGold = false, isGod = false) {
  * ゴッドパック判定
  */
 function isGodPack() {
-    if (DEBUG_FORCE_GOD_PACK) return true;
     return Math.random() < GOD_PACK_CHANCE;
 }
 

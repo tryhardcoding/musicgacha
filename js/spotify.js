@@ -26,6 +26,11 @@ export async function getSpotifyEmbed(trackUrl) {
  * @returns {string} HTML string
  */
 export function createSpotifyIframe(trackId) {
+    // セキュリティ: trackId を英数字のみに制限（iframe src インジェクション防止）
+    if (!trackId || !/^[a-zA-Z0-9]+$/.test(trackId)) {
+        console.warn('[Spotify] Invalid trackId:', trackId);
+        return '';
+    }
     return `<iframe 
     src="https://open.spotify.com/embed/track/${trackId}?theme=0" 
     width="100%" 

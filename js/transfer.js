@@ -68,18 +68,45 @@ export async function copyShareLink(card) {
  * URLハッシュから共有カードデータをパース
  * @returns {Object|null} カードデータ、なければnull
  */
+// セキュリティ: 共有リンクで許可するレアリティ
+const VALID_RARITIES = ['C', 'UC', 'R', 'SR', 'UR', 'LR'];
+
 export function parseShareLink() {
     const hash = window.location.hash;
     if (!hash || !hash.startsWith('#share=')) return null;
 
     try {
         const base64 = hash.substring('#share='.length);
+        // Base64ペイロードの長さ制限（DoS防止: 最大10KB）
+        if (base64.length > 10240) {
+            console.warn('[Transfer] Share data too large');
+            return null;
+        }
         const json = decodeURIComponent(escape(atob(base64)));
         const data = JSON.parse(json);
 
-        // 最低限のバリデーション
+        // 必須フィールドの存在チェック
         if (!data.id || !data.title || !data.artist || !data.rarity) {
             console.warn('[Transfer] Invalid share data: missing required fields');
+            return null;
+        }
+
+        // 型チェック
+        if (typeof data.id !== 'number' || typeof data.title !== 'string' || typeof data.artist !== 'string') {
+            console.warn('[Transfer] Invalid share data: wrong types');
+            return null;
+        }
+
+        // rarity の許可リスト検証（XSS防止）
+        if (!VALID_RARITIES.includes(data.rarity)) {
+            console.warn('[Transfer] Invalid rarity:', data.rarity);
+            return null;
+        }
+
+        // 文字列フィールドの長さ制限
+        if (data.title.length > 300 || data.artist.length > 300 ||
+            (data.album && data.album.length > 300)) {
+            console.warn('[Transfer] Share data fields too long');
             return null;
         }
 
@@ -121,7 +148,9 @@ function showReceiveModal(cardData) {
         titleEl.textContent = 'カードが届いています！🎉';
     }
     if (subtitleEl) {
-        subtitleEl.innerHTML = `<strong>${escapeHtml(cardData.artist)}</strong> - ${escapeHtml(cardData.title)}<br><span class="share-receive-rarity rarity-${cardData.rarity.toLowerCase()}">${cardData.rarity}</span><br><span class="share-receive-note">受け取るとあなたのコレクションに追加されます</span>`;
+        // セキュリティ: rarity も escapeHtml() を適用（parseShareLink で許可リスト検証済みだが多層防御）
+        const safeRarity = VALID_RARITIES.includes(cardData.rarity) ? cardData.rarity : 'C';
+        subtitleEl.innerHTML = `<strong>${escapeHtml(cardData.artist)}</strong> - ${escapeHtml(cardData.title)}<br><span class="share-receive-rarity rarity-${safeRarity.toLowerCase()}">${escapeHtml(safeRarity)}</span><br><span class="share-receive-note">受け取るとあなたのコレクションに追加されます</span>`;
     }
 
     modal.style.display = '';
