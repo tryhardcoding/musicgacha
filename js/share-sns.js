@@ -28,10 +28,10 @@ export function sharePackResult(cards, packType, isGold = false, isGod = false) 
     let header;
     const bestRarity = cards.reduce((best, c) =>
         rarityOrder.indexOf(c.rarity) > rarityOrder.indexOf(best) ? c.rarity : best, cards[0].rarity);
-    if (isGod) header = '⚡ 神パック降臨！！！';
-    else if (isGold) header = '💰 ゴールドパック開封！';
-    else if (rarityOrder.indexOf(bestRarity) >= rarityOrder.indexOf('UR')) header = '✨ 激レア降臨！';
-    else header = '🎵 パック開封結果';
+    if (isGod) header = '⚡ 神パック降臨！';
+    else if (isGold) header = '✨ レア曲ゲット！';
+    else if (rarityOrder.indexOf(bestRarity) >= rarityOrder.indexOf('UR')) header = '✨ レア曲ゲット！';
+    else header = '🎵 ガチャ結果';
 
     // X文字数カウント: URL=23固定、日本語等=2、ASCII=1
     function xCharCount(str) {
@@ -160,7 +160,7 @@ export function shareCard(card) {
         R: '💙 Rare', UC: '💚 Uncommon', C: 'Common',
     };
     const lines = [
-        '🃏 MusicGachaでゲット！', '',
+        '🎵 MusicGachaでゲット！', '',
         `🎵 ${card.title} / ${card.artist}`,
         `⭐ ${rarityNames[card.rarity] || card.rarity}`,
     ];
@@ -189,9 +189,10 @@ export function shareCollectionStats(stats) {
 /**
  * TOP200マイルストーン達成をXに共有
  */
-export function shareTop200Milestone(count, total = 200) {
+export function shareTop200Milestone(count, total = 200, chartDate = null) {
     const pct = Math.round((count / total) * 100);
-    const lines = ['🏆 MusicGacha TOP 200 チャレンジ', '', `📊 ${count}/${total}曲コンプリート！(${pct}%)`];
+    const dateStr = chartDate || new Date().toISOString().slice(0, 10).replace(/-/g, '/');
+    const lines = ['🏆 MusicGacha TOP 200 チャレンジ', `📅 ${dateStr} のTOP 200`, '', `📊 ${count}/${total}曲コンプリート！(${pct}%)`];
     if (count >= total) lines.push('🎉 全曲制覇達成！！！');
     else {
         const next = [50, 100, 150, 200].find(m => m > count);

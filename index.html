@@ -19,18 +19,7 @@
     integrity="sha384-orgVf2eX2+m1zKAOIi09hD0W6GtVhoOUmqDK+sysYB2JTZ4vS86j4jm+X7a4Nnei"
     crossorigin="anonymous"></script>
 
-  <!-- Google AdSense (遅延読込: 初期表示を高速化) -->
-  <script>
-    window.addEventListener('load', function() {
-      setTimeout(function() {
-        var s = document.createElement('script');
-        s.async = true;
-        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6425460794376495';
-        s.crossOrigin = 'anonymous';
-        document.head.appendChild(s);
-      }, 1500);
-    });
-  </script>
+
 </head>
 
 <body>
@@ -429,65 +418,11 @@
   <!-- ===== トースト通知 ===== -->
   <div class="toast-container" id="toast-container"></div>
 
-  <!-- 広告スケーリング（インライン: キャッシュ回避のため） -->
-  <script>
-    (function() {
-      function scaleAds() {
-        document.querySelectorAll('.ad-container').forEach(function(container) {
-          // CSSキャッシュ対策: スタイルを強制リセット
-          container.style.padding = '0';
-          container.style.borderRadius = '0';
-          container.style.overflow = 'hidden';
-          var cw = container.clientWidth;
-          if (cw <= 0) return;
-          var adEl = container.querySelector('[data-imobile-creative-width]');
-          if (!adEl) return;
-          var aw = parseInt(adEl.getAttribute('data-imobile-creative-width'), 10) || adEl.offsetWidth;
-          if (aw > cw) {
-            var s = cw / aw;
-            // top leftを基準にスケーリング → scaleした幅がコンテナにぴったり
-            adEl.style.transformOrigin = 'top left';
-            adEl.style.transform = 'scale(' + s + ')';
-            // コンテナをblock表示に変更（flex centeringによるズレ防止）
-            container.style.display = 'block';
-            var ah = parseInt(adEl.getAttribute('data-imobile-creative-height'), 10) || adEl.offsetHeight || 90;
-            container.style.height = (ah * s) + 'px';
-          }
-        });
-      }
-      // 定期チェック（i-mobileの広告挿入タイミングが不定のため）
-      var t = setInterval(scaleAds, 1000);
-      setTimeout(function() { clearInterval(t); }, 15000);
-      // DOMの変更も監視
-      if (window.MutationObserver) {
-        new MutationObserver(function() { setTimeout(scaleAds, 300); })
-          .observe(document.body || document.documentElement, { childList: true, subtree: true });
-      }
-      window.addEventListener('resize', function() {
-        document.querySelectorAll('.ad-container [data-imobile-creative-width]').forEach(function(el) {
-          el.style.transform = '';
-          el.parentElement.style.height = '';
-        });
-        setTimeout(scaleAds, 300);
-      });
-    })();
-  </script>
+  <!-- JS: 初期化（広告スケーリング・SW登録・AdSense遅延読込） -->
+  <script src="js/init.js?v=20260323"></script>
 
   <!-- JS Modules -->
-  <script type="module" src="js/app.js?v=20260320c"></script>
-
-  <!-- Service Worker 登録 -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js').then(function(reg) {
-          console.log('[SW] Registered:', reg.scope);
-        }).catch(function(err) {
-          console.warn('[SW] Registration failed:', err);
-        });
-      });
-    }
-  </script>
+  <script type="module" src="js/app.js?v=20260323"></script>
 </body>
 
 </html>

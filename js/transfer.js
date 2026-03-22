@@ -71,6 +71,28 @@ export async function copyShareLink(card) {
 // セキュリティ: 共有リンクで許可するレアリティ
 const VALID_RARITIES = ['C', 'UC', 'R', 'SR', 'UR', 'LR'];
 
+// セキュリティ: 共有リンクで許可するURLドメイン
+const ALLOWED_COVER_DOMAINS = ['is1-ssl.mzstatic.com', 'is2-ssl.mzstatic.com', 'is3-ssl.mzstatic.com', 'is4-ssl.mzstatic.com', 'is5-ssl.mzstatic.com'];
+const ALLOWED_PREVIEW_DOMAINS = ['audio-ssl.itunes.apple.com'];
+const ALLOWED_TRACKVIEW_DOMAINS = ['music.apple.com', 'itunes.apple.com'];
+
+/**
+ * URLが許可されたドメインリストに含まれるかチェック
+ * @param {string} url - 検証対象URL
+ * @param {string[]} allowedDomains - 許可ドメインリスト
+ * @returns {boolean}
+ */
+function isAllowedUrl(url, allowedDomains) {
+    if (!url) return true; // nullは許可
+    try {
+        const parsed = new URL(url);
+        if (parsed.protocol !== 'https:') return false;
+        return allowedDomains.some(domain => parsed.hostname === domain || parsed.hostname.endsWith('.' + domain));
+    } catch {
+        return false;
+    }
+}
+
 export function parseShareLink() {
     const hash = window.location.hash;
     if (!hash || !hash.startsWith('#share=')) return null;
@@ -108,6 +130,20 @@ export function parseShareLink() {
             (data.album && data.album.length > 300)) {
             console.warn('[Transfer] Share data fields too long');
             return null;
+        }
+
+        // URL検証: 不正なドメインのURLはnullに置換（悪意のある外部リンク防止）
+        if (data.coverUrl && !isAllowedUrl(data.coverUrl, ALLOWED_COVER_DOMAINS)) {
+            console.warn('[Transfer] Invalid coverUrl domain, stripping:', data.coverUrl);
+            data.coverUrl = null;
+        }
+        if (data.previewUrl && !isAllowedUrl(data.previewUrl, ALLOWED_PREVIEW_DOMAINS)) {
+            console.warn('[Transfer] Invalid previewUrl domain, stripping:', data.previewUrl);
+            data.previewUrl = null;
+        }
+        if (data.trackViewUrl && !isAllowedUrl(data.trackViewUrl, ALLOWED_TRACKVIEW_DOMAINS)) {
+            console.warn('[Transfer] Invalid trackViewUrl domain, stripping:', data.trackViewUrl);
+            data.trackViewUrl = null;
         }
 
         return data;
