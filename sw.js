@@ -3,7 +3,7 @@
 // オフラインキャッシュ + 再訪問時の通信量削減
 // ============================================================
 
-const CACHE_VERSION = 'musicgacha-v13';
+const CACHE_VERSION = 'musicgacha-v14';
 
 // プリキャッシュする静的アセット（初回インストール時に取得）
 const PRECACHE_ASSETS = [
@@ -111,10 +111,9 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 6. JS・CSS → Stale While Revalidate（キャッシュ即返し＋バックグラウンド更新）
-  //    ?v=xxx のようなキャッシュバスティングパラメータを無視してマッチさせる
+  // 6. JS・CSS → Network First（常に最新を取得、オフライン時のみキャッシュ）
   if (url.pathname.endsWith('.js') || url.pathname.endsWith('.css')) {
-    event.respondWith(staleWhileRevalidateIgnoreSearch(event.request));
+    event.respondWith(networkFirst(event.request));
     return;
   }
 
