@@ -4721,6 +4721,10 @@ svg.lucide {
   overflow: visible;
   position: relative;
   padding: 0;
+  /* 広告コンテナ内の変更が外部レイアウトに波及しないようにする */
+  contain: layout style;
+  /* height変更時のガタつきを視覚的に軽減 */
+  transition: height 0.3s ease;
 }
 
 .ad-container:empty {

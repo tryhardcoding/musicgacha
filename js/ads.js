@@ -97,111 +97,42 @@ function reloadIMobileScript() {
     document.head.appendChild(script);
 }
 
-/**
- * i-mobile広告がコンテナからはみ出す場合にスケーリングする
- * 
- * i-mobileのDOM構造:
- *   container (#ad-home-banner)
- *     └ div#im-xxxxx [data-imobile-creative-width="728"]
- *         └ ins
- *             └ div [inline: width:728px; min-width:728px; transform:translate3d(0,0,0)]
- *                 └ iframe [inline: width:728px; min-width:728px]
- * 
- * CSSのmax-widthは効かない（min-widthがインラインで設定されるため）。
- * im-xxxxx div自体にtransform:scaleを適用してコンテナに収める。
- * 
- * @param {HTMLElement} container - 広告コンテナ (.ad-container)
- */
-function scaleAdToFit(container) {
-    if (!container) return;
-
-    const applyScale = () => {
-        const containerWidth = container.clientWidth;
-        if (containerWidth <= 0) return;
-
-        // i-mobileが挿入するdiv[id^="im-"]を取得
-        const adWrapper = container.querySelector('[data-imobile-creative-width]');
-        if (!adWrapper) return;
-
-        // data属性またはoffsetWidthから広告の元サイズを取得
-        const creativeWidth = parseInt(adWrapper.dataset.imobileCreativeWidth, 10)
-            || adWrapper.offsetWidth
-            || adWrapper.scrollWidth;
-
-        if (creativeWidth > containerWidth) {
-            const scale = containerWidth / creativeWidth;
-            // adWrapper自体にスケーリングを適用（中央配置を維持）
-            adWrapper.style.transformOrigin = 'center top';
-            adWrapper.style.transform = `scale(${scale})`;
-            adWrapper.style.display = 'block';
-            // コンテナの高さをスケール後に合わせる
-            const creativeHeight = parseInt(adWrapper.dataset.imobileCreativeHeight, 10)
-                || adWrapper.offsetHeight || 90;
-            container.style.height = `${creativeHeight * scale}px`;
-            container.style.display = 'flex';
-            container.style.justifyContent = 'center';
-        }
-    };
-
-    // MutationObserverで広告の挿入を監視
-    const observer = new MutationObserver(() => {
-        // i-mobileがiframeをレンダリングするのを待つ
-        setTimeout(applyScale, 300);
-        setTimeout(applyScale, 800);
-        setTimeout(applyScale, 2000); // 遅い回線のフォールバック
-    });
-    observer.observe(container, { childList: true, subtree: true });
-
-    // 初回チェック（既にDOMがあるかもしれない）
-    setTimeout(applyScale, 500);
-
-    // リサイズ時にも再計算
-    const resizeHandler = () => {
-        const adWrapper = container.querySelector('[data-imobile-creative-width]');
-        if (adWrapper) {
-            adWrapper.style.transform = '';
-            container.style.height = '';
-        }
-        setTimeout(applyScale, 300);
-    };
-    // デバウンス付きリサイズ
-    let resizeTimer;
-    window.addEventListener('resize', () => {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(resizeHandler, 200);
-    });
-}
+// スケーリングは init.js に一本化（二重実行によるガタつき防止）
 
 /**
  * 広告未配信時にコンテナが黒ボックスとして表示されるのを防ぐ
- * i-mobileは広告がなくても空のdiv > ins > iframe を挿入するため、
- * CSSの :empty や :has() では検出できない。
- * 一定時間後に実際のクリエイティブが存在するかチェックし、
- * なければコンテナを非表示にする。
+ * display: none ではなく visibility + height で制御し、
+ * レイアウトシフト（ガタつき）を防止する。
+ * 広告が検出されたらチェックを停止する。
  * @param {HTMLElement} container - 広告コンテナ
  */
 function hideEmptyAdContainer(container) {
     if (!container) return;
 
+    let resolved = false;
     const checkAndHide = () => {
-        // i-mobileの広告が正常にレンダリングされたかチェック
+        if (resolved) return;
+
         const hasCreative = container.querySelector('[data-imobile-creative-width]');
         const hasVisibleIframe = container.querySelector('iframe[src]:not([src=""])');
 
         if (hasCreative || hasVisibleIframe) {
-            // 広告あり → 表示を維持
-            container.style.display = '';
+            // 広告あり → 表示を確保して監視終了
+            container.style.visibility = '';
+            container.style.overflow = '';
+            resolved = true;
             return;
         }
 
-        // 広告なし → 非表示化
-        container.style.display = 'none';
+        // 広告なし → レイアウトシフトを起こさず非表示化
+        container.style.minHeight = '0';
+        container.style.visibility = 'hidden';
+        container.style.overflow = 'hidden';
     };
 
     // i-mobileの広告レンダリングは非同期なので複数回チェック
     setTimeout(checkAndHide, 3000);
-    setTimeout(checkAndHide, 5000);
-    setTimeout(checkAndHide, 8000);
+    setTimeout(checkAndHide, 6000);
 }
 
 /**
@@ -237,11 +168,9 @@ function insertIMobileAd(container, adConfig) {
         elementid: adConfig.elementId,
     });
 
-    // 広告がコンテナから溢れないようスケーリングを適用
-    scaleAdToFit(container);
-
     // 広告未配信時の空コンテナ（黒ボックス）を隠す
     hideEmptyAdContainer(container);
+    // スケーリングは init.js 側で一元管理
 }
 
 // ---- Banner Ad Initialization ----
@@ -574,8 +503,7 @@ export function refreshModalBannerAd() {
     });
     setTimeout(() => reloadIMobileScript(), 50);
 
-    // 広告がコンテナから溢れないようスケーリングを適用
-    scaleAdToFit(container);
+    // スケーリングは init.js 側で一元管理
 }
 
 // ---- Initialization ----

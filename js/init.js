@@ -16,10 +16,15 @@ window.addEventListener('load', function() {
 });
 
 // ---- 2. 広告スケーリング（i-mobile対応） ----
+// ads.js側のscaleAdToFitは削除し、ここに一本化。
+// デバウンス＋Observer一時停止で二重実行によるガタつきを防止。
 (function() {
+    var scaling = false; // スケーリング中フラグ（Observer自己トリガー防止）
+    var debounceTimer = null;
+
     function scaleAds() {
+        scaling = true;
         document.querySelectorAll('.ad-container').forEach(function(container) {
-            // CSSキャッシュ対策: スタイルを強制リセット
             container.style.padding = '0';
             container.style.borderRadius = '0';
             container.style.overflow = 'hidden';
@@ -30,30 +35,50 @@ window.addEventListener('load', function() {
             var aw = parseInt(adEl.getAttribute('data-imobile-creative-width'), 10) || adEl.offsetWidth;
             if (aw > cw) {
                 var s = cw / aw;
-                // top leftを基準にスケーリング → scaleした幅がコンテナにぴったり
                 adEl.style.transformOrigin = 'top left';
                 adEl.style.transform = 'scale(' + s + ')';
-                // コンテナをblock表示に変更（flex centeringによるズレ防止）
                 container.style.display = 'block';
                 var ah = parseInt(adEl.getAttribute('data-imobile-creative-height'), 10) || adEl.offsetHeight || 90;
                 container.style.height = (ah * s) + 'px';
             }
         });
+        // スケーリング完了後にフラグ解除（DOM更新がflushされるのを待つ）
+        requestAnimationFrame(function() { scaling = false; });
     }
+
+    // デバウンス付きスケーリング: 最後のトリガーから500ms後に1回だけ実行
+    function debouncedScale() {
+        if (scaling) return; // 自分自身のDOM変更では再トリガーしない
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(scaleAds, 500);
+    }
+
     // 定期チェック（i-mobileの広告挿入タイミングが不定のため）
-    var t = setInterval(scaleAds, 1000);
-    setTimeout(function() { clearInterval(t); }, 15000);
-    // DOMの変更も監視
+    // 2秒間隔×5回 = 10秒間のみ
+    var t = setInterval(debouncedScale, 2000);
+    setTimeout(function() { clearInterval(t); }, 10000);
+
+    // .ad-container要素のみを監視（document.body全体は広すぎて無関係なDOM変更でも発火する）
     if (window.MutationObserver) {
-        new MutationObserver(function() { setTimeout(scaleAds, 300); })
-            .observe(document.body || document.documentElement, { childList: true, subtree: true });
+        function observeAdContainers() {
+            document.querySelectorAll('.ad-container').forEach(function(container) {
+                if (container._adObserverAttached) return; // 二重登録防止
+                container._adObserverAttached = true;
+                new MutationObserver(function() { debouncedScale(); })
+                    .observe(container, { childList: true, subtree: true });
+            });
+        }
+        // 初回 + 少し遅れて（動的生成されるコンテナ対応）
+        observeAdContainers();
+        setTimeout(observeAdContainers, 2000);
     }
+
     window.addEventListener('resize', function() {
         document.querySelectorAll('.ad-container [data-imobile-creative-width]').forEach(function(el) {
             el.style.transform = '';
             el.parentElement.style.height = '';
         });
-        setTimeout(scaleAds, 300);
+        debouncedScale();
     });
 })();
 
