@@ -4,7 +4,7 @@
 // ============================================================
 
 import { addCardToCollection } from './storage.js';
-import { renderCard } from './card-renderer.js';
+import { renderCard } from './card-renderer.js?v=20260323b';
 
 // ---- Share Link Creation ----
 

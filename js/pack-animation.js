@@ -3,7 +3,7 @@
 // パック開封アニメーション + プレイリスト再生制御
 // ============================================================
 
-import { renderCard } from './card-renderer.js';
+import { renderCard } from './card-renderer.js?v=20260323b';
 import { t } from './i18n.js';
 import { getSetting } from './storage.js';
 import { showAmazonCta } from './amazon-cta.js';
@@ -479,7 +479,7 @@ export async function renderPackOpening(cardsPromise, isGold = false, autoTap = 
                 const cardEl = renderCard(card, {
                     showNew: true,
                     onClick: () => {
-                        import('./card-renderer.js').then(m => m.openCardDetail(card));
+                        import('./card-renderer.js?v=20260323b').then(m => m.openCardDetail(card));
                     }
                 });
 

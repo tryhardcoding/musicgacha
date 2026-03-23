@@ -5,7 +5,7 @@
 
 import { getCollection, getTop200Data, getFavorites } from './storage.js';
 import { getSongPool, getTop200Daily } from './data-loader.js';
-import { renderCard, renderCardBack, openCardDetail } from './card-renderer.js';
+import { renderCard, renderCardBack, openCardDetail } from './card-renderer.js?v=20260323b';
 import { RARITY_CONFIG } from './card.js';
 import { t } from './i18n.js';
 import { refreshIcons } from './icons.js';
