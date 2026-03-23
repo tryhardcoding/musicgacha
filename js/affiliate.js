@@ -15,7 +15,7 @@ const AFFILIATE_CONFIG = {
     amazon: {
         // Amazon アソシエイト
         // 取得先: https://affiliate.amazon.co.jp/
-        tag: 'musicgacha-22',
+        tag: 'sadpof-22',
         region: 'jp', // jp, us, uk, etc.
     },
     imobile: {

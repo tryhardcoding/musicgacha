@@ -292,13 +292,15 @@ export async function openCardDetail(card) {
 
     playerContainer.innerHTML = `
       <div class="modal-player-actions">
-        <a href="${amazonMusicUrl}" target="_blank" rel="noopener" class="btn-affiliate-primary btn-affiliate-amazon">
-          <span class="btn-affiliate-icon">🎧</span>
-          <span class="btn-affiliate-text">
-            <span class="btn-affiliate-label">フルで聴く</span>
-            <span class="btn-affiliate-sub">Amazon Music</span>
+        <a href="${amazonMusicUrl}" target="_blank" rel="noopener" class="btn-play-full">
+          <span class="btn-play-full-ring"></span>
+          <span class="btn-play-full-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><polygon points="6,3 20,12 6,21"/></svg>
           </span>
-          <span class="btn-affiliate-arrow">→</span>
+          <span class="btn-play-full-text">
+            <span class="btn-play-full-label">フルで聴く</span>
+            <span class="btn-play-full-sub">Amazon Musicで再生</span>
+          </span>
         </a>
       </div>
       <div class="modal-share-section">

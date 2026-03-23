@@ -124,6 +124,14 @@ function updateHomeScreen() {
 
     // Top 200 進捗表示
     updateTop200Progress();
+
+    // Amazon Music PR - ユーザーの収集実績と連動
+    const amazonTitle = document.getElementById('amazon-music-title');
+    if (amazonTitle) {
+        amazonTitle.textContent = uniqueCount > 0
+            ? `あなたが見つけた${uniqueCount}曲、フルで聴ける`
+            : '見つけた曲、フルで聴ける';
+    }
 }
 
 function updateRegenTimer() {
