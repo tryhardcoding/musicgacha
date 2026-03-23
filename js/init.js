@@ -17,46 +17,53 @@ window.addEventListener('load', function() {
 
 // ---- 2. 広告スケーリング（i-mobile対応） ----
 // ads.js側のscaleAdToFitは削除し、ここに一本化。
-// デバウンス＋Observer一時停止で二重実行によるガタつきを防止。
+// rAF + デバウンスで1フレームに1回だけ実行し、ガタつきを完全防止。
 (function() {
-    var scaling = false; // スケーリング中フラグ（Observer自己トリガー防止）
-    var debounceTimer = null;
+    var pendingRaf = null; // rAFリクエストID（二重実行防止）
+    var scaling = false;   // スケーリング中フラグ（Observer自己トリガー防止）
 
     function scaleAds() {
         scaling = true;
-        document.querySelectorAll('.ad-container').forEach(function(container) {
-            container.style.padding = '0';
-            container.style.borderRadius = '0';
-            container.style.overflow = 'hidden';
+        var containers = document.querySelectorAll('.ad-container');
+        containers.forEach(function(container) {
             var cw = container.clientWidth;
             if (cw <= 0) return;
             var adEl = container.querySelector('[data-imobile-creative-width]');
             if (!adEl) return;
             var aw = parseInt(adEl.getAttribute('data-imobile-creative-width'), 10) || adEl.offsetWidth;
+            var ah = parseInt(adEl.getAttribute('data-imobile-creative-height'), 10) || adEl.offsetHeight || 90;
             if (aw > cw) {
                 var s = cw / aw;
                 adEl.style.transformOrigin = 'top left';
                 adEl.style.transform = 'scale(' + s + ')';
-                container.style.display = 'block';
-                var ah = parseInt(adEl.getAttribute('data-imobile-creative-height'), 10) || adEl.offsetHeight || 90;
                 container.style.height = (ah * s) + 'px';
+            } else {
+                // 広告がコンテナ幅以下ならスケーリング不要
+                adEl.style.transform = '';
+                container.style.height = ah + 'px';
             }
         });
-        // スケーリング完了後にフラグ解除（DOM更新がflushされるのを待つ）
-        requestAnimationFrame(function() { scaling = false; });
+        // DOM更新がflushされるのを待ってからフラグ解除
+        requestAnimationFrame(function() {
+            scaling = false;
+            pendingRaf = null;
+        });
     }
 
-    // デバウンス付きスケーリング: 最後のトリガーから500ms後に1回だけ実行
-    function debouncedScale() {
-        if (scaling) return; // 自分自身のDOM変更では再トリガーしない
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(scaleAds, 500);
+    // rAFベースのスケーリングリクエスト: 同一フレーム内で複数回呼ばれても1回だけ実行
+    function requestScale() {
+        if (scaling || pendingRaf) return;
+        pendingRaf = requestAnimationFrame(scaleAds);
     }
 
     // 定期チェック（i-mobileの広告挿入タイミングが不定のため）
-    // 2秒間隔×5回 = 10秒間のみ
-    var t = setInterval(debouncedScale, 2000);
-    setTimeout(function() { clearInterval(t); }, 10000);
+    // 1秒間隔。広告が見つかったコンテナ数を追跡し、全コンテナ処理済みなら停止
+    var checkCount = 0;
+    var t = setInterval(function() {
+        checkCount++;
+        requestScale();
+        if (checkCount >= 15) clearInterval(t); // 最大15秒
+    }, 1000);
 
     // .ad-container要素のみを監視（document.body全体は広すぎて無関係なDOM変更でも発火する）
     if (window.MutationObserver) {
@@ -64,21 +71,25 @@ window.addEventListener('load', function() {
             document.querySelectorAll('.ad-container').forEach(function(container) {
                 if (container._adObserverAttached) return; // 二重登録防止
                 container._adObserverAttached = true;
-                new MutationObserver(function() { debouncedScale(); })
+                new MutationObserver(function() { requestScale(); })
                     .observe(container, { childList: true, subtree: true });
             });
         }
         // 初回 + 少し遅れて（動的生成されるコンテナ対応）
         observeAdContainers();
-        setTimeout(observeAdContainers, 2000);
+        setTimeout(observeAdContainers, 3000);
     }
 
     window.addEventListener('resize', function() {
+        // リサイズ時はスケーリングをリセットしてから再計算
         document.querySelectorAll('.ad-container [data-imobile-creative-width]').forEach(function(el) {
             el.style.transform = '';
-            el.parentElement.style.height = '';
+            if (el.parentElement) el.parentElement.style.height = '';
         });
-        debouncedScale();
+        // リサイズはデバウンスで処理（連続リサイズ対策）
+        scaling = false;
+        if (pendingRaf) { cancelAnimationFrame(pendingRaf); pendingRaf = null; }
+        requestScale();
     });
 })();
 

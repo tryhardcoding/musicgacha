@@ -3646,14 +3646,12 @@ input {
 .ad-container {
   width: 100%;
   max-width: 100%;
-  margin: var(--space-md) auto;
+  margin: 0 auto;
   padding: 0;
   border-radius: 0;
-  overflow: visible;
-  min-height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
+  min-height: 0;
+  contain: layout style;
 }
 
 .ad-container ins {
@@ -3700,7 +3698,7 @@ input {
 @media (max-width: 479px) {
   .ad-container {
     max-width: 100%;
-    min-height: 50px;
+    min-height: 0;
   }
 }
 
