@@ -111,9 +111,10 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 6. JS・CSS → Network First（常に最新を取得、オフライン時のみキャッシュ）
+  // 6. JS・CSS → Stale While Revalidate（キャッシュ即返し＋バックグラウンド更新）
+  //    ?v=xxx のようなキャッシュバスティングパラメータを無視してマッチさせる
   if (url.pathname.endsWith('.js') || url.pathname.endsWith('.css')) {
-    event.respondWith(networkFirst(event.request));
+    event.respondWith(staleWhileRevalidateIgnoreSearch(event.request));
     return;
   }
 

@@ -21,12 +21,12 @@
 /data/genres.json
   Cache-Control: public, max-age=604800
 
-# CSS/JS: always revalidate (ensures immediate updates on deploy)
+# CSS/JS: medium-term cache with revalidation
 /*.css
-  Cache-Control: no-cache
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
 
 /js/*
-  Cache-Control: no-cache
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
 
 # HTML: short-term cache
 /
