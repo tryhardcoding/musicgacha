@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css?v=20260323b">
+  <link rel="stylesheet" href="index.css?v=20260324b">
   <script src="https://unpkg.com/lucide@0.577.0/dist/umd/lucide.min.js"
     integrity="sha384-orgVf2eX2+m1zKAOIi09hD0W6GtVhoOUmqDK+sysYB2JTZ4vS86j4jm+X7a4Nnei"
     crossorigin="anonymous"></script>
@@ -33,14 +33,18 @@
         </h1>
       </a>
       <nav class="header-nav" id="header-nav">
-        <a href="#home" class="nav-item active" data-screen="home" data-i18n="nav.home">
-          <span class="nav-label">ホーム</span>
+        <a href="#home" class="nav-item active" data-screen="home">
+          <span class="nav-label" data-i18n="nav.home">ホーム</span>
         </a>
-        <a href="#collection" class="nav-item" data-screen="collection" data-i18n="nav.collection">
-          <span class="nav-label">コレクション</span>
+        <a href="#collection" class="nav-item" data-screen="collection">
+          <span class="nav-label" data-i18n="nav.collection">コレクション</span>
         </a>
       </nav>
       <div class="header-actions">
+        <button class="header-achievement-btn" id="btn-achievements-header" aria-label="実績">
+          <i data-lucide="trophy"></i>
+          <span class="header-achievement-count" id="achievement-header-count">0</span>
+        </button>
         <button class="country-btn" id="country-btn" aria-label="国切替">
           <i data-lucide="globe"></i>
           <span class="country-code">JP</span>
@@ -73,7 +77,7 @@
       </div>
 
       <!-- パックカルーセル - 横スクロール周回 -->
-      <h2 class="section-title">🎵 パックを選ぶ</h2>
+      <h2 class="section-title"><i data-lucide="music"></i> <span data-i18n="home.choosePack">パックを選ぶ</span></h2>
       <div class="pack-carousel" id="pack-carousel">
         <div class="pack-carousel-track" id="pack-carousel-track">
           <button class="pack-item" data-pack="top200">
@@ -112,6 +116,14 @@
         </div>
       </div>
 
+      <!-- ゴールドパック進捗 -->
+      <div class="gold-pack-progress" id="gold-pack-progress">
+        <div class="gold-pack-bar">
+          <div class="gold-pack-fill" id="gold-pack-fill" style="width: 0%"></div>
+        </div>
+        <span class="gold-pack-label" id="gold-pack-label" data-i18n="home.goldPackProgress">0/10 ゴールドパックまで</span>
+      </div>
+
       <!-- TOP200 チャレンジカード -->
       <div class="top200-challenge-card" id="top200-challenge-card">
         <div class="top200-challenge-glow"></div>
@@ -131,7 +143,7 @@
           <div class="top200-challenge-right">
             <div class="top200-challenge-header">
               <span class="top200-challenge-icon"><i data-lucide="trophy"></i></span>
-              <span class="top200-challenge-title">TOP 200 チャレンジ</span>
+              <span class="top200-challenge-title" data-i18n="home.top200Challenge">TOP 200 チャレンジ</span>
             </div>
             <div class="top200-challenge-bar-container">
               <div class="top200-challenge-bar">
@@ -148,17 +160,25 @@
         </div>
       </div>
 
-      <!-- ゴールドパック進捗 -->
-      <div class="gold-pack-progress" id="gold-pack-progress">
-        <div class="gold-pack-bar">
-          <div class="gold-pack-fill" id="gold-pack-fill" style="width: 0%"></div>
+      <!-- Amazon Music Unlimited PR -->
+      <a href="https://www.amazon.co.jp/music/unlimited?tag=sadpof-22" target="_blank" rel="noopener sponsored" class="amazon-music-card" id="amazon-music-pr">
+        <span class="amazon-music-pr-tag">PR</span>
+        <div class="amazon-music-glow"></div>
+        <div class="amazon-music-card-inner">
+          <div class="amazon-music-icon-area">
+            <span class="amazon-music-note">♪</span>
+          </div>
+          <div class="amazon-music-text">
+            <span class="amazon-music-title" id="amazon-music-title" data-i18n="home.amazonTitle">見つけた曲、フルで聴ける</span>
+            <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <strong>30日間無料</strong>で試す</span>
+          </div>
+          <span class="amazon-music-cta" data-i18n="home.amazonCta">試す →</span>
         </div>
-        <span class="gold-pack-label" id="gold-pack-label">0/10 ゴールドパックまで</span>
-      </div>
+      </a>
 
       <!-- 広告バナー（ホーム） -->
       <div class="ad-container" id="ad-home-banner">
-        <!-- AdSense設定後に自動差し替え -->
+        <!-- i-mobile広告 -->
       </div>
 
       <!-- デイリーボーナス -->
@@ -177,21 +197,12 @@
         <span data-i18n="home.watchAd">広告を見てパックを獲得</span>
       </button>
 
-      <!-- Amazon Music Unlimited PR -->
-      <a href="https://www.amazon.co.jp/music/unlimited?tag=sadpof-22" target="_blank" rel="noopener sponsored" class="amazon-music-card" id="amazon-music-pr">
-        <span class="amazon-music-pr-tag">PR</span>
-        <div class="amazon-music-glow"></div>
-        <div class="amazon-music-card-inner">
-          <div class="amazon-music-icon-area">
-            <span class="amazon-music-note">♪</span>
-          </div>
-          <div class="amazon-music-text">
-            <span class="amazon-music-title" id="amazon-music-title">見つけた曲、フルで聴ける</span>
-            <span class="amazon-music-desc">Amazon Music Unlimited ── <strong>30日間無料</strong>で試す</span>
-          </div>
-          <span class="amazon-music-cta">試す →</span>
-        </div>
-      </a>
+      <!-- 実績ボタン -->
+      <button class="achievement-btn" id="btn-achievements">
+        <i data-lucide="trophy"></i>
+        <span class="achievement-btn-label" data-i18n="home.achievements">実績</span>
+        <span class="achievement-btn-count" id="achievement-btn-count">0/42</span>
+      </button>
 
       <!-- 収集進捗 -->
       <div class="collection-progress" id="collection-progress">
@@ -208,7 +219,7 @@
         </div>
         <button class="btn-share-x btn-share-x-sm" id="btn-share-collection" title="コレクションをXでシェア">
           <svg class="x-logo" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          シェア
+          <span data-i18n="home.share">シェア</span>
         </button>
       </div>
     </div>
@@ -235,7 +246,7 @@
         <div class="pack-actions">
           <button class="btn-share-x btn-share-x-pack" id="btn-share-pack-result">
             <svg class="x-logo" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            結果をXでシェア
+            <span data-i18n="pack.shareResult">結果をXでシェア</span>
           </button>
           <div class="pack-auto-open-toggle">
             <div class="pack-auto-open-info">
@@ -249,6 +260,58 @@
           </div>
           <button class="btn-primary" id="btn-open-another" data-i18n="pack.openAnother">もう1パック開ける</button>
           <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.backHome">ホームに戻る</button>
+        </div>
+
+        <!-- Amazon Music Unlimited PR（パック開封結果） -->
+        <a href="https://www.amazon.co.jp/music/unlimited?tag=sadpof-22" target="_blank" rel="noopener sponsored" class="amazon-music-card amazon-music-card-pack" id="amazon-music-pr-pack">
+          <span class="amazon-music-pr-tag">PR</span>
+          <div class="amazon-music-glow"></div>
+          <div class="amazon-music-card-inner">
+            <div class="amazon-music-icon-area">
+              <span class="amazon-music-note">♪</span>
+            </div>
+            <div class="amazon-music-text">
+              <span class="amazon-music-title" id="amazon-music-title-pack" data-i18n="pack.amazonTitle">気になった曲、フルで聴ける</span>
+              <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <strong>30日間無料</strong>で試す</span>
+            </div>
+            <span class="amazon-music-cta">試す →</span>
+          </div>
+        </a>
+
+        <!-- TOP200 チャレンジカウント（パック開封結果） -->
+        <div class="top200-challenge-card top200-challenge-card-pack" id="top200-challenge-card-pack">
+          <div class="top200-challenge-glow"></div>
+          <div class="top200-challenge-content">
+            <div class="top200-challenge-left">
+              <div class="top200-ring-container">
+                <svg class="top200-ring" viewBox="0 0 120 120">
+                  <circle class="top200-ring-track" cx="60" cy="60" r="52" />
+                  <circle class="top200-ring-fill" id="top200-ring-fill-pack" cx="60" cy="60" r="52" />
+                </svg>
+                <div class="top200-ring-center">
+                  <span class="top200-ring-number" id="top200-ring-number-pack">0</span>
+                  <span class="top200-ring-total">/200</span>
+                </div>
+              </div>
+            </div>
+            <div class="top200-challenge-right">
+              <div class="top200-challenge-header">
+                <span class="top200-challenge-icon"><i data-lucide="trophy"></i></span>
+                <span class="top200-challenge-title" data-i18n="home.top200Challenge">TOP 200 チャレンジ</span>
+              </div>
+              <div class="top200-challenge-bar-container">
+                <div class="top200-challenge-bar">
+                  <div class="top200-challenge-bar-fill" id="top200-challenge-bar-fill-pack"></div>
+                  <div class="top200-challenge-bar-shine"></div>
+                </div>
+                <span class="top200-challenge-percent" id="top200-challenge-percent-pack">0%</span>
+              </div>
+              <div class="top200-challenge-milestone" id="top200-challenge-milestone-pack"></div>
+              <div class="top200-challenge-cta" id="top200-challenge-cta-pack">
+                毎日更新のチャートを集めよう →
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- 広告バナー（パック開封結果） -->
@@ -339,7 +402,7 @@
           <button class="top200-date-btn" id="top200-date-next">▶</button>
         </div>
         <div class="top200-collection-stats" id="top200-collection-stats">
-          <span class="stat-badge">0/200 取得済み</span>
+          <span class="stat-badge" data-i18n="collection.top200Obtained">0/200 取得済み</span>
         </div>
         <div class="top200-ranking-grid" id="top200-ranking-grid">
           <!-- 200スロットが動的に生成 -->
@@ -363,13 +426,13 @@
       </div>
 
       <div class="footer-support-subtle">
-        <p class="footer-support-msg">サーバー代で赤字運営中…応援いただけると嬉しいです</p>
+        <p class="footer-support-msg" data-i18n="footer.support">サーバー代で赤字運営中…応援いただけると嬉しいです</p>
         <a href="https://buymeacoffee.com/musicgacha" target="_blank" rel="noopener" class="footer-coffee-link">
           ☕ Buy me a coffee
         </a>
       </div>
 
-      <p class="footer-affiliate-notice">当サイトはAmazonアソシエイトプログラムに参加しています</p>
+      <p class="footer-affiliate-notice" data-i18n="footer.affiliate">当サイトはAmazonアソシエイトプログラムに参加しています</p>
       <div class="footer-version">MusicGacha v1.5.3</div>
     </div>
   </footer>
@@ -399,15 +462,28 @@
     <div class="share-receive-content">
       <div class="share-receive-header">
         <span class="share-receive-icon"><i data-lucide="gift"></i></span>
-        <h2 class="share-receive-title">カードが届いています！</h2>
+        <h2 class="share-receive-title" data-i18n="share.cardArrived">カードが届いています！</h2>
         <p class="share-receive-subtitle"></p>
       </div>
       <div class="share-receive-card">
         <!-- カードは動的に生成 -->
       </div>
       <div class="share-receive-actions">
-        <button class="btn-primary share-receive-accept" id="btn-share-accept">コレクションに追加する</button>
-        <button class="btn-secondary share-receive-decline" id="btn-share-decline">キャンセル</button>
+        <button class="btn-primary share-receive-accept" id="btn-share-accept" data-i18n="share.addToCollection">コレクションに追加する</button>
+        <button class="btn-secondary share-receive-decline" id="btn-share-decline" data-i18n="dialog.cancel">キャンセル</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 実績モーダル ===== -->
+  <div class="modal-overlay achievement-modal" id="achievement-modal" style="display:none;">
+    <div class="achievement-modal-content">
+      <div class="achievement-modal-header">
+        <h2 class="achievement-modal-title"><i data-lucide="trophy"></i> <span data-i18n="home.achievements">実績</span></h2>
+        <button class="modal-close" id="achievement-modal-close">&times;</button>
+      </div>
+      <div class="achievement-list" id="achievement-list">
+        <!-- 実績は achievements.js から動的に生成 -->
       </div>
     </div>
   </div>
@@ -435,10 +511,10 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- JS: 初期化（広告スケーリング・SW登録・AdSense遅延読込） -->
-  <script src="js/init.js?v=20260323b"></script>
+  <script src="js/init.js?v=20260324b"></script>
 
   <!-- JS Modules -->
-  <script type="module" src="js/app.js?v=20260323b"></script>
+  <script type="module" src="js/app.js?v=20260324b"></script>
 </body>
 
 </html>

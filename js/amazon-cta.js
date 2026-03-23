@@ -25,12 +25,12 @@ export function showAmazonCta(card) {
     banner.innerHTML = `
         <a href="${amazonUrl}" target="_blank" rel="noopener" class="amazon-cta-link">
             <span class="amazon-cta-text">
-                <span class="amazon-cta-label">🎧 この曲をフルで聴く</span>
+                <span class="amazon-cta-label">🎧 ${window.MusicGacha?.t ? window.MusicGacha.t("amazon.listenFull") : "🎧 Listen in full"}</span>
                 <span class="amazon-cta-song">${escapeHtml(card.title)} - ${escapeHtml(card.artist)}</span>
             </span>
             <span class="amazon-cta-badge">Amazon Music →</span>
         </a>
-        <button class="amazon-cta-close" aria-label="閉じる">✕</button>
+        <button class="amazon-cta-close" aria-label="Close">✕</button>
     `;
 
     // 閉じるボタン

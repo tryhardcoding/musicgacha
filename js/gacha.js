@@ -9,6 +9,7 @@ import { consumePack, addCardToCollection, getPackData, isGoldPack, getTop200Dat
 import { renderPackOpening } from './pack-animation.js?v=20260320c';
 import { t } from './i18n.js';
 import { getPacksConfig } from './data-loader.js';
+import { checkAchievements, trackGoldPack, trackGodPack, trackPackType } from './achievements.js';
 
 // ---- Rarity Rates ----
 
@@ -141,7 +142,14 @@ export async function openPack(packType = 'standard', autoTap = false) {
     const god = isGodPack();
     if (god) {
         console.log('[Gacha] ⚡ GOD PACK activated!');
+        trackGodPack();
     }
+    if (gold) {
+        trackGoldPack();
+    }
+
+    // パック種別の使用記録
+    trackPackType(packType);
 
     // ローディング表示
     window.MusicGacha?.showLoading?.();
@@ -197,6 +205,7 @@ export async function openPack(packType = 'standard', autoTap = false) {
 
             await renderPackOpening(cardsPromise, gold, autoTap, god, hintRarity, packType);
             window.MusicGacha?.updateHomeScreen?.();
+            checkAchievements();
             return;
         }
 
@@ -227,6 +236,9 @@ export async function openPack(packType = 'standard', autoTap = false) {
 
         // ホーム画面更新
         window.MusicGacha?.updateHomeScreen?.();
+
+        // 実績チェック
+        checkAchievements();
 
     } catch (error) {
         console.error('[Gacha] Pack opening failed:', error);

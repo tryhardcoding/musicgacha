@@ -33,32 +33,83 @@ jobs:
         run: npm ci
         working-directory: ./pipeline
 
-      - name: Fetch Top200 data
-        run: node pipeline/scripts/fetch-kworb-top200.js
+      # ---- JP (Japan) ----
+      - name: "[JP] Fetch Top200 data"
+        run: node pipeline/scripts/fetch-kworb-top200.js --region jp
         timeout-minutes: 5
         env:
           DATA_DIR: ./data
 
-      - name: Merge Top200 to packs
-        run: node pipeline/scripts/merge-top200-to-packs.js
+      - name: "[JP] Merge Top200 to packs"
+        run: node pipeline/scripts/merge-top200-to-packs.js --region jp
         timeout-minutes: 10
         env:
           DATA_DIR: ./data
 
-      - name: Assign rarity
+      - name: "[JP] Assign rarity"
         run: node pipeline/scripts/assign-rarity.js
         timeout-minutes: 3
         env:
           DATA_DIR: ./data
 
-      - name: Enrich iTunes data (songs.json, max 50)
+      - name: "[JP] Enrich iTunes data (songs.json, max 50)"
         run: node pipeline/scripts/enrich-itunes-data.js --limit 50
         timeout-minutes: 10
         env:
           DATA_DIR: ./data
 
-      - name: Enrich iTunes data (Top 200)
+      - name: "[JP] Enrich iTunes data (Top 200)"
         run: node pipeline/scripts/enrich-itunes-data.js --top200-only
+        timeout-minutes: 15
+        env:
+          DATA_DIR: ./data
+
+      # ---- US (United States) ----
+      - name: "[US] Fetch Top200 data"
+        run: node pipeline/scripts/fetch-kworb-top200.js --region us
+        timeout-minutes: 5
+        env:
+          DATA_DIR: ./data
+
+      - name: "[US] Merge Top200 to packs"
+        run: node pipeline/scripts/merge-top200-to-packs.js --region us
+        timeout-minutes: 10
+        env:
+          DATA_DIR: ./data
+
+      - name: "[US] Assign rarity"
+        run: node pipeline/scripts/assign-rarity.js --songs-file songs-us.json
+        timeout-minutes: 3
+        env:
+          DATA_DIR: ./data
+
+      - name: "[US] Enrich iTunes data (Top 200)"
+        run: node pipeline/scripts/enrich-itunes-data.js --top200-only --region us
+        timeout-minutes: 15
+        env:
+          DATA_DIR: ./data
+
+      # ---- UK (United Kingdom) ----
+      - name: "[UK] Fetch Top200 data"
+        run: node pipeline/scripts/fetch-kworb-top200.js --region uk
+        timeout-minutes: 5
+        env:
+          DATA_DIR: ./data
+
+      - name: "[UK] Merge Top200 to packs"
+        run: node pipeline/scripts/merge-top200-to-packs.js --region uk
+        timeout-minutes: 10
+        env:
+          DATA_DIR: ./data
+
+      - name: "[UK] Assign rarity"
+        run: node pipeline/scripts/assign-rarity.js --songs-file songs-uk.json
+        timeout-minutes: 3
+        env:
+          DATA_DIR: ./data
+
+      - name: "[UK] Enrich iTunes data (Top 200)"
+        run: node pipeline/scripts/enrich-itunes-data.js --top200-only --region uk
         timeout-minutes: 15
         env:
           DATA_DIR: ./data

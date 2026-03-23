@@ -32,15 +32,20 @@ window.addEventListener('load', function() {
             if (!adEl) return;
             var aw = parseInt(adEl.getAttribute('data-imobile-creative-width'), 10) || adEl.offsetWidth;
             var ah = parseInt(adEl.getAttribute('data-imobile-creative-height'), 10) || adEl.offsetHeight || 90;
+            var newH;
             if (aw > cw) {
                 var s = cw / aw;
                 adEl.style.transformOrigin = 'top left';
                 adEl.style.transform = 'scale(' + s + ')';
-                container.style.height = (ah * s) + 'px';
+                newH = Math.round(ah * s) + 'px';
             } else {
                 // 広告がコンテナ幅以下ならスケーリング不要
                 adEl.style.transform = '';
-                container.style.height = ah + 'px';
+                newH = ah + 'px';
+            }
+            // 同じ値なら書き込みをスキップ（不要なreflow/transition防止）
+            if (container.style.height !== newH) {
+                container.style.height = newH;
             }
         });
         // DOM更新がflushされるのを待ってからフラグ解除

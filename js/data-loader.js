@@ -4,18 +4,27 @@
 // TTL付きメモリキャッシュ + 同一URLへの並行リクエスト自動デデュプリケーション
 // ============================================================
 
+import { getRegionConfig } from './region.js';
+
 // キャッシュエントリ: { data, timestamp }
 const cache = {};
 const pendingRequests = {};
 
 // URL別TTL設定（ミリ秒）
-const TTL = {
-    './data/top200-daily.json': 5 * 60 * 1000,   // 5分
-    './data/songs.json': 30 * 60 * 1000,          // 30分
-    './data/packs.json': 60 * 60 * 1000,          // 1時間
-    './data/genres.json': 60 * 60 * 1000,         // 1時間
+const TTL_MAP = {
+    'top200-daily': 5 * 60 * 1000,   // 5分
+    'songs': 30 * 60 * 1000,          // 30分
+    'packs': 60 * 60 * 1000,          // 1時間
+    'genres': 60 * 60 * 1000,         // 1時間
 };
 const DEFAULT_TTL = 10 * 60 * 1000; // デフォルト10分
+
+function getTTL(url) {
+    for (const [key, ttl] of Object.entries(TTL_MAP)) {
+        if (url.includes(key)) return ttl;
+    }
+    return DEFAULT_TTL;
+}
 
 /**
  * データファイルをTTL付きキャッシュで取得
@@ -26,7 +35,7 @@ const DEFAULT_TTL = 10 * 60 * 1000; // デフォルト10分
 async function fetchCached(url) {
     // TTL付きキャッシュヒット判定
     const entry = cache[url];
-    const ttl = TTL[url] || DEFAULT_TTL;
+    const ttl = getTTL(url);
     if (entry && (Date.now() - entry.timestamp) < ttl) {
         return entry.data;
     }
@@ -72,10 +81,11 @@ export function invalidateCache(url) {
 
 // ---- 公開API ----
 
-/** songs.json のパックデータを取得 */
+/** songs.json のパックデータを取得（リージョン対応） */
 export async function getSongPool() {
     try {
-        const data = await fetchCached('./data/songs.json');
+        const config = getRegionConfig();
+        const data = await fetchCached(config.songsFile);
         return data.packs;
     } catch (error) {
         console.error('[DataLoader] Failed to load song pool:', error);
@@ -83,10 +93,11 @@ export async function getSongPool() {
     }
 }
 
-/** top200-daily.json のデータを取得 */
+/** top200-daily.json のデータを取得（リージョン対応） */
 export async function getTop200Daily() {
     try {
-        return await fetchCached('./data/top200-daily.json');
+        const config = getRegionConfig();
+        return await fetchCached(config.top200File);
     } catch (error) {
         console.error('[DataLoader] Failed to load Top 200 data:', error);
         return null;
@@ -104,10 +115,11 @@ export async function getGenreData() {
     }
 }
 
-/** packs.json のパック設定を取得 */
+/** packs.json のパック設定を取得（リージョン対応） */
 export async function getPacksConfig() {
     try {
-        const data = await fetchCached('./data/packs.json');
+        const config = getRegionConfig();
+        const data = await fetchCached(config.packsFile);
         return data.packs;
     } catch (error) {
         console.error('[DataLoader] Failed to load packs config:', error);

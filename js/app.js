@@ -6,13 +6,16 @@
 import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining, getCollection } from './storage.js';
 import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
+import { getRegion, setRegion, REGIONS, getRegionConfig } from './region.js';
+import { getPacksConfig } from './data-loader.js';
 import './gacha.js?v=20260320b'; // ガチャモジュール（グローバル参照にopenPackを登録）
 import { initCollection, renderCollection, refreshCollection } from './collection.js';
 import { initShareHandler } from './transfer.js';
-import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, refreshModalBannerAd } from './ads.js?v=20260320';
+import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260320';
 import { icon, refreshIcons } from './icons.js';
 import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260320b';
 import { invalidateCache } from './data-loader.js';
+import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
 
 // ---- Screen Routing ----
 
@@ -129,9 +132,19 @@ function updateHomeScreen() {
     const amazonTitle = document.getElementById('amazon-music-title');
     if (amazonTitle) {
         amazonTitle.textContent = uniqueCount > 0
-            ? `あなたが見つけた${uniqueCount}曲、フルで聴ける`
-            : '見つけた曲、フルで聴ける';
+            ? t('home.amazonTitleWithCount', { count: uniqueCount })
+            : t('home.amazonTitle');
     }
+    // パック結果画面のAmazon Music PRタイトルも更新
+    const amazonTitlePack = document.getElementById('amazon-music-title-pack');
+    if (amazonTitlePack) {
+        amazonTitlePack.textContent = uniqueCount > 0
+            ? t('pack.amazonTitleWithCount', { count: uniqueCount })
+            : t('pack.amazonTitle');
+    }
+
+    // 実績ボタンのカウント更新
+    updateAchievementButton();
 }
 
 function updateRegenTimer() {
@@ -193,64 +206,66 @@ async function updateTop200ChallengeCard() {
     const percentage = Math.min((obtained / total) * 100, 100);
     const remaining = total - obtained;
 
-    // 円形プログレスリング更新
-    const ringFill = document.getElementById('top200-ring-fill');
-    const ringNumber = document.getElementById('top200-ring-number');
-    if (ringFill) {
-        const circumference = 2 * Math.PI * 52; // r=52
-        const offset = circumference - (percentage / 100) * circumference;
-        ringFill.style.strokeDashoffset = offset;
-    }
-    if (ringNumber) ringNumber.textContent = obtained;
+    // マイルストーンデータ
+    const milestones = [
+        { threshold: 0, title: t('milestone.debut'), iconName: 'music' },
+        { threshold: 50, title: t('milestone.silver'), iconName: 'disc-3' },
+        { threshold: 100, title: t('milestone.gold'), iconName: 'disc-3' },
+        { threshold: 150, title: t('milestone.platinum'), iconName: 'disc-3' },
+        { threshold: 200, title: t('milestone.diamond'), iconName: 'diamond' }
+    ];
 
-    // プログレスバー更新
-    const barFill = document.getElementById('top200-challenge-bar-fill');
-    const percentEl = document.getElementById('top200-challenge-percent');
-    if (barFill) barFill.style.width = `${percentage}%`;
-    if (percentEl) percentEl.textContent = `${Math.round(percentage)}%`;
-
-    // マイルストーンバッジ
-    const milestoneEl = document.getElementById('top200-challenge-milestone');
-    if (milestoneEl) {
-        const milestones = [
-            { threshold: 0, title: 'デビュー', iconName: 'music' },
-            { threshold: 50, title: 'シルバーディスク', iconName: 'disc-3' },
-            { threshold: 100, title: 'ゴールドディスク', iconName: 'disc-3' },
-            { threshold: 150, title: 'プラチナディスク', iconName: 'disc-3' },
-            { threshold: 200, title: 'ダイヤモンドディスク', iconName: 'diamond' }
-        ];
-
-        let currentMilestone = milestones[0];
-        let nextMilestone = milestones[1];
-        for (let i = milestones.length - 1; i >= 0; i--) {
-            if (obtained >= milestones[i].threshold) {
-                currentMilestone = milestones[i];
-                nextMilestone = milestones[i + 1] || null;
-                break;
-            }
-        }
-
-        let html = `<span class="milestone-badge milestone-badge-current"><i data-lucide="${currentMilestone.iconName}"></i> ${currentMilestone.title}</span>`;
-        if (nextMilestone) {
-            html += `<span class="milestone-badge milestone-badge-next">次: <i data-lucide="${nextMilestone.iconName}"></i> ${nextMilestone.title} (${nextMilestone.threshold}曲)</span>`;
-        }
-        milestoneEl.innerHTML = html;
-        refreshIcons();
-    }
-
-    // CTAテキスト
-    const ctaEl = document.getElementById('top200-challenge-cta');
-    if (ctaEl) {
-        if (remaining === 0) {
-            ctaEl.textContent = '全200曲コンプリート！';
-        } else if (remaining <= 10) {
-            ctaEl.textContent = `あと${remaining}曲で完全制覇！ →`;
-        } else if (remaining <= 50) {
-            ctaEl.textContent = `あと${remaining}曲！ゴールが見えてきた →`;
-        } else {
-            ctaEl.textContent = `あと${remaining}曲で完全制覇！ →`;
+    let currentMilestone = milestones[0];
+    let nextMilestone = milestones[1];
+    for (let i = milestones.length - 1; i >= 0; i--) {
+        if (obtained >= milestones[i].threshold) {
+            currentMilestone = milestones[i];
+            nextMilestone = milestones[i + 1] || null;
+            break;
         }
     }
+
+    let milestoneHtml = `<span class="milestone-badge milestone-badge-current"><i data-lucide="${currentMilestone.iconName}"></i> ${currentMilestone.title}</span>`;
+    if (nextMilestone) {
+        milestoneHtml += `<span class="milestone-badge milestone-badge-next">${t('milestone.nextLabel')}: <i data-lucide="${nextMilestone.iconName}"></i> ${nextMilestone.title} (${nextMilestone.threshold}${t('milestone.songs')})</span>`;
+    }
+
+    let ctaText;
+    if (remaining === 0) {
+        ctaText = t('top200.complete');
+    } else if (remaining <= 10) {
+        ctaText = t('top200.remaining', { remaining });
+    } else if (remaining <= 50) {
+        ctaText = t('top200.almostThere', { remaining });
+    } else {
+        ctaText = t('top200.remaining', { remaining });
+    }
+
+    // ホーム版 + パック結果版 の両方を更新
+    const suffixes = ['', '-pack'];
+    for (const suffix of suffixes) {
+        const ringFill = document.getElementById(`top200-ring-fill${suffix}`);
+        const ringNumber = document.getElementById(`top200-ring-number${suffix}`);
+        if (ringFill) {
+            const circumference = 2 * Math.PI * 52;
+            const offset = circumference - (percentage / 100) * circumference;
+            ringFill.style.strokeDashoffset = offset;
+        }
+        if (ringNumber) ringNumber.textContent = obtained;
+
+        const barFill = document.getElementById(`top200-challenge-bar-fill${suffix}`);
+        const percentEl = document.getElementById(`top200-challenge-percent${suffix}`);
+        if (barFill) barFill.style.width = `${percentage}%`;
+        if (percentEl) percentEl.textContent = `${Math.round(percentage)}%`;
+
+        const milestoneEl = document.getElementById(`top200-challenge-milestone${suffix}`);
+        if (milestoneEl) milestoneEl.innerHTML = milestoneHtml;
+
+        const ctaEl = document.getElementById(`top200-challenge-cta${suffix}`);
+        if (ctaEl) ctaEl.textContent = ctaText;
+    }
+
+    refreshIcons();
 }
 
 async function updateTop200Progress() {
@@ -308,6 +323,18 @@ function updatePackImage(packType) {
     const packImage = document.querySelector('#pack-visual .pack-image');
     if (packImage) {
         packImage.src = `assets/pack-${packType}.webp`;
+    }
+}
+
+function updateAchievementButton() {
+    const stats = getAchievementStats();
+    const countEl = document.getElementById('achievement-btn-count');
+    if (countEl) {
+        countEl.textContent = `${stats.unlocked}/${stats.total}`;
+    }
+    const headerCountEl = document.getElementById('achievement-header-count');
+    if (headerCountEl) {
+        headerCountEl.textContent = `${stats.unlocked}`;
     }
 }
 
@@ -391,17 +418,17 @@ function setupEventListeners() {
         });
     });
 
-    // TOP200チャレンジカード クリック
-    const challengeCard = document.getElementById('top200-challenge-card');
-    if (challengeCard) {
-        challengeCard.addEventListener('click', () => {
+    // TOP200チャレンジカード クリック（ホーム + パック結果）
+    const challengeCards = document.querySelectorAll('#top200-challenge-card, #top200-challenge-card-pack');
+    challengeCards.forEach(card => {
+        card.addEventListener('click', () => {
             navigateTo('collection');
             setTimeout(() => {
                 const top200Tab = document.querySelector('[data-pack-filter="top200"]');
                 if (top200Tab) top200Tab.click();
             }, 100);
         });
-    }
+    });
 
     // デイリーボーナス
     const btnBonus = document.getElementById('btn-daily-bonus');
@@ -409,6 +436,7 @@ function setupEventListeners() {
         btnBonus.addEventListener('click', () => {
             const result = claimDailyBonus();
             if (result) {
+                trackDailyBonus();
                 showToast(t('toast.dailyBonus'), 'success');
                 updateHomeScreen();
             }
@@ -421,10 +449,9 @@ function setupEventListeners() {
         btnAd.addEventListener('click', async () => {
             const result = await showRewardedAd();
             if (result.success) {
-                showToast(`パック1個獲得！（残り${result.remaining}回）`, 'success');
+                showToast(t('toast.packReward'), 'success');
                 updateHomeScreen();
                 updateAdButton();
-                startCooldownTimer();
             } else if (result.error) {
                 showToast(result.error, 'info');
             }
@@ -439,7 +466,7 @@ function setupEventListeners() {
             if (result && result.cards) {
                 sharePackResult(result.cards, result.packType, result.isGold, result.isGod);
             } else {
-                showToast('共有するパック結果がありません', 'info');
+                showToast(t('toast.noShareData'), 'info');
             }
         });
     }
@@ -492,6 +519,15 @@ function setupEventListeners() {
             setSetting('language', lang);
             setLanguage(lang);
             updateHomeScreen();
+        });
+    }
+
+    // リージョン切替ボタン（ドロップダウン選択式）
+    const countryBtn = document.getElementById('country-btn');
+    if (countryBtn) {
+        countryBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleRegionDropdown();
         });
     }
 
@@ -750,6 +786,228 @@ function setupEventListeners() {
         const screen = window.location.hash.replace('#', '') || 'home';
         showScreen(screen);
     });
+
+    // 実績ボタン（ホーム + ヘッダー）
+    const openAchievementModal = () => {
+        const modal = document.getElementById('achievement-modal');
+        if (modal) {
+            modal.style.display = '';
+            renderAchievementModal();
+        }
+    };
+
+    const btnAchievements = document.getElementById('btn-achievements');
+    if (btnAchievements) {
+        btnAchievements.addEventListener('click', openAchievementModal);
+    }
+
+    const btnAchievementsHeader = document.getElementById('btn-achievements-header');
+    if (btnAchievementsHeader) {
+        btnAchievementsHeader.addEventListener('click', openAchievementModal);
+    }
+
+    // 実績モーダル閉じる
+    const achClose = document.getElementById('achievement-modal-close');
+    if (achClose) {
+        achClose.addEventListener('click', () => {
+            const modal = document.getElementById('achievement-modal');
+            if (modal) modal.style.display = 'none';
+        });
+    }
+
+    // 実績モーダル背景クリックで閉じる
+    const achModal = document.getElementById('achievement-modal');
+    if (achModal) {
+        achModal.addEventListener('click', (e) => {
+            if (e.target === achModal) achModal.style.display = 'none';
+        });
+    }
+}
+
+// ---- Region Management ----
+
+function updateRegionDisplay() {
+    const region = getRegion();
+    const countryBtn = document.getElementById('country-btn');
+    if (countryBtn) {
+        const codeEl = countryBtn.querySelector('.country-code');
+        if (codeEl) codeEl.textContent = region.toUpperCase();
+    }
+}
+
+/** リージョン選択ドロップダウンを表示/非表示 */
+function toggleRegionDropdown() {
+    let dropdown = document.getElementById('region-dropdown');
+    if (dropdown) {
+        dropdown.remove();
+        return;
+    }
+    dropdown = document.createElement('div');
+    dropdown.id = 'region-dropdown';
+    dropdown.className = 'region-dropdown';
+
+    const currentRegion = getRegion();
+    for (const [key, config] of Object.entries(REGIONS)) {
+        const item = document.createElement('button');
+        item.className = 'region-dropdown-item' + (key === currentRegion ? ' active' : '');
+        item.textContent = config.label;
+        item.addEventListener('click', () => {
+            dropdown.remove();
+            switchRegion(key);
+        });
+        dropdown.appendChild(item);
+    }
+
+    const countryBtn = document.getElementById('country-btn');
+    if (countryBtn) {
+        countryBtn.parentElement.style.position = 'relative';
+        countryBtn.parentElement.appendChild(dropdown);
+    }
+
+    // 外側クリックで閉じる
+    setTimeout(() => {
+        const closeHandler = (e) => {
+            if (!dropdown.contains(e.target) && e.target !== countryBtn && !countryBtn.contains(e.target)) {
+                dropdown.remove();
+                document.removeEventListener('click', closeHandler);
+            }
+        };
+        document.addEventListener('click', closeHandler);
+    }, 10);
+}
+
+async function buildPackCarousel() {
+    const track = document.getElementById('pack-carousel-track');
+    if (!track) return;
+
+    track.innerHTML = '';
+
+    const packsConfig = await getPacksConfig();
+    if (!packsConfig) return;
+
+    for (const pack of packsConfig) {
+        const btn = document.createElement('button');
+        btn.className = 'pack-item';
+        btn.setAttribute('data-pack', pack.id);
+
+        if (pack.isDaily) {
+            const badge = document.createElement('span');
+            badge.className = 'pack-badge';
+            badge.textContent = t('pack.recommended');
+            btn.appendChild(badge);
+        }
+
+        const img = document.createElement('img');
+        img.className = 'pack-item-img';
+        img.src = `assets/pack-${pack.id}.webp`;
+        img.alt = t(`pack.${pack.id}`) || pack.id;
+        img.draggable = false;
+        btn.appendChild(img);
+
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'pack-item-name';
+        nameSpan.setAttribute('data-i18n', `pack.${pack.id}`);
+        nameSpan.textContent = t(`pack.${pack.id}`) || pack.id;
+        btn.appendChild(nameSpan);
+
+        track.appendChild(btn);
+    }
+
+    // パック数が4以上の場合のみ無限ループ用クローンを追加
+    const origItems = Array.from(track.querySelectorAll('.pack-item'));
+    if (origItems.length >= 4) {
+        origItems.forEach(item => {
+            const clone = item.cloneNode(true);
+            clone.classList.add('pack-clone');
+            track.appendChild(clone);
+        });
+        [...origItems].reverse().forEach(item => {
+            const clone = item.cloneNode(true);
+            clone.classList.add('pack-clone');
+            track.insertBefore(clone, track.firstChild);
+        });
+
+        requestAnimationFrame(() => {
+            if (origItems.length === 0) return;
+            const firstItem = origItems[0];
+            const itemWidth = firstItem.offsetWidth + parseFloat(getComputedStyle(firstItem).marginLeft) + parseFloat(getComputedStyle(firstItem).marginRight);
+            track.scrollLeft = itemWidth * origItems.length;
+        });
+    }
+
+    buildCollectionTabs(packsConfig);
+}
+
+function buildCollectionTabs(packsConfig) {
+    const tabsContainer = document.getElementById('pack-filter-tabs');
+    if (!tabsContainer) return;
+
+    tabsContainer.innerHTML = '';
+
+    const allTab = document.createElement('button');
+    allTab.className = 'pack-filter-tab active';
+    allTab.setAttribute('data-pack-filter', 'all');
+    allTab.textContent = t('collection.allTab');
+    tabsContainer.appendChild(allTab);
+
+    const top200Tab = document.createElement('button');
+    top200Tab.className = 'pack-filter-tab pack-filter-tab-top200';
+    top200Tab.setAttribute('data-pack-filter', 'top200');
+    top200Tab.innerHTML = '<i data-lucide="trophy"></i> Top 200';
+    tabsContainer.appendChild(top200Tab);
+
+    const packIcons = {
+        jpop: 'flower-2', kpop: 'gem', vocaloid: 'mic', anime: 'sparkles',
+        hiphop: 'headphones', western: 'globe', standard: 'music',
+        pop: 'music', country: 'music', rock: 'guitar', dance: 'disc-3',
+        alternative: 'zap', rnb: 'heart',
+    };
+
+    for (const pack of packsConfig) {
+        if (pack.id === 'top200') continue;
+        if (pack.id === 'standard') continue;
+        const tab = document.createElement('button');
+        tab.className = 'pack-filter-tab';
+        tab.setAttribute('data-pack-filter', pack.id);
+        const iconName = packIcons[pack.id] || 'music';
+        tab.innerHTML = `<i data-lucide="${iconName}"></i> ${t(`pack.${pack.id}`) || pack.id}`;
+        tabsContainer.appendChild(tab);
+    }
+
+    refreshIcons();
+}
+
+async function switchRegion(newRegion) {
+    if (newRegion === getRegion()) return;
+
+    setRegion(newRegion);
+
+    // リージョンに応じて言語も切替
+    const config = REGIONS[newRegion];
+    if (config && config.language) {
+        setSetting('language', config.language);
+        setLanguage(config.language);
+    }
+
+    invalidateCache();
+    initStorage();
+
+    await buildPackCarousel();
+
+    updateRegionDisplay();
+    updateHomeScreen();
+
+    selectedPackType = 'top200';
+    setSetting('selectedPack', 'top200');
+    updatePackImage('top200');
+
+    if (currentScreen === 'collection') {
+        initCollection();
+        refreshCollection();
+    }
+
+    refreshIcons();
+    console.log(`[App] Region switched to: ${newRegion}`);
 }
 
 // ---- SVG Gradient Injection for Top200 Ring ----
@@ -800,6 +1058,12 @@ function init() {
         autoOpenToggle.checked = getSetting('autoOpen') === true;
     }
 
+    // リージョン表示の初期化
+    updateRegionDisplay();
+
+    // パックカルーセルを動的生成
+    buildPackCarousel();
+
 
 
     // イベントハンドラ設定
@@ -813,6 +1077,7 @@ function init() {
     window.MusicGacha = window.MusicGacha || {};
     window.MusicGacha.navigateTo = navigateTo;
     window.MusicGacha.showToast = showToast;
+    window.MusicGacha.t = t;
     window.MusicGacha.showLoading = showLoading;
     window.MusicGacha.hideLoading = hideLoading;
     window.MusicGacha.showConfirmDialog = showConfirmDialog;
@@ -824,6 +1089,7 @@ function init() {
         if (currentScreen === 'collection') refreshCollection();
     };
     window.MusicGacha.isAutoOpenEnabled = () => getSetting('autoOpen') === true;
+    window.MusicGacha.switchRegion = switchRegion;
     window.MusicGacha.triggerAutoOpen = async () => {
         navigateTo('pack');
         if (window.MusicGacha?.openPack) {
@@ -847,14 +1113,15 @@ function init() {
     if (!getSetting('firstVisitDone')) {
         setSetting('firstVisitDone', true);
         setTimeout(() => {
-            showToast('🔊 パック開封時に音楽が流れます。音量は右上で調整できます', 'info', 5000);
+            showToast(t('toast.soundHint'), 'info', 5000);
         }, 1500);
     }
 
     // タブ復帰時にデータキャッシュを更新（top200-daily.jsonを再取得）
     document.addEventListener('visibilitychange', () => {
         if (document.visibilityState === 'visible') {
-            invalidateCache('./data/top200-daily.json');
+            const config = getRegionConfig();
+            invalidateCache(config.top200File);
             updateHomeScreen();
             if (currentScreen === 'collection') refreshCollection();
         }

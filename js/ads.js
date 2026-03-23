@@ -3,7 +3,7 @@
 // i-mobile 広告統合 & リワード広告管理
 // ============================================================
 
-import { addPacks, getPackData } from './storage.js';
+import { addPacks, getPackData, recoverPacks } from './storage.js';
 
 // ---- i-mobile Ad Config ----
 const IMOBILE_CONFIG = {
@@ -27,10 +27,7 @@ const IMOBILE_CONFIG = {
 };
 
 // ---- Constants ----
-const AD_REWARD_KEY = 'musicgacha_ad_reward';
-const COOLDOWN_MS = 5 * 60 * 1000; // 5分
-const MAX_DAILY_WATCHES = 5;
-const REWARD_PACKS = 1;
+// recoverPacks() を使用: current < max → maxまで回復, current >= max → +1
 const REWARDED_AD_COUNTDOWN = 5; // 秒
 
 
@@ -209,112 +206,25 @@ function initBannerAds() {
 // ---- Rewarded Ad State Management ----
 
 /**
- * リワード広告データを取得
- * @returns {Object} { watchCount, lastWatchTime, dailyDate }
- */
-function getAdRewardData() {
-    try {
-        const raw = localStorage.getItem(AD_REWARD_KEY);
-        if (raw) {
-            return JSON.parse(raw);
-        }
-    } catch (e) {
-        console.warn('[Ads] Failed to read ad reward data:', e.message);
-    }
-    return { watchCount: 0, lastWatchTime: 0, dailyDate: null };
-}
-
-/**
- * リワード広告データを保存
- * @param {Object} data
- */
-function saveAdRewardData(data) {
-    try {
-        localStorage.setItem(AD_REWARD_KEY, JSON.stringify(data));
-    } catch (e) {
-        console.warn('[Ads] Failed to save ad reward data:', e.message);
-    }
-}
-
-/**
- * 広告視聴が可能かチェック
- * @returns {{ canWatch: boolean, reason?: string, nextAvailable?: number }}
+ * 広告視聴が可能かチェック（制限なし）
+ * @returns {{ canWatch: boolean }}
  */
 export function canWatchAd() {
-    const data = getAdRewardData();
-    const now = Date.now();
-    const today = new Date().toISOString().split('T')[0];
-
-    // 日付が変わったらカウントリセット
-    if (data.dailyDate !== today) {
-        data.watchCount = 0;
-        data.dailyDate = today;
-        saveAdRewardData(data);
-    }
-
-    // 1日の上限チェック
-    if (data.watchCount >= MAX_DAILY_WATCHES) {
-        return {
-            canWatch: false,
-            reason: `本日の視聴上限（${MAX_DAILY_WATCHES}回）に達しました`,
-        };
-    }
-
-    // クールダウンチェック
-    const elapsed = now - data.lastWatchTime;
-    if (elapsed < COOLDOWN_MS) {
-        const remaining = COOLDOWN_MS - elapsed;
-        return {
-            canWatch: false,
-            reason: 'クールダウン中',
-            nextAvailable: remaining,
-        };
-    }
-
     return { canWatch: true };
 }
 
 /**
  * 広告視聴を記録しパックを付与
- * @returns {{ success: boolean, newPackCount: number, remaining: number }}
+ * @returns {{ success: boolean, newPackCount: number }}
  */
 function recordAdWatch() {
-    const data = getAdRewardData();
-    const today = new Date().toISOString().split('T')[0];
-
-    if (data.dailyDate !== today) {
-        data.watchCount = 0;
-        data.dailyDate = today;
-    }
-
-    data.watchCount++;
-    data.lastWatchTime = Date.now();
-    saveAdRewardData(data);
-
-    // パック付与
-    addPacks(REWARD_PACKS);
-    const packData = getPackData();
+    const { data: packData, added } = recoverPacks();
 
     return {
         success: true,
         newPackCount: packData.current,
-        remaining: MAX_DAILY_WATCHES - data.watchCount,
+        added,
     };
-}
-
-/**
- * 残り視聴可能回数を取得
- * @returns {number}
- */
-export function getRemainingAdWatches() {
-    const data = getAdRewardData();
-    const today = new Date().toISOString().split('T')[0];
-
-    if (data.dailyDate !== today) {
-        return MAX_DAILY_WATCHES;
-    }
-
-    return Math.max(0, MAX_DAILY_WATCHES - data.watchCount);
 }
 
 // ---- Rewarded Ad Flow ----
@@ -353,8 +263,8 @@ function showIMobileRewardedAd() {
             <div class="rewarded-ad-content">
                 <div class="rewarded-ad-header">
                     <span class="rewarded-ad-icon"><i data-lucide="monitor-play"></i></span>
-                    <h3 class="rewarded-ad-title">広告を表示中...</h3>
-                    <p class="rewarded-ad-desc">視聴完了でパック1個を獲得できます</p>
+                    <h3 class="rewarded-ad-title">${window.MusicGacha?.t?.('ads.showing') || 'Showing ad...'}</h3>
+                    <p class="rewarded-ad-desc">${window.MusicGacha?.t?.('ads.watchToRecover') || 'Watch to recover packs'}</p>
                 </div>
                 <div class="rewarded-ad-slot" id="rewarded-ad-slot">
                     <div id="${uniqueId}"></div>
@@ -366,11 +276,16 @@ function showIMobileRewardedAd() {
                     </div>
                 </div>
                 <button class="rewarded-ad-close" id="rewarded-ad-close" style="display:none;">
-                    ✕ 閉じてパックを受け取る
+                    ✕ ${window.MusicGacha?.t?.('ads.closeAndRecover') || 'Close and recover packs'}
                 </button>
             </div>
         `;
         document.body.appendChild(overlay);
+
+        // 動的に追加したLucideアイコンをレンダリング
+        if (window.lucide && window.lucide.createIcons) {
+            window.lucide.createIcons({ nodes: [overlay] });
+        }
 
         // i-mobile広告を挿入（ユニークIDを使用）
         window.adsbyimobile = window.adsbyimobile || [];
@@ -384,34 +299,49 @@ function showIMobileRewardedAd() {
         });
         // DOMが確実に準備された後にspot.jsを再スキャン
         setTimeout(() => reloadIMobileScript(), 50);
-        let countdown = REWARDED_AD_COUNTDOWN;
+
         const countdownEl = overlay.querySelector('#rewarded-ad-countdown');
         const progressEl = overlay.querySelector('#rewarded-ad-progress-fill');
         const closeBtn = overlay.querySelector('#rewarded-ad-close');
 
-        // 初期プログレス
-        requestAnimationFrame(() => {
-            if (progressEl) progressEl.style.width = `${(1 / REWARDED_AD_COUNTDOWN) * 100}%`;
-        });
-
-        const timer = setInterval(() => {
-            countdown--;
-            if (countdownEl) countdownEl.textContent = countdown;
-            if (progressEl) progressEl.style.width = `${((REWARDED_AD_COUNTDOWN - countdown) / REWARDED_AD_COUNTDOWN) * 100}%`;
-
-            if (countdown <= 0) {
-                clearInterval(timer);
-                // カウントダウン完了 → 閉じるボタン表示
-                if (countdownEl) countdownEl.textContent = '✓';
-                if (closeBtn) closeBtn.style.display = '';
-
-                closeBtn.addEventListener('click', () => {
-                    overlay.remove();
-                    const result = recordAdWatch();
-                    resolve(result);
-                }, { once: true });
+        // プログレスバーはCSS animationで駆動（JSのsetIntervalに依存しない）
+        // カウントダウン開始を遅延し、spot.jsのメインスレッドブロックを回避
+        setTimeout(() => {
+            // CSSアニメーションでプログレスバーを5秒かけて0%→100%に
+            if (progressEl) {
+                progressEl.style.transition = 'none';
+                progressEl.style.width = '0%';
+                // 次フレームでtransitionを有効化してアニメーション開始
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        progressEl.style.transition = `width ${REWARDED_AD_COUNTDOWN}s linear`;
+                        progressEl.style.width = '100%';
+                    });
+                });
             }
-        }, 1000);
+
+            // タイムスタンプベースのカウントダウン（setInterval非依存）
+            const startTime = Date.now();
+            const tick = () => {
+                const elapsed = (Date.now() - startTime) / 1000;
+                const remaining = Math.ceil(REWARDED_AD_COUNTDOWN - elapsed);
+
+                if (remaining <= 0) {
+                    // カウントダウン完了
+                    if (countdownEl) countdownEl.textContent = '✓';
+                    if (closeBtn) closeBtn.style.display = '';
+                    closeBtn.addEventListener('click', () => {
+                        overlay.remove();
+                        const result = recordAdWatch();
+                        resolve(result);
+                    }, { once: true });
+                } else {
+                    if (countdownEl) countdownEl.textContent = remaining;
+                    requestAnimationFrame(tick);
+                }
+            };
+            requestAnimationFrame(tick);
+        }, 1500); // spot.jsの読込・DOM処理が完了するまで待機
     });
 }
 
@@ -424,33 +354,14 @@ export function updateAdButton() {
     const btn = document.getElementById('btn-ad-pack');
     if (!btn) return;
 
-    const check = canWatchAd();
-    const remaining = getRemainingAdWatches();
-
-    // 残り回数を表示
     const textSpan = btn.querySelector('span:last-child') || btn.querySelector('[data-i18n]');
     if (textSpan) {
-        if (check.canWatch) {
-            textSpan.textContent = `広告を見てパックを獲得 (残り${remaining}回)`;
-        } else if (check.nextAvailable) {
-            const secs = Math.ceil(check.nextAvailable / 1000);
-            const mins = Math.floor(secs / 60);
-            const secsRem = secs % 60;
-            textSpan.textContent = `クールダウン中 ${mins}:${String(secsRem).padStart(2, '0')}`;
-        } else {
-            textSpan.textContent = check.reason || '広告を視聴できません';
-        }
+        textSpan.textContent = window.MusicGacha?.t?.('home.watchAd') || 'Watch ad for a pack';
     }
 
-    // ボタン状態の切り替え
-    btn.classList.remove('ad-ready', 'ad-cooldown');
-    if (check.canWatch) {
-        btn.classList.add('ad-ready');
-        btn.disabled = false;
-    } else {
-        btn.classList.add('ad-cooldown');
-        btn.disabled = true;
-    }
+    btn.classList.remove('ad-cooldown');
+    btn.classList.add('ad-ready');
+    btn.disabled = false;
 }
 
 // ---- Cooldown Timer ----

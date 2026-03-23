@@ -5,6 +5,7 @@
 
 import { addCardToCollection } from './storage.js';
 import { renderCard } from './card-renderer.js?v=20260323b';
+import { trackTransferSend, trackTransferReceive, checkAchievements } from './achievements.js';
 
 // ---- Share Link Creation ----
 
@@ -59,6 +60,7 @@ export async function copyShareLink(card) {
         document.execCommand('copy');
         document.body.removeChild(textarea);
     }
+    trackTransferSend();
     return url;
 }
 
@@ -204,6 +206,10 @@ function showReceiveModal(cardData) {
 
         modal.style.display = 'none';
         cleanup();
+
+        // 実績トラッキング
+        trackTransferReceive();
+        checkAchievements();
 
         // ハッシュをクリア
         history.replaceState(null, '', window.location.pathname);

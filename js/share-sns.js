@@ -1,7 +1,13 @@
+import { t } from './i18n.js';
 // ============================================================
 // MusicGacha - SNS Share Module
 // X (Twitter) 共有ユーティリティ
 // ============================================================
+
+import { trackShare } from './achievements.js';
+
+// レアリティ→色付き四角絵文字マッピング
+const RARITY_EMOJI = { C: '⬜', UC: '🟩', R: '🟦', SR: '🟪', UR: '🟨', LR: '🟧' };
 
 /**
  * X (Twitter) Web Intent URLを生成して開く
@@ -10,6 +16,7 @@
 function openXIntent(text) {
     const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'width=550,height=420,noopener');
+    trackShare();
 }
 
 /**
@@ -19,8 +26,8 @@ export function sharePackResult(cards, packType, isGold = false, isGod = false) 
     if (!cards || cards.length === 0) return;
 
     const packNames = {
-        top200: 'Top 200', standard: 'オール', jpop: 'J-POP', kpop: 'K-POP',
-        vocaloid: 'ボカロ', anime: 'Anime', hiphop: 'Hip-Hop', western: '洋楽',
+        top200: t('pack.top200'), standard: t('pack.standard'), jpop: t('pack.jpop'), kpop: t('pack.kpop'),
+        vocaloid: t('pack.vocaloid'), anime: t('pack.anime'), hiphop: t('pack.hiphop'), western: t('pack.western'),
     };
     const packName = packNames[packType] || packType;
     const rarityOrder = ['C', 'UC', 'R', 'SR', 'UR', 'LR'];
@@ -28,10 +35,10 @@ export function sharePackResult(cards, packType, isGold = false, isGod = false) 
     let header;
     const bestRarity = cards.reduce((best, c) =>
         rarityOrder.indexOf(c.rarity) > rarityOrder.indexOf(best) ? c.rarity : best, cards[0].rarity);
-    if (isGod) header = '⚡ 神パック降臨！';
-    else if (isGold) header = '✨ レア曲ゲット！';
-    else if (rarityOrder.indexOf(bestRarity) >= rarityOrder.indexOf('UR')) header = '✨ レア曲ゲット！';
-    else header = '🎵 ガチャ結果';
+    if (isGod) header = t('share.godPack');
+    else if (isGold) header = t('share.rareSong');
+    else if (rarityOrder.indexOf(bestRarity) >= rarityOrder.indexOf('UR')) header = t('share.rareSong');
+    else header = t('share.gachaResult');
 
     // X文字数カウント: URL=23固定、日本語等=2、ASCII=1
     function xCharCount(str) {
@@ -43,10 +50,10 @@ export function sharePackResult(cards, packType, isGold = false, isGod = false) 
     }
 
     // 固定部分を先に構築
-    const footer = '\n\n#MusicGacha #音楽ガチャ\nmusicgacha.com';
-    const headerLine = `${header}\n📦 ${packName}パック\n`;
+    const footer = t('share.footerWithUrl');
+    const headerLine = `${header}\n📦 ${packName}\n`;
     // URL=23固定, ハッシュタグと改行の文字数
-    const fixedCost = xCharCount(headerLine) + xCharCount('\n\n#MusicGacha #音楽ガチャ\n') + 23;
+    const fixedCost = xCharCount(headerLine) + xCharCount(t('share.footer')) + 23;
 
     // 残り文字数で曲リストを構築
     const maxTotal = 280;
@@ -56,7 +63,7 @@ export function sharePackResult(cards, packType, isGold = false, isGod = false) 
     const ellipsis = '…';
     const ellipsisCost = xCharCount(ellipsis);
     const cardInfos = cards.map(card => {
-        const prefix = `${card.rarity}｜`;
+        const prefix = `${RARITY_EMOJI[card.rarity] || '⬜'}${card.rarity}｜`;
         const body = `${card.title} / ${card.artist}`;
         return { prefix, body, prefixCost: xCharCount(prefix), bodyCost: xCharCount(body) };
     });
@@ -160,12 +167,12 @@ export function shareCard(card) {
         R: '💙 Rare', UC: '💚 Uncommon', C: 'Common',
     };
     const lines = [
-        '🎵 MusicGachaでゲット！', '',
+        t('share.gotOnMusicGacha'), '',
         `🎵 ${card.title} / ${card.artist}`,
-        `⭐ ${rarityNames[card.rarity] || card.rarity}`,
+        `${RARITY_EMOJI[card.rarity] || '⬜'} ${rarityNames[card.rarity] || card.rarity}`,
     ];
     if (card.album && card.album !== 'Unknown Album') lines.push(`💿 ${card.album}`);
-    lines.push('', '#MusicGacha #音楽ガチャ', 'musicgacha.com');
+    lines.push('', t('share.hashtags'), 'musicgacha.com');
     openXIntent(lines.join('\n'));
 }
 
@@ -180,9 +187,9 @@ export function shareCollectionStats(stats) {
     const rareCount = (rarityCounts['SR'] || 0) + (rarityCounts['UR'] || 0) + (rarityCounts['LR'] || 0);
     const rareRate = uniqueCount > 0 ? ((rareCount / uniqueCount) * 100).toFixed(1) : '0.0';
 
-    const lines = ['🎵 MusicGacha コレクション', '', `📦 ${uniqueCount}曲収集済み！`];
+    const lines = [t('share.collectionTitle'), '', `📦 ${uniqueCount} ${t('share.songsCollected')}`];
     if (rarityParts.length > 0) lines.push(`⭐ ${rarityParts.join(' / ')}`);
-    lines.push(`💎 レアカード率: ${rareRate}%`, '', '音楽ガチャで新しい曲と出会おう！', '#MusicGacha #音楽ガチャ', 'musicgacha.com');
+    lines.push(`💎 ${t('share.rareRate')}: ${rareRate}%`, '', t('share.discoverMusic'), '#MusicGacha #音楽ガチャ', 'musicgacha.com');
     openXIntent(lines.join('\n'));
 }
 
@@ -192,12 +199,12 @@ export function shareCollectionStats(stats) {
 export function shareTop200Milestone(count, total = 200, chartDate = null) {
     const pct = Math.round((count / total) * 100);
     const dateStr = chartDate || new Date().toISOString().slice(0, 10).replace(/-/g, '/');
-    const lines = ['🏆 MusicGacha TOP 200 チャレンジ', `📅 ${dateStr} のTOP 200`, '', `📊 ${count}/${total}曲コンプリート！(${pct}%)`];
-    if (count >= total) lines.push('🎉 全曲制覇達成！！！');
+    const lines = [t('share.top200Title'), `📅 ${dateStr} TOP 200`, '', `📊 ${count}/${total} ${t('share.completed')} (${pct}%)`];
+    if (count >= total) lines.push(t('share.allComplete'));
     else {
         const next = [50, 100, 150, 200].find(m => m > count);
-        if (next) lines.push(`次の目標: ${next}曲 🎯`);
+        if (next) lines.push(`${t('share.nextGoal', { next })} 🎯`);
     }
-    lines.push('', '#MusicGacha #TOP200チャレンジ', 'musicgacha.com');
+    lines.push('', t('share.top200Hashtags'), 'musicgacha.com');
     openXIntent(lines.join('\n'));
 }

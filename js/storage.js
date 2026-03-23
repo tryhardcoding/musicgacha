@@ -3,13 +3,35 @@
 // localStorage CRUD + パック回復ロジック
 // ============================================================
 
-const STORAGE_KEYS = {
+import { getStorageSuffix } from './region.js';
+
+// リージョン別キー（サフィックス付き）
+function getRegionKey(base) {
+  return base + getStorageSuffix();
+}
+
+// グローバル設定キー（リージョン共通）
+const GLOBAL_KEYS = {
+  SETTINGS: 'musicgacha_settings',
+};
+
+// リージョン別ストレージキーのベース名
+const STORAGE_KEY_BASES = {
   COLLECTION: 'musicgacha_collection',
   PACKS: 'musicgacha_packs',
-  SETTINGS: 'musicgacha_settings',
   TOP200: 'musicgacha_top200',
   FAVORITES: 'musicgacha_favorites',
+  ACHIEVEMENTS: 'musicgacha_achievements',
 };
+
+// 互換性のためのSTORAGE_KEYS getter
+const STORAGE_KEYS = new Proxy({}, {
+  get(_, prop) {
+    if (prop === 'SETTINGS') return GLOBAL_KEYS.SETTINGS;
+    if (STORAGE_KEY_BASES[prop]) return getRegionKey(STORAGE_KEY_BASES[prop]);
+    return undefined;
+  }
+});
 
 const DEFAULT_PACKS = {
   current: 10,
@@ -22,7 +44,7 @@ const DEFAULT_PACKS = {
 const DEFAULT_SETTINGS = {
   language: 'ja',
   selectedPack: 'standard',
-  autoOpen: false,
+  autoOpen: true,
   volume: '10',
   muted: false,
 };
@@ -150,6 +172,25 @@ export function addPacks(count) {
   return data;
 }
 
+/**
+ * パックをフル回復 or +1
+ * current < max → maxまで回復, current >= max → +1
+ * @returns {{ data: Object, added: number }}
+ */
+export function recoverPacks() {
+  const data = getPackData();
+  let added;
+  if (data.current < data.max) {
+    added = data.max - data.current;
+    data.current = data.max;
+  } else {
+    added = 1;
+    data.current = data.current + 1;
+  }
+  savePackData(data);
+  return { data, added };
+}
+
 export function isGoldPack() {
   const data = getPackData();
   return data.totalOpened > 0 && data.totalOpened % 10 === 0;
@@ -180,9 +221,17 @@ export function claimDailyBonus() {
   const data = getPackData();
   const today = new Date().toISOString().split('T')[0];
   data.dailyBonusClaimed = today;
-  data.current = data.current + 3;
+  // フル回復 or +1
+  let added;
+  if (data.current < data.max) {
+    added = data.max - data.current;
+    data.current = data.max;
+  } else {
+    added = 1;
+    data.current = data.current + 1;
+  }
   savePackData(data);
-  return data;
+  return { ...data, added };
 }
 
 // ---- Settings ----
@@ -295,6 +344,7 @@ export function resetAllData() {
   localStorage.removeItem(STORAGE_KEYS.PACKS);
   localStorage.removeItem(STORAGE_KEYS.TOP200);
   localStorage.removeItem(STORAGE_KEYS.FAVORITES);
+  localStorage.removeItem(STORAGE_KEYS.ACHIEVEMENTS);
   // 設定はリセットしない
 }
 
