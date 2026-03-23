@@ -12,6 +12,7 @@ import { initShareHandler } from './transfer.js';
 import { initAds, showRewardedAd, updateAdButton, startCooldownTimer, refreshModalBannerAd } from './ads.js?v=20260320';
 import { icon, refreshIcons } from './icons.js';
 import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260320b';
+import { invalidateCache } from './data-loader.js';
 
 // ---- Screen Routing ----
 
@@ -809,6 +810,11 @@ function init() {
     window.MusicGacha.showConfirmDialog = showConfirmDialog;
     window.MusicGacha.updateHomeScreen = updateHomeScreen;
     window.MusicGacha.refreshModalBannerAd = refreshModalBannerAd;
+    window.MusicGacha.invalidateDataCache = () => {
+        invalidateCache();
+        updateHomeScreen();
+        if (currentScreen === 'collection') refreshCollection();
+    };
     window.MusicGacha.isAutoOpenEnabled = () => getSetting('autoOpen') === true;
     window.MusicGacha.triggerAutoOpen = async () => {
         navigateTo('pack');
@@ -836,6 +842,15 @@ function init() {
             showToast('🔊 パック開封時に音楽が流れます。音量は右上で調整できます', 'info', 5000);
         }, 1500);
     }
+
+    // タブ復帰時にデータキャッシュを更新（top200-daily.jsonを再取得）
+    document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') {
+            invalidateCache('./data/top200-daily.json');
+            updateHomeScreen();
+            if (currentScreen === 'collection') refreshCollection();
+        }
+    });
 
     console.log('[MusicGacha] App initialized');
 }

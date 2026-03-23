@@ -107,25 +107,16 @@ function setupPackFilterListeners() {
 
 // ---- Pack-based song lookup ----
 
-let songPoolCache = null;
-
-async function loadSongPoolForFilter() {
-    if (songPoolCache) return songPoolCache;
-    songPoolCache = await getSongPool() || {};
-    return songPoolCache;
-}
-
-// 初期ロード（共通キャッシュ経由）
-loadSongPoolForFilter();
-
 /**
  * コレクションをパックでフィルタ（songs.jsonの各パックの曲リストと照合）
  */
-function filterByPack(collection, packId) {
+async function filterByPack(collection, packId) {
     if (packId === 'all' || packId === 'top200') return collection;
-    if (!songPoolCache || !songPoolCache[packId]) return collection;
 
-    const packTracks = songPoolCache[packId];
+    const songPool = await getSongPool() || {};
+    if (!songPool[packId]) return collection;
+
+    const packTracks = songPool[packId];
     const packKeySet = new Set(
         packTracks.map(t => `${t.artist.toLowerCase()}::${t.name.toLowerCase()}`)
     );
@@ -139,7 +130,7 @@ function filterByPack(collection, packId) {
 
 // ---- Render Normal Collection ----
 
-export function renderCollection() {
+export async function renderCollection() {
     const grid = document.getElementById('card-grid');
     const emptyEl = document.getElementById('empty-collection');
     if (!grid) return;
@@ -148,7 +139,7 @@ export function renderCollection() {
 
     // パックフィルタ
     if (currentPackFilter !== 'all' && currentPackFilter !== 'top200') {
-        collection = filterByPack(collection, currentPackFilter);
+        collection = await filterByPack(collection, currentPackFilter);
     }
 
     // レアリティフィルタ

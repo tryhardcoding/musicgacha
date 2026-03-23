@@ -5,12 +5,10 @@
 
 import { getSongPool, getTop200Daily } from './data-loader.js';
 
-// ---- Song Pool (共通キャッシュ経由) ----
-let songPool = null;
+// ---- Song Pool (data-loaderのTTLキャッシュ経由) ----
 
 async function loadSongPool() {
-    if (songPool) return songPool;
-    songPool = await getSongPool();
+    const songPool = await getSongPool();
     if (songPool) {
         console.log('[API] Song pool loaded:', Object.entries(songPool).map(([k, v]) => `${k}: ${v.length}`).join(', '));
     }
@@ -132,13 +130,10 @@ function createFallbackCard(rarity) {
     };
 }
 
-// ---- Top 200 Daily Chart (共通キャッシュ経由) ----
-
-let top200Data = null;
+// ---- Top 200 Daily Chart (data-loaderのTTLキャッシュ経由) ----
 
 async function loadTop200Data() {
-    if (top200Data) return top200Data;
-    top200Data = await getTop200Daily();
+    const top200Data = await getTop200Daily();
     if (top200Data) {
         console.log('[API] Top 200 data loaded:', top200Data.totalTracks, 'tracks, chart date:', top200Data.chartDate);
     }

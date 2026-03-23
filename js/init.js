@@ -57,11 +57,25 @@ window.addEventListener('load', function() {
     });
 })();
 
-// ---- 3. Service Worker 登録 ----
+// ---- 3. Service Worker 登録 + 更新検知 ----
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
         navigator.serviceWorker.register('/sw.js').then(function(reg) {
             console.log('[SW] Registered:', reg.scope);
+
+            // SW更新検知: 新しいSWがインストールされたらデータキャッシュをクリア
+            reg.addEventListener('updatefound', function() {
+                var newWorker = reg.installing;
+                if (!newWorker) return;
+                newWorker.addEventListener('statechange', function() {
+                    if (newWorker.state === 'activated') {
+                        console.log('[SW] New service worker activated, invalidating data cache');
+                        if (window.MusicGacha && window.MusicGacha.invalidateDataCache) {
+                            window.MusicGacha.invalidateDataCache();
+                        }
+                    }
+                });
+            });
         }).catch(function(err) {
             console.warn('[SW] Registration failed:', err);
         });

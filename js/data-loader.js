@@ -1,21 +1,35 @@
 // ============================================================
 // MusicGacha - Data Loader Module
 // 全データファイルの一元キャッシュ管理
-// 同一URLへの並行リクエストを自動デデュプリケーション
+// TTL付きメモリキャッシュ + 同一URLへの並行リクエスト自動デデュプリケーション
 // ============================================================
 
+// キャッシュエントリ: { data, timestamp }
 const cache = {};
 const pendingRequests = {};
 
+// URL別TTL設定（ミリ秒）
+const TTL = {
+    './data/top200-daily.json': 5 * 60 * 1000,   // 5分
+    './data/songs.json': 30 * 60 * 1000,          // 30分
+    './data/packs.json': 60 * 60 * 1000,          // 1時間
+    './data/genres.json': 60 * 60 * 1000,         // 1時間
+};
+const DEFAULT_TTL = 10 * 60 * 1000; // デフォルト10分
+
 /**
- * データファイルをキャッシュ付きで取得
+ * データファイルをTTL付きキャッシュで取得
  * 同一URLへの並行リクエストがあれば1つにまとめる
  * @param {string} url - fetch先URL
  * @returns {Promise<any>} パース済みJSON
  */
 async function fetchCached(url) {
-    // キャッシュヒット
-    if (cache[url]) return cache[url];
+    // TTL付きキャッシュヒット判定
+    const entry = cache[url];
+    const ttl = TTL[url] || DEFAULT_TTL;
+    if (entry && (Date.now() - entry.timestamp) < ttl) {
+        return entry.data;
+    }
 
     // 同一URLへの進行中リクエストがあれば待つ（デデュプ）
     if (pendingRequests[url]) return pendingRequests[url];
@@ -27,7 +41,7 @@ async function fetchCached(url) {
             return res.json();
         })
         .then(data => {
-            cache[url] = data;
+            cache[url] = { data, timestamp: Date.now() };
             delete pendingRequests[url];
             return data;
         })
@@ -38,6 +52,22 @@ async function fetchCached(url) {
 
     pendingRequests[url] = promise;
     return promise;
+}
+
+/**
+ * キャッシュを無効化する
+ * @param {string} [url] - 特定のURLのキャッシュを無効化。省略すると全キャッシュをクリア
+ */
+export function invalidateCache(url) {
+    if (url) {
+        delete cache[url];
+        console.log(`[DataLoader] Cache invalidated: ${url}`);
+    } else {
+        for (const key in cache) {
+            delete cache[key];
+        }
+        console.log('[DataLoader] All cache invalidated');
+    }
 }
 
 // ---- 公開API ----
