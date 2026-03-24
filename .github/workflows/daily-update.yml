@@ -2,14 +2,22 @@ name: Daily Data Update
 
 on:
   schedule:
-    # 毎日 20:00 UTC = JST 05:00
-    - cron: '0 20 * * *'
-  workflow_dispatch: # 手動実行も可能
+    # 各リージョンの現地 朝5時ごろ に実行（レートリミット分散）
+    - cron: '0 19 * * *'   # 🇦🇺 AU — 5 AM AEST (UTC+10)
+    - cron: '0 20 * * *'   # 🇯🇵 JP — 5 AM JST  (UTC+9)
+    - cron: '0 4 * * *'    # 🇪🇺 EU — 5 AM CET  (UK/DE/FR/IT/ES/NL/BE)
+    - cron: '0 8 * * *'    # 🇧🇷 BR — 5 AM BRT  (UTC-3)
+    - cron: '0 10 * * *'   # 🇺🇸 NA — 5 AM EST  (US/CA/MX)
+  workflow_dispatch:
+    inputs:
+      regions:
+        description: 'Regions to update (space-separated, or "all")'
+        default: 'all'
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 60
     permissions:
       contents: write
     steps:
@@ -33,63 +41,89 @@ jobs:
         run: npm ci
         working-directory: ./pipeline
 
-      # === Japan (メインデータ + rarity + enrich) ===
-      - name: "[JP] Fetch & Merge Top200"
+      # === スケジュールに応じたリージョン決定 ===
+      - name: Determine regions to update
+        id: regions
         run: |
-          node pipeline/scripts/fetch-kworb-top200.js --region jp
-          node pipeline/scripts/merge-top200-to-packs.js --region jp
-        timeout-minutes: 15
-        env:
-          DATA_DIR: ./data
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            INPUT="${{ github.event.inputs.regions }}"
+            if [ "$INPUT" = "all" ]; then
+              echo "regions=jp us uk au ca de fr it es nl be br mx" >> $GITHUB_OUTPUT
+              echo "include_jp=true" >> $GITHUB_OUTPUT
+            else
+              echo "regions=$INPUT" >> $GITHUB_OUTPUT
+              echo "$INPUT" | grep -qw "jp" && echo "include_jp=true" >> $GITHUB_OUTPUT || echo "include_jp=false" >> $GITHUB_OUTPUT
+            fi
+          elif [ "${{ github.event.schedule }}" = "0 19 * * *" ]; then
+            echo "regions=au" >> $GITHUB_OUTPUT
+            echo "include_jp=false" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 20 * * *" ]; then
+            echo "regions=jp" >> $GITHUB_OUTPUT
+            echo "include_jp=true" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 4 * * *" ]; then
+            echo "regions=uk de fr it es nl be" >> $GITHUB_OUTPUT
+            echo "include_jp=false" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 8 * * *" ]; then
+            echo "regions=br" >> $GITHUB_OUTPUT
+            echo "include_jp=false" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
+            echo "regions=us ca mx" >> $GITHUB_OUTPUT
+            echo "include_jp=false" >> $GITHUB_OUTPUT
+          fi
+          echo "📋 Regions: $(cat $GITHUB_OUTPUT)"
 
-      - name: "[JP] Assign rarity"
-        run: node pipeline/scripts/assign-rarity.js
-        timeout-minutes: 3
-        env:
-          DATA_DIR: ./data
-
-      - name: "[JP] Enrich iTunes data (songs.json, max 50)"
-        run: node pipeline/scripts/enrich-itunes-data.js --limit 50
-        timeout-minutes: 10
-        env:
-          DATA_DIR: ./data
-
-      - name: "[JP] Enrich iTunes data (Top 200)"
-        run: node pipeline/scripts/enrich-itunes-data.js --top200-only
-        timeout-minutes: 15
-        env:
-          DATA_DIR: ./data
-
-      # === All international regions (loop) ===
-      - name: Fetch Top200 (All international regions)
+      # === Fetch & Merge ===
+      - name: Fetch Top200
         run: |
-          for region in us uk au ca de fr it es nl be br mx; do
+          for region in ${{ steps.regions.outputs.regions }}; do
             echo "=== Fetching Top200: $region ==="
-            node pipeline/scripts/fetch-kworb-top200.js --region $region || echo "WARNING: $region fetch failed, continuing..."
+            node pipeline/scripts/fetch-kworb-top200.js --region $region || echo "WARNING: $region fetch failed"
             sleep 2
           done
         timeout-minutes: 10
         env:
           DATA_DIR: ./data
 
-      - name: Merge Top200 to packs (All international regions)
+      - name: Merge Top200 to packs
         run: |
-          for region in us uk au ca de fr it es nl be br mx; do
+          for region in ${{ steps.regions.outputs.regions }}; do
             echo "=== Merging Top200: $region ==="
-            node pipeline/scripts/merge-top200-to-packs.js --region $region || echo "WARNING: $region merge failed, continuing..."
-            sleep 5
+            node pipeline/scripts/merge-top200-to-packs.js --region $region || echo "WARNING: $region merge failed"
+            sleep 3
           done
-        timeout-minutes: 110
+        timeout-minutes: 45
         env:
           DATA_DIR: ./data
 
-      # 3. データをコミット＆プッシュ
+      # === JP専用ステップ（rarity + enrich）===
+      - name: "[JP] Assign rarity"
+        if: steps.regions.outputs.include_jp == 'true'
+        run: node pipeline/scripts/assign-rarity.js
+        timeout-minutes: 3
+        env:
+          DATA_DIR: ./data
+
+      - name: "[JP] Enrich iTunes data (songs.json, max 50)"
+        if: steps.regions.outputs.include_jp == 'true'
+        run: node pipeline/scripts/enrich-itunes-data.js --limit 50
+        timeout-minutes: 10
+        env:
+          DATA_DIR: ./data
+
+      - name: "[JP] Enrich iTunes data (Top 200)"
+        if: steps.regions.outputs.include_jp == 'true'
+        run: node pipeline/scripts/enrich-itunes-data.js --top200-only
+        timeout-minutes: 15
+        env:
+          DATA_DIR: ./data
+
+      # === Commit & Push ===
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
+          REGIONS="${{ steps.regions.outputs.regions }}"
+          git diff --staged --quiet || git commit -m "chore: daily update ($REGIONS) $(date -u +%Y-%m-%d)"
           git pull --rebase origin master
           git push
-
