@@ -123,6 +123,11 @@ export async function getPacksConfig() {
         return data.packs;
     } catch (error) {
         console.error('[DataLoader] Failed to load packs config:', error);
-        return null;
+        // フォールバック: デフォルトのパック設定を返す
+        console.warn('[DataLoader] Using fallback packs config');
+        return [
+            { id: 'standard', icon: '🎵', color: '#8b5cf6', gradient: 'linear-gradient(135deg, #8b5cf6, #ec4899)' },
+            { id: 'top200', icon: '🏆', color: '#f59e0b', gradient: 'linear-gradient(135deg, #f59e0b, #ef4444)', isDaily: true }
+        ];
     }
 }
