@@ -16,6 +16,7 @@ import { icon, refreshIcons } from './icons.js';
 import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260320b';
 import { invalidateCache } from './data-loader.js';
 import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
+import { getAmazonMusicUnlimitedUrl } from './affiliate.js';
 
 // ---- Screen Routing ----
 
@@ -128,13 +129,20 @@ function updateHomeScreen() {
     // Top 200 進捗表示
     updateTop200Progress();
 
-    // Amazon Music PR - ユーザーの収集実績と連動
+    // Amazon Music PR - ユーザーの収集実績と連動 + リージョン対応URL
+    const amazonUnlimitedUrl = getAmazonMusicUnlimitedUrl();
     const amazonTitle = document.getElementById('amazon-music-title');
     if (amazonTitle) {
         amazonTitle.textContent = uniqueCount > 0
             ? t('home.amazonTitleWithCount', { count: uniqueCount })
             : t('home.amazonTitle');
     }
+    // PRバナーのhrefをロケールに応じて動的設定
+    const amazonPrHome = document.getElementById('amazon-music-pr');
+    if (amazonPrHome) amazonPrHome.href = amazonUnlimitedUrl;
+    const amazonPrPack = document.getElementById('amazon-music-pr-pack');
+    if (amazonPrPack) amazonPrPack.href = amazonUnlimitedUrl;
+
     // パック結果画面のAmazon Music PRタイトルも更新
     const amazonTitlePack = document.getElementById('amazon-music-title-pack');
     if (amazonTitlePack) {
@@ -867,6 +875,13 @@ async function buildPackCarousel() {
         track.appendChild(btn);
     }
 
+    // F5リロード時にブラウザがスクロール位置を復元してTOP200が端に来るのを防止
+    // 構築完了後にスクロール位置をリセット
+    track.scrollLeft = 0;
+    // ブラウザの自動スクロール復元より後にもリセット（非同期復元対策）
+    requestAnimationFrame(() => {
+        track.scrollLeft = 0;
+    });
 
     buildCollectionTabs(packsConfig);
 }
@@ -962,7 +977,7 @@ function injectTop200Gradient() {
 
 // ---- Initialization ----
 
-function init() {
+async function init() {
     // ストレージ初期化
     initStorage();
 
@@ -994,8 +1009,8 @@ function init() {
     // リージョン表示の初期化
     updateRegionDisplay();
 
-    // パックカルーセルを動的生成
-    buildPackCarousel();
+    // パックカルーセルを動的生成（awaitで完了を待つことでスクロール位置の正しいリセットを保証）
+    await buildPackCarousel();
 
 
 
