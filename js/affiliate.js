@@ -18,19 +18,19 @@ const AFFILIATE_CONFIG = {
         // 未設定の国からのアクセスは日本タグにフォールバック
         // ※ US登録 + Earn Globally で大半をカバー可能
         tags: {
-            jp: 'sadpof-22',   // https://affiliate.amazon.co.jp/
-            us: '',            // https://affiliate-program.amazon.com/
-            uk: '',            // https://affiliate-program.amazon.co.uk/
-            de: '',            // https://partnernet.amazon.de/
-            fr: '',            // https://partenaires.amazon.fr/
-            it: '',            // https://programma-affiliazione.amazon.it/
-            es: '',            // https://afiliados.amazon.es/
-            nl: '',            // https://partnernet.amazon.nl/
-            ca: '',            // https://associates.amazon.ca/
-            au: '',            // https://affiliate-program.amazon.com.au/
-            br: '',            // https://associados.amazon.com.br/
-            mx: '',            // https://afiliados.amazon.com.mx/
-            be: '',            // https://partenaires.amazon.com.be/
+            jp: 'sadpof-22',       // https://affiliate.amazon.co.jp/
+            us: 'musicgacha-20',   // Earn Globally (メイン)
+            uk: 'musicgacha-20',   // Earn Globally
+            de: 'musicgacha-20',   // Earn Globally
+            fr: 'musicgacha-20',   // Earn Globally
+            it: 'musicgacha-20',   // Earn Globally
+            es: 'musicgacha-20',   // Earn Globally
+            nl: 'musicgacha-20',   // Earn Globally
+            ca: 'musicgacha-20',   // Earn Globally
+            au: '',                // 個別登録が必要（→JPフォールバック）
+            br: '',                // 個別登録が必要（→JPフォールバック）
+            mx: '',                // 個別登録が必要（→JPフォールバック）
+            be: 'musicgacha-20',   // Earn Globally (FR経由)
         },
     },
     imobile: {
