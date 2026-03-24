@@ -180,8 +180,8 @@ async function staleWhileRevalidate(request) {
   const cache = await caches.open(CACHE_VERSION);
   const cached = await cache.match(request);
 
-  // バックグラウンドで最新版を取得
-  const fetchPromise = fetch(request).then((response) => {
+  // バックグラウンドで最新版を取得（HTTPキャッシュをバイパス）
+  const fetchPromise = fetch(request, { cache: 'no-cache' }).then((response) => {
     if (response.ok) {
       cache.put(request, response.clone());
     }
