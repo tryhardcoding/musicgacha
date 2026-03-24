@@ -55,7 +55,7 @@ function getFixedRarity(artist, trackName) {
 export async function fetchCardFromGenre(packConfig, rarity) {
     try {
         // 1. Song Pool読み込み
-        await loadSongPool();
+        const songPool = await loadSongPool();
 
         if (!songPool || !songPool[packConfig.id]) {
             console.warn(`[API] No song pool for pack: ${packConfig.id}`);
