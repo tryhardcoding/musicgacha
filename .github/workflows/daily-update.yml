@@ -95,14 +95,23 @@ jobs:
         env:
           DATA_DIR: ./data
 
-      # === JP専用ステップ（rarity + enrich）===
-      - name: "[JP] Assign rarity"
-        if: steps.regions.outputs.include_jp == 'true'
-        run: node pipeline/scripts/assign-rarity.js
-        timeout-minutes: 3
+      # === Assign rarity (全リージョン) ===
+      - name: Assign rarity
+        run: |
+          for region in ${{ steps.regions.outputs.regions }}; do
+            if [ "$region" = "jp" ]; then
+              echo "=== Assign rarity: jp (songs.json) ==="
+              node pipeline/scripts/assign-rarity.js
+            else
+              echo "=== Assign rarity: $region (songs-${region}.json) ==="
+              node pipeline/scripts/assign-rarity.js --songs-file "songs-${region}.json" || echo "WARNING: $region rarity failed"
+            fi
+          done
+        timeout-minutes: 5
         env:
           DATA_DIR: ./data
 
+      # === JP専用ステップ（enrich）===
       - name: "[JP] Enrich iTunes data (songs.json, max 50)"
         if: steps.regions.outputs.include_jp == 'true'
         run: node pipeline/scripts/enrich-itunes-data.js --limit 50
