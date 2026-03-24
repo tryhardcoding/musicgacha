@@ -9,7 +9,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 120
     permissions:
       contents: write
     steps:
@@ -33,16 +33,12 @@ jobs:
         run: npm ci
         working-directory: ./pipeline
 
-      # ---- JP (Japan) ----
-      - name: "[JP] Fetch Top200 data"
-        run: node pipeline/scripts/fetch-kworb-top200.js --region jp
-        timeout-minutes: 5
-        env:
-          DATA_DIR: ./data
-
-      - name: "[JP] Merge Top200 to packs"
-        run: node pipeline/scripts/merge-top200-to-packs.js --region jp
-        timeout-minutes: 10
+      # === Japan (メインデータ + rarity + enrich) ===
+      - name: "[JP] Fetch & Merge Top200"
+        run: |
+          node pipeline/scripts/fetch-kworb-top200.js --region jp
+          node pipeline/scripts/merge-top200-to-packs.js --region jp
+        timeout-minutes: 15
         env:
           DATA_DIR: ./data
 
@@ -64,53 +60,25 @@ jobs:
         env:
           DATA_DIR: ./data
 
-      # ---- US (United States) ----
-      - name: "[US] Fetch Top200 data"
-        run: node pipeline/scripts/fetch-kworb-top200.js --region us
-        timeout-minutes: 5
-        env:
-          DATA_DIR: ./data
-
-      - name: "[US] Merge Top200 to packs"
-        run: node pipeline/scripts/merge-top200-to-packs.js --region us
+      # === All international regions (loop) ===
+      - name: Fetch Top200 (All international regions)
+        run: |
+          for region in us uk au ca de fr it es nl be br mx; do
+            echo "=== Fetching Top200: $region ==="
+            node pipeline/scripts/fetch-kworb-top200.js --region $region || echo "WARNING: $region fetch failed, continuing..."
+            sleep 2
+          done
         timeout-minutes: 10
         env:
           DATA_DIR: ./data
 
-      - name: "[US] Assign rarity"
-        run: node pipeline/scripts/assign-rarity.js --songs-file songs-us.json
-        timeout-minutes: 3
-        env:
-          DATA_DIR: ./data
-
-      - name: "[US] Enrich iTunes data (Top 200)"
-        run: node pipeline/scripts/enrich-itunes-data.js --top200-only --region us
-        timeout-minutes: 15
-        env:
-          DATA_DIR: ./data
-
-      # ---- UK (United Kingdom) ----
-      - name: "[UK] Fetch Top200 data"
-        run: node pipeline/scripts/fetch-kworb-top200.js --region uk
-        timeout-minutes: 5
-        env:
-          DATA_DIR: ./data
-
-      - name: "[UK] Merge Top200 to packs"
-        run: node pipeline/scripts/merge-top200-to-packs.js --region uk
-        timeout-minutes: 10
-        env:
-          DATA_DIR: ./data
-
-      - name: "[UK] Assign rarity"
-        run: node pipeline/scripts/assign-rarity.js --songs-file songs-uk.json
-        timeout-minutes: 3
-        env:
-          DATA_DIR: ./data
-
-      - name: "[UK] Enrich iTunes data (Top 200)"
-        run: node pipeline/scripts/enrich-itunes-data.js --top200-only --region uk
-        timeout-minutes: 15
+      - name: Merge Top200 to packs (All international regions)
+        run: |
+          for region in us uk au ca de fr it es nl be br mx; do
+            echo "=== Merging Top200: $region ==="
+            node pipeline/scripts/merge-top200-to-packs.js --region $region || echo "WARNING: $region merge failed, continuing..."
+          done
+        timeout-minutes: 60
         env:
           DATA_DIR: ./data
 
@@ -123,3 +91,4 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
           git pull --rebase origin master
           git push
+
