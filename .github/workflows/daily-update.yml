@@ -77,8 +77,9 @@ jobs:
           for region in us uk au ca de fr it es nl be br mx; do
             echo "=== Merging Top200: $region ==="
             node pipeline/scripts/merge-top200-to-packs.js --region $region || echo "WARNING: $region merge failed, continuing..."
+            sleep 5
           done
-        timeout-minutes: 60
+        timeout-minutes: 110
         env:
           DATA_DIR: ./data
 
