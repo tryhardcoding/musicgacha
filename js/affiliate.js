@@ -1,6 +1,6 @@
 // ============================================================
 // MusicGacha - Affiliate Module
-// アフィリエイトリンク生成 & 設定管理
+// アフィリエイトリンク生成 & 設定管理（14カ国対応）
 // ============================================================
 
 // ---- Affiliate Configuration ----
@@ -13,10 +13,25 @@ const AFFILIATE_CONFIG = {
         campaignId: '',
     },
     amazon: {
-        // Amazon アソシエイト
-        // 取得先: https://affiliate.amazon.co.jp/
-        tag: 'sadpof-22',
-        region: 'jp', // jp, us, uk, etc.
+        // Amazon アソシエイト（14カ国対応）
+        // 各国のアソシエイトプログラム登録後にタグを設定
+        // 未設定の国からのアクセスは日本タグにフォールバック
+        // ※ US登録 + Earn Globally で大半をカバー可能
+        tags: {
+            jp: 'sadpof-22',   // https://affiliate.amazon.co.jp/
+            us: '',            // https://affiliate-program.amazon.com/
+            uk: '',            // https://affiliate-program.amazon.co.uk/
+            de: '',            // https://partnernet.amazon.de/
+            fr: '',            // https://partenaires.amazon.fr/
+            it: '',            // https://programma-affiliazione.amazon.it/
+            es: '',            // https://afiliados.amazon.es/
+            nl: '',            // https://partnernet.amazon.nl/
+            ca: '',            // https://associates.amazon.ca/
+            au: '',            // https://affiliate-program.amazon.com.au/
+            br: '',            // https://associados.amazon.com.br/
+            mx: '',            // https://afiliados.amazon.com.mx/
+            be: '',            // https://partenaires.amazon.com.be/
+        },
     },
     imobile: {
         // i-mobile Ad Network
@@ -25,15 +40,123 @@ const AFFILIATE_CONFIG = {
     },
 };
 
-// ---- Amazon Retail Domain Map ----
-// Note: music.amazon.co.jp/search/ は外部リンクをサポートしないため、
-//       小売サイトのデジタルミュージック検索を使用する
+// ---- Amazon Domain & Music Unlimited Map ----
 const AMAZON_DOMAINS = {
     jp: 'https://www.amazon.co.jp',
     us: 'https://www.amazon.com',
     uk: 'https://www.amazon.co.uk',
     de: 'https://www.amazon.de',
+    fr: 'https://www.amazon.fr',
+    it: 'https://www.amazon.it',
+    es: 'https://www.amazon.es',
+    nl: 'https://www.amazon.nl',
+    ca: 'https://www.amazon.ca',
+    au: 'https://www.amazon.com.au',
+    br: 'https://www.amazon.com.br',
+    mx: 'https://www.amazon.com.mx',
+    be: 'https://www.amazon.com.be',
 };
+
+const AMAZON_MUSIC_UNLIMITED_PATHS = {
+    jp: '/music/unlimited',
+    us: '/music/unlimited',
+    uk: '/music/unlimited',
+    de: '/music/unlimited',
+    fr: '/music/unlimited',
+    it: '/music/unlimited',
+    es: '/music/unlimited',
+    nl: '/music/unlimited',
+    ca: '/music/unlimited',
+    au: '/music/unlimited',
+    br: '/music/unlimited',
+    mx: '/music/unlimited',
+    be: '/music/unlimited',
+};
+
+// ---- Locale Detection ----
+
+// 言語コード → Amazonリージョン マッピング
+const LOCALE_TO_REGION = {
+    'ja': 'jp',
+    // 英語圏
+    'en-us': 'us',
+    'en-gb': 'uk',
+    'en-au': 'au',
+    'en-ca': 'ca',
+    'en-nz': 'au',   // ニュージーランドはAUにフォールバック
+    'en': 'us',       // 英語（地域なし）は米国
+    // ドイツ語圏
+    'de': 'de',
+    'de-de': 'de',
+    'de-at': 'de',
+    'de-ch': 'de',    // スイスはDEにフォールバック
+    // フランス語圏
+    'fr': 'fr',
+    'fr-fr': 'fr',
+    'fr-be': 'be',
+    'fr-ca': 'ca',
+    'fr-ch': 'fr',
+    // イタリア語
+    'it': 'it',
+    'it-it': 'it',
+    // スペイン語圏
+    'es': 'es',
+    'es-es': 'es',
+    'es-mx': 'mx',
+    'es-ar': 'mx',    // アルゼンチンはMXにフォールバック
+    'es-co': 'mx',
+    'es-cl': 'mx',
+    // ポルトガル語圏
+    'pt': 'br',
+    'pt-br': 'br',
+    'pt-pt': 'br',    // ポルトガルはBRにフォールバック
+    // オランダ語圏
+    'nl': 'nl',
+    'nl-nl': 'nl',
+    'nl-be': 'be',
+};
+
+let _detectedRegion = null;
+
+/**
+ * ブラウザのロケールからAmazonリージョンを自動判定
+ * @returns {string} リージョンコード ('jp', 'us', 'uk', 'de')
+ */
+export function detectAmazonRegion() {
+    if (_detectedRegion) return _detectedRegion;
+
+    const lang = (navigator.language || navigator.userLanguage || 'ja').toLowerCase();
+
+    // 完全一致を試行 → 言語部分のみで試行 → デフォルトjp
+    _detectedRegion = LOCALE_TO_REGION[lang]
+        || LOCALE_TO_REGION[lang.split('-')[0]]
+        || 'jp';
+
+    return _detectedRegion;
+}
+
+/**
+ * 現在のリージョンに対応するアソシエイトタグを取得
+ * 未設定の国は日本タグにフォールバック
+ * @param {string} [region] - リージョン（省略時は自動判定）
+ * @returns {string} アソシエイトタグ
+ */
+function getAmazonTag(region) {
+    const r = region || detectAmazonRegion();
+    return AFFILIATE_CONFIG.amazon.tags[r]
+        || AFFILIATE_CONFIG.amazon.tags.jp
+        || '';
+}
+
+/**
+ * 現在のリージョンに対応するAmazonドメインを取得
+ * @param {string} [region] - リージョン（省略時は自動判定）
+ * @returns {string} Amazonドメイン URL
+ */
+function getAmazonDomain(region) {
+    const r = region || detectAmazonRegion();
+    return AMAZON_DOMAINS[r] || AMAZON_DOMAINS.jp;
+}
 
 // ---- URL Generators ----
 
@@ -71,19 +194,37 @@ export function getSpotifyUrl(card) {
 
 /**
  * Amazon Music 検索URL生成（デジタルミュージックカテゴリ）
- * music.amazon.co.jp は外部検索リンクをサポートしないため、
- * Amazon小売サイトの /s?k=...&i=digital-music 形式を使用
+ * ブラウザロケールに基づいて適切な国のAmazonストアにリンク
  * @param {Object} card - カードデータ { artist, title }
  * @returns {string} Amazon デジタルミュージック検索 URL
  */
 export function getAmazonMusicUrl(card) {
-    const region = AFFILIATE_CONFIG.amazon.region || 'jp';
-    const domain = AMAZON_DOMAINS[region] || AMAZON_DOMAINS.jp;
+    const domain = getAmazonDomain();
+    const tag = getAmazonTag();
     const searchTerm = encodeURIComponent(`${card.artist} ${card.title}`);
     let url = `${domain}/s?k=${searchTerm}&i=digital-music`;
 
-    if (AFFILIATE_CONFIG.amazon.tag) {
-        url += `&tag=${AFFILIATE_CONFIG.amazon.tag}`;
+    if (tag) {
+        url += `&tag=${tag}`;
+    }
+
+    return url;
+}
+
+/**
+ * Amazon Music Unlimited PRバナー用URL生成
+ * ブラウザロケールに基づいて適切な国のUnlimitedページにリンク
+ * @returns {string} Amazon Music Unlimited URL（タグ付き）
+ */
+export function getAmazonMusicUnlimitedUrl() {
+    const region = detectAmazonRegion();
+    const domain = getAmazonDomain(region);
+    const path = AMAZON_MUSIC_UNLIMITED_PATHS[region] || '/music/unlimited';
+    const tag = getAmazonTag(region);
+    let url = `${domain}${path}`;
+
+    if (tag) {
+        url += `?tag=${tag}`;
     }
 
     return url;
@@ -108,7 +249,7 @@ export function getYouTubeUrl(card) {
 export function isAffiliateConfigured() {
     return !!(
         AFFILIATE_CONFIG.apple.token ||
-        AFFILIATE_CONFIG.amazon.tag
+        getAmazonTag()
     );
 }
 
@@ -140,5 +281,10 @@ export function getAdSenseClientId() {
  * 設定オブジェクトを外部から参照（デバッグ用）
  */
 export function getAffiliateConfig() {
-    return { ...AFFILIATE_CONFIG };
+    return {
+        ...AFFILIATE_CONFIG,
+        _detectedRegion: detectAmazonRegion(),
+        _activeDomain: getAmazonDomain(),
+        _activeTag: getAmazonTag(),
+    };
 }
