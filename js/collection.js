@@ -5,6 +5,7 @@
 
 import { getCollection, getTop200Data, getFavorites } from './storage.js';
 import { getSongPool, getTop200Daily } from './data-loader.js';
+import { getRegionConfig } from './region.js';
 import { renderCard, renderCardBack, openCardDetail } from './card-renderer.js?v=20260323b';
 import { RARITY_CONFIG } from './card.js';
 import { t } from './i18n.js';
@@ -239,8 +240,9 @@ function updateStats(filteredCollection) {
 // ---- Top 200 Ranking View ----
 
 async function loadTop200DateList() {
+    const config = getRegionConfig();
     try {
-        const response = await fetch('./data/top200-history/index.json');
+        const response = await fetch(`${config.top200HistoryDir}/index.json`);
         top200DateList = await response.json();
         top200CurrentDateIndex = 0; // 最新を表示
     } catch {
@@ -256,23 +258,24 @@ async function loadTop200DateList() {
 }
 
 async function loadTop200ForDate(date) {
+    const config = getRegionConfig();
     // 最新日付（index 0）の場合は top200-daily.json を優先（ホーム画面と同じデータソース）
     if (top200CurrentDateIndex === 0) {
         try {
-            const response = await fetch('./data/top200-daily.json');
+            const response = await fetch(config.top200File);
             if (response.ok) return await response.json();
         } catch { }
     }
 
     // 過去日、またはdailyが取得できない場合は日別アーカイブを使用
     try {
-        const response = await fetch(`./data/top200-history/${date}.json`);
+        const response = await fetch(`${config.top200HistoryDir}/${date}.json`);
         if (response.ok) return await response.json();
     } catch { }
 
-    // 最終フォールバック: top200-daily.json
+    // 最終フォールバック: top200-daily
     try {
-        const response = await fetch('./data/top200-daily.json');
+        const response = await fetch(config.top200File);
         return await response.json();
     } catch {
         return null;
@@ -408,7 +411,7 @@ function setupFilterListeners() {
  */
 export function refreshCollection() {
     if (currentPackFilter === 'top200') {
-        renderTop200View();
+        loadTop200DateList().then(() => renderTop200View());
     } else {
         renderCollection();
     }

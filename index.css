@@ -4360,7 +4360,9 @@ input {
 /* ---- Pack Filter Tabs (Collection) ---- */
 .pack-filter-tabs {
   display: flex;
-  flex-wrap: wrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
   gap: 8px;
   padding: var(--space-xs) 0 var(--space-lg);
 }

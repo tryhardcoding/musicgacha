@@ -565,56 +565,10 @@ function setupEventListeners() {
         });
     }
 
-    // パックカルーセル - クリックで直接開封 + ドラッグスクロール + 無限ループ
+    // パックカルーセル - クリックで直接開封 + ドラッグスクロール
     const carousel = document.getElementById('pack-carousel');
     const track = document.getElementById('pack-carousel-track');
     if (carousel && track) {
-        // -- 無限ループ用にクローンを追加 --
-        const origItems = Array.from(track.querySelectorAll('.pack-item'));
-        // 後ろにクローンセットを追加
-        origItems.forEach(item => {
-            const clone = item.cloneNode(true);
-            clone.classList.add('pack-clone');
-            track.appendChild(clone);
-        });
-        // 前にクローンセットを追加（逆順でinsertBeforeすることで正しい順序を維持）
-        [...origItems].reverse().forEach(item => {
-            const clone = item.cloneNode(true);
-            clone.classList.add('pack-clone');
-            track.insertBefore(clone, track.firstChild);
-        });
-
-        // 初期スクロール位置を1セット分ずらす（クローン分）
-        requestAnimationFrame(() => {
-            const firstItem = origItems[0];
-            const itemWidth = firstItem.offsetWidth + parseFloat(getComputedStyle(firstItem).marginLeft) + parseFloat(getComputedStyle(firstItem).marginRight);
-            track.scrollLeft = itemWidth * origItems.length;
-        });
-
-        // -- 無限ループ: スクロール端で位置をリセット --
-        let isResetting = false;
-        track.addEventListener('scroll', () => {
-            if (isResetting) return;
-            const firstItem = origItems[0];
-            const itemWidth = firstItem.offsetWidth + parseFloat(getComputedStyle(firstItem).marginLeft) + parseFloat(getComputedStyle(firstItem).marginRight);
-            const setWidth = itemWidth * origItems.length;
-            const maxScroll = track.scrollWidth - track.clientWidth;
-
-            if (track.scrollLeft <= itemWidth * 0.5) {
-                isResetting = true;
-                requestAnimationFrame(() => {
-                    track.scrollLeft += setWidth;
-                    isResetting = false;
-                });
-            } else if (track.scrollLeft >= maxScroll - itemWidth * 0.5) {
-                isResetting = true;
-                requestAnimationFrame(() => {
-                    track.scrollLeft -= setWidth;
-                    isResetting = false;
-                });
-            }
-        });
-
         // -- ドラッグスクロール --
         let isDragging = false;
         let dragStartX = 0;
@@ -913,27 +867,6 @@ async function buildPackCarousel() {
         track.appendChild(btn);
     }
 
-    // パック数が4以上の場合のみ無限ループ用クローンを追加
-    const origItems = Array.from(track.querySelectorAll('.pack-item'));
-    if (origItems.length >= 4) {
-        origItems.forEach(item => {
-            const clone = item.cloneNode(true);
-            clone.classList.add('pack-clone');
-            track.appendChild(clone);
-        });
-        [...origItems].reverse().forEach(item => {
-            const clone = item.cloneNode(true);
-            clone.classList.add('pack-clone');
-            track.insertBefore(clone, track.firstChild);
-        });
-
-        requestAnimationFrame(() => {
-            if (origItems.length === 0) return;
-            const firstItem = origItems[0];
-            const itemWidth = firstItem.offsetWidth + parseFloat(getComputedStyle(firstItem).marginLeft) + parseFloat(getComputedStyle(firstItem).marginRight);
-            track.scrollLeft = itemWidth * origItems.length;
-        });
-    }
 
     buildCollectionTabs(packsConfig);
 }

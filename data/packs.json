@@ -7,6 +7,13 @@
             "gradient": "linear-gradient(135deg, #8b5cf6, #ec4899)"
         },
         {
+            "id": "top200",
+            "icon": "🏆",
+            "color": "#f59e0b",
+            "gradient": "linear-gradient(135deg, #f59e0b, #ef4444)",
+            "isDaily": true
+        },
+        {
             "id": "jpop",
             "icon": "🌸",
             "color": "#f472b6",
@@ -41,13 +48,6 @@
             "icon": "🌍",
             "color": "#3b82f6",
             "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)"
-        },
-        {
-            "id": "top200",
-            "icon": "🏆",
-            "color": "#f59e0b",
-            "gradient": "linear-gradient(135deg, #f59e0b, #ef4444)",
-            "isDaily": true
         }
     ]
 }

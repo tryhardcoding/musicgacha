@@ -12,6 +12,7 @@ export const REGIONS = {
         language: 'ja',
         songsFile: './data/songs.json',
         top200File: './data/top200-daily.json',
+        top200HistoryDir: './data/top200-history',
         packsFile: './data/packs.json',
         itunesCountry: 'JP',
         storageSuffix: '', // JP は後方互換のためサフィックスなし
@@ -22,6 +23,7 @@ export const REGIONS = {
         language: 'en',
         songsFile: './data/songs-us.json',
         top200File: './data/top200-daily-us.json',
+        top200HistoryDir: './data/top200-history-us',
         packsFile: './data/packs-us.json',
         itunesCountry: 'US',
         storageSuffix: '_us',
@@ -32,6 +34,7 @@ export const REGIONS = {
         language: 'en',
         songsFile: './data/songs-uk.json',
         top200File: './data/top200-daily-uk.json',
+        top200HistoryDir: './data/top200-history-uk',
         packsFile: './data/packs-uk.json',
         itunesCountry: 'GB',
         storageSuffix: '_uk',
