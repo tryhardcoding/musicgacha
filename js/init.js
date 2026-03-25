@@ -98,8 +98,17 @@ window.addEventListener('load', function() {
     });
 })();
 
-// ---- 3. Service Worker 登録 + 更新検知 ----
+// ---- 3. Service Worker 登録 + 自動更新 ----
 if ('serviceWorker' in navigator) {
+    // 新しいSWがページを制御したらリロード（1回だけ）
+    var swReloading = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function() {
+        if (swReloading) return;
+        swReloading = true;
+        console.log('[SW] New service worker activated, reloading for latest version...');
+        window.location.reload();
+    });
+
     window.addEventListener('load', function() {
         navigator.serviceWorker.register('/sw.js').then(function(reg) {
             console.log('[SW] Registered:', reg.scope);
@@ -108,6 +117,7 @@ if ('serviceWorker' in navigator) {
             reg.addEventListener('updatefound', function() {
                 var newWorker = reg.installing;
                 if (!newWorker) return;
+                console.log('[SW] Update found, installing new version...');
                 newWorker.addEventListener('statechange', function() {
                     if (newWorker.state === 'activated') {
                         console.log('[SW] New service worker activated, invalidating data cache');
@@ -117,6 +127,11 @@ if ('serviceWorker' in navigator) {
                     }
                 });
             });
+
+            // 定期的にSW更新をチェック（1時間ごと）
+            setInterval(function() {
+                reg.update();
+            }, 60 * 60 * 1000);
         }).catch(function(err) {
             console.warn('[SW] Registration failed:', err);
         });
