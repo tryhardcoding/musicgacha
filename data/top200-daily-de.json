@@ -8,287 +8,743 @@
     {
       "rank": 1,
       "artist": "BTS",
-      "name": "SWIM"
+      "name": "SWIM",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/ce/b3/e7ceb389-cb23-f708-cbdb-ff874be51365/mzaf_3407006493764005509.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim/1868481904?i=1868482073&uo=4",
+      "itunesTrackId": 1868482073,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 2,
       "artist": "BTS",
-      "name": "SWIM (Instrumental)"
+      "name": "SWIM (Instrumental)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/8c/7e/118c7e68-6d41-04b3-7888-ca9e39adc59d/mzaf_4655839259932491399.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim/1886776680?i=1886776685&uo=4",
+      "itunesTrackId": 1886776685,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/d9/b5/79d9b5ec-bb37-cea6-2173-fe7b886710e6/823375056645_Cover.jpg/600x600bb.jpg",
+      "collectionName": "SWIM (Instrumental) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-24"
     },
     {
       "rank": 3,
       "artist": "BTS",
-      "name": "SWIM"
+      "name": "SWIM",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/ce/b3/e7ceb389-cb23-f708-cbdb-ff874be51365/mzaf_3407006493764005509.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim/1868481904?i=1868482073&uo=4",
+      "itunesTrackId": 1868482073,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 4,
       "artist": "Bebe Rexha & Faithless",
-      "name": "New Religion"
+      "name": "New Religion",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/9a/8a/209a8add-b82f-5288-3f6d-ad9633ffa7b8/mzaf_4960400866856307248.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/new-religion/1878015313?i=1878015314&uo=4",
+      "itunesTrackId": 1878015314,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/99/14/1d99143b-f5ce-6a98-2992-f91a050835e3/199316500523_cover.jpg/600x600bb.jpg",
+      "collectionName": "New Religion - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 174400,
+      "releaseDate": "2026-03-06"
     },
     {
       "rank": 5,
       "artist": "Eva Cassidy",
-      "name": "Wayfaring Stranger"
+      "name": "Wayfaring Stranger",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a8/db/26/a8db26f5-7116-4efa-1c4b-e83742da088f/mzaf_13726383768477703678.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/wayfaring-stranger-acoustic/1317816802?i=1317817362&uo=4",
+      "itunesTrackId": 1317817362,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/56/50/135650a7-f1df-f770-9249-dca9195c9425/190296958724.jpg/600x600bb.jpg",
+      "collectionName": "Acoustic",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 188747,
+      "releaseDate": "2011-01-01"
     },
     {
       "rank": 6,
       "artist": "BTS",
-      "name": "SWIM (Alternate Cover Jung Kook Version)"
+      "name": "SWIM (Alternate Cover Jung Kook Version)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/af/c8/c4afc8a0-3e1a-1463-9b0a-e8d565671e77/mzaf_9796717745326421467.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim-alternate-cover-jung-kook-version/1887494309?i=1887494310&uo=4",
+      "itunesTrackId": 1887494310,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/d6/b2/21d6b28d-f7d3-cb9e-7071-40037c434a78/823375078838_Cover.jpg/600x600bb.jpg",
+      "collectionName": "SWIM (Alternate Cover Jung Kook Version) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-24"
     },
     {
       "rank": 7,
       "artist": "BTS",
-      "name": "SWIM (Alternate Cover SUGA Version)"
+      "name": "SWIM (Alternate Cover SUGA Version)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/9c/32/f99c329d-df28-4c0d-aac1-65abfc519f7c/mzaf_6217194353436555950.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim-alternate-cover-suga-version/1887498931?i=1887498934&uo=4",
+      "itunesTrackId": 1887498934,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/7f/6d/997f6da9-d76f-a26e-89ce-c60389eb86cc/823375078869_Cover.jpg/600x600bb.jpg",
+      "collectionName": "SWIM (Alternate Cover SUGA Version) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-24"
     },
     {
       "rank": 8,
       "artist": "BTS",
-      "name": "SWIM (Alternate Cover V Version)"
+      "name": "SWIM (Alternate Cover V Version)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/23/5d/50235d56-315e-f874-6ae5-3e5d3a3725a9/mzaf_1238691929996856517.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim-alternate-cover-v-version/1887494850?i=1887494853&uo=4",
+      "itunesTrackId": 1887494853,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/1b/e2/591be284-c3c8-5abf-e694-d093b69c5bc1/823375078890_Cover.jpg/600x600bb.jpg",
+      "collectionName": "SWIM (Alternate Cover V Version) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-24"
     },
     {
       "rank": 9,
       "artist": "KATO & Jon",
-      "name": "Turn the Lights Off (Radio Edit)"
+      "name": "Turn the Lights Off (Radio Edit)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/a1/32/99a1321e-1b88-e392-0283-e5e14432dddd/mzaf_8019915862113618447.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/turn-the-lights-off-radio-edit/348594096?i=348594111&uo=4",
+      "itunesTrackId": 348594111,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/e9/0a/a5e90acf-84b3-f9ef-b00c-7632f64ee698/884977472622.jpg/600x600bb.jpg",
+      "collectionName": "Turn the Lights Off - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 178947,
+      "releaseDate": "2010-01-04"
     },
     {
       "rank": 10,
       "artist": "mikeeysmind, Chill77 & Unjaps",
-      "name": "Papaoutai (Afro Soul)"
+      "name": "Papaoutai (Afro Soul)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/b3/76/e0b376e4-c15c-729b-a80a-6ac9d5bd67e5/mzaf_9195143585820073427.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/papaoutai-afro-soul/1876617487?i=1876617505&uo=4",
+      "itunesTrackId": 1876617505,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/49/ba/6d/49ba6d9f-e807-f36b-decc-1e027dfe000d/26UMGIM18513.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Papaoutai (Afro Soul) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 280034,
+      "releaseDate": "2025-12-19"
     },
     {
       "rank": 11,
       "artist": "Bruno Mars",
-      "name": "I Just Might"
+      "name": "I Just Might",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/77/2a/5c772ac6-8b2b-56ef-96ad-828d458b6b2b/mzaf_3364285597460955457.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/i-just-might/1866732792?i=1866732800&uo=4",
+      "itunesTrackId": 1866732800,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/600x600bb.jpg",
+      "collectionName": "The Romantic",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 212974,
+      "releaseDate": "2026-01-09"
     },
     {
       "rank": 12,
       "artist": "RAYE",
-      "name": "WHERE IS MY HUSBAND!"
+      "name": "WHERE IS MY HUSBAND!",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/16/34/c716348b-2768-3e4f-75d6-136bbb11ce6b/mzaf_17115623893667689076.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/where-is-my-husband/1838737596?i=1838737598&uo=4",
+      "itunesTrackId": 1838737598,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/10/8a/69108a18-55ec-d774-a653-90b2242733db/199538765458.jpg/600x600bb.jpg",
+      "collectionName": "WHERE IS MY HUSBAND! - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 196796,
+      "releaseDate": "2025-09-19"
     },
     {
       "rank": 13,
       "artist": "Alex Warren",
-      "name": "FEVER DREAM"
+      "name": "FEVER DREAM",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/44/ab/9944ab8d-79c5-c3b4-0448-3dde97bd47ec/mzaf_2792351844678623504.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/fever-dream/1879983782?i=1879983789&uo=4",
+      "itunesTrackId": 1879983789,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/600x600bb.jpg",
+      "collectionName": "FEVER DREAM - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 153430,
+      "releaseDate": "2026-03-13"
     },
     {
       "rank": 14,
       "artist": "BTS",
-      "name": "SWIM (Alternate Cover Jimin Version)"
+      "name": "SWIM (Alternate Cover Jimin Version)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/89/33/0e893340-26aa-0d6a-831e-06067698cd3c/mzaf_4345456905713929815.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim-alternate-cover-jimin-version/1887495083?i=1887495084&uo=4",
+      "itunesTrackId": 1887495084,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/6a/6d/496a6d80-063e-a6f7-fe9e-8199b4b3c93a/823375078883_Cover.jpg/600x600bb.jpg",
+      "collectionName": "SWIM (Alternate Cover Jimin Version) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-24"
     },
     {
       "rank": 15,
       "artist": "W&W & Scooter",
-      "name": "Rave From Outer Space"
+      "name": "Rave From Outer Space",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/7a/37/cc7a37f6-a75d-81c1-154c-1b9ac6ee3616/mzaf_15302729393913249537.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/rave-from-outer-space/1881945841?i=1881945845&uo=4",
+      "itunesTrackId": 1881945845,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/88/7e/0e887eed-be04-d1bc-4ed8-de18a44442d2/26UMGIM22820.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Rave From Outer Space - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 131429,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 16,
       "artist": "BTS",
-      "name": "SWIM (Alternate Cover RM Version)"
+      "name": "SWIM (Alternate Cover RM Version)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/5d/28/d55d28ad-6fb2-472b-4efe-d4d5e594e116/mzaf_16271257993532113046.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim-alternate-cover-rm-version/1887494429?i=1887494430&uo=4",
+      "itunesTrackId": 1887494430,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/47/07/124707e2-d2aa-704c-ddd7-8fdf3d102da5/823375078845_Cover.jpg/600x600bb.jpg",
+      "collectionName": "SWIM (Alternate Cover RM Version) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-24"
     },
     {
       "rank": 17,
       "artist": "Leony & Calum Scott",
-      "name": "Stay"
+      "name": "Stay",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/27/96/3f279624-828b-b17b-1cea-e1d0854f9277/mzaf_11266675917433456587.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/stay/1884241726?i=1884241746&uo=4",
+      "itunesTrackId": 1884241746,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/1f/ae/a31faeae-4b4f-faea-5a06-ea1dfeb94f0f/26UMGIM20403.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Stay - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 184646,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 18,
       "artist": "Taylor Swift",
-      "name": "Opalite"
+      "name": "Opalite",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/ea/d8/69ead898-7583-9bca-8be9-5f4e2140783f/mzaf_6210909912602321477.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/opalite/1833328839?i=1833328845&uo=4",
+      "itunesTrackId": 1833328845,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/600x600bb.jpg",
+      "collectionName": "The Life of a Showgirl",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 235356,
+      "releaseDate": "2025-10-03"
     },
     {
       "rank": 19,
       "artist": "BTS",
-      "name": "Body to Body"
+      "name": "Body to Body",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/72/83/0e72838d-504d-92a8-3f36-6bf36639b928/mzaf_8425186640909130469.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/body-to-body/1868481904?i=1868481905&uo=4",
+      "itunesTrackId": 1868481905,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 189725,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 20,
       "artist": "Owen James",
-      "name": "When I Stand"
+      "name": "When I Stand",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/91/bc/9b91bc73-7e7e-5736-ae13-c8ecee2a61f0/mzaf_6409565062330552085.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/when-i-stand/1882532987?i=1882532988&uo=4",
+      "itunesTrackId": 1882532988,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/ad/4f/19ad4f14-02af-10c0-290a-48a404edeb33/artwork.jpg/600x600bb.jpg",
+      "collectionName": "When I Stand - Single",
+      "primaryGenreName": "Country",
+      "trackTimeMillis": 199720,
+      "releaseDate": "2026-03-04"
     },
     {
       "rank": 21,
       "artist": "Taylor Swift",
-      "name": "The Fate of Ophelia"
+      "name": "The Fate of Ophelia",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/cf/4b/78cf4b87-defa-37be-2bf5-7a85f3d99e1f/mzaf_10612452554493821414.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/the-fate-of-ophelia-loud-luxury-remix/1851309900?i=1851309901&uo=4",
+      "itunesTrackId": 1851309901,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/31/96/0f3196af-cc88-9938-02ce-0016fea0995f/25UM1IM77216.rgb.jpg/600x600bb.jpg",
+      "collectionName": "The Fate of Ophelia (Loud Luxury Remix) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 156302,
+      "releaseDate": "2025-11-06"
     },
     {
       "rank": 22,
       "artist": "BTS",
-      "name": "SWIM (Alternate Cover Jin Version)"
+      "name": "SWIM (Alternate Cover Jin Version)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/8e/f6/1a8ef626-31d4-c8b2-61e9-c97f743b210c/mzaf_17116560328349373832.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim-alternate-cover-jin-version/1887494934?i=1887494935&uo=4",
+      "itunesTrackId": 1887494935,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/5f/84/f75f8459-bfab-a8a7-bf56-576778479933/823375078852_Cover.jpg/600x600bb.jpg",
+      "collectionName": "SWIM (Alternate Cover Jin Version) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-24"
     },
     {
       "rank": 23,
       "artist": "BTS",
-      "name": "SWIM (Alternate Cover j-hope Version)"
+      "name": "SWIM (Alternate Cover j-hope Version)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/e1/d2/5be1d24e-2bd1-334b-e229-8ff76dc79cc4/mzaf_16264343697587813439.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/swim-alternate-cover-j-hope-version/1887494512?i=1887494513&uo=4",
+      "itunesTrackId": 1887494513,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/b8/ff/1fb8ff0c-9510-bd67-a6de-8323d7841358/823375078876_Cover.jpg/600x600bb.jpg",
+      "collectionName": "SWIM (Alternate Cover j-hope Version) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-24"
     },
     {
       "rank": 24,
       "artist": "Sean Paul featuring Keyshia Cole",
-      "name": "(When You Gonna) Give It Up to Me [Radio Version] [feat. Keyshia Cole]"
+      "name": "(When You Gonna) Give It Up to Me [Radio Version] [feat. Keyshia Cole]",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/a3/3b/1fa33bae-14e0-6420-ecf0-e4e58bbbcf44/mzaf_14511698103463889424.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/when-you-gonna-give-it-up-to-me-radio-version-feat/186774432?i=186774469&uo=4",
+      "itunesTrackId": 186774469,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/15/52/6e15522c-63e3-a045-8557-a1fbf61403cd/mzi.fuinprco.jpg/600x600bb.jpg",
+      "collectionName": "(When You Gonna) Give It Up to Me - Single",
+      "primaryGenreName": "Reggae",
+      "trackTimeMillis": 243880,
+      "releaseDate": "2005-09-27"
     },
     {
       "rank": 25,
       "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast",
-      "name": "Golden"
+      "name": "Golden",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/3d/10/bc3d104c-6021-5adb-9e1e-b0c3d3e4b6d4/mzaf_1082925762327289540.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/golden/1824324832?i=1824324836&uo=4",
+      "itunesTrackId": 1824324836,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/a4/1a/d4a41ad2-9737-89ef-6357-26c848177461/25UMGIM90866.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Golden (from the Netflix film KPop Demon Hunters) - Single",
+      "primaryGenreName": "K-Pop",
+      "trackTimeMillis": 194608,
+      "releaseDate": "2025-06-19"
     },
     {
       "rank": 26,
       "artist": "The Second Voice",
-      "name": "LET ME BE"
+      "name": "LET ME BE",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/cb/4b/1bcb4bd4-0bee-83fc-d775-2cab1e51fc55/mzaf_15069762443416267825.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/let-me-be/1884898393?i=1884898399&uo=4",
+      "itunesTrackId": 1884898399,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/68/ba/0f68ba2b-f12c-4a5b-fa4f-b9c378be26a4/825204598296.jpg/600x600bb.jpg",
+      "collectionName": "LET ME BE - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 189854,
+      "releaseDate": "2026-01-25"
     },
     {
       "rank": 27,
       "artist": "The Goo Goo Dolls",
-      "name": "Iris"
+      "name": "Iris",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/90/77/7a/90777a24-d183-adbe-60b7-9b1d6a578920/mzaf_8671911961079536303.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/iris/1732226152?i=1732226900&uo=4",
+      "itunesTrackId": 1732226900,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a6/a1/6b/a6a16b55-60d8-89b3-7851-e06191e2d4e3/5059460272255.jpg/600x600bb.jpg",
+      "collectionName": "Le più belle canzoni d'amore",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 289907,
+      "releaseDate": "1998-03-31"
     },
     {
       "rank": 28,
       "artist": "BTS",
-      "name": "Like Animals"
+      "name": "Like Animals",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/71/b1/0171b153-7047-ed09-d533-cbb42b4ccaba/mzaf_11680273895767990857.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/like-animals/1868481904?i=1868482085&uo=4",
+      "itunesTrackId": 1868482085,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 189747,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 29,
       "artist": "GroßstadtEngel",
-      "name": "Gute Laune"
+      "name": "Gute Laune",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/8e/41/548e411c-5ef0-20ac-e286-39a9adc7043c/mzaf_14638003275231555527.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/gute-laune/1854797425?i=1854797633&uo=4",
+      "itunesTrackId": 1854797633,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/d3/53/f0d353d9-945e-dcc8-6e37-a3b5af24bf18/25UM1IM96968.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Kinderlieder zum Tanzen",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 175791,
+      "releaseDate": "2025-02-21"
     },
     {
       "rank": 30,
       "artist": "Unheilig",
-      "name": "Wunderschön"
+      "name": "Wunderschön",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/88/9f/0a889f52-f4a6-bf6b-9001-10bf3a057223/mzaf_10943179810610968869.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/wundersch%C3%B6n/1836975038?i=1836975376&uo=4",
+      "itunesTrackId": 1836975376,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/a9/68/35a96862-5406-a4e9-b038-7035e1e7a5af/25UM1IM25831.rgb.jpg/600x600bb.jpg",
+      "collectionName": "LIEBE GLAUBE MONSTER",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 203973,
+      "releaseDate": "2025-09-10"
     },
     {
       "rank": 31,
       "artist": "Harry Styles",
-      "name": "Sign of the Times"
+      "name": "Sign of the Times",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/19/f7/99/19f799a3-4638-f354-8713-f5ac076f328e/mzaf_2398941441794619302.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/sign-of-the-times/1226034336?i=1226034393&uo=4",
+      "itunesTrackId": 1226034393,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+      "collectionName": "Harry Styles",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 340707,
+      "releaseDate": "2017-04-07"
     },
     {
       "rank": 32,
       "artist": "Robin Schulz",
-      "name": "Embers"
+      "name": "Embers",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/7b/3c/d57b3cf0-a039-ca7b-d418-ec9c1cbc75ca/mzaf_16078007809727407344.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/embers/1861885381?i=1861885384&uo=4",
+      "itunesTrackId": 1861885384,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/4e/14/9f4e1421-650f-688b-dcec-d7b52c548d7e/5026854365398.jpg/600x600bb.jpg",
+      "collectionName": "Embers - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 181200,
+      "releaseDate": "2026-01-09"
     },
     {
       "rank": 33,
       "artist": "Leony",
-      "name": "Don't Worry"
+      "name": "Don't Worry",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/b7/44/57b7444d-c805-8f38-c81a-25fd3b07dba1/mzaf_1718359928733167649.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/dont-worry/1845064560?i=1845064567&uo=4",
+      "itunesTrackId": 1845064567,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/55/99/dc559979-05ff-3e6a-97c1-c4bcfcaed82b/25UM1IM52705.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Don't Worry - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 139201,
+      "releaseDate": "2025-10-17"
     },
     {
       "rank": 34,
       "artist": "Harry Styles",
-      "name": "American Girls"
+      "name": "American Girls",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/41/ca/2541ca67-332b-8491-2110-a8d1f6645640/mzaf_3738225504365022653.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/american-girls/1870984032?i=1870984036&uo=4",
+      "itunesTrackId": 1870984036,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/600x600bb.jpg",
+      "collectionName": "Kiss All The Time. Disco, Occasionally.",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 213440,
+      "releaseDate": "2026-03-06"
     },
     {
       "rank": 35,
       "artist": "BTS",
-      "name": "NORMAL"
+      "name": "NORMAL",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/05/e2/1a05e2d1-8102-99d2-cc5e-6a7bf856eb16/mzaf_190846966956031405.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/normal/1885720384?i=1885720624&uo=4",
+      "itunesTrackId": 1885720624,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/0a/7b/690a7bb3-4483-2418-158c-9276d7d98f81/823375049500_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 184480,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 36,
       "artist": "Michael Schulte",
-      "name": "5am"
+      "name": "5am",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/7d/ad/df7dad1a-31bb-fd80-03de-0500e1977f24/mzaf_807911893526407064.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/5am/1856275928?i=1856275934&uo=4",
+      "itunesTrackId": 1856275934,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/ec/25/91ec25dd-372e-de40-53d7-b4e664545123/25UM1IM68564.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Beautiful Reasons",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 176493,
+      "releaseDate": "2026-01-30"
     },
     {
       "rank": 37,
       "artist": "Olivia Dean",
-      "name": "Man I Need"
+      "name": "Man I Need",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/2c/6d/812c6df3-5481-5e61-b5d1-306d485b0d9d/mzaf_6058256111555931162.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/man-i-need/1817609404?i=1817609509&uo=4",
+      "itunesTrackId": 1817609509,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
+      "collectionName": "The Art of Loving",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 184000,
+      "releaseDate": "2025-09-26"
     },
     {
       "rank": 38,
       "artist": "Johannes Oerding & Michael Patrick Kelly",
-      "name": "Wolken"
+      "name": "Wolken",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/e0/27/cfe027bd-1fdf-23aa-47aa-214f9b640d88/mzaf_6283006921584532104.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/wolken/1850732814?i=1850732828&uo=4",
+      "itunesTrackId": 1850732828,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/66/e4/0266e4c7-23a1-5f8b-5088-936e491f263a/196873754376.jpg/600x600bb.jpg",
+      "collectionName": "Hotel",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 218133,
+      "releaseDate": "2026-03-13"
     },
     {
       "rank": 39,
       "artist": "Dermot Kennedy",
-      "name": "Funeral"
+      "name": "Funeral",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/7d/91/a27d91af-f346-f769-f355-97330b4d8e4c/mzaf_3916129524853178637.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/funeral/1867616617?i=1867616928&uo=4",
+      "itunesTrackId": 1867616928,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/47/9e/c8/479ec852-83dc-66e5-0667-5b62bc1e7a97/25UM1IM76628.rgb.jpg/600x600bb.jpg",
+      "collectionName": "The Weight of the Woods",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 243668,
+      "releaseDate": "2026-01-23"
     },
     {
       "rank": 40,
       "artist": "BTS",
-      "name": "FYA"
+      "name": "FYA",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/1c/6f/2d1c6fc8-f27c-1e30-02e8-70653f76b45d/mzaf_6170216992771080582.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/fya/1868481904?i=1868481909&uo=4",
+      "itunesTrackId": 1868481909,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 180544,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 41,
       "artist": "Die Toten Hosen",
-      "name": "Die Show muss weitergehen"
+      "name": "Die Show muss weitergehen",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/cf/3a/13cf3a51-4c10-7976-20ec-3ef349912c31/mzaf_2815722430807246796.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/die-show-muss-weitergehen/1884031124?i=1884031131&uo=4",
+      "itunesTrackId": 1884031131,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/01/1c/cf011c16-2f8d-a56b-2dd4-571f0a23c713/652450202604.jpg/600x600bb.jpg",
+      "collectionName": "\"Trink aus, wir müssen gehen!“ + Bonusalbum \"Alles muss raus!“",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 224707,
+      "releaseDate": "2026-03-13"
     },
     {
       "rank": 42,
       "artist": "Armin van Buuren & Alle Farben",
-      "name": "Lost in Time (feat. ROSY)"
+      "name": "Lost in Time (feat. ROSY)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/28/3a/44283aee-8f57-4c29-2c54-edda835b61f3/mzaf_3646652874625899555.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/lost-in-time-feat-rosy/1883799349?i=1883799350&uo=4",
+      "itunesTrackId": 1883799350,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/89/4b/52894bfb-d33a-66b5-4acc-f39443d5c714/cover.jpg/600x600bb.jpg",
+      "collectionName": "Lost in Time (feat. ROSY) - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 147778,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 43,
       "artist": "sombr",
-      "name": "12 to 12"
+      "name": "12 to 12",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/5d/c4/d05dc49d-f3b6-7d3a-4e5f-56e12bcde750/mzaf_14325217487291115220.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/12-to-12/1828036634?i=1828036635&uo=4",
+      "itunesTrackId": 1828036635,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/e4/44/19e44489-7f7b-3ca7-660f-98d44664bc3f/054391229144.jpg/600x600bb.jpg",
+      "collectionName": "12 to 12 - Single",
+      "primaryGenreName": "Indie-Rock",
+      "trackTimeMillis": 242903,
+      "releaseDate": "2025-07-24"
     },
     {
       "rank": 44,
       "artist": "Djo",
-      "name": "End of Beginning"
+      "name": "End of Beginning",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/df/af/6edfaf58-f901-e9b5-840b-9ac9e37f34b7/mzaf_8465065510938624101.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/end-of-beginning/1632447652?i=1632448108&uo=4",
+      "itunesTrackId": 1632448108,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/94/31/e59431de-7591-58e6-c4d4-105b6373ad6a/5056494917336_1.jpg/600x600bb.jpg",
+      "collectionName": "DECIDE",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 159246,
+      "releaseDate": "2024-03-01"
     },
     {
       "rank": 45,
       "artist": "Mr_Deluxe2020",
-      "name": "Leben,Lieben,Lachen"
+      "name": "Leben,Lieben,Lachen",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/86/e6/cf86e6ba-8507-b162-0150-9e9e12846704/mzaf_13377530230577158406.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/leben-lieben-lachen/1885326024?i=1885326026&uo=4",
+      "itunesTrackId": 1885326026,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/30/e0/3c30e0e0-93b2-c779-2c85-4d8e9fe7f280/artwork.jpg/600x600bb.jpg",
+      "collectionName": "Leben,Lieben,Lachen - Single",
+      "primaryGenreName": "R&B/Soul",
+      "trackTimeMillis": 271960,
+      "releaseDate": "2026-03-15"
     },
     {
       "rank": 46,
       "artist": "David Guetta, Teddy Swims & Tones And I",
-      "name": "Gone Gone Gone"
+      "name": "Gone Gone Gone",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/82/62/7882620b-8ab4-2219-4d98-91d294280fd8/mzaf_4545649541276658444.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/gone-gone-gone/1843159672?i=1843159674&uo=4",
+      "itunesTrackId": 1843159674,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/1b/01/ac1b0190-eef2-043f-dc65-89217875dc4d/5026854057859.jpg/600x600bb.jpg",
+      "collectionName": "Gone Gone Gone - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 198004,
+      "releaseDate": "2025-10-10"
     },
     {
       "rank": 47,
       "artist": "RAYE",
-      "name": "Click Clack Symphony. (feat. Hans Zimmer)"
+      "name": "Click Clack Symphony. (feat. Hans Zimmer)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/39/61/413961ee-def9-785d-142f-85c117a2aa82/mzaf_17854222635151302774.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/click-clack-symphony-feat-hans-zimmer/1871085677?i=1871085694&uo=4",
+      "itunesTrackId": 1871085694,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/05/10/5005106d-bb8a-32db-1172-f18405cf4a46/820200038890.jpg/600x600bb.jpg",
+      "collectionName": "THIS MUSIC MAY CONTAIN HOPE.",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 301674,
+      "releaseDate": null
     },
     {
       "rank": 48,
       "artist": "Jamie Bower",
-      "name": "Waiting for Your Love"
+      "name": "Waiting for Your Love",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/a9/90/96a99009-03d1-c0e1-7a0e-ede3b7aec671/mzaf_11221917321770646828.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/waiting-for-your-love/1884387966?i=1884387969&uo=4",
+      "itunesTrackId": 1884387969,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a4/22/47/a422470b-cbd8-8c1c-9bb0-9a539656fae5/859733919420_cover.jpg/600x600bb.jpg",
+      "collectionName": "Waiting for Your Love - Single",
+      "primaryGenreName": "Singer-Songwriter:innen",
+      "trackTimeMillis": 173285,
+      "releaseDate": "2026-03-19"
     },
     {
       "rank": 49,
       "artist": "Sarah Engels",
-      "name": "Fire (Eurovision Song Contest)"
+      "name": "Fire (Eurovision Song Contest)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/a2/40/17a24031-9b5b-e07b-196d-6323fff4dbc7/mzaf_14264787265413855416.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/fire-eurovision-song-contest/1869067385?i=1869067388&uo=4",
+      "itunesTrackId": 1869067388,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/f7/01/36f70161-1303-2ea9-4554-7ab9193264f3/26UMGIM01104.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Fire - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 177692,
+      "releaseDate": "2026-01-30"
     },
     {
       "rank": 50,
       "artist": "Alex Warren",
-      "name": "Ordinary"
+      "name": "Ordinary",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/2f/82/f42f82e5-e164-dd14-4f9a-2767d0215bae/mzaf_2512873933120069750.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/ordinary/1793663382?i=1793663645&uo=4",
+      "itunesTrackId": 1793663645,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/78/fb/4678fb84-d19e-f11b-93ff-4dc17660bff8/075679619075.jpg/600x600bb.jpg",
+      "collectionName": "Ordinary - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 186964,
+      "releaseDate": "2024-09-26"
     },
     {
       "rank": 51,
       "artist": "Harrison",
-      "name": "All the Things She Said"
+      "name": "All the Things She Said",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ba/f0/d8/baf0d866-95b7-7c8d-cf41-35f2d73ed206/mzaf_2211452752919190011.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/all-the-things-she-said/1643178562?i=1643178563&uo=4",
+      "itunesTrackId": 1643178563,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7f/a6/7f/7fa67f6c-22ed-1a05-7a86-9c7b75561b98/196589441812.jpg/600x600bb.jpg",
+      "collectionName": "All the Things She Said - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 170891,
+      "releaseDate": "2021-10-07"
     },
     {
       "rank": 52,
       "artist": "SIENNA SPIRO",
-      "name": "Die On This Hill"
+      "name": "Die On This Hill",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/62/99/a06299ec-71ae-bbab-7aea-8838292edc2d/mzaf_4661764441549262532.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/die-on-this-hill/1841769601?i=1841769602&uo=4",
+      "itunesTrackId": 1841769602,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/da/a1/f8daa172-c6b5-abc0-22c7-e1a8273f2d38/25UM1IM42518.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Die On This Hill - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 217009,
+      "releaseDate": "2025-10-10"
     },
     {
       "rank": 53,
       "artist": "Zara Larsson",
-      "name": "Lush Life"
+      "name": "Lush Life",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/52/6a/77526a57-f53f-b8ba-bdc7-e74e242c7c55/mzaf_11538198025885549610.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/lush-life/1201058048?i=1201058113&uo=4",
+      "itunesTrackId": 1201058113,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/82/69/b2826914-f524-4fed-dfeb-b6df63ea6cff/886446183473.jpg/600x600bb.jpg",
+      "collectionName": "So Good",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 200647,
+      "releaseDate": "2017-03-17"
     },
     {
       "rank": 54,
       "artist": "Benson Boone",
-      "name": "Beautiful Things"
+      "name": "Beautiful Things",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/d5/00/4dd5006f-ee02-c3f1-94db-0ed4b8dd68f1/mzaf_14250561294796027079.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/beautiful-things/1724488123?i=1724488124&uo=4",
+      "itunesTrackId": 1724488124,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/f4/92/54f49210-e260-b519-ebbd-f4f40ee710cd/054391342751.jpg/600x600bb.jpg",
+      "collectionName": "Beautiful Things - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 180304,
+      "releaseDate": "2024-01-18"
     },
     {
       "rank": 55,
       "artist": "Alle Farben",
-      "name": "Baby Goodbye"
+      "name": "Baby Goodbye",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/06/ce/fe06cec2-47ff-79b2-bca1-032540d6472f/mzaf_11260950537301955458.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/baby-goodbye/1849409475?i=1849409485&uo=4",
+      "itunesTrackId": 1849409485,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/b9/a0/42b9a01f-9224-4e1a-355c-8830db94df98/25UM1IM71094.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Baby Goodbye - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 131933,
+      "releaseDate": "2025-11-14"
     },
     {
       "rank": 56,
       "artist": "ROSALÍA, Björk & Yves Tumor",
-      "name": "Berghain"
+      "name": "Berghain",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/a7/df/aea7df99-0496-842e-835c-664c5c2d43df/mzaf_209139602190258094.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/rosalia-berghain/1878533402?i=1878533406&uo=4",
+      "itunesTrackId": 1878533406,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/ba/b3/9ebab3c4-a4f4-4c16-cac1-867c765746d1/15055.jpg/600x600bb.jpg",
+      "collectionName": "Rosalia - Berghain - Single",
+      "primaryGenreName": "Klassik",
+      "trackTimeMillis": 109290,
+      "releaseDate": "2026-02-15"
     },
     {
       "rank": 57,
       "artist": "Johannes Oerding",
-      "name": "Mehr Glück als Verstand"
+      "name": "Mehr Glück als Verstand",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/84/ee/9884ee1d-87e5-07f7-3e8d-db2e111a670d/mzaf_14257633286697763425.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/mehr-gl%C3%BCck-als-verstand/1850732814?i=1850732816&uo=4",
+      "itunesTrackId": 1850732816,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/66/e4/0266e4c7-23a1-5f8b-5088-936e491f263a/196873754376.jpg/600x600bb.jpg",
+      "collectionName": "Hotel",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 174133,
+      "releaseDate": "2026-02-27"
     },
     {
       "rank": 58,
@@ -298,7 +754,15 @@
     {
       "rank": 59,
       "artist": "James Hype",
-      "name": "Waterfalls (feat. Sam Harper & Bobby Harvey)"
+      "name": "Waterfalls (feat. Sam Harper & Bobby Harvey)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/5e/21/905e215b-9fd7-375b-27ed-2796bdbc03f7/mzaf_3947837298615215111.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/waterfalls-feat-sam-harper-bobby-harvey/1827379973?i=1827379987&uo=4",
+      "itunesTrackId": 1827379987,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/d5/ba/87d5ba5f-1391-ad81-3fee-cacc28c666a4/25UMGIM93035.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Waterfalls (feat. Sam Harper & Bobby Harvey) - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 120578,
+      "releaseDate": "2025-08-08"
     },
     {
       "rank": 60,
@@ -308,702 +772,1823 @@
     {
       "rank": 61,
       "artist": "BTS",
-      "name": "Hooligan"
+      "name": "Hooligan",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/91/08/929108c0-8371-1f2a-4067-7d64097e386e/mzaf_15333972021439507568.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/hooligan/1868862375?i=1868862377&uo=4",
+      "itunesTrackId": 1868862377,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 182047,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 62,
       "artist": "sombr",
-      "name": "Homewrecker"
+      "name": "Homewrecker",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/1b/6a/2e1b6ac5-9248-a622-1558-4ca1eb129afd/mzaf_17886671279380054774.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/homewrecker/1871595252?i=1871595253&uo=4",
+      "itunesTrackId": 1871595253,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/bf/fb/84bffb0a-023f-419f-d5f7-6636f4e5d970/054391221933.jpg/600x600bb.jpg",
+      "collectionName": "Homewrecker - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 209066,
+      "releaseDate": "2026-02-05"
     },
     {
       "rank": 63,
       "artist": "Olivia Dean",
-      "name": "So Easy (To Fall In Love)"
+      "name": "So Easy (To Fall In Love)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/78/76/b07876e5-0e27-b261-a76b-9de5135f7196/mzaf_3541076937115029478.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/so-easy-to-fall-in-love/1817609404?i=1817609507&uo=4",
+      "itunesTrackId": 1817609507,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
+      "collectionName": "The Art of Loving",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 169000,
+      "releaseDate": "2025-09-26"
     },
     {
       "rank": 64,
       "artist": "Lady Gaga & Bradley Cooper",
-      "name": "Shallow"
+      "name": "Shallow",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/7a/54/9c7a54a6-f2a7-8d8e-1d13-4fe110fddf38/mzaf_3987088489827294384.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/shallow/1434371867?i=1434371887&uo=4",
+      "itunesTrackId": 1434371887,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/600x600bb.jpg",
+      "collectionName": "A Star Is Born Soundtrack",
+      "primaryGenreName": "Soundtracks",
+      "trackTimeMillis": 215737,
+      "releaseDate": "2018-09-27"
     },
     {
       "rank": 65,
       "artist": "Bruno Mars",
-      "name": "Risk It All"
+      "name": "Risk It All",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/d9/b7/ddd9b7ed-26e7-840f-812e-ead460b5e1f0/mzaf_10786822495258520885.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/risk-it-all/1866732792?i=1866732797&uo=4",
+      "itunesTrackId": 1866732797,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/600x600bb.jpg",
+      "collectionName": "The Romantic",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 204068,
+      "releaseDate": "2026-02-27"
     },
     {
       "rank": 66,
       "artist": "Muse",
-      "name": "Be With You"
+      "name": "Be With You",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/3f/39/893f398c-1491-3399-5722-5a48de5ef7b6/mzaf_17005053488462784528.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/be-with-you/1885607338?i=1885607727&uo=4",
+      "itunesTrackId": 1885607727,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/8f/4b/5f8f4b32-9d11-b416-a6f9-3fb23e045dd0/5026854898216.jpg/600x600bb.jpg",
+      "collectionName": "The Wow! Signal",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 215196,
+      "releaseDate": "2026-03-21"
     },
     {
       "rank": 67,
       "artist": "Fantasy",
-      "name": "Wo schläfst du heut Nacht"
+      "name": "Wo schläfst du heut Nacht",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/a0/23/cea02347-e2e5-6a83-814b-dd3bb2182a00/mzaf_14153017887549152630.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/wo-schl%C3%A4fst-du-heut-nacht/1846023998?i=1846024603&uo=4",
+      "itunesTrackId": 1846024603,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/01/0a/cf010ab7-10c8-38d6-dc80-4128108e0cb1/4099964205763.jpg/600x600bb.jpg",
+      "collectionName": "Bube Dame König",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 192202,
+      "releaseDate": "2026-03-13"
     },
     {
       "rank": 68,
       "artist": "Flea",
-      "name": "A Plea"
+      "name": "A Plea",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/3c/9f/b73c9f39-d166-19e6-51d6-9982552ce582/mzaf_8822225681550196552.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/intro-who-do-you-believe-in/1835626229?i=1835626230&uo=4",
+      "itunesTrackId": 1835626230,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/12/e3/e812e33c-1f26-8f45-b41e-a63fca551591/artwork.jpg/600x600bb.jpg",
+      "collectionName": "Eyes Of A Watchman",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "trackTimeMillis": 277987,
+      "releaseDate": "2025-08-30"
     },
     {
       "rank": 69,
       "artist": "The Killers",
-      "name": "Mr. Brightside"
+      "name": "Mr. Brightside",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/95/cf/5c95cf3a-bef3-97e7-b6aa-3adde55deb30/mzaf_15328769143459778457.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/mr-brightside/1526194184?i=1526194192&uo=4",
+      "itunesTrackId": 1526194192,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/1a/5a/071a5aee-6e42-060c-35b9-6a6e45b9ea59/06UMGIM10441.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Hot Fuss",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 222973,
+      "releaseDate": "2003-09-29"
     },
     {
       "rank": 70,
       "artist": "Tori Amos",
-      "name": "Shush"
+      "name": "Shush",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/fb/1e/a5fb1e7b-ba6a-3cca-5c62-10f959668c63/mzaf_15275218059388239384.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/shush/1876339213?i=1876339214&uo=4",
+      "itunesTrackId": 1876339214,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/50/2f/64502f82-6f92-225a-2f5e-5a5bce8f2e1b/26UMGIM01544.rgb.jpg/600x600bb.jpg",
+      "collectionName": "In Times Of Dragons",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 375813,
+      "releaseDate": null
     },
     {
       "rank": 71,
       "artist": "Sal da Vinci",
-      "name": "Per sempre sì"
+      "name": "Per sempre sì",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/9b/a5/379ba5d0-8c5f-7016-730d-769a756ce752/mzaf_8235280401628873829.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/per-sempre-s%C3%AC/1876867062?i=1876867063&uo=4",
+      "itunesTrackId": 1876867063,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/5f/35/6c5f358e-2ed9-1360-c18d-10b45be71bd5/5026854679440.jpg/600x600bb.jpg",
+      "collectionName": "Per sempre sì - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 175122,
+      "releaseDate": "2026-02-25"
     },
     {
       "rank": 72,
       "artist": "Emil, Jorin Hagen, JHNWNDT & prodbyTAA",
-      "name": "Kribbeln im Bauch"
+      "name": "Kribbeln im Bauch",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/bb/8c/41bb8c0e-264c-46c9-03ff-b406ed0cff33/mzaf_6145886589543627987.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/kribbeln-im-bauch/1846336355?i=1846336359&uo=4",
+      "itunesTrackId": 1846336359,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/b6/76/9eb676dd-33ec-311c-d508-27cb858b3c52/4068992531519.jpg/600x600bb.jpg",
+      "collectionName": "Kribbeln im Bauch - Single",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "trackTimeMillis": 168960,
+      "releaseDate": "2025-10-17"
     },
     {
       "rank": 73,
       "artist": "FAYAN & Dalton",
-      "name": "VERLIEBT IN MICH"
+      "name": "VERLIEBT IN MICH",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/1c/a8/591ca820-057a-7a08-440b-6a169082840a/mzaf_10390453505228919350.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/verliebt-in-mich/1835689999?i=1835690002&uo=4",
+      "itunesTrackId": 1835690002,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/3a/6e/ff3a6e85-4486-7551-cf89-9d398e1113aa/25UM1IM24935.rgb.jpg/600x600bb.jpg",
+      "collectionName": "VERLIEBT IN MICH - Single",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "trackTimeMillis": 129982,
+      "releaseDate": "2025-08-29"
     },
     {
       "rank": 74,
       "artist": "Evanescence",
-      "name": "Bring Me to Life"
+      "name": "Bring Me to Life",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/67/7a/34677a61-d4eb-72cc-8498-ddef82f97485/mzaf_567624265840410028.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/bring-me-to-life/1708625523?i=1708625862&uo=4",
+      "itunesTrackId": 1708625862,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a0/17/2d/a0172de6-d2ba-b498-bc0e-3e44a161f4fd/23UM1IM13598.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Halloween Rock Night",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 235893,
+      "releaseDate": "2003-02-04"
     },
     {
       "rank": 75,
       "artist": "Peter Gregson",
-      "name": "360 (Arr. For Cello Obligato and String Quartet)"
+      "name": "360 (Arr. For Cello Obligato and String Quartet)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/e2/e6/88e2e6fa-739a-11f9-5584-899fdfd6d45a/mzaf_17856408773089695105.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/360-arr-for-cello-obligato-and-string-quartet/1876958045?i=1876958060&uo=4",
+      "itunesTrackId": 1876958060,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/c4/6c/c7c46c67-6e77-c65c-2847-0adfb7e3136c/25UM1IM84871.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Bridgerton Season Four (Covers from the Netflix Series)",
+      "primaryGenreName": "Klassische Crossover-Musik",
+      "trackTimeMillis": 131317,
+      "releaseDate": "2026-02-26"
     },
     {
       "rank": 76,
       "artist": "Disney & Shakira",
-      "name": "Zoo (aus \"Zoomania 2\")"
+      "name": "Zoo (aus \"Zoomania 2\")",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/5d/47/975d47c3-a1ae-2eeb-5273-7fcf0f7985eb/mzaf_16466047603180943514.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/zoo-aus-zoomania-2/1844467318?i=1844467319&uo=4",
+      "itunesTrackId": 1844467319,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/29/f4/cd29f476-ef37-a939-4c47-0ab8f1af6764/25UM1IM53466.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Zoo (aus \"Zoomania 2\") - Single",
+      "primaryGenreName": "Soundtracks",
+      "trackTimeMillis": 190823,
+      "releaseDate": "2025-10-10"
     },
     {
       "rank": 77,
       "artist": "Ricchi & Poveri",
-      "name": "Sarà perché ti amo"
+      "name": "Sarà perché ti amo",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/07/22/8a/07228a06-d0ab-6072-eebe-0e00427bf9e6/mzaf_7976611826323167337.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/sar%C3%A0-perch%C3%A9-ti-amo/252058348?i=252058375&uo=4",
+      "itunesTrackId": 252058375,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c6/df/9d/mzi.ngbmjcuk.jpg/600x600bb.jpg",
+      "collectionName": "Nur das Beste: Ricchi e Poveri",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 189800,
+      "releaseDate": "1981-02-01"
     },
     {
       "rank": 78,
       "artist": "Miley Cyrus",
-      "name": "End of the World"
+      "name": "End of the World",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/c5/2b/a1c52bdb-5fea-9abf-038c-76c04db0900c/mzaf_9619135548827080150.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/end-of-the-world/1804974240?i=1804974563&uo=4",
+      "itunesTrackId": 1804974563,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/600x600bb.jpg",
+      "collectionName": "Something Beautiful",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 250484,
+      "releaseDate": "2025-04-04"
     },
     {
       "rank": 79,
       "artist": "Calum Scott & Whitney Houston",
-      "name": "I Wanna Dance With Somebody (Who Loves Me)"
+      "name": "I Wanna Dance With Somebody (Who Loves Me)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/d6/87/5ad68723-c193-f69b-d69a-78dbbd081e0d/mzaf_1029830092933145641.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/i-wanna-dance-with-somebody-who-loves-me/1805711983?i=1805712312&uo=4",
+      "itunesTrackId": 1805712312,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d1/ab/ee/d1abeefd-8f4e-dea8-88e9-265455a7c212/25UMGIM36906.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Avenoir",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 218006,
+      "releaseDate": "2025-09-11"
     },
     {
       "rank": 80,
       "artist": "Jennifer Lopez & David Guetta",
-      "name": "Save Me Tonight"
+      "name": "Save Me Tonight",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/06/b2/5606b2d3-6b0c-a3c1-58cc-9f1431fe9d5e/mzaf_5621344525650359065.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/save-me-tonight/1878974339?i=1878974345&uo=4",
+      "itunesTrackId": 1878974345,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/36/55/2a36551e-fef3-e879-831e-4e3c458e19d7/5026854741932.jpg/600x600bb.jpg",
+      "collectionName": "Save Me Tonight - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 196003,
+      "releaseDate": "2026-02-19"
     },
     {
       "rank": 81,
       "artist": "sombr",
-      "name": "undressed"
+      "name": "undressed",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/c4/dd/48c4dd2b-8335-be3c-81f3-f13b84e0cf0a/mzaf_4574789671002849650.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/undressed/1802084937?i=1802084938&uo=4",
+      "itunesTrackId": 1802084938,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/98/7d/2a987dd6-2961-b988-d7f1-e7a59f990dce/054391234278.jpg/600x600bb.jpg",
+      "collectionName": "undressed - Single",
+      "primaryGenreName": "Indie-Rock",
+      "trackTimeMillis": 182089,
+      "releaseDate": "2025-03-21"
     },
     {
       "rank": 82,
       "artist": "Julian Sommer",
-      "name": "Dachdecker"
+      "name": "Dachdecker",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/6e/5d/fc6e5de3-27c3-d4bd-0cc5-826ecf33d015/mzaf_12329331348697401935.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/dachdecker/1883026808?i=1883026809&uo=4",
+      "itunesTrackId": 1883026809,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/47/94/a14794ea-dbae-51a4-5073-6b6e0f3079c1/26UMGIM24697.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Dachdecker - Single",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 201103,
+      "releaseDate": "2026-03-13"
     },
     {
       "rank": 83,
       "artist": "Julian Sommer & Luca-Dante Spadafora",
-      "name": "WENN ICH NÜCHTERN WÄR"
+      "name": "WENN ICH NÜCHTERN WÄR",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/69/09/31/6909310f-7709-4240-5d34-ada9671e19da/mzaf_3005438849428781358.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/wenn-ich-n%C3%BCchtern-w%C3%A4r/1873934754?i=1873934764&uo=4",
+      "itunesTrackId": 1873934764,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/f6/42/91f6428f-9f3f-2ee7-0160-a58783a30802/26UMGIM10257.rgb.jpg/600x600bb.jpg",
+      "collectionName": "WENN ICH NÜCHTERN WÄR - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 136552,
+      "releaseDate": "2026-02-06"
     },
     {
       "rank": 84,
       "artist": "Cage",
-      "name": "What The World Needs Now"
+      "name": "What The World Needs Now",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/d8/5e/fcd85e92-7d38-674f-b2b8-573d22383e25/mzaf_8771447813596154398.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/what-the-world-needs-now/1870585781?i=1870585787&uo=4",
+      "itunesTrackId": 1870585787,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/ac/2c/2fac2ccb-c4a3-8a67-7d7c-769edd2259f7/4099964235821.jpg/600x600bb.jpg",
+      "collectionName": "What The World Needs Now - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 219471,
+      "releaseDate": "2026-01-22"
     },
     {
       "rank": 85,
       "artist": "Unheilig",
-      "name": "Du bist meine Heimat"
+      "name": "Du bist meine Heimat",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/c7/c7/20c7c7b6-225c-439c-4d76-ea82e67d2595/mzaf_5589933004159375228.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/du-bist-meine-heimat/1836975038?i=1836975380&uo=4",
+      "itunesTrackId": 1836975380,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/a9/68/35a96862-5406-a4e9-b038-7035e1e7a5af/25UM1IM25831.rgb.jpg/600x600bb.jpg",
+      "collectionName": "LIEBE GLAUBE MONSTER",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 212933,
+      "releaseDate": "2026-03-13"
     },
     {
       "rank": 86,
       "artist": "Kate Bush",
-      "name": "Running Up That Hill (A Deal With God) [2018 Remaster]"
+      "name": "Running Up That Hill (A Deal With God) [2018 Remaster]",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e5/ba/20/e5ba201c-8940-86d1-0541-520079b6c916/mzaf_13026886145802029834.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/running-up-that-hill-a-deal-with-god-2018-remaster/1675560565?i=1675560578&uo=4",
+      "itunesTrackId": 1675560578,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/97/32/62973286-5bb3-0de7-c051-8b2de8d95472/cover.jpg/600x600bb.jpg",
+      "collectionName": "Hounds of Love (2018 Remaster)",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 300840,
+      "releaseDate": "1985-08-05"
     },
     {
       "rank": 87,
       "artist": "Journey",
-      "name": "Don't Stop Believin' (2024 Remaster)"
+      "name": "Don't Stop Believin' (2024 Remaster)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/5c/72/97/5c72974f-6022-f760-ad82-35964fb636b5/mzaf_12752096049347330756.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/dont-stop-believin-2024-remaster/169003304?i=169003415&uo=4",
+      "itunesTrackId": 169003415,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/2d/61/712d617d-f4a4-5904-1b11-d4b4b45c47c5/828768588925.jpg/600x600bb.jpg",
+      "collectionName": "Greatest Hits (2024 Remaster)",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 250835,
+      "releaseDate": "1981-06-03"
     },
     {
       "rank": 88,
       "artist": "BTS",
-      "name": "they don’t know ’bout us"
+      "name": "they don’t know ’bout us",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/b5/79/6cb5792b-e299-72d1-e3e1-4172efb80635/mzaf_5542114514554180874.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/they-dont-know-bout-us/1868862375?i=1868862389&uo=4",
+      "itunesTrackId": 1868862389,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 164242,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 89,
       "artist": "Lady Gaga",
-      "name": "Abracadabra"
+      "name": "Abracadabra",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/ae/23/66ae23ad-76f2-cc89-bcef-8592f03f4a74/mzaf_3200208882053923784.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/abracadabra/1793869707?i=1793869710&uo=4",
+      "itunesTrackId": 1793869710,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/64/2c/54642c8f-4c6c-5e55-45ea-475f98cf74b4/25UMGIM06790.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Abracadabra - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 223398,
+      "releaseDate": "2025-02-03"
     },
     {
       "rank": 90,
       "artist": "Justė, Jaxstyle & Jon",
-      "name": "Turn The Lights Off"
+      "name": "Turn The Lights Off",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/ba/26/32ba2613-d90c-cced-1074-ec197dbb4c0d/mzaf_17509163562157565748.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/turn-the-lights-off/1850487364?i=1850487672&uo=4",
+      "itunesTrackId": 1850487672,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/d8/50/9ed85068-7181-d115-cb6b-470a6fb2abd3/5026854195841.jpg/600x600bb.jpg",
+      "collectionName": "Turn The Lights Off - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 162717,
+      "releaseDate": "2025-11-07"
     },
     {
       "rank": 91,
       "artist": "Aiyana-Lee",
-      "name": "Housebroken"
+      "name": "Housebroken",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/71/5f/d2715f4b-162d-b166-8d28-52f0b9a5965e/mzaf_1048855859272789687.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/housebroken/1876041563?i=1876041564&uo=4",
+      "itunesTrackId": 1876041564,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/87/cb/1f87cb2c-a621-717c-fcf3-f149d9e36420/346766.jpg/600x600bb.jpg",
+      "collectionName": "Housebroken - Single",
+      "primaryGenreName": "R&B/Soul",
+      "trackTimeMillis": 217320,
+      "releaseDate": "2026-02-20"
     },
     {
       "rank": 92,
       "artist": "Unheilig",
-      "name": "Mein Löwe"
+      "name": "Mein Löwe",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/01/0c/fd010cee-5b85-672f-8a97-a064e83bf98c/mzaf_14472279750056729127.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/mein-l%C3%B6we/1836975038?i=1836975384&uo=4",
+      "itunesTrackId": 1836975384,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/a9/68/35a96862-5406-a4e9-b038-7035e1e7a5af/25UM1IM25831.rgb.jpg/600x600bb.jpg",
+      "collectionName": "LIEBE GLAUBE MONSTER",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 197413,
+      "releaseDate": "2025-12-12"
     },
     {
       "rank": 93,
       "artist": "Becky G",
-      "name": "Shower"
+      "name": "Shower",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/28/60/8b/28608be1-ac33-ca4b-05ed-f6133556ee5f/mzaf_6511680028124136489.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/shower/868199032?i=868199261&uo=4",
+      "itunesTrackId": 868199261,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1e/a4/fc/1ea4fc70-bd8e-5fe8-8bb2-aca496c73839/dj.jgevzlxu.jpg/600x600bb.jpg",
+      "collectionName": "Shower - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 206167,
+      "releaseDate": "2014-04-23"
     },
     {
       "rank": 94,
       "artist": "KATO",
-      "name": "Turn the Lights Off (feat. Jon)"
+      "name": "Turn the Lights Off (feat. Jon)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/a1/32/99a1321e-1b88-e392-0283-e5e14432dddd/mzaf_8019915862113618447.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/turn-the-lights-off-radio-edit/348594096?i=348594111&uo=4",
+      "itunesTrackId": 348594111,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/e9/0a/a5e90acf-84b3-f9ef-b00c-7632f64ee698/884977472622.jpg/600x600bb.jpg",
+      "collectionName": "Turn the Lights Off - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 178947,
+      "releaseDate": "2010-01-04"
     },
     {
       "rank": 95,
       "artist": "Miley Cyrus",
-      "name": "Flowers"
+      "name": "Flowers",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/46/32/c546324e-d129-4630-45cd-78092836ce4f/mzaf_14963616412621662357.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/flowers/1702906527?i=1702906535&uo=4",
+      "itunesTrackId": 1702906535,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/600x600bb.jpg",
+      "collectionName": "Endless Summer Vacation",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 200600,
+      "releaseDate": "2023-01-12"
     },
     {
       "rank": 96,
       "artist": "RASELHITS",
-      "name": "ALONE WITH MEMORIES"
+      "name": "ALONE WITH MEMORIES",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/ad/08/45ad0857-cb8e-48be-54f1-c08f800e6cea/mzaf_8061265839234997908.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/alone-with-memories/1877441287?i=1877441378&uo=4",
+      "itunesTrackId": 1877441378,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/e6/aa/0fe6aa23-9218-7759-8b33-4f382987899c/artwork.jpg/600x600bb.jpg",
+      "collectionName": "ALONE WITH MEMORIES - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 274920,
+      "releaseDate": "2026-02-10"
     },
     {
       "rank": 97,
       "artist": "Bee Gees",
-      "name": "Stayin' Alive"
+      "name": "Stayin' Alive",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/ed/d6/36edd6a5-2093-3aea-43f3-318f2b75373b/mzaf_14646237435212422067.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/stayin-alive/1445668810?i=1445669633&uo=4",
+      "itunesTrackId": 1445669633,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/94/a7/5f/94a75fd1-17da-3a38-42dc-c5e35bf56046/16UMGIM86639.rgb.jpg/600x600bb.jpg",
+      "collectionName": "The Ultimate Bee Gees",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 283147,
+      "releaseDate": "1977-11-15"
     },
     {
       "rank": 98,
       "artist": "Disco Lines & Tinashe",
-      "name": "No Broke Boys"
+      "name": "No Broke Boys",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/18/9b/ac189b49-cf42-7fb8-b02c-74efee0d095f/mzaf_14478659170224076791.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/no-broke-boys-avello-remix-mixed/1844681487?i=1844681708&uo=4",
+      "itunesTrackId": 1844681708,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/3f/05/fa3f051a-3f86-c6af-0a5c-ecc338b2ea03/96cdb441-8c4d-404a-b7e3-0acd299eb417.jpg/600x600bb.jpg",
+      "collectionName": "Shambhala 2025: Illenium at the Village Stage (DJ Mix)",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 58140,
+      "releaseDate": "2025-07-27"
     },
     {
       "rank": 99,
       "artist": "FLO",
-      "name": "Leak It"
+      "name": "Leak It",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/aa/01/7caa0183-fd53-4a0b-79af-0e001ba7fc42/mzaf_15309845339969326162.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/leak-it/1881967930?i=1881967943&uo=4",
+      "itunesTrackId": 1881967943,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/23/8c/1f238c18-8dcb-de02-6068-d043d1d073f1/26UMGIM16757.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Leak It - Single",
+      "primaryGenreName": "R&B/Soul",
+      "trackTimeMillis": 183407,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 100,
       "artist": "Maite Kelly",
-      "name": "Frei"
+      "name": "Frei",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/56/33/a85633f3-7ff2-75fd-2f7d-fc8072844807/mzaf_17220877162467678954.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/frei/1846278664?i=1846278668&uo=4",
+      "itunesTrackId": 1846278668,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/b4/0f/94b40f26-73ba-bcc8-2895-1a5138e12b2d/25UM1IM65258.rgb.jpg/600x600bb.jpg",
+      "collectionName": "24/7",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 209079,
+      "releaseDate": "2026-03-13"
     },
     {
       "rank": 101,
       "artist": "DJTEXX",
-      "name": "Wild West & Wicked (Remix)"
+      "name": "Wild West & Wicked (Remix)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/3b/87/113b8782-3c37-e97c-6ab5-51fecee1eefb/mzaf_10579456614653140408.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/wild-west-wicked-remix/1879322798?i=1879322799&uo=4",
+      "itunesTrackId": 1879322799,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/c4/40/1cc440a8-8c41-d943-94fc-0a1c010b4e0c/057914994529.png/600x600bb.jpg",
+      "collectionName": "Wild West & Wicked (Remix) - Single",
+      "primaryGenreName": "Country",
+      "trackTimeMillis": 174960,
+      "releaseDate": "2026-02-22"
     },
     {
       "rank": 102,
       "artist": "Muse",
-      "name": "Unravelling"
+      "name": "Unravelling",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/a3/18/1ea31834-e7e2-9796-2f70-1b991c443bd9/mzaf_11800981532092041834.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/unravelling/1818597942?i=1818597945&uo=4",
+      "itunesTrackId": 1818597945,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/96/13/ef9613c9-2021-e542-c320-b372da733da2/5021732834430.jpg/600x600bb.jpg",
+      "collectionName": "Unravelling - Single",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 238002,
+      "releaseDate": "2025-06-20"
     },
     {
       "rank": 103,
       "artist": "Rumbombe & Bozi",
-      "name": "INSELBANDE"
+      "name": "INSELBANDE",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/7d/71/b97d71b7-3c64-7e33-c2ca-884e592691c8/mzaf_7591400612698629091.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/inselbande/1882994207?i=1882994210&uo=4",
+      "itunesTrackId": 1882994210,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/91/99/a89199db-be16-283d-c264-131497e91eb1/26UMGIM26607.rgb.jpg/600x600bb.jpg",
+      "collectionName": "INSELBANDE - Single",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 141593,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 104,
       "artist": "AURA",
-      "name": "An deiner Seite (Radio)"
+      "name": "An deiner Seite (Radio)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/bb/4f/46bb4f66-8966-635f-2791-1351e3159d52/mzaf_8778419011508286901.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/an-deiner-seite-radio/1883172286?i=1883172472&uo=4",
+      "itunesTrackId": 1883172472,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/a9/3e/e7a93e1e-0968-a3e6-c2ab-121727d6c8c9/9008798753185_cover.jpg/600x600bb.jpg",
+      "collectionName": "An deiner Seite (Radio) - Single",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 184347,
+      "releaseDate": "2026-01-03"
     },
     {
       "rank": 105,
       "artist": "Roy Bianco & Die Abbrunzati Boys",
-      "name": "Bella Napoli"
+      "name": "Bella Napoli",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/3c/a0/8e/3ca08e89-9c9c-03ad-d0fe-d9dee768556b/mzaf_8381272217601833669.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/bella-napoli/1594379952?i=1594379970&uo=4",
+      "itunesTrackId": 1594379970,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/66/fd/0e/66fd0eef-7d0c-8bff-b079-e5319d41757e/21UM1IM27773.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Mille Grazie",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 235990,
+      "releaseDate": "2022-04-08"
     },
     {
       "rank": 106,
       "artist": "Sarah Connor & Sido",
-      "name": "Interstellar (Zwischen den Sternen)"
+      "name": "Interstellar (Zwischen den Sternen)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/d6/4d/f3d64d2b-bfeb-9587-4371-5d9a30838a32/mzaf_15123664751296371101.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/interstellar-zwischen-den-sternen/1882397051?i=1882397248&uo=4",
+      "itunesTrackId": 1882397248,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/e9/2a/27e92add-8c55-f5d2-9dc2-d939e18904ef/26UMGIM22885.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Interstellar (Zwischen den Sternen) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 148333,
+      "releaseDate": "2025-05-22"
     },
     {
       "rank": 107,
       "artist": "Eva Cassidy",
-      "name": "Wayfaring Stranger"
+      "name": "Wayfaring Stranger",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a8/db/26/a8db26f5-7116-4efa-1c4b-e83742da088f/mzaf_13726383768477703678.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/wayfaring-stranger-acoustic/1317816802?i=1317817362&uo=4",
+      "itunesTrackId": 1317817362,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/56/50/135650a7-f1df-f770-9249-dca9195c9425/190296958724.jpg/600x600bb.jpg",
+      "collectionName": "Acoustic",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 188747,
+      "releaseDate": "2011-01-01"
     },
     {
       "rank": 108,
       "artist": "Chapo102, Gustav & 102 Boyz",
-      "name": "Warschau"
+      "name": "Warschau",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/c6/7b/a6c67bd4-2f9c-0cab-bc7d-c79a79787a98/mzaf_3667640409261566030.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/warschau/1859603281?i=1859603507&uo=4",
+      "itunesTrackId": 1859603507,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/a2/6d/27a26db7-4b94-1413-beea-f5a92e7c704c/25UM2IM03033.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Fahrt ins Blaue",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "trackTimeMillis": 181204,
+      "releaseDate": "2026-03-13"
     },
     {
       "rank": 109,
       "artist": "Bad Bunny",
-      "name": "DtMF"
+      "name": "DtMF",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/c7/0c/2dc70cf6-c9cd-2152-02c1-c9d38060cf56/mzaf_3968478460303781646.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/mayores/1483618279?i=1483618937&uo=4",
+      "itunesTrackId": 1483618937,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/65/69/2b6569c2-e825-cce3-f94a-c2cbe6e68c1f/886448075417.jpg/600x600bb.jpg",
+      "collectionName": "MALA SANTA",
+      "primaryGenreName": "Pop auf Spanisch",
+      "trackTimeMillis": 203183,
+      "releaseDate": "2017-07-14"
     },
     {
       "rank": 110,
       "artist": "Disturbed",
-      "name": "The Sound of Silence"
+      "name": "The Sound of Silence",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a5/0b/8a/a50b8a9b-be1d-c43c-9236-e10ce4038db5/mzaf_6738321194496105228.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/the-sound-of-silence/1006937448?i=1006937459&uo=4",
+      "itunesTrackId": 1006937459,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/32/2b/12/322b1228-a133-3317-8d05-742669b700ec/093624926245.jpg/600x600bb.jpg",
+      "collectionName": "Immortalized (Deluxe Edition)",
+      "primaryGenreName": "Hard Rock",
+      "trackTimeMillis": 248487,
+      "releaseDate": "2015-08-21"
     },
     {
       "rank": 111,
       "artist": "Udo Lindenberg & Apache 207",
-      "name": "Komet"
+      "name": "Komet",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/4b/3b/c84b3b17-a6d1-bb27-f307-567b5437a81c/mzaf_1931028906472802154.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/komet/1663920333?i=1663920336&uo=4",
+      "itunesTrackId": 1663920336,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/50/49/17/50491796-e488-a0ae-03ff-cab5afb4aef1/5054197494963.jpg/600x600bb.jpg",
+      "collectionName": "Komet - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 167357,
+      "releaseDate": "2023-01-19"
     },
     {
       "rank": 112,
       "artist": "Maite Kelly",
-      "name": "Der Morgen danach"
+      "name": "Der Morgen danach",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/6c/77/3a6c77c7-f6e9-9a6a-3ae5-4645e9b18310/mzaf_3720452278853154665.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/der-morgen-danach/1846278664?i=1846278665&uo=4",
+      "itunesTrackId": 1846278665,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/b4/0f/94b40f26-73ba-bcc8-2895-1a5138e12b2d/25UM1IM65258.rgb.jpg/600x600bb.jpg",
+      "collectionName": "24/7",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 226678,
+      "releaseDate": "2025-10-17"
     },
     {
       "rank": 113,
       "artist": "Good Vibes Tribe 11:11",
-      "name": "I'm Not What Happened To Me"
+      "name": "I'm Not What Happened To Me",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/fa/c4/35fac4e2-6b39-ed99-b8d0-24c86168be75/mzaf_8958823062787473546.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/im-not-what-happened-to-me/1858258926?i=1858258934&uo=4",
+      "itunesTrackId": 1858258934,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/d4/8a/9dd48ae3-6955-8a02-82be-1b41b86e45f1/cover.jpg/600x600bb.jpg",
+      "collectionName": "I'm Not What Happened To Me - Single",
+      "primaryGenreName": "Electronic",
+      "trackTimeMillis": 169960,
+      "releaseDate": "2025-10-24"
     },
     {
       "rank": 114,
       "artist": "Dave & Tems",
-      "name": "Raindance"
+      "name": "Raindance",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/1d/35/e41d35e0-8fc5-d162-ca75-217824861af3/mzaf_8964384196182600828.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/raindance/1847992481?i=1847992612&uo=4",
+      "itunesTrackId": 1847992612,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/49/24/9949241c-e52c-3018-eae8-c686013a7474/25UM1IM68216.rgb.jpg/600x600bb.jpg",
+      "collectionName": "The Boy Who Played the Harp",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "trackTimeMillis": 219744,
+      "releaseDate": "2025-10-24"
     },
     {
       "rank": 115,
       "artist": "HUGEL & SOLTO (FR)",
-      "name": "Jamaican (Bam Bam)"
+      "name": "Jamaican (Bam Bam)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/f6/14/1ef614c6-6f76-4142-8872-d7522c48648c/mzaf_16960215745044163951.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/jamaican-bam-bam/1883679875?i=1883679876&uo=4",
+      "itunesTrackId": 1883679876,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/f1/7c/edf17ca2-848a-c0e7-0772-4abf9666d70f/26UMGIM27048.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Jamaican (Bam Bam) - Single",
+      "primaryGenreName": "Afro House",
+      "trackTimeMillis": 156393,
+      "releaseDate": "2025-11-07"
     },
     {
       "rank": 116,
       "artist": "AYLIVA",
-      "name": "Renn!"
+      "name": "Renn!",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/eb/54/d2eb54b3-c324-8fa5-d70a-ca9de0ab2014/mzaf_12376517086656098740.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/renn/1866890621?i=1866890622&uo=4",
+      "itunesTrackId": 1866890622,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/79/a8/0379a8c3-019a-c217-d34e-a14e2cc3912d/5026854435237.jpg/600x600bb.jpg",
+      "collectionName": "Renn! - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 166760,
+      "releaseDate": "2026-01-23"
     },
     {
       "rank": 117,
       "artist": "Harry Styles",
-      "name": "Aperture"
+      "name": "Aperture",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/f9/0e/46f90e9b-0d1a-b986-c3f9-0e690e79c79b/mzaf_8629808582610321991.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/aperture/1870984032?i=1870984033&uo=4",
+      "itunesTrackId": 1870984033,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/600x600bb.jpg",
+      "collectionName": "Kiss All The Time. Disco, Occasionally.",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 311733,
+      "releaseDate": "2026-01-22"
     },
     {
       "rank": 118,
       "artist": "Alex Warren",
-      "name": "Eternity"
+      "name": "Eternity",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/2c/0c/cf2c0c08-d9bb-b086-0219-63e784c20b3e/mzaf_4217841231056586212.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/eternity/1817735146?i=1817735147&uo=4",
+      "itunesTrackId": 1817735147,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/1e/c9/c71ec9f8-f6fd-5374-0e5c-3419539618f4/075679607942.jpg/600x600bb.jpg",
+      "collectionName": "You'll Be Alright, Kid",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 189554,
+      "releaseDate": "2025-07-18"
     },
     {
       "rank": 119,
       "artist": "Van Halen",
-      "name": "Jump"
+      "name": "Jump",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cc/2f/d0/cc2fd073-8d0c-4a7d-630c-64639fbb56e1/mzaf_15726260092255257970.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/jump/976831013?i=976832495&uo=4",
+      "itunesTrackId": 976832495,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/98/f7/7998f761-20e0-aa8e-4fb2-190062af1638/603497894161.jpg/600x600bb.jpg",
+      "collectionName": "1984",
+      "primaryGenreName": "Hard Rock",
+      "trackTimeMillis": 241643,
+      "releaseDate": "1983-12-21"
     },
     {
       "rank": 120,
       "artist": "Lola Young",
-      "name": "Messy"
+      "name": "Messy",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/b2/fc/f9b2fcde-5fe3-b5bb-752e-94bc2e691d67/mzaf_10274899704913860330.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/messy-loud-luxury-remix-mixed/1801581452?i=1801581458&uo=4",
+      "itunesTrackId": 1801581458,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/c2/47/16c247fa-3723-8080-646f-bf514aba6939/b58dbafe-17b1-4401-a089-b347865d4411.jpg/600x600bb.jpg",
+      "collectionName": "Songs You've Been Asking For, Vol. 6 (DJ Mix)",
+      "primaryGenreName": "Electronic",
+      "trackTimeMillis": 199497,
+      "releaseDate": "2025-03-21"
     },
     {
       "rank": 121,
       "artist": "Signor Rossi",
-      "name": "Sole,Mare,Mojito"
+      "name": "Sole,Mare,Mojito",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/54/4d/9a544dba-f466-0191-0c76-36f2051c6391/mzaf_1779241150938937412.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/sole-mare-mojito/1887068762?i=1887068763&uo=4",
+      "itunesTrackId": 1887068763,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/9b/7f/0d9b7f75-6970-f48d-5a60-ecb43acdc48d/artwork.jpg/600x600bb.jpg",
+      "collectionName": "Sole,Mare,Mojito - Single",
+      "primaryGenreName": "Latin",
+      "trackTimeMillis": 123520,
+      "releaseDate": "2026-03-07"
     },
     {
       "rank": 122,
       "artist": "Bonnie Tyler",
-      "name": "Only Love"
+      "name": "Only Love",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/5b/7b/545b7bec-c73f-9b74-d185-0fdf363f3ffe/mzaf_5778528616776597692.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/only-love/1880189920?i=1880189921&uo=4",
+      "itunesTrackId": 1880189921,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/09/be/5509be6d-bfac-1d31-52d4-88af8c263c84/9932.jpg/600x600bb.jpg",
+      "collectionName": "Only Love - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 220170,
+      "releaseDate": "2026-03-21"
     },
     {
       "rank": 123,
       "artist": "BTS",
-      "name": "Aliens"
+      "name": "Aliens",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/61/b4/1261b409-5308-deff-b53a-977b0c9286a0/mzaf_5604354555370142060.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/aliens/1885720384?i=1885720391&uo=4",
+      "itunesTrackId": 1885720391,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/0a/7b/690a7bb3-4483-2418-158c-9276d7d98f81/823375049500_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 167751,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 124,
       "artist": "BTS",
-      "name": "Into the Sun"
+      "name": "Into the Sun",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/52/c5/5352c5ae-73d5-0c8c-7a8d-a6c34978b2c8/mzaf_14411937988505536207.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/into-the-sun/1868862375?i=1868862606&uo=4",
+      "itunesTrackId": 1868862606,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 227661,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 125,
       "artist": "Holly Humberstone",
-      "name": "To Love Somebody"
+      "name": "To Love Somebody",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/5b/ca/aa5bca88-ba43-5181-fc46-67ef9d4b2143/mzaf_14557828571348643007.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/to-love-somebody/1873991816?i=1873991834&uo=4",
+      "itunesTrackId": 1873991834,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/62/12/5c621263-fb65-049c-bffe-5b67876592cf/25UM2IM01991.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Cruel World",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 237952,
+      "releaseDate": null
     },
     {
       "rank": 126,
       "artist": "Myles Smith",
-      "name": "Stay (If You Wanna Dance)"
+      "name": "Stay (If You Wanna Dance)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/d7/cc/07d7cc5c-5f86-69f7-fbce-b18b1ebcd846/mzaf_9125689647592640542.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/stay-if-you-wanna-dance/1837714947?i=1837714951&uo=4",
+      "itunesTrackId": 1837714951,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/52/89/1a52898c-7466-2410-1c32-f8c4df63b60a/196873580234.jpg/600x600bb.jpg",
+      "collectionName": "Stay (If You Wanna Dance) - Single",
+      "primaryGenreName": "Singer-Songwriter:innen",
+      "trackTimeMillis": 186000,
+      "releaseDate": "2025-09-26"
     },
     {
       "rank": 127,
       "artist": "Red Hot Chili Peppers",
-      "name": "Otherside"
+      "name": "Otherside",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/29/b3/ba/29b3ba46-c8c3-5885-6102-e282f08772f9/mzaf_9007792087267632704.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/otherside/945575406?i=945575411&uo=4",
+      "itunesTrackId": 945575411,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/86/1d/4c861dab-5428-f3b7-8068-82bb69db5e89/093624932130.jpg/600x600bb.jpg",
+      "collectionName": "Californication (Remastered)",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 255951,
+      "releaseDate": "1999-06-08"
     },
     {
       "rank": 128,
       "artist": "Johannes Oerding",
-      "name": "Sonntag"
+      "name": "Sonntag",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/b5/43/77b543b7-1ccb-6318-a5cd-781edfadbe6e/mzaf_10059589900382933652.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/sonntag/1843657518?i=1843657519&uo=4",
+      "itunesTrackId": 1843657519,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/9c/38/329c38e6-d258-c70e-3f9d-1d8f332cdb24/196873670256.jpg/600x600bb.jpg",
+      "collectionName": "Sonntag - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 201307,
+      "releaseDate": "2025-10-17"
     },
     {
       "rank": 129,
       "artist": "Jahin Music",
-      "name": "Your Phone Linging"
+      "name": "Your Phone Linging",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/70/e8/2770e817-a7b2-282c-69b0-82ebaa16699d/mzaf_10719798911608839967.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/your-phone-linging/1799044697?i=1799044881&uo=4",
+      "itunesTrackId": 1799044881,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/69/ff/a869ff20-80f3-b100-c3d7-056ab96fdc7f/649130.jpg/600x600bb.jpg",
+      "collectionName": "Your Phone Linging - Single",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 127080,
+      "releaseDate": "2023-11-25"
     },
     {
       "rank": 130,
       "artist": "Queen",
-      "name": "Don't Stop Me Now"
+      "name": "Don't Stop Me Now",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a8/e9/68/a8e96862-ebb9-ee9e-ee75-e047e02f7e2f/mzaf_13210232226651310717.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/dont-stop-me-now/1441457371?i=1441457594&uo=4",
+      "itunesTrackId": 1441457594,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/3e/37/273e37e3-86bf-9420-1917-7f991ee5138b/14UMGIM42223.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Jazz (Deluxe Edition)",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 209391,
+      "releaseDate": "1978-11-10"
     },
     {
       "rank": 131,
       "artist": "Johannes Oerding & Sarah Connor",
-      "name": "Märchen aus Hollywood"
+      "name": "Märchen aus Hollywood",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/45/19/8d451984-2ef9-3c01-c954-60d3ab99d12b/mzaf_1529852050500622551.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/m%C3%A4rchen-aus-hollywood/1850732814?i=1850732818&uo=4",
+      "itunesTrackId": 1850732818,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/66/e4/0266e4c7-23a1-5f8b-5088-936e491f263a/196873754376.jpg/600x600bb.jpg",
+      "collectionName": "Hotel",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 279936,
+      "releaseDate": "2026-02-13"
     },
     {
       "rank": 132,
       "artist": "Marc Atlas",
-      "name": "Echoes of You"
+      "name": "Echoes of You",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/26/0c/67260c9f-e4e1-58f6-c027-3982721beffc/mzaf_13523775161120348837.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/echoes-of-you/1840786069?i=1840786072&uo=4",
+      "itunesTrackId": 1840786072,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/83/83/35/838335e6-413b-7659-05ce-f032779723a0/25SYMIM22395.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Echoes of You - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 205920,
+      "releaseDate": "2026-01-16"
     },
     {
       "rank": 133,
       "artist": "Måneskin",
-      "name": "I WANNA BE YOUR SLAVE"
+      "name": "I WANNA BE YOUR SLAVE",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/5d/6b/0e5d6b0f-b4d3-4b65-101e-88d793f0cea4/mzaf_1001139559099771861.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/i-wanna-be-your-slave-feat-margad/1755308690?i=1755308692&uo=4",
+      "itunesTrackId": 1755308692,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/22/96/96/22969680-e61b-8bf5-9f4d-a2d3663e198e/8268.jpg/600x600bb.jpg",
+      "collectionName": "I Wanna Be Your Slave (feat. Margad) - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 159524,
+      "releaseDate": "2021-12-17"
     },
     {
       "rank": 134,
       "artist": "Flea",
-      "name": "Thinkin Bout You"
+      "name": "Thinkin Bout You",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/a3/9d/58a39d6c-76da-365d-df71-b686b81a7eb8/mzaf_17015132668423799400.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/thinkin-bout-you/1861644307?i=1861644320&uo=4",
+      "itunesTrackId": 1861644320,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/65/ce/0565ced3-0441-f4fd-b603-319d244eb8c8/075597893649.jpg/600x600bb.jpg",
+      "collectionName": "Honora",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 250493,
+      "releaseDate": "2025-12-02"
     },
     {
       "rank": 135,
       "artist": "Lady Gaga & Bruno Mars",
-      "name": "Die With A Smile"
+      "name": "Die With A Smile",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/fa/34/03fa34f0-35e1-75b5-3c77-da73a56d59fd/mzaf_10738313142234521696.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/die-with-a-smile/1776932975?i=1776932982&uo=4",
+      "itunesTrackId": 1776932982,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/ea/bb/21eabbac-4f51-db83-1226-ca615b58eea1/24UMGIM85348.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Die With A Smile (Main + Instrumental + Video) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 251668,
+      "releaseDate": "2024-08-16"
     },
     {
       "rank": 136,
       "artist": "John Legend",
-      "name": "All of Me"
+      "name": "All of Me",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/82/42/6c824284-399d-b1bd-5a60-873e67cf9af8/mzaf_17162071416676008329.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/all-of-me/1441844369?i=1441844542&uo=4",
+      "itunesTrackId": 1441844542,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/22/71/b9/2271b906-85b3-06ee-e611-489b91df0b73/886444160742.jpg/600x600bb.jpg",
+      "collectionName": "Love in the Future (Expanded Edition)",
+      "primaryGenreName": "R&B/Soul",
+      "trackTimeMillis": 269557,
+      "releaseDate": "2013-08-12"
     },
     {
       "rank": 137,
       "artist": "AC/DC",
-      "name": "Highway to Hell"
+      "name": "Highway to Hell",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/86/10/30/86103004-0ac0-4874-e78e-23c941d07be2/mzaf_15274346055601381775.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/highway-to-hell/575998519?i=575998831&uo=4",
+      "itunesTrackId": 575998831,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bb/a2/f0/bba2f0d7-4d9e-c617-d49e-3ae02fd5d440/dj.xbkfgllk.jpg/600x600bb.jpg",
+      "collectionName": "Iron Man 2",
+      "primaryGenreName": "Hard Rock",
+      "trackTimeMillis": 209410,
+      "releaseDate": "1979-07-27"
     },
     {
       "rank": 138,
       "artist": "M83",
-      "name": "Outro"
+      "name": "Outro",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/52/78/ce52782c-b45e-2440-6e94-fc6377ca4524/mzaf_12253184377805887826.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/outro/1674216738?i=1674219107&uo=4",
+      "itunesTrackId": 1674219107,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/c6/ed/73c6edb3-924c-27f0-28f8-1470906d6780/cover.jpg/600x600bb.jpg",
+      "collectionName": "Hurry up, We're Dreaming",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 247027,
+      "releaseDate": "2011-10-14"
     },
     {
       "rank": 139,
       "artist": "BTS",
-      "name": "Merry Go Round"
+      "name": "Merry Go Round",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/80/e0/2280e098-7f44-909b-1ef9-b7c47f888f3b/mzaf_11679725730091749446.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/merry-go-round/1868862375?i=1868862386&uo=4",
+      "itunesTrackId": 1868862386,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 229856,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 140,
       "artist": "BTS",
-      "name": "2.0"
+      "name": "2.0",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/ba/42/b4ba4221-3749-d23f-e7e3-7a5ac27e856e/mzaf_1572744781898983478.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/2-0/1868862375?i=1868862380&uo=4",
+      "itunesTrackId": 1868862380,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 169929,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 141,
       "artist": "Santana",
-      "name": "Put Your Lights On (feat. Everlast)"
+      "name": "Put Your Lights On (feat. Everlast)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/a1/87/54a187e9-96c3-9827-46cd-1023bb9c1614/mzaf_10069682025205961793.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/put-your-lights-on-feat-everlast/354579273?i=354579288&uo=4",
+      "itunesTrackId": 354579288,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f5/97/4c/f5974c1e-06cb-f84c-1da9-5f7505a20a0c/mzi.etsqfvqq.jpg/600x600bb.jpg",
+      "collectionName": "Supernatural (Remastered) [Bonus Track Version]",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 287431,
+      "releaseDate": "1999-06-15"
     },
     {
       "rank": 142,
       "artist": "Peter Alexander",
-      "name": "Die kleine Kneipe"
+      "name": "Die kleine Kneipe",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/1d/8a/411d8a34-a8a8-5678-b7f4-232cb814d4e8/mzaf_9568699175309619876.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/die-kleine-kneipe/268468164?i=268468315&uo=4",
+      "itunesTrackId": 268468315,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features/49/fe/85/dj.gzyjouak.jpg/600x600bb.jpg",
+      "collectionName": "Meine Lieder",
+      "primaryGenreName": "Vocal",
+      "trackTimeMillis": 255220,
+      "releaseDate": "1976-04-10"
     },
     {
       "rank": 143,
       "artist": "HAVEN. & Kaitlin Aragon",
-      "name": "I Run"
+      "name": "I Run",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c9/65/09/c9650947-fa3b-aeb6-eee4-7697f695342b/mzaf_887601359318152868.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/i-run/1854916086?i=1854916087&uo=4",
+      "itunesTrackId": 1854916087,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/45/29/7845296d-a2fe-f29e-a61b-08a3316e56cb/663918669853.png/600x600bb.jpg",
+      "collectionName": "I Run - Single",
+      "primaryGenreName": "Electronic",
+      "trackTimeMillis": 129565,
+      "releaseDate": "2025-10-29"
     },
     {
       "rank": 144,
       "artist": "QMIIR",
-      "name": "TIKI TIKI (Slowed)"
+      "name": "TIKI TIKI (Slowed)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/bf/a4/34bfa44a-e16b-9de7-6753-9f12d930ca3d/mzaf_15636445851951860724.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/tiki-tiki-slowed/1858309138?i=1858309462&uo=4",
+      "itunesTrackId": 1858309462,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/d6/43/7ed643dc-10ee-011c-51b0-4bf9923cc936/cover.jpg/600x600bb.jpg",
+      "collectionName": "TIKI TIKI - EP",
+      "primaryGenreName": "Electronic",
+      "trackTimeMillis": 121739,
+      "releaseDate": "2025-12-12"
     },
     {
       "rank": 145,
       "artist": "Apache 207",
-      "name": "Roller"
+      "name": "Roller",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/4b/3b/c84b3b17-a6d1-bb27-f307-567b5437a81c/mzaf_1931028906472802154.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/komet/1663920333?i=1663920336&uo=4",
+      "itunesTrackId": 1663920336,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/50/49/17/50491796-e488-a0ae-03ff-cab5afb4aef1/5054197494963.jpg/600x600bb.jpg",
+      "collectionName": "Komet - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 167357,
+      "releaseDate": "2023-01-19"
     },
     {
       "rank": 146,
       "artist": "Florian Silbereisen & Marco Schuitmaker",
-      "name": "Schutzengel"
+      "name": "Schutzengel",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/eb/48/b8eb4802-b704-69a7-4e05-d579d3991337/mzaf_11694086917563565500.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/schutzengel/1846297961?i=1846297963&uo=4",
+      "itunesTrackId": 1846297963,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/de/03/02de038f-1b78-f392-352b-40cc62d8cc82/cover.jpg/600x600bb.jpg",
+      "collectionName": "Schutzengel - Single",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 196649,
+      "releaseDate": "2025-01-09"
     },
     {
       "rank": 147,
       "artist": "BTS",
-      "name": "Mikrokosmos"
+      "name": "Mikrokosmos",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/73/db/f473db8a-b8d9-622b-7828-e40f63af00f7/mzaf_8890385023586453692.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/mikrokosmos/1599171924?i=1599172213&uo=4",
+      "itunesTrackId": 1599172213,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/d4/93/40d493e3-ac9e-1746-8d4c-f380f27c97cb/193483706238_Cover.jpg/600x600bb.jpg",
+      "collectionName": "MAP OF THE SOUL : PERSONA",
+      "primaryGenreName": "K-Pop",
+      "trackTimeMillis": 224225,
+      "releaseDate": "2019-04-12"
     },
     {
       "rank": 148,
       "artist": "CHRIS",
-      "name": "BIS WIR ALT SIND"
+      "name": "BIS WIR ALT SIND",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/22/36/9c223661-bd51-2ab1-c12d-f033952a503e/mzaf_10506284640809516724.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/bis-wir-alt-sind/1876257802?i=1876257803&uo=4",
+      "itunesTrackId": 1876257803,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/ca/eb/c8caeb56-8ce8-df3a-cfcf-ff522803ba91/cover_4062851253963.jpg/600x600bb.jpg",
+      "collectionName": "BIS WIR ALT SIND - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 154500,
+      "releaseDate": "2026-02-27"
     },
     {
       "rank": 149,
       "artist": "Anne Mosters",
-      "name": "One Last Time"
+      "name": "One Last Time",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/7f/fb/5b7ffb5c-c646-47b5-1ca4-96b67656ab39/mzaf_9216470028980842294.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/one-last-time/1882772080?i=1882772082&uo=4",
+      "itunesTrackId": 1882772082,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/fe/08/99fe0800-a853-733d-8316-7a6b14fea35b/4066004945354_3000.jpg/600x600bb.jpg",
+      "collectionName": "One Last Time - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 181333,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 150,
       "artist": "JoJo165",
-      "name": "Momente für immer"
+      "name": "Momente für immer",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/bc/96/10bc9635-46d0-e860-4ca3-36255df36651/mzaf_13765142165390304083.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/momente-f%C3%BCr-immer/1847901878?i=1847902038&uo=4",
+      "itunesTrackId": 1847902038,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/61/33/76/61337667-5199-3557-22ee-c701a754e9f0/artwork.jpg/600x600bb.jpg",
+      "collectionName": "MetaMensch",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "trackTimeMillis": 155600,
+      "releaseDate": "2025-10-18"
     },
     {
       "rank": 151,
       "artist": "LassTunesDeutsch",
-      "name": "Guten Morgen, alles gut. Kein Stress, kein Problem."
+      "name": "Guten Morgen, alles gut. Kein Stress, kein Problem.",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/f6/56/85f6565f-0d8e-cf3a-d4cc-396080ae542d/mzaf_7831244064128172833.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/guten-morgen-alles-gut-kein-stress-kein-problem/1879895246?i=1879895248&uo=4",
+      "itunesTrackId": 1879895248,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/62/5c/a8625c55-f7b0-7edb-6c57-a0735685b2b1/artwork.jpg/600x600bb.jpg",
+      "collectionName": "Guten Morgen, alles gut. Kein Stress, kein Problem. - Single",
+      "primaryGenreName": "Reggae",
+      "trackTimeMillis": 83344,
+      "releaseDate": "2025-11-30"
     },
     {
       "rank": 152,
       "artist": "Sia",
-      "name": "Unstoppable"
+      "name": "Unstoppable",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/dd/6a/bbdd6a92-b322-1c35-8dc7-8eb7d84f72b8/mzaf_14355345747730153074.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/unstoppable/1055074478?i=1055074639&uo=4",
+      "itunesTrackId": 1055074639,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/13/27/bc13275c-8b26-802d-771b-d15ae00fb530/mzm.hvpwjsvi.jpg/600x600bb.jpg",
+      "collectionName": "This Is Acting",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 217747,
+      "releaseDate": "2016-01-21"
     },
     {
       "rank": 153,
       "artist": "Outliers",
-      "name": "That's The Way It Is"
+      "name": "That's The Way It Is",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/ee/dd/b0eedd6b-f0fd-44b3-93fa-6b3d05f4ec45/mzaf_8957888947800709480.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/thats-the-way-it-is/1884126485?i=1884126486&uo=4",
+      "itunesTrackId": 1884126486,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/81/52/7e8152ec-b236-6fda-3463-e9a015d45c77/1036281.jpg/600x600bb.jpg",
+      "collectionName": "That's The Way It Is - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 174960,
+      "releaseDate": "2026-02-12"
     },
     {
       "rank": 154,
       "artist": "YENA",
-      "name": "Catch Catch"
+      "name": "Catch Catch",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/d2/84/c8d28401-51c5-38f2-9755-bbf946295875/mzaf_10572907630694741693.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/catch-catch/1882581635?i=1882581639&uo=4",
+      "itunesTrackId": 1882581639,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/1f/99/2d1f997c-6d8b-c312-2156-c2a1ae969c03/888272177749_Cover.jpg/600x600bb.jpg",
+      "collectionName": "LOVE CATCHER - EP",
+      "primaryGenreName": "K-Pop",
+      "trackTimeMillis": 180000,
+      "releaseDate": "2026-03-11"
     },
     {
       "rank": 155,
       "artist": "Max Giesinger",
-      "name": "Ich lieb' dich überhaupt nicht mehr"
+      "name": "Ich lieb' dich überhaupt nicht mehr",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/4f/58/bf4f5885-e3e5-19aa-a827-3fa3a6bce75d/mzaf_7848217745881431966.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/ich-lieb-dich-%C3%BCberhaupt-nicht-mehr/1875941327?i=1875941585&uo=4",
+      "itunesTrackId": 1875941585,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/e5/63/65e56328-b087-4a92-7ca5-2c04b0a64d64/5026854623818.jpg/600x600bb.jpg",
+      "collectionName": "WE LOVE UDO - Das Udo Lindenberg Tribute Album",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 192818,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 156,
       "artist": "Mark Forster",
-      "name": "Ein Lied"
+      "name": "Ein Lied",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/42/fb/0642fb5f-4d7a-216b-eed2-c5647942fdbb/mzaf_8309918836121859880.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/ein-lied/1877719805?i=1877719806&uo=4",
+      "itunesTrackId": 1877719806,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a7/9e/c7/a79ec750-61e7-99a0-5553-490ccd943429/196874116746.jpg/600x600bb.jpg",
+      "collectionName": "Ein Lied - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 151553,
+      "releaseDate": "2026-02-27"
     },
     {
       "rank": 157,
       "artist": "Spice Girls",
-      "name": "Wannabe"
+      "name": "Wannabe",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/cb/c6/dbcbc688-8277-b365-8deb-1da3c30da079/mzaf_7842872759474974048.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/wannabe/1573849246?i=1573849255&uo=4",
+      "itunesTrackId": 1573849255,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e1/92/8f/e1928fcb-0204-ca19-597a-6edaf8e6ebc8/21UMGIM16233.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Wannabe 25 - EP",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 176480,
+      "releaseDate": "1996-06-26"
     },
     {
       "rank": 158,
       "artist": "Mikhail Bennett",
-      "name": "After I Pass Away"
+      "name": "After I Pass Away",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/5c/34/a65c3452-12a5-0cef-4e14-ebee7d038940/mzaf_16017019953888876029.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/after-i-pass-away/1878679505?i=1878680139&uo=4",
+      "itunesTrackId": 1878680139,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/1d/d0/4b1dd0b9-7606-7dce-4810-c70ca1214457/859731786727_cover.jpg/600x600bb.jpg",
+      "collectionName": "After I Pass Away",
+      "primaryGenreName": "Blues",
+      "trackTimeMillis": 327360,
+      "releaseDate": "2026-02-15"
     },
     {
       "rank": 159,
       "artist": "The Cranberries",
-      "name": "Zombie"
+      "name": "Zombie",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/96/43/7c9643c7-a908-040c-e0a4-fa4614cefd65/mzaf_6525608742348584143.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/zombie/1440745642?i=1440745653&uo=4",
+      "itunesTrackId": 1440745653,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/71/8d/7a/718d7aae-c077-3bf0-f4a0-909d60cb7a13/14UMGIM48929.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Stars: The Best of the Cranberries 1992-2002 (The One & Only)",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 306627,
+      "releaseDate": "1994-09-13"
     },
     {
       "rank": 160,
       "artist": "Kygo, Khalid & Gryffin",
-      "name": "Save My Love"
+      "name": "Save My Love",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/58/c5/8e58c5b3-0920-0bc8-cc3e-e8a44718d7e1/mzaf_7960489783605936010.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/save-my-love/1876235273?i=1876235280&uo=4",
+      "itunesTrackId": 1876235280,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/e8/4c/0ce84c2b-de2d-1fe9-fd5a-e545c5431283/196874106358.jpg/600x600bb.jpg",
+      "collectionName": "Save My Love - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 210404,
+      "releaseDate": "2026-02-20"
     },
     {
       "rank": 161,
       "artist": "Nickelback",
-      "name": "Bones for the Crows"
+      "name": "Bones for the Crows",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/f7/a3/0bf7a381-42bf-927f-af94-6bdf238dda95/mzaf_8973402526866553483.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/bones-for-the-crows/1885707759?i=1885707760&uo=4",
+      "itunesTrackId": 1885707760,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/8c/9a/b08c9afa-ecb4-d339-a651-1e715b330c1b/825396150418.png/600x600bb.jpg",
+      "collectionName": "Bones for the Crows - Single",
+      "primaryGenreName": "Hard Rock",
+      "trackTimeMillis": 244638,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 162,
       "artist": "BTS",
-      "name": "MIC Drop"
+      "name": "MIC Drop",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/b8/c4/7ab8c4aa-0252-a689-ec40-69dc952b89ce/mzaf_14404136481809412192.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/mic-drop/1598730614?i=1598731059&uo=4",
+      "itunesTrackId": 1598731059,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ff/00/2c/ff002c29-6da9-1a26-16b3-282a73180366/192562871591_Cover.jpg/600x600bb.jpg",
+      "collectionName": "Love Yourself 結 'Answer'",
+      "primaryGenreName": "K-Pop",
+      "trackTimeMillis": 238193,
+      "releaseDate": "2017-09-18"
     },
     {
       "rank": 163,
       "artist": "Soap&Skin",
-      "name": "Me and the Devil"
+      "name": "Me and the Devil",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/41/4b/9c/414b9ce4-3ecb-3308-0f30-3979285c582b/mzaf_16374126781494649853.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/me-and-the-devil/598100651?i=598100663&uo=4",
+      "itunesTrackId": 598100663,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/21/04/1e/21041e2a-1bee-640c-f0a8-a2a8f1951ff4/5414939377679_cover.jpg/600x600bb.jpg",
+      "collectionName": "Sugarbread - Single",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 185000,
+      "releaseDate": "2013-03-11"
     },
     {
       "rank": 164,
       "artist": "Anita Ward",
-      "name": "Ring My Bell"
+      "name": "Ring My Bell",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/ad/1d/3fad1d7f-059d-34de-cfd9-de5242a9194b/mzaf_7980767585804248478.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/ring-my-bell/147664819?i=147664822&uo=4",
+      "itunesTrackId": 147664822,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/46/82/93/4682932d-1def-ae8a-8a2d-c706ee1f3b09/mzi.gmndxtif.jpg/600x600bb.jpg",
+      "collectionName": "Ring My Bell",
+      "primaryGenreName": "R&B/Soul",
+      "trackTimeMillis": 491933,
+      "releaseDate": "2005-09-26"
     },
     {
       "rank": 165,
       "artist": "Ofenbach",
-      "name": "Miles Away"
+      "name": "Miles Away",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/76/e3/9376e3b3-d555-b7a0-ba36-ce4adb15880a/mzaf_8273155860486638028.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/miles-away/1854173180?i=1854173291&uo=4",
+      "itunesTrackId": 1854173291,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/a1/f9/9da1f975-8437-4de7-0f33-30e323ab5346/5026854258393.jpg/600x600bb.jpg",
+      "collectionName": "Miles Away - Single",
+      "primaryGenreName": "Electronic",
+      "trackTimeMillis": 147143,
+      "releaseDate": "2025-11-25"
     },
     {
       "rank": 166,
       "artist": "The Beatles",
-      "name": "Here Comes the Sun"
+      "name": "Here Comes the Sun",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/bf/a0/e7bfa041-6e35-be4e-276e-df489781b5d4/mzaf_1668350712755343495.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/here-comes-the-sun/1441164426?i=1441164589&uo=4",
+      "itunesTrackId": 1441164589,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/df/db/61/dfdb615d-47f8-06e9-9533-b96daccc029f/18UMGIM31076.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Abbey Road (Remastered)",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 185733,
+      "releaseDate": "1969-09-26"
     },
     {
       "rank": 167,
       "artist": "Lil Uzi Vert",
-      "name": "What You Saying"
+      "name": "What You Saying",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/56/1e/02561ef8-d626-1931-4a82-90ed10f08e32/mzaf_9356804864714937816.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/what-you-saying/1863528316?i=1863528318&uo=4",
+      "itunesTrackId": 1863528318,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/24/92/ee249222-bfef-2abe-b8d0-16f0f35a3b17/8721465006940.png/600x600bb.jpg",
+      "collectionName": "What You Saying - Single",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "trackTimeMillis": 131729,
+      "releaseDate": "2025-12-22"
     },
     {
       "rank": 168,
       "artist": "Helene Fischer & Florian Silbereisen",
-      "name": "Schau mal herein"
+      "name": "Schau mal herein",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/dd/89/67dd89da-73bb-99c1-7ec0-b75456c7eb0b/mzaf_17241185490607576969.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/schau-mal-herein/1787775804?i=1787775805&uo=4",
+      "itunesTrackId": 1787775805,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/c1/42/85c14263-3f0d-bd2c-8069-c499d103238f/24UM1IM40290.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Schau mal herein - Single",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 183133,
+      "releaseDate": "2024-12-30"
     },
     {
       "rank": 169,
       "artist": "Disturbed",
-      "name": "The Sound of Silence (CYRIL Remix)"
+      "name": "The Sound of Silence (CYRIL Remix)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/3b/54/533b5474-04d1-aad3-cf67-553d2986ff32/mzaf_2843530377246070160.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/the-sound-of-silence-cyril-remix/1728492837?i=1728492838&uo=4",
+      "itunesTrackId": 1728492838,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a9/ca/96/a9ca964f-78f0-b6a3-d3ea-08370fad7f90/054391308696.jpg/600x600bb.jpg",
+      "collectionName": "The Sound of Silence (CYRIL Remix) - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 185238,
+      "releaseDate": "2024-02-13"
     },
     {
       "rank": 170,
       "artist": "Shaboozey",
-      "name": "A Bar Song (Tipsy)"
+      "name": "A Bar Song (Tipsy)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/39/4d/bf394d1e-7bc8-dda0-1dd0-d01175c73ddf/mzaf_13090445381602668403.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/a-bar-song-tipsy-remix/1752631694?i=1752631697&uo=4",
+      "itunesTrackId": 1752631697,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/88/da/7688da1f-220a-c26f-ec35-dd3bbd3091bd/197342663274_cover.jpg/600x600bb.jpg",
+      "collectionName": "A Bar Song (Tipsy) [Remix] - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 163864,
+      "releaseDate": "2024-04-14"
     },
     {
       "rank": 171,
       "artist": "Beatrice Egli",
-      "name": "Alibi"
+      "name": "Alibi",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/03/80/d903801c-18c8-ac16-e5a0-e192e7c7c9fd/mzaf_13999896363778498400.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/alibi/1877879845?i=1877879847&uo=4",
+      "itunesTrackId": 1877879847,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/01/66/9f016601-57c3-9eef-f5a2-2c10747d067b/196874083376.jpg/600x600bb.jpg",
+      "collectionName": "Hör nie auf damit 2.0",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 172000,
+      "releaseDate": "2026-02-27"
     },
     {
       "rank": 172,
       "artist": "Sarah Connor",
-      "name": "Das schönste Mädchen der Welt"
+      "name": "Das schönste Mädchen der Welt",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/bd/03/a3bd03b1-dc00-6f6c-22d4-435a1018f1e0/mzaf_18260845672329165790.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/das-sch%C3%B6nste-m%C3%A4dchen-der-welt/1849126258?i=1849126837&uo=4",
+      "itunesTrackId": 1849126837,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/13/46/a813460c-a8ee-904e-2e02-9eeab950c521/25UM1IM53108.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Freigeistin (Special Deluxe Edition)",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 180541,
+      "releaseDate": "2025-05-22"
     },
     {
       "rank": 173,
       "artist": "shirts0001",
-      "name": "Erika - German Marching Song"
+      "name": "Erika - German Marching Song",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/5d/76/a65d76f9-57d3-a982-0fa1-c864de863448/mzaf_5437781472579627098.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/erika-german-marching-song/1590614857?i=1590614858&uo=4",
+      "itunesTrackId": 1590614858,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/cc/50/c4cc503f-0818-c03e-fc26-0fd835eba76a/Vlva448AwanbY-erika-german-marching-song-original.png/600x600bb.jpg",
+      "collectionName": "Erika - German Marching Song - Single",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 178550,
+      "releaseDate": "2021-10-25"
     },
     {
       "rank": 174,
       "artist": "Unheilig",
-      "name": "Geboren um zu leben"
+      "name": "Geboren um zu leben",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/6a/b2/e86ab297-512c-8d2f-42e4-213f135c5823/mzaf_6359016886847012670.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/geboren-um-zu-leben/1445752962?i=1445753295&uo=4",
+      "itunesTrackId": 1445753295,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/a9/5e/07a95e1f-3991-c335-aaf9-70c8bad4ccc8/09UMGIM45494.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Grosse Freiheit (Deluxe Version)",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 230467,
+      "releaseDate": "2010-01-01"
     },
     {
       "rank": 175,
       "artist": "Lady Gaga",
-      "name": "Always Remember Us This Way"
+      "name": "Always Remember Us This Way",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/57/b6/c057b66d-e357-8bfd-1bfd-7c4999e4f10c/mzaf_6359411493726782250.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/always-remember-us-this-way/1437668511?i=1437668523&uo=4",
+      "itunesTrackId": 1437668523,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/98/11/b5981112-d355-a16c-f116-8121f62949fb/18UMGIM53753.rgb.jpg/600x600bb.jpg",
+      "collectionName": "A Star Is Born Soundtrack (Without Dialogue)",
+      "primaryGenreName": "Soundtracks",
+      "trackTimeMillis": 210198,
+      "releaseDate": "2018-10-05"
     },
     {
       "rank": 176,
       "artist": "Peter Maffay",
-      "name": "Nessaja"
+      "name": "Nessaja",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/6a/e8/d7/6ae8d753-d940-ce8a-850d-18b79a154706/mzaf_2257705774159401772.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/nessaja/253787756?i=253788243&uo=4",
+      "itunesTrackId": 253788243,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features/53/8c/41/dj.rdqyeucj.jpg/600x600bb.jpg",
+      "collectionName": "Tabaluga oder die Reise zur Vernunft",
+      "primaryGenreName": "Musik für Kinder",
+      "trackTimeMillis": 252227,
+      "releaseDate": "1983-10-01"
     },
     {
       "rank": 177,
       "artist": "BTS",
-      "name": "Please"
+      "name": "Please",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/dd/2f/49dd2f16-b70a-eb8c-3f35-49d72b1d6d4a/mzaf_2778540225080951990.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/please/1868481904?i=1868482090&uo=4",
+      "itunesTrackId": 1868482090,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 172796,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 178,
       "artist": "AC/DC",
-      "name": "Thunderstruck"
+      "name": "Thunderstruck",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f3/45/64/f3456422-afe5-5218-0144-6a2dd6754a2b/mzaf_8906497323614731144.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/thunderstruck/574049507?i=574051407&uo=4",
+      "itunesTrackId": 574051407,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/fc/c2/f8/fcc2f850-1d81-7440-c0a0-de7fcef1e911/dj.rrgizfic.jpg/600x600bb.jpg",
+      "collectionName": "The Razors Edge",
+      "primaryGenreName": "Hard Rock",
+      "trackTimeMillis": 292334,
+      "releaseDate": "1990-09-10"
     },
     {
       "rank": 179,
       "artist": "Survivor",
-      "name": "Eye of the Tiger"
+      "name": "Eye of the Tiger",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/fa/9e/fefa9edd-c023-4d1c-1012-08bfb0ec69e6/mzaf_4651653238471209843.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/eye-of-the-tiger/254685010?i=254685026&uo=4",
+      "itunesTrackId": 254685026,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f9/02/8f/f9028f63-7a55-235e-f789-1e8946430fa2/614223201122.jpg/600x600bb.jpg",
+      "collectionName": "Eye of the Tiger (Remastered)",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 243773,
+      "releaseDate": "1982-05-31"
     },
     {
       "rank": 180,
       "artist": "Robbie Williams",
-      "name": "Angels"
+      "name": "Angels",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/41/bf/9041bf4d-21d7-be0b-f48d-1da261cdc9b7/mzaf_13449384614633248572.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/angels/727505795?i=727506102&uo=4",
+      "itunesTrackId": 727506102,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/70/87/d6/7087d62d-f751-c9c3-5c5c-d3fe7caa307b/13UABIM56247.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Life Thru a Lens",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 265000,
+      "releaseDate": "1997-09-29"
     },
     {
       "rank": 181,
       "artist": "Coldplay",
-      "name": "A Sky Full of Stars"
+      "name": "A Sky Full of Stars",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a2/31/4b/a2314b97-10b6-190c-72b3-45cc21bbf56b/mzaf_740612971315603868.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/a-sky-full-of-stars/829909653?i=829910927&uo=4",
+      "itunesTrackId": 829910927,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/60/90/ad/6090adc3-8863-861d-afcc-23c55c6fe5da/dj.vmtulfyu.jpg/600x600bb.jpg",
+      "collectionName": "Ghost Stories",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 268466,
+      "releaseDate": "2014-05-02"
     },
     {
       "rank": 182,
       "artist": "Imagine Dragons",
-      "name": "Demons"
+      "name": "Demons",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/e7/d1/6fe7d154-e085-3707-6346-4d9463be12de/mzaf_36787912245082336.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/demons/1440829989?i=1440830132&uo=4",
+      "itunesTrackId": 1440830132,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c1/1a/fa/c11afaa1-26fc-9829-a6cf-9d1dd228ec06/12UMGIM46901.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Night Visions",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 177507,
+      "releaseDate": "2012-09-04"
     },
     {
       "rank": 183,
       "artist": "KaaCee & ISO 3000",
-      "name": "Rambazamba"
+      "name": "Rambazamba",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/66/a9/5066a979-565f-fa14-bca5-13011f90539e/mzaf_17891606639668011858.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/rambazamba/1756293970?i=1756293978&uo=4",
+      "itunesTrackId": 1756293978,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/0d/cd/550dcdab-1a98-45d6-d367-0f7a3e530139/24UMGIM72301.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Rambazamba - Single",
+      "primaryGenreName": "Dance",
+      "trackTimeMillis": 168353,
+      "releaseDate": "2024-07-19"
     },
     {
       "rank": 184,
       "artist": "Ray Dalton",
-      "name": "Blood Running"
+      "name": "Blood Running",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/8f/f1/3e8ff10a-6e52-9314-9dfb-73865841fc5b/mzaf_7732158760860784652.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/blood-running/1840634805?i=1840634807&uo=4",
+      "itunesTrackId": 1840634807,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/44/14/a0441487-55c4-53b1-7c67-340748f2d3ae/25UM1IM41238.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Blood Running - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 173147,
+      "releaseDate": "2025-10-03"
     },
     {
       "rank": 185,
       "artist": "KAMRAD",
-      "name": "Hug Yourself"
+      "name": "Hug Yourself",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/a9/24/5fa92404-e9e4-26f1-1996-044d04e3a2b0/mzaf_16415165945553178975.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/hug-yourself/1860431512?i=1860431666&uo=4",
+      "itunesTrackId": 1860431666,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/da/8f/f3da8f97-c0cc-4b3e-54c5-7e11db856a77/4262517411113.jpg/600x600bb.jpg",
+      "collectionName": "trying not to panic - EP",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 174744,
+      "releaseDate": "2026-01-23"
     },
     {
       "rank": 186,
       "artist": "Lankum & Grian Chatten",
-      "name": "Hunting The Wren (The Immortal Man Version)"
+      "name": "Hunting The Wren (The Immortal Man Version)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/8d/a1/3f8da1be-bd78-bb33-4042-cf297c2051f2/mzaf_10991774780398734112.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/hunting-the-wren-the-immortal-man-version/1878166894?i=1878167316&uo=4",
+      "itunesTrackId": 1878167316,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/e4/ec/80e4ecfe-a7ec-9329-1f40-0ac6c3aefe27/196874115893.jpg/600x600bb.jpg",
+      "collectionName": "Peaky Blinders - The Immortal Man (Soundtrack from the Netflix Film)",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 428650,
+      "releaseDate": "2026-03-06"
     },
     {
       "rank": 187,
       "artist": "ZXKAI & slxughter",
-      "name": "NO BATIDÃO"
+      "name": "NO BATIDÃO",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c9/99/ab/c999ab12-d7f7-9e73-92c8-2e3fc032751b/mzaf_10086449556736107044.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/no-batid%C3%A3o-electronic-remix/1851283446?i=1851283447&uo=4",
+      "itunesTrackId": 1851283447,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/92/b4/7c92b4e2-0c58-722a-e707-9e9209044384/artwork.jpg/600x600bb.jpg",
+      "collectionName": "NO BATIDÃO (Electronic Remix) - Single",
+      "primaryGenreName": "Baile Funk",
+      "trackTimeMillis": 108843,
+      "releaseDate": "2025-11-01"
     },
     {
       "rank": 188,
       "artist": "COSMÓ",
-      "name": "TANZSCHEIN"
+      "name": "TANZSCHEIN",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/1e/47/571e47f9-e71a-8345-539f-cac1cb09458d/mzaf_17795942561089655330.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/tanzschein/1870245563?i=1870245567&uo=4",
+      "itunesTrackId": 1870245567,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/5b/70/1d5b70c3-e97d-61cc-1a17-d6806fa249c9/9120091293080.jpg/600x600bb.jpg",
+      "collectionName": "TANZSCHEIN - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 162548,
+      "releaseDate": "2026-02-06"
     },
     {
       "rank": 189,
       "artist": "Loi",
-      "name": "Red Eyes"
+      "name": "Red Eyes",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/5e/42/2c5e42e3-93c1-4aaa-6d16-07ce2dd7dfba/mzaf_17086904502994034833.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/red-eyes/1852296596?i=1852296597&uo=4",
+      "itunesTrackId": 1852296597,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d6/11/c6/d611c612-5741-29b8-ab48-b9f2b7842ec0/044317881518.png/600x600bb.jpg",
+      "collectionName": "Red Eyes - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 153028,
+      "releaseDate": "2025-12-04"
     },
     {
       "rank": 190,
       "artist": "AC/DC",
-      "name": "Hells Bells"
+      "name": "Hells Bells",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3b/1d/6f/3b1d6fc6-fe3e-b0a0-ff8c-0e0d357097c5/mzaf_18386295871643717119.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/hells-bells/574050396?i=574050495&uo=4",
+      "itunesTrackId": 574050495,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1e/14/58/1e145814-281a-58e0-3ab1-145f5d1af421/886443673441.jpg/600x600bb.jpg",
+      "collectionName": "Back In Black",
+      "primaryGenreName": "Hard Rock",
+      "trackTimeMillis": 312815,
+      "releaseDate": "1980-07-25"
     },
     {
       "rank": 191,
       "artist": "Unheilig",
-      "name": "So wie du warst"
+      "name": "So wie du warst",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/8c/b4/468cb47e-1865-f34e-e112-b0c9efb10b74/mzaf_11917665173583804485.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/so-wie-du-warst/1446019259?i=1446019268&uo=4",
+      "itunesTrackId": 1446019268,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fe/6b/cb/fe6bcb59-33b6-46f0-b60a-8481f2b6ad9b/12UMGIM05842.rgb.jpg/600x600bb.jpg",
+      "collectionName": "So wie du warst - Single",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 232344,
+      "releaseDate": "2012-01-01"
     },
     {
       "rank": 192,
       "artist": "ÁSDÍS",
-      "name": "Electrified"
+      "name": "Electrified",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/28/7b/42287b62-0451-a5da-9ff2-8b9dbfa082b6/mzaf_14688000032244461107.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/electrified/1852574608?i=1852574609&uo=4",
+      "itunesTrackId": 1852574609,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6e/2c/b0/6e2cb013-ca1f-f2c8-af9d-9d285077feab/25UM1IM70497.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Electrified - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 187087,
+      "releaseDate": "2025-11-21"
     },
     {
       "rank": 193,
       "artist": "BTS",
-      "name": "One More Night"
+      "name": "One More Night",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/49/37/f5493775-3aa7-f310-572f-19baa9271b44/mzaf_10614943248626878287.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/one-more-night/1868862375?i=1868862600&uo=4",
+      "itunesTrackId": 1868862600,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 167589,
+      "releaseDate": "2026-03-20"
     },
     {
       "rank": 194,
       "artist": "Tones And I",
-      "name": "Dance Monkey"
+      "name": "Dance Monkey",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/72/4f/45724fc8-2e85-d5b1-dda0-775958e9b692/mzaf_1626542530959622659.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/dance-monkey/1475546087?i=1475546088&uo=4",
+      "itunesTrackId": 1475546088,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d2/3a/b8/d23ab839-660d-ef93-2ccb-d0825fc3e8f5/075679838872.jpg/600x600bb.jpg",
+      "collectionName": "Dance Monkey - Single",
+      "primaryGenreName": "Alternative",
+      "trackTimeMillis": 209438,
+      "releaseDate": "2019-05-10"
     },
     {
       "rank": 195,
       "artist": "Ed Sheeran",
-      "name": "Perfect"
+      "name": "Perfect",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/66/82/516682ee-7f6c-65d3-9dcf-3b4010bfd84d/mzaf_17833660519500156871.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/perfect/1193700802?i=1193700926&uo=4",
+      "itunesTrackId": 1193700926,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/03/4c/20034cdb-b2b1-74a7-2ec0-521ccf471bbd/190295851286.jpg/600x600bb.jpg",
+      "collectionName": "÷ (Deluxe)",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 263400,
+      "releaseDate": "2017-03-03"
     },
     {
       "rank": 196,
       "artist": "Simon & Garfunkel",
-      "name": "The Sound of Silence"
+      "name": "The Sound of Silence",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/58/50/44/58504445-1bf2-0560-b55f-91b4b6adbf0b/mzaf_13851124265518095228.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/the-sound-of-silence/192480256?i=192480260&uo=4",
+      "itunesTrackId": 192480260,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f9/8c/fa/f98cfa9e-282b-8a4f-33bd-ff3de9269963/074640926921.jpg/600x600bb.jpg",
+      "collectionName": "Sounds of Silence",
+      "primaryGenreName": "Folk-Rock",
+      "trackTimeMillis": 190102,
+      "releaseDate": "1965-09-15"
     },
     {
       "rank": 197,
       "artist": "David Guetta",
-      "name": "Titanium (feat. Sia)"
+      "name": "Titanium (feat. Sia)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b3/0a/b8/b30ab89f-950e-ed22-7170-476d3da9abf7/mzaf_16105393761494246486.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/titanium-feat-sia/1688194103?i=1688194114&uo=4",
+      "itunesTrackId": 1688194114,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3b/fe/52/3bfe523f-7950-5c13-72e7-b5f466682c09/5059460202795.jpg/600x600bb.jpg",
+      "collectionName": "Memories of Summer - EP",
+      "primaryGenreName": "Electronic",
+      "trackTimeMillis": 245040,
+      "releaseDate": "2011-08-08"
     },
     {
       "rank": 198,
       "artist": "Fury In the Slaughterhouse",
-      "name": "9 Lives"
+      "name": "9 Lives",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/1c/db/491cdba6-ec58-0f5e-eabe-b7e3c5c45e9d/mzaf_16264538850846862773.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/9-lives/1868641950?i=1868641955&uo=4",
+      "itunesTrackId": 1868641955,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/0e/92/c60e928c-af06-d8e1-38ab-9ac4a35df1dd/196873995274.jpg/600x600bb.jpg",
+      "collectionName": "Changes",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 158933,
+      "releaseDate": "2026-01-22"
     },
     {
       "rank": 199,
       "artist": "Billy Idol",
-      "name": "Rebel Yell"
+      "name": "Rebel Yell",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/05/ef/6a05ef6f-965f-fcd6-e791-a9bdbf05ffb0/mzaf_17811172469801160646.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/rebel-yell/1728132299?i=1728132314&uo=4",
+      "itunesTrackId": 1728132314,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9c/bb/c8/9cbbc833-c06c-9362-ba76-b6f20d119343/24UMGIM00501.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Rebel Yell (Deluxe Edition)",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 288613,
+      "releaseDate": "1983-11-10"
     },
     {
       "rank": 200,
       "artist": "Schürze",
-      "name": "Käpt'n Morgen"
+      "name": "Käpt'n Morgen",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/4b/63/e04b6361-6850-1925-e7cf-67c984529753/mzaf_2720945732813205695.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/de/album/k%C3%A4ptn-morgen/1881580105?i=1881580110&uo=4",
+      "itunesTrackId": 1881580110,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/24/8c/72248c35-9e4f-0b77-a72b-56bcb83af630/cover.jpg/600x600bb.jpg",
+      "collectionName": "Käpt'n Morgen - Single",
+      "primaryGenreName": "Schlager",
+      "trackTimeMillis": 158786,
+      "releaseDate": "2026-03-20"
     }
-  ]
+  ],
+  "enrichedAt": "2026-03-24T22:07:35.376Z"
 }
