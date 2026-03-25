@@ -27,6 +27,7 @@ const PRECACHE_ASSETS = [
   '/js/transfer.js',
   '/js/share-sns.js',
   '/js/init.js',
+  '/js/sw-bootstrap.js',
   '/data/packs.json',
   '/data/genres.json',
 ];
