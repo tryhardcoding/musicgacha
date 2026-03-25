@@ -3,20 +3,20 @@
 // アプリ初期化・画面ルーティング・UIイベント管理
 // ============================================================
 
-import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining, getCollection } from './storage.js?v=20260325a';
-import { initI18n, setLanguage, t, applyTranslations } from './i18n.js?v=20260325a';
-import { getTop200Tracks } from './api.js?v=20260325a';
-import { getRegion, setRegion, REGIONS, getRegionConfig } from './region.js?v=20260325a';
-import { getPacksConfig } from './data-loader.js?v=20260325a';
-import './gacha.js?v=20260325a'; // ガチャモジュール（グローバル参照にopenPackを登録）
-import { initCollection, renderCollection, refreshCollection } from './collection.js?v=20260325a';
-import { initShareHandler } from './transfer.js?v=20260325a';
-import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260325a';
-import { icon, refreshIcons } from './icons.js?v=20260325a';
-import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260325a';
-import { invalidateCache } from './data-loader.js?v=20260325a';
-import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js?v=20260325a';
-import { getAmazonMusicUnlimitedUrl } from './affiliate.js?v=20260325a';
+import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining, getCollection } from './storage.js';
+import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
+import { getTop200Tracks } from './api.js';
+import { getRegion, setRegion, REGIONS, getRegionConfig } from './region.js';
+import { getPacksConfig } from './data-loader.js';
+import './gacha.js?v=20260320b'; // ガチャモジュール（グローバル参照にopenPackを登録）
+import { initCollection, renderCollection, refreshCollection } from './collection.js';
+import { initShareHandler } from './transfer.js';
+import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260320';
+import { icon, refreshIcons } from './icons.js';
+import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260320b';
+import { invalidateCache } from './data-loader.js';
+import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
+import { getAmazonMusicUnlimitedUrl } from './affiliate.js';
 
 // ---- Screen Routing ----
 
