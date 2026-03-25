@@ -4999,6 +4999,13 @@ svg.lucide {
   animation: amazonNoteFloat 3s ease-in-out infinite;
 }
 
+.amazon-music-lucide-icon {
+  width: 24px;
+  height: 24px;
+  color: #25D1DA;
+  filter: drop-shadow(0 0 6px rgba(37, 209, 218, 0.5));
+}
+
 @keyframes amazonNoteFloat {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-3px); }
@@ -5030,6 +5037,29 @@ svg.lucide {
 .amazon-music-desc strong {
   color: #25D1DA;
   font-weight: 700;
+}
+
+.amazon-music-desc s {
+  color: rgba(255, 255, 255, 0.35);
+  text-decoration: line-through;
+  text-decoration-color: rgba(239, 68, 68, 0.7);
+  text-decoration-thickness: 2px;
+  font-size: 0.68rem;
+  margin-right: 2px;
+}
+
+.amazon-promo-deadline {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.12);
+  border: 1px solid rgba(251, 191, 36, 0.25);
+  border-radius: 4px;
+  padding: 1px 5px;
+  margin-left: 4px;
+  vertical-align: middle;
+  line-height: 1.4;
 }
 
 .amazon-music-cta {
