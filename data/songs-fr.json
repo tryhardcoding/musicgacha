@@ -20,7 +20,21 @@
         "collectionName": "ARIRANG",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 159008,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "LR"
+      },
+      {
+        "name": "SWIM",
+        "artist": "BTS",
+        "playcount": 9951000,
+        "rank": 1,
+        "bestChartRank": 1,
+        "url": "https://music.apple.com/fr/album/swim/1868481904?i=1868482073&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
       },
       {
         "name": "SWIM (Alternate Cover Jung Kook Version)",
@@ -39,7 +53,21 @@
         "collectionName": "SWIM (Alternate Cover Jung Kook Version) - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 159008,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "LR"
+      },
+      {
+        "name": "SWIM (Alternate Cover Jung Kook Version)",
+        "artist": "BTS",
+        "playcount": 9902000,
+        "rank": 2,
+        "bestChartRank": 2,
+        "url": "https://music.apple.com/fr/album/swim-alternate-cover-jung-kook-version/1887494309?i=1887494310&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/d6/b2/21d6b28d-f7d3-cb9e-7071-40037c434a78/823375078838_Cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-24",
+        "rarity": "LR"
       },
       {
         "name": "LET ME BE",
@@ -58,7 +86,8 @@
         "collectionName": "LET ME BE - Single",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 189854,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "LR"
       },
       {
         "name": "Golden (David Guetta REM/X)",
@@ -77,7 +106,8 @@
         "collectionName": "Golden [David Guetta REM/X (from the Netflix film KPop Demon Hunters)] - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 176250,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "LR"
       },
       {
         "name": "Sonerie (Bonus Track)",
@@ -90,7 +120,47 @@
         "source": "top200_merge",
         "artworkUrl": null,
         "releaseDate": null,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "LR"
+      },
+      {
+        "name": "LET ME BE",
+        "artist": "The Second Voice",
+        "playcount": 9755000,
+        "rank": 5,
+        "bestChartRank": 5,
+        "url": "https://music.apple.com/fr/album/let-me-be/1884898393?i=1884898399&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/68/ba/0f68ba2b-f12c-4a5b-fa4f-b9c378be26a4/825204598296.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-25",
+        "rarity": "LR"
+      },
+      {
+        "name": "SWIM (Alternate Cover RM Version)",
+        "artist": "BTS",
+        "playcount": 9706000,
+        "rank": 6,
+        "bestChartRank": 6,
+        "url": "https://music.apple.com/fr/album/swim-alternate-cover-rm-version/1887494429?i=1887494430&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/47/07/124707e2-d2aa-704c-ddd7-8fdf3d102da5/823375078845_Cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-24",
+        "rarity": "LR"
+      },
+      {
+        "name": "La lune",
+        "artist": "Christophe Maé",
+        "playcount": 9657000,
+        "rank": 7,
+        "bestChartRank": 7,
+        "url": "https://music.apple.com/fr/album/la-lune/1867179863?i=1867179864&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/48/75/1f4875a4-63c0-7bf1-6363-95f0dcf4df54/5026854427362.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-16",
+        "rarity": "LR"
       },
       {
         "name": "I Just Might",
@@ -109,7 +179,8 @@
         "collectionName": "The Romantic",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 212974,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "LR"
       },
       {
         "name": "La lune",
@@ -128,7 +199,21 @@
         "collectionName": "La lune - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 208964,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "LR"
+      },
+      {
+        "name": "Sonerie (Bonus Track)",
+        "artist": "Menhir",
+        "playcount": 9559000,
+        "rank": 9,
+        "bestChartRank": 9,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "LR"
       },
       {
         "name": "WHERE IS MY HUSBAND!",
@@ -147,7 +232,21 @@
         "collectionName": "WHERE IS MY HUSBAND! - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 196796,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "LR"
+      },
+      {
+        "name": "Golden (David Guetta REM/X)",
+        "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast & David Guetta",
+        "playcount": 9461000,
+        "rank": 11,
+        "bestChartRank": 11,
+        "url": "https://music.apple.com/fr/album/golden-david-guetta-rem-x/1827276181?i=1827276190&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/11/41/a0114185-5801-526e-1af4-14415dc67a8b/25UMGIM96740.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-06-19",
+        "rarity": "LR"
       },
       {
         "name": "melodrama",
@@ -166,7 +265,21 @@
         "collectionName": "melodrama - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 176213,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "WHERE IS MY HUSBAND!",
+        "artist": "RAYE",
+        "playcount": 9412000,
+        "rank": 12,
+        "bestChartRank": 12,
+        "url": "https://music.apple.com/fr/album/where-is-my-husband/1838737596?i=1838737598&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/10/8a/69108a18-55ec-d774-a653-90b2242733db/199538765458.jpg/600x600bb.jpg",
+        "releaseDate": "2025-09-19",
+        "rarity": "LR"
       },
       {
         "name": "Like Animals",
@@ -185,7 +298,21 @@
         "collectionName": "ARIRANG",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 189747,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "I Just Might",
+        "artist": "Bruno Mars",
+        "playcount": 9265000,
+        "rank": 15,
+        "bestChartRank": 15,
+        "url": "https://music.apple.com/fr/album/i-just-might/1866732792?i=1866732800&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-09",
+        "rarity": "LR"
       },
       {
         "name": "NORMAL",
@@ -204,7 +331,21 @@
         "collectionName": "ARIRANG",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 184480,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "La boutique des rêves (En duo avec Francis Cabrel)",
+        "artist": "Christophe Maé",
+        "playcount": 9216000,
+        "rank": 16,
+        "bestChartRank": 16,
+        "url": "https://music.apple.com/fr/album/la-boutique-des-r%C3%AAves-en-duo-avec-francis-cabrel/1871195882?i=1871195885&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/15/ae/ce/15aece1d-6d31-9584-3345-ee10771cfc32/5026854427355.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "UR"
       },
       {
         "name": "Regarde ce que tu as réveillé (feat. Stéphanie Baribeau)",
@@ -217,7 +358,21 @@
         "source": "top200_merge",
         "artworkUrl": null,
         "releaseDate": null,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "melodrama",
+        "artist": "disiz & Theodora",
+        "playcount": 9167000,
+        "rank": 17,
+        "bestChartRank": 17,
+        "url": "https://music.apple.com/fr/album/melodrama/1840188173?i=1840188177&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/d7/46/bcd7465a-b33a-53e2-f7a6-f4880ffbb185/196873615851.jpg/600x600bb.jpg",
+        "releaseDate": "2025-09-26",
+        "rarity": "UR"
       },
       {
         "name": "NUEVAYoL",
@@ -236,7 +391,34 @@
         "collectionName": "DeBÍ TiRAR MáS FOToS",
         "primaryGenreName": "Musique latine",
         "trackTimeMillis": 183685,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "Like Animals",
+        "artist": "BTS",
+        "playcount": 9118000,
+        "rank": 18,
+        "bestChartRank": 18,
+        "url": "https://music.apple.com/fr/album/like-animals/1868862375?i=1868862388&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "UR"
+      },
+      {
+        "name": "NORMAL",
+        "artist": "BTS",
+        "playcount": 9069000,
+        "rank": 19,
+        "bestChartRank": 19,
+        "url": "https://music.apple.com/fr/album/normal/1885720384?i=1885720624&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/0a/7b/690a7bb3-4483-2418-158c-9276d7d98f81/823375049500_Cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "UR"
       },
       {
         "name": "SWIM (Alternate Cover RM Version)",
@@ -255,7 +437,34 @@
         "collectionName": "SWIM (Alternate Cover RM Version) - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 159008,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "LR"
+      },
+      {
+        "name": "Be With You",
+        "artist": "Muse",
+        "playcount": 9020000,
+        "rank": 20,
+        "bestChartRank": 20,
+        "url": "https://music.apple.com/fr/album/be-with-you/1885607338?i=1885607727&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/8f/4b/5f8f4b32-9d11-b416-a6f9-3fb23e045dd0/5026854898216.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-21",
+        "rarity": "UR"
+      },
+      {
+        "name": "Tant pis pour elle",
+        "artist": "Charlotte Cardin",
+        "playcount": 8971000,
+        "rank": 21,
+        "bestChartRank": 21,
+        "url": "https://music.apple.com/fr/album/tant-pis-pour-elle/1834045757?i=1834045760&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/c7/b2/63c7b2a9-f4d8-4449-f180-a4e4ef3c98cd/199538342000.jpg/600x600bb.jpg",
+        "releaseDate": "2025-09-05",
+        "rarity": "UR"
       },
       {
         "name": "Tant pis pour elle",
@@ -274,7 +483,21 @@
         "collectionName": "Tant pis pour elle - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 158186,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "Regarde ce que tu as réveillé (feat. Stéphanie Baribeau)",
+        "artist": "Jessica Brouart",
+        "playcount": 8922000,
+        "rank": 22,
+        "bestChartRank": 22,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "UR"
       },
       {
         "name": "La tendresse (feat. Solann)",
@@ -293,7 +516,21 @@
         "collectionName": "Étincelle 2",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 177467,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "Zoo (De \"Zootopie 2\")",
+        "artist": "Disney & Shakira",
+        "playcount": 8873000,
+        "rank": 23,
+        "bestChartRank": 23,
+        "url": "https://music.apple.com/fr/album/zoo-de-zootopie-2/1844467369?i=1844467373&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/a8/7d/14a87d5b-a3a4-2e17-f31a-545b4cdb3d6b/25UM1IM53467.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-10-10",
+        "rarity": "UR"
       },
       {
         "name": "Zoo (De \"Zootopie 2\")",
@@ -312,7 +549,8 @@
         "collectionName": "Zoo (De \"Zootopie 2\") - Single",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 190823,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
       },
       {
         "name": "La boutique des rêves (En duo avec Francis Cabrel)",
@@ -331,7 +569,21 @@
         "collectionName": "Fête foraine",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 197510,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "NUEVAYoL",
+        "artist": "Bad Bunny",
+        "playcount": 8775000,
+        "rank": 25,
+        "bestChartRank": 25,
+        "url": "https://music.apple.com/fr/album/nuevayol/1787022393?i=1787022572&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/5e/7e/905e7ed5-a8fa-a8f3-cd06-0028fdf3afaa/199066342442.jpg/600x600bb.jpg",
+        "releaseDate": "2025-01-05",
+        "rarity": "UR"
       },
       {
         "name": "Dis-moi oui",
@@ -350,7 +602,8 @@
         "collectionName": "Dis-moi oui - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 236120,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
       },
       {
         "name": "End of Beginning",
@@ -369,7 +622,21 @@
         "collectionName": "DECIDE",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 159246,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "La tendresse (feat. Solann)",
+        "artist": "Waxx",
+        "playcount": 8677000,
+        "rank": 27,
+        "bestChartRank": 27,
+        "url": "https://music.apple.com/fr/album/la-tendresse-feat-solann/1846409357?i=1846409359&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/09/ec/a1/09eca150-1319-f5b4-54e3-28470189e623/cover.jpg/600x600bb.jpg",
+        "releaseDate": "2025-12-05",
+        "rarity": "UR"
       },
       {
         "name": "The Fate of Ophelia",
@@ -388,7 +655,21 @@
         "collectionName": "The Life of a Showgirl",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 226074,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "Chanson sur ma drôle de vie (Remasterisé en 2008)",
+        "artist": "Véronique Sanson",
+        "playcount": 8579000,
+        "rank": 29,
+        "bestChartRank": 29,
+        "url": "https://music.apple.com/fr/album/chanson-sur-ma-dr%C3%B4le-de-vie-remasteris%C3%A9-en-2008/1458788393?i=1458788550&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/65/58/3c/65583c64-f385-9d28-6615-5cad43434e03/190295457907.jpg/600x600bb.jpg",
+        "releaseDate": "1972-07-01",
+        "rarity": "UR"
       },
       {
         "name": "La Terre",
@@ -407,7 +688,8 @@
         "collectionName": "La Terre - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 180493,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
       },
       {
         "name": "Be With You",
@@ -426,7 +708,21 @@
         "collectionName": "The Wow! Signal",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 215196,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "Dis-moi oui",
+        "artist": "SANTA",
+        "playcount": 8383000,
+        "rank": 33,
+        "bestChartRank": 33,
+        "url": "https://music.apple.com/fr/album/dis-moi-oui/1836422194?i=1836422210&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/51/4a/fc/514afc15-8ac5-b54f-66db-9d973cd7548c/5021732969910.jpg/600x600bb.jpg",
+        "releaseDate": "2024-05-24",
+        "rarity": "UR"
       },
       {
         "name": "Berghain",
@@ -445,7 +741,8 @@
         "collectionName": "Kompakt: Total 8",
         "primaryGenreName": "Techno",
         "trackTimeMillis": 428693,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
       },
       {
         "name": "Chanson sur ma drôle de vie (Remasterisé en 2008)",
@@ -464,7 +761,21 @@
         "collectionName": "De l'autre côté de mon rêve (Remasterisé en 2008)",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 161080,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UR"
+      },
+      {
+        "name": "The Fate of Ophelia",
+        "artist": "Taylor Swift",
+        "playcount": 8285000,
+        "rank": 35,
+        "bestChartRank": 35,
+        "url": "https://music.apple.com/fr/album/the-fate-of-ophelia/1833328839?i=1833328840&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-10-03",
+        "rarity": "UR"
       },
       {
         "name": "La recette",
@@ -483,7 +794,21 @@
         "collectionName": "Oxygène",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 182120,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "DtMF",
+        "artist": "Bad Bunny",
+        "playcount": 8236000,
+        "rank": 36,
+        "bestChartRank": 36,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "SR"
       },
       {
         "name": "Comme Caroline (feat. MC Solaar)",
@@ -502,7 +827,21 @@
         "collectionName": "Comme Caroline (feat. MC Solaar) - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 185467,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Unravelling",
+        "artist": "Muse",
+        "playcount": 8138000,
+        "rank": 38,
+        "bestChartRank": 38,
+        "url": "https://music.apple.com/fr/album/unravelling/1818597942?i=1818597945&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/96/13/ef9613c9-2021-e542-c320-b372da733da2/5021732834430.jpg/600x600bb.jpg",
+        "releaseDate": "2025-06-20",
+        "rarity": "SR"
       },
       {
         "name": "Soleil Bleu",
@@ -521,7 +860,21 @@
         "collectionName": "Soleil Bleu - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 246000,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "End of Beginning",
+        "artist": "Djo",
+        "playcount": 8089000,
+        "rank": 39,
+        "bestChartRank": 39,
+        "url": "https://music.apple.com/fr/album/end-of-beginning/1632447652?i=1632448108&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/94/31/e59431de-7591-58e6-c4d4-105b6373ad6a/5056494917336_1.jpg/600x600bb.jpg",
+        "releaseDate": "2024-03-01",
+        "rarity": "UR"
       },
       {
         "name": "Tití Me Preguntó (Mixed)",
@@ -540,7 +893,21 @@
         "collectionName": "ARTZ Basel Miami Mix (DJ Mix)",
         "primaryGenreName": "Hip-hop",
         "trackTimeMillis": 111276,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "ONE TRACK MIND",
+        "artist": "Naïka",
+        "playcount": 8040000,
+        "rank": 40,
+        "bestChartRank": 40,
+        "url": "https://music.apple.com/fr/album/one-track-mind/1852358411?i=1852358425&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/04/47/d4044743-4a3f-0d8c-123e-0d97448a4672/199806442081.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-20",
+        "rarity": "SR"
       },
       {
         "name": "Dracula",
@@ -559,7 +926,34 @@
         "collectionName": "Dracula - Single",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 205309,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Hunting The Wren (The Immortal Man Version)",
+        "artist": "Lankum & Grian Chatten",
+        "playcount": 7991000,
+        "rank": 41,
+        "bestChartRank": 41,
+        "url": "https://music.apple.com/fr/album/hunting-the-wren-the-immortal-man-version/1878166894?i=1878167316&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/e4/ec/80e4ecfe-a7ec-9329-1f40-0ac6c3aefe27/196874115893.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-06",
+        "rarity": "SR"
+      },
+      {
+        "name": "La Terre",
+        "artist": "Camille",
+        "playcount": 7942000,
+        "rank": 42,
+        "bestChartRank": 42,
+        "url": "https://music.apple.com/fr/album/la-terre/1883112193?i=1883112195&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/d6/d0/94d6d0c4-3955-6103-6694-596134caee06/5056556176428_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-24",
+        "rarity": "UR"
       },
       {
         "name": "Jamaican (Bam Bam)",
@@ -578,7 +972,21 @@
         "collectionName": "Jamaican (Bam Bam) - Single",
         "primaryGenreName": "Afro house",
         "trackTimeMillis": 156393,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Comme Caroline (feat. MC Solaar)",
+        "artist": "Zaho",
+        "playcount": 7795000,
+        "rank": 45,
+        "bestChartRank": 45,
+        "url": "https://music.apple.com/fr/album/comme-caroline-feat-mc-solaar/1873368130?i=1873368532&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e6/92/aa/e692aaf4-7b9e-bb64-fbe2-b1509c18d1c2/196874072608.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-13",
+        "rarity": "SR"
       },
       {
         "name": "Thunderstruck",
@@ -597,7 +1005,8 @@
         "collectionName": "The Razors Edge",
         "primaryGenreName": "Hard rock",
         "trackTimeMillis": 292334,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
       },
       {
         "name": "Sarà Perché Ti Amo",
@@ -616,7 +1025,21 @@
         "collectionName": "Ricchi e Poveri",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 183493,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Freestyle Emin3m",
+        "artist": "Sakage",
+        "playcount": 7697000,
+        "rank": 47,
+        "bestChartRank": 47,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "SR"
       },
       {
         "name": "Hymne à l'amour (Live aux Jeux Olympiques de Paris 2024 / Live from the Olympic Games Paris 2024)",
@@ -635,7 +1058,34 @@
         "collectionName": "Hymne à l'amour (Live aux Jeux Olympiques de Paris 2024 / Live from the Olympic Games Paris 2024) - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 229940,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Berghain",
+        "artist": "Aril Brikha",
+        "playcount": 7648000,
+        "rank": 48,
+        "bestChartRank": 48,
+        "url": "https://music.apple.com/fr/album/berghain/287304013?i=287304271&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/37/1c/71/371c71f1-7857-0c18-f9fc-c76033658c0c/880319031021_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2007-02-12",
+        "rarity": "SR"
+      },
+      {
+        "name": "La recette",
+        "artist": "Jeck & Carla",
+        "playcount": 7599000,
+        "rank": 49,
+        "bestChartRank": 49,
+        "url": "https://music.apple.com/fr/album/la-recette/1841931610?i=1841932144&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/99/36/ee993646-445d-2348-e917-8c7e04e96a62/cover.jpg/600x600bb.jpg",
+        "releaseDate": "2025-10-24",
+        "rarity": "SR"
       },
       {
         "name": "DtMF",
@@ -654,7 +1104,21 @@
         "collectionName": "DeBÍ TiRAR MáS FOToS",
         "primaryGenreName": "Musique latine",
         "trackTimeMillis": 187507,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Tití Me Preguntó (Mixed)",
+        "artist": "Bad Bunny",
+        "playcount": 7550000,
+        "rank": 50,
+        "bestChartRank": 50,
+        "url": "https://music.apple.com/fr/album/tit%C3%AD-me-pregunt%C3%B3-mixed/1664296806?i=1664297506&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b0/b9/7c/b0b97c63-14ff-8946-f34e-4239faecb1e0/820cc83e-1f8f-4738-8ee8-e1ebce5c123b.png/600x600bb.jpg",
+        "releaseDate": "2023-01-27",
+        "rarity": "SR"
       },
       {
         "name": "Ordinary",
@@ -673,7 +1137,21 @@
         "collectionName": "Ordinary - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 186964,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "PARISIENNE",
+        "artist": "GIMS & La Mano 1.9",
+        "playcount": 7501000,
+        "rank": 51,
+        "bestChartRank": 51,
+        "url": "https://music.apple.com/fr/album/parisienne/1830026305?i=1830026308&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/52/79/515279e4-3c21-1516-04af-f8ea980e66ef/cover.jpg/600x600bb.jpg",
+        "releaseDate": "2025-02-20",
+        "rarity": "SR"
       },
       {
         "name": "PARISIENNE",
@@ -692,7 +1170,21 @@
         "collectionName": "PARISIENNE - Single",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 158860,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Click Clack Symphony. (feat. Hans Zimmer)",
+        "artist": "RAYE",
+        "playcount": 7452000,
+        "rank": 52,
+        "bestChartRank": 52,
+        "url": "https://music.apple.com/fr/album/click-clack-symphony-feat-hans-zimmer/1871085677?i=1871085694&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/05/10/5005106d-bb8a-32db-1172-f18405cf4a46/820200038890.jpg/600x600bb.jpg",
+        "releaseDate": null,
+        "rarity": "SR"
       },
       {
         "name": "Prière païenne",
@@ -711,7 +1203,21 @@
         "collectionName": "D'eux (Édition 15e Anniversaire)",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 252253,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Housebroken",
+        "artist": "Aiyana-Lee",
+        "playcount": 7403000,
+        "rank": 53,
+        "bestChartRank": 53,
+        "url": "https://music.apple.com/fr/album/housebroken/1876041563?i=1876041564&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/87/cb/1f87cb2c-a621-717c-fcf3-f149d9e36420/346766.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-20",
+        "rarity": "SR"
       },
       {
         "name": "The Way We Touch",
@@ -730,7 +1236,21 @@
         "collectionName": "The Way We Touch - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 189588,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Jamaican (Bam Bam)",
+        "artist": "HUGEL & SOLTO (FR)",
+        "playcount": 7354000,
+        "rank": 54,
+        "bestChartRank": 54,
+        "url": "https://music.apple.com/fr/album/jamaican-bam-bam/1883679875?i=1883679876&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/f1/7c/edf17ca2-848a-c0e7-0772-4abf9666d70f/26UMGIM27048.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-11-07",
+        "rarity": "SR"
       },
       {
         "name": "SPA",
@@ -749,7 +1269,34 @@
         "collectionName": "SPA - Single",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 183307,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "CASPER",
+        "artist": "Alex Urbane",
+        "playcount": 7305000,
+        "rank": 55,
+        "bestChartRank": 55,
+        "url": "https://music.apple.com/fr/album/casper/1880507168?i=1880507171&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/be/59/27be5967-3760-f479-94ec-303e443d0fa2/artwork.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-24",
+        "rarity": "SR"
+      },
+      {
+        "name": "Beethoven: Sonate au Clair de Lune (Sonate in C-Sharp Minor, Op. 27, 2: I. Adagio sostenuto)",
+        "artist": "Pierre Henri Martinot & Moonlight Sonata",
+        "playcount": 7256000,
+        "rank": 56,
+        "bestChartRank": 56,
+        "url": "https://music.apple.com/fr/album/beethoven-sonate-au-clair-de-lune-sonate-in-c-sharp/1575244919?i=1575244921&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/72/7b/69727b4e-fee8-3d97-dd2f-a78961470e41/cover_10199627.jpg/600x600bb.jpg",
+        "releaseDate": "2017-12-15",
+        "rarity": "SR"
       },
       {
         "name": "APT.",
@@ -768,7 +1315,21 @@
         "collectionName": "APT. - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 169917,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "No Batidão",
+        "artist": "XRIS, NEXXN & KXVR",
+        "playcount": 7207000,
+        "rank": 57,
+        "bestChartRank": 57,
+        "url": "https://music.apple.com/fr/album/no-batid%C3%A3o/1858023523?i=1858023527&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/dd/d1/1addd19b-aa06-8205-9b40-79e9846864cb/8721191220498.png/600x600bb.jpg",
+        "releaseDate": "2025-12-10",
+        "rarity": "SR"
       },
       {
         "name": "What Was I Made For? (From The Motion Picture \"Barbie\")",
@@ -787,7 +1348,21 @@
         "collectionName": "What Was I Made For? (From The Motion Picture \"Barbie\") - Single",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 222370,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Sarà Perché Ti Amo",
+        "artist": "Ricchi & Poveri",
+        "playcount": 7158000,
+        "rank": 58,
+        "bestChartRank": 58,
+        "url": "https://music.apple.com/fr/album/sar%C3%A0-perch%C3%A9-ti-amo/302109517?i=302109522&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/ad/16/73/mzi.msmmzulk.jpg/600x600bb.jpg",
+        "releaseDate": "1981-01-01",
+        "rarity": "SR"
       },
       {
         "name": "Feel Good",
@@ -806,7 +1381,21 @@
         "collectionName": "Feel Good - Single",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 163472,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Soleil Bleu (Radio Edit)",
+        "artist": "Bleu Soleil & LUIZA",
+        "playcount": 7109000,
+        "rank": 59,
+        "bestChartRank": 59,
+        "url": "https://music.apple.com/fr/album/soleil-bleu-radio-edit/1820449217?i=1820449221&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/b9/6b/cab96b8b-07a3-6815-6f38-08ddda9f22cb/3596974871496_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2025-04-09",
+        "rarity": "SR"
       },
       {
         "name": "Try",
@@ -825,7 +1414,21 @@
         "collectionName": "The Truth About Love (Fan Edition)",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 247912,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "What You Want",
+        "artist": "Angèle & Justice",
+        "playcount": 7060000,
+        "rank": 60,
+        "bestChartRank": 60,
+        "url": "https://music.apple.com/fr/album/what-you-want/1874973633?i=1874973639&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/29/a1/e729a1f0-eaaf-80eb-3c31-91e9601e2944/5056556175278_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-27",
+        "rarity": "SR"
       },
       {
         "name": "Hunting The Wren (The Immortal Man Version)",
@@ -844,7 +1447,21 @@
         "collectionName": "Peaky Blinders - The Immortal Man (Soundtrack from the Netflix Film)",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 428650,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Dracula",
+        "artist": "Tame Impala",
+        "playcount": 7011000,
+        "rank": 61,
+        "bestChartRank": 61,
+        "url": "https://music.apple.com/fr/album/dracula/1842444456?i=1842444457&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/be/b4/36beb41f-c644-55cb-9fbb-bf0622a66653/196873644783.jpg/600x600bb.jpg",
+        "releaseDate": "2025-09-24",
+        "rarity": "SR"
       },
       {
         "name": "What You Want",
@@ -863,7 +1480,21 @@
         "collectionName": "What You Want - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 188320,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Queen of Kings",
+        "artist": "Alessandra",
+        "playcount": 6962000,
+        "rank": 62,
+        "bestChartRank": 62,
+        "url": "https://music.apple.com/fr/album/queen-of-kings/1661148199?i=1661148211&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/10/78/11/10781124-f770-0362-089a-e082de37ac98/22UM1IM46203.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2023-01-09",
+        "rarity": "R"
       },
       {
         "name": "Gone Gone Gone",
@@ -882,7 +1513,34 @@
         "collectionName": "Gone Gone Gone - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 198004,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Homewrecker",
+        "artist": "sombr",
+        "playcount": 6913000,
+        "rank": 63,
+        "bestChartRank": 63,
+        "url": "https://music.apple.com/fr/album/homewrecker/1871595252?i=1871595253&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/bf/fb/84bffb0a-023f-419f-d5f7-6636f4e5d970/054391221933.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-05",
+        "rarity": "R"
+      },
+      {
+        "name": "SPA",
+        "artist": "GIMS & Theodora",
+        "playcount": 6864000,
+        "rank": 64,
+        "bestChartRank": 64,
+        "url": "https://music.apple.com/fr/album/spa/1866925695?i=1866925697&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/6c/8e/e16c8ef1-50ac-d45a-e6d0-53b2a1cb5905/cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-16",
+        "rarity": "SR"
       },
       {
         "name": "Le chasseur",
@@ -901,7 +1559,21 @@
         "collectionName": "Les plus grands succès",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 184267,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Oh la la amour",
+        "artist": "Julio Iglesias",
+        "playcount": 6815000,
+        "rank": 65,
+        "bestChartRank": 65,
+        "url": "https://music.apple.com/fr/album/oh-la-la-amour/1041614436?i=1041614698&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/df/d6/90/dfd690f8-e5dc-98f2-a292-8959b5c8f75a/886445478228.jpg/600x600bb.jpg",
+        "releaseDate": "1982-01-01",
+        "rarity": "R"
       },
       {
         "name": "Pour Que Tu M'aimes Encore",
@@ -920,7 +1592,21 @@
         "collectionName": "D'eux (Édition 15e Anniversaire)",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 254253,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "APT.",
+        "artist": "ROSÉ & Bruno Mars",
+        "playcount": 6766000,
+        "rank": 66,
+        "bestChartRank": 66,
+        "url": "https://music.apple.com/fr/album/apt/1773452219?i=1773452221&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/1a/7d/2d1a7d91-587e-0ceb-d434-327bd66d9e86/075679628312.jpg/600x600bb.jpg",
+        "releaseDate": "2024-10-17",
+        "rarity": "SR"
       },
       {
         "name": "Soleil Bleu (Radio Edit)",
@@ -939,7 +1625,34 @@
         "collectionName": "Soleil Bleu (Radio Edit) - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 131566,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Thunderstruck",
+        "artist": "AC/DC",
+        "playcount": 6717000,
+        "rank": 67,
+        "bestChartRank": 67,
+        "url": "https://music.apple.com/fr/album/thunderstruck/575998519?i=575998661&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bb/a2/f0/bba2f0d7-4d9e-c617-d49e-3ae02fd5d440/dj.xbkfgllk.jpg/600x600bb.jpg",
+        "releaseDate": "1990-09-10",
+        "rarity": "SR"
+      },
+      {
+        "name": "La Perla",
+        "artist": "ROSALÍA & Yahritza Y Su Esencia",
+        "playcount": 6668000,
+        "rank": 68,
+        "bestChartRank": 68,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "R"
       },
       {
         "name": "Ensemble (feat. Charlotte Cardin)",
@@ -958,7 +1671,34 @@
         "collectionName": "Aliocha Schneider (Deluxe)",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 172000,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Hymne à l'amour (Live aux Jeux Olympiques de Paris 2024 / Live from the Olympic Games Paris 2024)",
+        "artist": "Céline Dion",
+        "playcount": 6619000,
+        "rank": 69,
+        "bestChartRank": 69,
+        "url": "https://music.apple.com/fr/album/hymne-%C3%A0-lamour-live-aux-jeux-olympiques-de-paris/1771705490?i=1771705504&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/d7/8e/bcd78e1e-41f3-8785-8432-eb2ad5125828/196872507485.jpg/600x600bb.jpg",
+        "releaseDate": "2024-10-10",
+        "rarity": "SR"
+      },
+      {
+        "name": "Ordinary",
+        "artist": "Alex Warren",
+        "playcount": 6570000,
+        "rank": 70,
+        "bestChartRank": 70,
+        "url": "https://music.apple.com/fr/album/ordinary/1793663382?i=1793663645&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/78/fb/4678fb84-d19e-f11b-93ff-4dc17660bff8/075679619075.jpg/600x600bb.jpg",
+        "releaseDate": "2024-09-26",
+        "rarity": "SR"
       },
       {
         "name": "Click Clack Symphony. (feat. Hans Zimmer)",
@@ -977,7 +1717,21 @@
         "collectionName": "THIS MUSIC MAY CONTAIN HOPE.",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 301674,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "The Way We Touch",
+        "artist": "Charlotte Cardin",
+        "playcount": 6521000,
+        "rank": 71,
+        "bestChartRank": 71,
+        "url": "https://music.apple.com/fr/album/the-way-we-touch/1876297592?i=1876297593&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/77/18/997718d1-ddd5-0860-a942-fc81f68e560f/820200013873.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-13",
+        "rarity": "SR"
       },
       {
         "name": "Housebroken",
@@ -996,7 +1750,21 @@
         "collectionName": "Housebroken - Single",
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 217320,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Lose Yourself",
+        "artist": "Eminem",
+        "playcount": 6472000,
+        "rank": 72,
+        "bestChartRank": 72,
+        "url": "https://music.apple.com/fr/album/lose-yourself/1440903339?i=1440903439&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/23/fc/0823fcd9-cb44-695b-32bf-b3bf51d9f800/00606949351229.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2002-10-29",
+        "rarity": "R"
       },
       {
         "name": "Talk To You (feat. 54 Ultra)",
@@ -1015,7 +1783,21 @@
         "collectionName": "Talk To You (feat. 54 Ultra) - Single",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 191077,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Encore un soir",
+        "artist": "Céline Dion",
+        "playcount": 6423000,
+        "rank": 73,
+        "bestChartRank": 73,
+        "url": "https://music.apple.com/fr/album/encore-un-soir/1114603364?i=1114603371&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8d/fe/70/8dfe70ac-9899-c20a-d5eb-d1111f1c2aa2/886445902129.jpg/600x600bb.jpg",
+        "releaseDate": "2016-05-24",
+        "rarity": "R"
       },
       {
         "name": "Dans les yeux d'Émilie",
@@ -1034,7 +1816,21 @@
         "collectionName": "Les femmes de ma vie",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 224093,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "We Are the People",
+        "artist": "Empire Of The Sun",
+        "playcount": 6374000,
+        "rank": 74,
+        "bestChartRank": 74,
+        "url": "https://music.apple.com/fr/album/we-are-the-people/1449912306?i=1449912319&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3e/42/a7/3e42a78d-57a3-fd69-6703-14d51205dd4c/13UMGIM24968.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2008-09-20",
+        "rarity": "R"
       },
       {
         "name": "Rasputin",
@@ -1053,7 +1849,34 @@
         "collectionName": "Daddy Cool",
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 220651,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "What Was I Made For? (From The Motion Picture \"Barbie\")",
+        "artist": "Billie Eilish",
+        "playcount": 6325000,
+        "rank": 75,
+        "bestChartRank": 75,
+        "url": "https://music.apple.com/fr/album/what-was-i-made-for-from-the-motion-picture-barbie/1696819852?i=1696819855&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/64/76/7d64761e-a9b3-6754-8ae1-b457338beead/23UMGIM77779.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2023-07-13",
+        "rarity": "SR"
+      },
+      {
+        "name": "Feel Good",
+        "artist": "Charlotte Cardin",
+        "playcount": 6276000,
+        "rank": 76,
+        "bestChartRank": 76,
+        "url": "https://music.apple.com/fr/album/feel-good/1704198369?i=1704198370&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/92/6b/35/926b35ec-23e1-1bf1-a1d6-567410725ddf/5054197794513.jpg/600x600bb.jpg",
+        "releaseDate": "2023-06-09",
+        "rarity": "SR"
       },
       {
         "name": "Je déteste ma vie",
@@ -1072,7 +1895,21 @@
         "collectionName": "Paris Tristesse",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 206501,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Animaux fragiles",
+        "artist": "Ycare & ZAZ",
+        "playcount": 6227000,
+        "rank": 77,
+        "bestChartRank": 77,
+        "url": "https://music.apple.com/fr/album/animaux-fragiles/1623227292?i=1623227475&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f2/c1/4d/f2c14d7d-f593-e67f-fce3-bd9e8c2ceddb/cover.jpg/600x600bb.jpg",
+        "releaseDate": "2021-10-22",
+        "rarity": "R"
       },
       {
         "name": "Lose Yourself",
@@ -1091,7 +1928,21 @@
         "collectionName": "Tomorrowland 2023: Alok at Mainstage, Weekend 1 (DJ Mix)",
         "primaryGenreName": "Électronique",
         "trackTimeMillis": 96848,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Le Petit Pêcheur",
+        "artist": "Manon Lisa",
+        "playcount": 6178000,
+        "rank": 78,
+        "bestChartRank": 78,
+        "url": "https://music.apple.com/fr/album/le-petit-p%C3%AAcheur/1884066675?i=1884066676&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/91/f4/2d91f4b8-3c2d-7cc7-fc3d-6b80e598177f/0859730078793.png/600x600bb.jpg",
+        "releaseDate": "2026-02-10",
+        "rarity": "R"
       },
       {
         "name": "Feu",
@@ -1110,7 +1961,21 @@
         "collectionName": "ECLIPSE",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 157000,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Magic In The Air (feat.Chawki)",
+        "artist": "Magic System",
+        "playcount": 6129000,
+        "rank": 79,
+        "bestChartRank": 79,
+        "url": "https://music.apple.com/fr/album/magic-in-the-air-feat-chawki/864160108?i=864160118&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/95/65/0c/95650c7d-6355-d399-e772-aaa48a09a4b6/825646290550.jpg/600x600bb.jpg",
+        "releaseDate": "2014-01-01",
+        "rarity": "R"
       },
       {
         "name": "Unravelling",
@@ -1129,7 +1994,21 @@
         "collectionName": "Unravelling - Single",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 238002,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Gabriela",
+        "artist": "KATSEYE",
+        "playcount": 6080000,
+        "rank": 80,
+        "bestChartRank": 80,
+        "url": "https://music.apple.com/fr/album/gabriela/1811464270?i=1811464273&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/92/ca/ad92ca90-90f5-eb46-7a56-e7b6b88584f7/25UMGIM37394.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-06-26",
+        "rarity": "R"
       },
       {
         "name": "Seychelles",
@@ -1142,7 +2021,21 @@
         "source": "top200_merge",
         "artworkUrl": null,
         "releaseDate": null,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Innerbloom",
+        "artist": "RÜFÜS DU SOL",
+        "playcount": 6031000,
+        "rank": 81,
+        "bestChartRank": 81,
+        "url": "https://music.apple.com/fr/album/innerbloom/1058740883?i=1058740894&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/aa/5f/d8/aa5fd889-4c2e-7e24-e8b2-428beaf9d4fe/SWEATA009.jpg/600x600bb.jpg",
+        "releaseDate": "2015-11-20",
+        "rarity": "R"
       },
       {
         "name": "Beethoven: Sonate au Clair de Lune (Sonate in C-Sharp Minor, Op. 27, 2: I. Adagio sostenuto)",
@@ -1161,7 +2054,21 @@
         "collectionName": "Beethoven: Sonate au Clair de Lune (Sonate in C-Sharp Minor, Op. 27, 2: I. Adagio sostenuto) - Single",
         "primaryGenreName": "Musique classique",
         "trackTimeMillis": 335909,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Always Remember Us This Way",
+        "artist": "Lady Gaga",
+        "playcount": 5982000,
+        "rank": 82,
+        "bestChartRank": 82,
+        "url": "https://music.apple.com/fr/album/always-remember-us-this-way/1434371867?i=1434372043&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2018-10-05",
+        "rarity": "R"
       },
       {
         "name": "Restes d'averses",
@@ -1180,7 +2087,21 @@
         "collectionName": "Cœur maladroit",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 187400,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Try",
+        "artist": "P!nk",
+        "playcount": 5933000,
+        "rank": 83,
+        "bestChartRank": 83,
+        "url": "https://music.apple.com/fr/album/try/576949278?i=576949281&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/de/d4/f4/ded4f4be-a037-557e-e2ac-866455e6b268/886443736474.jpg/600x600bb.jpg",
+        "releaseDate": "2012-09-14",
+        "rarity": "SR"
       },
       {
         "name": "Longtemps",
@@ -1199,7 +2120,21 @@
         "collectionName": "Addictions (Deluxe Edition)",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 219000,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Give Me Love",
+        "artist": "Cerrone",
+        "playcount": 5884000,
+        "rank": 84,
+        "bestChartRank": 84,
+        "url": "https://music.apple.com/fr/album/give-me-love/1522275917?i=1522275928&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/1d/9d/9d1d9d46-53d6-1d85-b79c-eb1215671c14/5060766761817_cover.jpg/600x600bb.jpg",
+        "releaseDate": "1977-09-01",
+        "rarity": "R"
       },
       {
         "name": "Freestyle Emin3m",
@@ -1212,7 +2147,21 @@
         "source": "top200_merge",
         "artworkUrl": null,
         "releaseDate": null,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "Gangsta's Paradise (feat. L.V.) [2023 Remaster]",
+        "artist": "Coolio",
+        "playcount": 5835000,
+        "rank": 85,
+        "bestChartRank": 85,
+        "url": "https://music.apple.com/fr/album/gangstas-paradise-feat-l-v-2023-remaster/1605189366?i=1605189373&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/23/0b/c2230b5f-e753-e9b0-c032-b9ea0713450f/016998513262.png/600x600bb.jpg",
+        "releaseDate": "1995-08-08",
+        "rarity": "R"
       },
       {
         "name": "Running Up That Hill (A Deal With God) [2018 Remaster]",
@@ -1231,7 +2180,21 @@
         "collectionName": "Hounds of Love (2018 Remaster)",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 300840,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Gone Gone Gone",
+        "artist": "David Guetta, Teddy Swims & Tones And I",
+        "playcount": 5786000,
+        "rank": 86,
+        "bestChartRank": 86,
+        "url": "https://music.apple.com/fr/album/gone-gone-gone/1843159672?i=1843159674&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/1b/01/ac1b0190-eef2-043f-dc65-89217875dc4d/5026854057859.jpg/600x600bb.jpg",
+        "releaseDate": "2025-10-10",
+        "rarity": "R"
       },
       {
         "name": "Viens on essaie",
@@ -1250,7 +2213,21 @@
         "collectionName": "Viens on essaie - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 169042,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "We Will Rock You (Remastered 2011)",
+        "artist": "Queen",
+        "playcount": 5737000,
+        "rank": 87,
+        "bestChartRank": 87,
+        "url": "https://music.apple.com/fr/album/we-will-rock-you-remastered-2011/1441457432?i=1441457437&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9a/04/93/9a0493e7-54b0-664c-941a-dc5f0db585dd/14UMGIM39395.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1977-10-07",
+        "rarity": "R"
       },
       {
         "name": "Gabriela",
@@ -1269,7 +2246,21 @@
         "collectionName": "BEAUTIFUL CHAOS - EP",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 197227,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Pour Que Tu M'aimes Encore",
+        "artist": "Céline Dion",
+        "playcount": 5688000,
+        "rank": 88,
+        "bestChartRank": 88,
+        "url": "https://music.apple.com/fr/album/pour-que-tu-maimes-encore/207088529?i=207088540&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/3a/4e/ff/mzi.eciahqkd.jpg/600x600bb.jpg",
+        "releaseDate": "1995-03-13",
+        "rarity": "R"
       },
       {
         "name": "The Dead Dance",
@@ -1288,7 +2279,8 @@
         "collectionName": "MAYHEM",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 228519,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
       },
       {
         "name": "Wellerman (Sea Shanty)",
@@ -1307,7 +2299,21 @@
         "collectionName": "Wellerman (Sea Shanty) - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 155333,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Galaxy",
+        "artist": "Kungs, Mind Enterprises & Theophilus London",
+        "playcount": 5590000,
+        "rank": 90,
+        "bestChartRank": 90,
+        "url": "https://music.apple.com/fr/album/galaxy/1859571411?i=1859571413&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/cc/e0/67cce0a0-d6e2-313a-f0dd-538e9280ae10/25UM1IM95760.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-09",
+        "rarity": "R"
       },
       {
         "name": "Immortel",
@@ -1326,7 +2332,8 @@
         "collectionName": "Les Enfants du Chaos",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 255987,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
       },
       {
         "name": "Le Carnaval des Animaux: Aquarium",
@@ -1345,7 +2352,21 @@
         "collectionName": "Saint-Saëns: Carnival of the Animals",
         "primaryGenreName": "Musique classique",
         "trackTimeMillis": 151173,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "J'irai où tu iras (feat. Jean-Jacques Goldman)",
+        "artist": "Céline Dion & Jean-Jacques Goldman",
+        "playcount": 5492000,
+        "rank": 92,
+        "bestChartRank": 92,
+        "url": "https://music.apple.com/fr/album/jirai-o%C3%B9-tu-iras-feat-jean-jacques-goldman/338620107?i=338620287&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/66/f0/0966f073-58b8-397e-7faa-1dcab7f6404d/884977402445.jpg/600x600bb.jpg",
+        "releaseDate": "1995-03-27",
+        "rarity": "R"
       },
       {
         "name": "Bandiera",
@@ -1364,7 +2385,8 @@
         "collectionName": "Bandiera - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 181524,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
       },
       {
         "name": "Always Remember Us This Way",
@@ -1383,7 +2405,21 @@
         "collectionName": "A Star Is Born Soundtrack",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 210198,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Papaoutai (Afro Soul)",
+        "artist": "mikeeysmind, Chill77 & Unjaps",
+        "playcount": 5394000,
+        "rank": 94,
+        "bestChartRank": 94,
+        "url": "https://music.apple.com/fr/album/papaoutai-afro-soul/1876617487?i=1876617505&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/49/ba/6d/49ba6d9f-e807-f36b-decc-1e027dfe000d/26UMGIM18513.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-12-19",
+        "rarity": "R"
       },
       {
         "name": "I'm Alive",
@@ -1402,7 +2438,21 @@
         "collectionName": "A New Day Has Come",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 210227,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Dans les yeux d'Émilie",
+        "artist": "Joe Dassin",
+        "playcount": 5345000,
+        "rank": 95,
+        "bestChartRank": 95,
+        "url": "https://music.apple.com/fr/album/dans-les-yeux-d%C3%A9milie/260806111?i=260806285&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e0/81/f5/mzi.yyjaisbx.jpg/600x600bb.jpg",
+        "releaseDate": "1977-01-01",
+        "rarity": "R"
       },
       {
         "name": "Can't Hold Us (feat. Ray Dalton)",
@@ -1421,7 +2471,21 @@
         "collectionName": "The Heist (Deluxe Edition)",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 258432,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Mauvais garçon",
+        "artist": "Helena",
+        "playcount": 5296000,
+        "rank": 96,
+        "bestChartRank": 96,
+        "url": "https://music.apple.com/fr/album/mauvais-gar%C3%A7on/1778697559?i=1778697561&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/55/db/c955db44-9775-785a-87b2-165c784741a2/196872648607.jpg/600x600bb.jpg",
+        "releaseDate": "2024-11-20",
+        "rarity": "R"
       },
       {
         "name": "So Easy (To Fall In Love)",
@@ -1440,7 +2504,21 @@
         "collectionName": "The Art of Loving",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 169000,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "I Follow Rivers (The Magician Remix)",
+        "artist": "Lykke Li",
+        "playcount": 5247000,
+        "rank": 97,
+        "bestChartRank": 97,
+        "url": "https://music.apple.com/fr/album/i-follow-rivers-the-magician-remix/482678187?i=482678717&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/ea/44/17/mzi.ppexxzna.jpg/600x600bb.jpg",
+        "releaseDate": "2011-02-14",
+        "rarity": "R"
       },
       {
         "name": "Aviateur",
@@ -1459,7 +2537,21 @@
         "collectionName": "Aviateur - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 267973,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Immortel",
+        "artist": "Yuston XIII",
+        "playcount": 5198000,
+        "rank": 98,
+        "bestChartRank": 98,
+        "url": "https://music.apple.com/fr/album/immortel/1867153798?i=1867153997&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/e0/e5/a5e0e597-08e0-e823-d142-119223db1ece/5026854384467.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-16",
+        "rarity": "R"
       },
       {
         "name": "Peer Gynt, Op. 23: Prelude to Act 4 (Morning mood)",
@@ -1478,7 +2570,21 @@
         "collectionName": "Classics On Line, Volume 1 - Les Grands Classiques",
         "primaryGenreName": "Musique classique",
         "trackTimeMillis": 175813,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Je déteste ma vie",
+        "artist": "Pierre Lapointe",
+        "playcount": 5149000,
+        "rank": 99,
+        "bestChartRank": 99,
+        "url": "https://music.apple.com/fr/album/je-d%C3%A9teste-ma-vie/1551592733?i=1551592811&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/ea/a9/4ceaa9c9-cb79-d2a2-c9e8-d60332f9c046/190374951975.jpg/600x600bb.jpg",
+        "releaseDate": "2014-11-17",
+        "rarity": "R"
       },
       {
         "name": "Light Over the Hill (from Reminders of Him)",
@@ -1497,7 +2603,21 @@
         "collectionName": "Light Over the Hill (from Reminders of Him) - Single",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 283605,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Zombie (2025 Remastered)",
+        "artist": "The Cranberries",
+        "playcount": 5100000,
+        "rank": 100,
+        "bestChartRank": 100,
+        "url": "https://music.apple.com/fr/album/zombie-2025-remastered/1828830621?i=1828830887&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/77/a3/a377a309-8e52-f787-2250-2b34d320bf7b/25UMGIM64146.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1994-10-03",
+        "rarity": "R"
       },
       {
         "name": "KOLO",
@@ -1516,7 +2636,21 @@
         "collectionName": "KOLO - Single",
         "primaryGenreName": "Afrobeat",
         "trackTimeMillis": 148582,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Dou(x)",
+        "artist": "DJ Tyson & Taija",
+        "playcount": 5051000,
+        "rank": 101,
+        "bestChartRank": 101,
+        "url": "https://music.apple.com/fr/album/dou-x/1879555623?i=1879555634&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/b4/f1/e3b4f1a4-cf72-e1f9-e4f1-de427b4ded46/859732129387_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-20",
+        "rarity": "UC"
       },
       {
         "name": "Money For Nothing",
@@ -1535,7 +2669,21 @@
         "collectionName": "The Best of Dire Straits & Mark Knopfler: Private Investigations",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 504200,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "I Follow Rivers (The Road Sessions)",
+        "artist": "Triggerfinger",
+        "playcount": 5002000,
+        "rank": 102,
+        "bestChartRank": 102,
+        "url": "https://music.apple.com/fr/album/i-follow-rivers-the-road-sessions/527430923?i=527431234&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ea/27/42/ea274265-1cb4-d5fa-451b-0124de296d82/825646583881.jpg/600x600bb.jpg",
+        "releaseDate": "2010-10-01",
+        "rarity": "UC"
       },
       {
         "name": "When I Stand",
@@ -1554,7 +2702,21 @@
         "collectionName": "When I Stand - Single",
         "primaryGenreName": "Country",
         "trackTimeMillis": 199720,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Sonnerie 2 non non",
+        "artist": "Menhir",
+        "playcount": 4953000,
+        "rank": 103,
+        "bestChartRank": 103,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "UC"
       },
       {
         "name": "Back To Black (Original Demo)",
@@ -1573,7 +2735,21 @@
         "collectionName": "Back To Black (Remixes & B Sides) - EP",
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 181493,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Prendre racine",
+        "artist": "Calogero",
+        "playcount": 4904000,
+        "rank": 104,
+        "bestChartRank": 104,
+        "url": "https://music.apple.com/fr/album/prendre-racine/1442503986?i=1442504208&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ea/61/dc/ea61dc8d-4678-c9c5-2813-4f41873ed51d/00602557142662.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2002-02-20",
+        "rarity": "UC"
       },
       {
         "name": "FEVER DREAM",
@@ -1592,7 +2768,21 @@
         "collectionName": "FEVER DREAM - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 153430,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Now We Are Free",
+        "artist": "Lisa Gerrard, Gavin Greenaway, The Lyndhurst Orchestra, Bruce Fowler, Yvonne S. Moriarty, Walt Fowler, Ladd McIntosh, Elizabeth Finch, Jack Smalley & Hans Zimmer",
+        "playcount": 4855000,
+        "rank": 105,
+        "bestChartRank": 105,
+        "url": "https://music.apple.com/fr/album/now-we-are-free/1440563157?i=1440563274&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/22/2a/1d/222a1d18-6d21-fec2-3ef0-ce0f7988ed65/06UMGIM05485.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2000-04-25",
+        "rarity": "UC"
       },
       {
         "name": "What's Up?",
@@ -1611,7 +2801,21 @@
         "collectionName": "Bigger, Better, Faster, More!",
         "primaryGenreName": "Rock",
         "trackTimeMillis": 295533,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Maria Magdalena",
+        "artist": "Sandra",
+        "playcount": 4806000,
+        "rank": 106,
+        "bestChartRank": 106,
+        "url": "https://music.apple.com/fr/album/maria-magdalena/712213507?i=712213834&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/09/cd/b2/09cdb25f-9da7-a113-e3bb-014197fa3d94/13UABIM51736.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1985-03-01",
+        "rarity": "UC"
       },
       {
         "name": "360 (Arr. For Cello Obligato and String Quartet)",
@@ -1630,7 +2834,21 @@
         "collectionName": "Bridgerton Season Four (Covers from the Netflix Series)",
         "primaryGenreName": "Inspiration classique",
         "trackTimeMillis": 131317,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Bye Bye باي باي بسلامة عليك Rai remi x",
+        "artist": "DJ Lumina Official",
+        "playcount": 4757000,
+        "rank": 107,
+        "bestChartRank": 107,
+        "url": "https://music.apple.com/fr/album/bye-bye-%D8%A8%D8%A7%D9%8A-%D8%A8%D8%A7%D9%8A-%D8%A8%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D8%B9%D9%84%D9%8A%D9%83-rai-remi-x/1862247826?i=1862247827&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/d5/96/b7d59689-7efe-c20a-6bec-9ec335a1482e/artwork.jpg/600x600bb.jpg",
+        "releaseDate": "2025-12-17",
+        "rarity": "UC"
       },
       {
         "name": "Champagne",
@@ -1649,7 +2867,34 @@
         "collectionName": "Millénium",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 189798,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "50 ans déjà",
+        "artist": "Christophe Maé",
+        "playcount": 4708000,
+        "rank": 108,
+        "bestChartRank": 108,
+        "url": "https://music.apple.com/fr/album/50-ans-d%C3%A9j%C3%A0/1844579317?i=1844579320&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/c7/e6/cdc7e6a1-1e5d-4e91-5f9c-9ce84a58e34a/5026854091808.jpg/600x600bb.jpg",
+        "releaseDate": "2025-10-16",
+        "rarity": "UC"
+      },
+      {
+        "name": "Restes d'averses",
+        "artist": "Marine",
+        "playcount": 4659000,
+        "rank": 109,
+        "bestChartRank": 109,
+        "url": "https://music.apple.com/fr/album/restes-daverses/1819694337?i=1819694566&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/a9/db/a9a9db6a-4c69-586e-128a-c99395242e2e/196873157214.jpg/600x600bb.jpg",
+        "releaseDate": "2025-06-27",
+        "rarity": "R"
       },
       {
         "name": "Allons Voir",
@@ -1668,7 +2913,21 @@
         "collectionName": "Allons Voir - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 229669,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Iris",
+        "artist": "The Goo Goo Dolls",
+        "playcount": 4610000,
+        "rank": 110,
+        "bestChartRank": 110,
+        "url": "https://music.apple.com/fr/album/iris/1109658139?i=1109658204&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/13/18/2c131801-00af-58b1-3cc2-13abf4ad5416/093624919162.jpg/600x600bb.jpg",
+        "releaseDate": "1998-04-07",
+        "rarity": "UC"
       },
       {
         "name": "Sex Model",
@@ -1687,7 +2946,21 @@
         "collectionName": "Sex Model - Single",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 166923,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "The Sound of Silence (CYRIL Remix)",
+        "artist": "Disturbed",
+        "playcount": 4561000,
+        "rank": 111,
+        "bestChartRank": 111,
+        "url": "https://music.apple.com/fr/album/the-sound-of-silence-cyril-remix/1728492837?i=1728492838&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a9/ca/96/a9ca964f-78f0-b6a3-d3ea-08370fad7f90/054391308696.jpg/600x600bb.jpg",
+        "releaseDate": "2024-02-13",
+        "rarity": "UC"
       },
       {
         "name": "CHANEL",
@@ -1706,7 +2979,21 @@
         "collectionName": "CHANEL - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 188060,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "The Dead Dance",
+        "artist": "Lady Gaga",
+        "playcount": 4512000,
+        "rank": 112,
+        "bestChartRank": 112,
+        "url": "https://music.apple.com/fr/album/the-dead-dance/1837310866?i=1837310878&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-09-01",
+        "rarity": "R"
       },
       {
         "name": "La tendresse",
@@ -1725,7 +3012,21 @@
         "collectionName": "Les chansons d'or",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 189733,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "In This Shirt",
+        "artist": "The Irrepressibles",
+        "playcount": 4463000,
+        "rank": 113,
+        "bestChartRank": 113,
+        "url": "https://music.apple.com/fr/album/in-this-shirt/1617426709?i=1617426721&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/24/3d/53243dc4-c830-85ee-5236-99167d447e6c/5052442007272.png/600x600bb.jpg",
+        "releaseDate": "2008-12-10",
+        "rarity": "UC"
       },
       {
         "name": "Je Sais Qui Je Suis",
@@ -1744,7 +3045,8 @@
         "collectionName": "Grandeur Nature",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 247507,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
       },
       {
         "name": "Tout a changé (Rien n'a changé)",
@@ -1763,7 +3065,21 @@
         "collectionName": "Hélé",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 166421,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Can't Hold Us (feat. Ray Dalton)",
+        "artist": "Macklemore & Ryan Lewis",
+        "playcount": 4365000,
+        "rank": 115,
+        "bestChartRank": 115,
+        "url": "https://music.apple.com/fr/album/cant-hold-us-feat-ray-dalton/560097651?i=560097694&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/91/c1/b5/91c1b5cc-d4f1-da61-d3dc-2dd93e6b0a7d/707541525299.jpg/600x600bb.jpg",
+        "releaseDate": "2011-08-16",
+        "rarity": "R"
       },
       {
         "name": "ONE TRACK MIND",
@@ -1782,7 +3098,21 @@
         "collectionName": "ECLESIA",
         "primaryGenreName": "Pop indé",
         "trackTimeMillis": 200640,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "SR"
+      },
+      {
+        "name": "I'm Alive",
+        "artist": "Céline Dion",
+        "playcount": 4316000,
+        "rank": 116,
+        "bestChartRank": 116,
+        "url": "https://music.apple.com/fr/album/im-alive/479204871?i=479205070&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f8/22/71/f82271b5-febd-23c2-8028-040760dda6f8/mzi.actfimaz.jpg/600x600bb.jpg",
+        "releaseDate": "2002-03-22",
+        "rarity": "R"
       },
       {
         "name": "Don't Stop Me Now",
@@ -1801,7 +3131,21 @@
         "collectionName": "Jazz (Deluxe Edition)",
         "primaryGenreName": "Rock",
         "trackTimeMillis": 209391,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "The Show Must Go On",
+        "artist": "Queen",
+        "playcount": 4267000,
+        "rank": 117,
+        "bestChartRank": 117,
+        "url": "https://music.apple.com/fr/album/the-show-must-go-on/1440821736?i=1440822550&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8b/f1/50/8bf1503a-a4db-4fa6-a3a5-f919509acacd/14UMGIM43392.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1991-02-04",
+        "rarity": "UC"
       },
       {
         "name": "ZOU BISOU",
@@ -1820,7 +3164,21 @@
         "collectionName": "Too Much for One Heart",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 163267,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Smalltown Boy",
+        "artist": "Birds on a Wire, Rosemary Standley, Dom La Nena & La Maitrise De Radio France",
+        "playcount": 4218000,
+        "rank": 118,
+        "bestChartRank": 118,
+        "url": "https://music.apple.com/fr/album/smalltown-boy/1817210687?i=1817210692&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/2b/6b/642b6bc5-2968-266f-d2b7-cd7381b6b6de/5400863191252_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2025-06-11",
+        "rarity": "UC"
       },
       {
         "name": "Galaxy",
@@ -1839,7 +3197,21 @@
         "collectionName": "Galaxy - Single",
         "primaryGenreName": "Électronique",
         "trackTimeMillis": 170640,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Money For Nothing (Remastered 1996)",
+        "artist": "Dire Straits",
+        "playcount": 4169000,
+        "rank": 119,
+        "bestChartRank": 119,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "UC"
       },
       {
         "name": "Billie Jean",
@@ -1858,7 +3230,21 @@
         "collectionName": "Thriller",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 293802,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "When I Stand",
+        "artist": "Owen James",
+        "playcount": 4120000,
+        "rank": 120,
+        "bestChartRank": 120,
+        "url": "https://music.apple.com/fr/album/when-i-stand/1882532987?i=1882532988&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/ad/4f/19ad4f14-02af-10c0-290a-48a404edeb33/artwork.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-04",
+        "rarity": "UC"
       },
       {
         "name": "Hold the Line",
@@ -1877,7 +3263,34 @@
         "collectionName": "Toto",
         "primaryGenreName": "Rock",
         "trackTimeMillis": 235552,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Return of the Mack",
+        "artist": "Mark Morrison",
+        "playcount": 4071000,
+        "rank": 121,
+        "bestChartRank": 121,
+        "url": "https://music.apple.com/fr/album/return-of-the-mack/81902658?i=81902612&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/29/6a/cd/296acd3a-9410-6fb9-7dc2-725dbc20f5a6/mzi.fhhlolpu.jpg/600x600bb.jpg",
+        "releaseDate": "1996-03-18",
+        "rarity": "UC"
+      },
+      {
+        "name": "What's Up?",
+        "artist": "4 Non Blondes",
+        "playcount": 4022000,
+        "rank": 122,
+        "bestChartRank": 122,
+        "url": "https://music.apple.com/fr/album/whats-up/1442493525?i=1442493543&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/39/c7/5939c798-96fd-0803-ad81-ad8874347cc5/09UMGIM31910.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1992-10-13",
+        "rarity": "UC"
       },
       {
         "name": "Highway to Hell",
@@ -1896,7 +3309,34 @@
         "collectionName": "Highway to Hell",
         "primaryGenreName": "Hard rock",
         "trackTimeMillis": 208111,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "360 (Arr. For Cello Obligato and String Quartet)",
+        "artist": "Peter Gregson",
+        "playcount": 3973000,
+        "rank": 123,
+        "bestChartRank": 123,
+        "url": "https://music.apple.com/fr/album/360-arr-for-cello-obligato-and-string-quartet/1876958045?i=1876958060&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/c4/6c/c7c46c67-6e77-c65c-2847-0adfb7e3136c/25UM1IM84871.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-26",
+        "rarity": "UC"
+      },
+      {
+        "name": "Champagne",
+        "artist": "Suzane",
+        "playcount": 3924000,
+        "rank": 124,
+        "bestChartRank": 124,
+        "url": "https://music.apple.com/fr/album/champagne/1829400738?i=1829401018&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/f9/ff/def9ff61-2be7-4b01-5c37-28377049c35a/3596974872929_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2025-09-26",
+        "rarity": "UC"
       },
       {
         "name": "Rétine",
@@ -1915,7 +3355,8 @@
         "collectionName": "Ressources (Nouvelle Edition)",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 210138,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
       },
       {
         "name": "STAY",
@@ -1934,7 +3375,21 @@
         "collectionName": "F*CK LOVE 3+: OVER YOU",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 141806,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "ALONE WITH MEMORIES",
+        "artist": "RASELHITS",
+        "playcount": 3826000,
+        "rank": 126,
+        "bestChartRank": 126,
+        "url": "https://music.apple.com/fr/album/alone-with-memories/1877441287?i=1877441378&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/e6/aa/0fe6aa23-9218-7759-8b33-4f382987899c/artwork.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-10",
+        "rarity": "UC"
       },
       {
         "name": "Love Me Not",
@@ -1953,7 +3408,21 @@
         "collectionName": "Bird's Eye",
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 213467,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Le chasseur",
+        "artist": "Michel Delpech",
+        "playcount": 3777000,
+        "rank": 127,
+        "bestChartRank": 127,
+        "url": "https://music.apple.com/fr/album/le-chasseur/1440644994?i=1440645728&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9f/19/33/9f19331e-970f-f086-48a0-e4a710133ebb/00602498146927.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1974-01-01",
+        "rarity": "R"
       },
       {
         "name": "Papaoutai (Afro Soul)",
@@ -1972,7 +3441,21 @@
         "collectionName": "Papaoutai (Afro Soul) - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 280034,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "I Can't Wait",
+        "artist": "Bob Sinclar & Kiesza",
+        "playcount": 3728000,
+        "rank": 128,
+        "bestChartRank": 128,
+        "url": "https://music.apple.com/fr/album/i-cant-wait/1876578392?i=1876578393&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/3c/c0/f53cc0e1-e2fe-8b02-2135-805f7c61d538/3596975048996_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-02",
+        "rarity": "UC"
       },
       {
         "name": "Cornfield Chase",
@@ -1991,7 +3474,8 @@
         "collectionName": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 126960,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
       },
       {
         "name": "New Religion",
@@ -2010,7 +3494,21 @@
         "collectionName": "New Religion - Single",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 174400,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Allons Voir",
+        "artist": "Feu! Chatterton",
+        "playcount": 3630000,
+        "rank": 130,
+        "bestChartRank": 130,
+        "url": "https://music.apple.com/fr/album/allons-voir/1822258533?i=1822258535&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/f4/55/38f45525-ca4a-c074-5477-9e68af0c979d/25UMGIM86506.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-06-06",
+        "rarity": "UC"
       },
       {
         "name": "Count on Me",
@@ -2029,7 +3527,34 @@
         "collectionName": "Doo-Wops & Hooligans",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 197470,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Sex Model",
+        "artist": "PLK & Theodora",
+        "playcount": 3581000,
+        "rank": 131,
+        "bestChartRank": 131,
+        "url": "https://music.apple.com/fr/album/sex-model/1876251458?i=1876251683&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/a7/06/86a70604-a19a-2500-36b8-cb0986475d38/ticket.pgbjkttd.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-20",
+        "rarity": "UC"
+      },
+      {
+        "name": "CHANEL",
+        "artist": "Tyla",
+        "playcount": 3532000,
+        "rank": 132,
+        "bestChartRank": 132,
+        "url": "https://music.apple.com/fr/album/chanel/1847669774?i=1847669777&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/dd/46/f1dd469f-4e4c-c60b-b4c7-380101c76dae/196873698861.jpg/600x600bb.jpg",
+        "releaseDate": "2025-10-23",
+        "rarity": "UC"
       },
       {
         "name": "Libérée, délivrée",
@@ -2048,7 +3573,21 @@
         "collectionName": "La reine des neiges (Bande originale française du film) [Edition deluxe]",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 224932,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "La tendresse",
+        "artist": "Bourvil",
+        "playcount": 3483000,
+        "rank": 133,
+        "bestChartRank": 133,
+        "url": "https://music.apple.com/fr/album/la-tendresse/409275878?i=409275883&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/12/e5/29/mzi.olalqhze.tif/600x600bb.jpg",
+        "releaseDate": "1990-01-01",
+        "rarity": "UC"
       },
       {
         "name": "Zombie (2025 Remastered)",
@@ -2067,7 +3606,21 @@
         "collectionName": "No Need To Argue (2025 Remastered)",
         "primaryGenreName": "Rock",
         "trackTimeMillis": 305627,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Feeling Fine",
+        "artist": "Ocie Elliott",
+        "playcount": 3434000,
+        "rank": 134,
+        "bestChartRank": 134,
+        "url": "https://music.apple.com/fr/album/feeling-fine/1834805557?i=1834805560&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d9/4c/6c/d94c6ccd-9068-5aef-cb6e-21a1ecf7a0a8/067003182751.png/600x600bb.jpg",
+        "releaseDate": "2025-09-05",
+        "rarity": "UC"
       },
       {
         "name": "WORSHIP",
@@ -2086,7 +3639,21 @@
         "collectionName": "WORSHIP - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 163055,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Je Sais Qui Je Suis",
+        "artist": "Florent Pagny",
+        "playcount": 3385000,
+        "rank": 135,
+        "bestChartRank": 135,
+        "url": "https://music.apple.com/fr/album/je-sais-qui-je-suis/1826129945?i=1826129965&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/fa/4a/3ffa4a14-c8a7-5e25-9967-c21bcac1a7b2/25UMGIM89248.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-09-12",
+        "rarity": "UC"
       },
       {
         "name": "Die With A Smile",
@@ -2105,7 +3672,21 @@
         "collectionName": "Die With A Smile (Main + Instrumental + Video) - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 251668,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Tout a changé (Rien n'a changé)",
+        "artist": "Helena",
+        "playcount": 3336000,
+        "rank": 136,
+        "bestChartRank": 136,
+        "url": "https://music.apple.com/fr/album/tout-a-chang%C3%A9-rien-na-chang%C3%A9/1794790620?i=1794790993&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/85/dc/24/85dc240b-7785-cc9b-8b71-7f9393b53bd2/196872694727.jpg/600x600bb.jpg",
+        "releaseDate": "2025-03-14",
+        "rarity": "UC"
       },
       {
         "name": "Together",
@@ -2124,7 +3705,21 @@
         "collectionName": "Together - Single",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 153750,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Bette Davis Eyes",
+        "artist": "Kim Carnes",
+        "playcount": 3287000,
+        "rank": 137,
+        "bestChartRank": 137,
+        "url": "https://music.apple.com/fr/album/bette-davis-eyes/724363089?i=724363409&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/91/41/9e/91419ea4-cca8-1834-c047-f4ce973e80fc/13UABIM59266.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1981-03-10",
+        "rarity": "UC"
       },
       {
         "name": "Hey Ya!",
@@ -2143,7 +3738,8 @@
         "collectionName": "Speakerboxxx/The Love Below",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 235213,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
       },
       {
         "name": "Encore un soir",
@@ -2162,7 +3758,21 @@
         "collectionName": "Encore un soir (Deluxe)",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 263439,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Unfinished Sympathy (2012 Mix/Master)",
+        "artist": "Massive Attack",
+        "playcount": 3189000,
+        "rank": 139,
+        "bestChartRank": 139,
+        "url": "https://music.apple.com/fr/album/unfinished-sympathy-2012-mix-master/715864097?i=715864380&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/f7/c0/e5f7c07d-2182-e732-8ad6-be03814fe93c/13UABIM04453.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1991-02-11",
+        "rarity": "UC"
       },
       {
         "name": "Holding Out for a Hero",
@@ -2181,7 +3791,21 @@
         "collectionName": "Footloose (Original Motion Picture Soundtrack)",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 350705,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Hold the Line",
+        "artist": "Toto",
+        "playcount": 3140000,
+        "rank": 140,
+        "bestChartRank": 140,
+        "url": "https://music.apple.com/fr/album/hold-the-line/198226130?i=198227598&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a1/a9/ea/a1a9eaef-2d81-c2c6-9a03-82c3cbc9e598/074643531726.jpg/600x600bb.jpg",
+        "releaseDate": "1978-10-02",
+        "rarity": "UC"
       },
       {
         "name": "I Follow Rivers (The Road Sessions)",
@@ -2200,7 +3824,21 @@
         "collectionName": "Acoustic Dance Sessions",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 214896,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Ensemble (feat. Charlotte Cardin)",
+        "artist": "Aliocha Schneider",
+        "playcount": 3091000,
+        "rank": 141,
+        "bestChartRank": 141,
+        "url": "https://music.apple.com/fr/album/ensemble-feat-charlotte-cardin/1773093676?i=1773094210&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/f3/9e/1af39e08-7608-c5fe-a9a9-f85446bb73e4/cover.jpg/600x600bb.jpg",
+        "releaseDate": "2024-11-07",
+        "rarity": "R"
       },
       {
         "name": "Aperture",
@@ -2219,7 +3857,21 @@
         "collectionName": "Kiss All The Time. Disco, Occasionally.",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 311733,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "DESPECHÁ (Batooke Native, PZZS & Ruxell Remix) [Mixed]",
+        "artist": "ROSALÍA",
+        "playcount": 3042000,
+        "rank": 142,
+        "bestChartRank": 142,
+        "url": "https://music.apple.com/fr/album/despech%C3%A1-batooke-native-pzzs-ruxell-remix-mixed/1660842603?i=1660842615&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/51/92/42/5192429c-9217-5961-d8b1-535c8fb6d20a/0fed96ef-b1df-409a-8ef8-b1e507425e16.png/600x600bb.jpg",
+        "releaseDate": "2023-01-06",
+        "rarity": "UC"
       },
       {
         "name": "Maman a tort (Single)",
@@ -2238,7 +3890,21 @@
         "collectionName": "Maman a tort - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 232798,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Save ME",
+        "artist": "BTS",
+        "playcount": 2993000,
+        "rank": 143,
+        "bestChartRank": 143,
+        "url": "https://music.apple.com/fr/album/save-me/1598661880?i=1598662137&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4c/97/6f/4c976f5c-5196-1221-8517-ddfcb0ba514c/8804775070341_Cover.jpg/600x600bb.jpg",
+        "releaseDate": "2016-05-02",
+        "rarity": "UC"
       },
       {
         "name": "Now We Are Free",
@@ -2257,7 +3923,21 @@
         "collectionName": "Gladiator (Soundtrack from the Motion Picture)",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 254293,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "DON'T PLAY WITH ME",
+        "artist": "Thompsxn Therapy",
+        "playcount": 2944000,
+        "rank": 144,
+        "bestChartRank": 144,
+        "url": "https://music.apple.com/fr/album/dont-play-with-me/1875433629?i=1875433630&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/24/b4/3924b446-689d-0719-34be-ff970f8084fb/199937682905.png/600x600bb.jpg",
+        "releaseDate": "2025-12-29",
+        "rarity": "UC"
       },
       {
         "name": "Viva La Vida",
@@ -2276,7 +3956,21 @@
         "collectionName": "Viva La Vida or Death and All His Friends",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 241445,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Mon Bébé",
+        "artist": "Criss MJ",
+        "playcount": 2895000,
+        "rank": 145,
+        "bestChartRank": 145,
+        "url": "https://music.apple.com/fr/album/mon-b%C3%A9b%C3%A9/1867619412?i=1867619413&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/59/a5/cc59a54f-a4d8-c795-a9dc-92964fe13733/0.jpg/600x600bb.jpg",
+        "releaseDate": "2026-01-04",
+        "rarity": "UC"
       },
       {
         "name": "Lost in Time (feat. Rosy)",
@@ -2295,7 +3989,21 @@
         "collectionName": "Lost in Time (feat. Rosy) - Single",
         "primaryGenreName": "Trance",
         "trackTimeMillis": 147778,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Talk To You (ft 54 Ultra) [feat. 54 Ultra]",
+        "artist": "ANOTR",
+        "playcount": 2846000,
+        "rank": 146,
+        "bestChartRank": 146,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "UC"
       },
       {
         "name": "50 ans déjà",
@@ -2314,7 +4022,21 @@
         "collectionName": "50 ans déjà - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 163865,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Soda Pop (version française)",
+        "artist": "Saja Boys, Doryan Ben, Thomas Bernier, Guillaume Beaujolais, Loaï Rahman, Bastien Jacquemart & KPop Demon Hunters Cast",
+        "playcount": 2797000,
+        "rank": 147,
+        "bestChartRank": 147,
+        "url": "https://music.apple.com/fr/album/soda-pop-version-fran%C3%A7aise/1836298600?i=1836298603&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/d1/e9/38d1e9a2-891b-0747-5094-ee1d21bddfa8/25UM1IM25883.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2025-06-19",
+        "rarity": "UC"
       },
       {
         "name": "Harder Better Faster Stronger",
@@ -2333,7 +4055,21 @@
         "collectionName": "Discovery",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 224693,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Rasputin",
+        "artist": "Boney M.",
+        "playcount": 2748000,
+        "rank": 148,
+        "bestChartRank": 148,
+        "url": "https://music.apple.com/fr/album/rasputin/250734661?i=250734685&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/63/53/be635371-4905-7fd2-43d8-ab07d5a8dffb/mzi.nnfnjavr.jpg/600x600bb.jpg",
+        "releaseDate": "1978-01-01",
+        "rarity": "R"
       },
       {
         "name": "4 Minutes (feat. Justin Timberlake & Timbaland)",
@@ -2352,7 +4088,8 @@
         "collectionName": "Hard Candy",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 246213,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
       },
       {
         "name": "Lose Control",
@@ -2371,7 +4108,21 @@
         "collectionName": "I've Tried Everything But Therapy (Part 1)",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 210689,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "New Religion",
+        "artist": "Bebe Rexha & Faithless",
+        "playcount": 2650000,
+        "rank": 150,
+        "bestChartRank": 150,
+        "url": "https://music.apple.com/fr/album/new-religion/1878015313?i=1878015314&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/99/14/1d99143b-f5ce-6a98-2992-f91a050835e3/199316500523_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-06",
+        "rarity": "UC"
       },
       {
         "name": "Le sud",
@@ -2390,7 +4141,21 @@
         "collectionName": "Nino Ferrer",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 275040,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Libérée, délivrée",
+        "artist": "Anaïs Delva",
+        "playcount": 2601000,
+        "rank": 151,
+        "bestChartRank": 151,
+        "url": "https://music.apple.com/fr/album/lib%C3%A9r%C3%A9e-d%C3%A9livr%C3%A9e/1440620507?i=1440620516&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/70/57/21/70572194-0cc0-065c-5afa-ccf7bd29a927/13DMGIM04527.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2013-01-01",
+        "rarity": "UC"
       },
       {
         "name": "Trouble",
@@ -2409,7 +4174,21 @@
         "collectionName": "Gettin' Away With It",
         "primaryGenreName": "Country",
         "trackTimeMillis": 193133,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "À la Vie, Petite Fleur",
+        "artist": "Benetti House Bar",
+        "playcount": 2552000,
+        "rank": 152,
+        "bestChartRank": 152,
+        "url": "https://music.apple.com/fr/album/%C3%A0-la-vie-petite-fleur/1882210839?i=1882210840&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/27/0d/98270d53-237a-d4d5-29c5-bc4e51d0c33e/artwork.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-03",
+        "rarity": "C"
       },
       {
         "name": "Oxo la Terre",
@@ -2428,7 +4207,21 @@
         "collectionName": "La soupe aux choux (Bande originale du film) - EP",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 170822,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Nightcall",
+        "artist": "Kavinsky, Angèle & Phoenix",
+        "playcount": 2503000,
+        "rank": 153,
+        "bestChartRank": 153,
+        "url": "https://music.apple.com/fr/album/nightcall/1768051772?i=1768051778&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/e1/61/dee16173-c361-9d23-9fbe-9ef3ad1daa46/24UM1IM00411.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2024-09-20",
+        "rarity": "C"
       },
       {
         "name": "Je vous trouve très beau (From \"Je vous trouve très beau\")",
@@ -2447,7 +4240,21 @@
         "collectionName": "Je vous trouve très beau (From \"Je vous trouve très beau\") - Single",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 217573,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Feu",
+        "artist": "DJ Tutuss, Maurane Voyer, Bad Bitch & Mikado",
+        "playcount": 2454000,
+        "rank": 154,
+        "bestChartRank": 154,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "R"
       },
       {
         "name": "Dream As One (from Avatar: Fire and Ash)",
@@ -2466,7 +4273,21 @@
         "collectionName": "Dream As One (from Avatar: Fire and Ash) - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 199876,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "After I'm Gone (Classic Rock)",
+        "artist": "Sarah Thomson",
+        "playcount": 2405000,
+        "rank": 155,
+        "bestChartRank": 155,
+        "url": "https://music.apple.com/fr/album/after-im-gone-classic-rock/1883685986?i=1883685998&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/39/c9/0139c97b-968f-d78f-64d5-2dfdb6ae82c0/artwork.jpg/600x600bb.jpg",
+        "releaseDate": "2026-03-09",
+        "rarity": "C"
       },
       {
         "name": "Bitter Sweet Symphony",
@@ -2485,7 +4306,21 @@
         "collectionName": "Bitter Sweet Symphony - EP",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 360200,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Edelweiss (Vocal)",
+        "artist": "Henry Jackman & Dominic Lewis",
+        "playcount": 2356000,
+        "rank": 156,
+        "bestChartRank": 156,
+        "url": "https://music.apple.com/fr/album/edelweiss-vocal/1442796604?i=1442796948&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fa/23/95/fa2395bc-e50f-ef7c-0b13-2de8e017a634/00030206747300.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2017-01-13",
+        "rarity": "C"
       },
       {
         "name": "La douceur des jours",
@@ -2504,7 +4339,34 @@
         "collectionName": "French Café Jazz",
         "primaryGenreName": "Jazz",
         "trackTimeMillis": 301080,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "QUE CE SOIT CLAIR",
+        "artist": "Paul Kalkbrenner & Stromae",
+        "playcount": 2307000,
+        "rank": 157,
+        "bestChartRank": 157,
+        "url": "https://music.apple.com/fr/album/que-ce-soit-clair/1825411012?i=1825411268&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/1d/40/6d1d4086-ff1c-60a0-bf69-8e2cc7bbb23e/196873365657.jpg/600x600bb.jpg",
+        "releaseDate": "2025-08-29",
+        "rarity": "C"
+      },
+      {
+        "name": "Seychelles",
+        "artist": "Booba",
+        "playcount": 2258000,
+        "rank": 158,
+        "bestChartRank": 158,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "R"
       },
       {
         "name": "No Juegues Con Mi Corazón",
@@ -2523,7 +4385,21 @@
         "collectionName": "No Juegues Con Mi Corazón - Single",
         "primaryGenreName": "Blues",
         "trackTimeMillis": 194240,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Tu la love",
+        "artist": "Jul",
+        "playcount": 2209000,
+        "rank": 159,
+        "bestChartRank": 159,
+        "url": "https://music.apple.com/fr/album/tu-la-love/1649511306?i=1649512319&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8d/75/3f/8d753fa3-5ac8-0db6-1eec-42eea971b2da/cover.jpg/600x600bb.jpg",
+        "releaseDate": "2014-02-24",
+        "rarity": "C"
       },
       {
         "name": "Iris",
@@ -2542,7 +4418,21 @@
         "collectionName": "Canzoni d'amore",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 289907,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "Viva La Vida",
+        "artist": "Coldplay",
+        "playcount": 2160000,
+        "rank": 160,
+        "bestChartRank": 160,
+        "url": "https://music.apple.com/fr/album/viva-la-vida/1122773394?i=1122773680&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/aa/85/52aa851f-15b7-6322-f91f-df84b15b7b19/190295978044.jpg/600x600bb.jpg",
+        "releaseDate": "2008-05-25",
+        "rarity": "UC"
       },
       {
         "name": "APPELLE TA COPINE",
@@ -2561,7 +4451,21 @@
         "collectionName": "LE NORD SE SOUVIENT : L'ODYSSÉE",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 180923,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "MISS-ia / Ma Pala",
+        "artist": "el bandido",
+        "playcount": 2111000,
+        "rank": 161,
+        "bestChartRank": 161,
+        "url": "https://music.apple.com/fr/album/miss-ia-ma-pala/1880658588?i=1880658592&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/1b/86/731b86c3-d972-243c-e0c3-bcf6a8a90782/artwork.jpg/600x600bb.jpg",
+        "releaseDate": "2025-11-12",
+        "rarity": "C"
       },
       {
         "name": "The Sound of Silence (CYRIL Remix)",
@@ -2580,7 +4484,21 @@
         "collectionName": "The Sound of Silence (CYRIL Remix) - Single",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 185238,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "UC"
+      },
+      {
+        "name": "La Ceinture (Radio Edit)",
+        "artist": "Élodie Frégé",
+        "playcount": 2062000,
+        "rank": 162,
+        "bestChartRank": 162,
+        "url": "https://music.apple.com/fr/album/la-ceinture-radio-edit/1444335046?i=1444335052&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2b/67/76/2b677665-34f1-a46a-744f-bc9c0b9c7fff/00602498395837.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2006-01-01",
+        "rarity": "C"
       },
       {
         "name": "Trying Times",
@@ -2599,7 +4517,21 @@
         "collectionName": "Trying Times",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 273805,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Lonely Day",
+        "artist": "System Of A Down",
+        "playcount": 2013000,
+        "rank": 163,
+        "bestChartRank": 163,
+        "url": "https://music.apple.com/fr/album/lonely-day/159457194?i=159457722&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/03/76/79037637-7c7e-ded5-879e-230c6aa3fe65/827969387122.jpg/600x600bb.jpg",
+        "releaseDate": "2005-11-22",
+        "rarity": "C"
       },
       {
         "name": "Quand même",
@@ -2618,7 +4550,21 @@
         "collectionName": "Adrénaline",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 193667,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Summer Paradise (French Version) [feat. Sean Paul]",
+        "artist": "Simple Plan",
+        "playcount": 1964000,
+        "rank": 164,
+        "bestChartRank": 164,
+        "url": "https://music.apple.com/fr/album/summer-paradise-french-version-feat-sean-paul/525165996?i=525165997&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/5c/0b/56/5c0b5691-cfbc-bfcf-6da0-5408877c558a/075679960863.jpg/600x600bb.jpg",
+        "releaseDate": "2011-06-20",
+        "rarity": "C"
       },
       {
         "name": "REGARDE !",
@@ -2637,7 +4583,21 @@
         "collectionName": "REGARDE ! - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 177008,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Drive By",
+        "artist": "Train",
+        "playcount": 1915000,
+        "rank": 165,
+        "bestChartRank": 165,
+        "url": "https://music.apple.com/fr/album/drive-by/1438078574?i=1438078577&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/08/a0/0e/08a00ef4-fa4d-8338-77cf-b6d82f66e4f4/886443385948.jpg/600x600bb.jpg",
+        "releaseDate": "2012-01-09",
+        "rarity": "C"
       },
       {
         "name": "Une autre histoire",
@@ -2656,7 +4616,21 @@
         "collectionName": "Une autre histoire - EP",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 271728,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "A Thousand Years",
+        "artist": "Christina Perri",
+        "playcount": 1866000,
+        "rank": 166,
+        "bestChartRank": 166,
+        "url": "https://music.apple.com/fr/album/a-thousand-years/467980710?i=467980724&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/2e/83/f52e8357-9cf4-e644-c365-3c21839f85ac/mzi.staekbjw.jpg/600x600bb.jpg",
+        "releaseDate": "2011-10-18",
+        "rarity": "C"
       },
       {
         "name": "Le Petit Pêcheur",
@@ -2675,7 +4649,21 @@
         "collectionName": "Le Petit Pêcheur - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 129000,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Electric Feel",
+        "artist": "MGMT",
+        "playcount": 1817000,
+        "rank": 167,
+        "bestChartRank": 167,
+        "url": "https://music.apple.com/fr/album/electric-feel/264720008?i=264720106&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/3b/26/70/3b2670c7-ae41-3a41-d2a1-c7eedb76c06f/dj.bmwiuprh.jpg/600x600bb.jpg",
+        "releaseDate": "2007-10-02",
+        "rarity": "C"
       },
       {
         "name": "My Heart Will Go On (Love Theme from \"Titanic\")",
@@ -2694,7 +4682,21 @@
         "collectionName": "Titanic (Music from the Motion Picture)",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 310733,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "La Jupe En Laine",
+        "artist": "Julien Clerc",
+        "playcount": 1768000,
+        "rank": 168,
+        "bestChartRank": 168,
+        "url": "https://music.apple.com/fr/album/la-jupe-en-laine/693507087?i=693507088&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/29/4f/f8/294ff89d-262d-d016-3357-88eca2d33b4e/5099923593152_1500x1500_300dpi.jpg/600x600bb.jpg",
+        "releaseDate": "2008-07-07",
+        "rarity": "C"
       },
       {
         "name": "Pour le plaisir (Yann Muller Version)",
@@ -2713,7 +4715,21 @@
         "collectionName": "Pour le plaisir (Yann Muller Version) - Single",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 180496,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "L'Olivier",
+        "artist": "Wallen",
+        "playcount": 1719000,
+        "rank": 169,
+        "bestChartRank": 169,
+        "url": "https://music.apple.com/fr/album/lolivier/1443404822?i=1443405765&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/29/17/03/2917030a-810d-0a35-cc53-a41e8264fc7b/00602498213728.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2004-01-01",
+        "rarity": "C"
       },
       {
         "name": "Eye of the Tiger",
@@ -2732,7 +4748,21 @@
         "collectionName": "Rocky IV (Original Motion Picture Soundtrack)",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 245640,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Young and Beautiful (DH Orchestral Version)",
+        "artist": "Lana Del Rey",
+        "playcount": 1670000,
+        "rank": 170,
+        "bestChartRank": 170,
+        "url": "https://music.apple.com/fr/album/young-and-beautiful-dh-orchestral-version/1440832062?i=1440833218&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/0d/0d/da0d0d4f-f947-d34d-d069-61f6b4824e3f/13UMGIM46510.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2013-04-23",
+        "rarity": "C"
       },
       {
         "name": "Mi sol (Yeimy Montoya ft Irma)",
@@ -2751,7 +4781,21 @@
         "collectionName": "La Reina del Flow 3 (Música de la Serie de Televisión Original)",
         "primaryGenreName": "Bande originale",
         "trackTimeMillis": 139355,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Ce matin-là",
+        "artist": "Air",
+        "playcount": 1621000,
+        "rank": 171,
+        "bestChartRank": 171,
+        "url": "https://music.apple.com/fr/album/ce-matin-l%C3%A0/697240234?i=697240314&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/ed/cf/a2/edcfa2bc-4a9a-75f6-80b5-6576d826742c/dj.romspvqk.jpg/600x600bb.jpg",
+        "releaseDate": "1998-01-16",
+        "rarity": "C"
       },
       {
         "name": "Je t'accuse",
@@ -2770,7 +4814,8 @@
         "collectionName": "Je t'accuse - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 169103,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
       },
       {
         "name": "Les Oies Sauvages",
@@ -2789,7 +4834,21 @@
         "collectionName": "Les Oies Sauvages - Single",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 144793,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Winners",
+        "artist": "Jul",
+        "playcount": 1523000,
+        "rank": 173,
+        "bestChartRank": 173,
+        "url": "https://music.apple.com/fr/album/winners/799176203?i=799176211&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/52/1b/66/521b6644-19b6-2c93-e484-ac815d3ec027/3700187655792.jpg/600x600bb.jpg",
+        "releaseDate": "2014-02-24",
+        "rarity": "C"
       },
       {
         "name": "Africa",
@@ -2808,7 +4867,21 @@
         "collectionName": "Toto IV",
         "primaryGenreName": "Rock",
         "trackTimeMillis": 295283,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Tangled Up (Lokee Remix)",
+        "artist": "Caro Emerald",
+        "playcount": 1474000,
+        "rank": 174,
+        "bestChartRank": 174,
+        "url": "https://music.apple.com/fr/album/tangled-up-lokee-remix/1846566245?i=1846566821&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/b0/19/d4b01976-b727-5c59-5c25-ef862577c672/5026854129785.jpg/600x600bb.jpg",
+        "releaseDate": "2013-01-01",
+        "rarity": "C"
       },
       {
         "name": "Homewrecker",
@@ -2827,7 +4900,21 @@
         "collectionName": "Homewrecker - Single",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 209066,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Le temps des cerises",
+        "artist": "Yves Montand",
+        "playcount": 1425000,
+        "rank": 175,
+        "bestChartRank": 175,
+        "url": "https://music.apple.com/fr/album/le-temps-des-cerises/291273024?i=291273090&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/58/41/2a/mzi.vgioownn.jpg/600x600bb.jpg",
+        "releaseDate": "1955-05-05",
+        "rarity": "C"
       },
       {
         "name": "Starburster (Y U QT Remix) [Mixed]",
@@ -2846,7 +4933,21 @@
         "collectionName": "HYPERHOUSE 042: Anna Lunoe (DJ Mix)",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 207200,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Gabriel's Oboe (From \"The Mission\")",
+        "artist": "Ennio Morricone",
+        "playcount": 1376000,
+        "rank": 176,
+        "bestChartRank": 176,
+        "url": "https://music.apple.com/fr/album/gabriels-oboe-from-the-mission/1633263804?i=1633264140&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/6c/a8/5d6ca806-8754-f3c0-cbcc-f9595dc35d4e/22UMGIM75136.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1986-08-05",
+        "rarity": "C"
       },
       {
         "name": "Felicità",
@@ -2865,7 +4966,8 @@
         "collectionName": "Felicità",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 193160,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
       },
       {
         "name": "Children",
@@ -2884,7 +4986,21 @@
         "collectionName": "Compilation Années 90: 90's Incontournables",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 246693,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Flor d'Luna (Moonflower)",
+        "artist": "Santana",
+        "playcount": 1278000,
+        "rank": 178,
+        "bestChartRank": 178,
+        "url": "https://music.apple.com/fr/album/flor-dluna-moonflower/871147087?i=871147100&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/e0/ff/c5e0ff15-3f84-b12b-6327-76bcf6ad37f5/886444593168.jpg/600x600bb.jpg",
+        "releaseDate": "1977-10-01",
+        "rarity": "C"
       },
       {
         "name": "ONE MORE",
@@ -2903,7 +5019,21 @@
         "collectionName": "WHERE YOU'LL FIND ME",
         "primaryGenreName": "Country",
         "trackTimeMillis": 169959,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Wave",
+        "artist": "Antônio Carlos Jobim",
+        "playcount": 1229000,
+        "rank": 179,
+        "bestChartRank": 179,
+        "url": "https://music.apple.com/fr/album/wave/1484688152?i=1484688971&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/4d/d3/f94dd36b-5729-9d63-7a1c-30c4a0b5fb98/14UMGIM16954.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1967-01-01",
+        "rarity": "C"
       },
       {
         "name": "Enfant de putain / S****e ta mère",
@@ -2922,7 +5052,21 @@
         "collectionName": "L'école des points vitaux",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 336550,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "You've Got Another Thing Comin'",
+        "artist": "Judas Priest",
+        "playcount": 1180000,
+        "rank": 180,
+        "bestChartRank": 180,
+        "url": "https://music.apple.com/fr/album/youve-got-another-thing-comin/207178130?i=207178401&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/74/85/6c/74856c38-ad00-adfe-4041-e433b1b097b2/dj.msxviebt.jpg/600x600bb.jpg",
+        "releaseDate": "1982-07-17",
+        "rarity": "C"
       },
       {
         "name": "Innerbloom",
@@ -2941,7 +5085,21 @@
         "collectionName": "Bloom",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 578041,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "The Mission",
+        "artist": "Ennio Morricone",
+        "playcount": 1131000,
+        "rank": 181,
+        "bestChartRank": 181,
+        "url": "https://music.apple.com/fr/album/the-mission/714408074?i=714408972&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f3/3a/a8/f33aa84a-9986-ecf6-7732-d567d8910fe4/00077778600152.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "1986-08-05",
+        "rarity": "C"
       },
       {
         "name": "Dernière danse",
@@ -2960,7 +5118,21 @@
         "collectionName": "Le chemin",
         "primaryGenreName": "Rock",
         "trackTimeMillis": 227733,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Europa (Earth's Cry Heaven's Smile)",
+        "artist": "Santana",
+        "playcount": 1082000,
+        "rank": 182,
+        "bestChartRank": 182,
+        "url": "https://music.apple.com/fr/album/europa-earths-cry-heavens-smile/897788708?i=897788773&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d3/4c/93/d34c9383-fdc2-af1d-e8c2-7fa829505af0/886444739801.jpg/600x600bb.jpg",
+        "releaseDate": "1976-03-26",
+        "rarity": "C"
       },
       {
         "name": "Fantasy",
@@ -2979,7 +5151,21 @@
         "collectionName": "All 'N All",
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 277797,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Her Nerdeysen",
+        "artist": "Ati242",
+        "playcount": 1033000,
+        "rank": 183,
+        "bestChartRank": 183,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "C"
       },
       {
         "name": "Manic Monday",
@@ -2998,7 +5184,21 @@
         "collectionName": "Different Light",
         "primaryGenreName": "Rock",
         "trackTimeMillis": 184166,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "XS Lov'",
+        "artist": "Tekilla & Sennsy",
+        "playcount": 984000,
+        "rank": 184,
+        "bestChartRank": 184,
+        "url": "https://music.apple.com/fr/album/xs-lov/979442635?i=979442639&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/d9/f5/85/d9f58546-2afa-d9da-112d-981c9672ec3f/3501910156124_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2005-01-01",
+        "rarity": "C"
       },
       {
         "name": "Gone Gone Gone (Done Done Done) [feat. Teddy Swims] [David Guetta Remix]",
@@ -3017,7 +5217,21 @@
         "collectionName": "Gone Gone Gone (Done Done Done) [feat. Teddy Swims] [David Guetta Remix]",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 279650,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Cha Cha Cha",
+        "artist": "Finzy Kontini",
+        "playcount": 935000,
+        "rank": 185,
+        "bestChartRank": 185,
+        "url": "https://music.apple.com/fr/album/cha-cha-cha/1502035752?i=1502036436&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2c/ac/47/2cac4714-ae67-5132-311d-0ac7a11a6a96/3596973768995_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2020-03-20",
+        "rarity": "C"
       },
       {
         "name": "Backfire",
@@ -3036,7 +5250,21 @@
         "collectionName": "Backfire - Single",
         "primaryGenreName": "Country",
         "trackTimeMillis": 215701,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Gin & Tonic",
+        "artist": "Brandy Butler",
+        "playcount": 886000,
+        "rank": 186,
+        "bestChartRank": 186,
+        "url": "https://music.apple.com/fr/album/gin-tonic/1399492687?i=1399493014&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/10/3b/86103b15-6bfe-cc06-fead-4a21c53bb1b7/cover_3610150190680.jpg/600x600bb.jpg",
+        "releaseDate": "2011-11-04",
+        "rarity": "C"
       },
       {
         "name": "Who By Fire (With Jenn Grant)",
@@ -3055,7 +5283,21 @@
         "collectionName": "20 Odd Years",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 215853,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Have Mercy",
+        "artist": "Cordae",
+        "playcount": 837000,
+        "rank": 187,
+        "bestChartRank": 187,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "releaseDate": null,
+        "rarity": "C"
       },
       {
         "name": "Song 2",
@@ -3074,7 +5316,21 @@
         "collectionName": "Blur",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 121160,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "A Lo Oscuro",
+        "artist": "Ángel Viloria y Su Conjunto Típico Cibaeño & Dioris Valladares",
+        "playcount": 788000,
+        "rank": 188,
+        "bestChartRank": 188,
+        "url": "https://music.apple.com/fr/album/a-lo-oscuro/1523099140?i=1523099141&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/77/e1/1c/77e11cff-0d07-1c3e-0d50-62dc025de14b/192641528477_Cover.jpg/600x600bb.jpg",
+        "releaseDate": "1956-07-07",
+        "rarity": "C"
       },
       {
         "name": "Give Me Love",
@@ -3093,7 +5349,21 @@
         "collectionName": "3 - Supernature",
         "primaryGenreName": "Dance",
         "trackTimeMillis": 462000,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Surah Mulk",
+        "artist": "Imam Feysal Mohammed",
+        "playcount": 739000,
+        "rank": 189,
+        "bestChartRank": 189,
+        "url": "https://music.apple.com/fr/album/surah-mulk/1802568181?i=1802568185&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/ba/7a/e9ba7a5c-b0bd-1953-cd0f-bee5511646f2/197387543692_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2021-12-24",
+        "rarity": "C"
       },
       {
         "name": "Uprising",
@@ -3112,7 +5382,21 @@
         "collectionName": "The Resistance",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 302827,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Energía Bacana",
+        "artist": "Sebastián Yatra",
+        "playcount": 690000,
+        "rank": 190,
+        "bestChartRank": 190,
+        "url": "https://music.apple.com/fr/album/energ%C3%ADa-bacana/1806742507?i=1806743451&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/2b/b5/802bb5bd-4ca3-e52b-b84a-81931603909a/25UMGIM44219.rgb.jpg/600x600bb.jpg",
+        "releaseDate": "2023-09-15",
+        "rarity": "C"
       },
       {
         "name": "Ain't No Mountain High Enough",
@@ -3131,7 +5415,21 @@
         "collectionName": "Greatest Hits",
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 147267,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Dracula (Extrait de la bande originale du film Hotel Transylvanie 3)",
+        "artist": "Camille Bertault",
+        "playcount": 641000,
+        "rank": 191,
+        "bestChartRank": 191,
+        "url": "https://music.apple.com/fr/album/dracula-extrait-de-la-bande-originale-du-film-hotel/1401842321?i=1401842675&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/f1/b2/9cf1b29a-e212-160a-87e4-0d1d672fe923/886447139233.jpg/600x600bb.jpg",
+        "releaseDate": "2018-06-08",
+        "rarity": "C"
       },
       {
         "name": "Let It Happen",
@@ -3150,7 +5448,21 @@
         "collectionName": "Currents",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 466893,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Estocolmo",
+        "artist": "Romeo Santos & Prince Royce",
+        "playcount": 592000,
+        "rank": 192,
+        "bestChartRank": 192,
+        "url": "https://music.apple.com/fr/album/estocolmo/1848960616?i=1848960619&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/66/a9/6066a9a2-b1e8-d171-d8b3-7d044c040b94/196873751887.jpg/600x600bb.jpg",
+        "releaseDate": "2025-11-28",
+        "rarity": "C"
       },
       {
         "name": "CIEL",
@@ -3169,7 +5481,21 @@
         "collectionName": "CIEL - Single",
         "primaryGenreName": "Hip-hop/Rap",
         "trackTimeMillis": 186462,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "בגלל הלילה",
+        "artist": "חוה אלברשטיין",
+        "playcount": 543000,
+        "rank": 193,
+        "bestChartRank": 193,
+        "url": "https://music.apple.com/fr/album/%D7%91%D7%92%D7%9C%D7%9C-%D7%94%D7%9C%D7%99%D7%9C%D7%94/1571740596?i=1571740597&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/33/f0/1333f080-efd0-7f99-4e57-3a535fdc3e88/7290116162676.png/600x600bb.jpg",
+        "releaseDate": "1983-09-01",
+        "rarity": "C"
       },
       {
         "name": "Woulé La Fess",
@@ -3182,7 +5508,21 @@
         "source": "top200_merge",
         "artworkUrl": null,
         "releaseDate": null,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "I Need You More",
+        "artist": "ATTLAS",
+        "playcount": 494000,
+        "rank": 194,
+        "bestChartRank": 194,
+        "url": "https://music.apple.com/fr/album/i-need-you-more/1810918601?i=1810918843&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/58/6d/2a/586d2ab7-4c7c-21da-1d48-a1ce51fdd8eb/883958014110.jpg/600x600bb.jpg",
+        "releaseDate": "2016-07-22",
+        "rarity": "C"
       },
       {
         "name": "No Lo Ví Venir",
@@ -3201,7 +5541,21 @@
         "collectionName": "No Lo Ví Venir - Single",
         "primaryGenreName": "Blues",
         "trackTimeMillis": 385281,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Tango Escrita",
+        "artist": "Brent Thomas Mills",
+        "playcount": 445000,
+        "rank": 195,
+        "bestChartRank": 195,
+        "url": "https://music.apple.com/fr/album/tango-escrita/1271648340?i=1271648534&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/29/64/38/29643896-64bc-3495-e76a-68389c222d66/881034983565.png/600x600bb.jpg",
+        "releaseDate": "2010-01-01",
+        "rarity": "C"
       },
       {
         "name": "Oh la la amour",
@@ -3220,7 +5574,21 @@
         "collectionName": "Et l'amour créa la femme",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 223440,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "השכם השכם בבוקר",
+        "artist": "חוה אלברשטיין",
+        "playcount": 396000,
+        "rank": 196,
+        "bestChartRank": 196,
+        "url": "https://music.apple.com/fr/album/%D7%94%D7%A9%D7%9B%D7%9D-%D7%94%D7%A9%D7%9B%D7%9D-%D7%91%D7%91%D7%95%D7%A7%D7%A8/1571267775?i=1571267782&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bc/13/c7/bc13c7c3-4a03-893d-a942-a6449cbaa370/7290116161921.png/600x600bb.jpg",
+        "releaseDate": "1975-01-01",
+        "rarity": "C"
       },
       {
         "name": "Wild West & Wicked (Remix)",
@@ -3239,7 +5607,21 @@
         "collectionName": "Wild West & Wicked (Remix) - Single",
         "primaryGenreName": "Country",
         "trackTimeMillis": 174960,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Back & Forth",
+        "artist": "Diane Dddd",
+        "playcount": 347000,
+        "rank": 197,
+        "bestChartRank": 197,
+        "url": "https://music.apple.com/fr/album/back-forth/1874926668?i=1874926672&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/22/7c/e5227c57-8662-48c3-4cfb-9d3d3d72315d/199316468380_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-20",
+        "rarity": "C"
       },
       {
         "name": "Walk Like an Egyptian",
@@ -3258,7 +5640,8 @@
         "collectionName": "The Essential Bangles",
         "primaryGenreName": "Pop",
         "trackTimeMillis": 204707,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
       },
       {
         "name": "Je rêve",
@@ -3277,7 +5660,21 @@
         "collectionName": "La symphonie des éclairs",
         "primaryGenreName": "Variété française",
         "trackTimeMillis": 234471,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "C"
+      },
+      {
+        "name": "Reviens Gouyad",
+        "artist": "DJ Inno & DJ Robin",
+        "playcount": 249000,
+        "rank": 199,
+        "bestChartRank": 199,
+        "url": "https://music.apple.com/fr/album/reviens-gouyad/1879281009?i=1879281013&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/54/a0/b154a027-36ae-009f-1983-ceb9456842e4/5063916182913_cover.jpg/600x600bb.jpg",
+        "releaseDate": "2026-02-27",
+        "rarity": "C"
       },
       {
         "name": "We Are the People",
@@ -3296,7 +5693,21 @@
         "collectionName": "Walking on a Dream (10th Anniversary Edition)",
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 267373,
-        "itunesSearched": true
+        "itunesSearched": true,
+        "rarity": "R"
+      },
+      {
+        "name": "Euphoria (Long Version)",
+        "artist": "raevr",
+        "playcount": 200000,
+        "rank": 200,
+        "bestChartRank": 200,
+        "url": "https://music.apple.com/fr/album/euphoria-long-version/1843054914?i=1843054915&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/85/74/5b/85745bcb-dda1-ee87-c7bc-d5da819c8a98/artwork.jpg/600x600bb.jpg",
+        "releaseDate": "2025-10-01",
+        "rarity": "C"
       }
     ]
   },
