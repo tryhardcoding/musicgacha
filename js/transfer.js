@@ -6,6 +6,7 @@
 import { addCardToCollection } from './storage.js';
 import { renderCard } from './card-renderer.js?v=20260323b';
 import { trackTransferSend, trackTransferReceive, checkAchievements } from './achievements.js';
+import { t } from './i18n.js';
 
 // ---- Share Link Creation ----
 
@@ -183,12 +184,12 @@ function showReceiveModal(cardData) {
 
     // テキスト
     if (titleEl) {
-        titleEl.textContent = 'カードが届いています！🎉';
+        titleEl.textContent = t('share.cardArrived') + ' 🎉';
     }
     if (subtitleEl) {
         // セキュリティ: rarity も escapeHtml() を適用（parseShareLink で許可リスト検証済みだが多層防御）
         const safeRarity = VALID_RARITIES.includes(cardData.rarity) ? cardData.rarity : 'C';
-        subtitleEl.innerHTML = `<strong>${escapeHtml(cardData.artist)}</strong> - ${escapeHtml(cardData.title)}<br><span class="share-receive-rarity rarity-${safeRarity.toLowerCase()}">${escapeHtml(safeRarity)}</span><br><span class="share-receive-note">受け取るとあなたのコレクションに追加されます</span>`;
+        subtitleEl.innerHTML = `<strong>${escapeHtml(cardData.artist)}</strong> - ${escapeHtml(cardData.title)}<br><span class="share-receive-rarity rarity-${safeRarity.toLowerCase()}">${escapeHtml(safeRarity)}</span><br><span class="share-receive-note">${escapeHtml(t('share.receiveNote'))}</span>`;
     }
 
     modal.style.display = '';
@@ -216,7 +217,7 @@ function showReceiveModal(cardData) {
 
         // トースト
         if (window.MusicGacha?.showToast) {
-            window.MusicGacha.showToast(`「${cardData.title}」をコレクションに追加しました！`, 'success');
+            window.MusicGacha.showToast(t('toast.cardAdded', { title: cardData.title }), 'success');
         }
 
         // コレクション画面に遷移

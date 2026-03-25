@@ -4,6 +4,7 @@
 // ============================================================
 
 import { RARITY_CONFIG, formatDuration } from './card.js';
+import { t } from './i18n.js';
 import { getSetting, toggleFavorite, isFavorite } from './storage.js';
 import { copyShareLink } from './transfer.js';
 import { shareCard } from './share-sns.js?v=20260320b';
@@ -144,13 +145,13 @@ export function renderCard(card, options = {}) {
     <div class="card-border"></div>
     <span class="card-rarity-badge rarity-badge-${safeRarityClass}">${escapeHtml(safeRarityDisplay)}</span>
     ${card.chartRank ? `<span class="card-rank-badge">No.${card.chartRank}</span>` : ''}
-    <span class="card-fav-icon${isFav ? ' active' : ''}" title="お気に入り">${isFav ? icon('heart', { size: 16, class: 'fav-heart' }) : ''}</span>
+    <span class="card-fav-icon${isFav ? ' active' : ''}" title="${escapeHtml(t('card.favorite'))}">${isFav ? icon('heart', { size: 16, class: 'fav-heart' }) : ''}</span>
     <div class="card-content">
       <div class="card-title" title="${escapeHtml(card.title)}">${escapeHtml(card.title)}</div>
       <div class="card-artist" title="${escapeHtml(card.artist)}">${escapeHtml(card.artist)}</div>
 
     </div>
-    ${card.previewUrl ? `<button class="card-listen-btn" data-preview-url="${escapeHtml(card.previewUrl)}" title="試聴"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></button>` : ''}
+    ${card.previewUrl ? `<button class="card-listen-btn" data-preview-url="${escapeHtml(card.previewUrl)}" title="${escapeHtml(t('card.preview'))}"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></button>` : ''}
     ${showNew && card.isNew ? '<span class="card-new-badge">NEW</span>' : ''}
   `;
 
@@ -177,7 +178,7 @@ export function renderCard(card, options = {}) {
     }
     if (window.MusicGacha?.showToast) {
       window.MusicGacha.showToast(
-        result.isFavorite ? 'お気に入りに追加しました' : 'お気に入りを解除しました',
+        result.isFavorite ? t('toast.favoriteAdded') : t('toast.favoriteRemoved'),
         result.isFavorite ? 'success' : 'info'
       );
     }
@@ -256,31 +257,31 @@ export async function openCardDetail(card) {
   if (infoContainer) {
     infoContainer.innerHTML = `
       <div class="modal-info-row">
-        <span class="modal-info-label">曲名</span>
+        <span class="modal-info-label">${escapeHtml(t('card.title'))}</span>
         <span class="modal-info-value">${escapeHtml(card.title)}</span>
       </div>
       <div class="modal-info-row">
-        <span class="modal-info-label">アーティスト</span>
+        <span class="modal-info-label">${escapeHtml(t('card.artist'))}</span>
         <span class="modal-info-value">${escapeHtml(card.artist)}</span>
       </div>
       <div class="modal-info-row">
-        <span class="modal-info-label">アルバム</span>
+        <span class="modal-info-label">${escapeHtml(t('card.album'))}</span>
         <span class="modal-info-value">${escapeHtml(card.album || 'Unknown')}</span>
       </div>
       ${card.year ? `<div class="modal-info-row">
-        <span class="modal-info-label">リリース年</span>
+        <span class="modal-info-label">${escapeHtml(t('card.year'))}</span>
         <span class="modal-info-value">${card.year}</span>
       </div>` : ''}
       ${packDisplayHtml ? `<div class="modal-info-row">
-        <span class="modal-info-label">パック</span>
+        <span class="modal-info-label">${escapeHtml(t('card.pack'))}</span>
         <span class="modal-info-value">${packDisplayHtml}</span>
       </div>` : ''}
       <div class="modal-info-row">
-        <span class="modal-info-label">曲長</span>
+        <span class="modal-info-label">${escapeHtml(t('card.duration'))}</span>
         <span class="modal-info-value">${formatDuration(card.duration)}</span>
       </div>
       ${card.count > 1 ? `<div class="modal-info-row">
-        <span class="modal-info-label">所持数</span>
+        <span class="modal-info-label">${escapeHtml(t('card.count'))}</span>
         <span class="modal-info-value">×${card.count}</span>
       </div>` : ''}
     `;
@@ -298,8 +299,8 @@ export async function openCardDetail(card) {
             <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><polygon points="6,3 20,12 6,21"/></svg>
           </span>
           <span class="btn-play-full-text">
-            <span class="btn-play-full-label">フルで聴く</span>
-            <span class="btn-play-full-sub">Amazon Musicで再生</span>
+            <span class="btn-play-full-label">${escapeHtml(t('card.listenFull'))}</span>
+            <span class="btn-play-full-sub">${escapeHtml(t('card.listenSub'))}</span>
           </span>
         </a>
       </div>
@@ -307,11 +308,11 @@ export async function openCardDetail(card) {
         <div class="modal-share-buttons">
           <button class="btn-share-x btn-share-x-modal" id="btn-share-card-x">
             <svg class="x-logo" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            Xでシェア
+            ${escapeHtml(t('card.shareX'))}
           </button>
-          <button class="btn-share-card" id="btn-share-card">${icon('send', { size: 16 })} 友達にカードを送る</button>
+          <button class="btn-share-card" id="btn-share-card">${icon('send', { size: 16 })} ${escapeHtml(t('card.sendFriend'))}</button>
         </div>
-        <p class="share-note">※ 共有用リンクをコピーします（カードはなくなりません）</p>
+        <p class="share-note">${escapeHtml(t('card.shareNote'))}</p>
       </div>
     `;
 
@@ -329,7 +330,7 @@ export async function openCardDetail(card) {
       btnShare.addEventListener('click', async () => {
         await copyShareLink(card);
         if (window.MusicGacha?.showToast) {
-          window.MusicGacha.showToast('共有リンクをコピーしました！（あなたのカードはそのまま残ります）', 'success');
+          window.MusicGacha.showToast(t('toast.shareLinkCopied'), 'success');
         }
       });
     }

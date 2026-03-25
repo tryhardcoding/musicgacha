@@ -449,7 +449,7 @@ export async function renderPackOpening(cardsPromise, isGold = false, autoTap = 
             } catch (err) {
                 console.error('[PackAnimation] Failed to load cards:', err);
                 window.MusicGacha?.hideLoading?.();
-                window.MusicGacha?.showToast?.('カードの取得に失敗しました', 'error');
+                window.MusicGacha?.showToast?.(t('toast.apiError'), 'error');
                 resolve();
                 return;
             }
