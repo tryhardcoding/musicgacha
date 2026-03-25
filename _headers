@@ -21,23 +21,23 @@
 /data/genres.json
   Cache-Control: public, max-age=604800
 
-# CSS/JS: short cache (versioned via query params in HTML)
+# CSS/JS: long cache (cache-busted via ?v=xxx query params in HTML)
 /*.css
-  Cache-Control: public, max-age=600, stale-while-revalidate=60
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
 
 /js/*
-  Cache-Control: public, max-age=600, stale-while-revalidate=60
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
 
 # Service Worker: always revalidate (critical for update detection)
 /sw.js
   Cache-Control: no-cache
 
-# HTML: short-term cache
+# HTML: no-cache (always revalidate to pick up new version params)
 /
-  Cache-Control: public, max-age=300
+  Cache-Control: no-cache
 
 /index.html
-  Cache-Control: public, max-age=300
+  Cache-Control: no-cache
 
 # ===== Security Headers =====
 /*
