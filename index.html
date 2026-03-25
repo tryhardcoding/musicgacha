@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body class="loading">
   <!-- ===== 統一ヘッダー（1行） ===== -->
   <header class="unified-header" id="unified-header">
     <div class="header-row">
@@ -76,43 +76,11 @@
         </div>
       </div>
 
-      <!-- パックカルーセル - 横スクロール周回 -->
+      <!-- パックカルーセル - JSで動的生成 -->
       <h2 class="section-title"><i data-lucide="music"></i> <span data-i18n="home.choosePack">パックを選ぶ</span></h2>
       <div class="pack-carousel" id="pack-carousel">
         <div class="pack-carousel-track" id="pack-carousel-track">
-          <button class="pack-item" data-pack="top200">
-            <span class="pack-badge">おすすめ</span>
-            <img class="pack-item-img" src="assets/pack-top200.webp" alt="Top 200" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.top200">Top 200</span>
-          </button>
-          <button class="pack-item" data-pack="standard">
-            <img class="pack-item-img" src="assets/pack-standard.webp" alt="All" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.standard">オール</span>
-          </button>
-          <button class="pack-item" data-pack="jpop">
-            <img class="pack-item-img" src="assets/pack-jpop.webp" alt="J-POP" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.jpop">J-POP</span>
-          </button>
-          <button class="pack-item" data-pack="kpop">
-            <img class="pack-item-img" src="assets/pack-kpop.webp" alt="K-POP" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.kpop">K-POP</span>
-          </button>
-          <button class="pack-item" data-pack="vocaloid">
-            <img class="pack-item-img" src="assets/pack-vocaloid.webp" alt="Vocaloid" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.vocaloid">ボカロ</span>
-          </button>
-          <button class="pack-item" data-pack="anime">
-            <img class="pack-item-img" src="assets/pack-anime.webp" alt="Anime" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.anime">Anime</span>
-          </button>
-          <button class="pack-item" data-pack="hiphop">
-            <img class="pack-item-img" src="assets/pack-hiphop.webp" alt="Hip-Hop" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.hiphop">Hip-Hop</span>
-          </button>
-          <button class="pack-item" data-pack="western">
-            <img class="pack-item-img" src="assets/pack-western.webp" alt="Western" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.western">洋楽</span>
-          </button>
+          <!-- パックはbuildPackCarousel()で動的に生成 -->
         </div>
       </div>
 

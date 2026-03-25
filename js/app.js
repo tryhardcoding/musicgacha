@@ -842,11 +842,11 @@ async function buildPackCarousel() {
     const track = document.getElementById('pack-carousel-track');
     if (!track) return;
 
-    track.innerHTML = '';
-
+    // データ取得を先に行い、DOM更新は最後に一括で実行（CLS防止）
     const packsConfig = await getPacksConfig();
     if (!packsConfig) return;
 
+    const fragment = document.createDocumentFragment();
     for (const pack of packsConfig) {
         const btn = document.createElement('button');
         btn.className = 'pack-item';
@@ -872,13 +872,15 @@ async function buildPackCarousel() {
         nameSpan.textContent = t(`pack.${pack.id}`) || pack.id;
         btn.appendChild(nameSpan);
 
-        track.appendChild(btn);
+        fragment.appendChild(btn);
     }
 
+    // 一括swap: クリアと追加を連続実行し、1回のreflowで完了
+    track.innerHTML = '';
+    track.appendChild(fragment);
+
     // F5リロード時にブラウザがスクロール位置を復元してTOP200が端に来るのを防止
-    // 構築完了後にスクロール位置をリセット
     track.scrollLeft = 0;
-    // ブラウザの自動スクロール復元より後にもリセット（非同期復元対策）
     requestAnimationFrame(() => {
         track.scrollLeft = 0;
     });
@@ -978,6 +980,12 @@ function injectTop200Gradient() {
 // ---- Initialization ----
 
 async function init() {
+    // ブラウザの自動スクロール復元を無効化（CLS防止）
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+    window.scrollTo(0, 0);
+
     // ストレージ初期化
     initStorage();
 
@@ -1074,6 +1082,9 @@ async function init() {
             if (currentScreen === 'collection') refreshCollection();
         }
     });
+
+    // 初期化完了: loading状態を解除して即座に表示
+    document.body.classList.remove('loading');
 
     console.log('[MusicGacha] App initialized');
 }

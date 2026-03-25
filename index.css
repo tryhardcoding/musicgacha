@@ -119,6 +119,11 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+/* ---- Initial Load: CLS Prevention ---- */
+body.loading {
+  opacity: 0;
+}
+
 body {
   font-family: var(--font-ui);
   background: var(--bg-primary);
@@ -128,6 +133,7 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 body::before {
@@ -717,6 +723,7 @@ input {
   margin: -8px calc(-1 * var(--space-lg));
   padding: 0;
   overflow: hidden;
+  min-height: 240px;
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
 }

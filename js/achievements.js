@@ -6,14 +6,17 @@
 import { getCollection, getPackData, getTop200Data, getFavorites, recoverPacks } from './storage.js';
 import { icon, refreshIcons } from './icons.js';
 import { t } from './i18n.js';
+import { getStorageSuffix } from './region.js';
 
 // ---- Storage ----
 
-const STORAGE_KEY = 'musicgacha_achievements';
+function getStorageKey() {
+    return 'musicgacha_achievements' + getStorageSuffix();
+}
 
 function getAchievementData() {
     try {
-        const raw = localStorage.getItem(STORAGE_KEY);
+        const raw = localStorage.getItem(getStorageKey());
         if (!raw) return { unlocked: {}, dailyBonusCount: 0, completedTop200Dates: [], usedPackTypes: [], sharedCount: 0, transferSendCount: 0, transferReceiveCount: 0, goldPackCount: 0, godPackCount: 0 };
         return JSON.parse(raw);
     } catch {
@@ -23,7 +26,7 @@ function getAchievementData() {
 
 function saveAchievementData(data) {
     try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+        localStorage.setItem(getStorageKey(), JSON.stringify(data));
     } catch (e) {
         console.error('[Achievements] Failed to save:', e);
     }
@@ -327,7 +330,7 @@ export function getAchievementStats() {
 
 /** 実績データをリセット */
 export function resetAchievements() {
-    localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(getStorageKey());
 }
 
 // ---- Modal Rendering ----
