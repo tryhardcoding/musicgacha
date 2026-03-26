@@ -20,8 +20,13 @@ export function icon(name, opts = {}) {
  * 動的に挿入されたアイコンを再描画（Lucide createIcons 呼び出し）
  */
 export function refreshIcons() {
-    if (window.lucide) {
-        window.lucide.createIcons();
+    if (!window.lucide) return;
+    // requestIdleCallback: メインスレッドが空いた時にアイコンを描画（TBT改善）
+    const run = () => window.lucide.createIcons();
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(run, { timeout: 200 });
+    } else {
+        setTimeout(run, 0);
     }
 }
 
