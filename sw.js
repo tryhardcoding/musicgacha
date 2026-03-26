@@ -3,7 +3,7 @@
 // オフラインキャッシュ + 再訪問時の通信量削減
 // ============================================================
 
-const CACHE_VERSION = 'musicgacha-v22';
+const CACHE_VERSION = 'musicgacha-v23';
 
 // プリキャッシュする静的アセット（初回インストール時に取得）
 const PRECACHE_ASSETS = [
@@ -163,7 +163,7 @@ async function networkFirst(request) {
     // cache: 'no-cache' でブラウザHTTPキャッシュをバイパスし、
     // 常にサーバーから最新版を取得（ESMインポートのキャッシュ問題対策）
     const response = await fetch(request, { cache: 'no-cache' });
-    if (response.ok) {
+    if (response.ok && request.method === 'GET') {
       const cache = await caches.open(CACHE_VERSION);
       cache.put(request, response.clone());
     }
