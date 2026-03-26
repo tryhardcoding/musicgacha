@@ -150,6 +150,7 @@ const translations = {
         'settings.terms': '利用規約',
         'settings.region': 'リージョン',
         'settings.regionDesc': 'チャートとパックの国を切り替え',
+        'settings.feedback': 'フィードバック',
 
         // Footer
         'footer.support': 'サーバー代で赤字運営中…応援いただけると嬉しいです',
@@ -415,6 +416,7 @@ const translations = {
         'settings.terms': 'Terms of Service',
         'settings.region': 'Region',
         'settings.regionDesc': 'Switch chart and pack region',
+        'settings.feedback': 'Feedback',
 
         // Footer
         'footer.support': 'Running at a loss for server costs... Your support means a lot!',

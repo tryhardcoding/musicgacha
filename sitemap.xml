@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://musicgacha.com/</loc>
     <lastmod>2026-03-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://musicgacha.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://musicgacha.com/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://musicgacha.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://musicgacha.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://musicgacha.com/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://musicgacha.com/?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://musicgacha.com/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://musicgacha.com/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://musicgacha.com/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://musicgacha.com/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://musicgacha.com/?lang=th"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://musicgacha.com/?lang=vi"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://musicgacha.com/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://musicgacha.com/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://musicgacha.com/?lang=hi"/>
   </url>
   <url>
     <loc>https://musicgacha.com/privacy.html</loc>
