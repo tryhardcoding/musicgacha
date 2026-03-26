@@ -645,6 +645,7 @@ const translations = {
         'settings.credits': 'Crédits', 'settings.legal': 'Mentions légales',
         'settings.region': 'Région',
         'settings.regionDesc': 'Changer le pays des classements et des packs',
+        'settings.feedback': 'Commentaires',
         'home.top200Updated': 'Le classement a été mis à jour',
         'dialog.resetStep2': 'Toutes les cartes collectées et la progression TOP200\\nseront perdues. Continuer ?',
         'dialog.resetStep3': 'Vous possédez {unique} cartes uniques ({total} au total).\\nCes données ne peuvent pas être récupérées. Continuer ?',
@@ -663,6 +664,11 @@ const translations = {
         'ads.watchToRecover': 'Regardez pour récupérer des packs',
         'ads.closeAndRecover': 'Fermer et récupérer les packs',
         'loading': 'Chargement...',
+
+        // PWA
+        'pwa.installMessage': 'Ajoutez MusicGacha à votre écran d\'accueil !',
+        'pwa.install': 'Installer',
+        'pwa.later': 'Plus tard',
     },
 
     // ---- German (de) ----
@@ -762,6 +768,7 @@ const translations = {
         'settings.credits': 'Credits', 'settings.legal': 'Rechtliches',
         'settings.region': 'Region',
         'settings.regionDesc': 'Chart- und Paketregion wechseln',
+        'settings.feedback': 'Feedback',
         'home.top200Updated': 'Chart wurde aktualisiert',
         'dialog.resetStep2': 'Alle gesammelten Karten und TOP200-Fortschritt\\ngehen verloren. Fortfahren?',
         'dialog.resetStep3': 'Sie besitzen {unique} einzigartige Karten ({total} insgesamt).\\nDiese Daten können nicht wiederhergestellt werden. Fortfahren?',
@@ -780,6 +787,11 @@ const translations = {
         'ads.watchToRecover': 'Ansehen zum Auffüllen der Pakete',
         'ads.closeAndRecover': 'Schließen und Pakete auffüllen',
         'loading': 'Lädt...',
+
+        // PWA
+        'pwa.installMessage': 'MusicGacha zum Startbildschirm hinzufügen!',
+        'pwa.install': 'Installieren',
+        'pwa.later': 'Später',
     },
 
     // ---- Italian (it) ----
@@ -879,6 +891,7 @@ const translations = {
         'settings.credits': 'Crediti', 'settings.legal': 'Note legali',
         'settings.region': 'Regione',
         'settings.regionDesc': 'Cambia regione classifica e pacchetti',
+        'settings.feedback': 'Feedback',
         'home.top200Updated': 'La classifica è stata aggiornata',
         'dialog.resetStep2': 'Tutte le carte raccolte e i progressi TOP200\\nandranno persi. Continuare?',
         'dialog.resetStep3': 'Possiedi {unique} carte uniche ({total} totali).\\nQuesti dati non possono essere recuperati. Continuare?',
@@ -897,6 +910,11 @@ const translations = {
         'ads.watchToRecover': 'Guarda per recuperare pacchetti',
         'ads.closeAndRecover': 'Chiudi e recupera pacchetti',
         'loading': 'Caricamento...',
+
+        // PWA
+        'pwa.installMessage': 'Aggiungi MusicGacha alla schermata iniziale!',
+        'pwa.install': 'Installa',
+        'pwa.later': 'Dopo',
     },
 
     // ---- Spanish (es) ----
@@ -996,6 +1014,7 @@ const translations = {
         'settings.credits': 'Créditos', 'settings.legal': 'Legal',
         'settings.region': 'Región',
         'settings.regionDesc': 'Cambiar región de ranking y packs',
+        'settings.feedback': 'Comentarios',
         'home.top200Updated': 'El ranking ha sido actualizado',
         'dialog.resetStep2': 'Todas las cartas y el progreso TOP200\\nse perderán. ¿Continuar?',
         'dialog.resetStep3': 'Posees {unique} cartas únicas ({total} en total).\\nEstos datos no se pueden recuperar. ¿Continuar?',
@@ -1014,6 +1033,11 @@ const translations = {
         'ads.watchToRecover': 'Ver para recuperar packs',
         'ads.closeAndRecover': 'Cerrar y recuperar packs',
         'loading': 'Cargando...',
+
+        // PWA
+        'pwa.installMessage': '¡Añade MusicGacha a tu pantalla de inicio!',
+        'pwa.install': 'Instalar',
+        'pwa.later': 'Después',
     },
 
     // ---- Portuguese (pt) ----
@@ -1113,6 +1137,7 @@ const translations = {
         'settings.credits': 'Créditos', 'settings.legal': 'Legal',
         'settings.region': 'Região',
         'settings.regionDesc': 'Mudar região do ranking e pacotes',
+        'settings.feedback': 'Feedback',
         'home.top200Updated': 'O ranking foi atualizado',
         'dialog.resetStep2': 'Todas as cartas coletadas e o progresso TOP200\\nserão perdidos. Continuar?',
         'dialog.resetStep3': 'Você possui {unique} cartas únicas ({total} no total).\\nEstes dados não podem ser recuperados. Continuar?',
@@ -1131,6 +1156,11 @@ const translations = {
         'ads.watchToRecover': 'Assista para recuperar pacotes',
         'ads.closeAndRecover': 'Fechar e recuperar pacotes',
         'loading': 'Carregando...',
+
+        // PWA
+        'pwa.installMessage': 'Adicione MusicGacha à tela inicial!',
+        'pwa.install': 'Instalar',
+        'pwa.later': 'Depois',
     },
 
     // ---- Dutch (nl) ----
@@ -1248,6 +1278,11 @@ const translations = {
         'ads.watchToRecover': 'Kijk om pakjes te herstellen',
         'ads.closeAndRecover': 'Sluiten en pakjes herstellen',
         'loading': 'Laden...',
+
+        // PWA
+        'pwa.installMessage': 'Voeg MusicGacha toe aan je startscherm!',
+        'pwa.install': 'Installeren',
+        'pwa.later': 'Later',
     },
 };
 
