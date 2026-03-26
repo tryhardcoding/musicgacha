@@ -8,12 +8,18 @@
   "theme_color": "#22D3EE",
   "orientation": "portrait-primary",
   "categories": ["entertainment", "music", "games"],
-  "lang": "ja",
+  "lang": "en",
   "icons": [
     {
       "src": "/assets/favicon.svg",
       "type": "image/svg+xml",
       "sizes": "any"
+    },
+    {
+      "src": "/assets/favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "/assets/favicon-512.png",
