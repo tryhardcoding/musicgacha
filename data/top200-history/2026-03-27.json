@@ -125,28 +125,12 @@
     {
       "rank": 10,
       "artist": "HANA",
-      "name": "Bad Girl",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4f/a1/c3/4fa1c3d4-b9dc-b3d6-4713-e7a52388f53f/mzaf_15179763980287270404.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/drop/1792409522?i=1792409527&uo=4",
-      "itunesTrackId": 1792409527,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/18/f2/0518f22a-996a-4d96-e268-ddb79e0735c0/199066644126.jpg/600x600bb.jpg",
-      "collectionName": "Drop - Single",
-      "primaryGenreName": "ヒップホップ",
-      "trackTimeMillis": 148090,
-      "releaseDate": "2025-01-31"
+      "name": "Bad Girl"
     },
     {
       "rank": 11,
       "artist": "EL CAPITXN, TAEHYUN & Jeremy Zucker",
-      "name": "Breaking Through",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/8c/eb/658ceb12-0d36-9875-db46-b82ab5ad67c3/mzaf_14215007884946416213.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/breaking-through/1885024305?i=1885024307&uo=4",
-      "itunesTrackId": 1885024307,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6d/25/3e/6d253e92-1994-f58c-4550-e277b869e438/199316517446_cover.jpg/600x600bb.jpg",
-      "collectionName": "Breaking Through - Single",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 252800,
-      "releaseDate": "2026-03-26"
+      "name": "Breaking Through"
     },
     {
       "rank": 12,
@@ -229,15 +213,7 @@
     {
       "rank": 18,
       "artist": "Fura Kanato",
-      "name": "Up and Turn",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/73/66/bd736630-c658-6e3d-a514-c5a293481834/mzaf_1811835656467144821.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/up-and-turn/1882919339?i=1882919342&uo=4",
-      "itunesTrackId": 1882919342,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/d3/df/bdd3df25-9c30-9f3a-4372-3ca9465e144d/4550754143844_cover.jpg/600x600bb.jpg",
-      "collectionName": "Up and Turn - Single",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 220000,
-      "releaseDate": "2026-03-26"
+      "name": "Up and Turn"
     },
     {
       "rank": 19,
@@ -824,15 +800,7 @@
     {
       "rank": 64,
       "artist": "Chanmina",
-      "name": "TEST ME",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/68/29/a8682985-dd6d-64cd-8332-82ae106d4189/mzaf_3854554072934137608.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/test-me/1866862251?i=1866862252&uo=4",
-      "itunesTrackId": 1866862252,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5e/6e/3b/5e6e3bb0-91ae-1443-1195-96b8b74b9985/4547366799163.jpg/600x600bb.jpg",
-      "collectionName": "TEST ME - Single",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 171483,
-      "releaseDate": "2026-01-14"
+      "name": "TEST ME"
     },
     {
       "rank": 65,
@@ -850,15 +818,7 @@
     {
       "rank": 66,
       "artist": "Lumera",
-      "name": "Praylist",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/82/76/5c827614-f22d-5df1-9b27-c617e3d0ea3b/mzaf_5517749918788117187.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/praylist/1881904574?i=1881904578&uo=4",
-      "itunesTrackId": 1881904578,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/fa/1f/42fa1f44-9dd8-cc73-7807-4058e1727815/4595059364297.jpg/600x600bb.jpg",
-      "collectionName": "Praylist - Single",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 186010,
-      "releaseDate": "2026-03-23"
+      "name": "Praylist"
     },
     {
       "rank": 67,
@@ -889,15 +849,7 @@
     {
       "rank": 69,
       "artist": "back number",
-      "name": "Want Want Want",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/5a/b2/fb5ab230-5da3-a918-b5ff-587cbb05d83f/mzaf_5450328628901237607.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82/1860453443?i=1860453512&uo=4",
-      "itunesTrackId": 1860453512,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/3e/01/0f3e01d9-4234-b665-f487-c47f3d15695c/25UM1IM99143.rgb.jpg/600x600bb.jpg",
-      "collectionName": "どうしてもどうしても - Single",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 226787,
-      "releaseDate": "2025-12-27"
+      "name": "Want Want Want"
     },
     {
       "rank": 70,
@@ -1019,15 +971,7 @@
     {
       "rank": 79,
       "artist": "Ayane",
-      "name": "Song With You",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/46/01/ed460172-32af-7373-2331-83f551d64f5b/mzaf_1662579216202717271.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%A8%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F%E6%AD%8C/1872661348?i=1872661360&uo=4",
-      "itunesTrackId": 1872661360,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/37/7c/9f/377c9fde-d930-0daa-c8c5-6c0eb5359a59/ANTCD-A0000019117.jpg/600x600bb.jpg",
-      "collectionName": "映画「君が最後に遺した歌」オリジナル・サウンドトラック",
-      "primaryGenreName": "サウンドトラック",
-      "trackTimeMillis": 221333,
-      "releaseDate": "2026-02-02"
+      "name": "Song With You"
     },
     {
       "rank": 80,
@@ -1058,28 +1002,12 @@
     {
       "rank": 82,
       "artist": "Shakira",
-      "name": "Zoo",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/5b/60/605b60e9-33f5-6157-bc6b-9557b512bf44/mzaf_14689712611844910126.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/zoo/1842202783?i=1842202784&uo=4",
-      "itunesTrackId": 1842202784,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/81/de/be81deb3-7c91-bdcc-1092-61bf7a56fe0a/25UM1IM51403.rgb.jpg/600x600bb.jpg",
-      "collectionName": "ズートピア2 (オリジナル・サウンドトラック)",
-      "primaryGenreName": "サウンドトラック",
-      "trackTimeMillis": 190823,
-      "releaseDate": "2025-10-10"
+      "name": "Zoo"
     },
     {
       "rank": 83,
       "artist": "Charlie Puth & Hikaru Utada",
-      "name": "Home",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/9c/77/639c77b9-275f-6eea-8706-f99764526b0a/mzaf_5926991907428359190.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/home/1845189970?i=1845190340&uo=4",
-      "itunesTrackId": 1845190340,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/e0/a1/48e0a157-0f2a-28fc-a864-b274409703d8/075679599575.jpg/600x600bb.jpg",
-      "collectionName": "Whatever's Clever!",
-      "primaryGenreName": "ポップ",
-      "trackTimeMillis": 224947,
-      "releaseDate": null
+      "name": "Home"
     },
     {
       "rank": 84,
@@ -1097,15 +1025,7 @@
     {
       "rank": 85,
       "artist": "Mrs. GREEN APPLE",
-      "name": "Que Sera Sera",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e8/50/f2/e850f245-43dc-8a64-8b7d-24d5ea6a2697/mzaf_4832086685371547421.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%82%B1%E3%82%BB%E3%83%A9%E3%82%BB%E3%83%A9/1681600496?i=1681600508&uo=4",
-      "itunesTrackId": 1681600508,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/25/22/db/2522db04-1404-086a-c8a2-253484030b36/23UMGIM37150.rgb.jpg/600x600bb.jpg",
-      "collectionName": "ケセラセラ - Single",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 272965,
-      "releaseDate": "2023-04-25"
+      "name": "Que Sera Sera"
     },
     {
       "rank": 86,
@@ -1192,15 +1112,7 @@
     {
       "rank": 93,
       "artist": "KANA-BOON",
-      "name": "Silhouette",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/38/5e/05385ed0-e385-d721-8c48-4dacf0ea2db3/mzaf_3060968370677241856.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%82%B7%E3%83%AB%E3%82%A8%E3%83%83%E3%83%88/1538157060?i=1538157315&uo=4",
-      "itunesTrackId": 1538157315,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/6b/cc/326bcc4d-5c22-1451-4935-4d693cde2ad1/jacket_KSCL02535B00Z_550.jpg/600x600bb.jpg",
-      "collectionName": "TIME",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 240133,
-      "releaseDate": "2014-11-26"
+      "name": "Silhouette"
     },
     {
       "rank": 94,
@@ -1296,28 +1208,12 @@
     {
       "rank": 101,
       "artist": "聖川真斗(CV.鈴村健一), 一ノ瀬トキヤ(CV.宮野真守), 愛島セシル(CV.鳥海浩輔), 美風 藍(CV.蒼井翔太), 皇 綺羅(CV.小野大輔) & 天草シオン(CV.山下大輝)",
-      "name": "夢ノ聖火",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/f5/c1/b0f5c1be-8779-1683-af42-666088f6acc2/mzaf_7516328058476557642.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E5%A4%A2%E3%83%8E%E8%81%96%E7%81%AB/1858448085?i=1858448088&uo=4",
-      "itunesTrackId": 1858448088,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/27/17/822717ba-c285-90a4-ccab-bf62a8189883/PA00207677_1_234648_jacket.jpg/600x600bb.jpg",
-      "collectionName": "うたの☆プリンスさまっ♪15th Anniversary - EP",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 252837,
-      "releaseDate": "2026-01-07"
+      "name": "夢ノ聖火"
     },
     {
       "rank": 102,
       "artist": "椎名 ニキ(CV.山口 智広) & あんさんぶるスターズ!!",
-      "name": "Spicy Smoothie",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/29/ef/d529ef9d-755b-6767-5518-1fee8d3daa72/mzaf_201953437976751959.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/spicy-smoothie/1882284959?i=1882285324&uo=4",
-      "itunesTrackId": 1882285324,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/3d/ac/193dace5-f0d3-b56b-d9c4-f68e2b31798a/823375038788_Cover.jpg/600x600bb.jpg",
-      "collectionName": "椎名 ニキ「Spicy Smoothie」あんさんぶるスターズ!! ESアイドルソング Solo -Bright me up!!- - Single",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 197486,
-      "releaseDate": "2026-03-25"
+      "name": "Spicy Smoothie"
     },
     {
       "rank": 103,
@@ -1335,15 +1231,7 @@
     {
       "rank": 104,
       "artist": "Mr.Children",
-      "name": "キングスネークの憂鬱",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/d3/af/e7d3afec-e8ae-3469-a25f-fcf921e5fa13/mzaf_17296534487290608346.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%8D%E3%83%BC%E3%82%AF%E3%81%AE%E6%86%82%E9%AC%B1/1878294255?i=1878294256&uo=4",
-      "itunesTrackId": 1878294256,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/72/ec/1972ec03-1f7f-5879-8639-489f80dd6df1/TFCC-81201.jpg/600x600bb.jpg",
-      "collectionName": "産声",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 230013,
-      "releaseDate": "2026-03-25"
+      "name": "キングスネークの憂鬱"
     },
     {
       "rank": 105,
@@ -1361,15 +1249,7 @@
     {
       "rank": 106,
       "artist": "10-FEET",
-      "name": "壊れて消えるまで",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/5f/48/505f480b-6ccb-03a2-500b-2aea91cda97c/mzaf_974460871000542643.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E5%A3%8A%E3%82%8C%E3%81%A6%E6%B6%88%E3%81%88%E3%82%8B%E3%81%BE%E3%81%A7/1880079823?i=1880079951&uo=4",
-      "itunesTrackId": 1880079951,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/0d/96/0b0d9642-10bc-9828-d90a-c0b2a325933e/26UMGIM13183.rgb.jpg/600x600bb.jpg",
-      "collectionName": "壊れて消えるまで - Single",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 249093,
-      "releaseDate": "2026-03-18"
+      "name": "壊れて消えるまで"
     },
     {
       "rank": 107,
@@ -1478,15 +1358,7 @@
     {
       "rank": 115,
       "artist": "村下孝蔵",
-      "name": "初恋",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/d8/9b/8fd89b60-baf0-a8b4-5e70-82794a3c764f/mzaf_7847356822232185935.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E5%88%9D%E6%81%8B/1536742022?i=1536742023&uo=4",
-      "itunesTrackId": 1536742023,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/33/f2/75/33f27536-062f-b3dc-d5f0-bf6f7d77e0b4/jacket_MHCL02292B00Z_550.jpg/600x600bb.jpg",
-      "collectionName": "GOLDEN☆BEST 村下孝蔵ベスト・セレクト・ソングズ",
-      "primaryGenreName": "歌謡曲",
-      "trackTimeMillis": 223040,
-      "releaseDate": "1980-01-01"
+      "name": "初恋"
     },
     {
       "rank": 116,
@@ -1582,15 +1454,7 @@
     {
       "rank": 123,
       "artist": "サカナクション",
-      "name": "いらない",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/60/72/a4607228-3e00-9839-b971-028a6c6a7d69/mzaf_10619850028064256036.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%81%84%E3%82%89%E3%81%AA%E3%81%84/1874114091?i=1874114093&uo=4",
-      "itunesTrackId": 1874114093,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/d0/8f/21d08f38-bfd6-415e-7de3-f2fb48495522/VEATP-45215.jpg/600x600bb.jpg",
-      "collectionName": "いらない - Single",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 226314,
-      "releaseDate": "2026-02-11"
+      "name": "いらない"
     },
     {
       "rank": 124,
@@ -1725,15 +1589,7 @@
     {
       "rank": 134,
       "artist": "ケツメイシ",
-      "name": "さくら",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1f/5a/c4/1f5ac489-34d3-4bdd-fe14-0fb571033a69/mzaf_6743258474393491430.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%81%95%E3%81%8F%E3%82%89/421370197?i=421370200&uo=4",
-      "itunesTrackId": 421370200,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/f1/90/7a/mzi.pbcghbjl.jpg/600x600bb.jpg",
-      "collectionName": "さくら - Single",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 319773,
-      "releaseDate": "2005-02-16"
+      "name": "さくら"
     },
     {
       "rank": 135,
@@ -1751,15 +1607,7 @@
     {
       "rank": 136,
       "artist": "和泉守兼定, 堀川国広, 山姥切国広 & ミュージカル『刀剣乱舞』 刀剣男士",
-      "name": "I Remember",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/3e/0f/9f3e0f07-cd4c-7a25-1fc3-bc0327c3dc4f/mzaf_13441697304647067878.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/i-remember/1881801021?i=1881801395&uo=4",
-      "itunesTrackId": 1881801395,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/dd/f6/fbddf69b-c27b-1a02-8ab8-d8c13c63d03d/PA00213594_1_240820_jacket.jpg/600x600bb.jpg",
-      "collectionName": "ミュージカル『刀剣乱舞』 和泉守兼定 堀川国広 山姥切国広 参騎出陣 ～八百八町膝栗毛～(通常盤)",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 241173,
-      "releaseDate": "2026-03-25"
+      "name": "I Remember"
     },
     {
       "rank": 137,
@@ -1790,28 +1638,12 @@
     {
       "rank": 139,
       "artist": "B小町 ルビー(CV:伊駒ゆりえ)、有馬かな(CV:潘めぐみ)、MEMちょ(CV:大久保瑠美)",
-      "name": "Bのリベンジ",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6d/c4/89/6dc4899b-e5d7-0728-7642-e9f60685f00c/mzaf_18380742196564457249.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%82%B5%E3%82%A4%E3%83%B3%E3%81%AFb-new-arrange-ver/1692699937?i=1692699942&uo=4",
-      "itunesTrackId": 1692699942,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/48/1a/bc/481abc1c-3531-8d47-088a-6551b4baa7c2/JK_ZMCZ-16722.jpg/600x600bb.jpg",
-      "collectionName": "TVアニメ「【推しの子】」キャラクターソングCD Vol.2 - EP",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 221712,
-      "releaseDate": "2023-07-05"
+      "name": "Bのリベンジ"
     },
     {
       "rank": 140,
       "artist": "KIRITO",
-      "name": "蒼く浮かぶ月",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/f4/17/d6f417e1-6317-b74f-81e9-2cdfe3119bca/mzaf_13185751302112391315.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E8%92%BC%E3%81%8F%E6%B5%AE%E3%81%8B%E3%81%B6%E6%9C%88/1885792521?i=1885792644&uo=4",
-      "itunesTrackId": 1885792644,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/c1/df/3fc1df0f-b4ce-39d9-05e9-ef60bbc6238f/4550754526265_cover.png/600x600bb.jpg",
-      "collectionName": "蒼く浮かぶ月 - Single",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 275013,
-      "releaseDate": "2026-03-19"
+      "name": "蒼く浮かぶ月"
     },
     {
       "rank": 141,
@@ -1842,15 +1674,7 @@
     {
       "rank": 143,
       "artist": "鈴木雅之",
-      "name": "Necessary (2026 Ver.) [feat. 白石麻衣]",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/35/24/333524db-529d-c30f-f4d0-6ccf30793df6/mzaf_1341400131142411271.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/necessary-2026-ver-feat-%E7%99%BD%E7%9F%B3%E9%BA%BB%E8%A1%A3/1885437404?i=1885437515&uo=4",
-      "itunesTrackId": 1885437515,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/ff/02/49ff0284-2b38-c68e-e002-d9d8a22c7c61/4547366811421.jpg/600x600bb.jpg",
-      "collectionName": "MARTINI DUET DELUXE",
-      "primaryGenreName": "R&B／ソウル",
-      "trackTimeMillis": 172773,
-      "releaseDate": "2026-03-25"
+      "name": "Necessary (2026 Ver.) [feat. 白石麻衣]"
     },
     {
       "rank": 144,
@@ -1868,15 +1692,7 @@
     {
       "rank": 145,
       "artist": "Mrs. GREEN APPLE",
-      "name": "点描の唄 (feat. 井上苑子)",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/a2/86/b3a28638-62e3-0717-8c3f-1c29533d8e56/mzaf_15816460295637483359.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E7%82%B9%E6%8F%8F%E3%81%AE%E5%94%84-feat-%E4%BA%95%E4%B8%8A%E8%8B%91%E5%AD%90/1606368929?i=1606370505&uo=4",
-      "itunesTrackId": 1606370505,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2a/41/8b/2a418bf1-65d4-c9ac-07ee-e885d16f7a1b/21UM1IM54529.rgb.jpg/600x600bb.jpg",
-      "collectionName": "Attitude (Expanded Edition)",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 307120,
-      "releaseDate": "2019-10-02"
+      "name": "点描の唄 (feat. 井上苑子)"
     },
     {
       "rank": 146,
@@ -1894,15 +1710,7 @@
     {
       "rank": 147,
       "artist": "NANA HATORI",
-      "name": "鋼鉄の意志",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/f0/7a/80f07a26-4748-f00d-4853-aff10957841c/mzaf_7535505373606933223.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E9%8B%BC%E9%89%84%E3%81%AE%E6%84%8F%E5%BF%97/1876137919?i=1876137924&uo=4",
-      "itunesTrackId": 1876137924,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cb/21/2f/cb212f3a-b161-ff32-1ada-e0f8521c7d51/PA00212836_0_239742_jacket.jpg/600x600bb.jpg",
-      "collectionName": "鋼鉄の意志 - Single",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 259584,
-      "releaseDate": "2026-02-14"
+      "name": "鋼鉄の意志"
     },
     {
       "rank": 148,
@@ -1920,28 +1728,12 @@
     {
       "rank": 149,
       "artist": "クレイジーウォウウォ!!",
-      "name": "トンツカタンタン",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/43/8b/93438b8a-7fe0-1926-6466-e72964f04461/mzaf_5503641884496987040.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%83%88%E3%83%B3%E3%83%84%E3%82%AB%E3%82%BF%E3%83%B3%E3%82%BF%E3%83%B3/1839396490?i=1839396491&uo=4",
-      "itunesTrackId": 1839396491,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/88/9b/04889b68-592b-1209-00ef-5a30a653e96d/VEATP-44315.jpg/600x600bb.jpg",
-      "collectionName": "トンツカタンタン - Single",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 230333,
-      "releaseDate": "2025-10-01"
+      "name": "トンツカタンタン"
     },
     {
       "rank": 150,
       "artist": "ヨルシカ",
-      "name": "春泥棒",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/53/80/a35380f5-6630-a9fb-b914-1f50e17762d0/mzaf_17081601509153327262.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E6%98%A5%E6%B3%A5%E6%A3%92/1545098070?i=1545098596&uo=4",
-      "itunesTrackId": 1545098596,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/41/ae/b541aecb-f51b-8760-a739-3b4cbcac18b8/20UM1IM10905.rgb.jpg/600x600bb.jpg",
-      "collectionName": "春泥棒 - Single",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 290279,
-      "releaseDate": "2021-01-09"
+      "name": "春泥棒"
     },
     {
       "rank": 151,
@@ -1972,15 +1764,7 @@
     {
       "rank": 153,
       "artist": "MELLOW DEAR US",
-      "name": "BUBBLE GUM DANCE",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/94/00/779400df-7cfe-f964-8f5f-70b5f575bd29/mzaf_930165371373805883.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/bubble-gum-dance/1880291150?i=1880291154&uo=4",
-      "itunesTrackId": 1880291154,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/a9/95/97a995e2-774d-686e-e429-195e0de6f84b/4547366810493.jpg/600x600bb.jpg",
-      "collectionName": "BUBBLE GUM DANCE - Single",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 190300,
-      "releaseDate": "2026-03-11"
+      "name": "BUBBLE GUM DANCE"
     },
     {
       "rank": 154,
@@ -1998,15 +1782,7 @@
     {
       "rank": 155,
       "artist": "堀川国広, 山姥切国広 & ミュージカル『刀剣乱舞』 刀剣男士",
-      "name": "Diamond",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/bf/c4/5ebfc4cb-1e5e-ae8b-3d87-6c97e707a1b5/mzaf_16613659471243161137.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/diamond/1881801021?i=1881801400&uo=4",
-      "itunesTrackId": 1881801400,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/dd/f6/fbddf69b-c27b-1a02-8ab8-d8c13c63d03d/PA00213594_1_240820_jacket.jpg/600x600bb.jpg",
-      "collectionName": "ミュージカル『刀剣乱舞』 和泉守兼定 堀川国広 山姥切国広 参騎出陣 ～八百八町膝栗毛～(通常盤)",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 197333,
-      "releaseDate": "2026-03-25"
+      "name": "Diamond"
     },
     {
       "rank": 156,
@@ -2167,15 +1943,7 @@
     {
       "rank": 168,
       "artist": "MELLOW DEAR US",
-      "name": "Mellow Addiction",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/9a/fb/4a9afb6c-26a4-8a5e-3bd1-371ca5a269df/mzaf_8816168154177975130.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/mellow-addiction/1880291157?i=1880291160&uo=4",
-      "itunesTrackId": 1880291160,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/c5/93/c8c593ab-ec11-59e8-39e4-05c279575659/4547366810509.jpg/600x600bb.jpg",
-      "collectionName": "Mellow Addiction - Single",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 195633,
-      "releaseDate": "2026-03-11"
+      "name": "Mellow Addiction"
     },
     {
       "rank": 169,
@@ -2193,15 +1961,7 @@
     {
       "rank": 170,
       "artist": "GReeeeN",
-      "name": "遥か",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/0c/f0/300cf01f-4c52-0bca-b59e-e4080fbba806/mzaf_4046432298185285402.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E9%81%A5%E3%81%8B/1445025107?i=1445025111&uo=4",
-      "itunesTrackId": 1445025111,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ad/12/1c/ad121cf7-7f64-a285-32c0-979a91815a1c/00044002485489.rgb.jpg/600x600bb.jpg",
-      "collectionName": "遙か - Single",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 313587,
-      "releaseDate": "2009-05-27"
+      "name": "遥か"
     },
     {
       "rank": 171,
@@ -2232,15 +1992,7 @@
     {
       "rank": 173,
       "artist": "キタニタツヤ",
-      "name": "青のすみか",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e3/68/27/e368277e-fb20-9d71-2d63-4680a1817786/mzaf_16667442810912781867.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E9%9D%92%E3%81%AE%E3%81%99%E3%81%BF%E3%81%8B/1692289095?i=1692289314&uo=4",
-      "itunesTrackId": 1692289314,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/b9/2c/f7b92ccc-53f5-95de-2478-677b5e814b93/4547366628210.jpg/600x600bb.jpg",
-      "collectionName": "青のすみか - Single",
-      "primaryGenreName": "オルタナティブ",
-      "trackTimeMillis": 196467,
-      "releaseDate": "2023-07-07"
+      "name": "青のすみか"
     },
     {
       "rank": 174,
@@ -2271,15 +2023,7 @@
     {
       "rank": 176,
       "artist": "椎名 豪",
-      "name": "柱稽古編開幕",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/7b/5b/187b5bc2-3477-f550-f859-934af6282fff/mzaf_17114575429503323664.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E6%9F%B1%E7%A8%BD%E5%8F%A4%E7%B7%A8%E9%96%8B%E5%B9%95/1886355837?i=1886355973&uo=4",
-      "itunesTrackId": 1886355973,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/79/01/e47901d1-8563-03f7-21ed-cd895ce971d8/4534530164506.jpg/600x600bb.jpg",
-      "collectionName": "「鬼滅の刃」柱稽古編 オリジナルサウンドトラック",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 159600,
-      "releaseDate": "2026-03-25"
+      "name": "柱稽古編開幕"
     },
     {
       "rank": 177,
@@ -2323,28 +2067,12 @@
     {
       "rank": 180,
       "artist": "King & Prince",
-      "name": "Theater",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/8f/9e/d48f9eb8-219b-1c45-c070-9a4a1f40b1c7/mzaf_14551613910142238121.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/theater/1860159896?i=1860159898&uo=4",
-      "itunesTrackId": 1860159898,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/7c/34/407c34d1-7097-9eb3-f75b-290437577c7b/25UM2IM01022.rgb.jpg/600x600bb.jpg",
-      "collectionName": "STARRING",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 200227,
-      "releaseDate": "2025-12-23"
+      "name": "Theater"
     },
     {
       "rank": 181,
       "artist": "ST☆RISH, ヒプノシスマイク -D.R.B- (Fling Posse) & ヒプノシスマイク -D.R.B- (麻天狼)",
-      "name": "Rainbow Signs",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/b2/46/85b24685-f25c-be63-f302-c53d6ff920aa/mzaf_5943785406620845628.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/rainbow-signs/1882589216?i=1882589229&uo=4",
-      "itunesTrackId": 1882589229,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/1b/a9/471ba99a-d34d-cb31-6945-49743c314d0d/NOPA-8546.jpg/600x600bb.jpg",
-      "collectionName": "Rainbow Signs - Single",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 252232,
-      "releaseDate": "2026-03-18"
+      "name": "Rainbow Signs"
     },
     {
       "rank": 182,
@@ -2375,28 +2103,12 @@
     {
       "rank": 184,
       "artist": "ずっと真夜中でいいのに。",
-      "name": "間人間",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/4b/fb/354bfb33-09f7-0cd8-a26e-4f01aa6b9694/mzaf_12033227067477034320.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E9%96%93%E4%BA%BA%E9%96%93/1881609986?i=1881610626&uo=4",
-      "itunesTrackId": 1881610626,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/2a/19/ad2a1985-1499-5d04-b11d-8cdf6dd6e599/26UMGIM24458.rgb.jpg/600x600bb.jpg",
-      "collectionName": "形藻土",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 244967,
-      "releaseDate": "2026-03-25"
+      "name": "間人間"
     },
     {
       "rank": 185,
       "artist": "Wang OK & 李天责",
-      "name": "Before spring ends",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/90/f8/4990f872-b1d7-5fb5-16ec-d2313d2e08d1/mzaf_6424606509218203037.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/before-spring-ends/1738885097?i=1738885099&uo=4",
-      "itunesTrackId": 1738885099,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/e7/c5/bee7c52e-dee3-820f-e207-96a2d2cfe667/193017144734.jpg/600x600bb.jpg",
-      "collectionName": "Before Spring Ends",
-      "primaryGenreName": "ジャズ",
-      "trackTimeMillis": 178143,
-      "releaseDate": "2024-04-03"
+      "name": "Before spring ends"
     },
     {
       "rank": 186,
@@ -2414,15 +2126,7 @@
     {
       "rank": 187,
       "artist": "SUPER BEAVER",
-      "name": "燦然 - Sanzen",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/81/46/618146e7-e697-ec58-031b-2eb1ee0404b5/mzaf_8472506455040858129.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E7%87%A6%E7%84%B6-sanzen/1873288113?i=1873288114&uo=4",
-      "itunesTrackId": 1873288114,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/46/92/3f/46923f2e-7229-9559-6f78-e02c987fe4fc/4547366802931.jpg/600x600bb.jpg",
-      "collectionName": "燦然 / 生きがい - Single",
-      "primaryGenreName": "ロック",
-      "trackTimeMillis": 307533,
-      "releaseDate": "2026-02-11"
+      "name": "燦然 - Sanzen"
     },
     {
       "rank": 188,
@@ -2453,28 +2157,12 @@
     {
       "rank": 190,
       "artist": "石井あみ、名探偵プリキュア!",
-      "name": "ハートにヒント!名探偵プリキュア!(TVサイズ)",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ef/ee/32/efee328e-7477-008c-2b77-3bae875bcc8e/mzaf_8396910427424976385.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%BC%E3%83%88%E3%81%AB%E3%83%92%E3%83%B3%E3%83%88-%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2-tv%E3%82%B5%E3%82%A4%E3%82%BA/1866769527?i=1866769530&uo=4",
-      "itunesTrackId": 1866769530,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/18/55/3a/18553a3a-13d3-3b95-cb45-9b586540e056/MAQLT-00614.jpg/600x600bb.jpg",
-      "collectionName": "『名探偵プリキュア!』主題歌シングル先行配信 - Single",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 90467,
-      "releaseDate": "2026-02-01"
+      "name": "ハートにヒント!名探偵プリキュア!(TVサイズ)"
     },
     {
       "rank": 191,
       "artist": "BTS",
-      "name": "Butter",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/ae/95/8eae9519-7eb7-6402-d64c-4e18a66770bf/mzaf_17065215224313239414.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/butter/1568033015?i=1568033347&uo=4",
-      "itunesTrackId": 1568033347,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d6/fe/92/d6fe9214-3d65-cecf-2290-5e52d5f36279/21UMGIM63543.rgb.jpg/600x600bb.jpg",
-      "collectionName": "Butter - Single",
-      "primaryGenreName": "K-Pop",
-      "trackTimeMillis": 164442,
-      "releaseDate": "2021-05-21"
+      "name": "Butter"
     },
     {
       "rank": 192,
@@ -2492,15 +2180,7 @@
     {
       "rank": 193,
       "artist": "宝塚歌劇団・暁 千星、天飛華音、稀惺かずと、ほか",
-      "name": "邪魔はさせない (ライブ)",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/c2/02/43c202e9-aa69-74e5-d871-e4cd462040e7/mzaf_356102162120999860.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E9%82%AA%E9%AD%94%E3%81%AF%E3%81%95%E3%81%9B%E3%81%AA%E3%81%84-%E3%83%A9%E3%82%A4%E3%83%96/1884800199?i=1884800201&uo=4",
-      "itunesTrackId": 1884800201,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/05/63/7b056355-31c7-5679-7068-19b211d3a26c/TZM-630.jpg/600x600bb.jpg",
-      "collectionName": "星組 大劇場「恋する天動説」 (ライブ)",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 172099,
-      "releaseDate": "2026-03-25"
+      "name": "邪魔はさせない (ライブ)"
     },
     {
       "rank": 194,
@@ -2570,29 +2250,12 @@
     {
       "rank": 199,
       "artist": "TOMOO",
-      "name": "ソナーレ",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/a8/72/0da872e4-d188-5e8d-db9a-3ce47ce65a62/mzaf_1368936167550941024.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%82%BD%E3%83%8A%E3%83%BC%E3%83%AC/1862338473?i=1862338474&uo=4",
-      "itunesTrackId": 1862338474,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/50/b3/d050b3be-2577-7582-b563-22a189bd8f02/PCSP_07025_A.jpg/600x600bb.jpg",
-      "collectionName": "ソナーレ - Single",
-      "primaryGenreName": "J-Pop",
-      "trackTimeMillis": 203713,
-      "releaseDate": "2026-01-07"
+      "name": "ソナーレ"
     },
     {
       "rank": 200,
       "artist": "ryo (supercell) & かぐや(cv.夏吉ゆうこ)",
-      "name": "メルト (かぐや ver.) [CPK! Remix]",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/c8/e9/c3c8e937-9b11-755c-d8a7-b2e030fd2d86/mzaf_689164196317446089.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/jp/album/%E3%83%A1%E3%83%AB%E3%83%88-%E3%81%8B%E3%81%90%E3%82%84-ver-cpk-remix/1869843536?i=1869843913&uo=4",
-      "itunesTrackId": 1869843913,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/1b/50/b31b50d3-c70b-3272-bfea-e370638593b3/4550752693389_cover.png/600x600bb.jpg",
-      "collectionName": "超かぐや姫!",
-      "primaryGenreName": "アニメ",
-      "trackTimeMillis": 271628,
-      "releaseDate": "2026-01-23"
+      "name": "メルト (かぐや ver.) [CPK! Remix]"
     }
-  ],
-  "enrichedAt": "2026-03-26T20:37:06.882Z"
+  ]
 }
