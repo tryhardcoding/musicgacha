@@ -3,7 +3,7 @@
 // オフラインキャッシュ + 再訪問時の通信量削減
 // ============================================================
 
-const CACHE_VERSION = 'musicgacha-v26';
+const CACHE_VERSION = 'musicgacha-v27';
 
 // プリキャッシュする静的アセット（初回インストール時に取得）
 const PRECACHE_ASSETS = [
@@ -28,6 +28,8 @@ const PRECACHE_ASSETS = [
   '/js/share-sns.js',
   '/js/share-image.js',
   '/js/init.js',
+  '/js/analytics.js',
+  '/js/lucide.min.js',
   '/data/packs.json',
   '/data/genres.json',
   '/manifest.json',

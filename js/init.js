@@ -122,3 +122,54 @@ if ('serviceWorker' in navigator) {
         });
     });
 }
+
+// ---- 4. PWA Install Promotion Banner ----
+var deferredPrompt = null;
+
+window.addEventListener('beforeinstallprompt', function(e) {
+    e.preventDefault();
+    deferredPrompt = e;
+    // バナーを表示（既にインストール済みまたは却下済みなら非表示）
+    var dismissed = localStorage.getItem('pwa-banner-dismissed');
+    if (dismissed) return;
+    var banner = document.getElementById('pwa-install-banner');
+    if (banner) {
+        banner.style.display = 'flex';
+    }
+});
+
+// インストールボタン
+document.addEventListener('DOMContentLoaded', function() {
+    var installBtn = document.getElementById('pwa-install-btn');
+    var dismissBtn = document.getElementById('pwa-dismiss-btn');
+
+    if (installBtn) {
+        installBtn.addEventListener('click', function() {
+            if (!deferredPrompt) return;
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then(function(result) {
+                if (result.outcome === 'accepted') {
+                    console.log('[PWA] User accepted install');
+                }
+                deferredPrompt = null;
+                var banner = document.getElementById('pwa-install-banner');
+                if (banner) banner.style.display = 'none';
+            });
+        });
+    }
+
+    if (dismissBtn) {
+        dismissBtn.addEventListener('click', function() {
+            var banner = document.getElementById('pwa-install-banner');
+            if (banner) banner.style.display = 'none';
+            localStorage.setItem('pwa-banner-dismissed', '1');
+        });
+    }
+});
+
+// インストール済みなら隠す
+window.addEventListener('appinstalled', function() {
+    var banner = document.getElementById('pwa-install-banner');
+    if (banner) banner.style.display = 'none';
+    deferredPrompt = null;
+});

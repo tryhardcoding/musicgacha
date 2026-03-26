@@ -268,6 +268,11 @@ const translations = {
 
         // Loading
         'loading': '読み込み中...',
+
+        // PWA
+        'pwa.installMessage': 'MusicGachaをホーム画面に追加してすぐアクセス！',
+        'pwa.install': '追加',
+        'pwa.later': 'あとで',
     },
 
     en: {
@@ -534,6 +539,11 @@ const translations = {
 
         // Loading
         'loading': 'Loading...',
+
+        // PWA
+        'pwa.installMessage': 'Add MusicGacha to your home screen for quick access!',
+        'pwa.install': 'Install',
+        'pwa.later': 'Later',
     },
 
     // ---- French (fr) ----

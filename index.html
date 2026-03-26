@@ -55,7 +55,7 @@
   <meta name="twitter:image" content="https://musicgacha.com/assets/ogp.png">
 
   <!-- Preconnect: CDN -->
-  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -63,9 +63,7 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="index.css?v=20260326d">
-  <script src="https://unpkg.com/lucide@0.577.0/dist/umd/lucide.min.js"
-    integrity="sha384-orgVf2eX2+m1zKAOIi09hD0W6GtVhoOUmqDK+sysYB2JTZ4vS86j4jm+X7a4Nnei"
-    crossorigin="anonymous"></script>
+  <script src="/js/lucide.min.js" defer></script>
 
   <!-- Google Analytics (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRM0GZ607Y"></script>
@@ -78,6 +76,18 @@
 </head>
 
 <body class="loading">
+  <!-- PWA Install Banner -->
+  <div id="pwa-install-banner" class="pwa-install-banner" style="display:none;">
+    <div class="pwa-install-content">
+      <i data-lucide="download" class="pwa-install-icon"></i>
+      <span data-i18n="pwa.installMessage">Add MusicGacha to your home screen for quick access!</span>
+    </div>
+    <div class="pwa-install-actions">
+      <button id="pwa-install-btn" class="pwa-install-btn" data-i18n="pwa.install">Install</button>
+      <button id="pwa-dismiss-btn" class="pwa-dismiss-btn" data-i18n="pwa.later">Later</button>
+    </div>
+  </div>
+
   <!-- ===== 統一ヘッダー（1行） ===== -->
   <header class="unified-header" id="unified-header">
     <div class="header-row">
