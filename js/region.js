@@ -26,28 +26,38 @@ function regionEntry(code, label, labelEn, language, itunesCountry) {
 
 export const REGIONS = {
     // --- アジア ---
-    jp: regionEntry('jp', '🇯🇵 日本', '🇯🇵 Japan', 'ja', 'JP'),
+    jp: regionEntry('jp', '日本', 'Japan', 'ja', 'JP'),
 
     // --- 北米 ---
-    us: regionEntry('us', '🇺🇸 United States', '🇺🇸 United States', 'en', 'US'),
-    ca: regionEntry('ca', '🇨🇦 Canada', '🇨🇦 Canada', 'en', 'CA'),
-    mx: regionEntry('mx', '🇲🇽 México', '🇲🇽 Mexico', 'es', 'MX'),
+    us: regionEntry('us', 'United States', 'United States', 'en', 'US'),
+    ca: regionEntry('ca', 'Canada', 'Canada', 'en', 'CA'),
+    mx: regionEntry('mx', 'México', 'Mexico', 'es', 'MX'),
 
     // --- ヨーロッパ ---
-    uk: regionEntry('uk', '🇬🇧 United Kingdom', '🇬🇧 United Kingdom', 'en', 'GB'),
-    de: regionEntry('de', '🇩🇪 Deutschland', '🇩🇪 Germany', 'de', 'DE'),
-    fr: regionEntry('fr', '🇫🇷 France', '🇫🇷 France', 'fr', 'FR'),
-    it: regionEntry('it', '🇮🇹 Italia', '🇮🇹 Italy', 'it', 'IT'),
-    es: regionEntry('es', '🇪🇸 España', '🇪🇸 Spain', 'es', 'ES'),
-    nl: regionEntry('nl', '🇳🇱 Nederland', '🇳🇱 Netherlands', 'nl', 'NL'),
-    be: regionEntry('be', '🇧🇪 Belgique', '🇧🇪 Belgium', 'fr', 'BE'),
+    uk: regionEntry('uk', 'United Kingdom', 'United Kingdom', 'en', 'GB'),
+    de: regionEntry('de', 'Deutschland', 'Germany', 'de', 'DE'),
+    fr: regionEntry('fr', 'France', 'France', 'fr', 'FR'),
+    it: regionEntry('it', 'Italia', 'Italy', 'it', 'IT'),
+    es: regionEntry('es', 'España', 'Spain', 'es', 'ES'),
+    nl: regionEntry('nl', 'Nederland', 'Netherlands', 'nl', 'NL'),
+    be: regionEntry('be', 'Belgique', 'Belgium', 'fr', 'BE'),
 
     // --- オセアニア ---
-    au: regionEntry('au', '🇦🇺 Australia', '🇦🇺 Australia', 'en', 'AU'),
+    au: regionEntry('au', 'Australia', 'Australia', 'en', 'AU'),
 
     // --- 南米 ---
-    br: regionEntry('br', '🇧🇷 Brasil', '🇧🇷 Brazil', 'pt', 'BR'),
+    br: regionEntry('br', 'Brasil', 'Brazil', 'pt', 'BR'),
 };
+
+/**
+ * 国旗画像URLを取得（flagcdn.com CDN）
+ */
+export function getFlagUrl(regionKey) {
+    const config = REGIONS[regionKey];
+    if (!config) return '';
+    const isoCode = config.itunesCountry.toLowerCase();
+    return `https://flagcdn.com/w40/${isoCode}.png`;
+}
 
 /**
  * 現在のリージョンを取得

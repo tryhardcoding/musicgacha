@@ -376,6 +376,23 @@ input {
   height: 14px;
 }
 
+.country-flag {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.region-flag-img {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
 .country-code {
   text-transform: uppercase;
 }
@@ -404,7 +421,9 @@ input {
 }
 
 .region-dropdown-item {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   width: 100%;
   padding: 10px 14px;
   text-align: left;
@@ -526,7 +545,7 @@ input {
 /* ---- Home Screen ---- */
 .home-subtitle-section {
   text-align: center;
-  padding: 0 0 var(--space-md);
+  padding: 0 0 var(--space-xs);
 }
 
 /* Section Title - RhythmTune style */
@@ -576,8 +595,8 @@ input {
 
 .app-subtitle {
   color: var(--text-secondary);
-  font-size: 0.9rem;
-  margin-top: var(--space-sm);
+  font-size: 0.85rem;
+  margin-top: 2px;
 }
 
 /* Pack Info Card */
@@ -664,8 +683,8 @@ input {
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-md);
-  padding: var(--space-xs) var(--space-lg);
-  margin-bottom: var(--space-xs);
+  padding: 4px var(--space-lg);
+  margin-bottom: 2px;
 }
 
 .pack-info-item {
@@ -865,8 +884,8 @@ input {
   background: linear-gradient(135deg, rgba(30, 20, 10, 0.95), rgba(20, 15, 8, 0.95));
   border: 1px solid rgba(245, 158, 11, 0.35);
   border-radius: var(--radius-lg);
-  padding: var(--space-md) var(--space-lg);
-  margin-bottom: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-sm);
   cursor: pointer;
   overflow: hidden;
   transition: all 0.3s var(--ease-out);
@@ -899,7 +918,7 @@ input {
   z-index: 1;
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
+  gap: var(--space-md);
 }
 
 /* Left side - Ring */
@@ -909,8 +928,8 @@ input {
 
 .top200-ring-container {
   position: relative;
-  width: 90px;
-  height: 90px;
+  width: 72px;
+  height: 72px;
 }
 
 .top200-ring {
@@ -975,7 +994,7 @@ input {
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .top200-challenge-icon {
@@ -1008,7 +1027,7 @@ input {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .top200-challenge-bar {
@@ -1061,8 +1080,8 @@ input {
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-bottom: 6px;
-  min-height: 22px;
+  margin-bottom: 2px;
+  min-height: 20px;
 }
 
 .milestone-badge {
@@ -1204,8 +1223,8 @@ input {
 
 /* Gold Pack Progress */
 .gold-pack-progress {
-  margin-top: var(--space-md);
-  margin-bottom: var(--space-lg);
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-sm);
   text-align: center;
 }
 

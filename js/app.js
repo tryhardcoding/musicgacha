@@ -6,14 +6,14 @@
 import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining, getCollection } from './storage.js';
 import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
-import { getRegion, setRegion, REGIONS, getRegionConfig } from './region.js';
+import { getRegion, setRegion, REGIONS, getRegionConfig, getFlagUrl } from './region.js';
 import { getPacksConfig } from './data-loader.js';
-import './gacha.js?v=20260320b'; // ガチャモジュール（グローバル参照にopenPackを登録）
+import './gacha.js?v=20260326a'; // ガチャモジュール（グローバル参照にopenPackを登録）
 import { initCollection, renderCollection, refreshCollection } from './collection.js';
 import { initShareHandler } from './transfer.js';
-import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260320';
+import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260326a';
 import { icon, refreshIcons } from './icons.js';
-import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260320b';
+import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260326a';
 import { invalidateCache } from './data-loader.js';
 import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
 import { getAmazonMusicUnlimitedUrl } from './affiliate.js';
@@ -792,6 +792,13 @@ function updateRegionDisplay() {
     const region = getRegion();
     const countryBtn = document.getElementById('country-btn');
     if (countryBtn) {
+        // 国旗画像を表示（flagcdn.com CDN）
+        const flagEl = countryBtn.querySelector('.country-flag');
+        if (flagEl) {
+            flagEl.src = getFlagUrl(region);
+            flagEl.alt = region.toUpperCase();
+        }
+
         const codeEl = countryBtn.querySelector('.country-code');
         if (codeEl) codeEl.textContent = region.toUpperCase();
     }
@@ -812,7 +819,20 @@ function toggleRegionDropdown() {
     for (const [key, config] of Object.entries(REGIONS)) {
         const item = document.createElement('button');
         item.className = 'region-dropdown-item' + (key === currentRegion ? ' active' : '');
-        item.textContent = config.label;
+
+        const flagImg = document.createElement('img');
+        flagImg.className = 'region-flag-img';
+        flagImg.src = getFlagUrl(key);
+        flagImg.alt = key.toUpperCase();
+        flagImg.width = 20;
+        flagImg.height = 15;
+        flagImg.loading = 'lazy';
+        item.appendChild(flagImg);
+
+        const labelSpan = document.createElement('span');
+        labelSpan.textContent = config.label;
+        item.appendChild(labelSpan);
+
         item.addEventListener('click', () => {
             dropdown.remove();
             switchRegion(key);
