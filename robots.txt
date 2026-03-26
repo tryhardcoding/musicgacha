@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /musicgacha-pipeline/
+Disallow: /logs/
+Disallow: /node_modules/
+
+Sitemap: https://musicgacha.com/sitemap.xml

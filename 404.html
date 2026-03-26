@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | MusicGacha</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: #0d0d0d;
+            color: #f0f0f0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%; left: -50%;
+            width: 200%; height: 200%;
+            background: radial-gradient(ellipse at 30% 50%, rgba(34,211,238,0.08) 0%, transparent 60%),
+                        radial-gradient(ellipse at 70% 50%, rgba(255,107,53,0.06) 0%, transparent 60%);
+            animation: drift 12s ease-in-out infinite alternate;
+            z-index: 0;
+        }
+
+        @keyframes drift {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(-5%, 3%) rotate(2deg); }
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            padding: 24px;
+        }
+
+        .error-code {
+            font-size: clamp(6rem, 20vw, 12rem);
+            font-weight: 900;
+            line-height: 1;
+            background: linear-gradient(135deg, #22D3EE 0%, #06b6d4 50%, #22D3EE 100%);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: shimmer 4s ease-in-out infinite;
+            margin-bottom: 8px;
+            filter: drop-shadow(0 0 40px rgba(34,211,238,0.3));
+        }
+
+        @keyframes shimmer {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .note-icon {
+            font-size: 3rem;
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+            margin-bottom: 16px;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(-5deg); }
+            50% { transform: translateY(-12px) rotate(5deg); }
+        }
+
+        .message {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #9a9a9a;
+            margin-bottom: 32px;
+            letter-spacing: 0.02em;
+        }
+
+        .home-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 32px;
+            background: linear-gradient(135deg, #22D3EE, #06b6d4);
+            color: #0d0d0d;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 24px rgba(34,211,238,0.3);
+        }
+
+        .home-link:hover {
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 8px 32px rgba(34,211,238,0.45);
+        }
+
+        .home-link:active {
+            transform: translateY(0) scale(0.98);
+        }
+
+        .notes-bg {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .notes-bg span {
+            position: absolute;
+            font-size: 1.5rem;
+            opacity: 0.06;
+            animation: rise 8s linear infinite;
+        }
+
+        @keyframes rise {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.06; }
+            90% { opacity: 0.06; }
+            100% { transform: translateY(-10vh) rotate(360deg); opacity: 0; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="notes-bg">
+        <span style="left:5%;animation-delay:0s">♪</span>
+        <span style="left:15%;animation-delay:2s">♫</span>
+        <span style="left:30%;animation-delay:4s">♩</span>
+        <span style="left:45%;animation-delay:1s">♬</span>
+        <span style="left:60%;animation-delay:3s">♪</span>
+        <span style="left:75%;animation-delay:5s">♫</span>
+        <span style="left:88%;animation-delay:2.5s">♩</span>
+    </div>
+
+    <div class="container">
+        <div class="note-icon">🎵</div>
+        <div class="error-code">404</div>
+        <p class="message">This track is not in the playlist</p>
+        <a href="/" class="home-link">
+            ♪ Back to Home
+        </a>
+    </div>
+</body>
+
+</html>

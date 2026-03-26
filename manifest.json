@@ -1,0 +1,25 @@
+{
+  "name": "MusicGacha - Discover new music through gacha",
+  "short_name": "MusicGacha",
+  "description": "Collect music cards from around the world. Listen instantly on Spotify & YouTube. Complete rare cards and build the ultimate collection.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#22D3EE",
+  "orientation": "portrait-primary",
+  "categories": ["entertainment", "music", "games"],
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/assets/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -5,7 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MusicGacha - 音楽ガチャで新しい曲と出会おう</title>
-  <meta name="description" content="ガチャで世界中の音楽カードを集めよう。Spotify・YouTubeで即試聴。レアカードをコンプリートして最強のコレクションを作ろう。">
+  <meta name="description" content="Collect music cards from around the world. Listen instantly on Spotify & YouTube. Complete rare cards and build the ultimate collection.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://musicgacha.com/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512.png">
+  <link rel="apple-touch-icon" href="/assets/favicon-512.png">
+
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#22D3EE">
+
+  <!-- OGP (Open Graph) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MusicGacha">
+  <meta property="og:title" content="MusicGacha - Discover new music through gacha">
+  <meta property="og:description" content="Collect music cards from around the world. Listen instantly on Spotify & YouTube. Complete rare cards and build the ultimate collection.">
+  <meta property="og:url" content="https://musicgacha.com/">
+  <meta property="og:image" content="https://musicgacha.com/assets/ogp.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MusicGacha - Discover new music through gacha">
+  <meta name="twitter:description" content="Collect music cards from around the world. Listen instantly on Spotify & YouTube. Complete rare cards and build the ultimate collection.">
+  <meta name="twitter:image" content="https://musicgacha.com/assets/ogp.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +43,31 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css?v=20260326a">
+  <link rel="stylesheet" href="index.css?v=20260326b">
   <script src="https://unpkg.com/lucide@0.577.0/dist/umd/lucide.min.js"
     integrity="sha384-orgVf2eX2+m1zKAOIi09hD0W6GtVhoOUmqDK+sysYB2JTZ4vS86j4jm+X7a4Nnei"
     crossorigin="anonymous"></script>
 
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "MusicGacha",
+    "url": "https://musicgacha.com/",
+    "description": "Collect music cards from around the world. Listen instantly on Spotify & YouTube. Complete rare cards and build the ultimate collection.",
+    "applicationCategory": "EntertainmentApplication",
+    "operatingSystem": "All",
+    "browserRequirements": "Requires JavaScript",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "image": "https://musicgacha.com/assets/ogp.png",
+    "inLanguage": ["en", "ja", "ko", "zh", "es", "pt", "fr", "de", "it", "th", "vi", "id", "ar", "hi"]
+  }
+  </script>
 
 </head>
 
@@ -479,10 +528,10 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- JS: 初期化（広告スケーリング・SW登録・AdSense遅延読込） -->
-  <script src="js/init.js?v=20260326a"></script>
+  <script src="js/init.js?v=20260326b"></script>
 
   <!-- JS Modules -->
-  <script type="module" src="js/app.js?v=20260326a"></script>
+  <script type="module" src="js/app.js?v=20260326b"></script>
 </body>
 
 </html>

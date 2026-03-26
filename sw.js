@@ -3,7 +3,7 @@
 // オフラインキャッシュ + 再訪問時の通信量削減
 // ============================================================
 
-const CACHE_VERSION = 'musicgacha-v20';
+const CACHE_VERSION = 'musicgacha-v21';
 
 // プリキャッシュする静的アセット（初回インストール時に取得）
 const PRECACHE_ASSETS = [
@@ -29,6 +29,8 @@ const PRECACHE_ASSETS = [
   '/js/init.js',
   '/data/packs.json',
   '/data/genres.json',
+  '/manifest.json',
+  '/assets/favicon.svg',
 ];
 
 // WebPパック画像もプリキャッシュ
