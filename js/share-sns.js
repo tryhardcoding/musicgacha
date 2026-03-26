@@ -5,7 +5,7 @@ import { t } from './i18n.js';
 // ============================================================
 
 import { trackShare } from './achievements.js';
-import { shareWithImage } from './share-image.js';
+
 
 // レアリティ→色付き四角絵文字マッピング
 const RARITY_EMOJI = { C: '⬜', UC: '🟩', R: '🟦', SR: '🟪', UR: '🟨', LR: '🟧' };
@@ -210,9 +210,4 @@ export function shareTop200Milestone(count, total = 200, chartDate = null) {
     openXIntent(lines.join('\n'));
 }
 
-/**
- * パック結果を画像付きで共有 (Web Share API / ダウンロード)
- */
-export async function sharePackResultWithImage(cards, packType, isGold = false) {
-    return shareWithImage(cards, packType, isGold);
-}
+

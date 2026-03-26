@@ -10,6 +10,7 @@ import { renderPackOpening } from './pack-animation.js?v=20260320c';
 import { t } from './i18n.js';
 import { getPacksConfig } from './data-loader.js';
 import { checkAchievements, trackGoldPack, trackGodPack, trackPackType } from './achievements.js';
+import { trackPackOpen } from './analytics.js';
 
 // ---- Rarity Rates ----
 
@@ -150,6 +151,7 @@ export async function openPack(packType = 'standard', autoTap = false) {
 
     // パック種別の使用記録
     trackPackType(packType);
+    trackPackOpen(packType, gold, god);
 
     // ローディング表示
     window.MusicGacha?.showLoading?.();

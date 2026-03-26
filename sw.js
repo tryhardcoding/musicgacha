@@ -26,7 +26,6 @@ const PRECACHE_ASSETS = [
   '/js/pack-animation.js',
   '/js/transfer.js',
   '/js/share-sns.js',
-  '/js/share-image.js',
   '/js/init.js',
   '/js/analytics.js',
   '/js/lucide.min.js',

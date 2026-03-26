@@ -17,6 +17,7 @@ import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260326
 import { invalidateCache } from './data-loader.js';
 import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
 import { getAmazonMusicUnlimitedUrl } from './affiliate.js';
+import { trackPackOpen, trackShareEvent, trackViewCollection, trackDailyBonus as trackDailyBonusGA, trackRegionChange } from './analytics.js';
 
 // ---- Screen Routing ----
 
@@ -445,6 +446,7 @@ function setupEventListeners() {
             const result = claimDailyBonus();
             if (result) {
                 trackDailyBonus();
+                trackDailyBonusGA();
                 showToast(t('toast.dailyBonus'), 'success');
                 updateHomeScreen();
             }
@@ -473,6 +475,7 @@ function setupEventListeners() {
             const result = window.MusicGacha?._lastPackResult;
             if (result && result.cards) {
                 sharePackResult(result.cards, result.packType, result.isGold, result.isGod);
+                trackShareEvent('x_text', 'pack_result');
             } else {
                 showToast(t('toast.noShareData'), 'info');
             }
@@ -497,6 +500,7 @@ function setupEventListeners() {
                 totalCount: collection.length,
                 rarityCounts,
             });
+            trackShareEvent('x_text', 'collection');
         });
     }
 
@@ -951,6 +955,7 @@ async function switchRegion(newRegion) {
     if (newRegion === getRegion()) return;
 
     setRegion(newRegion);
+    trackRegionChange(newRegion);
 
     // リージョンに応じて言語も切替
     const config = REGIONS[newRegion];
