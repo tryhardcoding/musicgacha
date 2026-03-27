@@ -3,7 +3,7 @@
 // オフラインキャッシュ + 再訪問時の通信量削減
 // ============================================================
 
-const CACHE_VERSION = 'musicgacha-v33';
+const CACHE_VERSION = 'musicgacha-v35';
 
 // プリキャッシュする静的アセット（初回インストール時に取得）
 const PRECACHE_ASSETS = [
@@ -24,6 +24,8 @@ const PRECACHE_ASSETS = [
   '/js/affiliate.js',
   '/js/amazon-cta.js',
   '/js/pack-animation.js',
+  '/js/region.js',
+  '/js/achievements.js',
   '/js/transfer.js',
   '/js/share-sns.js',
   '/js/init.js',
