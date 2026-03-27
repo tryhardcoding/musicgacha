@@ -3,7 +3,7 @@
 // i-mobile 広告統合 & リワード広告管理
 // ============================================================
 
-import { addPacks, getPackData, recoverPacks } from './storage.js';
+import { addPacks, getPackData } from './storage.js';
 
 // ---- i-mobile Ad Config ----
 const IMOBILE_CONFIG = {
@@ -27,7 +27,7 @@ const IMOBILE_CONFIG = {
 };
 
 // ---- Constants ----
-// recoverPacks() を使用: current < max → maxまで回復, current >= max → +1
+// addPacks(10) を使用: 広告視聴で常に +10 パック付与
 const REWARDED_AD_COUNTDOWN = 5; // 秒
 
 
@@ -218,12 +218,12 @@ export function canWatchAd() {
  * @returns {{ success: boolean, newPackCount: number }}
  */
 function recordAdWatch() {
-    const { data: packData, added } = recoverPacks();
+    const packData = addPacks(10);
 
     return {
         success: true,
         newPackCount: packData.current,
-        added,
+        added: 10,
     };
 }
 
