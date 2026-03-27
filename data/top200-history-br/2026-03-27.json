@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-27T07:54:47.728Z",
+  "fetchedAt": "2026-03-27T09:02:06.915Z",
   "chartDate": "2026-03-27",
   "region": "br",
   "source": "kworb.net/charts/itunes/br.html",
@@ -60,19 +60,6 @@
     {
       "rank": 5,
       "artist": "BTS",
-      "name": "SWIM (Alternate Cover SUGA Version)",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/af/c8/c4afc8a0-3e1a-1463-9b0a-e8d565671e77/mzaf_9796717745326421467.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/swim-alternate-cover-jung-kook-version/1887494309?i=1887494310&uo=4",
-      "itunesTrackId": 1887494310,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/d6/b2/21d6b28d-f7d3-cb9e-7071-40037c434a78/823375078838_Cover.jpg/600x600bb.jpg",
-      "collectionName": "SWIM (Alternate Cover Jung Kook Version) - Single",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 159008,
-      "releaseDate": "2026-03-24"
-    },
-    {
-      "rank": 6,
-      "artist": "BTS",
       "name": "SWIM (Alternate Cover j-hope Version)",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/ce/b3/e7ceb389-cb23-f708-cbdb-ff874be51365/mzaf_3407006493764005509.plus.aac.p.m4a",
       "trackViewUrl": "https://music.apple.com/br/album/swim/1868481904?i=1868482073&uo=4",
@@ -82,6 +69,19 @@
       "primaryGenreName": "Pop",
       "trackTimeMillis": 159008,
       "releaseDate": "2026-03-20"
+    },
+    {
+      "rank": 6,
+      "artist": "BTS",
+      "name": "SWIM (Alternate Cover SUGA Version)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/af/c8/c4afc8a0-3e1a-1463-9b0a-e8d565671e77/mzaf_9796717745326421467.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/swim-alternate-cover-jung-kook-version/1887494309?i=1887494310&uo=4",
+      "itunesTrackId": 1887494310,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/d6/b2/21d6b28d-f7d3-cb9e-7071-40037c434a78/823375078838_Cover.jpg/600x600bb.jpg",
+      "collectionName": "SWIM (Alternate Cover Jung Kook Version) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-24"
     },
     {
       "rank": 7,
@@ -111,6 +111,19 @@
     },
     {
       "rank": 9,
+      "artist": "Racionais MC's",
+      "name": "Sou + Você",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5d/87/2d/5d872d4a-e75a-eba1-192a-1dbcb9689687/mzaf_12700537257137581916.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/sou-voc%C3%AA/1198317040?i=1198317073&uo=4",
+      "itunesTrackId": 1198317073,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3f/ca/fd/3fcafdad-07c1-c752-7878-39dfd32b3b28/0.jpg/600x600bb.jpg",
+      "collectionName": "Nada Como um Dia Após o Outro Dia, Vol. 1 & 2",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "trackTimeMillis": 108427,
+      "releaseDate": "2003-03-04"
+    },
+    {
+      "rank": 10,
       "artist": "BTS",
       "name": "Body to Body",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/72/83/0e72838d-504d-92a8-3f36-6bf36639b928/mzaf_8425186640909130469.plus.aac.p.m4a",
@@ -123,7 +136,7 @@
       "releaseDate": "2026-03-20"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "artist": "Stray Kids",
       "name": "STAY",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/e6/f9/74e6f9d8-bf0a-337f-b968-62c6c981c5ec/mzaf_13862811549887454459.plus.aac.p.m4a",
@@ -136,7 +149,7 @@
       "releaseDate": "2026-03-25"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "artist": "BTS",
       "name": "Hooligan",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/91/08/929108c0-8371-1f2a-4067-7d64097e386e/mzaf_15333972021439507568.plus.aac.p.m4a",
@@ -147,19 +160,6 @@
       "primaryGenreName": "Pop",
       "trackTimeMillis": 182047,
       "releaseDate": "2026-03-20"
-    },
-    {
-      "rank": 12,
-      "artist": "Racionais MC's",
-      "name": "Sou + Você",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5d/87/2d/5d872d4a-e75a-eba1-192a-1dbcb9689687/mzaf_12700537257137581916.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/sou-voc%C3%AA/1198317040?i=1198317073&uo=4",
-      "itunesTrackId": 1198317073,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3f/ca/fd/3fcafdad-07c1-c752-7878-39dfd32b3b28/0.jpg/600x600bb.jpg",
-      "collectionName": "Nada Como um Dia Após o Outro Dia, Vol. 1 & 2",
-      "primaryGenreName": "Hip-Hop/Rap",
-      "trackTimeMillis": 108427,
-      "releaseDate": "2003-03-04"
     },
     {
       "rank": 13,
@@ -176,11 +176,16 @@
     },
     {
       "rank": 14,
+      "artist": "ZAYN",
+      "name": "Sideways"
+    },
+    {
+      "rank": 15,
       "artist": "S7ares, Yugih & Dreey",
       "name": "Movimentos no Bairro"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "artist": "BTS",
       "name": "SWIM (Instrumental)",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/8c/7e/118c7e68-6d41-04b3-7888-ca9e39adc59d/mzaf_4655839259932491399.plus.aac.p.m4a",
@@ -193,7 +198,7 @@
       "releaseDate": "2026-03-24"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "artist": "BTS",
       "name": "NORMAL",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/05/e2/1a05e2d1-8102-99d2-cc5e-6a7bf856eb16/mzaf_190846966956031405.plus.aac.p.m4a",
@@ -206,33 +211,7 @@
       "releaseDate": "2026-03-20"
     },
     {
-      "rank": 17,
-      "artist": "BTS",
-      "name": "One More Night",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/49/37/f5493775-3aa7-f310-572f-19baa9271b44/mzaf_10614943248626878287.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/one-more-night/1868862375?i=1868862600&uo=4",
-      "itunesTrackId": 1868862600,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
-      "collectionName": "ARIRANG",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 167589,
-      "releaseDate": "2026-03-20"
-    },
-    {
       "rank": 18,
-      "artist": "BTS",
-      "name": "2.0",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/ba/42/b4ba4221-3749-d23f-e7e3-7a5ac27e856e/mzaf_1572744781898983478.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/2-0/1868862375?i=1868862380&uo=4",
-      "itunesTrackId": 1868862380,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
-      "collectionName": "ARIRANG",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 169929,
-      "releaseDate": "2026-03-20"
-    },
-    {
-      "rank": 19,
       "artist": "BTS",
       "name": "they don’t know ’bout us",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/b5/79/6cb5792b-e299-72d1-e3e1-4172efb80635/mzaf_5542114514554180874.plus.aac.p.m4a",
@@ -245,7 +224,33 @@
       "releaseDate": "2026-03-20"
     },
     {
+      "rank": 19,
+      "artist": "BTS",
+      "name": "One More Night",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/49/37/f5493775-3aa7-f310-572f-19baa9271b44/mzaf_10614943248626878287.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/one-more-night/1868862375?i=1868862600&uo=4",
+      "itunesTrackId": 1868862600,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 167589,
+      "releaseDate": "2026-03-20"
+    },
+    {
       "rank": 20,
+      "artist": "BTS",
+      "name": "2.0",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/ba/42/b4ba4221-3749-d23f-e7e3-7a5ac27e856e/mzaf_1572744781898983478.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/2-0/1868862375?i=1868862380&uo=4",
+      "itunesTrackId": 1868862380,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 169929,
+      "releaseDate": "2026-03-20"
+    },
+    {
+      "rank": 21,
       "artist": "BTS",
       "name": "Into the Sun",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/52/c5/5352c5ae-73d5-0c8c-7a8d-a6c34978b2c8/mzaf_14411937988505536207.plus.aac.p.m4a",
@@ -258,7 +263,12 @@
       "releaseDate": "2026-03-20"
     },
     {
-      "rank": 21,
+      "rank": 22,
+      "artist": "Miley Cyrus",
+      "name": "Younger You (From the \"Hannah Montana 20th Anniversary Special\")"
+    },
+    {
+      "rank": 23,
       "artist": "BTS",
       "name": "FYA",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/47/6e/78476e52-17c9-91f6-5a0e-cff98b27d75c/mzaf_7080236117616563001.plus.aac.p.m4a",
@@ -271,7 +281,7 @@
       "releaseDate": "2026-03-20"
     },
     {
-      "rank": 22,
+      "rank": 24,
       "artist": "BTS",
       "name": "Aliens",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/a2/50/81a25050-40a4-bbe7-f8c4-f445b21e2ced/mzaf_11530385371389119536.plus.aac.p.m4a",
@@ -284,7 +294,7 @@
       "releaseDate": "2026-03-20"
     },
     {
-      "rank": 23,
+      "rank": 25,
       "artist": "Alex Warren",
       "name": "Ordinary",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/2f/82/f42f82e5-e164-dd14-4f9a-2767d0215bae/mzaf_2512873933120069750.plus.aac.p.m4a",
@@ -297,72 +307,7 @@
       "releaseDate": "2024-09-26"
     },
     {
-      "rank": 24,
-      "artist": "Guns N' Roses",
-      "name": "Sweet Child O' Mine",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/82/2d/a5822d67-2e65-fe95-511e-1f785d23e5cc/mzaf_8619467974951398014.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/sweet-child-o-mine/1377813284?i=1377813701&uo=4",
-      "itunesTrackId": 1377813701,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/4d/c4/a04dc484-03cc-02aa-fa82-5334fcb4bc16/18UMGIM24878.rgb.jpg/600x600bb.jpg",
-      "collectionName": "Appetite For Destruction",
-      "primaryGenreName": "Rock",
-      "trackTimeMillis": 356067,
-      "releaseDate": "1987-07-21"
-    },
-    {
-      "rank": 25,
-      "artist": "Taylor Swift",
-      "name": "The Fate of Ophelia",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/29/17/c329172e-fe48-80dd-106f-2b339ab56694/mzaf_11045801204616481037.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/the-fate-of-ophelia-the-chainsmokers-remix/1856301585?i=1856301586&uo=4",
-      "itunesTrackId": 1856301586,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/f4/e8/a3f4e86d-b574-ae74-7b92-fe582ceefc73/25UM1IM98397.rgb.jpg/600x600bb.jpg",
-      "collectionName": "The Fate of Ophelia (The Chainsmokers Remix) - Single",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 175841,
-      "releaseDate": "2025-11-25"
-    },
-    {
       "rank": 26,
-      "artist": "BTS",
-      "name": "Please",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/dd/2f/49dd2f16-b70a-eb8c-3f35-49d72b1d6d4a/mzaf_2778540225080951990.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/please/1868481904?i=1868482090&uo=4",
-      "itunesTrackId": 1868482090,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
-      "collectionName": "ARIRANG",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 172796,
-      "releaseDate": "2026-03-20"
-    },
-    {
-      "rank": 27,
-      "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast",
-      "name": "Golden",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/68/32/3868327b-f83f-71c7-0a0c-1813edf2b73e/mzaf_9475346657459209500.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/golden/1820264137?i=1820264150&uo=4",
-      "itunesTrackId": 1820264150,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/15/42/e1154273-8ecd-5702-e6e6-597f28001681/25UMGIM82363.rgb.jpg/600x600bb.jpg",
-      "collectionName": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
-      "primaryGenreName": "K-pop",
-      "trackTimeMillis": 194608,
-      "releaseDate": "2025-06-19"
-    },
-    {
-      "rank": 28,
-      "artist": "Felipe Rodrigues",
-      "name": "Tudo É Perda (Ao Vivo)",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/34/71/cc34711f-3780-fe42-6126-81af27c679de/mzaf_5807101893209513952.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/tudo-%C3%A9-perda-ao-vivo/1862809497?i=1862809499&uo=4",
-      "itunesTrackId": 1862809499,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/1d/a8/3e1da810-79aa-6917-aa62-a96f82d933c9/5026854389622.jpg/600x600bb.jpg",
-      "collectionName": "Tudo É Perda (Ao Vivo) - Single",
-      "primaryGenreName": "Música religiosa",
-      "trackTimeMillis": 518139,
-      "releaseDate": "2025-03-11"
-    },
-    {
-      "rank": 29,
       "artist": "Ben Morfitt (SquidPhysics)",
       "name": "GTA San Andreas Theme",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/34/28/fb/3428fb51-7724-7890-14a5-c22af5ac334f/mzaf_11764107221679453387.plus.aac.p.m4a",
@@ -375,212 +320,77 @@
       "releaseDate": "2017-05-31"
     },
     {
+      "rank": 27,
+      "artist": "Guns N' Roses",
+      "name": "Sweet Child O' Mine",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/82/2d/a5822d67-2e65-fe95-511e-1f785d23e5cc/mzaf_8619467974951398014.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/sweet-child-o-mine/1377813284?i=1377813701&uo=4",
+      "itunesTrackId": 1377813701,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/4d/c4/a04dc484-03cc-02aa-fa82-5334fcb4bc16/18UMGIM24878.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Appetite For Destruction",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 356067,
+      "releaseDate": "1987-07-21"
+    },
+    {
+      "rank": 28,
+      "artist": "Taylor Swift",
+      "name": "The Fate of Ophelia",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/29/17/c329172e-fe48-80dd-106f-2b339ab56694/mzaf_11045801204616481037.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/the-fate-of-ophelia-the-chainsmokers-remix/1856301585?i=1856301586&uo=4",
+      "itunesTrackId": 1856301586,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/f4/e8/a3f4e86d-b574-ae74-7b92-fe582ceefc73/25UM1IM98397.rgb.jpg/600x600bb.jpg",
+      "collectionName": "The Fate of Ophelia (The Chainsmokers Remix) - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 175841,
+      "releaseDate": "2025-11-25"
+    },
+    {
+      "rank": 29,
+      "artist": "BTS",
+      "name": "Please",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/dd/2f/49dd2f16-b70a-eb8c-3f35-49d72b1d6d4a/mzaf_2778540225080951990.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/please/1868481904?i=1868482090&uo=4",
+      "itunesTrackId": 1868482090,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 172796,
+      "releaseDate": "2026-03-20"
+    },
+    {
       "rank": 30,
-      "artist": "Bad Bunny",
-      "name": "DtMF",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/d5/2b/40d52beb-0340-3cdd-87e2-381dc7d395ce/mzaf_15479019833935841785.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/un-dia-one-day/1523100098?i=1523100120&uo=4",
-      "itunesTrackId": 1523100120,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c7/93/50/c793507d-c4df-4c05-80bb-3a02d9f95113/20UMGIM38540.rgb.jpg/600x600bb.jpg",
-      "collectionName": "UN DIA (ONE DAY) - Single",
-      "primaryGenreName": "Urbano latino",
-      "trackTimeMillis": 231844,
-      "releaseDate": "2020-07-24"
+      "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast",
+      "name": "Golden",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/68/32/3868327b-f83f-71c7-0a0c-1813edf2b73e/mzaf_9475346657459209500.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/golden/1820264137?i=1820264150&uo=4",
+      "itunesTrackId": 1820264150,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/15/42/e1154273-8ecd-5702-e6e6-597f28001681/25UMGIM82363.rgb.jpg/600x600bb.jpg",
+      "collectionName": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
+      "primaryGenreName": "K-pop",
+      "trackTimeMillis": 194608,
+      "releaseDate": "2025-06-19"
     },
     {
       "rank": 31,
-      "artist": "Paul McCartney",
-      "name": "Days We Left Behind"
+      "artist": "Felipe Rodrigues",
+      "name": "Tudo É Perda (Ao Vivo)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/34/71/cc34711f-3780-fe42-6126-81af27c679de/mzaf_5807101893209513952.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/tudo-%C3%A9-perda-ao-vivo/1862809497?i=1862809499&uo=4",
+      "itunesTrackId": 1862809499,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/1d/a8/3e1da810-79aa-6917-aa62-a96f82d933c9/5026854389622.jpg/600x600bb.jpg",
+      "collectionName": "Tudo É Perda (Ao Vivo) - Single",
+      "primaryGenreName": "Música religiosa",
+      "trackTimeMillis": 518139,
+      "releaseDate": "2025-03-11"
     },
     {
       "rank": 32,
-      "artist": "Olivia Dean",
-      "name": "So Easy (To Fall In Love)",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/78/76/b07876e5-0e27-b261-a76b-9de5135f7196/mzaf_3541076937115029478.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/so-easy-to-fall-in-love/1817609404?i=1817609507&uo=4",
-      "itunesTrackId": 1817609507,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
-      "collectionName": "The Art of Loving",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 169000,
-      "releaseDate": "2025-09-26"
+      "artist": "AC/DC",
+      "name": "Highway to Hell"
     },
     {
       "rank": 33,
-      "artist": "Bob Marley & The Wailers",
-      "name": "Could You Be Loved"
-    },
-    {
-      "rank": 34,
-      "artist": "BTS",
-      "name": "Merry Go Round",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/dc/9e/91dc9ed9-af10-b22c-d816-e118f95a6dcc/mzaf_1718005331296458207.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/merry-go-round/1868481904?i=1868482076&uo=4",
-      "itunesTrackId": 1868482076,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
-      "collectionName": "ARIRANG",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 229856,
-      "releaseDate": "2026-03-20"
-    },
-    {
-      "rank": 35,
-      "artist": "XXXTENTACION",
-      "name": "Moonlight",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/1a/6c/d51a6cd7-f4b7-bd35-e014-0e81a1303daa/mzaf_3621842314415643868.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/changes/1359292515?i=1359294051&uo=4",
-      "itunesTrackId": 1359294051,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f0/b0/21/f0b021d2-8bfb-e2ff-93f9-17c64147f971/18UMGIM14845.rgb.jpg/600x600bb.jpg",
-      "collectionName": "?",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 121887,
-      "releaseDate": "2018-03-02"
-    },
-    {
-      "rank": 36,
-      "artist": "Enya",
-      "name": "Caribbean Blue"
-    },
-    {
-      "rank": 37,
-      "artist": "Benson Boone",
-      "name": "Beautiful Things",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/84/bb/8184bb7a-259a-837c-d804-1031973de6be/mzaf_903724986420794503.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/beautiful-things/1736051351?i=1736051619&uo=4",
-      "itunesTrackId": 1736051619,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/c1/9c/a5c19c62-d641-93b4-2800-e74778569f5f/093624852483.jpg/600x600bb.jpg",
-      "collectionName": "Fireworks & Rollerblades",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 180304,
-      "releaseDate": "2024-01-18"
-    },
-    {
-      "rank": 38,
-      "artist": "Grian Chatten, Antony Genn & Martin Slattery",
-      "name": "Angel"
-    },
-    {
-      "rank": 39,
-      "artist": "Zezé Di Camargo & Luciano",
-      "name": "Liberdade, Liberdade"
-    },
-    {
-      "rank": 40,
-      "artist": "Fred De Palma, Anitta & Emis Killa",
-      "name": "LA TESTA GIRA"
-    },
-    {
-      "rank": 41,
-      "artist": "The Beatles",
-      "name": "Here Comes the Sun",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/bf/a0/e7bfa041-6e35-be4e-276e-df489781b5d4/mzaf_1668350712755343495.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/here-comes-the-sun/1441164426?i=1441164589&uo=4",
-      "itunesTrackId": 1441164589,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/df/db/61/dfdb615d-47f8-06e9-9533-b96daccc029f/18UMGIM31076.rgb.jpg/600x600bb.jpg",
-      "collectionName": "Abbey Road (Remastered)",
-      "primaryGenreName": "Rock",
-      "trackTimeMillis": 185733,
-      "releaseDate": "1969-09-26"
-    },
-    {
-      "rank": 42,
-      "artist": "Tears for Fears",
-      "name": "Everybody Wants to Rule the World",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/65/5f/56655f64-f26f-3a21-b2c8-c78f1c9a0a20/mzaf_11752705800252350393.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/everybody-wants-to-rule-the-world/1440813508?i=1440813515&uo=4",
-      "itunesTrackId": 1440813515,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/41/43/744143ae-afad-8380-106e-1c1bc48922e4/14UMGIM34762.rgb.jpg/600x600bb.jpg",
-      "collectionName": "Songs from the Big Chair",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 251480,
-      "releaseDate": "1985-02-25"
-    },
-    {
-      "rank": 43,
-      "artist": "Dua Lipa",
-      "name": "Don't Start Now"
-    },
-    {
-      "rank": 44,
-      "artist": "BTS",
-      "name": "SWIM",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/ce/b3/e7ceb389-cb23-f708-cbdb-ff874be51365/mzaf_3407006493764005509.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/swim/1868481904?i=1868482073&uo=4",
-      "itunesTrackId": 1868482073,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
-      "collectionName": "ARIRANG",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 159008,
-      "releaseDate": "2026-03-20"
-    },
-    {
-      "rank": 45,
-      "artist": "Adele",
-      "name": "Skyfall"
-    },
-    {
-      "rank": 46,
-      "artist": "Bon Jovi",
-      "name": "Livin' On a Prayer"
-    },
-    {
-      "rank": 47,
-      "artist": "Alan Jackson",
-      "name": "Chattahoochee"
-    },
-    {
-      "rank": 48,
-      "artist": "Sabrina Carpenter",
-      "name": "Manchild",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/b9/7d/0fb97d62-b093-2c58-a6d4-c20d987dd2c9/mzaf_9158363594364887027.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/manchild/1819377509?i=1819377511&uo=4",
-      "itunesTrackId": 1819377511,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/c6/58/aec6589c-f5cf-0d81-2727-bc8775e34049/25UMGIM76990.rgb.jpg/600x600bb.jpg",
-      "collectionName": "Manchild - Single",
-      "primaryGenreName": "Pop",
-      "trackTimeMillis": 213646,
-      "releaseDate": "2025-06-05"
-    },
-    {
-      "rank": 49,
-      "artist": "Survivor",
-      "name": "Eye of the Tiger",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/fa/9e/fefa9edd-c023-4d1c-1012-08bfb0ec69e6/mzaf_4651653238471209843.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/eye-of-the-tiger/254685010?i=254685026&uo=4",
-      "itunesTrackId": 254685026,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f9/02/8f/f9028f63-7a55-235e-f789-1e8946430fa2/614223201122.jpg/600x600bb.jpg",
-      "collectionName": "Eye of the Tiger (Remastered)",
-      "primaryGenreName": "Rock",
-      "trackTimeMillis": 243773,
-      "releaseDate": "1982-05-31"
-    },
-    {
-      "rank": 50,
-      "artist": "Djo",
-      "name": "End of Beginning"
-    },
-    {
-      "rank": 51,
-      "artist": "Filho do Piseiro & Claudio Ney & Juliana",
-      "name": "Meu Pai Paga Minha Faculdade / Mexe Essa Sanfona / Eu Vou Pra Vaquejada / Vuco Vuco / Rei Do Baralho / Sala De Reboco"
-    },
-    {
-      "rank": 52,
-      "artist": "Get Worship, Melk Villar, Get Records & Vinicius Cruz",
-      "name": "Um Novo Dia (Ao Vivo) [Ao Vivo]"
-    },
-    {
-      "rank": 53,
-      "artist": "Hozier",
-      "name": "Too Sweet"
-    },
-    {
-      "rank": 54,
-      "artist": "Grupo Triii",
-      "name": "Viro Vira Virou"
-    },
-    {
-      "rank": 55,
       "artist": "Legião Urbana",
       "name": "Tempo Perdido",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4a/df/40/4adf409f-1f33-8ec9-77b6-fcc2ea1030c6/mzaf_5167720118777610668.plus.aac.p.m4a",
@@ -593,153 +403,30 @@
       "releaseDate": "1986-07-01"
     },
     {
-      "rank": 56,
+      "rank": 34,
       "artist": "Julliany Souza & Léo Brandão",
       "name": "Eu e Minha Casa"
     },
     {
-      "rank": 57,
-      "artist": "Ana Castela",
-      "name": "Olha Onde Eu Tô",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/2f/ee/ca2feefb-1178-c3e1-d9c3-cf0b8497d353/mzaf_10886651993337261508.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/olha-onde-eu-t%C3%B4/1813244635?i=1813244636&uo=4",
-      "itunesTrackId": 1813244636,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/31/fb/d531fbc9-6f59-0268-71eb-6da4f5816cba/8447352922390.jpg/600x600bb.jpg",
-      "collectionName": "Let's Go Rodeo",
-      "primaryGenreName": "Sertanejo",
-      "trackTimeMillis": 181693,
-      "releaseDate": "2025-05-29"
+      "rank": 35,
+      "artist": "Shania Twain",
+      "name": "You're Still the One"
     },
     {
-      "rank": 58,
-      "artist": "Lionel Richie",
-      "name": "Stuck On You"
+      "rank": 36,
+      "artist": "Bad Bunny",
+      "name": "DtMF",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/d5/2b/40d52beb-0340-3cdd-87e2-381dc7d395ce/mzaf_15479019833935841785.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/un-dia-one-day/1523100098?i=1523100120&uo=4",
+      "itunesTrackId": 1523100120,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c7/93/50/c793507d-c4df-4c05-80bb-3a02d9f95113/20UMGIM38540.rgb.jpg/600x600bb.jpg",
+      "collectionName": "UN DIA (ONE DAY) - Single",
+      "primaryGenreName": "Urbano latino",
+      "trackTimeMillis": 231844,
+      "releaseDate": "2020-07-24"
     },
     {
-      "rank": 59,
-      "artist": "Luan Santana",
-      "name": "ILHA"
-    },
-    {
-      "rank": 60,
-      "artist": "Kemilly Santos",
-      "name": "Deus de Obras Completas (Ao Vivo)"
-    },
-    {
-      "rank": 61,
-      "artist": "a-ha",
-      "name": "Take On Me"
-    },
-    {
-      "rank": 62,
-      "artist": "AC/DC",
-      "name": "You Shook Me All Night Long"
-    },
-    {
-      "rank": 63,
-      "artist": "KT Tunstall",
-      "name": "Suddenly I See"
-    },
-    {
-      "rank": 64,
-      "artist": "Brian Tyler",
-      "name": "Formula 1 Theme"
-    },
-    {
-      "rank": 65,
-      "artist": "Charlie Brown Jr.",
-      "name": "Só Os Loucos Sabem"
-    },
-    {
-      "rank": 66,
-      "artist": "The Killers",
-      "name": "Mr. Brightside"
-    },
-    {
-      "rank": 67,
-      "artist": "Guns N' Roses",
-      "name": "Knockin' On Heaven's Door"
-    },
-    {
-      "rank": 68,
-      "artist": "Double",
-      "name": "The Captain of Her Heart"
-    },
-    {
-      "rank": 69,
-      "artist": "Rihanna",
-      "name": "Umbrella (feat. JAŸ-Z)",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5e/f4/53/5ef453d8-2c03-f70d-409a-fe4c0a67b168/mzaf_14750469240356081171.plus.aac.p.m4a",
-      "trackViewUrl": "https://music.apple.com/br/album/umbrella-feat-ja%C3%BF-z-radio-edit/1445004680?i=1445004694&uo=4",
-      "itunesTrackId": 1445004694,
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b2/39/f5/b239f599-1575-643c-edf8-8556c2db64aa/00602498494196.rgb.jpg/600x600bb.jpg",
-      "collectionName": "Umbrella - Single (feat. JAŸ-Z) - Single",
-      "primaryGenreName": "R&B/soul",
-      "trackTimeMillis": 257053,
-      "releaseDate": "2007-03-29"
-    },
-    {
-      "rank": 70,
-      "artist": "Melanie Martinez",
-      "name": "POSSESSION"
-    },
-    {
-      "rank": 71,
-      "artist": "Travis Scott",
-      "name": "FE!N (feat. Playboi Carti)"
-    },
-    {
-      "rank": 72,
-      "artist": "a-ha",
-      "name": "Stay On These Roads"
-    },
-    {
-      "rank": 73,
-      "artist": "The Irrepressibles",
-      "name": "In This Shirt"
-    },
-    {
-      "rank": 74,
-      "artist": "Rita Lee",
-      "name": "Erva Venenosa (Poison Ivy)"
-    },
-    {
-      "rank": 75,
-      "artist": "Deftones",
-      "name": "Sextape"
-    },
-    {
-      "rank": 76,
-      "artist": "Chic",
-      "name": "São Paulo"
-    },
-    {
-      "rank": 77,
-      "artist": "all things break",
-      "name": "gravity"
-    },
-    {
-      "rank": 78,
-      "artist": "Royal Philharmonic Orchestra & Frank Shipway",
-      "name": "Bach: Air on the G String"
-    },
-    {
-      "rank": 79,
-      "artist": "Foco Força e Fé",
-      "name": "Débora | Guerreira do Senhor"
-    },
-    {
-      "rank": 80,
-      "artist": "Alex Gomes & Mariana Camacho",
-      "name": "Unidos em Fé"
-    },
-    {
-      "rank": 81,
-      "artist": "Flea",
-      "name": "Thinkin Bout You"
-    },
-    {
-      "rank": 82,
+      "rank": 37,
       "artist": "Grupo Menos É Mais & Simone Mendes",
       "name": "P do Pecado (Ao Vivo)",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/b1/cf/78b1cf22-ca99-aace-9bb5-7af78cca6b92/mzaf_15417380117070170618.plus.aac.p.m4a",
@@ -752,7 +439,435 @@
       "releaseDate": "2025-04-30"
     },
     {
+      "rank": 38,
+      "artist": "Paul McCartney",
+      "name": "Days We Left Behind"
+    },
+    {
+      "rank": 39,
+      "artist": "Olivia Dean",
+      "name": "So Easy (To Fall In Love)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/78/76/b07876e5-0e27-b261-a76b-9de5135f7196/mzaf_3541076937115029478.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/so-easy-to-fall-in-love/1817609404?i=1817609507&uo=4",
+      "itunesTrackId": 1817609507,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
+      "collectionName": "The Art of Loving",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 169000,
+      "releaseDate": "2025-09-26"
+    },
+    {
+      "rank": 40,
+      "artist": "PinkPantheress",
+      "name": "Stateside (with Zara Larsson)"
+    },
+    {
+      "rank": 41,
+      "artist": "Bob Marley & The Wailers",
+      "name": "Could You Be Loved"
+    },
+    {
+      "rank": 42,
+      "artist": "BTS",
+      "name": "Merry Go Round",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/dc/9e/91dc9ed9-af10-b22c-d816-e118f95a6dcc/mzaf_1718005331296458207.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/merry-go-round/1868481904?i=1868482076&uo=4",
+      "itunesTrackId": 1868482076,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 229856,
+      "releaseDate": "2026-03-20"
+    },
+    {
+      "rank": 43,
+      "artist": "XXXTENTACION",
+      "name": "Moonlight",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/1a/6c/d51a6cd7-f4b7-bd35-e014-0e81a1303daa/mzaf_3621842314415643868.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/changes/1359292515?i=1359294051&uo=4",
+      "itunesTrackId": 1359294051,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f0/b0/21/f0b021d2-8bfb-e2ff-93f9-17c64147f971/18UMGIM14845.rgb.jpg/600x600bb.jpg",
+      "collectionName": "?",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 121887,
+      "releaseDate": "2018-03-02"
+    },
+    {
+      "rank": 44,
+      "artist": "Enya",
+      "name": "Caribbean Blue"
+    },
+    {
+      "rank": 45,
+      "artist": "Benson Boone",
+      "name": "Beautiful Things",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/84/bb/8184bb7a-259a-837c-d804-1031973de6be/mzaf_903724986420794503.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/beautiful-things/1736051351?i=1736051619&uo=4",
+      "itunesTrackId": 1736051619,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/c1/9c/a5c19c62-d641-93b4-2800-e74778569f5f/093624852483.jpg/600x600bb.jpg",
+      "collectionName": "Fireworks & Rollerblades",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 180304,
+      "releaseDate": "2024-01-18"
+    },
+    {
+      "rank": 46,
+      "artist": "Zezé Di Camargo & Luciano",
+      "name": "Pra Não Pensar Em Você"
+    },
+    {
+      "rank": 47,
+      "artist": "Grian Chatten, Antony Genn & Martin Slattery",
+      "name": "Angel"
+    },
+    {
+      "rank": 48,
+      "artist": "El De Las R's",
+      "name": "La Cheyenne"
+    },
+    {
+      "rank": 49,
+      "artist": "Zezé Di Camargo & Luciano",
+      "name": "Liberdade, Liberdade"
+    },
+    {
+      "rank": 50,
+      "artist": "Luísa Sonza",
+      "name": "Fruto Do Tempo"
+    },
+    {
+      "rank": 51,
+      "artist": "Fred De Palma, Anitta & Emis Killa",
+      "name": "LA TESTA GIRA"
+    },
+    {
+      "rank": 52,
+      "artist": "Rainbow",
+      "name": "Starstruck (Stereo Edit)"
+    },
+    {
+      "rank": 53,
+      "artist": "Rainbow",
+      "name": "Man On The Silver Mountain (Stereo Edit)"
+    },
+    {
+      "rank": 54,
+      "artist": "The Beatles",
+      "name": "Here Comes the Sun",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/bf/a0/e7bfa041-6e35-be4e-276e-df489781b5d4/mzaf_1668350712755343495.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/here-comes-the-sun/1441164426?i=1441164589&uo=4",
+      "itunesTrackId": 1441164589,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/df/db/61/dfdb615d-47f8-06e9-9533-b96daccc029f/18UMGIM31076.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Abbey Road (Remastered)",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 185733,
+      "releaseDate": "1969-09-26"
+    },
+    {
+      "rank": 55,
+      "artist": "Tears for Fears",
+      "name": "Everybody Wants to Rule the World",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/65/5f/56655f64-f26f-3a21-b2c8-c78f1c9a0a20/mzaf_11752705800252350393.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/everybody-wants-to-rule-the-world/1440813508?i=1440813515&uo=4",
+      "itunesTrackId": 1440813515,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/41/43/744143ae-afad-8380-106e-1c1bc48922e4/14UMGIM34762.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Songs from the Big Chair",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 251480,
+      "releaseDate": "1985-02-25"
+    },
+    {
+      "rank": 56,
+      "artist": "Dua Lipa",
+      "name": "Don't Start Now"
+    },
+    {
+      "rank": 57,
+      "artist": "Nirvana",
+      "name": "Smells Like Teen Spirit (Remastered)"
+    },
+    {
+      "rank": 58,
+      "artist": "BTS",
+      "name": "SWIM",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/ce/b3/e7ceb389-cb23-f708-cbdb-ff874be51365/mzaf_3407006493764005509.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/swim/1868481904?i=1868482073&uo=4",
+      "itunesTrackId": 1868482073,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "collectionName": "ARIRANG",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 159008,
+      "releaseDate": "2026-03-20"
+    },
+    {
+      "rank": 59,
+      "artist": "Billie Eilish",
+      "name": "WILDFLOWER"
+    },
+    {
+      "rank": 60,
+      "artist": "Adele",
+      "name": "Skyfall"
+    },
+    {
+      "rank": 61,
+      "artist": "Bon Jovi",
+      "name": "Livin' On a Prayer"
+    },
+    {
+      "rank": 62,
+      "artist": "Alan Jackson",
+      "name": "Chattahoochee"
+    },
+    {
+      "rank": 63,
+      "artist": "Sabrina Carpenter",
+      "name": "Manchild",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/b9/7d/0fb97d62-b093-2c58-a6d4-c20d987dd2c9/mzaf_9158363594364887027.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/manchild/1819377509?i=1819377511&uo=4",
+      "itunesTrackId": 1819377511,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/c6/58/aec6589c-f5cf-0d81-2727-bc8775e34049/25UMGIM76990.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Manchild - Single",
+      "primaryGenreName": "Pop",
+      "trackTimeMillis": 213646,
+      "releaseDate": "2025-06-05"
+    },
+    {
+      "rank": 64,
+      "artist": "fhop music",
+      "name": "Sublime (Ao Vivo)"
+    },
+    {
+      "rank": 65,
+      "artist": "Survivor",
+      "name": "Eye of the Tiger",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/fa/9e/fefa9edd-c023-4d1c-1012-08bfb0ec69e6/mzaf_4651653238471209843.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/eye-of-the-tiger/254685010?i=254685026&uo=4",
+      "itunesTrackId": 254685026,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f9/02/8f/f9028f63-7a55-235e-f789-1e8946430fa2/614223201122.jpg/600x600bb.jpg",
+      "collectionName": "Eye of the Tiger (Remastered)",
+      "primaryGenreName": "Rock",
+      "trackTimeMillis": 243773,
+      "releaseDate": "1982-05-31"
+    },
+    {
+      "rank": 66,
+      "artist": "Djo",
+      "name": "End of Beginning"
+    },
+    {
+      "rank": 67,
+      "artist": "Filho do Piseiro & Claudio Ney & Juliana",
+      "name": "Meu Pai Paga Minha Faculdade / Mexe Essa Sanfona / Eu Vou Pra Vaquejada / Vuco Vuco / Rei Do Baralho / Sala De Reboco"
+    },
+    {
+      "rank": 68,
+      "artist": "DJ Gu, MC Vine7, MC Tuto & MC Joãozinho VT",
+      "name": "Reliquia do 2T (feat. Mc Dkziin & MC Fr da Norte)"
+    },
+    {
+      "rank": 69,
+      "artist": "Veigh",
+      "name": "Talvez você precise de mim"
+    },
+    {
+      "rank": 70,
+      "artist": "Marina Sena",
+      "name": "Numa Ilha"
+    },
+    {
+      "rank": 71,
+      "artist": "Get Worship, Melk Villar, Get Records & Vinicius Cruz",
+      "name": "Um Novo Dia (Ao Vivo) [Ao Vivo]"
+    },
+    {
+      "rank": 72,
+      "artist": "Hozier",
+      "name": "Too Sweet"
+    },
+    {
+      "rank": 73,
+      "artist": "Lukas Agustinho, Samuel Messias & Eliezer de Tarsis",
+      "name": "Louve (Ao Vivo)"
+    },
+    {
+      "rank": 74,
+      "artist": "Grupo Triii",
+      "name": "Viro Vira Virou"
+    },
+    {
+      "rank": 75,
+      "artist": "Ana Castela",
+      "name": "Olha Onde Eu Tô",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/2f/ee/ca2feefb-1178-c3e1-d9c3-cf0b8497d353/mzaf_10886651993337261508.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/olha-onde-eu-t%C3%B4/1813244635?i=1813244636&uo=4",
+      "itunesTrackId": 1813244636,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/31/fb/d531fbc9-6f59-0268-71eb-6da4f5816cba/8447352922390.jpg/600x600bb.jpg",
+      "collectionName": "Let's Go Rodeo",
+      "primaryGenreName": "Sertanejo",
+      "trackTimeMillis": 181693,
+      "releaseDate": "2025-05-29"
+    },
+    {
+      "rank": 76,
+      "artist": "Lionel Richie",
+      "name": "Stuck On You"
+    },
+    {
+      "rank": 77,
+      "artist": "Whitney Houston",
+      "name": "I Wanna Dance With Somebody (2000 Remaster)"
+    },
+    {
+      "rank": 78,
+      "artist": "50 Cent",
+      "name": "In Da Club"
+    },
+    {
+      "rank": 79,
+      "artist": "Luan Santana",
+      "name": "ILHA"
+    },
+    {
+      "rank": 80,
+      "artist": "Kemilly Santos",
+      "name": "Deus de Obras Completas (Ao Vivo)"
+    },
+    {
+      "rank": 81,
+      "artist": "a-ha",
+      "name": "Take On Me"
+    },
+    {
+      "rank": 82,
+      "artist": "AC/DC",
+      "name": "You Shook Me All Night Long"
+    },
+    {
       "rank": 83,
+      "artist": "KT Tunstall",
+      "name": "Suddenly I See"
+    },
+    {
+      "rank": 84,
+      "artist": "Brian Tyler",
+      "name": "Formula 1 Theme"
+    },
+    {
+      "rank": 85,
+      "artist": "Creed",
+      "name": "With Arms Wide Open"
+    },
+    {
+      "rank": 86,
+      "artist": "Xuxa",
+      "name": "Parabéns da Xuxa"
+    },
+    {
+      "rank": 87,
+      "artist": "Frei Gilson",
+      "name": "Eu Te Levantarei"
+    },
+    {
+      "rank": 88,
+      "artist": "Charlie Brown Jr.",
+      "name": "Só Os Loucos Sabem"
+    },
+    {
+      "rank": 89,
+      "artist": "The Killers",
+      "name": "Mr. Brightside"
+    },
+    {
+      "rank": 90,
+      "artist": "Guns N' Roses",
+      "name": "Knockin' On Heaven's Door"
+    },
+    {
+      "rank": 91,
+      "artist": "Double",
+      "name": "The Captain of Her Heart"
+    },
+    {
+      "rank": 92,
+      "artist": "Rihanna",
+      "name": "Umbrella (feat. JAŸ-Z)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5e/f4/53/5ef453d8-2c03-f70d-409a-fe4c0a67b168/mzaf_14750469240356081171.plus.aac.p.m4a",
+      "trackViewUrl": "https://music.apple.com/br/album/umbrella-feat-ja%C3%BF-z-radio-edit/1445004680?i=1445004694&uo=4",
+      "itunesTrackId": 1445004694,
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b2/39/f5/b239f599-1575-643c-edf8-8556c2db64aa/00602498494196.rgb.jpg/600x600bb.jpg",
+      "collectionName": "Umbrella - Single (feat. JAŸ-Z) - Single",
+      "primaryGenreName": "R&B/soul",
+      "trackTimeMillis": 257053,
+      "releaseDate": "2007-03-29"
+    },
+    {
+      "rank": 93,
+      "artist": "Melanie Martinez",
+      "name": "POSSESSION"
+    },
+    {
+      "rank": 94,
+      "artist": "Travis Scott",
+      "name": "FE!N (feat. Playboi Carti)"
+    },
+    {
+      "rank": 95,
+      "artist": "a-ha",
+      "name": "Stay On These Roads"
+    },
+    {
+      "rank": 96,
+      "artist": "Ennio Morricone",
+      "name": "The Good, the Bad and the Ugly (Titles)"
+    },
+    {
+      "rank": 97,
+      "artist": "The Irrepressibles",
+      "name": "In This Shirt"
+    },
+    {
+      "rank": 98,
+      "artist": "Rita Lee",
+      "name": "Erva Venenosa (Poison Ivy)"
+    },
+    {
+      "rank": 99,
+      "artist": "Deftones",
+      "name": "Sextape"
+    },
+    {
+      "rank": 100,
+      "artist": "Chic",
+      "name": "São Paulo"
+    },
+    {
+      "rank": 101,
+      "artist": "all things break",
+      "name": "gravity"
+    },
+    {
+      "rank": 102,
+      "artist": "Royal Philharmonic Orchestra & Frank Shipway",
+      "name": "Bach: Air on the G String"
+    },
+    {
+      "rank": 103,
+      "artist": "Foco Força e Fé",
+      "name": "Débora | Guerreira do Senhor"
+    },
+    {
+      "rank": 104,
+      "artist": "alex gomes & Mariana Camacho",
+      "name": "Unidos em Fé"
+    },
+    {
+      "rank": 105,
+      "artist": "Flea",
+      "name": "Thinkin Bout You"
+    },
+    {
+      "rank": 106,
       "artist": "MORADA",
       "name": "É Tudo Sobre Você (Ao Vivo)",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/dd/88/ebdd88dd-a96d-66bc-4053-bb0a123d0143/mzaf_1830766697212348926.plus.aac.p.m4a",
@@ -765,7 +880,7 @@
       "releaseDate": "2019-08-19"
     },
     {
-      "rank": 84,
+      "rank": 107,
       "artist": "Pink Floyd",
       "name": "Wish You Were Here",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/4b/35/5e4b3554-282d-12dd-e420-728287a1d3b1/mzaf_14938061551507100947.plus.aac.p.m4a",
@@ -778,27 +893,32 @@
       "releaseDate": "1975-09-12"
     },
     {
-      "rank": 85,
+      "rank": 108,
       "artist": "The Goo Goo Dolls",
       "name": "Iris"
     },
     {
-      "rank": 86,
+      "rank": 109,
       "artist": "Galinha Pintadinha",
       "name": "Coelhinho da Páscoa"
     },
     {
-      "rank": 87,
+      "rank": 110,
       "artist": "Barry Leitch",
       "name": "Top Gear: Vegas"
     },
     {
-      "rank": 88,
-      "artist": "PinkPantheress",
-      "name": "Stateside (with Zara Larsson)"
+      "rank": 111,
+      "artist": "Tyler, The Creator",
+      "name": "See You Again (feat. Kali Uchis)"
     },
     {
-      "rank": 89,
+      "rank": 112,
+      "artist": "Natiruts & Amani Kush",
+      "name": "Tudo Vai Dar Certo"
+    },
+    {
+      "rank": 113,
       "artist": "Filho do Piseiro",
       "name": "Raparigas",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/6e/67/dd6e6743-afc4-5315-25c8-dab48c24cb6a/mzaf_12553144168531543676.plus.aac.p.m4a",
@@ -811,7 +931,12 @@
       "releaseDate": "2024-05-31"
     },
     {
-      "rank": 90,
+      "rank": 114,
+      "artist": "Nick Cave & The Bad Seeds",
+      "name": "Red Right Hand (2011 Remaster)"
+    },
+    {
+      "rank": 115,
       "artist": "Roupa Nova",
       "name": "Dona",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ec/56/a4/ec56a411-b06f-2506-38f7-1a3943aca1a0/mzaf_7813168059029468191.plus.aac.p.m4a",
@@ -824,17 +949,17 @@
       "releaseDate": "2021-11-19"
     },
     {
-      "rank": 91,
+      "rank": 116,
       "artist": "Bob Sinclar",
       "name": "World Hold On (feat. Steve Edwards) [FISHER Rework]"
     },
     {
-      "rank": 92,
-      "artist": "Shakira",
+      "rank": 117,
+      "artist": "シャキーラ",
       "name": "Zoo"
     },
     {
-      "rank": 93,
+      "rank": 118,
       "artist": "One Direction",
       "name": "What Makes You Beautiful",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1a/a8/71/1aa87112-aa5f-e5d8-ef9a-c426e941e45a/mzaf_7897048842772114989.plus.aac.p.m4a",
@@ -847,12 +972,12 @@
       "releaseDate": "2011-09-11"
     },
     {
-      "rank": 94,
+      "rank": 119,
       "artist": "Colo de Deus",
       "name": "Casa"
     },
     {
-      "rank": 95,
+      "rank": 120,
       "artist": "Capcom Sound Team",
       "name": "Secure Place",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/09/d6/5c/09d65c7e-69d3-6fce-edc7-275544d8b2fe/mzaf_14778645833351197110.plus.aac.p.m4a",
@@ -865,32 +990,47 @@
       "releaseDate": "1998-01-28"
     },
     {
-      "rank": 96,
+      "rank": 121,
+      "artist": "Queen",
+      "name": "We Are the Champions"
+    },
+    {
+      "rank": 122,
       "artist": "DJ Dart",
       "name": "FUNK DO BANANEX (Hora de Acordar)"
     },
     {
-      "rank": 97,
+      "rank": 123,
       "artist": "Gorillaz",
       "name": "19-2000"
     },
     {
-      "rank": 98,
+      "rank": 124,
       "artist": "Thalles Roberto",
       "name": "Filho Meu"
     },
     {
-      "rank": 99,
+      "rank": 125,
+      "artist": "Ludovico Einaudi",
+      "name": "Nuvole Bianche"
+    },
+    {
+      "rank": 126,
+      "artist": "Tim Bernardes",
+      "name": "BB (Garupa de Moto Amarela)"
+    },
+    {
+      "rank": 127,
       "artist": "The Sword",
       "name": "Iron Swan"
     },
     {
-      "rank": 100,
+      "rank": 128,
       "artist": "KATSEYE",
       "name": "Touch"
     },
     {
-      "rank": 101,
+      "rank": 129,
       "artist": "The Outfield",
       "name": "Your Love",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/bd/51/33bd512a-f702-12ac-c260-a46c832e89c4/mzaf_5617332145922701817.plus.aac.p.m4a",
@@ -903,77 +1043,97 @@
       "releaseDate": "1985-08-12"
     },
     {
-      "rank": 102,
+      "rank": 130,
       "artist": "Eminem",
       "name": "Lose Yourself"
     },
     {
-      "rank": 103,
+      "rank": 131,
       "artist": "Edi Rock",
       "name": "That's My Way (feat. Seu Jorge & Leon Mobley)"
     },
     {
-      "rank": 104,
+      "rank": 132,
       "artist": "Disturbed",
       "name": "The Sound of Silence (CYRIL Remix)"
     },
     {
-      "rank": 105,
+      "rank": 133,
       "artist": "Metallica",
       "name": "Master of Puppets"
     },
     {
-      "rank": 106,
+      "rank": 134,
       "artist": "Grupo Chocolate & Turma do Pagode",
       "name": "Alô Virgínia (Ao Vivo)"
     },
     {
-      "rank": 107,
+      "rank": 135,
       "artist": "Bill Conti",
       "name": "Gonna Fly Now (Theme From \"Rocky\")"
     },
     {
-      "rank": 108,
+      "rank": 136,
       "artist": "Anitta & COLORS",
       "name": "Pinterest ((Portuguese) - A COLORS SHOW)"
     },
     {
-      "rank": 109,
+      "rank": 137,
       "artist": "Alice In Chains",
       "name": "Man in the Box"
     },
     {
-      "rank": 110,
+      "rank": 138,
       "artist": "Kailane Frauches",
       "name": "Passa Lá em Casa Jesus"
     },
     {
-      "rank": 111,
+      "rank": 139,
+      "artist": "New Order",
+      "name": "Blue Monday '88"
+    },
+    {
+      "rank": 140,
       "artist": "Carlos Vives & Shakira",
       "name": "La Bicicleta"
     },
     {
-      "rank": 112,
+      "rank": 141,
       "artist": "James Newton Howard",
       "name": "The Hanging Tree"
     },
     {
-      "rank": 113,
+      "rank": 142,
       "artist": "Bob Marley & The Wailers",
       "name": "Three Little Birds"
     },
     {
-      "rank": 114,
+      "rank": 143,
       "artist": "Mr. Big",
       "name": "To Be with You"
     },
     {
-      "rank": 115,
+      "rank": 144,
+      "artist": "Marvin Gaye & Tammi Terrell",
+      "name": "Ain't No Mountain High Enough"
+    },
+    {
+      "rank": 145,
       "artist": "Ana Maria Braga",
       "name": "Acor da Menina"
     },
     {
-      "rank": 116,
+      "rank": 146,
+      "artist": "yung kai",
+      "name": "blue"
+    },
+    {
+      "rank": 147,
+      "artist": "Crooked Still",
+      "name": "Ecstasy"
+    },
+    {
+      "rank": 148,
       "artist": "Grupo Menos É Mais",
       "name": "Coração Partido (Corazón Partío) [Ao Vivo]",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/10/23/6f1023eb-15ba-179a-3c0b-556a939ec2d3/mzaf_6387947355391776856.plus.aac.p.m4a",
@@ -986,424 +1146,264 @@
       "releaseDate": "2018-01-01"
     },
     {
-      "rank": 117,
+      "rank": 149,
       "artist": "Vanessa Carlton",
       "name": "A Thousand Miles"
     },
     {
-      "rank": 118,
+      "rank": 150,
       "artist": "Julliany Souza",
       "name": "Quem É Esse?"
     },
     {
-      "rank": 119,
+      "rank": 151,
       "artist": "Guns N' Roses",
       "name": "November Rain"
     },
     {
-      "rank": 120,
+      "rank": 152,
       "artist": "Gigi D'Agostino",
       "name": "L'amour Toujours"
     },
     {
-      "rank": 121,
+      "rank": 153,
       "artist": "Hans Zimmer",
       "name": "Time"
     },
     {
-      "rank": 122,
+      "rank": 154,
       "artist": "Cyndi Lauper",
       "name": "Time After Time"
     },
     {
-      "rank": 123,
+      "rank": 155,
       "artist": "Gabriela Rocha",
       "name": "Lugar Secreto"
     },
     {
-      "rank": 124,
-      "artist": "Zezé Di Camargo & Luciano",
-      "name": "Pra Não Pensar Em Você"
-    },
-    {
-      "rank": 125,
+      "rank": 156,
       "artist": "a-ha",
       "name": "Hunting High and Low"
     },
     {
-      "rank": 126,
+      "rank": 157,
       "artist": "Roxy Music",
       "name": "More Than This"
     },
     {
-      "rank": 127,
+      "rank": 158,
       "artist": "The Cranberries",
       "name": "Animal Instinct"
     },
     {
-      "rank": 128,
+      "rank": 159,
+      "artist": "Dj Yuri Pedrada, Nilo, MC Meno K, MC Livinho, Mc Negão Original, MC Jvila, MC Ryan SP, Mc Paiva ZS & MC GDL",
+      "name": "SET DJ YURI PEDRADA - TRAVA CHIP"
+    },
+    {
+      "rank": 160,
+      "artist": "Queen",
+      "name": "Bohemian Rhapsody"
+    },
+    {
+      "rank": 161,
       "artist": "Guilherme Arantes",
       "name": "Planeta Água"
     },
     {
-      "rank": 129,
+      "rank": 162,
       "artist": "Filipe Ret",
       "name": "Invicto"
     },
     {
-      "rank": 130,
+      "rank": 163,
       "artist": "Grian Chatten, Antony Genn & Martin Slattery",
       "name": "Puppet - Taken From Peaky Blinders: The Immortal Man (Soundtrack from the Netflix Film)"
     },
     {
-      "rank": 131,
+      "rank": 164,
       "artist": "Tears for Fears",
       "name": "Woman in Chains (feat. Oleta Adams)"
     },
     {
-      "rank": 132,
+      "rank": 165,
       "artist": "Lady Gaga & Bradley Cooper",
       "name": "Shallow"
     },
     {
-      "rank": 133,
+      "rank": 166,
+      "artist": "Fergie",
+      "name": "Fergalicious (feat. will.i.am)"
+    },
+    {
+      "rank": 167,
       "artist": "INXS",
       "name": "Beautiful Girl"
     },
     {
-      "rank": 134,
+      "rank": 168,
       "artist": "Kanye West",
       "name": "Good Morning"
     },
     {
-      "rank": 135,
+      "rank": 169,
       "artist": "Snap!",
       "name": "Rhythm Is a Dancer"
     },
     {
-      "rank": 136,
+      "rank": 170,
       "artist": "Yann Tiersen",
       "name": "Comptine d'un autre été, l'après-midi"
     },
     {
-      "rank": 137,
+      "rank": 171,
       "artist": "Cristiano Araújo",
       "name": "Caso Indefinido (Ao Vivo)"
     },
     {
-      "rank": 138,
+      "rank": 172,
       "artist": "Thiago Brado",
       "name": "Minha Essência"
     },
     {
-      "rank": 139,
+      "rank": 173,
+      "artist": "Connie Francis",
+      "name": "Pretty Little Baby"
+    },
+    {
+      "rank": 174,
       "artist": "Stray Kids",
       "name": "DIVINE"
     },
     {
-      "rank": 140,
+      "rank": 175,
       "artist": "Curtis Mayfield",
       "name": "Move On Up (Single Edit)"
     },
     {
-      "rank": 141,
+      "rank": 176,
       "artist": "Keane",
       "name": "Somewhere Only We Know (Live From Mexico City / 2024 / Edit)"
     },
     {
-      "rank": 142,
+      "rank": 177,
       "artist": "Fontaines D.C.",
       "name": "A Hero's Death"
     },
     {
-      "rank": 143,
+      "rank": 178,
       "artist": "Suleymer",
       "name": "Mystique"
     },
     {
-      "rank": 144,
+      "rank": 179,
       "artist": "Girl In The Year Above",
       "name": "Teardrop"
     },
     {
-      "rank": 145,
+      "rank": 180,
       "artist": "Mclusky",
       "name": "people person"
     },
     {
-      "rank": 146,
+      "rank": 181,
       "artist": "Amy Taylor, Tom Coll, Antony Genn & Martin Slattery",
       "name": "Nobody's Son"
     },
     {
-      "rank": 147,
+      "rank": 182,
+      "artist": "Alok, Zeeba & Bruno Martini",
+      "name": "Hear Me Now"
+    },
+    {
+      "rank": 183,
       "artist": "Coldplay",
       "name": "The Scientist"
     },
     {
-      "rank": 148,
+      "rank": 184,
       "artist": "Eminem",
       "name": "The Monster (feat. Rihanna)"
     },
     {
-      "rank": 149,
+      "rank": 185,
       "artist": "Outkast",
       "name": "Hey Ya!"
     },
     {
-      "rank": 150,
+      "rank": 186,
+      "artist": "Technotronic",
+      "name": "Pump Up the Jam"
+    },
+    {
+      "rank": 187,
       "artist": "The Commodores",
       "name": "Easy"
     },
     {
-      "rank": 151,
+      "rank": 188,
       "artist": "SOJA",
       "name": "True Love"
     },
     {
-      "rank": 152,
+      "rank": 189,
       "artist": "Grupo Revelação",
       "name": "Só Vai de Camarote (Ao Vivo)"
     },
     {
-      "rank": 153,
+      "rank": 190,
       "artist": "Toto",
       "name": "I'll Be Over You"
     },
     {
-      "rank": 154,
+      "rank": 191,
       "artist": "Heart",
       "name": "Alone"
     },
     {
-      "rank": 155,
+      "rank": 192,
       "artist": "a-ha",
       "name": "There's Never a Forever Thing"
     },
     {
-      "rank": 156,
+      "rank": 193,
       "artist": "Detonautas",
       "name": "O Dia Que Não Terminou"
     },
     {
-      "rank": 157,
+      "rank": 194,
       "artist": "Iron Maiden",
       "name": "Hallowed Be Thy Name"
     },
     {
-      "rank": 158,
+      "rank": 195,
       "artist": "Hungria Hip Hop",
       "name": "Zorro do Asfalto"
     },
     {
-      "rank": 159,
+      "rank": 196,
       "artist": "L.Dre",
       "name": "Steven Universe"
     },
     {
-      "rank": 160,
+      "rank": 197,
       "artist": "Pedro Pondé",
       "name": "Simples Assim"
     },
     {
-      "rank": 161,
+      "rank": 198,
       "artist": "CountryBeat & Rionegro & Solimões",
       "name": "Apaixona Muita Gente (Ao Vivo)"
     },
     {
-      "rank": 162,
+      "rank": 199,
       "artist": "Thirty Seconds to Mars",
       "name": "The Kill (Acoustic)"
     },
     {
-      "rank": 163,
+      "rank": 200,
       "artist": "LMFAO",
       "name": "Sexy and I Know It"
-    },
-    {
-      "rank": 164,
-      "artist": "Andrea Bocelli",
-      "name": "Con Te Partiro"
-    },
-    {
-      "rank": 165,
-      "artist": "Paula Fernandes",
-      "name": "Um Ser Amor (Bonus Track)"
-    },
-    {
-      "rank": 166,
-      "artist": "Nelly Furtado",
-      "name": "Say It Right"
-    },
-    {
-      "rank": 167,
-      "artist": "Nelly Furtado",
-      "name": "Promiscuous (feat. Timbaland)"
-    },
-    {
-      "rank": 168,
-      "artist": "Billie Eilish",
-      "name": "i love you"
-    },
-    {
-      "rank": 169,
-      "artist": "George Michael",
-      "name": "Father Figure (2010 Remastered Version)"
-    },
-    {
-      "rank": 170,
-      "artist": "Caetano Veloso",
-      "name": "Você Não Me Ensinou a Te Esquecer"
-    },
-    {
-      "rank": 171,
-      "artist": "Flo Rida",
-      "name": "Right Round (feat. Ke$ha)"
-    },
-    {
-      "rank": 172,
-      "artist": "Sorriso Maroto",
-      "name": "Vai e Chora (Ao Vivo)"
-    },
-    {
-      "rank": 173,
-      "artist": "Emílio Santiago",
-      "name": "Saigon"
-    },
-    {
-      "rank": 174,
-      "artist": "Beyoncé",
-      "name": "Crazy in Love (feat. JAŸ-Z)"
-    },
-    {
-      "rank": 175,
-      "artist": "Sandra",
-      "name": "Maria Magdalena"
-    },
-    {
-      "rank": 176,
-      "artist": "Gal Costa & Caetano Veloso",
-      "name": "Baby"
-    },
-    {
-      "rank": 177,
-      "artist": "Erika",
-      "name": "I Don't Know"
-    },
-    {
-      "rank": 178,
-      "artist": "Patti Smith",
-      "name": "Because the Night"
-    },
-    {
-      "rank": 179,
-      "artist": "Patrick Hernandez",
-      "name": "Born to Be Alive (Mix 79)"
-    },
-    {
-      "rank": 180,
-      "artist": "Eagle-Eye Cherry",
-      "name": "Save Tonight"
-    },
-    {
-      "rank": 181,
-      "artist": "The Blues Brothers",
-      "name": "Everybody Needs Somebody to Love"
-    },
-    {
-      "rank": 182,
-      "artist": "André Rieu & Johann Strauss Orchestra",
-      "name": "Air (Second Movement from Orchestral Suite No. 3 in D Major, BWV 1068)"
-    },
-    {
-      "rank": 183,
-      "artist": "Eminem",
-      "name": "Not Afraid"
-    },
-    {
-      "rank": 184,
-      "artist": "John Travolta & Olivia Newton-John",
-      "name": "Summer Nights"
-    },
-    {
-      "rank": 185,
-      "artist": "Adele",
-      "name": "Water Under the Bridge"
-    },
-    {
-      "rank": 186,
-      "artist": "The Temper Trap",
-      "name": "Sweet Disposition"
-    },
-    {
-      "rank": 187,
-      "artist": "Led Zeppelin",
-      "name": "Immigrant Song"
-    },
-    {
-      "rank": 188,
-      "artist": "Pearl Jam",
-      "name": "I Am Mine"
-    },
-    {
-      "rank": 189,
-      "artist": "Keyshia Cole & Diddy",
-      "name": "Last Night (feat. Keyshia Cole)"
-    },
-    {
-      "rank": 190,
-      "artist": "Bee Gees",
-      "name": "More Than A Woman"
-    },
-    {
-      "rank": 191,
-      "artist": "Thalles Roberto",
-      "name": "Deus Me Ama (feat. André Valadão) [Ao Vivo]"
-    },
-    {
-      "rank": 192,
-      "artist": "Detonautas",
-      "name": "Olhos Certos"
-    },
-    {
-      "rank": 193,
-      "artist": "Simple Plan",
-      "name": "Perfect"
-    },
-    {
-      "rank": 194,
-      "artist": "The Offspring",
-      "name": "Self Esteem"
-    },
-    {
-      "rank": 195,
-      "artist": "SOJA",
-      "name": "You and Me (feat. Chris Boomer)"
-    },
-    {
-      "rank": 196,
-      "artist": "Austin Mahone",
-      "name": "Say You're Just a Friend (feat. Flo Rida)"
-    },
-    {
-      "rank": 197,
-      "artist": "Eddie Vedder",
-      "name": "Society"
-    },
-    {
-      "rank": 198,
-      "artist": "Justin Bieber",
-      "name": "Roller Coaster"
-    },
-    {
-      "rank": 199,
-      "artist": "Detonautas",
-      "name": "Quando O Sol Se For"
-    },
-    {
-      "rank": 200,
-      "artist": "Candi Staton",
-      "name": "Young Hearts Run Free"
     }
   ]
 }
