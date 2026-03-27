@@ -17,7 +17,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
     permissions:
       contents: write
     steps:
@@ -49,38 +49,31 @@ jobs:
             INPUT="${{ github.event.inputs.regions }}"
             if [ "$INPUT" = "all" ]; then
               echo "regions=jp us uk au ca de fr it es nl be br mx" >> $GITHUB_OUTPUT
-              echo "include_jp=true" >> $GITHUB_OUTPUT
             else
               echo "regions=$INPUT" >> $GITHUB_OUTPUT
-              echo "$INPUT" | grep -qw "jp" && echo "include_jp=true" >> $GITHUB_OUTPUT || echo "include_jp=false" >> $GITHUB_OUTPUT
             fi
           elif [ "${{ github.event.schedule }}" = "0 19 * * *" ]; then
             echo "regions=au" >> $GITHUB_OUTPUT
-            echo "include_jp=false" >> $GITHUB_OUTPUT
           elif [ "${{ github.event.schedule }}" = "0 20 * * *" ]; then
             echo "regions=jp" >> $GITHUB_OUTPUT
-            echo "include_jp=true" >> $GITHUB_OUTPUT
           elif [ "${{ github.event.schedule }}" = "0 4 * * *" ]; then
             echo "regions=uk de fr it es nl be" >> $GITHUB_OUTPUT
-            echo "include_jp=false" >> $GITHUB_OUTPUT
           elif [ "${{ github.event.schedule }}" = "0 8 * * *" ]; then
             echo "regions=br" >> $GITHUB_OUTPUT
-            echo "include_jp=false" >> $GITHUB_OUTPUT
           elif [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
             echo "regions=us ca mx" >> $GITHUB_OUTPUT
-            echo "include_jp=false" >> $GITHUB_OUTPUT
           fi
           echo "📋 Regions: $(cat $GITHUB_OUTPUT)"
 
-      # === Fetch & Merge ===
-      - name: Fetch Top200
+      # === Fetch（新曲のみiTunes API通信）& Merge（API通信なし） ===
+      - name: Fetch Top200 & enrich new tracks
         run: |
           for region in ${{ steps.regions.outputs.regions }}; do
             echo "=== Fetching Top200: $region ==="
             node pipeline/scripts/fetch-kworb-top200.js --region $region || echo "WARNING: $region fetch failed"
             sleep 2
           done
-        timeout-minutes: 10
+        timeout-minutes: 20
         env:
           DATA_DIR: ./data
 
@@ -89,9 +82,8 @@ jobs:
           for region in ${{ steps.regions.outputs.regions }}; do
             echo "=== Merging Top200: $region ==="
             node pipeline/scripts/merge-top200-to-packs.js --region $region || echo "WARNING: $region merge failed"
-            sleep 3
           done
-        timeout-minutes: 45
+        timeout-minutes: 5
         env:
           DATA_DIR: ./data
 
@@ -108,21 +100,6 @@ jobs:
             fi
           done
         timeout-minutes: 5
-        env:
-          DATA_DIR: ./data
-
-      # === JP専用ステップ（enrich）===
-      - name: "[JP] Enrich iTunes data (songs.json, max 50)"
-        if: steps.regions.outputs.include_jp == 'true'
-        run: node pipeline/scripts/enrich-itunes-data.js --limit 50
-        timeout-minutes: 10
-        env:
-          DATA_DIR: ./data
-
-      - name: "[JP] Enrich iTunes data (Top 200)"
-        if: steps.regions.outputs.include_jp == 'true'
-        run: node pipeline/scripts/enrich-itunes-data.js --top200-only
-        timeout-minutes: 15
         env:
           DATA_DIR: ./data
 
