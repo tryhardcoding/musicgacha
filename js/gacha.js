@@ -5,8 +5,8 @@
 
 import { fetchCardFromGenre, fetchCardFromTop200, getTop200ChartDate, getTop200Tracks } from './api.js';
 import { createCard } from './card.js';
-import { consumePack, addCardToCollection, getPackData, isGoldPack, getTop200Data, addTop200Obtained, syncTop200WithNewChart } from './storage.js';
-import { renderPackOpening } from './pack-animation.js?v=20260327a';
+import { consumePack, addCardToCollection, getPackData, isGoldPack, getTop200Data, addTop200Obtained, syncTop200WithNewChart, getCollection } from './storage.js';
+import { renderPackOpening } from './pack-animation.js?v=20260327c';
 import { t } from './i18n.js';
 import { getPacksConfig } from './data-loader.js';
 import { checkAchievements, trackGoldPack, trackGodPack, trackPackType } from './achievements.js';
