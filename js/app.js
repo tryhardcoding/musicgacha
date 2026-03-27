@@ -8,12 +8,12 @@ import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
 import { getRegion, setRegion, REGIONS, getRegionConfig, getFlagUrl } from './region.js';
 import { getPacksConfig } from './data-loader.js';
-import './gacha.js?v=20260326a'; // ガチャモジュール（グローバル参照にopenPackを登録）
-import { initCollection, renderCollection, refreshCollection } from './collection.js';
+import './gacha.js?v=20260327a'; // ガチャモジュール（グローバル参照にopenPackを登録）
+import { initCollection, renderCollection, refreshCollection, resetCollectionState } from './collection.js';
 import { initShareHandler } from './transfer.js';
-import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260326a';
+import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260327a';
 import { icon, refreshIcons } from './icons.js';
-import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260326a';
+import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260327a';
 import { invalidateCache } from './data-loader.js';
 import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
 import { getAmazonMusicUnlimitedUrl } from './affiliate.js';
@@ -788,6 +788,43 @@ function setupEventListeners() {
             if (e.target === achModal) achModal.style.display = 'none';
         });
     }
+
+    // Escキーでモーダルを閉じる（PCユーザー向けUX改善）
+    document.addEventListener('keydown', (e) => {
+        if (e.key !== 'Escape') return;
+
+        // カード詳細モーダル
+        const cardModal = document.getElementById('card-detail-modal');
+        if (cardModal && cardModal.style.display !== 'none') {
+            cardModal.style.display = 'none';
+            if (window.MusicGacha?.stopCardPreview) {
+                window.MusicGacha.stopCardPreview();
+            }
+            return;
+        }
+
+        // 実績モーダル
+        const achModalEl = document.getElementById('achievement-modal');
+        if (achModalEl && achModalEl.style.display !== 'none') {
+            achModalEl.style.display = 'none';
+            return;
+        }
+
+        // 共有受取モーダル
+        const shareModal = document.getElementById('share-receive-modal');
+        if (shareModal && shareModal.style.display !== 'none') {
+            shareModal.style.display = 'none';
+            history.replaceState(null, '', window.location.pathname);
+            return;
+        }
+
+        // リージョンドロップダウン
+        const dropdown = document.getElementById('region-dropdown');
+        if (dropdown) {
+            dropdown.remove();
+            return;
+        }
+    });
 }
 
 // ---- Region Management ----
@@ -805,6 +842,9 @@ function updateRegionDisplay() {
 
         const codeEl = countryBtn.querySelector('.country-code');
         if (codeEl) codeEl.textContent = region.toUpperCase();
+
+        // 初期非表示からの復帰（国旗フラッシュ防止）
+        countryBtn.style.visibility = '';
     }
 }
 
@@ -977,6 +1017,7 @@ async function switchRegion(newRegion) {
     updatePackImage('top200');
 
     if (currentScreen === 'collection') {
+        resetCollectionState();
         initCollection();
         refreshCollection();
     }
@@ -1014,13 +1055,16 @@ async function init() {
     // ストレージ初期化
     initStorage();
 
-    // 設定読み込み
+    // 設定読み込み: 保存済み言語がなければリージョンの言語をデフォルトに
+    const detectedRegion = getRegion();
+    const detectedLang = REGIONS[detectedRegion]?.language || 'ja';
     const settings = {
-        language: getSetting('language') || 'ja',
+        language: getSetting('language') || detectedLang,
     };
 
-    // i18n初期化
+    // i18n初期化 + <html lang> 動的更新
     initI18n(settings.language);
+    setLanguage(settings.language);
 
     // 設定画面の初期値セット
     const langSelect = document.getElementById('setting-language');

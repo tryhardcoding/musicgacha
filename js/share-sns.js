@@ -119,7 +119,7 @@ export function sharePackResult(cards, packType, isGold = false, isGod = false) 
 
     // 安全ネット: 最終テキストがmaxTotalを超過していないか再検証
     // URL部分(musicgacha.com)を23文字として計算
-    let textWithoutUrl = headerLine + finalLines.join('\n') + '\n\n#MusicGacha #音楽ガチャ\n';
+    let textWithoutUrl = headerLine + finalLines.join('\n') + '\n\n' + t('share.hashtags') + '\n';
     let safeTotal = xCharCount(textWithoutUrl) + 23;
 
     if (safeTotal > maxTotal) {
@@ -190,7 +190,7 @@ export function shareCollectionStats(stats) {
 
     const lines = [t('share.collectionTitle'), '', `📦 ${uniqueCount} ${t('share.songsCollected')}`];
     if (rarityParts.length > 0) lines.push(`⭐ ${rarityParts.join(' / ')}`);
-    lines.push(`💎 ${t('share.rareRate')}: ${rareRate}%`, '', t('share.discoverMusic'), '#MusicGacha #音楽ガチャ', 'musicgacha.com');
+    lines.push(`💎 ${t('share.rareRate')}: ${rareRate}%`, '', t('share.discoverMusic'), t('share.hashtags'), 'musicgacha.com');
     openXIntent(lines.join('\n'));
 }
 

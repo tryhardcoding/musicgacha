@@ -209,9 +209,15 @@ export function getNextRegenTime() {
 
 // ---- Daily Bonus ----
 
+/** ローカルタイムゾーンの YYYY-MM-DD を返す */
+function getLocalDateString() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 export function canClaimDailyBonus() {
   const data = getPackData();
-  const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+  const today = getLocalDateString();
   return data.dailyBonusClaimed !== today;
 }
 
@@ -219,7 +225,7 @@ export function claimDailyBonus() {
   if (!canClaimDailyBonus()) return null;
 
   const data = getPackData();
-  const today = new Date().toISOString().split('T')[0];
+  const today = getLocalDateString();
   data.dailyBonusClaimed = today;
   // フル回復 or +1
   let added;

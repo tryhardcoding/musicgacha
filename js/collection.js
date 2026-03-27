@@ -6,7 +6,7 @@
 import { getCollection, getTop200Data, getFavorites } from './storage.js';
 import { getSongPool, getTop200Daily } from './data-loader.js';
 import { getRegionConfig } from './region.js';
-import { renderCard, renderCardBack, openCardDetail } from './card-renderer.js?v=20260323b';
+import { renderCard, renderCardBack, openCardDetail } from './card-renderer.js?v=20260327a';
 import { RARITY_CONFIG } from './card.js';
 import { t } from './i18n.js';
 import { refreshIcons } from './icons.js';
@@ -48,6 +48,16 @@ export function initCollection() {
     if (top200View) top200View.style.display = '';
 
     loadTop200DateList().then(() => renderTop200View());
+}
+
+/**
+ * リージョン切替時にコレクション状態をリセット
+ */
+export function resetCollectionState() {
+    initialized = false;
+    top200DateList = [];
+    top200CurrentDateIndex = 0;
+    currentPackFilter = 'all';
 }
 
 // ---- Pack Filter ----

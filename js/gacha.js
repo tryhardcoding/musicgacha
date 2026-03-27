@@ -6,7 +6,7 @@
 import { fetchCardFromGenre, fetchCardFromTop200, getTop200ChartDate, getTop200Tracks } from './api.js';
 import { createCard } from './card.js';
 import { consumePack, addCardToCollection, getPackData, isGoldPack, getTop200Data, addTop200Obtained, syncTop200WithNewChart } from './storage.js';
-import { renderPackOpening } from './pack-animation.js?v=20260320c';
+import { renderPackOpening } from './pack-animation.js?v=20260327a';
 import { t } from './i18n.js';
 import { getPacksConfig } from './data-loader.js';
 import { checkAchievements, trackGoldPack, trackGodPack, trackPackType } from './achievements.js';
@@ -253,7 +253,7 @@ export async function openPack(packType = 'standard', autoTap = false) {
  * カードが既にコレクションにあるかチェック
  */
 function isCardOwned(cardId) {
-    const collection = JSON.parse(localStorage.getItem('musicgacha_collection') || '[]');
+    const collection = getCollection();
     return collection.some(c => c.id === cardId);
 }
 

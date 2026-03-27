@@ -4,7 +4,7 @@
 // ============================================================
 
 import { addCardToCollection } from './storage.js';
-import { renderCard } from './card-renderer.js?v=20260323b';
+import { renderCard } from './card-renderer.js?v=20260327a';
 import { trackTransferSend, trackTransferReceive, checkAchievements } from './achievements.js';
 import { t } from './i18n.js';
 

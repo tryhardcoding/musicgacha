@@ -1341,5 +1341,6 @@ export function applyTranslations() {
 
 export function initI18n(lang) {
     currentLang = lang || 'ja';
+    document.documentElement.lang = currentLang;
     applyTranslations();
 }

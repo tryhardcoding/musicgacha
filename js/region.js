@@ -60,6 +60,34 @@ export function getFlagUrl(regionKey) {
 }
 
 /**
+ * navigator.language からデフォルトリージョンを推定
+ * 例: "en-US" → "us", "fr-FR" → "fr", "de" → "de"
+ */
+const LANG_TO_REGION = {
+    'ja': 'jp', 'ja-jp': 'jp',
+    'en-us': 'us', 'en-ca': 'ca', 'en-gb': 'uk', 'en-au': 'au',
+    'es-mx': 'mx', 'es-es': 'es', 'es': 'es',
+    'fr-fr': 'fr', 'fr-be': 'be', 'fr-ca': 'ca', 'fr': 'fr',
+    'de-de': 'de', 'de-at': 'de', 'de': 'de',
+    'it-it': 'it', 'it': 'it',
+    'nl-nl': 'nl', 'nl-be': 'be', 'nl': 'nl',
+    'pt-br': 'br', 'pt': 'br',
+    'en': 'us',
+};
+
+function detectRegionFromBrowser() {
+    try {
+        const lang = (navigator.language || '').toLowerCase();
+        // まず完全一致（例: "en-us"）
+        if (LANG_TO_REGION[lang]) return LANG_TO_REGION[lang];
+        // 次にベース言語だけで検索（例: "en-gb" が無くても "en" でフォールバック）
+        const base = lang.split('-')[0];
+        if (LANG_TO_REGION[base]) return LANG_TO_REGION[base];
+    } catch (e) { /* ignore */ }
+    return 'jp';
+}
+
+/**
  * 現在のリージョンを取得
  */
 export function getRegion() {
@@ -67,7 +95,7 @@ export function getRegion() {
         const saved = localStorage.getItem(REGION_STORAGE_KEY);
         if (saved && REGIONS[saved]) return saved;
     } catch (e) { /* ignore */ }
-    return 'jp';
+    return detectRegionFromBrowser();
 }
 
 /**
