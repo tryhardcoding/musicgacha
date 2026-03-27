@@ -1,6 +1,6 @@
 // ============================================================
 // MusicGacha - App Module
-// アプリ初期化・画面ルーティング・UIイベント管理
+// アプリ初期化�E画面ルーチE��ング・UIイベント管琁E
 // ============================================================
 
 import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining, getCollection } from './storage.js';
@@ -8,12 +8,12 @@ import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
 import { getRegion, setRegion, REGIONS, getRegionConfig, getFlagUrl } from './region.js';
 import { getPacksConfig } from './data-loader.js';
-import './gacha.js?v=20260327h'; // ガチャモジュール（グローバル参照にopenPackを登録）
+import './gacha.js?v=20260327i'; // ガチャモジュール�E�グローバル参�EにopenPackを登録�E�E
 import { initCollection, renderCollection, refreshCollection, resetCollectionState } from './collection.js';
 import { initShareHandler } from './transfer.js';
-import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260327h';
+import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260327i';
 import { icon, refreshIcons } from './icons.js';
-import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260327h';
+import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260327i';
 import { invalidateCache } from './data-loader.js';
 import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
 import { getAmazonMusicUnlimitedUrl } from './affiliate.js';
@@ -28,7 +28,7 @@ let selectedPackType = 'top200';
 function showScreen(screenId) {
     if (!screens.includes(screenId)) screenId = 'home';
 
-    // パック画面から離れたら試聴音声を停止＆開封セッションをキャンセル
+    // パック画面から離れたら試聴音声を停止�E�E��封セチE��ョンをキャンセル
     if (screenId !== 'pack') {
         if (window.MusicGacha?.stopPreview) {
             window.MusicGacha.stopPreview();
@@ -53,7 +53,7 @@ function showScreen(screenId) {
 
     currentScreen = screenId;
 
-    // 画面固有の初期化
+    // 画面固有�E初期匁E
     if (screenId === 'home') {
         updateHomeScreen();
     } else if (screenId === 'collection') {
@@ -87,7 +87,7 @@ function updateHomeScreen() {
     // TOP200 チャレンジカード更新
     updateTop200ChallengeCard();
 
-    // 開封ボタン
+    // 開封�Eタン
     const btnOpen = document.getElementById('btn-open-pack');
     if (btnOpen) {
         btnOpen.disabled = packData.current <= 0;
@@ -97,14 +97,14 @@ function updateHomeScreen() {
         }
     }
 
-    // ゴールドパック進捗
+    // ゴールドパチE��進捁E
     const progress = packData.totalOpened % 10;
     const goldFill = document.getElementById('gold-pack-fill');
     const goldLabel = document.getElementById('gold-pack-label');
     if (goldFill) goldFill.style.width = `${(progress / 10) * 100}%`;
     if (goldLabel) goldLabel.textContent = t('home.goldPackProgress', { current: progress });
 
-    // デイリーボーナス
+    // チE��リーボ�Eナス
     const bonusCard = document.getElementById('daily-bonus-card');
     const btnBonus = document.getElementById('btn-daily-bonus');
     const canClaim = canClaimDailyBonus();
@@ -116,7 +116,7 @@ function updateHomeScreen() {
         btnBonus.textContent = canClaim ? t('home.claim') : t('home.dailyBonusClaimed');
     }
 
-    // 収集進捗
+    // 収集進捁E
     const uniqueCount = getUniqueCardCount();
     const totalCount = getTotalCardCount();
     const progressText = document.getElementById('progress-ring-text');
@@ -124,13 +124,13 @@ function updateHomeScreen() {
     if (progressText) progressText.textContent = uniqueCount;
     if (progressTotal) progressTotal.textContent = `${totalCount} / ∞`;
 
-    // リジェンタイマー
+    // リジェンタイマ�E
     updateRegenTimer();
 
     // Top 200 進捗表示
     updateTop200Progress();
 
-    // Amazon Music PR - ユーザーの収集実績と連動 + リージョン対応URL
+    // Amazon Music PR - ユーザーの収集実績と連勁E+ リージョン対応URL
     const amazonUnlimitedUrl = getAmazonMusicUnlimitedUrl();
     const amazonTitle = document.getElementById('amazon-music-title');
     if (amazonTitle) {
@@ -138,7 +138,7 @@ function updateHomeScreen() {
             ? t('home.amazonTitleWithCount', { count: uniqueCount })
             : t('home.amazonTitle');
     }
-    // PRバナーのhrefをロケールに応じて動的設定
+    // PRバナーのhrefをロケールに応じて動的設宁E
     const amazonPrHome = document.getElementById('amazon-music-pr');
     if (amazonPrHome) amazonPrHome.href = amazonUnlimitedUrl;
     const amazonPrPack = document.getElementById('amazon-music-pr-pack');
@@ -166,14 +166,14 @@ function updateRegenTimer() {
     if (!timerEl) return;
 
     function tick() {
-        // パック数を毎tick再計算（recalculatePacksで自動回復される）
+        // パック数を毎tick再計算！EecalculatePacksで自動回復される！E
         const packData = getPackData();
         const currentEl = document.getElementById('pack-count-current');
         if (currentEl) currentEl.textContent = packData.current;
 
         const ms = getNextRegenTime();
         if (ms === null) {
-            // 満タン - タイマー不要
+            // 満タン - タイマ�E不要E
             timerEl.textContent = '';
             clearInterval(regenTimerInterval);
             regenTimerInterval = null;
@@ -191,14 +191,14 @@ async function updateTop200ChallengeCard() {
     const card = document.getElementById('top200-challenge-card');
     if (!card) return;
 
-    // 現在のチャートトラックと照合して正確なobtained数をカウント
-    // コレクション画面(collection.js)と同じロジック: obtainedKeys AND コレクション内にカードが存在
+    // 現在のチャートトラチE��と照合して正確なobtained数をカウンチE
+    // コレクション画面(collection.js)と同じロジチE��: obtainedKeys AND コレクション冁E��カードが存在
     const chartTracks = await getTop200Tracks();
     const top200Data = getTop200Data();
     const obtainedSet = new Set(top200Data.obtainedKeys);
     const total = chartTracks.length || 200;
 
-    // コレクション内のカードをキーでルックアップ
+    // コレクション冁E�EカードをキーでルチE��アチE�E
     const collection = getCollection();
     const collectionKeySet = new Set();
     for (const c of collection) {
@@ -215,7 +215,7 @@ async function updateTop200ChallengeCard() {
     const percentage = Math.min((obtained / total) * 100, 100);
     const remaining = total - obtained;
 
-    // マイルストーンデータ
+    // マイルスト�EンチE�Eタ
     const milestones = [
         { threshold: 0, title: t('milestone.debut'), iconName: 'music' },
         { threshold: 50, title: t('milestone.silver'), iconName: 'disc-3' },
@@ -250,7 +250,7 @@ async function updateTop200ChallengeCard() {
         ctaText = t('top200.remaining', { remaining });
     }
 
-    // ホーム版 + パック結果版 の両方を更新
+    // ホ�Eム牁E+ パック結果牁Eの両方を更新
     const suffixes = ['', '-pack'];
     for (const suffix of suffixes) {
         const ringFill = document.getElementById(`top200-ring-fill${suffix}`);
@@ -289,12 +289,12 @@ async function updateTop200Progress() {
 
     progressEl.style.display = '';
 
-    // 今日のチャートの200曲を取得
+    // 今日のチャート�E200曲を取征E
     const chartTracks = await getTop200Tracks();
     const total = chartTracks.length || 200;
 
-    // 今日のチャートの曲キーとobtainedKeysの一致数をカウント
-    // コレクション画面と同じロジック: obtainedKeys AND コレクション内にカードが存在
+    // 今日のチャート�E曲キーとobtainedKeysの一致数をカウンチE
+    // コレクション画面と同じロジチE��: obtainedKeys AND コレクション冁E��カードが存在
     const top200Data = getTop200Data();
     const obtainedSet = new Set(top200Data.obtainedKeys);
     const collection = getCollection();
@@ -348,7 +348,7 @@ function updateAchievementButton() {
 }
 
 function updateCollectionScreen() {
-    // フェーズ3で実装
+    // フェーズ3で実裁E
     const uniqueCount = getUniqueCardCount();
     const totalCount = getTotalCardCount();
 
@@ -427,7 +427,7 @@ function setupEventListeners() {
         });
     });
 
-    // TOP200チャレンジカード クリック（ホーム + パック結果）
+    // TOP200チャレンジカーチEクリチE���E��Eーム + パック結果�E�E
     const challengeCards = document.querySelectorAll('#top200-challenge-card, #top200-challenge-card-pack');
     challengeCards.forEach(card => {
         card.addEventListener('click', () => {
@@ -439,7 +439,7 @@ function setupEventListeners() {
         });
     });
 
-    // デイリーボーナス
+    // チE��リーボ�Eナス
     const btnBonus = document.getElementById('btn-daily-bonus');
     if (btnBonus) {
         btnBonus.addEventListener('click', () => {
@@ -453,7 +453,7 @@ function setupEventListeners() {
         });
     }
 
-    // 広告パックボタン（リワード広告）
+    // 庁E��パックボタン�E�リワード庁E���E�E
     const btnAd = document.getElementById('btn-ad-pack');
     if (btnAd) {
         btnAd.addEventListener('click', async () => {
@@ -504,7 +504,7 @@ function setupEventListeners() {
         });
     }
 
-    // もう1パック開けるボタン
+    // もう1パック開ける�Eタン
     const btnOpenAnother = document.getElementById('btn-open-another');
     if (btnOpenAnother) {
         btnOpenAnother.addEventListener('click', async () => {
@@ -515,7 +515,7 @@ function setupEventListeners() {
         });
     }
 
-    // ホームに戻るボタン
+    // ホ�Eムに戻る�Eタン
     const btnViewCollection = document.getElementById('btn-view-collection');
     if (btnViewCollection) {
         btnViewCollection.addEventListener('click', () => {
@@ -523,7 +523,7 @@ function setupEventListeners() {
         });
     }
 
-    // 設定: 言語切り替え
+    // 設宁E 言語�Eり替ぁE
     const langSelect = document.getElementById('setting-language');
     if (langSelect) {
         langSelect.addEventListener('change', (e) => {
@@ -534,7 +534,7 @@ function setupEventListeners() {
         });
     }
 
-    // リージョン切替ボタン（ドロップダウン選択式）
+    // リージョン刁E��ボタン�E�ドロチE�Eダウン選択式！E
     const countryBtn = document.getElementById('country-btn');
     if (countryBtn) {
         countryBtn.addEventListener('click', (e) => {
@@ -544,21 +544,21 @@ function setupEventListeners() {
     }
 
 
-    // 設定: データリセット（4段階確認）
+    // 設宁E チE�EタリセチE���E�E段階確認！E
     const btnReset = document.getElementById('btn-reset-data');
     if (btnReset) {
         btnReset.addEventListener('click', async (e) => {
             e.preventDefault();
 
-            // 第1段階: 基本確認
+            // 第1段隁E 基本確誁E
             const step1 = await showConfirmDialog(t('dialog.resetMessage'));
             if (!step1) return;
 
-            // 第2段階: 復元不可の警告
+            // 第2段隁E 復允E��可の警呁E
             const step2 = await showConfirmDialog(t('dialog.resetStep2'));
             if (!step2) return;
 
-            // 第3段階: コレクション数の提示
+            // 第3段隁E コレクション数の提示
             const uniqueCount = getUniqueCardCount();
             const totalCount = getTotalCardCount();
             const step3 = await showConfirmDialog(
@@ -566,7 +566,7 @@ function setupEventListeners() {
             );
             if (!step3) return;
 
-            // 第4段階: 最終確認
+            // 第4段隁E 最終確誁E
             const step4 = await showConfirmDialog(t('dialog.resetFinal'));
             if (!step4) return;
 
@@ -577,11 +577,11 @@ function setupEventListeners() {
         });
     }
 
-    // パックカルーセル - クリックで直接開封 + ドラッグスクロール
+    // パックカルーセル - クリチE��で直接開封E+ ドラチE��スクロール
     const carousel = document.getElementById('pack-carousel');
     const track = document.getElementById('pack-carousel-track');
     if (carousel && track) {
-        // -- ドラッグスクロール --
+        // -- ドラチE��スクロール --
         let isDragging = false;
         let dragStartX = 0;
         let dragScrollLeft = 0;
@@ -608,29 +608,29 @@ function setupEventListeners() {
         track.addEventListener('mouseup', endDrag);
         track.addEventListener('mouseleave', endDrag);
 
-        // -- クリックで直接開封 --
+        // -- クリチE��で直接開封E--
         track.addEventListener('click', async (e) => {
-            if (hasDragged) return; // ドラッグ後はクリック無効
+            if (hasDragged) return; // ドラチE��後�EクリチE��無効
             const item = e.target.closest('.pack-item');
             if (!item) return;
             const packType = item.getAttribute('data-pack');
             if (!packType) return;
 
-            // パック残数チェック
+            // パック残数チェチE��
             const packData = getPackData();
             if (packData.current <= 0) {
                 showToast(t('toast.noPacks'), 'info');
                 return;
             }
 
-            // 選択状態を保存
+            // 選択状態を保孁E
             selectedPackType = packType;
             setSetting('selectedPack', packType);
 
-            // パック画像を切り替え
+            // パック画像を刁E��替ぁE
             updatePackImage(packType);
 
-            // 直接開封
+            // 直接開封E
             navigateTo('pack');
             if (window.MusicGacha && window.MusicGacha.openPack) {
                 await window.MusicGacha.openPack(packType);
@@ -638,7 +638,7 @@ function setupEventListeners() {
         });
     }
 
-    // 設定: 自動パック開封トグル
+    // 設宁E 自動パチE��開封トグル
     const autoOpenToggle = document.getElementById('setting-auto-open');
     if (autoOpenToggle) {
         autoOpenToggle.addEventListener('change', (e) => {
@@ -672,7 +672,7 @@ function setupEventListeners() {
         const DEFAULT_VOLUME = 10;
         const savedVol = getSetting('volume') != null ? parseInt(getSetting('volume'), 10) : DEFAULT_VOLUME;
         volumeSlider.value = isNaN(savedVol) ? DEFAULT_VOLUME : savedVol;
-        // 初回アクセス時は即座にlocalStorageに保存（音が鳴るようにする）
+        // 初回アクセス時�E即座にlocalStorageに保存（音が鳴るよぁE��する�E�E
         if (getSetting('volume') == null) {
             setSetting('volume', String(DEFAULT_VOLUME));
         }
@@ -690,7 +690,7 @@ function setupEventListeners() {
             if (window.MusicGacha?.setPreviewMuted) {
                 window.MusicGacha.setPreviewMuted(false);
             }
-            // カード単体再生の音量も連動
+            // カード単体�E生�E音量も連勁E
             const cardAudio = window.MusicGacha?.getActiveCardAudio?.();
             if (cardAudio) {
                 cardAudio.volume = vol / 100;
@@ -705,14 +705,14 @@ function setupEventListeners() {
             setSetting('muted', isMuted);
             const vol = isMuted ? 0 : parseInt(volumeSlider?.value || '50', 10);
             updateVolumeIcon(vol);
-            // iOS対応: audio.mutedを使用（audio.volumeはiOSで無効）
+            // iOS対忁E audio.mutedを使用�E�Eudio.volumeはiOSで無効�E�E
             if (window.MusicGacha?.setPreviewMuted) {
                 window.MusicGacha.setPreviewMuted(isMuted);
             }
             if (!isMuted && window.MusicGacha?.setPreviewVolume) {
                 window.MusicGacha.setPreviewVolume(vol / 100);
             }
-            // カード単体再生のミュートも連動
+            // カード単体�E生�Eミュートも連勁E
             const cardAudio = window.MusicGacha?.getActiveCardAudio?.();
             if (cardAudio) {
                 cardAudio.muted = isMuted;
@@ -733,7 +733,7 @@ function setupEventListeners() {
         });
     }
 
-    // モーダル背景クリックで閉じる
+    // モーダル背景クリチE��で閉じめE
     const modalOverlay = document.getElementById('card-detail-modal');
     if (modalOverlay) {
         modalOverlay.addEventListener('click', (e) => {
@@ -747,13 +747,13 @@ function setupEventListeners() {
         });
     }
 
-    // ハッシュルーティング
+    // ハッシュルーチE��ング
     window.addEventListener('hashchange', () => {
         const screen = window.location.hash.replace('#', '') || 'home';
         showScreen(screen);
     });
 
-    // 実績ボタン（ホーム + ヘッダー）
+    // 実績ボタン�E��Eーム + ヘッダー�E�E
     const openAchievementModal = () => {
         const modal = document.getElementById('achievement-modal');
         if (modal) {
@@ -772,7 +772,7 @@ function setupEventListeners() {
         btnAchievementsHeader.addEventListener('click', openAchievementModal);
     }
 
-    // 実績モーダル閉じる
+    // 実績モーダル閉じめE
     const achClose = document.getElementById('achievement-modal-close');
     if (achClose) {
         achClose.addEventListener('click', () => {
@@ -781,7 +781,7 @@ function setupEventListeners() {
         });
     }
 
-    // 実績モーダル背景クリックで閉じる
+    // 実績モーダル背景クリチE��で閉じめE
     const achModal = document.getElementById('achievement-modal');
     if (achModal) {
         achModal.addEventListener('click', (e) => {
@@ -789,7 +789,7 @@ function setupEventListeners() {
         });
     }
 
-    // Escキーでモーダルを閉じる（PCユーザー向けUX改善）
+    // Escキーでモーダルを閉じる�E�ECユーザー向けUX改喁E��E
     document.addEventListener('keydown', (e) => {
         if (e.key !== 'Escape') return;
 
@@ -818,7 +818,7 @@ function setupEventListeners() {
             return;
         }
 
-        // リージョンドロップダウン
+        // リージョンドロチE�Eダウン
         const dropdown = document.getElementById('region-dropdown');
         if (dropdown) {
             dropdown.remove();
@@ -833,7 +833,7 @@ function updateRegionDisplay() {
     const region = getRegion();
     const countryBtn = document.getElementById('country-btn');
     if (countryBtn) {
-        // 国旗画像を表示（flagcdn.com CDN）
+        // 国旗画像を表示�E�Elagcdn.com CDN�E�E
         const flagEl = countryBtn.querySelector('.country-flag');
         if (flagEl) {
             flagEl.src = getFlagUrl(region);
@@ -843,12 +843,12 @@ function updateRegionDisplay() {
         const codeEl = countryBtn.querySelector('.country-code');
         if (codeEl) codeEl.textContent = region.toUpperCase();
 
-        // 初期非表示からの復帰（国旗フラッシュ防止）
+        // 初期非表示からの復帰�E�国旗フラチE��ュ防止�E�E
         countryBtn.style.visibility = '';
     }
 }
 
-/** リージョン選択ドロップダウンを表示/非表示 */
+/** リージョン選択ドロチE�Eダウンを表示/非表示 */
 function toggleRegionDropdown() {
     let dropdown = document.getElementById('region-dropdown');
     if (dropdown) {
@@ -890,7 +890,7 @@ function toggleRegionDropdown() {
         countryBtn.parentElement.appendChild(dropdown);
     }
 
-    // 外側クリックで閉じる
+    // 外�EクリチE��で閉じめE
     setTimeout(() => {
         const closeHandler = (e) => {
             if (!dropdown.contains(e.target) && e.target !== countryBtn && !countryBtn.contains(e.target)) {
@@ -906,7 +906,7 @@ async function buildPackCarousel() {
     const track = document.getElementById('pack-carousel-track');
     if (!track) return;
 
-    // データ取得を先に行い、DOM更新は最後に一括で実行（CLS防止）
+    // チE�Eタ取得を先に行い、DOM更新は最後に一括で実行！ELS防止�E�E
     const packsConfig = await getPacksConfig();
     if (!packsConfig) return;
 
@@ -939,11 +939,11 @@ async function buildPackCarousel() {
         fragment.appendChild(btn);
     }
 
-    // 一括swap: クリアと追加を連続実行し、1回のreflowで完了
+    // 一括swap: クリアと追加を連続実行し、E回�Ereflowで完亁E
     track.innerHTML = '';
     track.appendChild(fragment);
 
-    // F5リロード時にブラウザがスクロール位置を復元してTOP200が端に来るのを防止
+    // F5リロード時にブラウザがスクロール位置を復允E��てTOP200が端に来る�Eを防止
     track.scrollLeft = 0;
     requestAnimationFrame(() => {
         track.scrollLeft = 0;
@@ -997,7 +997,7 @@ async function switchRegion(newRegion) {
     setRegion(newRegion);
     trackRegionChange(newRegion);
 
-    // リージョンに応じて言語も切替
+    // リージョンに応じて言語も刁E��
     const config = REGIONS[newRegion];
     if (config && config.language) {
         setSetting('language', config.language);
@@ -1011,7 +1011,7 @@ async function switchRegion(newRegion) {
 
     updateRegionDisplay();
 
-    // ホーム画面に遷移
+    // ホ�Eム画面に遷移
     navigateTo('home');
     updateHomeScreen();
 
@@ -1049,59 +1049,59 @@ function injectTop200Gradient() {
 // ---- Initialization ----
 
 async function init() {
-    // ブラウザの自動スクロール復元を無効化（CLS防止）
+    // ブラウザの自動スクロール復允E��無効化！ELS防止�E�E
     if ('scrollRestoration' in history) {
         history.scrollRestoration = 'manual';
     }
     window.scrollTo(0, 0);
 
-    // ストレージ初期化
+    // ストレージ初期匁E
     initStorage();
 
-    // 設定読み込み: 保存済み言語がなければリージョンの言語をデフォルトに
+    // 設定読み込み: 保存済み言語がなければリージョンの言語をチE��ォルトに
     const detectedRegion = getRegion();
     const detectedLang = REGIONS[detectedRegion]?.language || 'ja';
     const settings = {
         language: getSetting('language') || detectedLang,
     };
 
-    // i18n初期化 + <html lang> 動的更新
+    // i18n初期匁E+ <html lang> 動的更新
     initI18n(settings.language);
     setLanguage(settings.language);
 
-    // 設定画面の初期値セット
+    // 設定画面の初期値セチE��
     const langSelect = document.getElementById('setting-language');
     if (langSelect) langSelect.value = settings.language;
 
-    // パック選択の復元
+    // パック選択�E復允E
     const savedPack = getSetting('selectedPack') || 'top200';
     selectedPackType = savedPack;
 
-    // パック画像の初期設定
+    // パック画像�E初期設宁E
     updatePackImage(savedPack);
 
-    // 自動開封トグルの復元
+    // 自動開封トグルの復允E
     const autoOpenToggle = document.getElementById('setting-auto-open');
     if (autoOpenToggle) {
         autoOpenToggle.checked = getSetting('autoOpen') === true;
     }
 
-    // リージョン表示の初期化
+    // リージョン表示の初期匁E
     updateRegionDisplay();
 
-    // パックカルーセルを動的生成（awaitで完了を待つことでスクロール位置の正しいリセットを保証）
+    // パックカルーセルを動皁E��成！Ewaitで完亁E��征E��ことでスクロール位置の正しいリセチE��を保証�E�E
     await buildPackCarousel();
 
 
 
-    // イベントハンドラ設定
+    // イベントハンドラ設宁E
     setupEventListeners();
 
     // 初期画面表示
     const hash = window.location.hash.replace('#', '') || 'home';
     showScreen(hash);
 
-    // グローバル参照（他モジュールから呼び出し用）
+    // グローバル参�E�E�他モジュールから呼び出し用�E�E
     window.MusicGacha = window.MusicGacha || {};
     window.MusicGacha.navigateTo = navigateTo;
     window.MusicGacha.showToast = showToast;
@@ -1128,16 +1128,16 @@ async function init() {
     // 共有リンクの検知
     initShareHandler();
 
-    // 広告システム初期化
+    // 庁E��シスチE��初期匁E
     initAds();
 
-    // Lucideアイコン初期化
+    // Lucideアイコン初期匁E
     refreshIcons();
 
-    // SVGグラデーション定義を注入
+    // SVGグラチE�Eション定義を注入
     injectTop200Gradient();
 
-    // 初回アクセス時の音声注意トースト
+    // 初回アクセス時�E音声注意トースチE
     if (!getSetting('firstVisitDone')) {
         setSetting('firstVisitDone', true);
         setTimeout(() => {
@@ -1145,7 +1145,7 @@ async function init() {
         }, 1500);
     }
 
-    // タブ復帰時にデータキャッシュを更新（top200-daily.jsonを再取得）
+    // タブ復帰時にチE�EタキャチE��ュを更新�E�Eop200-daily.jsonを�E取得！E
     document.addEventListener('visibilitychange', () => {
         if (document.visibilityState === 'visible') {
             const config = getRegionConfig();
@@ -1155,7 +1155,7 @@ async function init() {
         }
     });
 
-    // 初期化完了: loading状態を解除して即座に表示
+    // 初期化完亁E loading状態を解除して即座に表示
     document.body.classList.remove('loading');
 
     console.log('[MusicGacha] App initialized');
