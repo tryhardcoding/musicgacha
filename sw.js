@@ -3,7 +3,7 @@
 // オフラインキャッシュ + 再訪問時の通信量削減
 // ============================================================
 
-const CACHE_VERSION = 'musicgacha-v38';
+const CACHE_VERSION = 'musicgacha-v39';
 
 // プリキャッシュする静的アセット（初回インストール時に取得）
 const PRECACHE_ASSETS = [

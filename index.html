@@ -61,7 +61,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css?v=20260329a">
+  <link rel="stylesheet" href="index.css?v=20260329b">
   <script src="/js/lucide.min.js" defer></script>
 
   <!-- Google Analytics (GA4) -->
@@ -87,7 +87,7 @@
       </a>
       <nav class="header-nav" id="header-nav">
         <a href="#home" class="nav-item active" data-screen="home">
-          <span class="nav-label" data-i18n="nav.home">ホ�Eム</span>
+          <span class="nav-label" data-i18n="nav.home">ホ�Eム</span>
         </a>
         <a href="#collection" class="nav-item" data-screen="collection">
           <span class="nav-label" data-i18n="nav.collection">コレクション</span>
@@ -112,7 +112,7 @@
     </div>
   </header>
 
-  <!-- ===== Screen: ホ�Eム ===== -->
+  <!-- ===== Screen: ホ�Eム ===== -->
   <section class="screen active" id="screen-home">
     <div class="screen-content">
       <div class="home-subtitle-section">
@@ -129,20 +129,20 @@
         </div>
       </div>
 
-      <!-- パックカルーセル - JSで動的生�E -->
+      <!-- パックカルーセル - JSで動的生�E -->
       <h2 class="section-title"><i data-lucide="music"></i> <span data-i18n="home.choosePack">パックを選ぶ</span></h2>
       <div class="pack-carousel" id="pack-carousel">
         <div class="pack-carousel-track" id="pack-carousel-track">
-          <!-- パックはbuildPackCarousel()で動的に生�E -->
+          <!-- パックはbuildPackCarousel()で動的に生�E -->
         </div>
       </div>
 
-      <!-- ゴールドパチE��進捁E->
+      <!-- ゴールドパチE��進捁E->
       <div class="gold-pack-progress" id="gold-pack-progress">
         <div class="gold-pack-bar">
           <div class="gold-pack-fill" id="gold-pack-fill" style="width: 0%"></div>
         </div>
-        <span class="gold-pack-label" id="gold-pack-label" data-i18n="home.goldPackProgress">0/10 ゴールドパチE��まで</span>
+        <span class="gold-pack-label" id="gold-pack-label" data-i18n="home.goldPackProgress">0/10 ゴールドパチE��まで</span>
       </div>
 
       <!-- TOP200 チャレンジカーチE->
@@ -191,22 +191,22 @@
           </div>
           <div class="amazon-music-text">
             <span class="amazon-music-title" id="amazon-music-title" data-i18n="home.amazonTitle">見つけた曲、フルで聴ける</span>
-            <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <s>1ヶ朁E/s> <strong>3ヶ月無斁E/strong>で聴き放<span class="amazon-promo-deadline">4/6まで</span></span>
+            <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <s>1ヶ月</s> <strong>3ヶ月無料</strong>で聴き放題<span class="amazon-promo-deadline">4/6まで</span></span>
           </div>
           <span class="amazon-music-cta" data-i18n="home.amazonCta">試ぁEↁE/span>
         </div>
       </a>
 
-      <!-- 庁E��バナーーム-->
+      <!-- 庁E��バナーーム-->
       <div class="ad-container" id="ad-home-banner">
-        <!-- i-mobile庁E�� -->
+        <!-- i-mobile庁E�� -->
       </div>
 
-      <!-- チE��リーボ�Eナス -->
+      <!-- チE��リーボ�Eナス -->
       <div class="daily-bonus-card" id="daily-bonus-card">
         <div class="daily-bonus-icon"><i data-lucide="gift"></i></div>
         <div class="daily-bonus-info">
-          <span class="daily-bonus-title" data-i18n="home.dailyBonus">チE��リーボ�Eナス</span>
+          <span class="daily-bonus-title" data-i18n="home.dailyBonus">チE��リーボ�Eナス</span>
           <span class="daily-bonus-desc" data-i18n="home.dailyBonusDesc">3パック獲征Espan>
         </div>
         <button class="btn-daily-bonus" id="btn-daily-bonus" data-i18n="home.claim">受け取る</button>
@@ -215,7 +215,7 @@
       <!-- 追加パック -->
       <button class="btn-ad-pack" id="btn-ad-pack">
         <span class="btn-ad-icon">▶</span>
-        <span data-i18n="home.watchAd">庁E��を見てパックを獲/span>
+        <span data-i18n="home.watchAd">庁E��を見てパックを獲/span>
       </button>
 
       <!-- 実績ボタン -->
@@ -262,7 +262,7 @@
       <!-- カード表示エリア -->
       <div class="pack-cards-container" id="pack-cards-container" style="display:none;">
         <div class="pack-cards" id="pack-cards">
-          <!-- カード�E動的に生�E -->
+          <!-- カード�E動的に生�E -->
         </div>
         <div class="pack-actions">
           <button class="btn-share-x btn-share-x-pack" id="btn-share-pack-result">
@@ -272,7 +272,7 @@
           <div class="pack-auto-open-toggle">
             <div class="pack-auto-open-info">
               <span class="pack-auto-open-label" data-i18n="pack.autoOpen">自動開封Espan>
-              <span class="pack-auto-open-desc" data-i18n="pack.autoOpenDesc">6曲の試聴後に次のパックを�E動開封Espan>
+              <span class="pack-auto-open-desc" data-i18n="pack.autoOpenDesc">6曲の試聴後に次のパックを�E動開封Espan>
             </div>
             <label class="toggle-switch toggle-switch-sm">
               <input type="checkbox" id="setting-auto-open">
@@ -280,7 +280,7 @@
             </label>
           </div>
           <button class="btn-primary" id="btn-open-another" data-i18n="pack.openAnother">もう1パック開けめEbutton>
-          <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.backHome">ホ�Eムに戻めEbutton>
+          <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.backHome">ホ�Eムに戻めEbutton>
         </div>
 
         <!-- Amazon Music Unlimited PRパック開封結果-->
@@ -293,13 +293,13 @@
             </div>
             <div class="amazon-music-text">
               <span class="amazon-music-title" id="amazon-music-title-pack" data-i18n="pack.amazonTitle">気になった曲、フルで聴ける</span>
-              <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <s>1ヶ朁E/s> <strong>3ヶ月無斁E/strong>で聴き放<span class="amazon-promo-deadline">4/6まで</span></span>
+              <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <s>1ヶ月</s> <strong>3ヶ月無料</strong>で聴き放題<span class="amazon-promo-deadline">4/6まで</span></span>
             </div>
             <span class="amazon-music-cta" data-i18n="home.amazonCta">試ぁEↁE/span>
           </div>
         </a>
 
-        <!-- TOP200 チャレンジカウント（パチE��開封結果-->
+        <!-- TOP200 チャレンジカウント（パチE��開封結果-->
         <div class="top200-challenge-card top200-challenge-card-pack" id="top200-challenge-card-pack">
           <div class="top200-challenge-glow"></div>
           <div class="top200-challenge-content">
@@ -335,9 +335,9 @@
           </div>
         </div>
 
-        <!-- 庁E��バナーパック開封結果-->
+        <!-- 庁E��バナーパック開封結果-->
         <div class="ad-container ad-pack-result" id="ad-pack-result-banner">
-          <!-- i-mobile庁E��が�E動挿入 -->
+          <!-- i-mobile庁E��が�E動挿入 -->
         </div>
       </div>
 
@@ -367,7 +367,7 @@
         <button class="pack-filter-tab" data-pack-filter="western"><i data-lucide="globe"></i> 洋楽</button>
       </div>
 
-      <!-- 庁E��バナーコレクション-->
+      <!-- 庁E��バナーコレクション-->
       <div class="ad-container" id="ad-collection-banner">
         <!-- AdSense設定後に自動差し替-->
       </div>
@@ -396,21 +396,21 @@
               <option value="rarity" data-i18n="collection.sortRarity">レアリチEoption>
               <option value="atk" data-i18n="collection.sortAtk">ATK/option>
               <option value="def" data-i18n="collection.sortDef">DEF/option>
-              <option value="artist" data-i18n="collection.sortArtist">アーチE��スト名/option>
+              <option value="artist" data-i18n="collection.sortArtist">アーチE��スト名/option>
             </select>
           </div>
           <div class="filter-group">
-            <input type="text" class="search-input" id="search-input" placeholder="アーチE��スト検索..."
+            <input type="text" class="search-input" id="search-input" placeholder="アーチE��スト検索..."
               data-i18n-placeholder="collection.searchPlaceholder">
           </div>
         </div>
 
-        <!-- カードグリチE�� -->
+        <!-- カードグリチE�� -->
         <div class="card-grid" id="card-grid">
-          <!-- カード�E動的に生�E -->
+          <!-- カード�E動的に生�E -->
           <div class="empty-collection" id="empty-collection">
             <span class="empty-icon"><i data-lucide="music"></i></span>
-            <p data-i18n="collection.empty">まだカードがありません。パチE��を開封して見てましょぼ/p>
+            <p data-i18n="collection.empty">まだカードがありません。パチE��を開封して見てましょぼ/p>
           </div>
         </div>
       </div>
@@ -426,7 +426,7 @@
           <span class="stat-badge" data-i18n="collection.top200Obtained">0/200 取得済み</span>
         </div>
         <div class="top200-ranking-grid" id="top200-ranking-grid">
-          <!-- 200スロチE��が動皁E��生�E -->
+          <!-- 200スロチE��が動皁E��生�E -->
         </div>
       </div>
 
@@ -436,26 +436,26 @@
   <!-- ===== フッター ===== -->
   <footer class="app-footer" id="app-footer">
     <div class="footer-content">
-      <!-- 法的惁E��リンク + チE�EタリセチE�� -->
+      <!-- 法的惁E��リンク + チE�EタリセチE�� -->
       <div class="footer-links">
         <a href="terms.html" class="footer-link" data-i18n="settings.terms">利用規紁Ea>
         <span class="footer-link-sep">|</span>
         <a href="privacy.html" class="footer-link" data-i18n="settings.privacy">プライバシーポリシー</a>
         <span class="footer-link-sep">|</span>
         <a href="#" class="footer-link footer-link-danger" id="btn-reset-data"
-          data-i18n="settings.resetData">チE�EタリセチE��</a>
+          data-i18n="settings.resetData">チE�EタリセチE��</a>
         <span class="footer-link-sep">|</span>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXrBP3CyvfkErgMB667fhcwsIbmZpiFxnX4VsGVWiq300WTQ/viewform" target="_blank" rel="noopener"
-          class="footer-link" data-i18n="settings.feedback">フィードバチE��</a>
+          class="footer-link" data-i18n="settings.feedback">フィードバチE��</a>
       </div>
       <div class="footer-support-subtle">
-        <p class="footer-support-msg" data-i18n="footer.support">サーバ�E代で赤字運営中…応援ぁE��だけると嬉しぁE��ぁEp>
+        <p class="footer-support-msg" data-i18n="footer.support">サーバ�E代で赤字運営中…応援ぁE��だけると嬉しぁE��ぁEp>
         <a href="https://buymeacoffee.com/musicgacha" target="_blank" rel="noopener" class="footer-coffee-link">
           ☁EBuy me a coffee
         </a>
       </div>
 
-      <p class="footer-affiliate-notice" data-i18n="footer.affiliate">当サイト�EAmazonアソシエイト�Eログラムに参加してぁE��ぁEp>
+      <p class="footer-affiliate-notice" data-i18n="footer.affiliate">当サイト�EAmazonアソシエイト�Eログラムに参加してぁE��ぁEp>
       <div class="footer-version">MusicGacha v1.5.3</div>
     </div>
   </footer>
@@ -473,9 +473,9 @@
       <div class="modal-player" id="modal-player">
         <!-- Spotify / YouTube -->
       </div>
-      <!-- 庁E��バナー�E�E��ーダル-->
+      <!-- 庁E��バナー�E�E��ーダル-->
       <div class="ad-container ad-modal" id="ad-modal-banner">
-        <!-- i-mobile庁E��が�E動挿入 -->
+        <!-- i-mobile庁E��が�E動挿入 -->
       </div>
     </div>
   </div>
@@ -485,11 +485,11 @@
     <div class="share-receive-content">
       <div class="share-receive-header">
         <span class="share-receive-icon"><i data-lucide="gift"></i></span>
-        <h2 class="share-receive-title" data-i18n="share.cardArrived">カードが届いてぁE��す！Eh2>
+        <h2 class="share-receive-title" data-i18n="share.cardArrived">カードが届いてぁE��す！Eh2>
         <p class="share-receive-subtitle"></p>
       </div>
       <div class="share-receive-card">
-        <!-- カード�E動的に生�E -->
+        <!-- カード�E動的に生�E -->
       </div>
       <div class="share-receive-actions">
         <button class="btn-primary share-receive-accept" id="btn-share-accept" data-i18n="share.addToCollection">コレクションに追加する</button>
@@ -506,7 +506,7 @@
         <button class="modal-close" id="achievement-modal-close">&times;</button>
       </div>
       <div class="achievement-list" id="achievement-list">
-        <!-- 実績は achievements.js から動的に生�E -->
+        <!-- 実績は achievements.js から動的に生�E -->
       </div>
     </div>
   </div>
@@ -522,7 +522,7 @@
     </div>
   </div>
 
-  <!-- ===== ローチE��ング ===== -->
+  <!-- ===== ローチE��ング ===== -->
   <div class="loading-overlay" id="loading-overlay" style="display:none;">
     <div class="loading-spinner">
       <div class="spinner"></div>
@@ -530,14 +530,14 @@
     </div>
   </div>
 
-  <!-- ===== ト�Eスト通知 ===== -->
+  <!-- ===== ト�Eスト通知 ===== -->
   <div class="toast-container" id="toast-container"></div>
 
-  <!-- JS: 初期化（庁E��スケーリング・SW登録・AdSense等�E読込み-->
-  <script src="js/init.js?v=20260329a"></script>
+  <!-- JS: 初期化（庁E��スケーリング・SW登録・AdSense等�E読込み-->
+  <script src="js/init.js?v=20260329b"></script>
 
   <!-- JS Modules -->
-  <script type="module" src="js/app.js?v=20260329a"></script>
+  <script type="module" src="js/app.js?v=20260329b"></script>
 </body>
 
 </html>
