@@ -8,12 +8,12 @@ import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
 import { getRegion, setRegion, REGIONS, getRegionConfig, getFlagUrl } from './region.js';
 import { getPacksConfig } from './data-loader.js';
-import './gacha.js?v=20260329b'; // ガチャモジュール�E�グローバル参�EにopenPackを登録�E�E
+import './gacha.js?v=20260329c'; // ガチャモジュール�E�グローバル参�EにopenPackを登録�E�E
 import { initCollection, renderCollection, refreshCollection, resetCollectionState } from './collection.js';
 import { initShareHandler } from './transfer.js';
-import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260329b';
+import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260329c';
 import { icon, refreshIcons } from './icons.js';
-import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260329b';
+import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260329c';
 import { invalidateCache } from './data-loader.js';
 import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
 import { getAmazonMusicUnlimitedUrl } from './affiliate.js';
@@ -191,26 +191,17 @@ async function updateTop200ChallengeCard() {
     const card = document.getElementById('top200-challenge-card');
     if (!card) return;
 
-    // 現在のチャートトラチE��と照合して正確なobtained数をカウンチE
-    // コレクション画面(collection.js)と同じロジチE��: obtainedKeys AND コレクション冁E��カードが存在
+    // 現在のチャートトラックと照合して正確なobtained数をカウント
+    // obtainedKeysのみで判定（ガチャ取得時に記録されたキー）
     const chartTracks = await getTop200Tracks();
     const top200Data = getTop200Data();
     const obtainedSet = new Set(top200Data.obtainedKeys);
     const total = chartTracks.length || 200;
 
-    // コレクション冁E�EカードをキーでルチE��アチE�E
-    const collection = getCollection();
-    const collectionKeySet = new Set();
-    for (const c of collection) {
-        const artist = (c.originalArtist || c.artist || '').toLowerCase();
-        const title = (c.originalName || c.title || '').toLowerCase();
-        collectionKeySet.add(`${artist}::${title}`);
-    }
-
     let obtained = 0;
     for (const track of chartTracks) {
         const key = `${track.artist.toLowerCase()}::${track.name.toLowerCase()}`;
-        if (obtainedSet.has(key) && collectionKeySet.has(key)) obtained++;
+        if (obtainedSet.has(key)) obtained++;
     }
     const percentage = Math.min((obtained / total) * 100, 100);
     const remaining = total - obtained;
@@ -293,21 +284,14 @@ async function updateTop200Progress() {
     const chartTracks = await getTop200Tracks();
     const total = chartTracks.length || 200;
 
-    // 今日のチャート�E曲キーとobtainedKeysの一致数をカウンチE
-    // コレクション画面と同じロジチE��: obtainedKeys AND コレクション冁E��カードが存在
+    // 今日のチャートの曲キーとobtainedKeysの一致数をカウント
+    // obtainedKeysのみで判定
     const top200Data = getTop200Data();
     const obtainedSet = new Set(top200Data.obtainedKeys);
-    const collection = getCollection();
-    const collectionKeySet = new Set();
-    for (const c of collection) {
-        const artist = (c.originalArtist || c.artist || '').toLowerCase();
-        const title = (c.originalName || c.title || '').toLowerCase();
-        collectionKeySet.add(`${artist}::${title}`);
-    }
     let obtained = 0;
     for (const track of chartTracks) {
         const key = `${track.artist.toLowerCase()}::${track.name.toLowerCase()}`;
-        if (obtainedSet.has(key) && collectionKeySet.has(key)) obtained++;
+        if (obtainedSet.has(key)) obtained++;
     }
 
     const remaining = total - obtained;
