@@ -5759,5 +5759,44 @@ svg.lucide {
   color: var(--text-secondary);
 }
 
+/* ---- Footer Support / Buy Me a Coffee ---- */
+.footer-support-subtle {
+  margin: var(--space-md) 0;
+  text-align: center;
+}
 
+.footer-support-msg {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-xs);
+  line-height: 1.6;
+}
+
+.footer-coffee-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 20px;
+  background: linear-gradient(135deg, #ffdd00, #f5c400);
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 3px 12px rgba(255, 221, 0, 0.3);
+  transition: all 0.3s var(--ease-spring);
+}
+
+.footer-coffee-link:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 24px rgba(255, 221, 0, 0.4);
+  color: #1a1a1a;
+}
+
+.footer-affiliate-notice {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: var(--space-sm);
+  opacity: 0.7;
+}
 
