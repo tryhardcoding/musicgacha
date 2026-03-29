@@ -4,26 +4,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MusicGacha - 音楽ガチャで新しい曲と出会おう</title>
-  <meta name="description" content="ガチャで世界中の音楽カードを集めよう。Spotify・YouTubeで即試聴。レアカードをコンプリートして最強のコレクションを作ろう。">
+  <title>MusicGacha - Discover new music through gacha</title>
+  <meta name="description" content="Collect music cards from around the world. Listen instantly on Spotify & YouTube. Complete rare cards and build the ultimate collection.">
 
-  <!-- Google Fonts -->
+  <!-- Canonical -->
+  <link rel="canonical" href="https://musicgacha.com/">
+
+  <!-- hreflang: Multi-language SEO -->
+  <link rel="alternate" hreflang="x-default" href="https://musicgacha.com/">
+  <link rel="alternate" hreflang="ja" href="https://musicgacha.com/?lang=ja">
+  <link rel="alternate" hreflang="en" href="https://musicgacha.com/?lang=en">
+  <link rel="alternate" hreflang="fr" href="https://musicgacha.com/?lang=fr">
+  <link rel="alternate" hreflang="de" href="https://musicgacha.com/?lang=de">
+  <link rel="alternate" hreflang="it" href="https://musicgacha.com/?lang=it">
+  <link rel="alternate" hreflang="es" href="https://musicgacha.com/?lang=es">
+  <link rel="alternate" hreflang="pt" href="https://musicgacha.com/?lang=pt">
+  <link rel="alternate" hreflang="ko" href="https://musicgacha.com/?lang=ko">
+  <link rel="alternate" hreflang="zh" href="https://musicgacha.com/?lang=zh">
+  <link rel="alternate" hreflang="th" href="https://musicgacha.com/?lang=th">
+  <link rel="alternate" hreflang="vi" href="https://musicgacha.com/?lang=vi">
+  <link rel="alternate" hreflang="id" href="https://musicgacha.com/?lang=id">
+  <link rel="alternate" hreflang="ar" href="https://musicgacha.com/?lang=ar">
+  <link rel="alternate" hreflang="hi" href="https://musicgacha.com/?lang=hi">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/assets/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="/assets/favicon-512.png">
+
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#22D3EE">
+
+  <!-- OGP (Open Graph) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MusicGacha">
+  <meta property="og:title" content="MusicGacha - Discover new music through gacha">
+  <meta property="og:description" content="Collect music cards from around the world. Listen instantly on Spotify & YouTube. Complete rare cards and build the ultimate collection.">
+  <meta property="og:url" content="https://musicgacha.com/">
+  <meta property="og:image" content="https://musicgacha.com/assets/ogp.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MusicGacha - Discover new music through gacha">
+  <meta name="twitter:description" content="Collect music cards from around the world. Listen instantly on Spotify & YouTube. Complete rare cards and build the ultimate collection.">
+  <meta name="twitter:image" content="https://musicgacha.com/assets/ogp.png">
+
+  <!-- Preconnect: CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css?v=20260329e">
-  <script src="https://unpkg.com/lucide@0.577.0/dist/umd/lucide.min.js"
-    integrity="sha384-orgVf2eX2+m1zKAOIi09hD0W6GtVhoOUmqDK+sysYB2JTZ4vS86j4jm+X7a4Nnei"
-    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css?v=20260329f">
+  <script src="/js/lucide.min.js" defer></script>
 
-
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRM0GZ607Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GRM0GZ607Y');
+  </script>
 </head>
 
-<body>
-  <!-- ===== 統一ヘッダー（1行） ===== -->
+<body class="loading">
+
+  <!-- ===== 統一ヘッダー===== -->
   <header class="unified-header" id="unified-header">
     <div class="header-row">
       <a href="#home" class="header-logo-link">
@@ -33,20 +86,24 @@
         </h1>
       </a>
       <nav class="header-nav" id="header-nav">
-        <a href="#home" class="nav-item active" data-screen="home" data-i18n="nav.home">
-          <span class="nav-label">ホーム</span>
+        <a href="#home" class="nav-item active" data-screen="home">
+          <span class="nav-label" data-i18n="nav.home">ホ�Eム</span>
         </a>
-        <a href="#collection" class="nav-item" data-screen="collection" data-i18n="nav.collection">
-          <span class="nav-label">コレクション</span>
+        <a href="#collection" class="nav-item" data-screen="collection">
+          <span class="nav-label" data-i18n="nav.collection">コレクション</span>
         </a>
       </nav>
       <div class="header-actions">
-        <button class="country-btn" id="country-btn" aria-label="国切替">
-          <i data-lucide="globe"></i>
-          <span class="country-code">JP</span>
+        <button class="header-achievement-btn" id="btn-achievements-header" aria-label="実績">
+          <i data-lucide="trophy"></i>
+          <span class="header-achievement-count" id="achievement-header-count">0</span>
+        </button>
+        <button class="country-btn" id="country-btn" aria-label="国/言語 style="visibility:hidden;">
+          <img class="country-flag" src="" alt="" width="20" height="15">
+          <span class="country-code"></span>
         </button>
         <div class="header-volume">
-          <button class="volume-btn" id="volume-btn" aria-label="ミュート">
+          <button class="volume-btn" id="volume-btn" aria-label="ミュート>
             <span class="volume-icon" id="volume-icon"><i data-lucide="volume-2"></i></span>
           </button>
           <input type="range" class="volume-slider" id="volume-slider" min="0" max="100" value="50">
@@ -55,14 +112,14 @@
     </div>
   </header>
 
-  <!-- ===== Screen: ホーム ===== -->
+  <!-- ===== Screen: ホ�Eム ===== -->
   <section class="screen active" id="screen-home">
     <div class="screen-content">
       <div class="home-subtitle-section">
-        <p class="app-subtitle" data-i18n="home.subtitle">音楽ガチャで新しい曲と出会おう</p>
+        <p class="app-subtitle" data-i18n="home.subtitle">音楽ガチャで新しい曲とおう/p>
       </div>
 
-      <!-- パック情報バー -->
+      <!-- パック選択バー -->
       <div class="pack-info-bar">
         <div class="pack-info-item">
           <span class="pack-info-icon"><i data-lucide="layers"></i></span>
@@ -72,47 +129,23 @@
         </div>
       </div>
 
-      <!-- パックカルーセル - 横スクロール周回 -->
-      <h2 class="section-title">🎵 パックを選ぶ</h2>
+      <!-- パックカルーセル - JSで動的生成 -->
+      <h2 class="section-title"><i data-lucide="music"></i> <span data-i18n="home.choosePack">パックを選ぶ</span></h2>
       <div class="pack-carousel" id="pack-carousel">
         <div class="pack-carousel-track" id="pack-carousel-track">
-          <button class="pack-item" data-pack="top200">
-            <span class="pack-badge">おすすめ</span>
-            <img class="pack-item-img" src="assets/pack-top200.webp" alt="Top 200" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.top200">Top 200</span>
-          </button>
-          <button class="pack-item" data-pack="standard">
-            <img class="pack-item-img" src="assets/pack-standard.webp" alt="All" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.standard">オール</span>
-          </button>
-          <button class="pack-item" data-pack="jpop">
-            <img class="pack-item-img" src="assets/pack-jpop.webp" alt="J-POP" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.jpop">J-POP</span>
-          </button>
-          <button class="pack-item" data-pack="kpop">
-            <img class="pack-item-img" src="assets/pack-kpop.webp" alt="K-POP" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.kpop">K-POP</span>
-          </button>
-          <button class="pack-item" data-pack="vocaloid">
-            <img class="pack-item-img" src="assets/pack-vocaloid.webp" alt="Vocaloid" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.vocaloid">ボカロ</span>
-          </button>
-          <button class="pack-item" data-pack="anime">
-            <img class="pack-item-img" src="assets/pack-anime.webp" alt="Anime" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.anime">Anime</span>
-          </button>
-          <button class="pack-item" data-pack="hiphop">
-            <img class="pack-item-img" src="assets/pack-hiphop.webp" alt="Hip-Hop" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.hiphop">Hip-Hop</span>
-          </button>
-          <button class="pack-item" data-pack="western">
-            <img class="pack-item-img" src="assets/pack-western.webp" alt="Western" draggable="false">
-            <span class="pack-item-name" data-i18n="pack.western">洋楽</span>
-          </button>
+          <!-- パックはbuildPackCarousel()で動的に生成 -->
         </div>
       </div>
 
-      <!-- TOP200 チャレンジカード -->
+      <!-- ゴールドパック進捁E->
+      <div class="gold-pack-progress" id="gold-pack-progress">
+        <div class="gold-pack-bar">
+          <div class="gold-pack-fill" id="gold-pack-fill" style="width: 0%"></div>
+        </div>
+        <span class="gold-pack-label" id="gold-pack-label" data-i18n="home.goldPackProgress">0/10 ゴールドパックまで</span>
+      </div>
+
+      <!-- TOP200 チャレンジカード->
       <div class="top200-challenge-card" id="top200-challenge-card">
         <div class="top200-challenge-glow"></div>
         <div class="top200-challenge-content">
@@ -131,7 +164,7 @@
           <div class="top200-challenge-right">
             <div class="top200-challenge-header">
               <span class="top200-challenge-icon"><i data-lucide="trophy"></i></span>
-              <span class="top200-challenge-title">TOP 200 チャレンジ</span>
+              <span class="top200-challenge-title" data-i18n="home.top200Challenge">TOP 200 チャレンジ</span>
             </div>
             <div class="top200-challenge-bar-container">
               <div class="top200-challenge-bar">
@@ -142,40 +175,11 @@
             </div>
             <div class="top200-challenge-milestone" id="top200-challenge-milestone"></div>
             <div class="top200-challenge-cta" id="top200-challenge-cta">
-              毎日更新のチャートを集めよう →
+              毎日更新のチャートを見てみよう
             </div>
           </div>
         </div>
       </div>
-
-      <!-- ゴールドパック進捗 -->
-      <div class="gold-pack-progress" id="gold-pack-progress">
-        <div class="gold-pack-bar">
-          <div class="gold-pack-fill" id="gold-pack-fill" style="width: 0%"></div>
-        </div>
-        <span class="gold-pack-label" id="gold-pack-label">0/10 ゴールドパックまで</span>
-      </div>
-
-      <!-- 広告バナー（ホーム） -->
-      <div class="ad-container" id="ad-home-banner">
-        <!-- AdSense設定後に自動差し替え -->
-      </div>
-
-      <!-- デイリーボーナス -->
-      <div class="daily-bonus-card" id="daily-bonus-card">
-        <div class="daily-bonus-icon"><i data-lucide="gift"></i></div>
-        <div class="daily-bonus-info">
-          <span class="daily-bonus-title" data-i18n="home.dailyBonus">デイリーボーナス</span>
-          <span class="daily-bonus-desc" data-i18n="home.dailyBonusDesc">3パック獲得！</span>
-        </div>
-        <button class="btn-daily-bonus" id="btn-daily-bonus" data-i18n="home.claim">受け取る</button>
-      </div>
-
-      <!-- 追加パック -->
-      <button class="btn-ad-pack" id="btn-ad-pack">
-        <span class="btn-ad-icon">▶</span>
-        <span data-i18n="home.watchAd">広告を見てパックを獲得</span>
-      </button>
 
       <!-- Amazon Music Unlimited PR -->
       <a href="#" target="_blank" rel="noopener sponsored" class="amazon-music-card" id="amazon-music-pr">
@@ -183,17 +187,45 @@
         <div class="amazon-music-glow"></div>
         <div class="amazon-music-card-inner">
           <div class="amazon-music-icon-area">
-            <span class="amazon-music-note">♪</span>
+            <i data-lucide="play" class="amazon-music-lucide-icon"></i>
           </div>
           <div class="amazon-music-text">
-            <span class="amazon-music-title" id="amazon-music-title">見つけた曲、フルで聴ける</span>
-            <span class="amazon-music-desc">Amazon Music Unlimited ── <strong>30日間無料</strong>で試す</span>
+            <span class="amazon-music-title" id="amazon-music-title" data-i18n="home.amazonTitle">見つけた曲、フルで聴ける</span>
+            <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <s>1ヶ月</s> <strong>3ヶ月無料</strong>で聴き放題<span class="amazon-promo-deadline">4/6まで</span></span>
           </div>
-          <span class="amazon-music-cta">試す →</span>
+          <span class="amazon-music-cta" data-i18n="home.amazonCta">試す →</span>
         </div>
       </a>
 
-      <!-- 収集進捗 -->
+      <!-- 広告バナーーム-->
+      <div class="ad-container" id="ad-home-banner">
+        <!-- i-mobile広告 -->
+      </div>
+
+      <!-- デイリーボーナス -->
+      <div class="daily-bonus-card" id="daily-bonus-card">
+        <div class="daily-bonus-icon"><i data-lucide="gift"></i></div>
+        <div class="daily-bonus-info">
+          <span class="daily-bonus-title" data-i18n="home.dailyBonus">デイリーボーナス</span>
+          <span class="daily-bonus-desc" data-i18n="home.dailyBonusDesc">3パック獲得</span>
+        </div>
+        <button class="btn-daily-bonus" id="btn-daily-bonus" data-i18n="home.claim">受け取る</button>
+      </div>
+
+      <!-- 追加パック -->
+      <button class="btn-ad-pack" id="btn-ad-pack">
+        <span class="btn-ad-icon">▶</span>
+        <span data-i18n="home.watchAd">広告を見てパックを獲/span>
+      </button>
+
+      <!-- 実績ボタン -->
+      <button class="achievement-btn" id="btn-achievements">
+        <i data-lucide="trophy"></i>
+        <span class="achievement-btn-label" data-i18n="home.achievements">実績</span>
+        <span class="achievement-btn-count" id="achievement-btn-count">0/42</span>
+      </button>
+
+      <!-- 収集進-->
       <div class="collection-progress" id="collection-progress">
         <div class="progress-ring">
           <svg viewBox="0 0 100 100">
@@ -204,37 +236,71 @@
         </div>
         <div class="progress-info">
           <span class="progress-label" data-i18n="home.collected">曲収集済み</span>
-          <span class="progress-total" id="progress-total">0 / ∞</span>
+          <span class="progress-total" id="progress-total">0 / /span>
         </div>
         <button class="btn-share-x btn-share-x-sm" id="btn-share-collection" title="コレクションをXでシェア">
           <svg class="x-logo" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          シェア
+          <span data-i18n="home.share">シェア</span>
         </button>
       </div>
     </div>
   </section>
 
-  <!-- ===== Screen: パック開封 ===== -->
+  <!-- ===== Screen: パック閁E==== -->
   <section class="screen" id="screen-pack">
     <div class="screen-content pack-screen">
-      <!-- パック開封演出コンテナ -->
+      <!-- パック開封演出コンテナ-->
       <div class="pack-opening-container" id="pack-opening-container">
         <div class="pack-wrapper" id="pack-wrapper">
           <div class="pack-visual" id="pack-visual">
             <img class="pack-image" src="assets/pack-standard.webp" alt="Music Pack" draggable="false">
           </div>
-          <p class="pack-tap-hint" data-i18n="pack.tapToOpen">▲ タップで開ける ▲</p>
+          <p class="pack-tap-hint" data-i18n="pack.tapToOpen">▲ タで開ける▲</p>
         </div>
       </div>
 
       <!-- カード表示エリア -->
       <div class="pack-cards-container" id="pack-cards-container" style="display:none;">
         <div class="pack-cards" id="pack-cards">
-          <!-- カードは動的に生成 -->
+          <!-- カード�E動的に生成 -->
         </div>
-        
-        <!-- TOP200 チャレンジカード（パック結果画面） -->
-        <div class="top200-challenge-card" id="top200-challenge-card-pack">
+        <div class="pack-actions">
+          <button class="btn-share-x btn-share-x-pack" id="btn-share-pack-result">
+            <svg class="x-logo" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            <span data-i18n="pack.shareResult">結果をXでシェア</span>
+          </button>
+          <div class="pack-auto-open-toggle">
+            <div class="pack-auto-open-info">
+              <span class="pack-auto-open-label" data-i18n="pack.autoOpen">自動開封Espan>
+              <span class="pack-auto-open-desc" data-i18n="pack.autoOpenDesc">6曲の試聴後に次のパックを�E動開封Espan>
+            </div>
+            <label class="toggle-switch toggle-switch-sm">
+              <input type="checkbox" id="setting-auto-open">
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+          <button class="btn-primary" id="btn-open-another" data-i18n="pack.openAnother">もう1パック開けめEbutton>
+          <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.backHome">ホ�Eムに戻めEbutton>
+        </div>
+
+        <!-- Amazon Music Unlimited PRパック開封結果-->
+        <a href="#" target="_blank" rel="noopener sponsored" class="amazon-music-card amazon-music-card-pack" id="amazon-music-pr-pack">
+          <span class="amazon-music-pr-tag">PR</span>
+          <div class="amazon-music-glow"></div>
+          <div class="amazon-music-card-inner">
+            <div class="amazon-music-icon-area">
+              <i data-lucide="play" class="amazon-music-lucide-icon"></i>
+            </div>
+            <div class="amazon-music-text">
+              <span class="amazon-music-title" id="amazon-music-title-pack" data-i18n="pack.amazonTitle">気になった曲、フルで聴ける</span>
+              <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <s>1ヶ月</s> <strong>3ヶ月無料</strong>で聴き放題<span class="amazon-promo-deadline">4/6まで</span></span>
+            </div>
+            <span class="amazon-music-cta" data-i18n="home.amazonCta">試す →</span>
+          </div>
+        </a>
+
+        <!-- TOP200 チャレンジカウント（パック��開封結果-->
+        <div class="top200-challenge-card top200-challenge-card-pack" id="top200-challenge-card-pack">
           <div class="top200-challenge-glow"></div>
           <div class="top200-challenge-content">
             <div class="top200-challenge-left">
@@ -269,48 +335,13 @@
           </div>
         </div>
 
-        <!-- Amazon Music Unlimited PR（パック結果） -->
-        <a href="#" target="_blank" rel="noopener sponsored" class="amazon-music-card" id="amazon-music-pr-pack">
-          <span class="amazon-music-pr-tag">PR</span>
-          <div class="amazon-music-glow"></div>
-          <div class="amazon-music-card-inner">
-            <div class="amazon-music-icon-area">
-              <i data-lucide="play" class="amazon-music-lucide-icon"></i>
-            </div>
-            <div class="amazon-music-text">
-              <span class="amazon-music-title" id="amazon-music-title-pack" data-i18n="pack.amazonTitle">見つけた曲、フルで聴ける</span>
-              <span class="amazon-music-desc" data-i18n="pack.amazonDesc">Amazon Music Unlimited ── <s>1ヶ月</s> <strong>3ヶ月無料</strong>で聴き放題<span class="amazon-promo-deadline">4/6まで</span></span>
-            </div>
-            <span class="amazon-music-cta" data-i18n="pack.amazonCta">試す →</span>
-          </div>
-        </a>
-
-        <div class="pack-actions">
-          <button class="btn-share-x btn-share-x-pack" id="btn-share-pack-result">
-            <svg class="x-logo" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            結果をXでシェア
-          </button>
-          <div class="pack-auto-open-toggle">
-            <div class="pack-auto-open-info">
-              <span class="pack-auto-open-label" data-i18n="pack.autoOpen">自動開封</span>
-              <span class="pack-auto-open-desc" data-i18n="pack.autoOpenDesc">6曲の試聴後に次のパックを自動開封</span>
-            </div>
-            <label class="toggle-switch toggle-switch-sm">
-              <input type="checkbox" id="setting-auto-open">
-              <span class="toggle-slider"></span>
-            </label>
-          </div>
-          <button class="btn-primary" id="btn-open-another" data-i18n="pack.openAnother">もう1パック開ける</button>
-          <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.backHome">ホームに戻る</button>
-        </div>
-
-        <!-- 広告バナー（パック開封結果） -->
+        <!-- 広告バナーパック開封結果-->
         <div class="ad-container ad-pack-result" id="ad-pack-result-banner">
-          <!-- i-mobile広告が自動挿入 -->
+          <!-- i-mobile広告が�E動挿入 -->
         </div>
       </div>
 
-      <!-- パーティクルエフェクト用 -->
+      <!-- パヂクルエフェクト用 -->
       <canvas class="particle-canvas" id="particle-canvas"></canvas>
     </div>
   </section>
@@ -320,10 +351,10 @@
     <div class="screen-content">
       <div class="collection-stats" id="collection-stats">
         <span class="stat-badge" id="stat-total">0曲</span>
-        <span class="stat-badge stat-unique" id="stat-unique">0種類</span>
+        <span class="stat-badge stat-unique" id="stat-unique">0種/span>
       </div>
 
-      <!-- パック選択タブ -->
+      <!-- パック選択タ-->
       <div class="pack-filter-tabs" id="pack-filter-tabs">
         <button class="pack-filter-tab active" data-pack-filter="all">全て</button>
         <button class="pack-filter-tab pack-filter-tab-top200" data-pack-filter="top200"><i data-lucide="trophy"></i>
@@ -336,9 +367,9 @@
         <button class="pack-filter-tab" data-pack-filter="western"><i data-lucide="globe"></i> 洋楽</button>
       </div>
 
-      <!-- 広告バナー（コレクション） -->
+      <!-- 広告バナーコレクション-->
       <div class="ad-container" id="ad-collection-banner">
-        <!-- AdSense設定後に自動差し替え -->
+        <!-- AdSense設定後に自動差し替-->
       </div>
 
       <!-- 通常コレクションビュー -->
@@ -360,12 +391,12 @@
           <div class="filter-group">
             <label class="filter-label" data-i18n="collection.sort">ソート</label>
             <select class="sort-select" id="sort-select">
-              <option value="acquiredAt" data-i18n="collection.sortDate">取得日順</option>
-              <option value="favorite" data-i18n="collection.sortFavorite">お気に入り順</option>
-              <option value="rarity" data-i18n="collection.sortRarity">レアリティ順</option>
-              <option value="atk" data-i18n="collection.sortAtk">ATK順</option>
-              <option value="def" data-i18n="collection.sortDef">DEF順</option>
-              <option value="artist" data-i18n="collection.sortArtist">アーティスト名順</option>
+              <option value="acquiredAt" data-i18n="collection.sortDate">取得日/option>
+              <option value="favorite" data-i18n="collection.sortFavorite">お気に入めEoption>
+              <option value="rarity" data-i18n="collection.sortRarity">レアリティ</option>
+              <option value="atk" data-i18n="collection.sortAtk">ATK/option>
+              <option value="def" data-i18n="collection.sortDef">DEF/option>
+              <option value="artist" data-i18n="collection.sortArtist">アーティスト名/option>
             </select>
           </div>
           <div class="filter-group">
@@ -374,12 +405,12 @@
           </div>
         </div>
 
-        <!-- カードグリッド -->
+        <!-- カードグリッド� -->
         <div class="card-grid" id="card-grid">
-          <!-- カードは動的に生成 -->
+          <!-- カード�E動的に生成 -->
           <div class="empty-collection" id="empty-collection">
             <span class="empty-icon"><i data-lucide="music"></i></span>
-            <p data-i18n="collection.empty">まだカードがありません。パックを開封して集めましょう！</p>
+            <p data-i18n="collection.empty">まだカードがありません。パック��を開封して見てましょぼ/p>
           </div>
         </div>
       </div>
@@ -392,7 +423,7 @@
           <button class="top200-date-btn" id="top200-date-next">▶</button>
         </div>
         <div class="top200-collection-stats" id="top200-collection-stats">
-          <span class="stat-badge">0/200 取得済み</span>
+          <span class="stat-badge" data-i18n="collection.top200Obtained">0/200 取得済み</span>
         </div>
         <div class="top200-ranking-grid" id="top200-ranking-grid">
           <!-- 200スロットが動的に生成 -->
@@ -407,22 +438,24 @@
     <div class="footer-content">
       <!-- 法的情報リンク + データリセット -->
       <div class="footer-links">
-        <a href="terms.html" class="footer-link" data-i18n="settings.terms">利用規約</a>
+        <a href="terms.html" class="footer-link" data-i18n="settings.terms">利用規紁Ea>
         <span class="footer-link-sep">|</span>
         <a href="privacy.html" class="footer-link" data-i18n="settings.privacy">プライバシーポリシー</a>
         <span class="footer-link-sep">|</span>
         <a href="#" class="footer-link footer-link-danger" id="btn-reset-data"
           data-i18n="settings.resetData">データリセット</a>
+        <span class="footer-link-sep">|</span>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXrBP3CyvfkErgMB667fhcwsIbmZpiFxnX4VsGVWiq300WTQ/viewform" target="_blank" rel="noopener"
+          class="footer-link" data-i18n="settings.feedback">フィードバック�</a>
       </div>
-
       <div class="footer-support-subtle">
-        <p class="footer-support-msg">サーバー代で赤字運営中…応援いただけると嬉しいです</p>
+        <p class="footer-support-msg" data-i18n="footer.support">サーバー代で赤字運営中…応援いただけると嬉しいですp>
         <a href="https://buymeacoffee.com/musicgacha" target="_blank" rel="noopener" class="footer-coffee-link">
-          ☕ Buy me a coffee
+          ☁EBuy me a coffee
         </a>
       </div>
 
-      <p class="footer-affiliate-notice">当サイトはAmazonアソシエイトプログラムに参加しています</p>
+      <p class="footer-affiliate-notice" data-i18n="footer.affiliate">当サイトはAmazonアソシエイト・プログラムに参加していますp>
       <div class="footer-version">MusicGacha v1.5.3</div>
     </div>
   </footer>
@@ -435,14 +468,14 @@
         <!-- カード拡大表示 -->
       </div>
       <div class="modal-info" id="modal-info">
-        <!-- 曲情報 -->
+        <!-- 曲カード-->
       </div>
       <div class="modal-player" id="modal-player">
         <!-- Spotify / YouTube -->
       </div>
-      <!-- 広告バナー（モーダル） -->
+      <!-- 広告バナー�E�E��ーダル-->
       <div class="ad-container ad-modal" id="ad-modal-banner">
-        <!-- i-mobile広告が自動挿入 -->
+        <!-- i-mobile広告が�E動挿入 -->
       </div>
     </div>
   </div>
@@ -452,15 +485,28 @@
     <div class="share-receive-content">
       <div class="share-receive-header">
         <span class="share-receive-icon"><i data-lucide="gift"></i></span>
-        <h2 class="share-receive-title">カードが届いています！</h2>
+        <h2 class="share-receive-title" data-i18n="share.cardArrived">カードが届いています！</h2>
         <p class="share-receive-subtitle"></p>
       </div>
       <div class="share-receive-card">
-        <!-- カードは動的に生成 -->
+        <!-- カード�E動的に生成 -->
       </div>
       <div class="share-receive-actions">
-        <button class="btn-primary share-receive-accept" id="btn-share-accept">コレクションに追加する</button>
-        <button class="btn-secondary share-receive-decline" id="btn-share-decline">キャンセル</button>
+        <button class="btn-primary share-receive-accept" id="btn-share-accept" data-i18n="share.addToCollection">コレクションに追加する</button>
+        <button class="btn-secondary share-receive-decline" id="btn-share-decline" data-i18n="dialog.cancel">キャンセル</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 実績モーダル ===== -->
+  <div class="modal-overlay achievement-modal" id="achievement-modal" style="display:none;">
+    <div class="achievement-modal-content">
+      <div class="achievement-modal-header">
+        <h2 class="achievement-modal-title"><i data-lucide="trophy"></i> <span data-i18n="home.achievements">実績</span></h2>
+        <button class="modal-close" id="achievement-modal-close">&times;</button>
+      </div>
+      <div class="achievement-list" id="achievement-list">
+        <!-- 実績は achievements.js から動的に生成 -->
       </div>
     </div>
   </div>
@@ -484,14 +530,14 @@
     </div>
   </div>
 
-  <!-- ===== トースト通知 ===== -->
+  <!-- ===== ト�Eスト通知 ===== -->
   <div class="toast-container" id="toast-container"></div>
 
-  <!-- JS: 初期化（広告スケーリング・SW登録・AdSense遅延読込） -->
-  <script src="js/init.js?v=20260329e"></script>
+  <!-- JS: 初期化（広告スケーリング・SW登録・AdSense等�E読込み-->
+  <script src="js/init.js?v=20260329f"></script>
 
   <!-- JS Modules -->
-  <script type="module" src="js/app.js?v=20260329e"></script>
+  <script type="module" src="js/app.js?v=20260329f"></script>
 </body>
 
 </html>
