@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css?v=20260329d">
+  <link rel="stylesheet" href="index.css?v=20260329e">
   <script src="https://unpkg.com/lucide@0.577.0/dist/umd/lucide.min.js"
     integrity="sha384-orgVf2eX2+m1zKAOIi09hD0W6GtVhoOUmqDK+sysYB2JTZ4vS86j4jm+X7a4Nnei"
     crossorigin="anonymous"></script>
@@ -232,6 +232,59 @@
         <div class="pack-cards" id="pack-cards">
           <!-- カードは動的に生成 -->
         </div>
+        
+        <!-- TOP200 チャレンジカード（パック結果画面） -->
+        <div class="top200-challenge-card" id="top200-challenge-card-pack">
+          <div class="top200-challenge-glow"></div>
+          <div class="top200-challenge-content">
+            <div class="top200-challenge-left">
+              <div class="top200-ring-container">
+                <svg class="top200-ring" viewBox="0 0 120 120">
+                  <circle class="top200-ring-track" cx="60" cy="60" r="52" />
+                  <circle class="top200-ring-fill" id="top200-ring-fill-pack" cx="60" cy="60" r="52" />
+                </svg>
+                <div class="top200-ring-center">
+                  <span class="top200-ring-number" id="top200-ring-number-pack">0</span>
+                  <span class="top200-ring-total">/200</span>
+                </div>
+              </div>
+            </div>
+            <div class="top200-challenge-right">
+              <div class="top200-challenge-header">
+                <span class="top200-challenge-icon"><i data-lucide="trophy"></i></span>
+                <span class="top200-challenge-title" data-i18n="home.top200Challenge">TOP 200 チャレンジ</span>
+              </div>
+              <div class="top200-challenge-bar-container">
+                <div class="top200-challenge-bar">
+                  <div class="top200-challenge-bar-fill" id="top200-challenge-bar-fill-pack"></div>
+                  <div class="top200-challenge-bar-shine"></div>
+                </div>
+                <span class="top200-challenge-percent" id="top200-challenge-percent-pack">0%</span>
+              </div>
+              <div class="top200-challenge-milestone" id="top200-challenge-milestone-pack"></div>
+              <div class="top200-challenge-cta" id="top200-challenge-cta-pack">
+                毎日更新のチャートを見てみよう
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Amazon Music Unlimited PR（パック結果） -->
+        <a href="#" target="_blank" rel="noopener sponsored" class="amazon-music-card" id="amazon-music-pr-pack">
+          <span class="amazon-music-pr-tag">PR</span>
+          <div class="amazon-music-glow"></div>
+          <div class="amazon-music-card-inner">
+            <div class="amazon-music-icon-area">
+              <i data-lucide="play" class="amazon-music-lucide-icon"></i>
+            </div>
+            <div class="amazon-music-text">
+              <span class="amazon-music-title" id="amazon-music-title-pack" data-i18n="pack.amazonTitle">見つけた曲、フルで聴ける</span>
+              <span class="amazon-music-desc" data-i18n="pack.amazonDesc">Amazon Music Unlimited ── <s>1ヶ月</s> <strong>3ヶ月無料</strong>で聴き放題<span class="amazon-promo-deadline">4/6まで</span></span>
+            </div>
+            <span class="amazon-music-cta" data-i18n="pack.amazonCta">試す →</span>
+          </div>
+        </a>
+
         <div class="pack-actions">
           <button class="btn-share-x btn-share-x-pack" id="btn-share-pack-result">
             <svg class="x-logo" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
@@ -435,10 +488,10 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- JS: 初期化（広告スケーリング・SW登録・AdSense遅延読込） -->
-  <script src="js/init.js?v=20260329d"></script>
+  <script src="js/init.js?v=20260329e"></script>
 
   <!-- JS Modules -->
-  <script type="module" src="js/app.js?v=20260329d"></script>
+  <script type="module" src="js/app.js?v=20260329e"></script>
 </body>
 
 </html>
