@@ -360,7 +360,7 @@ export async function renderTop200View() {
             grid.appendChild(wrapper);
         } else {
             // 未取得: カード裏面
-            const backEl = renderCardBack(track.rank, track.artist, track.name);
+            const backEl = renderCardBack(track.rank, track.itunesArtistName || track.artist, track.itunesTrackName || track.name);
             grid.appendChild(backEl);
         }
     }

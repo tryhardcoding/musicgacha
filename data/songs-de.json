@@ -172,7 +172,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 159008,
         "releaseDate": "2026-03-20",
-        "rarity": "LR"
+        "rarity": "LR",
+        "itunesTrackName": "SWIM",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "SWIM (Alternate Cover RM Version)",
@@ -305,7 +307,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 159008,
         "releaseDate": "2026-03-20",
-        "rarity": "LR"
+        "rarity": "LR",
+        "itunesTrackName": "SWIM",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "SWIM (Instrumental)",
@@ -324,7 +328,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 159008,
         "releaseDate": "2026-03-24",
-        "rarity": "LR"
+        "rarity": "LR",
+        "itunesTrackName": "SWIM",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "New Religion",
@@ -343,7 +349,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 174400,
         "releaseDate": "2026-03-06",
-        "rarity": "LR"
+        "rarity": "LR",
+        "itunesTrackName": "New Religion",
+        "itunesArtistName": "Bebe Rexha & Faithless"
       },
       {
         "name": "New Religion",
@@ -362,7 +370,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 174400,
         "releaseDate": "2026-03-06",
-        "rarity": "LR"
+        "rarity": "LR",
+        "itunesTrackName": "New Religion",
+        "itunesArtistName": "Bebe Rexha & Faithless"
       },
       {
         "name": "SWIM (Instrumental)",
@@ -381,7 +391,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 159008,
         "releaseDate": "2026-03-24",
-        "rarity": "LR"
+        "rarity": "LR",
+        "itunesTrackName": "SWIM",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Wayfaring Stranger",
@@ -400,7 +412,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 188747,
         "releaseDate": "2011-01-01",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Wayfaring Stranger (Acoustic)",
+        "itunesArtistName": "Eva Cassidy"
       },
       {
         "name": "Es brennt...",
@@ -438,7 +452,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 280034,
         "releaseDate": "2025-12-19",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Papaoutai (Afro Soul)",
+        "itunesArtistName": "mikeeysmind, Chill77 & Unjaps"
       },
       {
         "name": "Papaoutai (Afro Soul)",
@@ -457,7 +473,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 280034,
         "releaseDate": "2025-12-19",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Papaoutai (Afro Soul)",
+        "itunesArtistName": "mikeeysmind, Chill77 & Unjaps"
       },
       {
         "name": "Rave From Outer Space",
@@ -476,7 +494,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 131429,
         "releaseDate": "2026-03-20",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Rave From Outer Space",
+        "itunesArtistName": "W&W & Scooter"
       },
       {
         "name": "FEVER DREAM",
@@ -495,7 +515,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 153430,
         "releaseDate": "2026-03-13",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "FEVER DREAM",
+        "itunesArtistName": "Alex Warren"
       },
       {
         "name": "Turn the Lights Off (Radio Edit)",
@@ -514,7 +536,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 178947,
         "releaseDate": "2010-01-04",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Turn the Lights Off (Radio Edit)",
+        "itunesArtistName": "KATO & Jon"
       },
       {
         "name": "WHERE IS MY HUSBAND!",
@@ -533,7 +557,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 197143,
         "releaseDate": "2025-09-19",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "WHERE IS MY HUSBAND!",
+        "itunesArtistName": "RAYE"
       },
       {
         "name": "WHERE IS MY HUSBAND!",
@@ -552,7 +578,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 197143,
         "releaseDate": "2025-09-19",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "WHERE IS MY HUSBAND!",
+        "itunesArtistName": "RAYE"
       },
       {
         "name": "LET ME BE",
@@ -571,7 +599,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 189854,
         "releaseDate": "2026-01-25",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "LET ME BE",
+        "itunesArtistName": "The Second Voice"
       },
       {
         "name": "Stay",
@@ -590,7 +620,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 184646,
         "releaseDate": "2026-03-20",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Stay",
+        "itunesArtistName": "Leony & Calum Scott"
       },
       {
         "name": "Days We Left Behind",
@@ -628,7 +660,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 212974,
         "releaseDate": "2026-01-09",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "I Just Might",
+        "itunesArtistName": "Bruno Mars"
       },
       {
         "name": "Opalite",
@@ -647,7 +681,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 235356,
         "releaseDate": "2025-10-03",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Opalite",
+        "itunesArtistName": "Taylor Swift"
       },
       {
         "name": "FEVER DREAM",
@@ -666,7 +702,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 153430,
         "releaseDate": "2026-03-13",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "FEVER DREAM",
+        "itunesArtistName": "Alex Warren"
       },
       {
         "name": "The Fate of Ophelia",
@@ -685,7 +723,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 156302,
         "releaseDate": "2025-11-06",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "The Fate of Ophelia (Loud Luxury Remix)",
+        "itunesArtistName": "Taylor Swift & Loud Luxury"
       },
       {
         "name": "Body to Body",
@@ -704,7 +744,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 189725,
         "releaseDate": "2026-03-20",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Body to Body",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "When I Stand",
@@ -723,7 +765,9 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 199720,
         "releaseDate": "2026-03-04",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "When I Stand",
+        "itunesArtistName": "Owen James"
       },
       {
         "name": "When I Stand",
@@ -742,7 +786,9 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 199720,
         "releaseDate": "2026-03-04",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "When I Stand",
+        "itunesArtistName": "Owen James"
       },
       {
         "name": "Rave From Outer Space",
@@ -761,7 +807,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 131429,
         "releaseDate": "2026-03-20",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Rave From Outer Space",
+        "itunesArtistName": "W&W & Scooter"
       },
       {
         "name": "Opalite",
@@ -780,7 +828,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 235356,
         "releaseDate": "2025-10-03",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Opalite",
+        "itunesArtistName": "Taylor Swift"
       },
       {
         "name": "Running To You",
@@ -818,7 +868,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 156302,
         "releaseDate": "2025-11-06",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "The Fate of Ophelia (Loud Luxury Remix)",
+        "itunesArtistName": "Taylor Swift & Loud Luxury"
       },
       {
         "name": "Wolken",
@@ -837,7 +889,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 218133,
         "releaseDate": "2026-03-13",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Wolken",
+        "itunesArtistName": "Johannes Oerding & Michael Patrick Kelly"
       },
       {
         "name": "LET ME BE",
@@ -856,7 +910,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 189854,
         "releaseDate": "2026-01-25",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "LET ME BE",
+        "itunesArtistName": "The Second Voice"
       },
       {
         "name": "Another Day Old",
@@ -894,7 +950,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 243413,
         "releaseDate": "2005-09-27",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "(When You Gonna) Give It up to Me [feat. Keyshia Cole] [Radio Version]",
+        "itunesArtistName": "Sean Paul"
       },
       {
         "name": "I Just Might",
@@ -913,7 +971,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 212974,
         "releaseDate": "2026-01-09",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "I Just Might",
+        "itunesArtistName": "Bruno Mars"
       },
       {
         "name": "Iris",
@@ -932,7 +992,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 289907,
         "releaseDate": "1998-03-31",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Iris",
+        "itunesArtistName": "The Goo Goo Dolls"
       },
       {
         "name": "New Religion (Extended Mix)",
@@ -970,7 +1032,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 340707,
         "releaseDate": "2017-04-07",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Sign of the Times",
+        "itunesArtistName": "Harry Styles"
       },
       {
         "name": "Mehr Glück als Verstand",
@@ -989,7 +1053,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 174133,
         "releaseDate": "2026-02-27",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Mehr Glück als Verstand",
+        "itunesArtistName": "Johannes Oerding"
       },
       {
         "name": "Golden",
@@ -1008,7 +1074,9 @@
         "primaryGenreName": "K-Pop",
         "trackTimeMillis": 194608,
         "releaseDate": "2025-06-19",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Golden",
+        "itunesArtistName": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast"
       },
       {
         "name": "Die Show muss weitergehen",
@@ -1027,7 +1095,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 224707,
         "releaseDate": "2026-03-13",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Die Show muss weitergehen",
+        "itunesArtistName": "Die Toten Hosen"
       },
       {
         "name": "End of Beginning",
@@ -1046,7 +1116,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 159246,
         "releaseDate": "2024-03-01",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "End of Beginning",
+        "itunesArtistName": "Djo"
       },
       {
         "name": "Turn the Lights Off (Radio Edit)",
@@ -1065,7 +1137,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 178947,
         "releaseDate": "2010-01-04",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Turn the Lights Off (Radio Edit)",
+        "itunesArtistName": "KATO & Jon"
       },
       {
         "name": "Ordinary",
@@ -1084,7 +1158,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 186964,
         "releaseDate": "2024-09-26",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Ordinary",
+        "itunesArtistName": "Alex Warren"
       },
       {
         "name": "(When You Gonna) Give It Up to Me [Radio Version] [feat. Keyshia Cole]",
@@ -1103,7 +1179,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 243413,
         "releaseDate": "2005-09-27",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "(When You Gonna) Give It up to Me [feat. Keyshia Cole] [Radio Version]",
+        "itunesArtistName": "Sean Paul"
       },
       {
         "name": "Don't Worry",
@@ -1122,7 +1200,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 139201,
         "releaseDate": "2025-10-17",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Don't Worry",
+        "itunesArtistName": "Leony"
       },
       {
         "name": "Floating",
@@ -1160,7 +1240,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 184000,
         "releaseDate": "2025-09-26",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Man I Need",
+        "itunesArtistName": "Olivia Dean"
       },
       {
         "name": "Golden",
@@ -1179,7 +1261,9 @@
         "primaryGenreName": "K-Pop",
         "trackTimeMillis": 194608,
         "releaseDate": "2025-06-19",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Golden",
+        "itunesArtistName": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast"
       },
       {
         "name": "NORMAL",
@@ -1198,7 +1282,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 184480,
         "releaseDate": "2026-03-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "NORMAL",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Gute Laune",
@@ -1217,7 +1303,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 175791,
         "releaseDate": "2025-02-21",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Gute Laune",
+        "itunesArtistName": "GroßstadtEngel"
       },
       {
         "name": "Wolken",
@@ -1236,7 +1324,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 218133,
         "releaseDate": "2026-03-13",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Wolken",
+        "itunesArtistName": "Johannes Oerding & Michael Patrick Kelly"
       },
       {
         "name": "Märchen aus Hollywood",
@@ -1255,7 +1345,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 279936,
         "releaseDate": "2026-02-13",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Märchen aus Hollywood",
+        "itunesArtistName": "Johannes Oerding & Sarah Connor"
       },
       {
         "name": "Gone Gone Gone",
@@ -1274,7 +1366,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 198004,
         "releaseDate": "2025-10-10",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Gone Gone Gone",
+        "itunesArtistName": "David Guetta, Teddy Swims & Tones And I"
       },
       {
         "name": "Embers",
@@ -1293,7 +1387,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 181200,
         "releaseDate": "2026-01-09",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Embers",
+        "itunesArtistName": "Robin Schulz"
       },
       {
         "name": "Gute Laune",
@@ -1312,7 +1408,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 175791,
         "releaseDate": "2025-02-21",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Gute Laune",
+        "itunesArtistName": "GroßstadtEngel"
       },
       {
         "name": "Auf die Barrikaden",
@@ -1350,7 +1448,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 203973,
         "releaseDate": "2025-09-10",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Wunderschön",
+        "itunesArtistName": "Unheilig"
       },
       {
         "name": "VERLIEBT IN MICH",
@@ -1369,7 +1469,9 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 129982,
         "releaseDate": "2025-08-29",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "VERLIEBT IN MICH",
+        "itunesArtistName": "FAYAN & Dalton"
       },
       {
         "name": "Embers",
@@ -1388,7 +1490,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 181200,
         "releaseDate": "2026-01-09",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Embers",
+        "itunesArtistName": "Robin Schulz"
       },
       {
         "name": "Body to Body",
@@ -1407,7 +1511,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 189725,
         "releaseDate": "2026-03-20",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Body to Body",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Like Animals",
@@ -1426,7 +1532,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 189747,
         "releaseDate": "2026-03-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Like Animals",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Man I Need",
@@ -1445,7 +1553,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 184000,
         "releaseDate": "2025-09-26",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Man I Need",
+        "itunesArtistName": "Olivia Dean"
       },
       {
         "name": "Die Show muss weitergehen",
@@ -1464,7 +1574,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 224707,
         "releaseDate": "2026-03-13",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Die Show muss weitergehen",
+        "itunesArtistName": "Die Toten Hosen"
       },
       {
         "name": "Sonntag",
@@ -1483,7 +1595,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 201307,
         "releaseDate": "2025-10-17",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Sonntag",
+        "itunesArtistName": "Johannes Oerding"
       },
       {
         "name": "Lost in Time (feat. ROSY)",
@@ -1502,7 +1616,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 147778,
         "releaseDate": "2026-03-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Lost in Time (feat. ROSY)",
+        "itunesArtistName": "Armin van Buuren & Alle Farben"
       },
       {
         "name": "Ordinary",
@@ -1521,7 +1637,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 186964,
         "releaseDate": "2024-09-26",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Ordinary",
+        "itunesArtistName": "Alex Warren"
       },
       {
         "name": "Leben,Lieben,Lachen",
@@ -1540,7 +1658,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 271960,
         "releaseDate": "2026-03-15",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Leben,Lieben,Lachen",
+        "itunesArtistName": "Mr_Deluxe2020"
       },
       {
         "name": "Wayfaring Stranger",
@@ -1559,7 +1679,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 188747,
         "releaseDate": "2011-01-01",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Wayfaring Stranger (Acoustic)",
+        "itunesArtistName": "Eva Cassidy"
       },
       {
         "name": "Housebroken",
@@ -1578,7 +1700,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 217320,
         "releaseDate": "2026-02-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Housebroken",
+        "itunesArtistName": "Aiyana-Lee"
       },
       {
         "name": "Cheap Red Wine",
@@ -1616,7 +1740,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 83344,
         "releaseDate": "2025-11-30",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Guten Morgen, alles gut. Kein Stress, kein Problem.",
+        "itunesArtistName": "LassTunesDeutsch"
       },
       {
         "name": "Iris",
@@ -1635,7 +1761,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 289907,
         "releaseDate": "1998-03-31",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Iris",
+        "itunesArtistName": "The Goo Goo Dolls"
       },
       {
         "name": "Funeral",
@@ -1654,7 +1782,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 243668,
         "releaseDate": "2026-01-23",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Funeral",
+        "itunesArtistName": "Dermot Kennedy"
       },
       {
         "name": "12 to 12",
@@ -1673,7 +1803,9 @@
         "primaryGenreName": "Indie-Rock",
         "trackTimeMillis": 242903,
         "releaseDate": "2025-07-24",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "12 to 12",
+        "itunesArtistName": "sombr"
       },
       {
         "name": "FYA",
@@ -1692,7 +1824,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 180544,
         "releaseDate": "2026-03-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "FYA",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Stay",
@@ -1711,7 +1845,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 184646,
         "releaseDate": "2026-03-20",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Stay",
+        "itunesArtistName": "Leony & Calum Scott"
       },
       {
         "name": "American Girls",
@@ -1730,7 +1866,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 213440,
         "releaseDate": "2026-03-06",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "American Girls",
+        "itunesArtistName": "Harry Styles"
       },
       {
         "name": "Hier Gehör Ich Hin",
@@ -1749,7 +1887,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 213240,
         "releaseDate": "2025-09-26",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Hier Gehör Ich Hin",
+        "itunesArtistName": "Johannes Oerding"
       },
       {
         "name": "Sinister Companion",
@@ -1768,7 +1908,9 @@
         "primaryGenreName": "Metal",
         "trackTimeMillis": 497573,
         "releaseDate": "2026-03-25",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Sinister Companion",
+        "itunesArtistName": "Long Distance Calling"
       },
       {
         "name": "Like Animals",
@@ -1787,7 +1929,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 189747,
         "releaseDate": "2026-03-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Like Animals",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Click Clack Symphony. (feat. Hans Zimmer)",
@@ -1806,7 +1950,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 301674,
         "releaseDate": null,
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Click Clack Symphony. (feat. Hans Zimmer)",
+        "itunesArtistName": "RAYE"
       },
       {
         "name": "Funeral",
@@ -1825,7 +1971,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 243668,
         "releaseDate": "2026-01-23",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Funeral",
+        "itunesArtistName": "Dermot Kennedy"
       },
       {
         "name": "Mehr Glück als Verstand",
@@ -1844,7 +1992,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 174133,
         "releaseDate": "2026-02-27",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Mehr Glück als Verstand",
+        "itunesArtistName": "Johannes Oerding"
       },
       {
         "name": "End of Beginning",
@@ -1863,7 +2013,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 159246,
         "releaseDate": "2024-03-01",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "End of Beginning",
+        "itunesArtistName": "Djo"
       },
       {
         "name": "Waiting for Your Love",
@@ -1882,7 +2034,9 @@
         "primaryGenreName": "Singer-Songwriter:innen",
         "trackTimeMillis": 173285,
         "releaseDate": "2026-03-19",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Waiting for Your Love",
+        "itunesArtistName": "Jamie Bower"
       },
       {
         "name": "American Girls",
@@ -1901,7 +2055,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 213440,
         "releaseDate": "2026-03-06",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "American Girls",
+        "itunesArtistName": "Harry Styles"
       },
       {
         "name": "Fire (Eurovision Song Contest)",
@@ -1920,7 +2076,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 177692,
         "releaseDate": "2026-01-30",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Fire (Eurovision Song Contest)",
+        "itunesArtistName": "Sarah Engels"
       },
       {
         "name": "Mir egal",
@@ -1958,7 +2116,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 176493,
         "releaseDate": "2026-01-30",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "5am",
+        "itunesArtistName": "Michael Schulte"
       },
       {
         "name": "Click Clack Symphony. (feat. Hans Zimmer)",
@@ -1977,7 +2137,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 301674,
         "releaseDate": null,
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Click Clack Symphony. (feat. Hans Zimmer)",
+        "itunesArtistName": "RAYE"
       },
       {
         "name": "Baby Goodbye",
@@ -1996,7 +2158,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 131933,
         "releaseDate": "2025-11-14",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Baby Goodbye",
+        "itunesArtistName": "Alle Farben"
       },
       {
         "name": "STAY",
@@ -2034,7 +2198,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 217009,
         "releaseDate": "2025-10-10",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Die On This Hill",
+        "itunesArtistName": "SIENNA SPIRO"
       },
       {
         "name": "Du bist meine Heimat",
@@ -2053,7 +2219,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 212933,
         "releaseDate": "2026-03-13",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Du bist meine Heimat",
+        "itunesArtistName": "Unheilig"
       },
       {
         "name": "they don’t know ’bout us",
@@ -2072,7 +2240,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 164242,
         "releaseDate": "2026-03-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "they don’t know ’bout us",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Don't Worry",
@@ -2091,7 +2261,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 139201,
         "releaseDate": "2025-10-17",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Don't Worry",
+        "itunesArtistName": "Leony"
       },
       {
         "name": "12 to 12",
@@ -2110,7 +2282,9 @@
         "primaryGenreName": "Indie-Rock",
         "trackTimeMillis": 242903,
         "releaseDate": "2025-07-24",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "12 to 12",
+        "itunesArtistName": "sombr"
       },
       {
         "name": "Wunderschön",
@@ -2129,7 +2303,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 203973,
         "releaseDate": "2025-09-10",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Wunderschön",
+        "itunesArtistName": "Unheilig"
       },
       {
         "name": "Lush Life",
@@ -2148,7 +2324,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 200647,
         "releaseDate": "2017-03-17",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Lush Life",
+        "itunesArtistName": "Zara Larsson"
       },
       {
         "name": "Leben,Lieben,Lachen",
@@ -2167,7 +2345,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 271960,
         "releaseDate": "2026-03-15",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Leben,Lieben,Lachen",
+        "itunesArtistName": "Mr_Deluxe2020"
       },
       {
         "name": "Mr. Brightside",
@@ -2186,7 +2366,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 222973,
         "releaseDate": "2003-09-29",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Mr. Brightside",
+        "itunesArtistName": "The Killers"
       },
       {
         "name": "Jamaican (Bam Bam)",
@@ -2205,7 +2387,9 @@
         "primaryGenreName": "Afro House",
         "trackTimeMillis": 156393,
         "releaseDate": "2025-11-07",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Jamaican (Bam Bam)",
+        "itunesArtistName": "HUGEL & SOLTO (FR)"
       },
       {
         "name": "In Zaire",
@@ -2224,7 +2408,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 200489,
         "releaseDate": "1997-01-01",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "In Zaire",
+        "itunesArtistName": "Johnny Wakelin"
       },
       {
         "name": "Younger You (From the \"Hannah Montana 20th Anniversary Special\")",
@@ -2262,7 +2448,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 180304,
         "releaseDate": "2024-01-18",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Beautiful Things",
+        "itunesArtistName": "Benson Boone"
       },
       {
         "name": "5am",
@@ -2281,7 +2469,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 176493,
         "releaseDate": "2026-01-30",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "5am",
+        "itunesArtistName": "Michael Schulte"
       },
       {
         "name": "Sarà perché ti amo",
@@ -2300,7 +2490,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 189800,
         "releaseDate": "1981-02-01",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Sarà Perché Ti Amo",
+        "itunesArtistName": "Ricchi & Poveri"
       },
       {
         "name": "Loco Loco",
@@ -2338,7 +2530,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 167357,
         "releaseDate": "2023-01-19",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Komet",
+        "itunesArtistName": "Udo Lindenberg & Apache 207"
       },
       {
         "name": "Komet",
@@ -2357,7 +2551,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 167357,
         "releaseDate": "2023-01-19",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Komet",
+        "itunesArtistName": "Udo Lindenberg & Apache 207"
       },
       {
         "name": "All the Things She Said",
@@ -2376,7 +2572,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 170891,
         "releaseDate": "2021-10-07",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "All the Things She Said",
+        "itunesArtistName": "Harrison"
       },
       {
         "name": "Automatic",
@@ -2414,7 +2612,9 @@
         "primaryGenreName": "Electronic",
         "trackTimeMillis": 129565,
         "releaseDate": "2025-10-29",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "I Run",
+        "itunesArtistName": "HAVEN. & Kaitlin Aragon"
       },
       {
         "name": "FYA",
@@ -2433,7 +2633,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 180544,
         "releaseDate": "2026-03-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "FYA",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Running Up That Hill (A Deal With God) [2018 Remaster]",
@@ -2452,7 +2654,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 300840,
         "releaseDate": "1985-08-05",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Running Up That Hill (A Deal With God) [2018 Remaster]",
+        "itunesArtistName": "Kate Bush"
       },
       {
         "name": "Lost in Time (feat. ROSY)",
@@ -2471,7 +2675,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 147778,
         "releaseDate": "2026-03-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Lost in Time (feat. ROSY)",
+        "itunesArtistName": "Armin van Buuren & Alle Farben"
       },
       {
         "name": "Die With A Smile",
@@ -2490,7 +2696,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 251668,
         "releaseDate": "2024-08-16",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Die With A Smile",
+        "itunesArtistName": "Lady Gaga & Bruno Mars"
       },
       {
         "name": "Shallow",
@@ -2509,7 +2717,9 @@
         "primaryGenreName": "Soundtracks",
         "trackTimeMillis": 215737,
         "releaseDate": "2018-09-27",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Shallow",
+        "itunesArtistName": "Lady Gaga & Bradley Cooper"
       },
       {
         "name": "Berghain",
@@ -2528,7 +2738,9 @@
         "primaryGenreName": "Klassik",
         "trackTimeMillis": 109290,
         "releaseDate": "2026-02-15",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Rosalia - Berghain",
+        "itunesArtistName": "Jessi Levinson"
       },
       {
         "name": "Don't Stop Believin' (2024 Remaster)",
@@ -2547,7 +2759,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 250835,
         "releaseDate": "1981-06-03",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Don't Stop Believin' (2024 Remaster)",
+        "itunesArtistName": "Journey"
       },
       {
         "name": "Abracadabra",
@@ -2566,7 +2780,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 223398,
         "releaseDate": "2025-02-03",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Abracadabra",
+        "itunesArtistName": "Lady Gaga"
       },
       {
         "name": "Run",
@@ -2585,7 +2801,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 306991,
         "releaseDate": "2026-03-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Run",
+        "itunesArtistName": "Chris Norman"
       },
       {
         "name": "Amore Mio (Vino e Musica)",
@@ -2623,7 +2841,9 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 129982,
         "releaseDate": "2025-08-29",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "VERLIEBT IN MICH",
+        "itunesArtistName": "FAYAN & Dalton"
       },
       {
         "name": "Gone Gone Gone",
@@ -2642,7 +2862,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 198004,
         "releaseDate": "2025-10-10",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Gone Gone Gone",
+        "itunesArtistName": "David Guetta, Teddy Swims & Tones And I"
       },
       {
         "name": "Nicht alle Männer",
@@ -2699,7 +2921,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 210404,
         "releaseDate": "2026-02-20",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Save My Love",
+        "itunesArtistName": "Kygo, Khalid & Gryffin"
       },
       {
         "name": "Das ist mein Weg",
@@ -2737,7 +2961,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 491933,
         "releaseDate": "2005-09-26",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Ring My Bell",
+        "itunesArtistName": "Anita Ward"
       },
       {
         "name": "Always Remember Us This Way",
@@ -2756,7 +2982,9 @@
         "primaryGenreName": "Soundtracks",
         "trackTimeMillis": 210198,
         "releaseDate": "2018-10-05",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Always Remember Us This Way",
+        "itunesArtistName": "Lady Gaga"
       },
       {
         "name": "Freund & Feind",
@@ -2794,7 +3022,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 250493,
         "releaseDate": "2025-12-02",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Thinkin Bout You",
+        "itunesArtistName": "Flea"
       },
       {
         "name": "End of the World",
@@ -2813,7 +3043,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 250484,
         "releaseDate": "2025-04-04",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "End of the World",
+        "itunesArtistName": "Miley Cyrus"
       },
       {
         "name": "Sideways",
@@ -2851,7 +3083,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 218006,
         "releaseDate": "2025-09-11",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "I Wanna Dance With Somebody (Who Loves Me)",
+        "itunesArtistName": "Calum Scott & Whitney Houston"
       },
       {
         "name": "Fire (Eurovision Song Contest)",
@@ -2870,7 +3104,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 177692,
         "releaseDate": "2026-01-30",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Fire (Eurovision Song Contest)",
+        "itunesArtistName": "Sarah Engels"
       },
       {
         "name": "Save Me Tonight",
@@ -2889,7 +3125,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 196003,
         "releaseDate": "2026-02-19",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Save Me Tonight",
+        "itunesArtistName": "Jennifer Lopez & David Guetta"
       },
       {
         "name": "Interstellar (Zwischen den Sternen)",
@@ -2908,7 +3146,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 148333,
         "releaseDate": "2025-05-22",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Interstellar (Zwischen den Sternen)",
+        "itunesArtistName": "Sarah Connor & Sido"
       },
       {
         "name": "The Sound of Silence",
@@ -2927,7 +3167,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 185238,
         "releaseDate": "2024-02-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "The Sound of Silence (CYRIL Remix)",
+        "itunesArtistName": "Disturbed"
       },
       {
         "name": "NORMAL",
@@ -2946,7 +3188,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 184480,
         "releaseDate": "2026-03-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "NORMAL",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Hooligan",
@@ -2965,7 +3209,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 182047,
         "releaseDate": "2026-03-20",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Hooligan",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Aperture",
@@ -2984,7 +3230,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 311733,
         "releaseDate": "2026-01-22",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Aperture",
+        "itunesArtistName": "Harry Styles"
       },
       {
         "name": "Always Remember Us This Way",
@@ -3003,7 +3251,9 @@
         "primaryGenreName": "Soundtracks",
         "trackTimeMillis": 210198,
         "releaseDate": "2018-10-05",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Always Remember Us This Way",
+        "itunesArtistName": "Lady Gaga"
       },
       {
         "name": "The Sound of Silence (CYRIL Remix)",
@@ -3022,7 +3272,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 185238,
         "releaseDate": "2024-02-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "The Sound of Silence (CYRIL Remix)",
+        "itunesArtistName": "Disturbed"
       },
       {
         "name": "undressed",
@@ -3041,7 +3293,9 @@
         "primaryGenreName": "Indie-Rock",
         "trackTimeMillis": 182089,
         "releaseDate": "2025-03-21",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "undressed",
+        "itunesArtistName": "sombr"
       },
       {
         "name": "DtMF",
@@ -3060,7 +3314,9 @@
         "primaryGenreName": "Pop auf Spanisch",
         "trackTimeMillis": 203183,
         "releaseDate": "2017-07-14",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Mayores",
+        "itunesArtistName": "Becky G & Bad Bunny"
       },
       {
         "name": "Hug Yourself",
@@ -3079,7 +3335,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 174744,
         "releaseDate": "2026-01-23",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Hug Yourself",
+        "itunesArtistName": "KAMRAD"
       },
       {
         "name": "TOX",
@@ -3117,7 +3375,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 169000,
         "releaseDate": "2025-09-26",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "So Easy (To Fall In Love)",
+        "itunesArtistName": "Olivia Dean"
       },
       {
         "name": "360 (Arr. For Cello Obligato and String Quartet)",
@@ -3136,7 +3396,9 @@
         "primaryGenreName": "Klassische Crossover-Musik",
         "trackTimeMillis": 131317,
         "releaseDate": "2026-02-26",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "360 (Arr. For Cello Obligato and String Quartet)",
+        "itunesArtistName": "Peter Gregson"
       },
       {
         "name": "Shallow",
@@ -3155,7 +3417,9 @@
         "primaryGenreName": "Soundtracks",
         "trackTimeMillis": 215737,
         "releaseDate": "2018-09-27",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Shallow",
+        "itunesArtistName": "Lady Gaga & Bradley Cooper"
       },
       {
         "name": "Be With You",
@@ -3174,7 +3438,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 215196,
         "releaseDate": "2026-03-21",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Be With You",
+        "itunesArtistName": "Muse"
       },
       {
         "name": "WENN ICH NÜCHTERN WÄR",
@@ -3193,7 +3459,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 136552,
         "releaseDate": "2026-02-06",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "WENN ICH NÜCHTERN WÄR",
+        "itunesArtistName": "Julian Sommer & Luca-Dante Spadafora"
       },
       {
         "name": "Losing My Religion",
@@ -3231,7 +3499,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 219471,
         "releaseDate": "2026-01-22",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "What The World Needs Now",
+        "itunesArtistName": "Cage"
       },
       {
         "name": "Ti amo, Italiano!",
@@ -3269,7 +3539,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 201307,
         "releaseDate": "2025-10-17",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Sonntag",
+        "itunesArtistName": "Johannes Oerding"
       },
       {
         "name": "Ein Lied",
@@ -3288,7 +3560,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 151553,
         "releaseDate": "2026-02-27",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Ein Lied",
+        "itunesArtistName": "Mark Forster"
       },
       {
         "name": "Märchen aus Hollywood",
@@ -3307,7 +3581,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 279936,
         "releaseDate": "2026-02-13",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Märchen aus Hollywood",
+        "itunesArtistName": "Johannes Oerding & Sarah Connor"
       },
       {
         "name": "I Wanna Dance With Somebody (Who Loves Me)",
@@ -3326,7 +3602,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 218006,
         "releaseDate": "2025-09-11",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "I Wanna Dance With Somebody (Who Loves Me)",
+        "itunesArtistName": "Calum Scott & Whitney Houston"
       },
       {
         "name": "Du bist meine Heimat",
@@ -3345,7 +3623,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 212933,
         "releaseDate": "2026-03-13",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Du bist meine Heimat",
+        "itunesArtistName": "Unheilig"
       },
       {
         "name": "Du bist Gut",
@@ -3383,7 +3663,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 250835,
         "releaseDate": "1981-06-03",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Don't Stop Believin' (2024 Remaster)",
+        "itunesArtistName": "Journey"
       },
       {
         "name": "Running Up That Hill (A Deal With God) [2018 Remaster]",
@@ -3402,7 +3684,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 300840,
         "releaseDate": "1985-08-05",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Running Up That Hill (A Deal With God) [2018 Remaster]",
+        "itunesArtistName": "Kate Bush"
       },
       {
         "name": "Wo schläfst du heut Nacht",
@@ -3421,7 +3705,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 192202,
         "releaseDate": "2026-03-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Wo schläfst du heut Nacht",
+        "itunesArtistName": "Fantasy"
       },
       {
         "name": "Wild West & Wicked (Remix)",
@@ -3440,7 +3726,9 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 174960,
         "releaseDate": "2026-02-22",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Wild West & Wicked (Remix)",
+        "itunesArtistName": "DJTEXX"
       },
       {
         "name": "Bones for the Crows",
@@ -3459,7 +3747,9 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 244638,
         "releaseDate": "2026-03-20",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Bones for the Crows",
+        "itunesArtistName": "Nickelback"
       },
       {
         "name": "Beautiful Things",
@@ -3478,7 +3768,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 180304,
         "releaseDate": "2024-01-18",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Beautiful Things",
+        "itunesArtistName": "Benson Boone"
       },
       {
         "name": "Turn the Lights Off (feat. Jon)",
@@ -3497,7 +3789,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 178947,
         "releaseDate": "2010-01-04",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Turn the Lights Off (Radio Edit)",
+        "itunesArtistName": "KATO & Jon"
       },
       {
         "name": "The Power of Love",
@@ -3535,7 +3829,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 274920,
         "releaseDate": "2026-02-10",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "ALONE WITH MEMORIES",
+        "itunesArtistName": "RASELHITS"
       },
       {
         "name": "To Love Somebody",
@@ -3554,7 +3850,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 237952,
         "releaseDate": null,
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "To Love Somebody",
+        "itunesArtistName": "Holly Humberstone"
       },
       {
         "name": "Bring Me to Life",
@@ -3573,7 +3871,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 235893,
         "releaseDate": "2003-02-04",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Bring Me To Life",
+        "itunesArtistName": "Evanescence"
       },
       {
         "name": "Thunderstruck",
@@ -3592,7 +3892,9 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 292334,
         "releaseDate": "1990-09-10",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Thunderstruck",
+        "itunesArtistName": "AC/DC"
       },
       {
         "name": "Zoo (aus \"Zoomania 2\")",
@@ -3611,7 +3913,9 @@
         "primaryGenreName": "Soundtracks",
         "trackTimeMillis": 190823,
         "releaseDate": "2025-10-10",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Zoo (aus \"Zoomania 2\")",
+        "itunesArtistName": "Disney & Shakira"
       },
       {
         "name": "Sign of the Times",
@@ -3630,7 +3934,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 340707,
         "releaseDate": "2017-04-07",
-        "rarity": "UR"
+        "rarity": "UR",
+        "itunesTrackName": "Sign of the Times",
+        "itunesArtistName": "Harry Styles"
       },
       {
         "name": "Waterfalls (feat. Sam Harper & Bobby Harvey)",
@@ -3649,7 +3955,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 120578,
         "releaseDate": "2025-08-08",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Waterfalls (feat. Sam Harper & Bobby Harvey)",
+        "itunesArtistName": "James Hype"
       },
       {
         "name": "undressed",
@@ -3668,7 +3976,9 @@
         "primaryGenreName": "Indie-Rock",
         "trackTimeMillis": 182089,
         "releaseDate": "2025-03-21",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "undressed",
+        "itunesArtistName": "sombr"
       },
       {
         "name": "So wie du warst",
@@ -3687,7 +3997,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 232344,
         "releaseDate": "2012-01-01",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "So wie du warst",
+        "itunesArtistName": "Unheilig"
       },
       {
         "name": "Dachdecker",
@@ -3706,7 +4018,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 201103,
         "releaseDate": "2026-03-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Dachdecker",
+        "itunesArtistName": "Julian Sommer"
       },
       {
         "name": "Bella Napoli",
@@ -3725,7 +4039,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 235990,
         "releaseDate": "2022-04-08",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Bella Napoli",
+        "itunesArtistName": "Roy Bianco & Die Abbrunzati Boys"
       },
       {
         "name": "Frei",
@@ -3744,7 +4060,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 209079,
         "releaseDate": "2026-03-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Frei",
+        "itunesArtistName": "Maite Kelly"
       },
       {
         "name": "Boten Anna (Radio Edit)",
@@ -3763,7 +4081,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 207067,
         "releaseDate": "2006-05-09",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Boten Anna (Radio Edit)",
+        "itunesArtistName": "Basshunter"
       },
       {
         "name": "Bruise Pristine (RE:CREATED VERSION)",
@@ -3801,7 +4121,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 332230,
         "releaseDate": "1992-03-24",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Rhythm Is a Dancer",
+        "itunesArtistName": "Snap!"
       },
       {
         "name": "Now We Are Free",
@@ -3839,7 +4161,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 209066,
         "releaseDate": "2026-02-05",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Homewrecker",
+        "itunesArtistName": "sombr"
       },
       {
         "name": "Bring Me to Life",
@@ -3858,7 +4182,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 235893,
         "releaseDate": "2003-02-04",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Bring Me To Life",
+        "itunesArtistName": "Evanescence"
       },
       {
         "name": "Dachdecker",
@@ -3877,7 +4203,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 201103,
         "releaseDate": "2026-03-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Dachdecker",
+        "itunesArtistName": "Julian Sommer"
       },
       {
         "name": "I'm Not What Happened To Me",
@@ -3915,7 +4243,9 @@
         "primaryGenreName": "Baile Funk",
         "trackTimeMillis": 108843,
         "releaseDate": "2025-11-01",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "NO BATIDÃO (Electronic Remix)",
+        "itunesArtistName": "CyberBedir"
       },
       {
         "name": "Messy",
@@ -3934,7 +4264,9 @@
         "primaryGenreName": "Electronic",
         "trackTimeMillis": 199497,
         "releaseDate": "2025-03-21",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Messy (Loud Luxury Remix) [Mixed]",
+        "itunesArtistName": "Lola Young"
       },
       {
         "name": "Risk It All",
@@ -3953,7 +4285,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 204068,
         "releaseDate": "2026-02-27",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Risk It All",
+        "itunesArtistName": "Bruno Mars"
       },
       {
         "name": "ALONE WITH MEMORIES",
@@ -3972,7 +4306,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 274920,
         "releaseDate": "2026-02-10",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "ALONE WITH MEMORIES",
+        "itunesArtistName": "RASELHITS"
       },
       {
         "name": "Be With You",
@@ -3991,7 +4327,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 215196,
         "releaseDate": "2026-03-21",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Be With You",
+        "itunesArtistName": "Muse"
       },
       {
         "name": "NO BATIDÃO",
@@ -4010,7 +4348,9 @@
         "primaryGenreName": "Baile Funk",
         "trackTimeMillis": 108843,
         "releaseDate": "2025-11-01",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "NO BATIDÃO (Electronic Remix)",
+        "itunesArtistName": "CyberBedir"
       },
       {
         "name": "To Love Somebody",
@@ -4029,7 +4369,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 237952,
         "releaseDate": null,
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "To Love Somebody",
+        "itunesArtistName": "Holly Humberstone"
       },
       {
         "name": "Wackelkontakt",
@@ -4067,7 +4409,9 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 216294,
         "releaseDate": "2000-10-24",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "In the End",
+        "itunesArtistName": "LINKIN PARK"
       },
       {
         "name": "Unstoppable",
@@ -4105,7 +4449,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 205920,
         "releaseDate": "2026-01-16",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Echoes of You",
+        "itunesArtistName": "Marc Atlas"
       },
       {
         "name": "Just the Way You Are",
@@ -4143,7 +4489,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 250493,
         "releaseDate": "2025-12-02",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Thinkin Bout You",
+        "itunesArtistName": "Flea"
       },
       {
         "name": "Baby Goodbye",
@@ -4162,7 +4510,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 131933,
         "releaseDate": "2025-11-14",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Baby Goodbye",
+        "itunesArtistName": "Alle Farben"
       },
       {
         "name": "A Plea",
@@ -4181,7 +4531,9 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 277987,
         "releaseDate": "2025-08-30",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Intro / Who Do You Believe In?",
+        "itunesArtistName": "QUAD DB"
       },
       {
         "name": "Die With A Smile",
@@ -4200,7 +4552,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 251668,
         "releaseDate": "2024-08-16",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Die With A Smile",
+        "itunesArtistName": "Lady Gaga & Bruno Mars"
       },
       {
         "name": "Highway to Hell",
@@ -4219,7 +4573,9 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 209410,
         "releaseDate": "1979-07-27",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Highway to Hell",
+        "itunesArtistName": "AC/DC"
       },
       {
         "name": "Lose Control",
@@ -4257,7 +4613,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 247027,
         "releaseDate": "2011-10-14",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Outro",
+        "itunesArtistName": "M83"
       },
       {
         "name": "That's The Way It Is",
@@ -4295,7 +4653,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 162717,
         "releaseDate": "2025-11-07",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Turn The Lights Off",
+        "itunesArtistName": "Justė, Jaxstyle & Jon"
       },
       {
         "name": "Sarà perché ti amo",
@@ -4314,7 +4674,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 189800,
         "releaseDate": "1981-02-01",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Sarà Perché Ti Amo",
+        "itunesArtistName": "Ricchi & Poveri"
       },
       {
         "name": "2.0",
@@ -4333,7 +4695,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 169929,
         "releaseDate": "2026-03-20",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "2.0",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Kittens (r31_for2026)",
@@ -4371,7 +4735,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 375813,
         "releaseDate": null,
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Shush",
+        "itunesArtistName": "Tori Amos"
       },
       {
         "name": "boy you turn me",
@@ -4409,7 +4775,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 199452,
         "releaseDate": "1980-10-17",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Hungry Heart",
+        "itunesArtistName": "Bruce Springsteen"
       },
       {
         "name": "Have You Ever Seen The Rain",
@@ -4447,7 +4815,9 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 192840,
         "releaseDate": "2025-11-14",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Don't Tread On Me",
+        "itunesArtistName": "Cain Walker"
       },
       {
         "name": "Lush Life",
@@ -4466,7 +4836,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 200647,
         "releaseDate": "2017-03-17",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Lush Life",
+        "itunesArtistName": "Zara Larsson"
       },
       {
         "name": "Flowers",
@@ -4485,7 +4857,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 200600,
         "releaseDate": "2023-01-12",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Flowers",
+        "itunesArtistName": "Miley Cyrus"
       },
       {
         "name": "Rock Me Amadeus",
@@ -4523,7 +4897,9 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 168960,
         "releaseDate": "2025-10-17",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Kribbeln im Bauch",
+        "itunesArtistName": "Emil, Jorin Hagen, JHNWNDT & prodbyTAA"
       },
       {
         "name": "Echoes of You",
@@ -4542,7 +4918,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 205920,
         "releaseDate": "2026-01-16",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Echoes of You",
+        "itunesArtistName": "Marc Atlas"
       },
       {
         "name": "Wild West & Wicked (Remix)",
@@ -4561,7 +4939,9 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 174960,
         "releaseDate": "2026-02-22",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Wild West & Wicked (Remix)",
+        "itunesArtistName": "DJTEXX"
       },
       {
         "name": "Lies",
@@ -4599,7 +4979,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 141593,
         "releaseDate": "2026-03-20",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "INSELBANDE",
+        "itunesArtistName": "Rumbombe & Bozi"
       },
       {
         "name": "Wuthering Heights",
@@ -4637,7 +5019,9 @@
         "primaryGenreName": "Klassische Crossover-Musik",
         "trackTimeMillis": 131317,
         "releaseDate": "2026-02-26",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "360 (Arr. For Cello Obligato and String Quartet)",
+        "itunesArtistName": "Peter Gregson"
       },
       {
         "name": "Der Morgen danach",
@@ -4656,7 +5040,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 226678,
         "releaseDate": "2025-10-17",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Der Morgen danach",
+        "itunesArtistName": "Maite Kelly"
       },
       {
         "name": "Interstellar (Zwischen den Sternen)",
@@ -4675,7 +5061,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 148333,
         "releaseDate": "2025-05-22",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Interstellar (Zwischen den Sternen)",
+        "itunesArtistName": "Sarah Connor & Sido"
       },
       {
         "name": "Wie schön du bist",
@@ -4713,7 +5101,9 @@
         "primaryGenreName": "Pop auf Spanisch",
         "trackTimeMillis": 203183,
         "releaseDate": "2017-07-14",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Mayores",
+        "itunesArtistName": "Becky G & Bad Bunny"
       },
       {
         "name": "Raindance",
@@ -4732,7 +5122,9 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 219744,
         "releaseDate": "2025-10-24",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Raindance",
+        "itunesArtistName": "Dave & Tems"
       },
       {
         "name": "Das schönste Mädchen der Welt",
@@ -4751,7 +5143,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 180541,
         "releaseDate": "2025-05-22",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Das schönste Mädchen der Welt",
+        "itunesArtistName": "Sarah Connor"
       },
       {
         "name": "FICKA",
@@ -4789,7 +5183,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 226678,
         "releaseDate": "2025-10-17",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Der Morgen danach",
+        "itunesArtistName": "Maite Kelly"
       },
       {
         "name": "Ring My Bell",
@@ -4808,7 +5204,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 491933,
         "releaseDate": "2005-09-26",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Ring My Bell",
+        "itunesArtistName": "Anita Ward"
       },
       {
         "name": "Sandstorm (Radio Edit)",
@@ -4827,7 +5225,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 226533,
         "releaseDate": "1999-10-26",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Sandstorm (Radio Edit)",
+        "itunesArtistName": "Darude"
       },
       {
         "name": "Universal Soldier",
@@ -4865,7 +5265,9 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 219744,
         "releaseDate": "2025-10-24",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Raindance",
+        "itunesArtistName": "Dave & Tems"
       },
       {
         "name": "Als Du gingst",
@@ -4903,7 +5305,9 @@
         "primaryGenreName": "Afro House",
         "trackTimeMillis": 156393,
         "releaseDate": "2025-11-07",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Jamaican (Bam Bam)",
+        "itunesArtistName": "HUGEL & SOLTO (FR)"
       },
       {
         "name": "Unravelling",
@@ -4922,7 +5326,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 238002,
         "releaseDate": "2025-06-20",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Unravelling",
+        "itunesArtistName": "Muse"
       },
       {
         "name": "With or Without You",
@@ -4941,7 +5347,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 295520,
         "releaseDate": "1987-03-09",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "With or Without You",
+        "itunesArtistName": "U2"
       },
       {
         "name": "Housebroken",
@@ -4960,7 +5368,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 217320,
         "releaseDate": "2026-02-20",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Housebroken",
+        "itunesArtistName": "Aiyana-Lee"
       },
       {
         "name": "Aperture",
@@ -4979,7 +5389,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 311733,
         "releaseDate": "2026-01-22",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Aperture",
+        "itunesArtistName": "Harry Styles"
       },
       {
         "name": "The Git Up",
@@ -5017,7 +5429,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 189554,
         "releaseDate": "2025-07-18",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Eternity",
+        "itunesArtistName": "Alex Warren"
       },
       {
         "name": "Poker Face",
@@ -5055,7 +5469,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 173147,
         "releaseDate": "2025-10-03",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Blood Running",
+        "itunesArtistName": "Ray Dalton"
       },
       {
         "name": "Shower",
@@ -5074,7 +5490,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 206167,
         "releaseDate": "2014-04-23",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Shower",
+        "itunesArtistName": "Becky G"
       },
       {
         "name": "Hunting The Wren (The Immortal Man Version)",
@@ -5093,7 +5511,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 428650,
         "releaseDate": "2026-03-06",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Hunting The Wren (The Immortal Man Version)",
+        "itunesArtistName": "Lankum & Grian Chatten"
       },
       {
         "name": "Do I Wanna Know?",
@@ -5131,7 +5551,9 @@
         "primaryGenreName": "Electronic",
         "trackTimeMillis": 199497,
         "releaseDate": "2025-03-21",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Messy (Loud Luxury Remix) [Mixed]",
+        "itunesArtistName": "Lola Young"
       },
       {
         "name": "Believer",
@@ -5169,7 +5591,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 167751,
         "releaseDate": "2026-03-20",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Aliens",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Nicht alle Männer",
@@ -5207,7 +5631,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 167589,
         "releaseDate": "2026-03-20",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "One More Night",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "End of the World",
@@ -5226,7 +5652,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 250484,
         "releaseDate": "2025-04-04",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "End of the World",
+        "itunesArtistName": "Miley Cyrus"
       },
       {
         "name": "Sapphire",
@@ -5245,7 +5673,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 179082,
         "releaseDate": "2025-05-27",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Sapphire",
+        "itunesArtistName": "Ed Sheeran"
       },
       {
         "name": "All The Things She Said",
@@ -5283,7 +5713,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 306991,
         "releaseDate": "2026-03-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Run",
+        "itunesArtistName": "Chris Norman"
       },
       {
         "name": "TANZSCHEIN",
@@ -5321,7 +5753,9 @@
         "primaryGenreName": "Französischer Pop",
         "trackTimeMillis": 231920,
         "releaseDate": "2013-01-01",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Papaoutai",
+        "itunesArtistName": "Stromae"
       },
       {
         "name": "Zoo (aus \"Zoomania 2\")",
@@ -5340,7 +5774,9 @@
         "primaryGenreName": "Soundtracks",
         "trackTimeMillis": 190823,
         "releaseDate": "2025-10-10",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Zoo (aus \"Zoomania 2\")",
+        "itunesArtistName": "Disney & Shakira"
       },
       {
         "name": "All of Me",
@@ -5359,7 +5795,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 269557,
         "releaseDate": "2013-08-12",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "All of Me",
+        "itunesArtistName": "John Legend"
       },
       {
         "name": "Flowers",
@@ -5378,7 +5816,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 200600,
         "releaseDate": "2023-01-12",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Flowers",
+        "itunesArtistName": "Miley Cyrus"
       },
       {
         "name": "Honest",
@@ -5397,7 +5837,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 219190,
         "releaseDate": null,
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Honest",
+        "itunesArtistName": "Dermot Kennedy"
       },
       {
         "name": "Die On This Hill",
@@ -5416,7 +5858,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 217009,
         "releaseDate": "2025-10-10",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Die On This Hill",
+        "itunesArtistName": "SIENNA SPIRO"
       },
       {
         "name": "Merry Go Round",
@@ -5435,7 +5879,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 229856,
         "releaseDate": "2026-03-20",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Merry Go Round",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Your Phone Linging",
@@ -5454,7 +5900,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 127080,
         "releaseDate": "2023-11-25",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Your Phone Linging",
+        "itunesArtistName": "Jahin Music"
       },
       {
         "name": "White Keys",
@@ -5473,7 +5921,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 144101,
         "releaseDate": "2025-11-14",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "White Keys",
+        "itunesArtistName": "Dominic Fike"
       },
       {
         "name": "The Emptiness Machine",
@@ -5492,7 +5942,9 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 216294,
         "releaseDate": "2000-10-24",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "In the End",
+        "itunesArtistName": "LINKIN PARK"
       },
       {
         "name": "Shower",
@@ -5511,7 +5963,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 206167,
         "releaseDate": "2014-04-23",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Shower",
+        "itunesArtistName": "Becky G"
       },
       {
         "name": "BIS WIR ALT SIND",
@@ -5549,7 +6003,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 197413,
         "releaseDate": "2025-12-12",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Mein Löwe",
+        "itunesArtistName": "Unheilig"
       },
       {
         "name": "Vielleicht Vielleicht (Holy Priest & elMefti Remix)",
@@ -5587,7 +6043,9 @@
         "primaryGenreName": "K-Pop",
         "trackTimeMillis": 224225,
         "releaseDate": "2019-04-12",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Mikrokosmos",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Back to Nature",
@@ -5625,7 +6083,9 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 155600,
         "releaseDate": "2025-10-18",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Momente für immer",
+        "itunesArtistName": "JoJo165"
       },
       {
         "name": "Waterfalls (feat. Sam Harper & Bobby Harvey)",
@@ -5644,7 +6104,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 120578,
         "releaseDate": "2025-08-08",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Waterfalls (feat. Sam Harper & Bobby Harvey)",
+        "itunesArtistName": "James Hype"
       },
       {
         "name": "Stayin' Alive",
@@ -5663,7 +6125,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 283147,
         "releaseDate": "1977-11-15",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Stayin' Alive",
+        "itunesArtistName": "Bee Gees"
       },
       {
         "name": "You Get What You Give",
@@ -5701,7 +6165,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 175122,
         "releaseDate": "2026-02-25",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Per sempre sì",
+        "itunesArtistName": "Sal da Vinci"
       },
       {
         "name": "One More Night",
@@ -5720,7 +6186,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 167589,
         "releaseDate": "2026-03-20",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "One More Night",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Frei",
@@ -5739,7 +6207,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 209079,
         "releaseDate": "2026-03-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Frei",
+        "itunesArtistName": "Maite Kelly"
       },
       {
         "name": "Aliens",
@@ -5758,7 +6228,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 167751,
         "releaseDate": "2026-03-20",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Aliens",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Ein Lied",
@@ -5777,7 +6249,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 151553,
         "releaseDate": "2026-02-27",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Ein Lied",
+        "itunesArtistName": "Mark Forster"
       },
       {
         "name": "I WANNA BE YOUR SLAVE",
@@ -5796,7 +6270,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 159524,
         "releaseDate": "2021-12-17",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "I Wanna Be Your Slave (feat. Margad)",
+        "itunesArtistName": "Jaydan Wolf, Te Pai & Daniel Chord"
       },
       {
         "name": "Unravelling",
@@ -5815,7 +6291,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 238002,
         "releaseDate": "2025-06-20",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Unravelling",
+        "itunesArtistName": "Muse"
       },
       {
         "name": "You're A Superstar",
@@ -5853,7 +6331,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 226160,
         "releaseDate": "2011-01-01",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "In diesem Moment",
+        "itunesArtistName": "Roger Cicero"
       },
       {
         "name": "Renn!",
@@ -5891,7 +6371,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 204516,
         "releaseDate": "2021-10-13",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "The Way You Make Me Feel (feat. Moods)",
+        "itunesArtistName": "The Kount & Marc Rebillet"
       },
       {
         "name": "Destruction Of My Soul",
@@ -5910,7 +6392,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 192867,
         "releaseDate": "1987-05-18",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Knights of Destruction",
+        "itunesArtistName": "Viper"
       },
       {
         "name": "An deiner Seite (Radio)",
@@ -5929,7 +6413,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 184347,
         "releaseDate": "2026-01-03",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "An deiner Seite (Radio)",
+        "itunesArtistName": "AURA"
       },
       {
         "name": "White Keys",
@@ -5948,7 +6434,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 144101,
         "releaseDate": "2025-11-14",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "White Keys",
+        "itunesArtistName": "Dominic Fike"
       },
       {
         "name": "Schau mal herein",
@@ -5967,7 +6455,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 183133,
         "releaseDate": "2024-12-30",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Schau mal herein",
+        "itunesArtistName": "Helene Fischer & Florian Silbereisen"
       },
       {
         "name": "Jerusalema (feat. Nomcebo Zikode)",
@@ -6005,7 +6495,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 219467,
         "releaseDate": "1988-08-01",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "I'm Gonna Be (500 Miles)",
+        "itunesArtistName": "The Proclaimers"
       },
       {
         "name": "Ulvgjeld & Blodsodel",
@@ -6043,7 +6535,9 @@
         "primaryGenreName": "Soundtracks",
         "trackTimeMillis": 235889,
         "releaseDate": "2013-01-01",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Young and Beautiful",
+        "itunesArtistName": "Lana Del Rey"
       },
       {
         "name": "I Want to Know What Love Is",
@@ -6081,7 +6575,9 @@
         "primaryGenreName": "Pop/Rock",
         "trackTimeMillis": 205404,
         "releaseDate": "2020-07-10",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Nie Allein",
+        "itunesArtistName": "KAFFKIEZ"
       },
       {
         "name": "Ich lieb' dich überhaupt nicht mehr",
@@ -6119,7 +6615,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 372573,
         "releaseDate": "1994-04-18",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Red Right Hand (2011 Remaster)",
+        "itunesArtistName": "Nick Cave & The Bad Seeds"
       },
       {
         "name": "Giddy Up",
@@ -6157,7 +6655,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 482830,
         "releaseDate": "1971-11-08",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Stairway to Heaven",
+        "itunesArtistName": "Led Zeppelin"
       },
       {
         "name": "Nightingale Lane.",
@@ -6195,7 +6695,9 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 181204,
         "releaseDate": "2026-03-13",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Warschau",
+        "itunesArtistName": "Chapo102, Gustav & 102 Boyz"
       },
       {
         "name": "Abracadabra",
@@ -6214,7 +6716,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 223398,
         "releaseDate": "2025-02-03",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Abracadabra",
+        "itunesArtistName": "Lady Gaga"
       },
       {
         "name": "Destruction Of My Soul",
@@ -6233,7 +6737,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 192867,
         "releaseDate": "1987-05-18",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Knights of Destruction",
+        "itunesArtistName": "Viper"
       },
       {
         "name": "Into the Sun",
@@ -6252,7 +6758,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 227661,
         "releaseDate": "2026-03-20",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Into the Sun",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "The Sound of Silence (CYRIL Remix)",
@@ -6271,7 +6779,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 185238,
         "releaseDate": "2024-02-13",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "The Sound of Silence (CYRIL Remix)",
+        "itunesArtistName": "Disturbed"
       },
       {
         "name": "Out of the Dark",
@@ -6309,7 +6819,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 295283,
         "releaseDate": "1982-04-08",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Africa",
+        "itunesArtistName": "Toto"
       },
       {
         "name": "Song 2",
@@ -6347,7 +6859,9 @@
         "primaryGenreName": "Schlager",
         "trackTimeMillis": 172000,
         "releaseDate": "2026-02-27",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Alibi",
+        "itunesArtistName": "Beatrice Egli"
       },
       {
         "name": "All the Things She Said",
@@ -6366,7 +6880,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 170891,
         "releaseDate": "2021-10-07",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "All the Things She Said",
+        "itunesArtistName": "Harrison"
       },
       {
         "name": "Beautiful Day",
@@ -6385,7 +6901,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 248067,
         "releaseDate": "2000-10-30",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Beautiful Day",
+        "itunesArtistName": "U2"
       },
       {
         "name": "I Was a Kid",
@@ -6423,7 +6941,9 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 292334,
         "releaseDate": "1990-09-10",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Thunderstruck",
+        "itunesArtistName": "AC/DC"
       },
       {
         "name": "Your New Morning Alarm",
@@ -6442,7 +6962,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 204516,
         "releaseDate": "2021-10-13",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "The Way You Make Me Feel (feat. Moods)",
+        "itunesArtistName": "The Kount & Marc Rebillet"
       },
       {
         "name": "Schief in jedem Chor",
@@ -6499,7 +7021,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 172796,
         "releaseDate": "2026-03-20",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Please",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "I'm Okay but I'm Not",
@@ -6537,7 +7061,9 @@
         "primaryGenreName": "Soundtracks",
         "trackTimeMillis": 321960,
         "releaseDate": "2002-10-29",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Lose Yourself",
+        "itunesArtistName": "Eminem"
       },
       {
         "name": "Total Eclipse Of The Heart",
@@ -6575,7 +7101,9 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 241643,
         "releaseDate": "1983-12-21",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Jump",
+        "itunesArtistName": "Van Halen"
       },
       {
         "name": "Traffic Lights (feat. Thom Yorke)",
@@ -6613,7 +7141,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 177507,
         "releaseDate": "2012-09-04",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Demons",
+        "itunesArtistName": "Imagine Dragons"
       },
       {
         "name": "Bis bald",
@@ -6651,7 +7181,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 247216,
         "releaseDate": "2026-02-22",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "After I'm Gone (Slow Rock)",
+        "itunesArtistName": "Michael Bennett"
       },
       {
         "name": "No Broke Boys",
@@ -6689,7 +7221,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 213307,
         "releaseDate": "1999-04-12",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "I Want It That Way",
+        "itunesArtistName": "Backstreet Boys"
       },
       {
         "name": "Bella Napoli",
@@ -6708,7 +7242,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 235990,
         "releaseDate": "2022-04-08",
-        "rarity": "R"
+        "rarity": "R",
+        "itunesTrackName": "Bella Napoli",
+        "itunesArtistName": "Roy Bianco & Die Abbrunzati Boys"
       },
       {
         "name": "No Juegues Con Mi Corazón",
@@ -6727,7 +7263,9 @@
         "primaryGenreName": "Blues",
         "trackTimeMillis": 194240,
         "releaseDate": "2026-03-15",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "No Juegues Con Mi Corazón",
+        "itunesArtistName": "JERRY'S SOUND ROOM"
       },
       {
         "name": "Mirrors",
@@ -6765,7 +7303,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 153028,
         "releaseDate": "2025-12-04",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Red Eyes",
+        "itunesArtistName": "Loi"
       },
       {
         "name": "Staub auf den Stiefeln",
@@ -6803,7 +7343,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 227661,
         "releaseDate": "2026-03-20",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Into the Sun",
+        "itunesArtistName": "BTS"
       },
       {
         "name": "Dancing Queen",
@@ -6841,7 +7383,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 210373,
         "releaseDate": "2024-05-17",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "BIRDS OF A FEATHER",
+        "itunesArtistName": "Billie Eilish"
       },
       {
         "name": "Dracula (JENNIE Remix)",
@@ -6879,7 +7423,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 296600,
         "releaseDate": "2000-04-26",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Ich liebe das Leben",
+        "itunesArtistName": "Vicky Leandros"
       },
       {
         "name": "Hold My Hand",
@@ -6917,7 +7463,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 127080,
         "releaseDate": "2023-11-25",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Your Phone Linging",
+        "itunesArtistName": "Jahin Music"
       },
       {
         "name": "Stateside (with Zara Larsson)",
@@ -6955,7 +7503,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 252240,
         "releaseDate": "1971-12-29",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "A Horse With No Name",
+        "itunesArtistName": "America"
       },
       {
         "name": "Hunting The Wren (The Immortal Man Version)",
@@ -6974,7 +7524,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 428650,
         "releaseDate": "2026-03-06",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Hunting The Wren (The Immortal Man Version)",
+        "itunesArtistName": "Lankum & Grian Chatten"
       },
       {
         "name": "Hier Gehör Ich Hin",
@@ -6993,7 +7545,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 213240,
         "releaseDate": "2025-09-26",
-        "rarity": "SR"
+        "rarity": "SR",
+        "itunesTrackName": "Hier Gehör Ich Hin",
+        "itunesArtistName": "Johannes Oerding"
       },
       {
         "name": "Creep",
@@ -7031,7 +7585,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 159524,
         "releaseDate": "2021-12-17",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "I Wanna Be Your Slave (feat. Margad)",
+        "itunesArtistName": "Jaydan Wolf, Te Pai & Daniel Chord"
       },
       {
         "name": "Désenchantée",
@@ -7069,7 +7625,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 305867,
         "releaseDate": "1984-10-01",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Easy Lover",
+        "itunesArtistName": "Philip Bailey & Phil Collins"
       },
       {
         "name": "Siéntelo (feat. Lumidee)",
@@ -7107,7 +7665,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 307200,
         "releaseDate": "2026-02-02",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Mystery Lady (Radio Edit)",
+        "itunesArtistName": "MelodiZenith"
       },
       {
         "name": "Want It Back",
@@ -7145,7 +7705,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 160058,
         "releaseDate": "2026-02-13",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "My Lucky Day",
+        "itunesArtistName": "Milow"
       },
       {
         "name": "Wo bist du?",
@@ -7183,7 +7745,9 @@
         "primaryGenreName": "Singer-Songwriter:innen",
         "trackTimeMillis": 185366,
         "releaseDate": "2022-05-06",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Another Love (Tiësto Remix)",
+        "itunesArtistName": "Tom Odell & Tiësto"
       },
       {
         "name": "Stay (If You Wanna Dance)",
@@ -7221,7 +7785,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 99529,
         "releaseDate": "2025-09-27",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Dracula (Mixed)",
+        "itunesArtistName": "Tame Impala"
       },
       {
         "name": "The One",
@@ -7259,7 +7825,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 192841,
         "releaseDate": "2026-03-20",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "The Best Is Yet To Come (New Bonus Track)",
+        "itunesArtistName": "Thomas Anders"
       },
       {
         "name": "Dreams",
@@ -7297,7 +7865,9 @@
         "primaryGenreName": "Vocal",
         "trackTimeMillis": 255220,
         "releaseDate": "1976-04-10",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Die kleine Kneipe",
+        "itunesArtistName": "Peter Alexander"
       },
       {
         "name": "All For You",
@@ -7335,7 +7905,9 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 619769,
         "releaseDate": "1970-06-05",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Child In Time",
+        "itunesArtistName": "Deep Purple"
       },
       {
         "name": "Think About Us",
@@ -7373,7 +7945,9 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 241445,
         "releaseDate": "2008-05-25",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Viva La Vida",
+        "itunesArtistName": "Coldplay"
       },
       {
         "name": "Baby Bell",
@@ -7411,7 +7985,9 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 281533,
         "releaseDate": "2026-01-30",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "The Collision of Dreams (feat. Dusty Strings)",
+        "itunesArtistName": "R&B Vanguard"
       },
       {
         "name": "Old Time Rhythm",
@@ -7449,7 +8025,9 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 197093,
         "releaseDate": "2015-06-28",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "I Took A Pill In Ibiza (Seeb Remix)",
+        "itunesArtistName": "Mike Posner"
       },
       {
         "name": "Outro",
@@ -7468,7 +8046,9 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 247027,
         "releaseDate": "2011-10-14",
-        "rarity": "UC"
+        "rarity": "UC",
+        "itunesTrackName": "Outro",
+        "itunesArtistName": "M83"
       },
       {
         "name": "Roller",
@@ -7487,7 +8067,9 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 167357,
         "releaseDate": "2023-01-19",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "Komet",
+        "itunesArtistName": "Udo Lindenberg & Apache 207"
       },
       {
         "name": "Lord, Are The Gates Still Open (feat. Arthur Hayes)",
@@ -7525,7 +8107,9 @@
         "primaryGenreName": "Electronic",
         "trackTimeMillis": 121739,
         "releaseDate": "2025-12-12",
-        "rarity": "C"
+        "rarity": "C",
+        "itunesTrackName": "TIKI TIKI (Slowed)",
+        "itunesArtistName": "QMIIR"
       },
       {
         "name": "LABOUR (the cacophony)",

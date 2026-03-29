@@ -90,8 +90,8 @@ export async function fetchCardFromGenre(packConfig, rarity) {
 
         return {
             id: selectedTrack.itunesTrackId ? String(selectedTrack.itunesTrackId) : `pool-${hashCode(`${selectedTrack.artist}::${selectedTrack.name}`)}`,
-            title: selectedTrack.name,
-            artist: selectedTrack.artist,
+            title: selectedTrack.itunesTrackName || selectedTrack.name,
+            artist: selectedTrack.itunesArtistName || selectedTrack.artist,
             originalName: selectedTrack.name,
             originalArtist: selectedTrack.artist,
             album: selectedTrack.collectionName || 'Unknown Album',
@@ -202,8 +202,8 @@ export async function fetchCardFromTop200(obtainedKeys, rarity) {
 
         return {
             id: selectedTrack.itunesTrackId ? String(selectedTrack.itunesTrackId) : `top200-${hashCode(`${selectedTrack.artist}::${selectedTrack.name}`)}`,
-            title: selectedTrack.name,
-            artist: selectedTrack.artist,
+            title: selectedTrack.itunesTrackName || selectedTrack.name,
+            artist: selectedTrack.itunesArtistName || selectedTrack.artist,
             originalName: selectedTrack.name,
             originalArtist: selectedTrack.artist,
             album: selectedTrack.collectionName || 'Unknown Album',

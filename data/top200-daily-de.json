@@ -107,7 +107,9 @@
       "collectionName": "ARIRANG",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 159008,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "SWIM",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 9,
@@ -120,7 +122,9 @@
       "collectionName": "ARIRANG",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 159008,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "SWIM",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 10,
@@ -133,7 +137,9 @@
       "collectionName": "New Religion - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 174400,
-      "releaseDate": "2026-03-06"
+      "releaseDate": "2026-03-06",
+      "itunesTrackName": "New Religion",
+      "itunesArtistName": "Bebe Rexha & Faithless"
     },
     {
       "rank": 11,
@@ -146,7 +152,9 @@
       "collectionName": "SWIM (Instrumental) - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 159008,
-      "releaseDate": "2026-03-24"
+      "releaseDate": "2026-03-24",
+      "itunesTrackName": "SWIM",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 12,
@@ -159,7 +167,9 @@
       "collectionName": "Es brennt... - Single",
       "primaryGenreName": "Metal",
       "trackTimeMillis": 215102,
-      "releaseDate": "2026-03-26"
+      "releaseDate": "2026-03-26",
+      "itunesTrackName": "Es brennt...",
+      "itunesArtistName": "Till Lindemann"
     },
     {
       "rank": 13,
@@ -172,7 +182,9 @@
       "collectionName": "Papaoutai (Afro Soul) - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 280034,
-      "releaseDate": "2025-12-19"
+      "releaseDate": "2025-12-19",
+      "itunesTrackName": "Papaoutai (Afro Soul)",
+      "itunesArtistName": "mikeeysmind, Chill77 & Unjaps"
     },
     {
       "rank": 14,
@@ -185,7 +197,9 @@
       "collectionName": "FEVER DREAM - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 153430,
-      "releaseDate": "2026-03-13"
+      "releaseDate": "2026-03-13",
+      "itunesTrackName": "FEVER DREAM",
+      "itunesArtistName": "Alex Warren"
     },
     {
       "rank": 15,
@@ -198,7 +212,9 @@
       "collectionName": "WHERE IS MY HUSBAND! - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 197143,
-      "releaseDate": "2025-09-19"
+      "releaseDate": "2025-09-19",
+      "itunesTrackName": "WHERE IS MY HUSBAND!",
+      "itunesArtistName": "RAYE"
     },
     {
       "rank": 16,
@@ -211,7 +227,9 @@
       "collectionName": "LET ME BE - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 189854,
-      "releaseDate": "2026-01-25"
+      "releaseDate": "2026-01-25",
+      "itunesTrackName": "LET ME BE",
+      "itunesArtistName": "The Second Voice"
     },
     {
       "rank": 17,
@@ -224,7 +242,9 @@
       "collectionName": "The Boys of Dungeon Lane",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 198235,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Days We Left Behind",
+      "itunesArtistName": "Paul McCartney"
     },
     {
       "rank": 18,
@@ -237,7 +257,9 @@
       "collectionName": "The Life of a Showgirl",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 235356,
-      "releaseDate": "2025-10-03"
+      "releaseDate": "2025-10-03",
+      "itunesTrackName": "Opalite",
+      "itunesArtistName": "Taylor Swift"
     },
     {
       "rank": 19,
@@ -250,7 +272,9 @@
       "collectionName": "The Fate of Ophelia (Loud Luxury Remix) - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 156302,
-      "releaseDate": "2025-11-06"
+      "releaseDate": "2025-11-06",
+      "itunesTrackName": "The Fate of Ophelia (Loud Luxury Remix)",
+      "itunesArtistName": "Taylor Swift & Loud Luxury"
     },
     {
       "rank": 20,
@@ -263,7 +287,9 @@
       "collectionName": "When I Stand - Single",
       "primaryGenreName": "Country",
       "trackTimeMillis": 199720,
-      "releaseDate": "2026-03-04"
+      "releaseDate": "2026-03-04",
+      "itunesTrackName": "When I Stand",
+      "itunesArtistName": "Owen James"
     },
     {
       "rank": 21,
@@ -276,7 +302,9 @@
       "collectionName": "Rave From Outer Space - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 131429,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "Rave From Outer Space",
+      "itunesArtistName": "W&W & Scooter"
     },
     {
       "rank": 22,
@@ -289,7 +317,9 @@
       "collectionName": "Running To You - Single",
       "primaryGenreName": "Blues",
       "trackTimeMillis": 212760,
-      "releaseDate": "2026-03-14"
+      "releaseDate": "2026-03-14",
+      "itunesTrackName": "Running To You",
+      "itunesArtistName": "Eddie Dalton"
     },
     {
       "rank": 23,
@@ -302,7 +332,9 @@
       "collectionName": "Hotel",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 218133,
-      "releaseDate": "2026-03-13"
+      "releaseDate": "2026-03-13",
+      "itunesTrackName": "Wolken",
+      "itunesArtistName": "Johannes Oerding & Michael Patrick Kelly"
     },
     {
       "rank": 24,
@@ -315,7 +347,9 @@
       "collectionName": "Another Day Old - Single",
       "primaryGenreName": "Blues",
       "trackTimeMillis": 232641,
-      "releaseDate": "2026-03-15"
+      "releaseDate": "2026-03-15",
+      "itunesTrackName": "Another Day Old",
+      "itunesArtistName": "Eddie Dalton"
     },
     {
       "rank": 25,
@@ -328,7 +362,9 @@
       "collectionName": "The Romantic",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 212974,
-      "releaseDate": "2026-01-09"
+      "releaseDate": "2026-01-09",
+      "itunesTrackName": "I Just Might",
+      "itunesArtistName": "Bruno Mars"
     },
     {
       "rank": 26,
@@ -341,7 +377,9 @@
       "collectionName": "New Religion - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 174400,
-      "releaseDate": "2026-03-06"
+      "releaseDate": "2026-03-06",
+      "itunesTrackName": "New Religion",
+      "itunesArtistName": "Bebe Rexha & Faithless"
     },
     {
       "rank": 27,
@@ -354,7 +392,9 @@
       "collectionName": "Hotel",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 174133,
-      "releaseDate": "2026-02-27"
+      "releaseDate": "2026-02-27",
+      "itunesTrackName": "Mehr Glück als Verstand",
+      "itunesArtistName": "Johannes Oerding"
     },
     {
       "rank": 28,
@@ -367,7 +407,9 @@
       "collectionName": "\"Trink aus, wir müssen gehen!“ + Bonusalbum \"Alles muss raus!“",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 224707,
-      "releaseDate": "2026-03-13"
+      "releaseDate": "2026-03-13",
+      "itunesTrackName": "Die Show muss weitergehen",
+      "itunesArtistName": "Die Toten Hosen"
     },
     {
       "rank": 29,
@@ -380,7 +422,9 @@
       "collectionName": "Turn the Lights Off - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 178947,
-      "releaseDate": "2010-01-04"
+      "releaseDate": "2010-01-04",
+      "itunesTrackName": "Turn the Lights Off (Radio Edit)",
+      "itunesArtistName": "KATO & Jon"
     },
     {
       "rank": 30,
@@ -393,7 +437,9 @@
       "collectionName": "Just Like You (International Deluxe Version)",
       "primaryGenreName": "R&B/Soul",
       "trackTimeMillis": 243413,
-      "releaseDate": "2005-09-27"
+      "releaseDate": "2005-09-27",
+      "itunesTrackName": "(When You Gonna) Give It up to Me [feat. Keyshia Cole] [Radio Version]",
+      "itunesArtistName": "Sean Paul"
     },
     {
       "rank": 31,
@@ -406,7 +452,9 @@
       "collectionName": "Beautiful Reasons",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 228333,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Floating",
+      "itunesArtistName": "Michael Schulte"
     },
     {
       "rank": 32,
@@ -419,7 +467,9 @@
       "collectionName": "Golden (from the Netflix film KPop Demon Hunters) - Single",
       "primaryGenreName": "K-Pop",
       "trackTimeMillis": 194608,
-      "releaseDate": "2025-06-19"
+      "releaseDate": "2025-06-19",
+      "itunesTrackName": "Golden",
+      "itunesArtistName": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast"
     },
     {
       "rank": 33,
@@ -432,7 +482,9 @@
       "collectionName": "Kinderlieder zum Tanzen",
       "primaryGenreName": "Schlager",
       "trackTimeMillis": 175791,
-      "releaseDate": "2025-02-21"
+      "releaseDate": "2025-02-21",
+      "itunesTrackName": "Gute Laune",
+      "itunesArtistName": "GroßstadtEngel"
     },
     {
       "rank": 34,
@@ -445,7 +497,9 @@
       "collectionName": "Hotel",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 279936,
-      "releaseDate": "2026-02-13"
+      "releaseDate": "2026-02-13",
+      "itunesTrackName": "Märchen aus Hollywood",
+      "itunesArtistName": "Johannes Oerding & Sarah Connor"
     },
     {
       "rank": 35,
@@ -458,7 +512,9 @@
       "collectionName": "Embers - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 181200,
-      "releaseDate": "2026-01-09"
+      "releaseDate": "2026-01-09",
+      "itunesTrackName": "Embers",
+      "itunesArtistName": "Robin Schulz"
     },
     {
       "rank": 36,
@@ -471,7 +527,9 @@
       "collectionName": "SMILE",
       "primaryGenreName": "Indie-Rock",
       "trackTimeMillis": 219441,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Auf die Barrikaden",
+      "itunesArtistName": "Madsen"
     },
     {
       "rank": 37,
@@ -484,7 +542,9 @@
       "collectionName": "VERLIEBT IN MICH - Single",
       "primaryGenreName": "Hip-Hop/Rap",
       "trackTimeMillis": 129982,
-      "releaseDate": "2025-08-29"
+      "releaseDate": "2025-08-29",
+      "itunesTrackName": "VERLIEBT IN MICH",
+      "itunesArtistName": "FAYAN & Dalton"
     },
     {
       "rank": 38,
@@ -497,7 +557,9 @@
       "collectionName": "ARIRANG",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 189725,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "Body to Body",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 39,
@@ -510,7 +572,9 @@
       "collectionName": "The Art of Loving",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 184000,
-      "releaseDate": "2025-09-26"
+      "releaseDate": "2025-09-26",
+      "itunesTrackName": "Man I Need",
+      "itunesArtistName": "Olivia Dean"
     },
     {
       "rank": 40,
@@ -523,7 +587,9 @@
       "collectionName": "Sonntag - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 201307,
-      "releaseDate": "2025-10-17"
+      "releaseDate": "2025-10-17",
+      "itunesTrackName": "Sonntag",
+      "itunesArtistName": "Johannes Oerding"
     },
     {
       "rank": 41,
@@ -536,7 +602,9 @@
       "collectionName": "Ordinary - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 186964,
-      "releaseDate": "2024-09-26"
+      "releaseDate": "2024-09-26",
+      "itunesTrackName": "Ordinary",
+      "itunesArtistName": "Alex Warren"
     },
     {
       "rank": 42,
@@ -549,7 +617,9 @@
       "collectionName": "Acoustic",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 188747,
-      "releaseDate": "2011-01-01"
+      "releaseDate": "2011-01-01",
+      "itunesTrackName": "Wayfaring Stranger (Acoustic)",
+      "itunesArtistName": "Eva Cassidy"
     },
     {
       "rank": 43,
@@ -562,7 +632,9 @@
       "collectionName": "Cheap Red Wine - Single",
       "primaryGenreName": "Blues",
       "trackTimeMillis": 189920,
-      "releaseDate": "2026-03-21"
+      "releaseDate": "2026-03-21",
+      "itunesTrackName": "Cheap Red Wine",
+      "itunesArtistName": "Eddie Dalton"
     },
     {
       "rank": 44,
@@ -575,7 +647,9 @@
       "collectionName": "Le più belle canzoni d'amore",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 289907,
-      "releaseDate": "1998-03-31"
+      "releaseDate": "1998-03-31",
+      "itunesTrackName": "Iris",
+      "itunesArtistName": "The Goo Goo Dolls"
     },
     {
       "rank": 45,
@@ -588,7 +662,9 @@
       "collectionName": "12 to 12 - Single",
       "primaryGenreName": "Indie-Rock",
       "trackTimeMillis": 242903,
-      "releaseDate": "2025-07-24"
+      "releaseDate": "2025-07-24",
+      "itunesTrackName": "12 to 12",
+      "itunesArtistName": "sombr"
     },
     {
       "rank": 46,
@@ -601,7 +677,9 @@
       "collectionName": "Stay - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 184646,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "Stay",
+      "itunesArtistName": "Leony & Calum Scott"
     },
     {
       "rank": 47,
@@ -614,7 +692,9 @@
       "collectionName": "Hier Gehör Ich Hin - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 213240,
-      "releaseDate": "2025-09-26"
+      "releaseDate": "2025-09-26",
+      "itunesTrackName": "Hier Gehör Ich Hin",
+      "itunesArtistName": "Johannes Oerding"
     },
     {
       "rank": 48,
@@ -627,7 +707,9 @@
       "collectionName": "ARIRANG",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 189747,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "Like Animals",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 49,
@@ -640,7 +722,9 @@
       "collectionName": "The Weight of the Woods",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 243668,
-      "releaseDate": "2026-01-23"
+      "releaseDate": "2026-01-23",
+      "itunesTrackName": "Funeral",
+      "itunesArtistName": "Dermot Kennedy"
     },
     {
       "rank": 50,
@@ -653,7 +737,9 @@
       "collectionName": "DECIDE",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 159246,
-      "releaseDate": "2024-03-01"
+      "releaseDate": "2024-03-01",
+      "itunesTrackName": "End of Beginning",
+      "itunesArtistName": "Djo"
     },
     {
       "rank": 51,
@@ -666,7 +752,9 @@
       "collectionName": "Kiss All The Time. Disco, Occasionally.",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 213440,
-      "releaseDate": "2026-03-06"
+      "releaseDate": "2026-03-06",
+      "itunesTrackName": "American Girls",
+      "itunesArtistName": "Harry Styles"
     },
     {
       "rank": 52,
@@ -679,7 +767,9 @@
       "collectionName": "Steh Auf",
       "primaryGenreName": "Schlager",
       "trackTimeMillis": 210000,
-      "releaseDate": "2026-03-06"
+      "releaseDate": "2026-03-06",
+      "itunesTrackName": "Mir egal",
+      "itunesArtistName": "Karl Herz"
     },
     {
       "rank": 53,
@@ -691,7 +781,9 @@
       "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/05/10/5005106d-bb8a-32db-1172-f18405cf4a46/820200038890.jpg/600x600bb.jpg",
       "collectionName": "THIS MUSIC MAY CONTAIN HOPE.",
       "primaryGenreName": "Pop",
-      "trackTimeMillis": 301674
+      "trackTimeMillis": 301674,
+      "itunesTrackName": "Click Clack Symphony. (feat. Hans Zimmer)",
+      "itunesArtistName": "RAYE"
     },
     {
       "rank": 54,
@@ -704,7 +796,9 @@
       "collectionName": "STAY - Single",
       "primaryGenreName": "K-Pop",
       "trackTimeMillis": 186000,
-      "releaseDate": "2026-03-25"
+      "releaseDate": "2026-03-25",
+      "itunesTrackName": "STAY",
+      "itunesArtistName": "Stray Kids"
     },
     {
       "rank": 55,
@@ -717,7 +811,9 @@
       "collectionName": "LIEBE GLAUBE MONSTER",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 212933,
-      "releaseDate": "2026-03-13"
+      "releaseDate": "2026-03-13",
+      "itunesTrackName": "Du bist meine Heimat",
+      "itunesArtistName": "Unheilig"
     },
     {
       "rank": 56,
@@ -730,7 +826,9 @@
       "collectionName": "Don't Worry - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 139201,
-      "releaseDate": "2025-10-17"
+      "releaseDate": "2025-10-17",
+      "itunesTrackName": "Don't Worry",
+      "itunesArtistName": "Leony"
     },
     {
       "rank": 57,
@@ -743,7 +841,9 @@
       "collectionName": "LIEBE GLAUBE MONSTER",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 203973,
-      "releaseDate": "2025-09-10"
+      "releaseDate": "2025-09-10",
+      "itunesTrackName": "Wunderschön",
+      "itunesArtistName": "Unheilig"
     },
     {
       "rank": 58,
@@ -756,7 +856,9 @@
       "collectionName": "Leben,Lieben,Lachen - Single",
       "primaryGenreName": "R&B/Soul",
       "trackTimeMillis": 271960,
-      "releaseDate": "2026-03-15"
+      "releaseDate": "2026-03-15",
+      "itunesTrackName": "Leben,Lieben,Lachen",
+      "itunesArtistName": "Mr_Deluxe2020"
     },
     {
       "rank": 59,
@@ -769,7 +871,9 @@
       "collectionName": "Jamaican (Bam Bam) - Single",
       "primaryGenreName": "Afro House",
       "trackTimeMillis": 156393,
-      "releaseDate": "2025-11-07"
+      "releaseDate": "2025-11-07",
+      "itunesTrackName": "Jamaican (Bam Bam)",
+      "itunesArtistName": "HUGEL & SOLTO (FR)"
     },
     {
       "rank": 60,
@@ -782,7 +886,9 @@
       "collectionName": "Younger You (From the \"Hannah Montana 20th Anniversary Special\") - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 167800,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Younger You (From the \"Hannah Montana 20th Anniversary Special\")",
+      "itunesArtistName": "Miley Cyrus"
     },
     {
       "rank": 61,
@@ -795,7 +901,9 @@
       "collectionName": "Beautiful Reasons",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 176493,
-      "releaseDate": "2026-01-30"
+      "releaseDate": "2026-01-30",
+      "itunesTrackName": "5am",
+      "itunesArtistName": "Michael Schulte"
     },
     {
       "rank": 62,
@@ -808,7 +916,9 @@
       "collectionName": "Church of Clubmusic",
       "primaryGenreName": "Techno",
       "trackTimeMillis": 213333,
-      "releaseDate": "2019-04-22"
+      "releaseDate": "2019-04-22",
+      "itunesTrackName": "Hard Gaan",
+      "itunesArtistName": "Reinier Zonneveld"
     },
     {
       "rank": 63,
@@ -821,7 +931,9 @@
       "collectionName": "Komet - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 167357,
-      "releaseDate": "2023-01-19"
+      "releaseDate": "2023-01-19",
+      "itunesTrackName": "Komet",
+      "itunesArtistName": "Udo Lindenberg & Apache 207"
     },
     {
       "rank": 64,
@@ -834,7 +946,9 @@
       "collectionName": "Superbloom",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 177173,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Automatic",
+      "itunesArtistName": "Jessie Ware"
     },
     {
       "rank": 65,
@@ -847,7 +961,9 @@
       "collectionName": "ARIRANG",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 180544,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "FYA",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 66,
@@ -860,7 +976,9 @@
       "collectionName": "Lost in Time (feat. ROSY) - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 147778,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "Lost in Time (feat. ROSY)",
+      "itunesArtistName": "Armin van Buuren & Alle Farben"
     },
     {
       "rank": 67,
@@ -873,7 +991,9 @@
       "collectionName": "A Star Is Born Soundtrack",
       "primaryGenreName": "Soundtracks",
       "trackTimeMillis": 215737,
-      "releaseDate": "2018-09-27"
+      "releaseDate": "2018-09-27",
+      "itunesTrackName": "Shallow",
+      "itunesArtistName": "Lady Gaga & Bradley Cooper"
     },
     {
       "rank": 68,
@@ -886,7 +1006,9 @@
       "collectionName": "Greatest Hits (2024 Remaster)",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 250835,
-      "releaseDate": "1981-06-03"
+      "releaseDate": "1981-06-03",
+      "itunesTrackName": "Don't Stop Believin' (2024 Remaster)",
+      "itunesArtistName": "Journey"
     },
     {
       "rank": 69,
@@ -899,7 +1021,9 @@
       "collectionName": "Lifelines",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 306991,
-      "releaseDate": "2026-03-13"
+      "releaseDate": "2026-03-13",
+      "itunesTrackName": "Run",
+      "itunesArtistName": "Chris Norman"
     },
     {
       "rank": 70,
@@ -912,7 +1036,9 @@
       "collectionName": "Amore Mio (Vino e Musica) - Single",
       "primaryGenreName": "Schlager",
       "trackTimeMillis": 154615,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Amore Mio (Vino e Musica)",
+      "itunesArtistName": "Pietro Basile"
     },
     {
       "rank": 71,
@@ -925,7 +1051,9 @@
       "collectionName": "Gone Gone Gone - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 198004,
-      "releaseDate": "2025-10-10"
+      "releaseDate": "2025-10-10",
+      "itunesTrackName": "Gone Gone Gone",
+      "itunesArtistName": "David Guetta, Teddy Swims & Tones And I"
     },
     {
       "rank": 72,
@@ -943,7 +1071,9 @@
       "collectionName": "Das ist mein Weg - Single",
       "primaryGenreName": "Schlager",
       "trackTimeMillis": 197813,
-      "releaseDate": "2026-02-22"
+      "releaseDate": "2026-02-22",
+      "itunesTrackName": "Das ist mein Weg",
+      "itunesArtistName": "Flugpoet1"
     },
     {
       "rank": 74,
@@ -956,7 +1086,9 @@
       "collectionName": "A Star Is Born Soundtrack (Without Dialogue)",
       "primaryGenreName": "Soundtracks",
       "trackTimeMillis": 210198,
-      "releaseDate": "2018-10-05"
+      "releaseDate": "2018-10-05",
+      "itunesTrackName": "Always Remember Us This Way",
+      "itunesArtistName": "Lady Gaga"
     },
     {
       "rank": 75,
@@ -969,7 +1101,9 @@
       "collectionName": "Honora",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 250493,
-      "releaseDate": "2025-12-02"
+      "releaseDate": "2025-12-02",
+      "itunesTrackName": "Thinkin Bout You",
+      "itunesArtistName": "Flea"
     },
     {
       "rank": 76,
@@ -982,7 +1116,9 @@
       "collectionName": "KONNAKOL",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 192572,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Sideways",
+      "itunesArtistName": "ZAYN"
     },
     {
       "rank": 77,
@@ -995,7 +1131,9 @@
       "collectionName": "Fire - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 177692,
-      "releaseDate": "2026-01-30"
+      "releaseDate": "2026-01-30",
+      "itunesTrackName": "Fire (Eurovision Song Contest)",
+      "itunesArtistName": "Sarah Engels"
     },
     {
       "rank": 78,
@@ -1008,7 +1146,9 @@
       "collectionName": "Interstellar (Zwischen den Sternen) - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 148333,
-      "releaseDate": "2025-05-22"
+      "releaseDate": "2025-05-22",
+      "itunesTrackName": "Interstellar (Zwischen den Sternen)",
+      "itunesArtistName": "Sarah Connor & Sido"
     },
     {
       "rank": 79,
@@ -1021,7 +1161,9 @@
       "collectionName": "ARIRANG",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 184480,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "NORMAL",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 80,
@@ -1034,7 +1176,9 @@
       "collectionName": "Kiss All The Time. Disco, Occasionally.",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 311733,
-      "releaseDate": "2026-01-22"
+      "releaseDate": "2026-01-22",
+      "itunesTrackName": "Aperture",
+      "itunesArtistName": "Harry Styles"
     },
     {
       "rank": 81,
@@ -1047,7 +1191,9 @@
       "collectionName": "The Sound of Silence (CYRIL Remix) - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 185238,
-      "releaseDate": "2024-02-13"
+      "releaseDate": "2024-02-13",
+      "itunesTrackName": "The Sound of Silence (CYRIL Remix)",
+      "itunesArtistName": "Disturbed"
     },
     {
       "rank": 82,
@@ -1060,7 +1206,9 @@
       "collectionName": "MALA SANTA",
       "primaryGenreName": "Pop auf Spanisch",
       "trackTimeMillis": 203183,
-      "releaseDate": "2017-07-14"
+      "releaseDate": "2017-07-14",
+      "itunesTrackName": "Mayores",
+      "itunesArtistName": "Becky G & Bad Bunny"
     },
     {
       "rank": 83,
@@ -1073,7 +1221,9 @@
       "collectionName": "Rohdiamant",
       "primaryGenreName": "ヒップホップ／ラップ",
       "trackTimeMillis": 160834,
-      "releaseDate": "2021-04-22"
+      "releaseDate": "2021-04-22",
+      "itunesTrackName": "Feuer Gold & Blei",
+      "itunesArtistName": "Samra"
     },
     {
       "rank": 84,
@@ -1086,7 +1236,9 @@
       "collectionName": "Bridgerton Season Four (Covers from the Netflix Series)",
       "primaryGenreName": "Klassische Crossover-Musik",
       "trackTimeMillis": 131317,
-      "releaseDate": "2026-02-26"
+      "releaseDate": "2026-02-26",
+      "itunesTrackName": "360 (Arr. For Cello Obligato and String Quartet)",
+      "itunesArtistName": "Peter Gregson"
     },
     {
       "rank": 85,
@@ -1099,7 +1251,9 @@
       "collectionName": "The Wow! Signal",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 215196,
-      "releaseDate": "2026-03-21"
+      "releaseDate": "2026-03-21",
+      "itunesTrackName": "Be With You",
+      "itunesArtistName": "Muse"
     },
     {
       "rank": 86,
@@ -1112,7 +1266,9 @@
       "collectionName": "In Time: The Best of R.E.M. 1988-2003",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 268833,
-      "releaseDate": "1991-02-19"
+      "releaseDate": "1991-02-19",
+      "itunesTrackName": "Losing My Religion",
+      "itunesArtistName": "R.E.M."
     },
     {
       "rank": 87,
@@ -1125,7 +1281,9 @@
       "collectionName": "Ti amo, Italiano! - Single",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 201806,
-      "releaseDate": "2026-01-08"
+      "releaseDate": "2026-01-08",
+      "itunesTrackName": "Ti amo, Italiano!",
+      "itunesArtistName": "Sportfreunde Stiller"
     },
     {
       "rank": 88,
@@ -1138,7 +1296,9 @@
       "collectionName": "Ein Lied - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 151553,
-      "releaseDate": "2026-02-27"
+      "releaseDate": "2026-02-27",
+      "itunesTrackName": "Ein Lied",
+      "itunesArtistName": "Mark Forster"
     },
     {
       "rank": 89,
@@ -1151,7 +1311,9 @@
       "collectionName": "Avenoir",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 218006,
-      "releaseDate": "2025-09-11"
+      "releaseDate": "2025-09-11",
+      "itunesTrackName": "I Wanna Dance With Somebody (Who Loves Me)",
+      "itunesArtistName": "Calum Scott & Whitney Houston"
     },
     {
       "rank": 90,
@@ -1164,7 +1326,9 @@
       "collectionName": "Du bist Gut - Single",
       "primaryGenreName": "R&B/Soul",
       "trackTimeMillis": 204800,
-      "releaseDate": "2026-03-06"
+      "releaseDate": "2026-03-06",
+      "itunesTrackName": "Du bist Gut",
+      "itunesArtistName": "Sudami"
     },
     {
       "rank": 91,
@@ -1177,7 +1341,9 @@
       "collectionName": "Hounds of Love (2018 Remaster)",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 300840,
-      "releaseDate": "1985-08-05"
+      "releaseDate": "1985-08-05",
+      "itunesTrackName": "Running Up That Hill (A Deal With God) [2018 Remaster]",
+      "itunesArtistName": "Kate Bush"
     },
     {
       "rank": 92,
@@ -1190,7 +1356,9 @@
       "collectionName": "Wild West & Wicked (Remix) - Single",
       "primaryGenreName": "Country",
       "trackTimeMillis": 174960,
-      "releaseDate": "2026-02-22"
+      "releaseDate": "2026-02-22",
+      "itunesTrackName": "Wild West & Wicked (Remix)",
+      "itunesArtistName": "DJTEXX"
     },
     {
       "rank": 93,
@@ -1203,7 +1371,9 @@
       "collectionName": "Beautiful Things - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 180304,
-      "releaseDate": "2024-01-18"
+      "releaseDate": "2024-01-18",
+      "itunesTrackName": "Beautiful Things",
+      "itunesArtistName": "Benson Boone"
     },
     {
       "rank": 94,
@@ -1216,7 +1386,9 @@
       "collectionName": "Jennifer Rush",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 361231,
-      "releaseDate": "1984-12-01"
+      "releaseDate": "1984-12-01",
+      "itunesTrackName": "The Power of Love",
+      "itunesArtistName": "Jennifer Rush"
     },
     {
       "rank": 95,
@@ -1228,7 +1400,9 @@
       "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/62/12/5c621263-fb65-049c-bffe-5b67876592cf/25UM2IM01991.rgb.jpg/600x600bb.jpg",
       "collectionName": "Cruel World",
       "primaryGenreName": "Alternative",
-      "trackTimeMillis": 237952
+      "trackTimeMillis": 237952,
+      "itunesTrackName": "To Love Somebody",
+      "itunesArtistName": "Holly Humberstone"
     },
     {
       "rank": 96,
@@ -1241,7 +1415,9 @@
       "collectionName": "The Razors Edge",
       "primaryGenreName": "Hard Rock",
       "trackTimeMillis": 292334,
-      "releaseDate": "1990-09-10"
+      "releaseDate": "1990-09-10",
+      "itunesTrackName": "Thunderstruck",
+      "itunesArtistName": "AC/DC"
     },
     {
       "rank": 97,
@@ -1254,7 +1430,9 @@
       "collectionName": "Harry Styles",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 340707,
-      "releaseDate": "2017-04-07"
+      "releaseDate": "2017-04-07",
+      "itunesTrackName": "Sign of the Times",
+      "itunesArtistName": "Harry Styles"
     },
     {
       "rank": 98,
@@ -1267,7 +1445,9 @@
       "collectionName": "undressed - Single",
       "primaryGenreName": "Indie-Rock",
       "trackTimeMillis": 182089,
-      "releaseDate": "2025-03-21"
+      "releaseDate": "2025-03-21",
+      "itunesTrackName": "undressed",
+      "itunesArtistName": "sombr"
     },
     {
       "rank": 99,
@@ -1280,7 +1460,9 @@
       "collectionName": "Dachdecker - Single",
       "primaryGenreName": "Schlager",
       "trackTimeMillis": 201103,
-      "releaseDate": "2026-03-13"
+      "releaseDate": "2026-03-13",
+      "itunesTrackName": "Dachdecker",
+      "itunesArtistName": "Julian Sommer"
     },
     {
       "rank": 100,
@@ -1293,7 +1475,9 @@
       "collectionName": "24/7",
       "primaryGenreName": "Schlager",
       "trackTimeMillis": 209079,
-      "releaseDate": "2026-03-13"
+      "releaseDate": "2026-03-13",
+      "itunesTrackName": "Frei",
+      "itunesArtistName": "Maite Kelly"
     },
     {
       "rank": 101,
@@ -1306,7 +1490,9 @@
       "collectionName": "Placebo RE:CREATED",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 216107,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Bruise Pristine (RE:CREATED VERSION)",
+      "itunesArtistName": "Placebo"
     },
     {
       "rank": 102,
@@ -1319,7 +1505,9 @@
       "collectionName": "Gladiator (Soundtrack from the Motion Picture)",
       "primaryGenreName": "Soundtracks",
       "trackTimeMillis": 254293,
-      "releaseDate": "2000-04-25"
+      "releaseDate": "2000-04-25",
+      "itunesTrackName": "Now We Are Free",
+      "itunesArtistName": "Lisa Gerrard, Gavin Greenaway, The Lyndhurst Orchestra, Bruce Fowler, Yvonne S. Moriarty, Walt Fowler, Ladd McIntosh, Elizabeth Finch, Jack Smalley & Hans Zimmer"
     },
     {
       "rank": 103,
@@ -1332,7 +1520,9 @@
       "collectionName": "Halloween Rock Night",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 235893,
-      "releaseDate": "2003-02-04"
+      "releaseDate": "2003-02-04",
+      "itunesTrackName": "Bring Me To Life",
+      "itunesArtistName": "Evanescence"
     },
     {
       "rank": 104,
@@ -1345,7 +1535,9 @@
       "collectionName": "I'm Not What Happened To Me - Single",
       "primaryGenreName": "Electronic",
       "trackTimeMillis": 169960,
-      "releaseDate": "2025-10-24"
+      "releaseDate": "2025-10-24",
+      "itunesTrackName": "I'm Not What Happened To Me",
+      "itunesArtistName": "Good Vibes Tribe 11:11"
     },
     {
       "rank": 105,
@@ -1358,7 +1550,9 @@
       "collectionName": "Songs You've Been Asking For, Vol. 6 (DJ Mix)",
       "primaryGenreName": "Electronic",
       "trackTimeMillis": 199497,
-      "releaseDate": "2025-03-21"
+      "releaseDate": "2025-03-21",
+      "itunesTrackName": "Messy (Loud Luxury Remix) [Mixed]",
+      "itunesArtistName": "Lola Young"
     },
     {
       "rank": 106,
@@ -1371,7 +1565,9 @@
       "collectionName": "ALONE WITH MEMORIES - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 274920,
-      "releaseDate": "2026-02-10"
+      "releaseDate": "2026-02-10",
+      "itunesTrackName": "ALONE WITH MEMORIES",
+      "itunesArtistName": "RASELHITS"
     },
     {
       "rank": 107,
@@ -1384,7 +1580,9 @@
       "collectionName": "NO BATIDÃO (Electronic Remix) - Single",
       "primaryGenreName": "Baile Funk",
       "trackTimeMillis": 108843,
-      "releaseDate": "2025-11-01"
+      "releaseDate": "2025-11-01",
+      "itunesTrackName": "NO BATIDÃO (Electronic Remix)",
+      "itunesArtistName": "CyberBedir"
     },
     {
       "rank": 108,
@@ -1397,7 +1595,9 @@
       "collectionName": "Wackelkontakt - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 168801,
-      "releaseDate": "2024-08-01"
+      "releaseDate": "2024-08-01",
+      "itunesTrackName": "Wackelkontakt",
+      "itunesArtistName": "Oimara"
     },
     {
       "rank": 109,
@@ -1410,7 +1610,9 @@
       "collectionName": "This Is Acting",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 217747,
-      "releaseDate": "2016-01-21"
+      "releaseDate": "2016-01-21",
+      "itunesTrackName": "Unstoppable",
+      "itunesArtistName": "Sia"
     },
     {
       "rank": 110,
@@ -1423,7 +1625,9 @@
       "collectionName": "Just the Way You Are - Deluxe Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 220734,
-      "releaseDate": "2010-07-20"
+      "releaseDate": "2010-07-20",
+      "itunesTrackName": "Just the Way You Are",
+      "itunesArtistName": "Bruno Mars"
     },
     {
       "rank": 111,
@@ -1436,7 +1640,9 @@
       "collectionName": "Baby Goodbye - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 131933,
-      "releaseDate": "2025-11-14"
+      "releaseDate": "2025-11-14",
+      "itunesTrackName": "Baby Goodbye",
+      "itunesArtistName": "Alle Farben"
     },
     {
       "rank": 112,
@@ -1449,7 +1655,9 @@
       "collectionName": "Die With A Smile (Main + Instrumental + Video) - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 251668,
-      "releaseDate": "2024-08-16"
+      "releaseDate": "2024-08-16",
+      "itunesTrackName": "Die With A Smile",
+      "itunesArtistName": "Lady Gaga & Bruno Mars"
     },
     {
       "rank": 113,
@@ -1462,7 +1670,9 @@
       "collectionName": "I've Tried Everything But Therapy (Part 1)",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 210689,
-      "releaseDate": "2023-06-23"
+      "releaseDate": "2023-06-23",
+      "itunesTrackName": "Lose Control",
+      "itunesArtistName": "Teddy Swims"
     },
     {
       "rank": 114,
@@ -1475,7 +1685,9 @@
       "collectionName": "That's The Way It Is - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 174960,
-      "releaseDate": "2026-02-12"
+      "releaseDate": "2026-02-12",
+      "itunesTrackName": "That's The Way It Is",
+      "itunesArtistName": "Outliers"
     },
     {
       "rank": 115,
@@ -1488,7 +1700,9 @@
       "collectionName": "Nur das Beste: Ricchi e Poveri",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 189800,
-      "releaseDate": "1981-02-01"
+      "releaseDate": "1981-02-01",
+      "itunesTrackName": "Sarà Perché Ti Amo",
+      "itunesArtistName": "Ricchi & Poveri"
     },
     {
       "rank": 116,
@@ -1501,7 +1715,9 @@
       "collectionName": "Kittens (r31_for2026) - Single",
       "primaryGenreName": "Electronic",
       "trackTimeMillis": 401760,
-      "releaseDate": "2026-03-26"
+      "releaseDate": "2026-03-26",
+      "itunesTrackName": "Kittens (r31_for2026)",
+      "itunesArtistName": "Underworld"
     },
     {
       "rank": 117,
@@ -1514,7 +1730,9 @@
       "collectionName": "boy you turn me - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 192332,
-      "releaseDate": "2026-03-06"
+      "releaseDate": "2026-03-06",
+      "itunesTrackName": "boy you turn me",
+      "itunesArtistName": "Felix Jaehn & Cascada"
     },
     {
       "rank": 118,
@@ -1527,7 +1745,9 @@
       "collectionName": "Have You Ever Seen The Rain - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 125077,
-      "releaseDate": "2025-02-21"
+      "releaseDate": "2025-02-21",
+      "itunesTrackName": "Have You Ever Seen The Rain",
+      "itunesArtistName": "Outliers, John Fogerty & Creedence Clearwater Revival"
     },
     {
       "rank": 119,
@@ -1540,7 +1760,9 @@
       "collectionName": "So Good",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 200647,
-      "releaseDate": "2017-03-17"
+      "releaseDate": "2017-03-17",
+      "itunesTrackName": "Lush Life",
+      "itunesArtistName": "Zara Larsson"
     },
     {
       "rank": 120,
@@ -1553,7 +1775,9 @@
       "collectionName": "The 80s Tapes: Pop Super Hits",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 200707,
-      "releaseDate": "1985-06-16"
+      "releaseDate": "1985-06-16",
+      "itunesTrackName": "Rock Me Amadeus",
+      "itunesArtistName": "Falco"
     },
     {
       "rank": 121,
@@ -1566,7 +1790,9 @@
       "collectionName": "Echoes of You - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 205920,
-      "releaseDate": "2026-01-16"
+      "releaseDate": "2026-01-16",
+      "itunesTrackName": "Echoes of You",
+      "itunesArtistName": "Marc Atlas"
     },
     {
       "rank": 122,
@@ -1579,7 +1805,9 @@
       "collectionName": "Dressed Like Boys",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 227409,
-      "releaseDate": "2025-01-08"
+      "releaseDate": "2025-01-08",
+      "itunesTrackName": "Lies",
+      "itunesArtistName": "Dressed Like Boys"
     },
     {
       "rank": 123,
@@ -1592,7 +1820,9 @@
       "collectionName": "The Kick Inside",
       "primaryGenreName": "Pop/Rock",
       "trackTimeMillis": 269067,
-      "releaseDate": "2022-06-03"
+      "releaseDate": "2022-06-03",
+      "itunesTrackName": "Wuthering Heights",
+      "itunesArtistName": "Kate Bush"
     },
     {
       "rank": 124,
@@ -1605,7 +1835,9 @@
       "collectionName": "24/7",
       "primaryGenreName": "Schlager",
       "trackTimeMillis": 226678,
-      "releaseDate": "2025-10-17"
+      "releaseDate": "2025-10-17",
+      "itunesTrackName": "Der Morgen danach",
+      "itunesArtistName": "Maite Kelly"
     },
     {
       "rank": 125,
@@ -1618,7 +1850,9 @@
       "collectionName": "Muttersprache (Deluxe Version)",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 218567,
-      "releaseDate": "2015-05-01"
+      "releaseDate": "2015-05-01",
+      "itunesTrackName": "Wie schön du bist",
+      "itunesArtistName": "Sarah Connor"
     },
     {
       "rank": 126,
@@ -1631,7 +1865,9 @@
       "collectionName": "The Boy Who Played the Harp",
       "primaryGenreName": "Hip-Hop/Rap",
       "trackTimeMillis": 219744,
-      "releaseDate": "2025-10-24"
+      "releaseDate": "2025-10-24",
+      "itunesTrackName": "Raindance",
+      "itunesArtistName": "Dave & Tems"
     },
     {
       "rank": 127,
@@ -1644,7 +1880,9 @@
       "collectionName": "HERZ KRAFT WERKE (Deluxe Version)",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 283205,
-      "releaseDate": "2020-12-11"
+      "releaseDate": "2020-12-11",
+      "itunesTrackName": "Vincent",
+      "itunesArtistName": "Sarah Connor"
     },
     {
       "rank": 128,
@@ -1657,7 +1895,9 @@
       "collectionName": "Ring My Bell",
       "primaryGenreName": "R&B/Soul",
       "trackTimeMillis": 491933,
-      "releaseDate": "2005-09-26"
+      "releaseDate": "2005-09-26",
+      "itunesTrackName": "Ring My Bell",
+      "itunesArtistName": "Anita Ward"
     },
     {
       "rank": 129,
@@ -1670,7 +1910,9 @@
       "collectionName": "HELP(2)",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 200689,
-      "releaseDate": "2026-03-06"
+      "releaseDate": "2026-03-06",
+      "itunesTrackName": "Universal Soldier",
+      "itunesArtistName": "Depeche Mode & War Child Records"
     },
     {
       "rank": 130,
@@ -1683,7 +1925,9 @@
       "collectionName": "Nur zu Besuch",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 222892,
-      "releaseDate": "2016-08-26"
+      "releaseDate": "2016-08-26",
+      "itunesTrackName": "Als Du gingst",
+      "itunesArtistName": "Lina Maly"
     },
     {
       "rank": 131,
@@ -1696,7 +1940,9 @@
       "collectionName": "Unravelling - Single",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 238002,
-      "releaseDate": "2025-06-20"
+      "releaseDate": "2025-06-20",
+      "itunesTrackName": "Unravelling",
+      "itunesArtistName": "Muse"
     },
     {
       "rank": 132,
@@ -1709,7 +1955,9 @@
       "collectionName": "Housebroken - Single",
       "primaryGenreName": "R&B/Soul",
       "trackTimeMillis": 217320,
-      "releaseDate": "2026-02-20"
+      "releaseDate": "2026-02-20",
+      "itunesTrackName": "Housebroken",
+      "itunesArtistName": "Aiyana-Lee"
     },
     {
       "rank": 133,
@@ -1722,7 +1970,9 @@
       "collectionName": "Honeysuckle & Lightning Bugs",
       "primaryGenreName": "Country",
       "trackTimeMillis": 200594,
-      "releaseDate": "2019-05-03"
+      "releaseDate": "2019-05-03",
+      "itunesTrackName": "The Git Up",
+      "itunesArtistName": "Blanco Brown"
     },
     {
       "rank": 134,
@@ -1735,7 +1985,9 @@
       "collectionName": "Hits of the Decade 2000-2009",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 237387,
-      "releaseDate": "2008-08-19"
+      "releaseDate": "2008-08-19",
+      "itunesTrackName": "Poker Face",
+      "itunesArtistName": "Lady Gaga"
     },
     {
       "rank": 135,
@@ -1748,7 +2000,9 @@
       "collectionName": "Shower - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 206167,
-      "releaseDate": "2014-04-23"
+      "releaseDate": "2014-04-23",
+      "itunesTrackName": "Shower",
+      "itunesArtistName": "Becky G"
     },
     {
       "rank": 136,
@@ -1761,7 +2015,9 @@
       "collectionName": "Do I Wanna Know? - Single",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 273424,
-      "releaseDate": "2013-06-19"
+      "releaseDate": "2013-06-19",
+      "itunesTrackName": "Do I Wanna Know?",
+      "itunesArtistName": "Arctic Monkeys"
     },
     {
       "rank": 137,
@@ -1774,7 +2030,9 @@
       "collectionName": "Evolve",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 204345,
-      "releaseDate": "2017-02-01"
+      "releaseDate": "2017-02-01",
+      "itunesTrackName": "Believer",
+      "itunesArtistName": "Imagine Dragons"
     },
     {
       "rank": 138,
@@ -1792,7 +2050,9 @@
       "collectionName": "Something Beautiful",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 250484,
-      "releaseDate": "2025-04-04"
+      "releaseDate": "2025-04-04",
+      "itunesTrackName": "End of the World",
+      "itunesArtistName": "Miley Cyrus"
     },
     {
       "rank": 140,
@@ -1805,7 +2065,9 @@
       "collectionName": "200 KM/H In the Wrong Lane",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 213867,
-      "releaseDate": "2002-08-19"
+      "releaseDate": "2002-08-19",
+      "itunesTrackName": "All the Things She Said",
+      "itunesArtistName": "t.A.T.u."
     },
     {
       "rank": 141,
@@ -1818,7 +2080,9 @@
       "collectionName": "TANZSCHEIN - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 162548,
-      "releaseDate": "2026-02-06"
+      "releaseDate": "2026-02-06",
+      "itunesTrackName": "TANZSCHEIN",
+      "itunesArtistName": "COSMÓ"
     },
     {
       "rank": 142,
@@ -1831,7 +2095,9 @@
       "collectionName": "Zoo (aus \"Zoomania 2\") - Single",
       "primaryGenreName": "Soundtracks",
       "trackTimeMillis": 190823,
-      "releaseDate": "2025-10-10"
+      "releaseDate": "2025-10-10",
+      "itunesTrackName": "Zoo (aus \"Zoomania 2\")",
+      "itunesArtistName": "Disney & Shakira"
     },
     {
       "rank": 143,
@@ -1844,7 +2110,9 @@
       "collectionName": "Endless Summer Vacation",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 200600,
-      "releaseDate": "2023-01-12"
+      "releaseDate": "2023-01-12",
+      "itunesTrackName": "Flowers",
+      "itunesArtistName": "Miley Cyrus"
     },
     {
       "rank": 144,
@@ -1857,7 +2125,9 @@
       "collectionName": "Die On This Hill - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 217009,
-      "releaseDate": "2025-10-10"
+      "releaseDate": "2025-10-10",
+      "itunesTrackName": "Die On This Hill",
+      "itunesArtistName": "SIENNA SPIRO"
     },
     {
       "rank": 145,
@@ -1870,7 +2140,9 @@
       "collectionName": "Your Phone Linging - Single",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 127080,
-      "releaseDate": "2023-11-25"
+      "releaseDate": "2023-11-25",
+      "itunesTrackName": "Your Phone Linging",
+      "itunesArtistName": "Jahin Music"
     },
     {
       "rank": 146,
@@ -1883,7 +2155,9 @@
       "collectionName": "Hybrid Theory",
       "primaryGenreName": "Hard Rock",
       "trackTimeMillis": 216294,
-      "releaseDate": "2000-10-24"
+      "releaseDate": "2000-10-24",
+      "itunesTrackName": "In the End",
+      "itunesArtistName": "LINKIN PARK"
     },
     {
       "rank": 147,
@@ -1896,7 +2170,9 @@
       "collectionName": "BIS WIR ALT SIND - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 154500,
-      "releaseDate": "2026-02-27"
+      "releaseDate": "2026-02-27",
+      "itunesTrackName": "BIS WIR ALT SIND",
+      "itunesArtistName": "CHRIS"
     },
     {
       "rank": 148,
@@ -1909,7 +2185,9 @@
       "collectionName": "Vielleicht Vielleicht (Holy Priest & elMefti Remix) - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 169818,
-      "releaseDate": "2023-10-20"
+      "releaseDate": "2023-10-20",
+      "itunesTrackName": "Vielleicht Vielleicht (Holy Priest & elMefti Remix)",
+      "itunesArtistName": "MilleniumKid & JBS"
     },
     {
       "rank": 149,
@@ -1922,7 +2200,9 @@
       "collectionName": "Doublespeak",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 273440,
-      "releaseDate": "2026-03-25"
+      "releaseDate": "2026-03-25",
+      "itunesTrackName": "Back to Nature",
+      "itunesArtistName": "Doublespeak, Vince Clarke, Benge & Blancmange"
     },
     {
       "rank": 150,
@@ -1935,7 +2215,9 @@
       "collectionName": "Waterfalls (feat. Sam Harper & Bobby Harvey) - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 120578,
-      "releaseDate": "2025-08-08"
+      "releaseDate": "2025-08-08",
+      "itunesTrackName": "Waterfalls (feat. Sam Harper & Bobby Harvey)",
+      "itunesArtistName": "James Hype"
     },
     {
       "rank": 151,
@@ -1948,7 +2230,9 @@
       "collectionName": "Maybe You've Been Brainwashed Too",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 300773,
-      "releaseDate": "1998-11-01"
+      "releaseDate": "1998-11-01",
+      "itunesTrackName": "You Get What You Give",
+      "itunesArtistName": "New Radicals"
     },
     {
       "rank": 152,
@@ -1961,7 +2245,9 @@
       "collectionName": "ARIRANG",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 167589,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "One More Night",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 153,
@@ -1974,7 +2260,9 @@
       "collectionName": "ARIRANG",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 167751,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "Aliens",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 154,
@@ -1987,7 +2275,9 @@
       "collectionName": "I Wanna Be Your Slave (feat. Margad) - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 159524,
-      "releaseDate": "2021-12-17"
+      "releaseDate": "2021-12-17",
+      "itunesTrackName": "I Wanna Be Your Slave (feat. Margad)",
+      "itunesArtistName": "Jaydan Wolf, Te Pai & Daniel Chord"
     },
     {
       "rank": 155,
@@ -2000,7 +2290,9 @@
       "collectionName": "You're A Superstar - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 197032,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "You're A Superstar",
+      "itunesArtistName": "Take That"
     },
     {
       "rank": 156,
@@ -2013,7 +2305,9 @@
       "collectionName": "Renn! - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 166760,
-      "releaseDate": "2026-01-23"
+      "releaseDate": "2026-01-23",
+      "itunesTrackName": "Renn!",
+      "itunesArtistName": "AYLIVA"
     },
     {
       "rank": 157,
@@ -2026,7 +2320,9 @@
       "collectionName": "Soldiers of Sunrise",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 192867,
-      "releaseDate": "1987-05-18"
+      "releaseDate": "1987-05-18",
+      "itunesTrackName": "Knights of Destruction",
+      "itunesArtistName": "Viper"
     },
     {
       "rank": 158,
@@ -2039,7 +2335,9 @@
       "collectionName": "White Keys - Single",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 144101,
-      "releaseDate": "2025-11-14"
+      "releaseDate": "2025-11-14",
+      "itunesTrackName": "White Keys",
+      "itunesArtistName": "Dominic Fike"
     },
     {
       "rank": 159,
@@ -2052,7 +2350,9 @@
       "collectionName": "Jerusalema",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 342613,
-      "releaseDate": "2019-11-29"
+      "releaseDate": "2019-11-29",
+      "itunesTrackName": "Jerusalema (feat. Nomcebo Zikode)",
+      "itunesArtistName": "Master KG"
     },
     {
       "rank": 160,
@@ -2065,7 +2365,9 @@
       "collectionName": "Grand Serpent Rising",
       "primaryGenreName": "Death Metal/Black Metal",
       "trackTimeMillis": 342568,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Ulvgjeld & Blodsodel",
+      "itunesArtistName": "Dimmu Borgir"
     },
     {
       "rank": 161,
@@ -2078,7 +2380,9 @@
       "collectionName": "No End In Sight: The Very Best of Foreigner (Remastered)",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 301107,
-      "releaseDate": "1984-11-13"
+      "releaseDate": "1984-11-13",
+      "itunesTrackName": "I Want to Know What Love Is",
+      "itunesArtistName": "Foreigner"
     },
     {
       "rank": 162,
@@ -2091,7 +2395,9 @@
       "collectionName": "Ich lieb' dich überhaupt nicht mehr - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 192818,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "Ich lieb' dich überhaupt nicht mehr",
+      "itunesArtistName": "Max Giesinger"
     },
     {
       "rank": 163,
@@ -2104,7 +2410,9 @@
       "collectionName": "THE BOYZ Mini Album 'The Start' - EP",
       "primaryGenreName": "K-Pop",
       "trackTimeMillis": 216947,
-      "releaseDate": "2018-04-03"
+      "releaseDate": "2018-04-03",
+      "itunesTrackName": "Giddy Up",
+      "itunesArtistName": "THE BOYZ"
     },
     {
       "rank": 164,
@@ -2117,7 +2425,9 @@
       "collectionName": "THIS MUSIC MAY CONTAIN HOPE.",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 302624,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Nightingale Lane.",
+      "itunesArtistName": "RAYE"
     },
     {
       "rank": 165,
@@ -2130,7 +2440,9 @@
       "collectionName": "Abracadabra - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 223398,
-      "releaseDate": "2025-02-03"
+      "releaseDate": "2025-02-03",
+      "itunesTrackName": "Abracadabra",
+      "itunesArtistName": "Lady Gaga"
     },
     {
       "rank": 166,
@@ -2143,7 +2455,9 @@
       "collectionName": "ARIRANG",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 227661,
-      "releaseDate": "2026-03-20"
+      "releaseDate": "2026-03-20",
+      "itunesTrackName": "Into the Sun",
+      "itunesArtistName": "BTS"
     },
     {
       "rank": 167,
@@ -2156,7 +2470,9 @@
       "collectionName": "Out of the Dark (Into the Light) [Deluxe 2012 Remaster]",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 217040,
-      "releaseDate": "1998-02-27"
+      "releaseDate": "1998-02-27",
+      "itunesTrackName": "Out of the Dark",
+      "itunesArtistName": "Falco"
     },
     {
       "rank": 168,
@@ -2169,7 +2485,9 @@
       "collectionName": "Blur (2012 Remaster)",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 121160,
-      "releaseDate": "1997-02-10"
+      "releaseDate": "1997-02-10",
+      "itunesTrackName": "Song 2",
+      "itunesArtistName": "Blur"
     },
     {
       "rank": 169,
@@ -2182,7 +2500,9 @@
       "collectionName": "All the Things She Said - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 170891,
-      "releaseDate": "2021-10-07"
+      "releaseDate": "2021-10-07",
+      "itunesTrackName": "All the Things She Said",
+      "itunesArtistName": "Harrison"
     },
     {
       "rank": 170,
@@ -2195,7 +2515,9 @@
       "collectionName": "I Was a Kid - Single",
       "primaryGenreName": "Country",
       "trackTimeMillis": 163344,
-      "releaseDate": "2026-02-03"
+      "releaseDate": "2026-02-03",
+      "itunesTrackName": "I Was a Kid",
+      "itunesArtistName": "Damon Price"
     },
     {
       "rank": 171,
@@ -2208,7 +2530,9 @@
       "collectionName": "The Way You Make Me Feel (feat. Moods) - Single",
       "primaryGenreName": "R&B/Soul",
       "trackTimeMillis": 204516,
-      "releaseDate": "2021-10-13"
+      "releaseDate": "2021-10-13",
+      "itunesTrackName": "The Way You Make Me Feel (feat. Moods)",
+      "itunesArtistName": "The Kount & Marc Rebillet"
     },
     {
       "rank": 172,
@@ -2221,7 +2545,9 @@
       "collectionName": "Falco III",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 355989,
-      "releaseDate": "1985-01-01"
+      "releaseDate": "1985-01-01",
+      "itunesTrackName": "Jeanny",
+      "itunesArtistName": "Falco"
     },
     {
       "rank": 173,
@@ -2234,7 +2560,9 @@
       "collectionName": "I'm Okay but I'm Not - Single",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 262680,
-      "releaseDate": "2026-02-17"
+      "releaseDate": "2026-02-17",
+      "itunesTrackName": "I'm Okay but I'm Not",
+      "itunesArtistName": "Rhy Elliot"
     },
     {
       "rank": 174,
@@ -2247,7 +2575,9 @@
       "collectionName": "Total Eclipse Of The Heart - Single",
       "primaryGenreName": "Techno",
       "trackTimeMillis": 168087,
-      "releaseDate": "2026-03-13"
+      "releaseDate": "2026-03-13",
+      "itunesTrackName": "Total Eclipse Of The Heart",
+      "itunesArtistName": "Felix Harrer"
     },
     {
       "rank": 175,
@@ -2260,7 +2590,9 @@
       "collectionName": "Honora",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 341067,
-      "releaseDate": "2026-01-14"
+      "releaseDate": "2026-01-14",
+      "itunesTrackName": "Traffic Lights (feat. Thom Yorke)",
+      "itunesArtistName": "Flea"
     },
     {
       "rank": 176,
@@ -2273,7 +2605,9 @@
       "collectionName": "Du bedeutest mir die Welt",
       "primaryGenreName": "Schlager",
       "trackTimeMillis": 199544,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Bis bald",
+      "itunesArtistName": "Alin Coen"
     },
     {
       "rank": 177,
@@ -2286,7 +2620,9 @@
       "collectionName": "Shambhala 2025: Illenium at the Village Stage (DJ Mix)",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 58140,
-      "releaseDate": "2025-07-27"
+      "releaseDate": "2025-07-27",
+      "itunesTrackName": "No Broke Boys (AVELLO Remix) [Mixed]",
+      "itunesArtistName": "Disco Lines & Tinashe"
     },
     {
       "rank": 178,
@@ -2299,7 +2635,9 @@
       "collectionName": "Mille Grazie",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 235990,
-      "releaseDate": "2022-04-08"
+      "releaseDate": "2022-04-08",
+      "itunesTrackName": "Bella Napoli",
+      "itunesArtistName": "Roy Bianco & Die Abbrunzati Boys"
     },
     {
       "rank": 179,
@@ -2312,7 +2650,9 @@
       "collectionName": "Mirrors - Single",
       "primaryGenreName": "Indie-Pop",
       "trackTimeMillis": 207000,
-      "releaseDate": "2023-03-28"
+      "releaseDate": "2023-03-28",
+      "itunesTrackName": "Mirrors",
+      "itunesArtistName": "Nightbus"
     },
     {
       "rank": 180,
@@ -2325,7 +2665,9 @@
       "collectionName": "Staub auf den Stiefeln - Single",
       "primaryGenreName": "Folk",
       "trackTimeMillis": 178000,
-      "releaseDate": "2026-03-16"
+      "releaseDate": "2026-03-16",
+      "itunesTrackName": "Staub auf den Stiefeln",
+      "itunesArtistName": "Ylva Lys"
     },
     {
       "rank": 181,
@@ -2338,7 +2680,9 @@
       "collectionName": "ABBA Gold: Greatest Hits (40th Anniversary Edition)",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 231093,
-      "releaseDate": "1976-01-01"
+      "releaseDate": "1976-01-01",
+      "itunesTrackName": "Dancing Queen",
+      "itunesArtistName": "ABBA"
     },
     {
       "rank": 182,
@@ -2351,7 +2695,9 @@
       "collectionName": "Dracula - Single",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 205309,
-      "releaseDate": "2025-09-24"
+      "releaseDate": "2025-09-24",
+      "itunesTrackName": "Dracula",
+      "itunesArtistName": "Tame Impala"
     },
     {
       "rank": 183,
@@ -2364,7 +2710,9 @@
       "collectionName": "Top Gun: Maverick (Music from the Motion Picture)",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 225300,
-      "releaseDate": "2022-05-03"
+      "releaseDate": "2022-05-03",
+      "itunesTrackName": "Hold My Hand",
+      "itunesArtistName": "Lady Gaga"
     },
     {
       "rank": 184,
@@ -2377,7 +2725,9 @@
       "collectionName": "Fancy Some More?",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 184762,
-      "releaseDate": "2025-10-10"
+      "releaseDate": "2025-10-10",
+      "itunesTrackName": "Stateside (with Zara Larsson)",
+      "itunesArtistName": "PinkPantheress"
     },
     {
       "rank": 185,
@@ -2390,7 +2740,9 @@
       "collectionName": "Peaky Blinders - The Immortal Man (Soundtrack from the Netflix Film)",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 428650,
-      "releaseDate": "2026-03-06"
+      "releaseDate": "2026-03-06",
+      "itunesTrackName": "Hunting The Wren (The Immortal Man Version)",
+      "itunesArtistName": "Lankum & Grian Chatten"
     },
     {
       "rank": 186,
@@ -2403,7 +2755,9 @@
       "collectionName": "Creep - EP",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 258640,
-      "releaseDate": "1992-09-21"
+      "releaseDate": "1992-09-21",
+      "itunesTrackName": "Creep (Acoustic)",
+      "itunesArtistName": "Radiohead"
     },
     {
       "rank": 187,
@@ -2416,7 +2770,9 @@
       "collectionName": "Different",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 220825,
-      "releaseDate": "2002-06-17"
+      "releaseDate": "2002-06-17",
+      "itunesTrackName": "Désenchantée",
+      "itunesArtistName": "Kate Ryan"
     },
     {
       "rank": 188,
@@ -2429,7 +2785,9 @@
       "collectionName": "Sientelo (feat. Lumidee) - Single",
       "primaryGenreName": "Latin",
       "trackTimeMillis": 230053,
-      "releaseDate": "2005-04-26"
+      "releaseDate": "2005-04-26",
+      "itunesTrackName": "Sientelo (feat. Lumidee)",
+      "itunesArtistName": "Sir Speedy"
     },
     {
       "rank": 189,
@@ -2442,7 +2800,9 @@
       "collectionName": "Want It Back - Single",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 207509,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Want It Back",
+      "itunesArtistName": "Giant Rooks"
     },
     {
       "rank": 190,
@@ -2455,7 +2815,9 @@
       "collectionName": "Wo bist du? - Single",
       "primaryGenreName": "Hip-Hop/Rap",
       "trackTimeMillis": 138422,
-      "releaseDate": null
+      "releaseDate": null,
+      "itunesTrackName": "Wo bist du?",
+      "itunesArtistName": "Takt32, Bass Sultan Hengzt & Rych"
     },
     {
       "rank": 191,
@@ -2468,7 +2830,9 @@
       "collectionName": "Stay (If You Wanna Dance) - Single",
       "primaryGenreName": "Singer-Songwriter:innen",
       "trackTimeMillis": 186000,
-      "releaseDate": "2025-09-26"
+      "releaseDate": "2025-09-26",
+      "itunesTrackName": "Stay (If You Wanna Dance)",
+      "itunesArtistName": "Myles Smith"
     },
     {
       "rank": 192,
@@ -2481,7 +2845,9 @@
       "collectionName": "Traces",
       "primaryGenreName": "Pop",
       "trackTimeMillis": 181195,
-      "releaseDate": "2025-04-22"
+      "releaseDate": "2025-04-22",
+      "itunesTrackName": "The One",
+      "itunesArtistName": "Michael Patrick Kelly"
     },
     {
       "rank": 193,
@@ -2494,7 +2860,9 @@
       "collectionName": "Everybody Else Is Doing It, So Why Can't We?",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 271560,
-      "releaseDate": "1992-09-28"
+      "releaseDate": "1992-09-28",
+      "itunesTrackName": "Dreams",
+      "itunesArtistName": "The Cranberries"
     },
     {
       "rank": 194,
@@ -2507,7 +2875,9 @@
       "collectionName": "Congregation of the Damned",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 241352,
-      "releaseDate": "2009-01-01"
+      "releaseDate": "2009-01-01",
+      "itunesTrackName": "Wait for You",
+      "itunesArtistName": "Atreyu"
     },
     {
       "rank": 195,
@@ -2520,7 +2890,9 @@
       "collectionName": "Think About Us - Single",
       "primaryGenreName": "Dance",
       "trackTimeMillis": 178148,
-      "releaseDate": "2026-03-09"
+      "releaseDate": "2026-03-09",
+      "itunesTrackName": "Think About Us",
+      "itunesArtistName": "Sonny Fodera, D.O.D & Poppy Baskcomb"
     },
     {
       "rank": 196,
@@ -2533,7 +2905,9 @@
       "collectionName": "Baby Bell - Single",
       "primaryGenreName": "Schlager",
       "trackTimeMillis": 159565,
-      "releaseDate": "2025-08-15"
+      "releaseDate": "2025-08-15",
+      "itunesTrackName": "Baby Bell",
+      "itunesArtistName": "Breitner"
     },
     {
       "rank": 197,
@@ -2546,7 +2920,9 @@
       "collectionName": "Old Time Rhythm - Single",
       "primaryGenreName": "Rockabilly",
       "trackTimeMillis": 242200,
-      "releaseDate": "2026-03-17"
+      "releaseDate": "2026-03-17",
+      "itunesTrackName": "Old Time Rhythm",
+      "itunesArtistName": "Dusty Strings & R&B Vanguard"
     },
     {
       "rank": 198,
@@ -2559,7 +2935,9 @@
       "collectionName": "Hurry up, We're Dreaming",
       "primaryGenreName": "Rock",
       "trackTimeMillis": 247027,
-      "releaseDate": "2011-10-14"
+      "releaseDate": "2011-10-14",
+      "itunesTrackName": "Outro",
+      "itunesArtistName": "M83"
     },
     {
       "rank": 199,
@@ -2572,7 +2950,9 @@
       "collectionName": "Lord, Are The Gates Still Open (feat. Arthur Hayes) - Single",
       "primaryGenreName": "Religiöse Musik",
       "trackTimeMillis": 263546,
-      "releaseDate": "2026-03-05"
+      "releaseDate": "2026-03-05",
+      "itunesTrackName": "Lord, Are The Gates Still Open (feat. Arthur Hayes)",
+      "itunesArtistName": "Gravel & Grace"
     },
     {
       "rank": 200,
@@ -2585,7 +2965,9 @@
       "collectionName": "HUNTER (the cacophony) - Single",
       "primaryGenreName": "Alternative",
       "trackTimeMillis": 216000,
-      "releaseDate": "2025-01-17"
+      "releaseDate": "2025-01-17",
+      "itunesTrackName": "HUNTER (the cacophony)",
+      "itunesArtistName": "Paris Paloma"
     }
   ]
 }
