@@ -8,12 +8,12 @@ import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
 import { getRegion, setRegion, REGIONS, getRegionConfig, getFlagUrl } from './region.js';
 import { getPacksConfig } from './data-loader.js';
-import './gacha.js?v=20260329h'; // ガチャモジュール�E�グローバル参�EにopenPackを登録�E�E
+import './gacha.js?v=20260330a'; // ガチャモジュール�E�グローバル参�EにopenPackを登録�E�E
 import { initCollection, renderCollection, refreshCollection, resetCollectionState } from './collection.js';
 import { initShareHandler } from './transfer.js';
-import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260329h';
+import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260330a';
 import { icon, refreshIcons } from './icons.js';
-import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260329h';
+import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260330a';
 import { invalidateCache } from './data-loader.js';
 import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
 import { getAmazonMusicUnlimitedUrl } from './affiliate.js';
@@ -649,7 +649,14 @@ function setupEventListeners() {
             iconName = 'volume-2';
         }
         volumeIcon.innerHTML = icon(iconName, { size: 20 });
-        refreshIcons();
+        // 同期的にLucideアイコンを再描画（refreshIcons()はrequestIdleCallback経由で遅延するため更新されない）
+        if (window.lucide) {
+            window.lucide.createIcons();
+        }
+        // aria-label更新
+        if (volumeBtn) {
+            volumeBtn.setAttribute('aria-label', (vol === 0 || isMuted) ? 'ミュート解除' : 'ミュート');
+        }
     }
 
     if (volumeSlider) {
