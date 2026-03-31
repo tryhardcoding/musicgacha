@@ -61,7 +61,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css?v=20260331a">
+  <link rel="stylesheet" href="index.css?v=20260330a">
   <script src="/js/lucide.min.js" defer></script>
 
   <!-- Google Analytics (GA4) -->
@@ -76,7 +76,7 @@
 
 <body class="loading">
 
-  <!-- ===== 邨ｱ荳繝倥ャ繝繝ｼ===== -->
+  <!-- ===== 統一ヘッダー===== -->
   <header class="unified-header" id="unified-header">
     <div class="header-row">
       <a href="#home" class="header-logo-link">
@@ -87,23 +87,23 @@
       </a>
       <nav class="header-nav" id="header-nav">
         <a href="#home" class="nav-item active" data-screen="home">
-          <span class="nav-label" data-i18n="nav.home">繝帙・繝</span>
+          <span class="nav-label" data-i18n="nav.home">ホーム</span>
         </a>
         <a href="#collection" class="nav-item" data-screen="collection">
-          <span class="nav-label" data-i18n="nav.collection">繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ</span>
+          <span class="nav-label" data-i18n="nav.collection">コレクション</span>
         </a>
       </nav>
       <div class="header-actions">
-        <button class="header-achievement-btn" id="btn-achievements-header" aria-label="螳溽ｸｾ">
+        <button class="header-achievement-btn" id="btn-achievements-header" aria-label="実績">
           <i data-lucide="trophy"></i>
           <span class="header-achievement-count" id="achievement-header-count">0</span>
         </button>
-        <button class="country-btn" id="country-btn" aria-label="蝗ｽ/險隱・style="visibility:hidden;">
+        <button class="country-btn" id="country-btn" aria-label="国/言語 style="visibility:hidden;">
           <img class="country-flag" src="" alt="" width="20" height="15">
           <span class="country-code"></span>
         </button>
         <div class="header-volume">
-          <button class="volume-btn" id="volume-btn" aria-label="繝溘Η繝ｼ繝・
+          <button class="volume-btn" id="volume-btn" aria-label="ミュート>
             <span class="volume-icon" id="volume-icon"><i data-lucide="volume-2"></i></span>
           </button>
           <input type="range" class="volume-slider" id="volume-slider" min="0" max="100" value="50">
@@ -112,40 +112,40 @@
     </div>
   </header>
 
-  <!-- ===== Screen: 繝帙・繝 ===== -->
+  <!-- ===== Screen: ホーム ===== -->
   <section class="screen active" id="screen-home">
     <div class="screen-content">
       <div class="home-subtitle-section">
-        <p class="app-subtitle" data-i18n="home.subtitle">髻ｳ讌ｽ繧ｬ繝√Ε縺ｧ譁ｰ縺励＞譖ｲ縺ｨ蜃ｺ莨壹♀縺・/p>
+        <p class="app-subtitle" data-i18n="home.subtitle">音楽ガチャで新しい曲と出会おう</p>
       </div>
 
-      <!-- 繝代ャ繧ｯ驕ｸ謚槭ヰ繝ｼ -->
+      <!-- パック選択バー -->
       <div class="pack-info-bar">
         <div class="pack-info-item">
           <span class="pack-info-icon"><i data-lucide="layers"></i></span>
           <span class="pack-info-value"><span id="pack-count-current">10</span>/10</span>
-          <span class="pack-info-label" data-i18n="home.packs">繝代ャ繧ｯ</span>
+          <span class="pack-info-label" data-i18n="home.packs">パック</span>
           <span class="pack-regen-timer" id="pack-regen-timer"></span>
         </div>
       </div>
 
-      <!-- 繝代ャ繧ｯ繧ｫ繝ｫ繝ｼ繧ｻ繝ｫ - JS縺ｧ蜍慕噪逕滂ｿｽE -->
-      <h2 class="section-title"><i data-lucide="music"></i> <span data-i18n="home.choosePack">繝代ャ繧ｯ繧帝∈縺ｶ</span></h2>
+      <!-- パックカルーセル - JSで動的生�E -->
+      <h2 class="section-title"><i data-lucide="music"></i> <span data-i18n="home.choosePack">パックを選ぶ</span></h2>
       <div class="pack-carousel" id="pack-carousel">
         <div class="pack-carousel-track" id="pack-carousel-track">
-          <!-- 繝代ャ繧ｯ縺ｯbuildPackCarousel()縺ｧ蜍慕噪縺ｫ逕滂ｿｽE -->
+          <!-- パックはbuildPackCarousel()で動的に生�E -->
         </div>
       </div>
 
-      <!-- 繧ｴ繝ｼ繝ｫ繝峨ヱ繝・け騾ｲ謐・-->
+      <!-- ゴールドパック進捗 -->
       <div class="gold-pack-progress" id="gold-pack-progress">
         <div class="gold-pack-bar">
           <div class="gold-pack-fill" id="gold-pack-fill" style="width: 0%"></div>
         </div>
-        <span class="gold-pack-label" id="gold-pack-label" data-i18n="home.goldPackProgress">0/10 繧ｴ繝ｼ繝ｫ繝峨ヱ繝・け縺ｾ縺ｧ</span>
+        <span class="gold-pack-label" id="gold-pack-label" data-i18n="home.goldPackProgress">0/10 ゴールドパックまで</span>
       </div>
 
-      <!-- TOP200 繝√Ε繝ｬ繝ｳ繧ｸ繧ｫ繝ｼ繝・-->
+      <!-- TOP200 チャレンジカード -->
       <div class="top200-challenge-card" id="top200-challenge-card">
         <div class="top200-challenge-glow"></div>
         <div class="top200-challenge-content">
@@ -164,7 +164,7 @@
           <div class="top200-challenge-right">
             <div class="top200-challenge-header">
               <span class="top200-challenge-icon"><i data-lucide="trophy"></i></span>
-              <span class="top200-challenge-title" data-i18n="home.top200Challenge">TOP 200 繝√Ε繝ｬ繝ｳ繧ｸ</span>
+              <span class="top200-challenge-title" data-i18n="home.top200Challenge">TOP 200 チャレンジ</span>
             </div>
             <div class="top200-challenge-bar-container">
               <div class="top200-challenge-bar">
@@ -175,7 +175,7 @@
             </div>
             <div class="top200-challenge-milestone" id="top200-challenge-milestone"></div>
             <div class="top200-challenge-cta" id="top200-challenge-cta">
-              豈取律譖ｴ譁ｰ縺ｮ繝√Ε繝ｼ繝医ｒ隕九※縺ｿ繧医≧
+              毎日更新のチャートを見てみよう
             </div>
           </div>
         </div>
@@ -190,42 +190,42 @@
             <i data-lucide="play" class="amazon-music-lucide-icon"></i>
           </div>
           <div class="amazon-music-text">
-            <span class="amazon-music-title" id="amazon-music-title" data-i18n="home.amazonTitle">隕九▽縺代◆譖ｲ縲√ヵ繝ｫ縺ｧ閨ｴ縺代ｋ</span>
-            <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited 笏笏 <s>1繝ｶ譛・/s> <strong>3繝ｶ譛育┌譁・/strong>縺ｧ閨ｴ縺肴叛鬘・span class="amazon-promo-deadline">4/6縺ｾ縺ｧ</span></span>
+            <span class="amazon-music-title" id="amazon-music-title" data-i18n="home.amazonTitle">見つけた曲、フルで聴ける</span>
+            <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <s>1ヶ月</s> <strong>3ヶ月無料</strong>で聴き放題<span class="amazon-promo-deadline">4/6まで</span></span>
           </div>
-          <span class="amazon-music-cta" data-i18n="home.amazonCta">隧ｦ縺・竊・span>
+          <span class="amazon-music-cta" data-i18n="home.amazonCta">試す →/span>
         </div>
       </a>
 
-      <!-- 蠎・相繝舌リ繝ｼ繝ｼ繝-->
+      <!-- 広告バナーーム-->
       <div class="ad-container" id="ad-home-banner">
-        <!-- i-mobile蠎・相 -->
+        <!-- i-mobile広告 -->
       </div>
 
-      <!-- 繝・う繝ｪ繝ｼ繝懊・繝翫せ -->
+      <!-- デイリーボーナス -->
       <div class="daily-bonus-card" id="daily-bonus-card">
         <div class="daily-bonus-icon"><i data-lucide="gift"></i></div>
         <div class="daily-bonus-info">
-          <span class="daily-bonus-title" data-i18n="home.dailyBonus">繝・う繝ｪ繝ｼ繝懊・繝翫せ</span>
-          <span class="daily-bonus-desc" data-i18n="home.dailyBonusDesc">3繝代ャ繧ｯ迯ｲ蠕・/span>
+          <span class="daily-bonus-title" data-i18n="home.dailyBonus">デイリーボーナス</span>
+          <span class="daily-bonus-desc" data-i18n="home.dailyBonusDesc">3パック獲得</span>
         </div>
-        <button class="btn-daily-bonus" id="btn-daily-bonus" data-i18n="home.claim">蜿励￠蜿悶ｋ</button>
+        <button class="btn-daily-bonus" id="btn-daily-bonus" data-i18n="home.claim">受け取る</button>
       </div>
 
-      <!-- 霑ｽ蜉繝代ャ繧ｯ -->
+      <!-- 追加パック -->
       <button class="btn-ad-pack" id="btn-ad-pack">
-        <span class="btn-ad-icon">笆ｶ</span>
-        <span data-i18n="home.watchAd">蠎・相繧定ｦ九※繝代ャ繧ｯ繧堤佐/span>
+        <span class="btn-ad-icon">▶</span>
+        <span data-i18n="home.watchAd">広告を見てパックを獲/span>
       </button>
 
-      <!-- 螳溽ｸｾ繝懊ち繝ｳ -->
+      <!-- 実績ボタン -->
       <button class="achievement-btn" id="btn-achievements">
         <i data-lucide="trophy"></i>
-        <span class="achievement-btn-label" data-i18n="home.achievements">螳溽ｸｾ</span>
+        <span class="achievement-btn-label" data-i18n="home.achievements">実績</span>
         <span class="achievement-btn-count" id="achievement-btn-count">0/42</span>
       </button>
 
-      <!-- 蜿朱寔騾ｲ-->
+      <!-- 収集進-->
       <div class="collection-progress" id="collection-progress">
         <div class="progress-ring">
           <svg viewBox="0 0 100 100">
@@ -235,55 +235,55 @@
           <span class="progress-ring-text" id="progress-ring-text">0</span>
         </div>
         <div class="progress-info">
-          <span class="progress-label" data-i18n="home.collected">譖ｲ蜿朱寔貂医∩</span>
-          <span class="progress-total" id="progress-total">0 / 竏・/span>
+          <span class="progress-label" data-i18n="home.collected">曲収集済み</span>
+          <span class="progress-total" id="progress-total">0 / ∞</span>
         </div>
-        <button class="btn-share-x btn-share-x-sm" id="btn-share-collection" title="繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ繧湛縺ｧ繧ｷ繧ｧ繧｢">
+        <button class="btn-share-x btn-share-x-sm" id="btn-share-collection" title="コレクションをXでシェア">
           <svg class="x-logo" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          <span data-i18n="home.share">繧ｷ繧ｧ繧｢</span>
+          <span data-i18n="home.share">シェア</span>
         </button>
       </div>
     </div>
   </section>
 
-  <!-- ===== Screen: 繝代ャ繧ｯ髢句ｰ・=== -->
+  <!-- ===== Screen: パック開封==== -->
   <section class="screen" id="screen-pack">
     <div class="screen-content pack-screen">
-      <!-- 繝代ャ繧ｯ髢句ｰ∵ｼ泌・繧ｳ繝ｳ繝・リ-->
+      <!-- パック開封演出コンテナ-->
       <div class="pack-opening-container" id="pack-opening-container">
         <div class="pack-wrapper" id="pack-wrapper">
           <div class="pack-visual" id="pack-visual">
             <img class="pack-image" src="assets/pack-standard.webp" alt="Music Pack" draggable="false">
           </div>
-          <p class="pack-tap-hint" data-i18n="pack.tapToOpen">笆ｲ 繧ｿ縺ｧ髢九￠繧銀夢</p>
+          <p class="pack-tap-hint" data-i18n="pack.tapToOpen">▲ タで開ける▲</p>
         </div>
       </div>
 
-      <!-- 繧ｫ繝ｼ繝芽｡ｨ遉ｺ繧ｨ繝ｪ繧｢ -->
+      <!-- カード表示エリア -->
       <div class="pack-cards-container" id="pack-cards-container" style="display:none;">
         <div class="pack-cards" id="pack-cards">
-          <!-- 繧ｫ繝ｼ繝会ｿｽE蜍慕噪縺ｫ逕滂ｿｽE -->
+          <!-- カード�E動的に生�E -->
         </div>
         <div class="pack-actions">
           <button class="btn-share-x btn-share-x-pack" id="btn-share-pack-result">
             <svg class="x-logo" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            <span data-i18n="pack.shareResult">邨先棡繧湛縺ｧ繧ｷ繧ｧ繧｢</span>
+            <span data-i18n="pack.shareResult">結果をXでシェア</span>
           </button>
           <div class="pack-auto-open-toggle">
             <div class="pack-auto-open-info">
-              <span class="pack-auto-open-label" data-i18n="pack.autoOpen">閾ｪ蜍暮幕蟆・/span>
-              <span class="pack-auto-open-desc" data-i18n="pack.autoOpenDesc">6譖ｲ縺ｮ隧ｦ閨ｴ蠕後↓谺｡縺ｮ繝代ャ繧ｯ繧抵ｿｽE蜍暮幕蟆・span>
+              <span class="pack-auto-open-label" data-i18n="pack.autoOpen">自動開封</span>
+              <span class="pack-auto-open-desc" data-i18n="pack.autoOpenDesc">6曲の試聴後に次のパックを�E動開封Espan>
             </div>
             <label class="toggle-switch toggle-switch-sm">
               <input type="checkbox" id="setting-auto-open">
               <span class="toggle-slider"></span>
             </label>
           </div>
-          <button class="btn-primary" id="btn-open-another" data-i18n="pack.openAnother">繧ゅ≧1繝代ャ繧ｯ髢九￠繧・/button>
-          <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.backHome">繝帙・繝縺ｫ謌ｻ繧・/button>
+          <button class="btn-primary" id="btn-open-another" data-i18n="pack.openAnother">もう1パック開ける</button>
+          <button class="btn-secondary" id="btn-view-collection" data-i18n="pack.backHome">ホームに戻る</button>
         </div>
 
-        <!-- Amazon Music Unlimited PR繝代ャ繧ｯ髢句ｰ∫ｵ先棡-->
+        <!-- Amazon Music Unlimited PRパック開封結果-->
         <a href="#" target="_blank" rel="noopener sponsored" class="amazon-music-card amazon-music-card-pack" id="amazon-music-pr-pack">
           <span class="amazon-music-pr-tag">PR</span>
           <div class="amazon-music-glow"></div>
@@ -292,14 +292,14 @@
               <i data-lucide="play" class="amazon-music-lucide-icon"></i>
             </div>
             <div class="amazon-music-text">
-              <span class="amazon-music-title" id="amazon-music-title-pack" data-i18n="pack.amazonTitle">豌励↓縺ｪ縺｣縺滓峇縲√ヵ繝ｫ縺ｧ閨ｴ縺代ｋ</span>
-              <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited 笏笏 <s>1繝ｶ譛・/s> <strong>3繝ｶ譛育┌譁・/strong>縺ｧ閨ｴ縺肴叛鬘・span class="amazon-promo-deadline">4/6縺ｾ縺ｧ</span></span>
+              <span class="amazon-music-title" id="amazon-music-title-pack" data-i18n="pack.amazonTitle">気になった曲、フルで聴ける</span>
+              <span class="amazon-music-desc" data-i18n="home.amazonDesc">Amazon Music Unlimited ── <s>1ヶ月</s> <strong>3ヶ月無料</strong>で聴き放題<span class="amazon-promo-deadline">4/6まで</span></span>
             </div>
-            <span class="amazon-music-cta" data-i18n="home.amazonCta">隧ｦ縺・竊・span>
+            <span class="amazon-music-cta" data-i18n="home.amazonCta">試す →/span>
           </div>
         </a>
 
-        <!-- TOP200 繝√Ε繝ｬ繝ｳ繧ｸ繧ｫ繧ｦ繝ｳ繝茨ｼ医ヱ繝・け髢句ｰ∫ｵ先棡-->
+        <!-- TOP200 チャレンジカウント（パック開封結果-->
         <div class="top200-challenge-card top200-challenge-card-pack" id="top200-challenge-card-pack">
           <div class="top200-challenge-glow"></div>
           <div class="top200-challenge-content">
@@ -318,7 +318,7 @@
             <div class="top200-challenge-right">
               <div class="top200-challenge-header">
                 <span class="top200-challenge-icon"><i data-lucide="trophy"></i></span>
-                <span class="top200-challenge-title" data-i18n="home.top200Challenge">TOP 200 繝√Ε繝ｬ繝ｳ繧ｸ</span>
+                <span class="top200-challenge-title" data-i18n="home.top200Challenge">TOP 200 チャレンジ</span>
               </div>
               <div class="top200-challenge-bar-container">
                 <div class="top200-challenge-bar">
@@ -329,57 +329,57 @@
               </div>
               <div class="top200-challenge-milestone" id="top200-challenge-milestone-pack"></div>
               <div class="top200-challenge-cta" id="top200-challenge-cta-pack">
-                豈取律譖ｴ譁ｰ縺ｮ繝√Ε繝ｼ繝医ｒ隕九※縺ｿ繧医≧
+                毎日更新のチャートを見てみよう
               </div>
             </div>
           </div>
         </div>
 
-        <!-- 蠎・相繝舌リ繝ｼ・医ヱ繝・け髢句ｰ∫ｵ先棡・・-->
+        <!-- 広告バナー（パック開封結果） -->
         <div class="ad-container ad-pack-result" id="ad-pack-result-banner">
-          <!-- i-mobile蠎・相縺鯉ｿｽE蜍墓諺蜈･ -->
+          <!-- i-mobile広告が�E動挿入 -->
         </div>
       </div>
 
-      <!-- 繝代・繝・ぅ繧ｯ繝ｫ繧ｨ繝輔ぉ繧ｯ繝育畑 -->
+      <!-- パーティクルエフェクト用 -->
       <canvas class="particle-canvas" id="particle-canvas"></canvas>
     </div>
   </section>
 
-  <!-- ===== Screen: 繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ ===== -->
+  <!-- ===== Screen: コレクション ===== -->
   <section class="screen" id="screen-collection">
     <div class="screen-content">
       <div class="collection-stats" id="collection-stats">
-        <span class="stat-badge" id="stat-total">0譖ｲ</span>
-        <span class="stat-badge stat-unique" id="stat-unique">0遞ｮ鬘・/span>
+        <span class="stat-badge" id="stat-total">0曲</span>
+        <span class="stat-badge stat-unique" id="stat-unique">0種類</span>
       </div>
 
-      <!-- 繝代ャ繧ｯ驕ｸ謚槭ち-->
+      <!-- パック選択タ-->
       <div class="pack-filter-tabs" id="pack-filter-tabs">
-        <button class="pack-filter-tab active" data-pack-filter="all">蜈ｨ縺ｦ</button>
+        <button class="pack-filter-tab active" data-pack-filter="all">全て</button>
         <button class="pack-filter-tab pack-filter-tab-top200" data-pack-filter="top200"><i data-lucide="trophy"></i>
           Top 200</button>
         <button class="pack-filter-tab" data-pack-filter="jpop"><i data-lucide="flower-2"></i> J-POP</button>
         <button class="pack-filter-tab" data-pack-filter="kpop"><i data-lucide="gem"></i> K-POP</button>
-        <button class="pack-filter-tab" data-pack-filter="vocaloid"><i data-lucide="mic"></i> 繝懊き繝ｭ</button>
+        <button class="pack-filter-tab" data-pack-filter="vocaloid"><i data-lucide="mic"></i> ボカロ</button>
         <button class="pack-filter-tab" data-pack-filter="anime"><i data-lucide="sparkles"></i> Anime</button>
         <button class="pack-filter-tab" data-pack-filter="hiphop"><i data-lucide="headphones"></i> Hip-Hop</button>
-        <button class="pack-filter-tab" data-pack-filter="western"><i data-lucide="globe"></i> 豢区･ｽ</button>
+        <button class="pack-filter-tab" data-pack-filter="western"><i data-lucide="globe"></i> 洋楽</button>
       </div>
 
-      <!-- 蠎・相繝舌リ繝ｼ繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ-->
+      <!-- 広告バナーコレクション-->
       <div class="ad-container" id="ad-collection-banner">
-        <!-- AdSense險ｭ螳壼ｾ後↓閾ｪ蜍募ｷｮ縺玲崛-->
+        <!-- AdSense設定後に自動差し替-->
       </div>
 
-      <!-- 騾壼ｸｸ繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ繝薙Η繝ｼ -->
+      <!-- 通常コレクションビュー -->
       <div id="collection-normal-view">
-        <!-- 繝輔ぅ繝ｫ繧ｿ -->
+        <!-- フィルタ -->
         <div class="filter-bar" id="filter-bar">
           <div class="filter-group">
-            <label class="filter-label" data-i18n="collection.rarity">繝ｬ繧｢繝ｪ繝・ぅ/label>
+            <label class="filter-label" data-i18n="collection.rarity">レアリティ/label>
             <div class="filter-pills" id="filter-rarity">
-              <button class="pill active" data-filter="all" data-i18n="collection.all">蜈ｨ縺ｦ</button>
+              <button class="pill active" data-filter="all" data-i18n="collection.all">全て</button>
               <button class="pill pill-c" data-filter="C">C</button>
               <button class="pill pill-uc" data-filter="UC">UC</button>
               <button class="pill pill-r" data-filter="R">R</button>
@@ -389,157 +389,157 @@
             </div>
           </div>
           <div class="filter-group">
-            <label class="filter-label" data-i18n="collection.sort">繧ｽ繝ｼ繝・abel>
+            <label class="filter-label" data-i18n="collection.sort">ソートlabel>
             <select class="sort-select" id="sort-select">
-              <option value="acquiredAt" data-i18n="collection.sortDate">蜿門ｾ玲律鬆・/option>
-              <option value="favorite" data-i18n="collection.sortFavorite">縺頑ｰ励↓蜈･繧・/option>
-              <option value="rarity" data-i18n="collection.sortRarity">繝ｬ繧｢繝ｪ繝・ぅoption>
-              <option value="atk" data-i18n="collection.sortAtk">ATK鬆・/option>
-              <option value="def" data-i18n="collection.sortDef">DEF鬆・/option>
-              <option value="artist" data-i18n="collection.sortArtist">繧｢繝ｼ繝・ぅ繧ｹ繝亥錐/option>
+              <option value="acquiredAt" data-i18n="collection.sortDate">取得日順</option>
+              <option value="favorite" data-i18n="collection.sortFavorite">お気に入り</option>
+              <option value="rarity" data-i18n="collection.sortRarity">レアリティoption>
+              <option value="atk" data-i18n="collection.sortAtk">ATK順</option>
+              <option value="def" data-i18n="collection.sortDef">DEF順</option>
+              <option value="artist" data-i18n="collection.sortArtist">アーティスト名/option>
             </select>
           </div>
           <div class="filter-group">
-            <input type="text" class="search-input" id="search-input" placeholder="繧｢繝ｼ繝・ぅ繧ｹ繝域､懃ｴ｢..."
+            <input type="text" class="search-input" id="search-input" placeholder="アーティスト検索..."
               data-i18n-placeholder="collection.searchPlaceholder">
           </div>
         </div>
 
-        <!-- 繧ｫ繝ｼ繝峨げ繝ｪ繝・ラ -->
+        <!-- カードグリッド -->
         <div class="card-grid" id="card-grid">
-          <!-- 繧ｫ繝ｼ繝会ｿｽE蜍慕噪縺ｫ逕滂ｿｽE -->
+          <!-- カード�E動的に生�E -->
           <div class="empty-collection" id="empty-collection">
             <span class="empty-icon"><i data-lucide="music"></i></span>
-            <p data-i18n="collection.empty">縺ｾ縺繧ｫ繝ｼ繝峨′縺ゅｊ縺ｾ縺帙ｓ縲ゅヱ繝・け繧帝幕蟆√＠縺ｦ髮・ａ縺ｾ縺励ｇ縺・ｼ・p>
+            <p data-i18n="collection.empty">まだカードがありません。パックを開封して集めましょう！/p>
           </div>
         </div>
       </div>
 
-      <!-- Top 200 繝ｩ繝ｳ繧ｭ繝ｳ繧ｰ繝薙Η繝ｼ -->
+      <!-- Top 200 ランキングビュー -->
       <div id="collection-top200-view" style="display:none;">
         <div class="top200-date-selector">
-          <button class="top200-date-btn" id="top200-date-prev">笳</button>
+          <button class="top200-date-btn" id="top200-date-prev">◀</button>
           <span class="top200-date-label" id="top200-date-label">2026-03-07</span>
-          <button class="top200-date-btn" id="top200-date-next">笆ｶ</button>
+          <button class="top200-date-btn" id="top200-date-next">▶</button>
         </div>
         <div class="top200-collection-stats" id="top200-collection-stats">
-          <span class="stat-badge" data-i18n="collection.top200Obtained">0/200 蜿門ｾ玲ｸ医∩</span>
+          <span class="stat-badge" data-i18n="collection.top200Obtained">0/200 取得済み</span>
         </div>
         <div class="top200-ranking-grid" id="top200-ranking-grid">
-          <!-- 200繧ｹ繝ｭ繝・ヨ縺悟虚逧・↓逕滓・ -->
+          <!-- 200スロットが動的に生成 -->
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- ===== 繝輔ャ繧ｿ繝ｼ ===== -->
+  <!-- ===== フッター ===== -->
   <footer class="app-footer" id="app-footer">
     <div class="footer-content">
-      <!-- 豕慕噪諠・ｱ繝ｪ繝ｳ繧ｯ + 繝・・繧ｿ繝ｪ繧ｻ繝・ヨ -->
+      <!-- 法的情報リンク + データリセット -->
       <div class="footer-links">
-        <a href="terms.html" class="footer-link" data-i18n="settings.terms">蛻ｩ逕ｨ隕冗ｴ・/a>
+        <a href="terms.html" class="footer-link" data-i18n="settings.terms">利用規約</a>
         <span class="footer-link-sep">|</span>
-        <a href="privacy.html" class="footer-link" data-i18n="settings.privacy">繝励Λ繧､繝舌す繝ｼ繝昴Μ繧ｷ繝ｼ</a>
+        <a href="privacy.html" class="footer-link" data-i18n="settings.privacy">プライバシーポリシー</a>
         <span class="footer-link-sep">|</span>
         <a href="#" class="footer-link footer-link-danger" id="btn-reset-data"
-          data-i18n="settings.resetData">繝・・繧ｿ繝ｪ繧ｻ繝・ヨ</a>
+          data-i18n="settings.resetData">データリセット</a>
         <span class="footer-link-sep">|</span>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXrBP3CyvfkErgMB667fhcwsIbmZpiFxnX4VsGVWiq300WTQ/viewform" target="_blank" rel="noopener"
-          class="footer-link" data-i18n="settings.feedback">繝輔ぅ繝ｼ繝峨ヰ繝・け</a>
+          class="footer-link" data-i18n="settings.feedback">フィードバック</a>
       </div>
       <div class="footer-support-subtle">
-        <p class="footer-support-msg" data-i18n="footer.support">繧ｵ繝ｼ繝舌・莉｣縺ｧ襍､蟄鈴°蝟ｶ荳ｭ窶ｦ蠢懈抄縺・◆縺縺代ｋ縺ｨ螫峨＠縺・〒縺・/p>
+        <p class="footer-support-msg" data-i18n="footer.support">サーバー代で赤字運営中…応援いただけると嬉しいです</p>
         <a href="https://buymeacoffee.com/musicgacha" target="_blank" rel="noopener" class="footer-coffee-link">
-          笘・Buy Me a Coffee
+          ☕ Buy Me a Coffee
         </a>
       </div>
 
-      <p class="footer-affiliate-notice" data-i18n="footer.affiliate">蠖薙し繧､繝医・Amazon繧｢繧ｽ繧ｷ繧ｨ繧､繝医・繝ｭ繧ｰ繝ｩ繝縺ｫ蜿ょ刈縺励※縺・∪縺・/p>
+      <p class="footer-affiliate-notice" data-i18n="footer.affiliate">当サイトはAmazonアソシエイトプログラムに参加しています</p>
       <div class="footer-version">MusicGacha v1.5.3</div>
-      <p class="footer-itunes-credit" data-i18n="footer.copyright">謗ｲ霈峨＆繧後※縺・ｋ繧ｸ繝｣繧ｱ繝・ヨ逕ｻ蜒上♀繧医・讌ｽ譖ｲ諠・ｱ縺ｫ髢｢縺吶ｋ闡嶺ｽ懈ｨｩ縺ｯ縲∝推繝ｬ繧ｳ繝ｼ繝我ｼ夂､ｾ縲√い繝ｼ繝・ぅ繧ｹ繝医↑縺ｩ縺ｮ讓ｩ蛻ｩ閠・↓蟶ｰ螻槭＠縺ｾ縺吶・/p>
+      <p class="footer-itunes-credit" data-i18n="footer.copyright">抴載されているジャケット画像および楽曲情報に関する著作権は、各レコード会社、アーティストなどの権利者に帰属します。</p>
       <p class="footer-itunes-credit">Previews provided courtesy of iTunes</p>
     </div>
   </footer>
 
-  <!-- ===== 繧ｫ繝ｼ繝芽ｩｳ邏ｰ繝｢繝ｼ繝繝ｫ ===== -->
+  <!-- ===== カード詳細モーダル ===== -->
   <div class="modal-overlay" id="card-detail-modal" style="display:none;">
     <div class="modal-content">
       <button class="modal-close" id="modal-close">&times;</button>
       <div class="modal-card-container" id="modal-card-container">
-        <!-- 繧ｫ繝ｼ繝画僑螟ｧ陦ｨ遉ｺ -->
+        <!-- カード拡大表示 -->
       </div>
       <div class="modal-info" id="modal-info">
-        <!-- 譖ｲ繧ｫ繝ｼ繝・->
+        <!-- 曲カード-->
       </div>
       <div class="modal-player" id="modal-player">
         <!-- Spotify / YouTube -->
       </div>
-      <!-- 蠎・相繝舌リ繝ｼ・ｽE・ｽE・ｽ・ｽ繝ｼ繝繝ｫ-->
+      <!-- 広告バナー�E�E��ーダル-->
       <div class="ad-container ad-modal" id="ad-modal-banner">
-        <!-- i-mobile蠎・相縺鯉ｿｽE蜍墓諺蜈･ -->
+        <!-- i-mobile広告が�E動挿入 -->
       </div>
     </div>
   </div>
 
-  <!-- ===== 繧ｫ繝ｼ繝牙女蜿也｢ｺ隱阪Δ繝ｼ繝繝ｫ ===== -->
+  <!-- ===== カード受取確認モーダル ===== -->
   <div class="modal-overlay share-receive-modal" id="share-receive-modal" style="display:none;">
     <div class="share-receive-content">
       <div class="share-receive-header">
         <span class="share-receive-icon"><i data-lucide="gift"></i></span>
-        <h2 class="share-receive-title" data-i18n="share.cardArrived">繧ｫ繝ｼ繝峨′螻翫＞縺ｦ縺・∪縺呻ｼ・/h2>
+        <h2 class="share-receive-title" data-i18n="share.cardArrived">カードが届いています！</h2>
         <p class="share-receive-subtitle"></p>
       </div>
       <div class="share-receive-card">
-        <!-- 繧ｫ繝ｼ繝会ｿｽE蜍慕噪縺ｫ逕滂ｿｽE -->
+        <!-- カード�E動的に生�E -->
       </div>
       <div class="share-receive-actions">
-        <button class="btn-primary share-receive-accept" id="btn-share-accept" data-i18n="share.addToCollection">繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ縺ｫ霑ｽ蜉縺吶ｋ</button>
-        <button class="btn-secondary share-receive-decline" id="btn-share-decline" data-i18n="dialog.cancel">繧ｭ繝｣繝ｳ繧ｻ繝ｫ</button>
+        <button class="btn-primary share-receive-accept" id="btn-share-accept" data-i18n="share.addToCollection">コレクションに追加する</button>
+        <button class="btn-secondary share-receive-decline" id="btn-share-decline" data-i18n="dialog.cancel">キャンセル</button>
       </div>
     </div>
   </div>
 
-  <!-- ===== 螳溽ｸｾ繝｢繝ｼ繝繝ｫ ===== -->
+  <!-- ===== 実績モーダル ===== -->
   <div class="modal-overlay achievement-modal" id="achievement-modal" style="display:none;">
     <div class="achievement-modal-content">
       <div class="achievement-modal-header">
-        <h2 class="achievement-modal-title"><i data-lucide="trophy"></i> <span data-i18n="home.achievements">螳溽ｸｾ</span></h2>
+        <h2 class="achievement-modal-title"><i data-lucide="trophy"></i> <span data-i18n="home.achievements">実績</span></h2>
         <button class="modal-close" id="achievement-modal-close">&times;</button>
       </div>
       <div class="achievement-list" id="achievement-list">
-        <!-- 螳溽ｸｾ縺ｯ achievements.js 縺九ｉ蜍慕噪縺ｫ逕滂ｿｽE -->
+        <!-- 実績は achievements.js から動的に生�E -->
       </div>
     </div>
   </div>
 
-  <!-- ===== 遒ｺ隱阪ム繧､繧｢繝ｭ繧ｰ ===== -->
+  <!-- ===== 確認ダイアログ ===== -->
   <div class="dialog-overlay" id="confirm-dialog" style="display:none;">
     <div class="dialog-content">
       <p class="dialog-message" id="dialog-message"></p>
       <div class="dialog-actions">
-        <button class="btn-secondary" id="dialog-cancel" data-i18n="dialog.cancel">繧ｭ繝｣繝ｳ繧ｻ繝ｫ</button>
-        <button class="btn-danger" id="dialog-confirm" data-i18n="dialog.confirm">遒ｺ隱・/button>
+        <button class="btn-secondary" id="dialog-cancel" data-i18n="dialog.cancel">キャンセル</button>
+        <button class="btn-danger" id="dialog-confirm" data-i18n="dialog.confirm">確認</button>
       </div>
     </div>
   </div>
 
-  <!-- ===== 繝ｭ繝ｼ繝・ぅ繝ｳ繧ｰ ===== -->
+  <!-- ===== ローディング ===== -->
   <div class="loading-overlay" id="loading-overlay" style="display:none;">
     <div class="loading-spinner">
       <div class="spinner"></div>
-      <p class="loading-text" data-i18n="loading">隱ｭ縺ｿ霎ｼ縺ｿ荳ｭ...</p>
+      <p class="loading-text" data-i18n="loading">読み込み中...</p>
     </div>
   </div>
 
-  <!-- ===== 繝医・繧ｹ繝磯夂衍 ===== -->
+  <!-- ===== トースト通知 ===== -->
   <div class="toast-container" id="toast-container"></div>
 
-  <!-- JS: 蛻晄悄蛹厄ｼ亥ｺ・相繧ｹ繧ｱ繝ｼ繝ｪ繝ｳ繧ｰ繝ｻSW逋ｻ骭ｲ繝ｻAdSense遲会ｿｽE隱ｭ霎ｼ縺ｿ-->
-  <script src="js/init.js?v=20260331a"></script>
+  <!-- JS: 初期化（広告スケーリング・SW登録・AdSense等�E読込み-->
+  <script src="js/init.js?v=20260330a"></script>
 
   <!-- JS Modules -->
-  <script type="module" src="js/app.js?v=20260331a"></script>
+  <script type="module" src="js/app.js?v=20260330a"></script>
 </body>
 
 </html>
