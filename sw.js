@@ -1,11 +1,11 @@
 // ============================================================
 // MusicGacha - Service Worker
-// 繧ｪ繝輔Λ繧､繝ｳ繧ｭ繝｣繝・す繝･ + 蜀崎ｨｪ蝠乗凾縺ｮ騾壻ｿ｡驥丞炎貂・
+// オフラインキャッシュ + 再訪問時の通信量削減
 // ============================================================
 
 const CACHE_VERSION = 'musicgacha-v48';
 
-// 繝励Μ繧ｭ繝｣繝・す繝･縺吶ｋ髱咏噪繧｢繧ｻ繝・ヨ・亥・蝗槭う繝ｳ繧ｹ繝医・繝ｫ譎ゅ↓蜿門ｾ暦ｼ・
+// プリキャッシュする静的アセット（初回インストール時に取得）
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
@@ -38,7 +38,7 @@ const PRECACHE_ASSETS = [
   '/assets/favicon-192.png',
 ];
 
-// WebP繝代ャ繧ｯ逕ｻ蜒上ｂ繝励Μ繧ｭ繝｣繝・す繝･
+// WebPパック画像もプリキャッシュ
 const PACK_IMAGES = [
   '/assets/pack-anime.webp',
   '/assets/pack-hiphop.webp',
@@ -50,19 +50,19 @@ const PACK_IMAGES = [
   '/assets/pack-western.webp',
 ];
 
-// ---- Install: 繝励Μ繧ｭ繝｣繝・す繝･ ----
+// ---- Install: プリキャッシュ ----
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_VERSION).then((cache) => {
       return cache.addAll([...PRECACHE_ASSETS, ...PACK_IMAGES]);
     }).then(() => {
-      // 蠕・◆縺壹↓蜊ｳ蠎ｧ縺ｫ繧｢繧ｯ繝・ぅ繝門喧
+      // 待たずに即座にアクティブ化
       return self.skipWaiting();
     })
   );
 });
 
-// ---- Activate: 蜿､縺・く繝｣繝・す繝･繧貞炎髯､ ----
+// ---- Activate: 古いキャッシュを削除 ----
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
@@ -72,59 +72,59 @@ self.addEventListener('activate', (event) => {
           .map((name) => caches.delete(name))
       );
     }).then(() => {
-      // 譌｢蟄倥・繝壹・繧ｸ繧貞叉蠎ｧ縺ｫ蛻ｶ蠕｡
+      // 既存のページを即座に制御
       return self.clients.claim();
     })
   );
 });
 
-// ---- Fetch: 繝ｪ繧ｯ繧ｨ繧ｹ繝域姶逡･ ----
+// ---- Fetch: リクエスト戦略 ----
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // 1. 螟夜Κ繝峨Γ繧､繝ｳ縺ｮ繝ｪ繧ｯ繧ｨ繧ｹ繝・竊・繧ｭ繝｣繝・す繝･縺励↑縺・ｼ亥ｺ・相繝ｻCDN繝ｻAPI・・
+  // 1. 外部ドメインのリクエスト → キャッシュしない（広告・CDN・API）
   if (url.origin !== self.location.origin) {
-    return; // 繝悶Λ繧ｦ繧ｶ縺ｮ繝・ヵ繧ｩ繝ｫ繝亥虚菴懊↓莉ｻ縺帙ｋ
+    return; // ブラウザのデフォルト動作に任せる
   }
 
-  // 2. HTML (繝翫ン繧ｲ繝ｼ繧ｷ繝ｧ繝ｳ) 竊・Network First
-  //    譛譁ｰ縺ｮHTML繧貞叙蠕励＠縲∝､ｱ謨玲凾縺ｯ繧ｭ繝｣繝・す繝･縺九ｉ
+  // 2. HTML (ナビゲーション) → Network First
+  //    最新のHTMLを取得し、失敗時はキャッシュから
   if (event.request.mode === 'navigate') {
     event.respondWith(networkFirst(event.request));
     return;
   }
 
-  // 3. songs.json 竊・Stale While Revalidate・亥､ｧ縺阪＞繝輔ぃ繧､繝ｫ縺ｪ縺ｮ縺ｧ繧ｭ繝｣繝・す繝･蜆ｪ蜈茨ｼ・
+  // 3. songs.json → Stale While Revalidate（大きいファイルなのでキャッシュ優先）
   if (url.pathname === '/data/songs.json') {
     event.respondWith(staleWhileRevalidate(event.request));
     return;
   }
 
-  // 4. top200-daily.json 竊・Network First・域律谺｡譖ｴ譁ｰ繝・・繧ｿ・・
+  // 4. top200-daily.json → Network First（日次更新データ）
   if (url.pathname === '/data/top200-daily.json') {
     event.respondWith(networkFirst(event.request));
     return;
   }
 
-  // 5a. top200-history/index.json 竊・Network First・域律莉倥Μ繧ｹ繝医・譖ｴ譁ｰ縺輔ｌ繧具ｼ・
+  // 5a. top200-history/index.json → Network First（日付リストは更新される）
   if (url.pathname === '/data/top200-history/index.json') {
     event.respondWith(networkFirst(event.request));
     return;
   }
 
-  // 5b. top200-history・亥句挨譌･莉倥ヵ繧｡繧､繝ｫ・俄・ Cache First・磯℃蜴ｻ繝・・繧ｿ縺ｯ荳榊､会ｼ・
+  // 5b. top200-history（個別日付ファイル）→ Cache First（過去データは不変）
   if (url.pathname.startsWith('/data/top200-history/')) {
     event.respondWith(cacheFirst(event.request));
     return;
   }
 
-  // 6. JS繝ｻCSS 竊・Network First・亥ｸｸ縺ｫ譛譁ｰ繧貞叙蠕励√が繝輔Λ繧､繝ｳ譎ゅ・縺ｿ繧ｭ繝｣繝・す繝･・・
+  // 6. JS・CSS → Network First（常に最新を取得、オフライン時のみキャッシュ）
   if (url.pathname.endsWith('.js') || url.pathname.endsWith('.css')) {
     event.respondWith(networkFirst(event.request));
     return;
   }
 
-  // 7. 髱咏噪繧｢繧ｻ繝・ヨ・育判蜒上・險ｭ螳哽SON・俄・ Cache First
+  // 7. 静的アセット（画像・設定JSON）→ Cache First
   if (url.pathname.startsWith('/assets/') ||
       url.pathname === '/data/packs.json' ||
       url.pathname === '/data/genres.json') {
@@ -132,15 +132,15 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 7. 縺昴・莉・竊・Network First
+  // 7. その他 → Network First
   event.respondWith(networkFirst(event.request));
 });
 
-// ---- 繧ｭ繝｣繝・す繝･謌ｦ逡･繝倥Ν繝代・ ----
+// ---- キャッシュ戦略ヘルパー ----
 
 /**
- * Cache First: 繧ｭ繝｣繝・す繝･縺ｫ縺ゅｌ縺ｰ縺昴ｌ繧定ｿ斐☆縲ゅ↑縺代ｌ縺ｰ繝阪ャ繝医Ρ繝ｼ繧ｯ縺九ｉ蜿門ｾ励＠縺ｦ繧ｭ繝｣繝・す繝･縲・
- * 髱咏噪繧｢繧ｻ繝・ヨ蜷代￠縲・
+ * Cache First: キャッシュにあればそれを返す。なければネットワークから取得してキャッシュ。
+ * 静的アセット向け。
  */
 async function cacheFirst(request) {
   const cached = await caches.match(request);
@@ -154,19 +154,19 @@ async function cacheFirst(request) {
     }
     return response;
   } catch {
-    // 繧ｪ繝輔Λ繧､繝ｳ譎ゅ↓繧ｭ繝｣繝・す繝･繧ゅ↑縺代ｌ縺ｰ繝輔か繝ｼ繝ｫ繝舌ャ繧ｯ
+    // オフライン時にキャッシュもなければフォールバック
     return new Response('Offline', { status: 503, statusText: 'Service Unavailable' });
   }
 }
 
 /**
- * Network First: 繝阪ャ繝医Ρ繝ｼ繧ｯ繧貞━蜈医＠縲∝､ｱ謨玲凾縺ｯ繧ｭ繝｣繝・す繝･繧定ｿ斐☆縲・
- * HTML繝ｻ譌･谺｡譖ｴ譁ｰ繝・・繧ｿ蜷代￠縲・
+ * Network First: ネットワークを優先し、失敗時はキャッシュを返す。
+ * HTML・日次更新データ向け。
  */
 async function networkFirst(request) {
   try {
-    // cache: 'no-cache' 縺ｧ繝悶Λ繧ｦ繧ｶHTTP繧ｭ繝｣繝・す繝･繧偵ヰ繧､繝代せ縺励・
-    // 蟶ｸ縺ｫ繧ｵ繝ｼ繝舌・縺九ｉ譛譁ｰ迚医ｒ蜿門ｾ暦ｼ・SM繧､繝ｳ繝昴・繝医・繧ｭ繝｣繝・す繝･蝠城｡悟ｯｾ遲厄ｼ・
+    // cache: 'no-cache' でブラウザHTTPキャッシュをバイパスし、
+    // 常にサーバーから最新版を取得（ESMインポートのキャッシュ問題対策）
     const response = await fetch(request, { cache: 'no-cache' });
     if (response.ok && request.method === 'GET') {
       const cache = await caches.open(CACHE_VERSION);
@@ -180,14 +180,14 @@ async function networkFirst(request) {
 }
 
 /**
- * Stale While Revalidate: 繧ｭ繝｣繝・す繝･繧貞叉蠎ｧ縺ｫ霑斐＠縺､縺､縲√ヰ繝・け繧ｰ繝ｩ繧ｦ繝ｳ繝峨〒譖ｴ譁ｰ縲・
- * songs.json蜷代￠・亥､ｧ縺阪＞繝輔ぃ繧､繝ｫ縺縺後◆縺ｾ縺ｫ譖ｴ譁ｰ縺輔ｌ繧具ｼ峨・
+ * Stale While Revalidate: キャッシュを即座に返しつつ、バックグラウンドで更新。
+ * songs.json向け（大きいファイルだがたまに更新される）。
  */
 async function staleWhileRevalidate(request) {
   const cache = await caches.open(CACHE_VERSION);
   const cached = await cache.match(request);
 
-  // 繝舌ャ繧ｯ繧ｰ繝ｩ繧ｦ繝ｳ繝峨〒譛譁ｰ迚医ｒ蜿門ｾ暦ｼ・TTP繧ｭ繝｣繝・す繝･繧偵ヰ繧､繝代せ・・
+  // バックグラウンドで最新版を取得（HTTPキャッシュをバイパス）
   const fetchPromise = fetch(request, { cache: 'no-cache' }).then((response) => {
     if (response.ok) {
       cache.put(request, response.clone());
@@ -195,27 +195,27 @@ async function staleWhileRevalidate(request) {
     return response;
   }).catch(() => null);
 
-  // 繧ｭ繝｣繝・す繝･縺後≠繧後・縺吶＄霑斐☆縲√↑縺代ｌ縺ｰ繝阪ャ繝医Ρ繝ｼ繧ｯ繧貞ｾ・▽
+  // キャッシュがあればすぐ返す、なければネットワークを待つ
   return cached || fetchPromise || new Response('Offline', { status: 503 });
 }
 
 /**
- * Stale While Revalidate (讀懃ｴ｢繝代Λ繝｡繝ｼ繧ｿ辟｡隕也沿):
- * ?v=xxx 縺ｪ縺ｩ縺ｮ繧ｭ繝｣繝・す繝･繝舌せ繝・ぅ繝ｳ繧ｰ繝代Λ繝｡繝ｼ繧ｿ繧堤┌隕悶＠縺ｦ繧ｭ繝｣繝・す繝･繧偵・繝・メ縺輔○繧九・
- * JS繝ｻCSS蜷代￠縲・
+ * Stale While Revalidate (検索パラメータ無視版):
+ * ?v=xxx などのキャッシュバスティングパラメータを無視してキャッシュをマッチさせる。
+ * JS・CSS向け。
  */
 async function staleWhileRevalidateIgnoreSearch(request) {
   const cache = await caches.open(CACHE_VERSION);
   const cached = await cache.match(request, { ignoreSearch: true });
 
-  // 繝舌ャ繧ｯ繧ｰ繝ｩ繧ｦ繝ｳ繝峨〒譛譁ｰ迚医ｒ蜿門ｾ暦ｼ医ヱ繝ｩ繝｡繝ｼ繧ｿ辟｡縺励・URL縺ｧ繧ｭ繝｣繝・す繝･・・
+  // バックグラウンドで最新版を取得（パラメータ無しのURLでキャッシュ）
   const url = new URL(request.url);
   url.search = '';
   const cleanRequest = new Request(url.toString(), { mode: 'cors' });
 
   const fetchPromise = fetch(request).then((response) => {
     if (response.ok) {
-      // 繝代Λ繝｡繝ｼ繧ｿ辟｡縺励・URL繧偵く繝ｼ縺ｨ縺励※繧ｭ繝｣繝・す繝･縺ｫ菫晏ｭ・
+      // パラメータ無しのURLをキーとしてキャッシュに保存
       cache.put(cleanRequest, response.clone());
     }
     return response;
