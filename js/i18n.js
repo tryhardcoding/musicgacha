@@ -155,7 +155,7 @@ const translations = {
         // Footer
         'footer.support': 'サーバー代で赤字運営中…応援いただけると嬉しいです',
         'footer.affiliate': '当サイトはAmazonアソシエイトプログラムに参加しています',
-        'footer.copyright': '掲載されているジャケット画像および楽曲情報に関する著作権は、各レコード会社、アーティストなどの権利者に帰属します。',
+        'footer.copyright': '掲載されているジャケット画像および楽曲情報に関する著作権は、<br>各レコード会社、アーティストなどの権利者に帰属します。',
 
         // Dialog
         'dialog.cancel': 'キャンセル',

@@ -142,14 +142,14 @@ async function loadTop200Data() {
 
 /**
  * チャート順位からレアリティを決定
- * Top 10 = LR, Top 30 = UR, Top 60 = SR, Top 100 = R, Top 150 = UC, 残り = C
+ * Top 3 = LR, Top 10 = UR, Top 25 = SR, Top 60 = R, Top 120 = UC, 残り = C
  */
 function getRarityFromRank(rank) {
-    if (rank <= 10) return 'LR';
-    if (rank <= 30) return 'UR';
-    if (rank <= 60) return 'SR';
-    if (rank <= 100) return 'R';
-    if (rank <= 150) return 'UC';
+    if (rank <= 3) return 'LR';
+    if (rank <= 10) return 'UR';
+    if (rank <= 25) return 'SR';
+    if (rank <= 60) return 'R';
+    if (rank <= 120) return 'UC';
     return 'C';
 }
 
@@ -158,12 +158,12 @@ function getRarityFromRank(rank) {
  */
 function getRankRangeFromRarity(rarity) {
     switch (rarity) {
-        case 'LR': return { min: 1, max: 10 };
-        case 'UR': return { min: 11, max: 30 };
-        case 'SR': return { min: 31, max: 60 };
-        case 'R': return { min: 61, max: 100 };
-        case 'UC': return { min: 101, max: 150 };
-        case 'C': return { min: 151, max: 200 };
+        case 'LR': return { min: 1, max: 3 };
+        case 'UR': return { min: 4, max: 10 };
+        case 'SR': return { min: 11, max: 25 };
+        case 'R': return { min: 26, max: 60 };
+        case 'UC': return { min: 61, max: 120 };
+        case 'C': return { min: 121, max: 200 };
         default: return { min: 1, max: 200 };
     }
 }
