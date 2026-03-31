@@ -3,6 +3,7 @@ node_modules/
 
 # Pipeline (separate repo)
 scripts/
+!scripts/bump-version.js
 musicgacha-pipeline/
 package.json
 package-lock.json

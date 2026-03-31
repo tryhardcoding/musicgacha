@@ -6,22 +6,18 @@ description: MusicGachaを本番環境にデプロイする
 
 ## 手順
 
-1. `sw.js` の `CACHE_VERSION` を自動バンプする。現在のバージョン番号を読み取り、数値部分を +1 する（例: `musicgacha-v18` → `musicgacha-v19`）。
-
-2. `index.html` 内のバージョンパラメータ `?v=YYYYMMDD[a-z]` を全て更新する。対象は以下:
-   - `index.css?v=...`
-   - `js/sw-bootstrap.js?v=...`
-   - `js/init.js?v=...`
-   - `js/app.js?v=...`
-
-3. `js/app.js` 内のESモジュール import 文のバージョンパラメータも同じ値に更新する（全14行の `?v=...` 部分）。
+// turbo
+1. `node scripts/bump-version.js` を実行する。これにより以下が自動で行われる:
+   - `sw.js` の `CACHE_VERSION` を +1 バンプ
+   - `index.html` と `js/app.js` 内の `?v=YYYYMMDD[a-z]` を更新
+   - BOM（Byte Order Mark）の検出・除去
 
 // turbo
-4. `git status --short` で変更ファイルを確認する。
+2. `git status --short` で変更ファイルを確認する。
 
-5. 変更内容を適切なコミットメッセージで `git add -A; git commit -m "<message>"` する。コミットメッセージは英語で、変更内容を簡潔に記述する。SWキャッシュバンプとバージョンパラメータ更新は本体の変更と同一コミットに含める。
+3. 変更内容を適切なコミットメッセージで `git add -A; git commit -m "<message>"` する。コミットメッセージは英語で、変更内容を簡潔に記述する。SWキャッシュバンプとバージョンパラメータ更新は本体の変更と同一コミットに含める。
 
-6. `git push origin master` でデプロイする。
+4. `git push origin master` でデプロイする。
 
 ## 重要な注意事項
 
@@ -31,3 +27,7 @@ description: MusicGachaを本番環境にデプロイする
 - `sw.js` も `no-cache` なのでブラウザが常に最新をチェックする。
 - デプロイ対象ブランチは `master`。
 - Cloudflare Pages が自動的にビルド・デプロイを行う。
+
+## 禁止事項
+
+- **PowerShell の `Set-Content` でソースコードを書き換えてはならない**。Windows PowerShell 5.x の `-Encoding UTF8` はUTF-8 BOM を挿入し、HTML/JSの解析を破壊する。ファイル編集は必ず `node scripts/bump-version.js` またはエディタツール（replace_file_content等）を使うこと。
