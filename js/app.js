@@ -1,6 +1,6 @@
-// ============================================================
+﻿// ============================================================
 // MusicGacha - App Module
-// アプリ初期化�E画面ルーチE��ング・UIイベント管琁E
+// 繧｢繝励Μ蛻晄悄蛹厄ｿｽE逕ｻ髱｢繝ｫ繝ｼ繝・・ｽ・ｽ繝ｳ繧ｰ繝ｻUI繧､繝吶Φ繝育ｮ｡逅・
 // ============================================================
 
 import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining, getCollection } from './storage.js';
@@ -8,12 +8,12 @@ import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
 import { getRegion, setRegion, REGIONS, getRegionConfig, getFlagUrl } from './region.js';
 import { getPacksConfig } from './data-loader.js';
-import './gacha.js?v=20260330a'; // ガチャモジュール�E�グローバル参�EにopenPackを登録�E�E
+import './gacha.js?v=20260331a'; // 繧ｬ繝√Ε繝｢繧ｸ繝･繝ｼ繝ｫ・ｽE・ｽ繧ｰ繝ｭ繝ｼ繝舌Ν蜿ゑｿｽE縺ｫopenPack繧堤匳骭ｲ・ｽE・ｽE
 import { initCollection, renderCollection, refreshCollection, resetCollectionState } from './collection.js';
 import { initShareHandler } from './transfer.js';
-import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260330a';
+import { initAds, showRewardedAd, updateAdButton, refreshModalBannerAd } from './ads.js?v=20260331a';
 import { icon, refreshIcons } from './icons.js';
-import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260330a';
+import { sharePackResult, shareCollectionStats } from './share-sns.js?v=20260331a';
 import { invalidateCache } from './data-loader.js';
 import { checkAchievements, getAchievementStats, renderAchievementModal, trackDailyBonus } from './achievements.js';
 import { getAmazonMusicUnlimitedUrl } from './affiliate.js';
@@ -28,7 +28,7 @@ let selectedPackType = 'top200';
 function showScreen(screenId) {
     if (!screens.includes(screenId)) screenId = 'home';
 
-    // パック画面から離れたら試聴音声を停止�E�E��封セチE��ョンをキャンセル
+    // 繝代ャ繧ｯ逕ｻ髱｢縺九ｉ髮｢繧後◆繧芽ｩｦ閨ｴ髻ｳ螢ｰ繧貞●豁｢・ｽE・ｽE・ｽ・ｽ蟆√そ繝・・ｽ・ｽ繝ｧ繝ｳ繧偵く繝｣繝ｳ繧ｻ繝ｫ
     if (screenId !== 'pack') {
         if (window.MusicGacha?.stopPreview) {
             window.MusicGacha.stopPreview();
@@ -45,7 +45,7 @@ function showScreen(screenId) {
         }
     });
 
-    // ナビゲーション更新
+    // 繝翫ン繧ｲ繝ｼ繧ｷ繝ｧ繝ｳ譖ｴ譁ｰ
     document.querySelectorAll('.nav-item').forEach(item => {
         const target = item.getAttribute('data-screen');
         item.classList.toggle('active', target === screenId);
@@ -53,13 +53,13 @@ function showScreen(screenId) {
 
     currentScreen = screenId;
 
-    // 画面固有�E初期匁E
+    // 逕ｻ髱｢蝗ｺ譛会ｿｽE蛻晄悄蛹・
     if (screenId === 'home') {
         updateHomeScreen();
     } else if (screenId === 'collection') {
         updateCollectionScreen();
         initCollection();
-        refreshCollection(); // TOP200ビューも含めて再描画
+        refreshCollection(); // TOP200繝薙Η繝ｼ繧ょ性繧√※蜀肴緒逕ｻ
     }
 }
 
@@ -80,14 +80,14 @@ let regenTimerInterval = null;
 function updateHomeScreen() {
     const packData = getPackData();
 
-    // パック残数
+    // 繝代ャ繧ｯ谿区焚
     const currentEl = document.getElementById('pack-count-current');
     if (currentEl) currentEl.textContent = packData.current;
 
-    // TOP200 チャレンジカード更新
+    // TOP200 繝√Ε繝ｬ繝ｳ繧ｸ繧ｫ繝ｼ繝画峩譁ｰ
     updateTop200ChallengeCard();
 
-    // 開封�Eタン
+    // 髢句ｰ・ｿｽE繧ｿ繝ｳ
     const btnOpen = document.getElementById('btn-open-pack');
     if (btnOpen) {
         btnOpen.disabled = packData.current <= 0;
@@ -97,14 +97,14 @@ function updateHomeScreen() {
         }
     }
 
-    // ゴールドパチE��進捁E
+    // 繧ｴ繝ｼ繝ｫ繝峨ヱ繝・・ｽ・ｽ騾ｲ謐・
     const progress = packData.totalOpened % 10;
     const goldFill = document.getElementById('gold-pack-fill');
     const goldLabel = document.getElementById('gold-pack-label');
     if (goldFill) goldFill.style.width = `${(progress / 10) * 100}%`;
     if (goldLabel) goldLabel.textContent = t('home.goldPackProgress', { current: progress });
 
-    // チE��リーボ�Eナス
+    // 繝・・ｽ・ｽ繝ｪ繝ｼ繝懶ｿｽE繝翫せ
     const bonusCard = document.getElementById('daily-bonus-card');
     const btnBonus = document.getElementById('btn-daily-bonus');
     const canClaim = canClaimDailyBonus();
@@ -116,21 +116,21 @@ function updateHomeScreen() {
         btnBonus.textContent = canClaim ? t('home.claim') : t('home.dailyBonusClaimed');
     }
 
-    // 収集進捁E
+    // 蜿朱寔騾ｲ謐・
     const uniqueCount = getUniqueCardCount();
     const totalCount = getTotalCardCount();
     const progressText = document.getElementById('progress-ring-text');
     const progressTotal = document.getElementById('progress-total');
     if (progressText) progressText.textContent = uniqueCount;
-    if (progressTotal) progressTotal.textContent = `${totalCount} / ∞`;
+    if (progressTotal) progressTotal.textContent = `${totalCount} / 竏杼;
 
-    // リジェンタイマ�E
+    // 繝ｪ繧ｸ繧ｧ繝ｳ繧ｿ繧､繝橸ｿｽE
     updateRegenTimer();
 
-    // Top 200 進捗表示
+    // Top 200 騾ｲ謐苓｡ｨ遉ｺ
     updateTop200Progress();
 
-    // Amazon Music PR - ユーザーの収集実績と連勁E+ リージョン対応URL
+    // Amazon Music PR - 繝ｦ繝ｼ繧ｶ繝ｼ縺ｮ蜿朱寔螳溽ｸｾ縺ｨ騾｣蜍・+ 繝ｪ繝ｼ繧ｸ繝ｧ繝ｳ蟇ｾ蠢弑RL
     const amazonUnlimitedUrl = getAmazonMusicUnlimitedUrl();
     const amazonTitle = document.getElementById('amazon-music-title');
     if (amazonTitle) {
@@ -138,13 +138,13 @@ function updateHomeScreen() {
             ? t('home.amazonTitleWithCount', { count: uniqueCount })
             : t('home.amazonTitle');
     }
-    // PRバナーのhrefをロケールに応じて動的設宁E
+    // PR繝舌リ繝ｼ縺ｮhref繧偵Ο繧ｱ繝ｼ繝ｫ縺ｫ蠢懊§縺ｦ蜍慕噪險ｭ螳・
     const amazonPrHome = document.getElementById('amazon-music-pr');
     if (amazonPrHome) amazonPrHome.href = amazonUnlimitedUrl;
     const amazonPrPack = document.getElementById('amazon-music-pr-pack');
     if (amazonPrPack) amazonPrPack.href = amazonUnlimitedUrl;
 
-    // パック結果画面のAmazon Music PRタイトルも更新
+    // 繝代ャ繧ｯ邨先棡逕ｻ髱｢縺ｮAmazon Music PR繧ｿ繧､繝医Ν繧よ峩譁ｰ
     const amazonTitlePack = document.getElementById('amazon-music-title-pack');
     if (amazonTitlePack) {
         amazonTitlePack.textContent = uniqueCount > 0
@@ -152,7 +152,7 @@ function updateHomeScreen() {
             : t('pack.amazonTitle');
     }
 
-    // 実績ボタンのカウント更新
+    // 螳溽ｸｾ繝懊ち繝ｳ縺ｮ繧ｫ繧ｦ繝ｳ繝域峩譁ｰ
     updateAchievementButton();
 }
 
@@ -166,14 +166,14 @@ function updateRegenTimer() {
     if (!timerEl) return;
 
     function tick() {
-        // パック数を毎tick再計算！EecalculatePacksで自動回復される！E
+        // 繝代ャ繧ｯ謨ｰ繧呈ｯ師ick蜀崎ｨ育ｮ暦ｼ・ecalculatePacks縺ｧ閾ｪ蜍募屓蠕ｩ縺輔ｌ繧具ｼ・
         const packData = getPackData();
         const currentEl = document.getElementById('pack-count-current');
         if (currentEl) currentEl.textContent = packData.current;
 
         const ms = getNextRegenTime();
         if (ms === null) {
-            // 満タン - タイマ�E不要E
+            // 貅繧ｿ繝ｳ - 繧ｿ繧､繝橸ｿｽE荳崎ｦ・
             timerEl.textContent = '';
             clearInterval(regenTimerInterval);
             regenTimerInterval = null;
@@ -191,8 +191,8 @@ async function updateTop200ChallengeCard() {
     const card = document.getElementById('top200-challenge-card');
     if (!card) return;
 
-    // 現在のチャートトラックと照合して正確なobtained数をカウント
-    // obtainedKeysのみで判定（ガチャ取得時に記録されたキー）
+    // 迴ｾ蝨ｨ縺ｮ繝√Ε繝ｼ繝医ヨ繝ｩ繝・け縺ｨ辣ｧ蜷医＠縺ｦ豁｣遒ｺ縺ｪobtained謨ｰ繧偵き繧ｦ繝ｳ繝・
+    // obtainedKeys縺ｮ縺ｿ縺ｧ蛻､螳夲ｼ医ぎ繝√Ε蜿門ｾ玲凾縺ｫ險倬鹸縺輔ｌ縺溘く繝ｼ・・
     const chartTracks = await getTop200Tracks();
     const top200Data = getTop200Data();
     const obtainedSet = new Set(top200Data.obtainedKeys);
@@ -206,7 +206,7 @@ async function updateTop200ChallengeCard() {
     const percentage = Math.min((obtained / total) * 100, 100);
     const remaining = total - obtained;
 
-    // マイルスト�EンチE�Eタ
+    // 繝槭う繝ｫ繧ｹ繝茨ｿｽE繝ｳ繝・・ｽE繧ｿ
     const milestones = [
         { threshold: 0, title: t('milestone.debut'), iconName: 'music' },
         { threshold: 50, title: t('milestone.silver'), iconName: 'disc-3' },
@@ -241,7 +241,7 @@ async function updateTop200ChallengeCard() {
         ctaText = t('top200.remaining', { remaining });
     }
 
-    // ホ�Eム牁E+ パック結果牁Eの両方を更新
+    // 繝幢ｿｽE繝迚・+ 繝代ャ繧ｯ邨先棡迚・縺ｮ荳｡譁ｹ繧呈峩譁ｰ
     const suffixes = ['', '-pack'];
     for (const suffix of suffixes) {
         const ringFill = document.getElementById(`top200-ring-fill${suffix}`);
@@ -272,7 +272,7 @@ async function updateTop200Progress() {
     const progressEl = document.getElementById('top200-progress');
     if (!progressEl) return;
 
-    // Top 200パック選択時のみ表示
+    // Top 200繝代ャ繧ｯ驕ｸ謚樊凾縺ｮ縺ｿ陦ｨ遉ｺ
     if (selectedPackType !== 'top200') {
         progressEl.style.display = 'none';
         return;
@@ -280,12 +280,12 @@ async function updateTop200Progress() {
 
     progressEl.style.display = '';
 
-    // 今日のチャート�E200曲を取征E
+    // 莉頑律縺ｮ繝√Ε繝ｼ繝茨ｿｽE200譖ｲ繧貞叙蠕・
     const chartTracks = await getTop200Tracks();
     const total = chartTracks.length || 200;
 
-    // 今日のチャートの曲キーとobtainedKeysの一致数をカウント
-    // obtainedKeysのみで判定
+    // 莉頑律縺ｮ繝√Ε繝ｼ繝医・譖ｲ繧ｭ繝ｼ縺ｨobtainedKeys縺ｮ荳閾ｴ謨ｰ繧偵き繧ｦ繝ｳ繝・
+    // obtainedKeys縺ｮ縺ｿ縺ｧ蛻､螳・
     const top200Data = getTop200Data();
     const obtainedSet = new Set(top200Data.obtainedKeys);
     let obtained = 0;
@@ -332,7 +332,7 @@ function updateAchievementButton() {
 }
 
 function updateCollectionScreen() {
-    // フェーズ3で実裁E
+    // 繝輔ぉ繝ｼ繧ｺ3縺ｧ螳溯｣・
     const uniqueCount = getUniqueCardCount();
     const totalCount = getTotalCardCount();
 
@@ -402,7 +402,7 @@ export function hideLoading() {
 // ---- Event Handlers ----
 
 function setupEventListeners() {
-    // ナビゲーション
+    // 繝翫ン繧ｲ繝ｼ繧ｷ繝ｧ繝ｳ
     document.querySelectorAll('.nav-item').forEach(item => {
         item.addEventListener('click', (e) => {
             e.preventDefault();
@@ -411,7 +411,7 @@ function setupEventListeners() {
         });
     });
 
-    // TOP200チャレンジカーチEクリチE���E��Eーム + パック結果�E�E
+    // TOP200繝√Ε繝ｬ繝ｳ繧ｸ繧ｫ繝ｼ繝・繧ｯ繝ｪ繝・・ｽ・ｽ・ｽE・ｽ・ｽE繝ｼ繝 + 繝代ャ繧ｯ邨先棡・ｽE・ｽE
     const challengeCards = document.querySelectorAll('#top200-challenge-card, #top200-challenge-card-pack');
     challengeCards.forEach(card => {
         card.addEventListener('click', () => {
@@ -423,7 +423,7 @@ function setupEventListeners() {
         });
     });
 
-    // チE��リーボ�Eナス
+    // 繝・・ｽ・ｽ繝ｪ繝ｼ繝懶ｿｽE繝翫せ
     const btnBonus = document.getElementById('btn-daily-bonus');
     if (btnBonus) {
         btnBonus.addEventListener('click', () => {
@@ -437,7 +437,7 @@ function setupEventListeners() {
         });
     }
 
-    // 庁E��パックボタン�E�リワード庁E���E�E
+    // 蠎・・ｽ・ｽ繝代ャ繧ｯ繝懊ち繝ｳ・ｽE・ｽ繝ｪ繝ｯ繝ｼ繝牙ｺ・・ｽ・ｽ・ｽE・ｽE
     const btnAd = document.getElementById('btn-ad-pack');
     if (btnAd) {
         btnAd.addEventListener('click', async () => {
@@ -452,7 +452,7 @@ function setupEventListeners() {
         });
     }
 
-    // パック結果をXでシェアボタン
+    // 繝代ャ繧ｯ邨先棡繧湛縺ｧ繧ｷ繧ｧ繧｢繝懊ち繝ｳ
     const btnSharePack = document.getElementById('btn-share-pack-result');
     if (btnSharePack) {
         btnSharePack.addEventListener('click', () => {
@@ -466,7 +466,7 @@ function setupEventListeners() {
         });
     }
 
-    // コレクションをXでシェアボタン
+    // 繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ繧湛縺ｧ繧ｷ繧ｧ繧｢繝懊ち繝ｳ
     const btnShareCollection = document.getElementById('btn-share-collection');
     if (btnShareCollection) {
         btnShareCollection.addEventListener('click', () => {
@@ -488,7 +488,7 @@ function setupEventListeners() {
         });
     }
 
-    // もう1パック開ける�Eタン
+    // 繧ゅ≧1繝代ャ繧ｯ髢九￠繧具ｿｽE繧ｿ繝ｳ
     const btnOpenAnother = document.getElementById('btn-open-another');
     if (btnOpenAnother) {
         btnOpenAnother.addEventListener('click', async () => {
@@ -499,7 +499,7 @@ function setupEventListeners() {
         });
     }
 
-    // ホ�Eムに戻る�Eタン
+    // 繝幢ｿｽE繝縺ｫ謌ｻ繧具ｿｽE繧ｿ繝ｳ
     const btnViewCollection = document.getElementById('btn-view-collection');
     if (btnViewCollection) {
         btnViewCollection.addEventListener('click', () => {
@@ -507,7 +507,7 @@ function setupEventListeners() {
         });
     }
 
-    // 設宁E 言語�Eり替ぁE
+    // 險ｭ螳・ 險隱橸ｿｽE繧頑崛縺・
     const langSelect = document.getElementById('setting-language');
     if (langSelect) {
         langSelect.addEventListener('change', (e) => {
@@ -518,7 +518,7 @@ function setupEventListeners() {
         });
     }
 
-    // リージョン刁E��ボタン�E�ドロチE�Eダウン選択式！E
+    // 繝ｪ繝ｼ繧ｸ繝ｧ繝ｳ蛻・・ｽ・ｽ繝懊ち繝ｳ・ｽE・ｽ繝峨Ο繝・・ｽE繝繧ｦ繝ｳ驕ｸ謚槫ｼ擾ｼ・
     const countryBtn = document.getElementById('country-btn');
     if (countryBtn) {
         countryBtn.addEventListener('click', (e) => {
@@ -528,21 +528,21 @@ function setupEventListeners() {
     }
 
 
-    // 設宁E チE�EタリセチE���E�E段階確認！E
+    // 險ｭ螳・ 繝・・ｽE繧ｿ繝ｪ繧ｻ繝・・ｽ・ｽ・ｽE・ｽE谿ｵ髫守｢ｺ隱搾ｼ・
     const btnReset = document.getElementById('btn-reset-data');
     if (btnReset) {
         btnReset.addEventListener('click', async (e) => {
             e.preventDefault();
 
-            // 第1段隁E 基本確誁E
+            // 隨ｬ1谿ｵ髫・ 蝓ｺ譛ｬ遒ｺ隱・
             const step1 = await showConfirmDialog(t('dialog.resetMessage'));
             if (!step1) return;
 
-            // 第2段隁E 復允E��可の警呁E
+            // 隨ｬ2谿ｵ髫・ 蠕ｩ蜈・・ｽ・ｽ蜿ｯ縺ｮ隴ｦ蜻・
             const step2 = await showConfirmDialog(t('dialog.resetStep2'));
             if (!step2) return;
 
-            // 第3段隁E コレクション数の提示
+            // 隨ｬ3谿ｵ髫・ 繧ｳ繝ｬ繧ｯ繧ｷ繝ｧ繝ｳ謨ｰ縺ｮ謠千､ｺ
             const uniqueCount = getUniqueCardCount();
             const totalCount = getTotalCardCount();
             const step3 = await showConfirmDialog(
@@ -550,7 +550,7 @@ function setupEventListeners() {
             );
             if (!step3) return;
 
-            // 第4段隁E 最終確誁E
+            // 隨ｬ4谿ｵ髫・ 譛邨ら｢ｺ隱・
             const step4 = await showConfirmDialog(t('dialog.resetFinal'));
             if (!step4) return;
 
@@ -561,11 +561,11 @@ function setupEventListeners() {
         });
     }
 
-    // パックカルーセル - クリチE��で直接開封E+ ドラチE��スクロール
+    // 繝代ャ繧ｯ繧ｫ繝ｫ繝ｼ繧ｻ繝ｫ - 繧ｯ繝ｪ繝・・ｽ・ｽ縺ｧ逶ｴ謗･髢句ｰ・+ 繝峨Λ繝・・ｽ・ｽ繧ｹ繧ｯ繝ｭ繝ｼ繝ｫ
     const carousel = document.getElementById('pack-carousel');
     const track = document.getElementById('pack-carousel-track');
     if (carousel && track) {
-        // -- ドラチE��スクロール --
+        // -- 繝峨Λ繝・・ｽ・ｽ繧ｹ繧ｯ繝ｭ繝ｼ繝ｫ --
         let isDragging = false;
         let dragStartX = 0;
         let dragScrollLeft = 0;
@@ -592,29 +592,29 @@ function setupEventListeners() {
         track.addEventListener('mouseup', endDrag);
         track.addEventListener('mouseleave', endDrag);
 
-        // -- クリチE��で直接開封E--
+        // -- 繧ｯ繝ｪ繝・・ｽ・ｽ縺ｧ逶ｴ謗･髢句ｰ・--
         track.addEventListener('click', async (e) => {
-            if (hasDragged) return; // ドラチE��後�EクリチE��無効
+            if (hasDragged) return; // 繝峨Λ繝・・ｽ・ｽ蠕鯉ｿｽE繧ｯ繝ｪ繝・・ｽ・ｽ辟｡蜉ｹ
             const item = e.target.closest('.pack-item');
             if (!item) return;
             const packType = item.getAttribute('data-pack');
             if (!packType) return;
 
-            // パック残数チェチE��
+            // 繝代ャ繧ｯ谿区焚繝√ぉ繝・・ｽ・ｽ
             const packData = getPackData();
             if (packData.current <= 0) {
                 showToast(t('toast.noPacks'), 'info');
                 return;
             }
 
-            // 選択状態を保孁E
+            // 驕ｸ謚樒憾諷九ｒ菫晏ｭ・
             selectedPackType = packType;
             setSetting('selectedPack', packType);
 
-            // パック画像を刁E��替ぁE
+            // 繝代ャ繧ｯ逕ｻ蜒上ｒ蛻・・ｽ・ｽ譖ｿ縺・
             updatePackImage(packType);
 
-            // 直接開封E
+            // 逶ｴ謗･髢句ｰ・
             navigateTo('pack');
             if (window.MusicGacha && window.MusicGacha.openPack) {
                 await window.MusicGacha.openPack(packType);
@@ -622,7 +622,7 @@ function setupEventListeners() {
         });
     }
 
-    // 設宁E 自動パチE��開封トグル
+    // 險ｭ螳・ 閾ｪ蜍輔ヱ繝・・ｽ・ｽ髢句ｰ√ヨ繧ｰ繝ｫ
     const autoOpenToggle = document.getElementById('setting-auto-open');
     if (autoOpenToggle) {
         autoOpenToggle.addEventListener('change', (e) => {
@@ -630,7 +630,7 @@ function setupEventListeners() {
         });
     }
 
-    // 音量コントロール
+    // 髻ｳ驥上さ繝ｳ繝医Ο繝ｼ繝ｫ
     const volumeSlider = document.getElementById('volume-slider');
     const volumeBtn = document.getElementById('volume-btn');
     const volumeIcon = document.getElementById('volume-icon');
@@ -649,13 +649,13 @@ function setupEventListeners() {
             iconName = 'volume-2';
         }
         volumeIcon.innerHTML = icon(iconName, { size: 20 });
-        // 同期的にLucideアイコンを再描画（refreshIcons()はrequestIdleCallback経由で遅延するため更新されない）
+        // 蜷梧悄逧・↓Lucide繧｢繧､繧ｳ繝ｳ繧貞・謠冗判・・efreshIcons()縺ｯrequestIdleCallback邨檎罰縺ｧ驕・ｻｶ縺吶ｋ縺溘ａ譖ｴ譁ｰ縺輔ｌ縺ｪ縺・ｼ・
         if (window.lucide) {
             window.lucide.createIcons();
         }
-        // aria-label更新
+        // aria-label譖ｴ譁ｰ
         if (volumeBtn) {
-            volumeBtn.setAttribute('aria-label', (vol === 0 || isMuted) ? 'ミュート解除' : 'ミュート');
+            volumeBtn.setAttribute('aria-label', (vol === 0 || isMuted) ? '繝溘Η繝ｼ繝郁ｧ｣髯､' : '繝溘Η繝ｼ繝・);
         }
     }
 
@@ -663,7 +663,7 @@ function setupEventListeners() {
         const DEFAULT_VOLUME = 10;
         const savedVol = getSetting('volume') != null ? parseInt(getSetting('volume'), 10) : DEFAULT_VOLUME;
         volumeSlider.value = isNaN(savedVol) ? DEFAULT_VOLUME : savedVol;
-        // 初回アクセス時�E即座にlocalStorageに保存（音が鳴るよぁE��する�E�E
+        // 蛻晏屓繧｢繧ｯ繧ｻ繧ｹ譎ゑｿｽE蜊ｳ蠎ｧ縺ｫlocalStorage縺ｫ菫晏ｭ假ｼ磯浹縺碁ｳｴ繧九ｈ縺・・ｽ・ｽ縺吶ｋ・ｽE・ｽE
         if (getSetting('volume') == null) {
             setSetting('volume', String(DEFAULT_VOLUME));
         }
@@ -681,7 +681,7 @@ function setupEventListeners() {
             if (window.MusicGacha?.setPreviewMuted) {
                 window.MusicGacha.setPreviewMuted(false);
             }
-            // カード単体�E生�E音量も連勁E
+            // 繧ｫ繝ｼ繝牙腰菴難ｿｽE逕滂ｿｽE髻ｳ驥上ｂ騾｣蜍・
             const cardAudio = window.MusicGacha?.getActiveCardAudio?.();
             if (cardAudio) {
                 cardAudio.volume = vol / 100;
@@ -696,14 +696,14 @@ function setupEventListeners() {
             setSetting('muted', isMuted);
             const vol = isMuted ? 0 : parseInt(volumeSlider?.value || '50', 10);
             updateVolumeIcon(vol);
-            // iOS対忁E audio.mutedを使用�E�Eudio.volumeはiOSで無効�E�E
+            // iOS蟇ｾ蠢・ audio.muted繧剃ｽｿ逕ｨ・ｽE・ｽEudio.volume縺ｯiOS縺ｧ辟｡蜉ｹ・ｽE・ｽE
             if (window.MusicGacha?.setPreviewMuted) {
                 window.MusicGacha.setPreviewMuted(isMuted);
             }
             if (!isMuted && window.MusicGacha?.setPreviewVolume) {
                 window.MusicGacha.setPreviewVolume(vol / 100);
             }
-            // カード単体�E生�Eミュートも連勁E
+            // 繧ｫ繝ｼ繝牙腰菴難ｿｽE逕滂ｿｽE繝溘Η繝ｼ繝医ｂ騾｣蜍・
             const cardAudio = window.MusicGacha?.getActiveCardAudio?.();
             if (cardAudio) {
                 cardAudio.muted = isMuted;
@@ -717,20 +717,20 @@ function setupEventListeners() {
         modalClose.addEventListener('click', () => {
             const modal = document.getElementById('card-detail-modal');
             if (modal) modal.style.display = 'none';
-            // 再生中の音声を停止
+            // 蜀咲函荳ｭ縺ｮ髻ｳ螢ｰ繧貞●豁｢
             if (window.MusicGacha?.stopCardPreview) {
                 window.MusicGacha.stopCardPreview();
             }
         });
     }
 
-    // モーダル背景クリチE��で閉じめE
+    // 繝｢繝ｼ繝繝ｫ閭梧勹繧ｯ繝ｪ繝・・ｽ・ｽ縺ｧ髢峨§繧・
     const modalOverlay = document.getElementById('card-detail-modal');
     if (modalOverlay) {
         modalOverlay.addEventListener('click', (e) => {
             if (e.target === modalOverlay) {
                 modalOverlay.style.display = 'none';
-                // 再生中の音声を停止
+                // 蜀咲函荳ｭ縺ｮ髻ｳ螢ｰ繧貞●豁｢
                 if (window.MusicGacha?.stopCardPreview) {
                     window.MusicGacha.stopCardPreview();
                 }
@@ -738,13 +738,13 @@ function setupEventListeners() {
         });
     }
 
-    // ハッシュルーチE��ング
+    // 繝上ャ繧ｷ繝･繝ｫ繝ｼ繝・・ｽ・ｽ繝ｳ繧ｰ
     window.addEventListener('hashchange', () => {
         const screen = window.location.hash.replace('#', '') || 'home';
         showScreen(screen);
     });
 
-    // 実績ボタン�E��Eーム + ヘッダー�E�E
+    // 螳溽ｸｾ繝懊ち繝ｳ・ｽE・ｽ・ｽE繝ｼ繝 + 繝倥ャ繝繝ｼ・ｽE・ｽE
     const openAchievementModal = () => {
         const modal = document.getElementById('achievement-modal');
         if (modal) {
@@ -763,7 +763,7 @@ function setupEventListeners() {
         btnAchievementsHeader.addEventListener('click', openAchievementModal);
     }
 
-    // 実績モーダル閉じめE
+    // 螳溽ｸｾ繝｢繝ｼ繝繝ｫ髢峨§繧・
     const achClose = document.getElementById('achievement-modal-close');
     if (achClose) {
         achClose.addEventListener('click', () => {
@@ -772,7 +772,7 @@ function setupEventListeners() {
         });
     }
 
-    // 実績モーダル背景クリチE��で閉じめE
+    // 螳溽ｸｾ繝｢繝ｼ繝繝ｫ閭梧勹繧ｯ繝ｪ繝・・ｽ・ｽ縺ｧ髢峨§繧・
     const achModal = document.getElementById('achievement-modal');
     if (achModal) {
         achModal.addEventListener('click', (e) => {
@@ -780,11 +780,11 @@ function setupEventListeners() {
         });
     }
 
-    // Escキーでモーダルを閉じる�E�ECユーザー向けUX改喁E��E
+    // Esc繧ｭ繝ｼ縺ｧ繝｢繝ｼ繝繝ｫ繧帝哩縺倥ｋ・ｽE・ｽEC繝ｦ繝ｼ繧ｶ繝ｼ蜷代￠UX謾ｹ蝟・・ｽ・ｽE
     document.addEventListener('keydown', (e) => {
         if (e.key !== 'Escape') return;
 
-        // カード詳細モーダル
+        // 繧ｫ繝ｼ繝芽ｩｳ邏ｰ繝｢繝ｼ繝繝ｫ
         const cardModal = document.getElementById('card-detail-modal');
         if (cardModal && cardModal.style.display !== 'none') {
             cardModal.style.display = 'none';
@@ -794,14 +794,14 @@ function setupEventListeners() {
             return;
         }
 
-        // 実績モーダル
+        // 螳溽ｸｾ繝｢繝ｼ繝繝ｫ
         const achModalEl = document.getElementById('achievement-modal');
         if (achModalEl && achModalEl.style.display !== 'none') {
             achModalEl.style.display = 'none';
             return;
         }
 
-        // 共有受取モーダル
+        // 蜈ｱ譛牙女蜿悶Δ繝ｼ繝繝ｫ
         const shareModal = document.getElementById('share-receive-modal');
         if (shareModal && shareModal.style.display !== 'none') {
             shareModal.style.display = 'none';
@@ -809,7 +809,7 @@ function setupEventListeners() {
             return;
         }
 
-        // リージョンドロチE�Eダウン
+        // 繝ｪ繝ｼ繧ｸ繝ｧ繝ｳ繝峨Ο繝・・ｽE繝繧ｦ繝ｳ
         const dropdown = document.getElementById('region-dropdown');
         if (dropdown) {
             dropdown.remove();
@@ -824,7 +824,7 @@ function updateRegionDisplay() {
     const region = getRegion();
     const countryBtn = document.getElementById('country-btn');
     if (countryBtn) {
-        // 国旗画像を表示�E�Elagcdn.com CDN�E�E
+        // 蝗ｽ譌礼判蜒上ｒ陦ｨ遉ｺ・ｽE・ｽElagcdn.com CDN・ｽE・ｽE
         const flagEl = countryBtn.querySelector('.country-flag');
         if (flagEl) {
             flagEl.src = getFlagUrl(region);
@@ -834,12 +834,12 @@ function updateRegionDisplay() {
         const codeEl = countryBtn.querySelector('.country-code');
         if (codeEl) codeEl.textContent = region.toUpperCase();
 
-        // 初期非表示からの復帰�E�国旗フラチE��ュ防止�E�E
+        // 蛻晄悄髱櫁｡ｨ遉ｺ縺九ｉ縺ｮ蠕ｩ蟶ｰ・ｽE・ｽ蝗ｽ譌励ヵ繝ｩ繝・・ｽ・ｽ繝･髦ｲ豁｢・ｽE・ｽE
         countryBtn.style.visibility = '';
     }
 }
 
-/** リージョン選択ドロチE�Eダウンを表示/非表示 */
+/** 繝ｪ繝ｼ繧ｸ繝ｧ繝ｳ驕ｸ謚槭ラ繝ｭ繝・・ｽE繝繧ｦ繝ｳ繧定｡ｨ遉ｺ/髱櫁｡ｨ遉ｺ */
 function toggleRegionDropdown() {
     let dropdown = document.getElementById('region-dropdown');
     if (dropdown) {
@@ -881,7 +881,7 @@ function toggleRegionDropdown() {
         countryBtn.parentElement.appendChild(dropdown);
     }
 
-    // 外�EクリチE��で閉じめE
+    // 螟厄ｿｽE繧ｯ繝ｪ繝・・ｽ・ｽ縺ｧ髢峨§繧・
     setTimeout(() => {
         const closeHandler = (e) => {
             if (!dropdown.contains(e.target) && e.target !== countryBtn && !countryBtn.contains(e.target)) {
@@ -897,7 +897,7 @@ async function buildPackCarousel() {
     const track = document.getElementById('pack-carousel-track');
     if (!track) return;
 
-    // チE�Eタ取得を先に行い、DOM更新は最後に一括で実行！ELS防止�E�E
+    // 繝・・ｽE繧ｿ蜿門ｾ励ｒ蜈医↓陦後＞縲．OM譖ｴ譁ｰ縺ｯ譛蠕後↓荳諡ｬ縺ｧ螳溯｡鯉ｼ・LS髦ｲ豁｢・ｽE・ｽE
     const packsConfig = await getPacksConfig();
     if (!packsConfig) return;
 
@@ -930,11 +930,11 @@ async function buildPackCarousel() {
         fragment.appendChild(btn);
     }
 
-    // 一括swap: クリアと追加を連続実行し、E回�Ereflowで完亁E
+    // 荳諡ｬswap: 繧ｯ繝ｪ繧｢縺ｨ霑ｽ蜉繧帝｣邯壼ｮ溯｡後＠縲・蝗橸ｿｽEreflow縺ｧ螳御ｺ・
     track.innerHTML = '';
     track.appendChild(fragment);
 
-    // F5リロード時にブラウザがスクロール位置を復允E��てTOP200が端に来る�Eを防止
+    // F5繝ｪ繝ｭ繝ｼ繝画凾縺ｫ繝悶Λ繧ｦ繧ｶ縺後せ繧ｯ繝ｭ繝ｼ繝ｫ菴咲ｽｮ繧貞ｾｩ蜈・・ｽ・ｽ縺ｦTOP200縺檎ｫｯ縺ｫ譚･繧具ｿｽE繧帝亟豁｢
     track.scrollLeft = 0;
     requestAnimationFrame(() => {
         track.scrollLeft = 0;
@@ -988,7 +988,7 @@ async function switchRegion(newRegion) {
     setRegion(newRegion);
     trackRegionChange(newRegion);
 
-    // リージョンに応じて言語も刁E��
+    // 繝ｪ繝ｼ繧ｸ繝ｧ繝ｳ縺ｫ蠢懊§縺ｦ險隱槭ｂ蛻・・ｽ・ｽ
     const config = REGIONS[newRegion];
     if (config && config.language) {
         setSetting('language', config.language);
@@ -1002,7 +1002,7 @@ async function switchRegion(newRegion) {
 
     updateRegionDisplay();
 
-    // ホ�Eム画面に遷移
+    // 繝幢ｿｽE繝逕ｻ髱｢縺ｫ驕ｷ遘ｻ
     navigateTo('home');
     updateHomeScreen();
 
@@ -1040,59 +1040,59 @@ function injectTop200Gradient() {
 // ---- Initialization ----
 
 async function init() {
-    // ブラウザの自動スクロール復允E��無効化！ELS防止�E�E
+    // 繝悶Λ繧ｦ繧ｶ縺ｮ閾ｪ蜍輔せ繧ｯ繝ｭ繝ｼ繝ｫ蠕ｩ蜈・・ｽ・ｽ辟｡蜉ｹ蛹厄ｼ・LS髦ｲ豁｢・ｽE・ｽE
     if ('scrollRestoration' in history) {
         history.scrollRestoration = 'manual';
     }
     window.scrollTo(0, 0);
 
-    // ストレージ初期匁E
+    // 繧ｹ繝医Ξ繝ｼ繧ｸ蛻晄悄蛹・
     initStorage();
 
-    // 設定読み込み: 保存済み言語がなければリージョンの言語をチE��ォルトに
+    // 險ｭ螳夊ｪｭ縺ｿ霎ｼ縺ｿ: 菫晏ｭ俶ｸ医∩險隱槭′縺ｪ縺代ｌ縺ｰ繝ｪ繝ｼ繧ｸ繝ｧ繝ｳ縺ｮ險隱槭ｒ繝・・ｽ・ｽ繧ｩ繝ｫ繝医↓
     const detectedRegion = getRegion();
     const detectedLang = REGIONS[detectedRegion]?.language || 'ja';
     const settings = {
         language: getSetting('language') || detectedLang,
     };
 
-    // i18n初期匁E+ <html lang> 動的更新
+    // i18n蛻晄悄蛹・+ <html lang> 蜍慕噪譖ｴ譁ｰ
     initI18n(settings.language);
     setLanguage(settings.language);
 
-    // 設定画面の初期値セチE��
+    // 險ｭ螳夂判髱｢縺ｮ蛻晄悄蛟､繧ｻ繝・・ｽ・ｽ
     const langSelect = document.getElementById('setting-language');
     if (langSelect) langSelect.value = settings.language;
 
-    // パック選択�E復允E
+    // 繝代ャ繧ｯ驕ｸ謚橸ｿｽE蠕ｩ蜈・
     const savedPack = getSetting('selectedPack') || 'top200';
     selectedPackType = savedPack;
 
-    // パック画像�E初期設宁E
+    // 繝代ャ繧ｯ逕ｻ蜒擾ｿｽE蛻晄悄險ｭ螳・
     updatePackImage(savedPack);
 
-    // 自動開封トグルの復允E
+    // 閾ｪ蜍暮幕蟆√ヨ繧ｰ繝ｫ縺ｮ蠕ｩ蜈・
     const autoOpenToggle = document.getElementById('setting-auto-open');
     if (autoOpenToggle) {
         autoOpenToggle.checked = getSetting('autoOpen') === true;
     }
 
-    // リージョン表示の初期匁E
+    // 繝ｪ繝ｼ繧ｸ繝ｧ繝ｳ陦ｨ遉ｺ縺ｮ蛻晄悄蛹・
     updateRegionDisplay();
 
-    // パックカルーセルを動皁E��成！Ewaitで完亁E��征E��ことでスクロール位置の正しいリセチE��を保証�E�E
+    // 繝代ャ繧ｯ繧ｫ繝ｫ繝ｼ繧ｻ繝ｫ繧貞虚逧・・ｽ・ｽ謌撰ｼ・wait縺ｧ螳御ｺ・・ｽ・ｽ蠕・・ｽ・ｽ縺薙→縺ｧ繧ｹ繧ｯ繝ｭ繝ｼ繝ｫ菴咲ｽｮ縺ｮ豁｣縺励＞繝ｪ繧ｻ繝・・ｽ・ｽ繧剃ｿ晁ｨｼ・ｽE・ｽE
     await buildPackCarousel();
 
 
 
-    // イベントハンドラ設宁E
+    // 繧､繝吶Φ繝医ワ繝ｳ繝峨Λ險ｭ螳・
     setupEventListeners();
 
-    // 初期画面表示
+    // 蛻晄悄逕ｻ髱｢陦ｨ遉ｺ
     const hash = window.location.hash.replace('#', '') || 'home';
     showScreen(hash);
 
-    // グローバル参�E�E�他モジュールから呼び出し用�E�E
+    // 繧ｰ繝ｭ繝ｼ繝舌Ν蜿ゑｿｽE・ｽE・ｽ莉悶Δ繧ｸ繝･繝ｼ繝ｫ縺九ｉ蜻ｼ縺ｳ蜃ｺ縺礼畑・ｽE・ｽE
     window.MusicGacha = window.MusicGacha || {};
     window.MusicGacha.navigateTo = navigateTo;
     window.MusicGacha.showToast = showToast;
@@ -1116,19 +1116,19 @@ async function init() {
         }
     };
 
-    // 共有リンクの検知
+    // 蜈ｱ譛峨Μ繝ｳ繧ｯ縺ｮ讀懃衍
     initShareHandler();
 
-    // 庁E��シスチE��初期匁E
+    // 蠎・・ｽ・ｽ繧ｷ繧ｹ繝・・ｽ・ｽ蛻晄悄蛹・
     initAds();
 
-    // Lucideアイコン初期匁E
+    // Lucide繧｢繧､繧ｳ繝ｳ蛻晄悄蛹・
     refreshIcons();
 
-    // SVGグラチE�Eション定義を注入
+    // SVG繧ｰ繝ｩ繝・・ｽE繧ｷ繝ｧ繝ｳ螳夂ｾｩ繧呈ｳｨ蜈･
     injectTop200Gradient();
 
-    // 初回アクセス時�E音声注意トースチE
+    // 蛻晏屓繧｢繧ｯ繧ｻ繧ｹ譎ゑｿｽE髻ｳ螢ｰ豕ｨ諢上ヨ繝ｼ繧ｹ繝・
     if (!getSetting('firstVisitDone')) {
         setSetting('firstVisitDone', true);
         setTimeout(() => {
@@ -1136,7 +1136,7 @@ async function init() {
         }, 1500);
     }
 
-    // タブ復帰時にチE�EタキャチE��ュを更新�E�Eop200-daily.jsonを�E取得！E
+    // 繧ｿ繝門ｾｩ蟶ｰ譎ゅ↓繝・・ｽE繧ｿ繧ｭ繝｣繝・・ｽ・ｽ繝･繧呈峩譁ｰ・ｽE・ｽEop200-daily.json繧抵ｿｽE蜿門ｾ暦ｼ・
     document.addEventListener('visibilitychange', () => {
         if (document.visibilityState === 'visible') {
             const config = getRegionConfig();
@@ -1146,7 +1146,7 @@ async function init() {
         }
     });
 
-    // 初期化完亁E loading状態を解除して即座に表示
+    // 蛻晄悄蛹門ｮ御ｺ・ loading迥ｶ諷九ｒ隗｣髯､縺励※蜊ｳ蠎ｧ縺ｫ陦ｨ遉ｺ
     document.body.classList.remove('loading');
 
     console.log('[MusicGacha] App initialized');

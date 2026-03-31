@@ -155,6 +155,7 @@ const translations = {
         // Footer
         'footer.support': 'サーバー代で赤字運営中…応援いただけると嬉しいです',
         'footer.affiliate': '当サイトはAmazonアソシエイトプログラムに参加しています',
+        'footer.copyright': '掲載されているジャケット画像および楽曲情報に関する著作権は、各レコード会社、アーティストなどの権利者に帰属します。',
 
         // Dialog
         'dialog.cancel': 'キャンセル',
@@ -426,6 +427,7 @@ const translations = {
         // Footer
         'footer.support': 'Running at a loss for server costs... Your support means a lot!',
         'footer.affiliate': 'This site participates in the Amazon Associates Program',
+        'footer.copyright': 'Album artwork and song information displayed on this site are copyrighted by their respective record labels, artists, and rights holders.',
 
         // Dialog
         'dialog.cancel': 'Cancel',
@@ -606,6 +608,7 @@ const translations = {
         'settings.terms': 'Conditions d\'utilisation',
         'footer.support': 'Les frais de serveur dépassent les revenus… Merci pour votre soutien !',
         'footer.affiliate': 'Ce site participe au Programme Partenaires d\'Amazon',
+        'footer.copyright': 'Les pochettes d\'albums et les informations musicales affichées sont la propriété de leurs labels, artistes et ayants droit respectifs.',
         'dialog.cancel': 'Annuler', 'dialog.confirm': 'Confirmer',
         'dialog.resetMessage': 'Réinitialiser toutes les données ?\nTu es sûr(e) ?',
         'dialog.resetFinal': '🚨 Dernière confirmation.\nVraiment tout supprimer ?',
@@ -731,6 +734,7 @@ const translations = {
         'settings.terms': 'Nutzungsbedingungen',
         'footer.support': 'Die Serverkosten übersteigen die Einnahmen… Über Unterstützung freuen wir uns sehr!',
         'footer.affiliate': 'Diese Seite nimmt am Amazon-Partnerprogramm teil',
+        'footer.copyright': 'Die angezeigten Albumcover und Songinformationen sind urheberrechtlich geschützt und gehören den jeweiligen Plattenlabels, Künstlern und Rechteinhabern.',
         'dialog.cancel': 'Abbrechen', 'dialog.confirm': 'Bestätigen',
         'dialog.resetMessage': 'Alle Daten zurücksetzen?\nBist du sicher?',
         'dialog.resetFinal': '🚨 Letzte Bestätigung.\nWirklich alles löschen?',
@@ -854,6 +858,7 @@ const translations = {
         'settings.terms': 'Termini di servizio',
         'footer.support': 'I costi del server superano i ricavi… Il tuo supporto è prezioso!',
         'footer.affiliate': 'Questo sito partecipa al Programma Affiliazione Amazon',
+        'footer.copyright': 'Le copertine degli album e le informazioni musicali visualizzate sono di proprietà delle rispettive etichette discografiche, artisti e titolari dei diritti.',
         'dialog.cancel': 'Annulla', 'dialog.confirm': 'Conferma',
         'dialog.resetMessage': 'Reimpostare tutti i dati?\nSei sicuro/a?',
         'dialog.resetFinal': '🚨 Ultima conferma.\nEliminare davvero tutto?',
@@ -977,6 +982,7 @@ const translations = {
         'settings.terms': 'Términos de servicio',
         'footer.support': 'Los costos del servidor superan los ingresos… ¡Tu apoyo significa mucho!',
         'footer.affiliate': 'Este sitio participa en el Programa de Afiliados de Amazon',
+        'footer.copyright': 'Las portadas de álbumes y la información musical mostrada son propiedad de sus respectivos sellos discográficos, artistas y titulares de derechos.',
         'dialog.cancel': 'Cancelar', 'dialog.confirm': 'Confirmar',
         'dialog.resetMessage': '¿Restablecer todos los datos?\n¿Estás seguro/a?',
         'dialog.resetFinal': '🚨 Última confirmación.\n¿Realmente eliminar todo?',
@@ -1100,6 +1106,7 @@ const translations = {
         'settings.terms': 'Termos de serviço',
         'footer.support': 'Os custos do servidor superam a receita… Seu apoio é muito importante!',
         'footer.affiliate': 'Este site participa do Programa de Associados da Amazon',
+        'footer.copyright': 'As capas de álbuns e informações musicais exibidas são de propriedade das respectivas gravadoras, artistas e detentores de direitos.',
         'dialog.cancel': 'Cancelar', 'dialog.confirm': 'Confirmar',
         'dialog.resetMessage': 'Redefinir todos os dados?\nTem certeza?',
         'dialog.resetFinal': '🚨 Última confirmação.\nRealmente apagar tudo?',
@@ -1223,6 +1230,7 @@ const translations = {
         'settings.terms': 'Servicevoorwaarden',
         'footer.support': 'De serverkosten zijn hoger dan de inkomsten… Je steun wordt gewaardeerd!',
         'footer.affiliate': 'Deze site neemt deel aan het Amazon Partnerprogramma',
+        'footer.copyright': 'De albumhoezen en muziekinformatie die worden weergegeven zijn eigendom van de respectieve platenmaatschappijen, artiesten en rechthebbenden.',
         'dialog.cancel': 'Annuleren', 'dialog.confirm': 'Bevestigen',
         'dialog.resetMessage': 'Alle gegevens resetten?\nWeet je het zeker?',
         'dialog.resetFinal': '🚨 Laatste bevestiging.\nEcht alles verwijderen?',

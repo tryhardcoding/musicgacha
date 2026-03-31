@@ -4952,6 +4952,22 @@ svg.lucide {
   font-style: italic;
 }
 
+/* Apple Music sub-link (iTunes compliance - minimal) */
+.btn-apple-music-sub {
+  display: inline-block;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.35);
+  text-decoration: none;
+  padding: 4px 10px;
+  margin-top: 6px;
+  transition: color 0.2s ease;
+}
+
+.btn-apple-music-sub:hover {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
 /* ---- Amazon Music Unlimited PR Card ---- */
 .amazon-music-card {
   display: block;
@@ -5397,27 +5413,7 @@ svg.lucide {
 }
 
 /* ---- Buy Me a Coffee (控えめ) ---- */
-.footer-support-subtle {
-  padding: var(--space-xs) 0;
-  text-align: center;
-}
-
-.footer-support-msg {
-  font-size: 0.6rem;
-  color: rgba(255, 255, 255, 0.15);
-  margin: 0 0 var(--space-xs);
-}
-
-.footer-coffee-link {
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.2);
-  text-decoration: none;
-  transition: color var(--transition-fast);
-}
-
-.footer-coffee-link:hover {
-  color: var(--text-secondary);
-}
+/* → 後方の .footer-support-subtle セクションで統一定義 */
 
 /* ===== X (Twitter) Share Button ===== */
 .btn-share-x {
@@ -5761,36 +5757,38 @@ svg.lucide {
 
 /* ---- Footer Support / Buy Me a Coffee ---- */
 .footer-support-subtle {
-  margin: var(--space-md) 0;
+  margin: var(--space-sm) 0;
   text-align: center;
 }
 
 .footer-support-msg {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin-bottom: var(--space-xs);
-  line-height: 1.6;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.25);
+  margin-bottom: 4px;
+  line-height: 1.4;
 }
 
 .footer-coffee-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 20px;
-  background: linear-gradient(135deg, #ffdd00, #f5c400);
-  color: #1a1a1a;
-  font-weight: 700;
-  font-size: 0.85rem;
-  border-radius: 20px;
+  gap: 4px;
+  padding: 0;
+  background: none;
+  color: rgba(255, 255, 255, 0.30);
+  font-weight: 500;
+  font-size: 0.68rem;
   text-decoration: none;
-  box-shadow: 0 3px 12px rgba(255, 221, 0, 0.3);
-  transition: all 0.3s var(--ease-spring);
+  transition: color var(--transition-fast);
 }
 
 .footer-coffee-link:hover {
-  transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 6px 24px rgba(255, 221, 0, 0.4);
-  color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-coffee-icon {
+  width: 12px;
+  height: 12px;
+  opacity: 0.7;
 }
 
 .footer-affiliate-notice {

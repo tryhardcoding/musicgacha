@@ -303,6 +303,7 @@ export async function openCardDetail(card) {
             <span class="btn-play-full-sub">${escapeHtml(t('card.listenSub'))}</span>
           </span>
         </a>
+        ${card.trackViewUrl ? `<a href="${escapeHtml(card.trackViewUrl)}" target="_blank" rel="noopener" class="btn-apple-music-sub">♫ Apple Music</a>` : ''}
       </div>
       <div class="modal-share-section">
         <div class="modal-share-buttons">
