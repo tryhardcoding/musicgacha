@@ -1,9 +1,9 @@
-// ============================================================
+﻿// ============================================================
 // MusicGacha - App Module
 // アプリ初期化�E画面ルーチE��ング・UIイベント管琁E
 // ============================================================
 
-import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining, getCollection } from './storage.js';
+import { initStorage, getPackData, getNextRegenTime, canClaimDailyBonus, claimDailyBonus, resetAllData, getSetting, setSetting, hasLanguageSetting, getUniqueCardCount, getTotalCardCount, addPacks, getTop200Data, getTop200Remaining, getCollection } from './storage.js';
 import { initI18n, setLanguage, t, applyTranslations } from './i18n.js';
 import { getTop200Tracks } from './api.js';
 import { getRegion, setRegion, REGIONS, getRegionConfig, getFlagUrl } from './region.js';
@@ -1049,12 +1049,16 @@ async function init() {
     // ストレージ初期匁E
     initStorage();
 
-    // 設定読み込み: 保存済み言語がなければリージョンの言語をチE��ォルトに
+    // 言語初期化:
+    // 1. ユーザーが明示的に言語を設定した場合はそれを尊重する
+    // 2. 未設定（初回ユーザー）の場合はブラウザのリージョンから自動検出する
     const detectedRegion = getRegion();
     const detectedLang = REGIONS[detectedRegion]?.language || 'ja';
+    const savedLang = hasLanguageSetting() ? getSetting('language') : null;
     const settings = {
-        language: getSetting('language') || detectedLang,
+        language: savedLang || detectedLang,
     };
+    console.log(`[i18n] region=${detectedRegion}, detectedLang=${detectedLang}, savedLang=${savedLang}, using=${settings.language}`);
 
     // i18n初期匁E+ <html lang> 動的更新
     initI18n(settings.language);

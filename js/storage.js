@@ -42,7 +42,7 @@ const DEFAULT_PACKS = {
 };
 
 const DEFAULT_SETTINGS = {
-  language: 'ja',
+  // language は意図的に除外 — 未設定(null)の場合はブラウザのリージョンから自動検出する
   selectedPack: 'standard',
   autoOpen: true,
   volume: '10',
@@ -253,6 +253,21 @@ export function saveSettings(settings) {
 export function getSetting(key) {
   const settings = getSettings();
   return settings[key];
+}
+
+/**
+ * 言語設定がユーザーによって明示的に保存されているか確認
+ * （旧デフォルト値 'ja' の混入と、意図的な設定を区別するために使用）
+ */
+export function hasLanguageSetting() {
+  try {
+    const raw = localStorage.getItem(GLOBAL_KEYS.SETTINGS);
+    if (!raw) return false;
+    const parsed = JSON.parse(raw);
+    return Object.prototype.hasOwnProperty.call(parsed, 'language');
+  } catch (e) {
+    return false;
+  }
 }
 
 export function setSetting(key, value) {
