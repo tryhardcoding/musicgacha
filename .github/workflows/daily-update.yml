@@ -5,7 +5,8 @@ on:
     # 各リージョンの現地 朝5時ごろ に実行（レートリミット分散）
     - cron: '0 19 * * *'   # 🇦🇺 AU — 5 AM AEST (UTC+10)
     - cron: '0 20 * * *'   # 🇯🇵 JP — 5 AM JST  (UTC+9)
-    - cron: '0 4 * * *'    # 🇪🇺 EU — 5 AM CET  (UK/DE/FR/IT/ES/NL/BE)
+    - cron: '0 4 * * *'    # 🇪🇺 EU-West — UK/DE/FR (3国)
+    - cron: '30 4 * * *'   # 🇪🇺 EU-South — IT/ES/NL/BE (4国)
     - cron: '0 8 * * *'    # 🇧🇷 BR — 5 AM BRT  (UTC-3)
     - cron: '0 10 * * *'   # 🇺🇸 NA — 5 AM EST  (US/CA/MX)
   workflow_dispatch:
@@ -14,10 +15,13 @@ on:
         description: 'Regions to update (space-separated, or "all")'
         default: 'all'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -57,7 +61,9 @@ jobs:
           elif [ "${{ github.event.schedule }}" = "0 20 * * *" ]; then
             echo "regions=jp" >> $GITHUB_OUTPUT
           elif [ "${{ github.event.schedule }}" = "0 4 * * *" ]; then
-            echo "regions=uk de fr it es nl be" >> $GITHUB_OUTPUT
+            echo "regions=uk de fr" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "30 4 * * *" ]; then
+            echo "regions=it es nl be" >> $GITHUB_OUTPUT
           elif [ "${{ github.event.schedule }}" = "0 8 * * *" ]; then
             echo "regions=br" >> $GITHUB_OUTPUT
           elif [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
@@ -73,7 +79,7 @@ jobs:
             node pipeline/scripts/fetch-kworb-top200.js --region $region || echo "WARNING: $region fetch failed"
             sleep 2
           done
-        timeout-minutes: 20
+        timeout-minutes: 30
         env:
           DATA_DIR: ./data
 
