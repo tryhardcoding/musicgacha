@@ -1,8 +1,4 @@
 {
-  "jul::jcvd": {
-    "searchedAt": "2026-03-27T10:13:10.439Z",
-    "region": "be"
-  },
   "dior::1+1 (outside) [feat. cristian d]": {
     "searchedAt": "2026-03-27T10:14:22.929Z",
     "region": "be"
@@ -80,7 +76,7 @@
     "region": "fr"
   },
   "menhir::sonnerie 2 non non": {
-    "searchedAt": "2026-03-27T10:35:53.943Z",
+    "searchedAt": "2026-04-04T05:31:59.816Z",
     "region": "fr"
   },
   "aitana::superestrella": {
@@ -97,10 +93,6 @@
   },
   "amy shark::the biggest dick": {
     "searchedAt": "2026-04-03T19:30:13.024Z",
-    "region": "au"
-  },
-  "bella kay::iloveitiloveitiloveit": {
-    "searchedAt": "2026-03-27T10:44:26.197Z",
     "region": "au"
   },
   "dean turnley::actin' tough": {
@@ -120,7 +112,7 @@
     "region": "ca"
   },
   "marli & philemon::darling": {
-    "searchedAt": "2026-03-27T10:50:37.016Z",
+    "searchedAt": "2026-04-04T05:27:27.020Z",
     "region": "de"
   },
   "mariybu & ebow::nicht alle männer": {
@@ -254,5 +246,13 @@
   "bellakath, el malilla & el bogueto::vaquero (remix) [feat. andrés castillo, la dinastia & riky produce]": {
     "searchedAt": "2026-04-03T10:48:24.294Z",
     "region": "mx"
+  },
+  "sarah connor::atzensong": {
+    "searchedAt": "2026-04-04T05:25:56.428Z",
+    "region": "de"
+  },
+  "farid bang, la fouine, baby gang, morad & 3robi::moros": {
+    "searchedAt": "2026-04-04T05:26:19.218Z",
+    "region": "de"
   }
 }
