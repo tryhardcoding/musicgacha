@@ -252,7 +252,7 @@
     "region": "be"
   },
   "theodora::kongolese sous bbl": {
-    "searchedAt": "2026-04-12T06:00:25.015Z",
+    "searchedAt": "2026-04-22T06:07:06.843Z",
     "region": "fr"
   },
   "braaheim::black betty": {
@@ -643,10 +643,6 @@
     "searchedAt": "2026-04-14T11:07:12.651Z",
     "region": "mx"
   },
-  "josh fawaz::like a prayer": {
-    "searchedAt": "2026-04-14T19:58:39.225Z",
-    "region": "au"
-  },
   "muna::wannabeher": {
     "searchedAt": "2026-04-15T06:03:52.206Z",
     "region": "uk"
@@ -870,5 +866,13 @@
   "alzada, rich vagos, neto peña & gera mx::alzypher alzada x rich vagos (feat. samantha barrón, toser one, teeam revolver, zxmyr, bipo montana & mcklopedia)": {
     "searchedAt": "2026-04-21T11:09:31.523Z",
     "region": "mx"
+  },
+  "maisie peters::kingmaker (with julia michaels)": {
+    "searchedAt": "2026-04-22T06:03:58.956Z",
+    "region": "uk"
+  },
+  "13 organisé::je suis marseille (feat. sch, akhenaton, jul, l'algérino, alonzo, shurik'n, fahar & le rat luciano)": {
+    "searchedAt": "2026-04-22T06:09:41.070Z",
+    "region": "fr"
   }
 }
