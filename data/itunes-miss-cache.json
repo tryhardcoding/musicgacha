@@ -483,10 +483,6 @@
     "searchedAt": "2026-04-10T06:27:52.532Z",
     "region": "nl"
   },
-  "kehlani::back and forth (feat. missy elliott)": {
-    "searchedAt": "2026-04-10T10:52:17.213Z",
-    "region": "us"
-  },
   "daegho & pinkii::addict": {
     "searchedAt": "2026-04-10T10:59:36.298Z",
     "region": "mx"
@@ -540,7 +536,7 @@
     "region": "us"
   },
   "metric::victim of luck": {
-    "searchedAt": "2026-04-11T10:34:13.353Z",
+    "searchedAt": "2026-04-24T11:08:20.064Z",
     "region": "ca"
   },
   "souldia::goat": {
@@ -966,5 +962,9 @@
   "matuê::gorilla roxo": {
     "searchedAt": "2026-04-24T09:53:26.275Z",
     "region": "br"
+  },
+  "trueno::turrazo": {
+    "searchedAt": "2026-04-24T11:09:20.845Z",
+    "region": "mx"
   }
 }
