@@ -692,6 +692,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Bring Your Love",
+        "artist": "Madonna & Sabrina Carpenter",
+        "playcount": 9951000,
+        "rank": 1,
+        "bestChartRank": 1,
+        "url": "https://music.apple.com/au/album/bring-your-love/1892545087?i=1892545227&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/7e/e8/867ee812-6a0a-6fd2-9275-b69a7df014ca/mzaf_16176621302964994219.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/bring-your-love/1892545087?i=1892545227&uo=4",
+        "itunesTrackId": 1892545227,
+        "collectionName": "CONFESSIONS II",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 216400,
+        "releaseDate": "2026-04-30",
+        "rarity": "LR"
+      },
+      {
         "name": "SWIM",
         "artist": "BTS",
         "playcount": 9902000,
@@ -1380,6 +1399,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Choosin' Texas",
+        "artist": "Ella Langley",
+        "playcount": 9902000,
+        "rank": 2,
+        "bestChartRank": 2,
+        "url": "https://music.apple.com/au/album/choosin-texas/1844932149?i=1844932150&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/49/4c/38494cb4-f9e0-1db4-0b84-8c478cb55390/mzaf_4251933786704889664.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/choosin-texas/1844932149?i=1844932150&uo=4",
+        "itunesTrackId": 1844932150,
+        "collectionName": "Choosin' Texas - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 232226,
+        "releaseDate": "2025-10-17",
+        "rarity": "LR"
+      },
+      {
         "name": "SWIM (Alternate Cover Jung Kook Version)",
         "artist": "BTS",
         "playcount": 9853000,
@@ -2042,6 +2080,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 298900,
         "releaseDate": "2025-12-05",
+        "rarity": "LR"
+      },
+      {
+        "name": "Go",
+        "artist": "The Chemical Brothers",
+        "playcount": 9853000,
+        "rank": 3,
+        "bestChartRank": 3,
+        "url": "https://music.apple.com/au/album/go/1472658344?i=1472658547&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/81/ce/41/81ce41ad-68e9-9a00-54c2-2ba626a40c55/18UMGIM33456.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6b/d6/70/6bd670ec-2989-780d-5547-c14c018a8dc6/mzaf_4784615660835955135.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/go/1472658344?i=1472658547&uo=4",
+        "itunesTrackId": 1472658547,
+        "collectionName": "Go - Single",
+        "primaryGenreName": "Electronic",
+        "trackTimeMillis": 260721,
+        "releaseDate": "2015-05-04",
         "rarity": "LR"
       },
       {
@@ -2729,6 +2786,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Good Citizen",
+        "artist": "iyah may",
+        "playcount": 9804000,
+        "rank": 4,
+        "bestChartRank": 4,
+        "url": "https://music.apple.com/au/album/good-citizen/1886794070?i=1886794071&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/91/d8/a691d8c9-4138-eb6a-6a74-9f281877eaaa/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/ed/90/43ed90e6-5c02-e328-b506-eca82ac7ea3a/mzaf_5065318679416624863.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/good-citizen/1886794070?i=1886794071&uo=4",
+        "itunesTrackId": 1886794071,
+        "collectionName": "Good Citizen - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 298900,
+        "releaseDate": "2025-12-05",
+        "rarity": "LR"
+      },
+      {
         "name": "SWIM (Alternate Cover Jimin Version)",
         "artist": "BTS",
         "playcount": 9755000,
@@ -3391,6 +3467,25 @@
         "primaryGenreName": "Electronic",
         "trackTimeMillis": 260721,
         "releaseDate": "2015-05-04",
+        "rarity": "LR"
+      },
+      {
+        "name": "Like a Prayer",
+        "artist": "Josh Fawaz",
+        "playcount": 9755000,
+        "rank": 5,
+        "bestChartRank": 5,
+        "url": "https://music.apple.com/au/album/like-a-prayer/1892983043?i=1892983044&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a4/48/23/a4482363-bb86-a4d3-ddc2-b25413b0741a/8721466468204.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/c5/fd/fcc5fd9a-529c-7fa4-bced-3b479fe1faac/mzaf_11512006812685331235.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/like-a-prayer/1892983043?i=1892983044&uo=4",
+        "itunesTrackId": 1892983044,
+        "collectionName": "Like a Prayer - Single",
+        "primaryGenreName": "Electronic",
+        "trackTimeMillis": 130615,
+        "releaseDate": "2026-04-14",
         "rarity": "LR"
       },
       {
@@ -4078,6 +4173,25 @@
         "rarity": "LR"
       },
       {
+        "name": "RUNWAY",
+        "artist": "Lady Gaga & Doechii",
+        "playcount": 9706000,
+        "rank": 6,
+        "bestChartRank": 6,
+        "url": "https://music.apple.com/au/album/babylon-bree-runway-jimmy-edgar-remix/1583876941?i=1583877442&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/87/5b/7b875b14-8911-5d6c-2b0d-e515b080a114/21UMGIM87491.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/19/a0/f1/19a0f19d-7de7-5aa1-0126-32d3bde1c985/mzaf_1793233158135669127.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/babylon-bree-runway-jimmy-edgar-remix/1583876941?i=1583877442&uo=4",
+        "itunesTrackId": 1583877442,
+        "collectionName": "Dawn Of Chromatica",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 168173,
+        "releaseDate": "2021-09-03",
+        "rarity": "LR"
+      },
+      {
         "name": "SWIM (Alternate Cover V Version)",
         "artist": "BTS",
         "playcount": 9657000,
@@ -4743,6 +4857,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Ordinary",
+        "artist": "Alex Warren",
+        "playcount": 9657000,
+        "rank": 7,
+        "bestChartRank": 7,
+        "url": "https://music.apple.com/au/album/ordinary/1793663382?i=1793663645&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/78/fb/4678fb84-d19e-f11b-93ff-4dc17660bff8/075679619075.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/2f/82/f42f82e5-e164-dd14-4f9a-2767d0215bae/mzaf_2512873933120069750.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/ordinary/1793663382?i=1793663645&uo=4",
+        "itunesTrackId": 1793663645,
+        "collectionName": "Ordinary - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 186964,
+        "releaseDate": "2024-09-26",
+        "rarity": "LR"
+      },
+      {
         "name": "SWIM (Alternate Cover RM Version)",
         "artist": "BTS",
         "playcount": 9608000,
@@ -5386,6 +5519,25 @@
         "primaryGenreName": "Blues",
         "trackTimeMillis": 276000,
         "releaseDate": "2026-04-01",
+        "rarity": "LR"
+      },
+      {
+        "name": "Another Day Old",
+        "artist": "Eddie Dalton",
+        "playcount": 9608000,
+        "rank": 8,
+        "bestChartRank": 8,
+        "url": "https://music.apple.com/au/album/another-day-old/1885488075?i=1885488076&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/6b/23/a56b23e2-097b-b1fb-4c3f-3235e17c9948/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/23/4a/00234a03-5d1f-970f-4963-11ac22c5cf5d/mzaf_15477956918549294860.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/another-day-old/1885488075?i=1885488076&uo=4",
+        "itunesTrackId": 1885488076,
+        "collectionName": "Another Day Old - Single",
+        "primaryGenreName": "Blues",
+        "trackTimeMillis": 232641,
+        "releaseDate": "2026-03-15",
         "rarity": "LR"
       },
       {
@@ -6056,6 +6208,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Shape of a Woman",
+        "artist": "Lady Gaga",
+        "playcount": 9559000,
+        "rank": 9,
+        "bestChartRank": 9,
+        "url": "https://music.apple.com/au/album/shape-of-a-woman/1895776688?i=6764429252&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/74/14/a674143b-9f3c-a148-b29b-b55457849ad1/26UMGIM46877.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/67/19/6a6719d2-b311-f3d2-c492-d892045ff7aa/mzaf_3879839184045933032.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/shape-of-a-woman/1895776688?i=6764429252&uo=4",
+        "itunesTrackId": 6764429252,
+        "collectionName": "The Devil Wears Prada 2 (Music From The Motion Picture)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 209852,
+        "releaseDate": "2026-05-01",
+        "rarity": "LR"
+      },
+      {
         "name": "FEVER DREAM",
         "artist": "Alex Warren",
         "playcount": 9510000,
@@ -6684,6 +6855,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 168173,
         "releaseDate": "2021-09-03",
+        "rarity": "LR"
+      },
+      {
+        "name": "FINE PLACE TO DIE",
+        "artist": "Alex Warren",
+        "playcount": 9510000,
+        "rank": 10,
+        "bestChartRank": 10,
+        "url": "https://music.apple.com/au/album/fine-place-to-die/1895878798?i=6764686279&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/ea/b4/98eab461-f7d0-c5db-00ad-fcd3ecb5ed03/075679581648.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/83/24/2283247f-44b8-21a9-bb64-b9b849a2988d/mzaf_6354961404403980208.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/fine-place-to-die/1895878798?i=6764686279&uo=4",
+        "itunesTrackId": 6764686279,
+        "collectionName": "FINE PLACE TO DIE - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 187423,
+        "releaseDate": "2026-04-30",
         "rarity": "LR"
       },
       {
@@ -7373,6 +7563,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Somewhere Along The Way",
+        "artist": "Eddie Dalton",
+        "playcount": 9461000,
+        "rank": 11,
+        "bestChartRank": 11,
+        "url": "https://music.apple.com/au/album/somewhere-along-the-way/1890389596?i=1890389604&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/85/a6/3e85a627-135a-5fca-eba9-655e645c364c/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/af/71/15af71f9-bc4c-4e1c-0470-4ea200d515f0/mzaf_1748659070075813471.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/somewhere-along-the-way/1890389596?i=1890389604&uo=4",
+        "itunesTrackId": 1890389604,
+        "collectionName": "The Years Between",
+        "primaryGenreName": "Blues",
+        "trackTimeMillis": 276000,
+        "releaseDate": "2026-04-01",
+        "rarity": "LR"
+      },
+      {
         "name": "Rein Me In",
         "artist": "Sam Fender & Olivia Dean",
         "playcount": 9412000,
@@ -8019,6 +8228,25 @@
         "trackTimeMillis": 189854,
         "releaseDate": "2026-01-25",
         "rarity": "LR"
+      },
+      {
+        "name": "ANGEL ABOVE ME (RUN RUN RIVER)",
+        "artist": "Die WBL",
+        "playcount": 9412000,
+        "rank": 12,
+        "bestChartRank": 12,
+        "url": "https://music.apple.com/au/album/angel-above-me-run-run-river/1895790455?i=6764459671&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/4a/42/f64a42e3-d639-c686-52cd-769d4c0a9744/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/6e/b8/056eb8ed-35c7-5503-b786-b3472013c854/mzaf_14800173877700775987.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/angel-above-me-run-run-river/1895790455?i=6764459671&uo=4",
+        "itunesTrackId": 6764459671,
+        "collectionName": "ANGEL ABOVE ME (RUN RUN RIVER) - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 260780,
+        "releaseDate": "2026-04-28",
+        "rarity": "UR"
       },
       {
         "name": "WHERE IS MY HUSBAND!",
@@ -8668,6 +8896,25 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 228837,
         "releaseDate": "2026-04-10",
+        "rarity": "LR"
+      },
+      {
+        "name": "FEVER DREAM",
+        "artist": "Alex Warren",
+        "playcount": 9363000,
+        "rank": 13,
+        "bestChartRank": 13,
+        "url": "https://music.apple.com/au/album/fever-dream/1879983782?i=1879983789&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/44/ab/9944ab8d-79c5-c3b4-0448-3dde97bd47ec/mzaf_2792351844678623504.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/fever-dream/1879983782?i=1879983789&uo=4",
+        "itunesTrackId": 1879983789,
+        "collectionName": "FEVER DREAM - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 153430,
+        "releaseDate": "2026-03-13",
         "rarity": "LR"
       },
       {
@@ -9340,6 +9587,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Billie Jean",
+        "artist": "Michael Jackson",
+        "playcount": 9314000,
+        "rank": 14,
+        "bestChartRank": 14,
+        "url": "https://music.apple.com/au/album/billie-jean/269572838?i=269573364&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/bc/8a/dcbc8a3e-4ce1-c00d-cc02-eda2212053c7/mzaf_8347559338388601510.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/billie-jean/269572838?i=269573364&uo=4",
+        "itunesTrackId": 269573364,
+        "collectionName": "Thriller",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 293802,
+        "releaseDate": "1982-11-29",
+        "rarity": "UR"
+      },
+      {
         "name": "Golden",
         "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast",
         "playcount": 9265000,
@@ -9990,6 +10256,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Rein Me In",
+        "artist": "Sam Fender & Olivia Dean",
+        "playcount": 9265000,
+        "rank": 15,
+        "bestChartRank": 15,
+        "url": "https://music.apple.com/au/album/rein-me-in/1820918843?i=1820918844&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/81/1d/ec811d0e-64d9-224c-25df-9d26456874f9/25UMGIM75096.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/ed/fb/40edfb1b-5292-9ebc-a724-fc14e9a65502/mzaf_11469346113225952343.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/rein-me-in/1820918843?i=1820918844&uo=4",
+        "itunesTrackId": 1820918844,
+        "collectionName": "Rein Me In - Single",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 341018,
+        "releaseDate": "2025-06-20",
+        "rarity": "LR"
+      },
+      {
         "name": "STAY",
         "artist": "Stray Kids",
         "playcount": 9216000,
@@ -10635,7 +10920,26 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 209852,
         "releaseDate": "2026-05-01",
-        "rarity": "UR"
+        "rarity": "LR"
+      },
+      {
+        "name": "LET ME BE",
+        "artist": "The Second Voice",
+        "playcount": 9216000,
+        "rank": 16,
+        "bestChartRank": 16,
+        "url": "https://music.apple.com/au/album/let-me-be/1884898393?i=1884898399&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/68/ba/0f68ba2b-f12c-4a5b-fa4f-b9c378be26a4/825204598296.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/cb/4b/1bcb4bd4-0bee-83fc-d775-2cab1e51fc55/mzaf_15069762443416267825.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/let-me-be/1884898393?i=1884898399&uo=4",
+        "itunesTrackId": 1884898399,
+        "collectionName": "LET ME BE - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 189854,
+        "releaseDate": "2026-01-25",
+        "rarity": "LR"
       },
       {
         "name": "When I Stand",
@@ -11248,6 +11552,25 @@
         "trackTimeMillis": 240364,
         "releaseDate": null,
         "rarity": "UR"
+      },
+      {
+        "name": "The Fate of Ophelia",
+        "artist": "Taylor Swift",
+        "playcount": 9167000,
+        "rank": 17,
+        "bestChartRank": 17,
+        "url": "https://music.apple.com/au/album/the-fate-of-ophelia/1842897453?i=1842897454&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/0c/5a/300c5a57-d3be-a170-f880-f63380ca6312/25UM1IM19577.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/b4/89/a5b48955-c48a-7064-1ebb-3ce8d8d43122/mzaf_8616399476413155786.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-fate-of-ophelia/1842897453?i=1842897454&uo=4",
+        "itunesTrackId": 1842897454,
+        "collectionName": "The Life of a Showgirl",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 226074,
+        "releaseDate": "2025-10-03",
+        "rarity": "LR"
       },
       {
         "name": "Opalite",
@@ -11879,6 +12202,25 @@
         "trackTimeMillis": 273105,
         "releaseDate": "2026-05-01",
         "rarity": "UR"
+      },
+      {
+        "name": "Keep Going",
+        "artist": "Jada Monroe",
+        "playcount": 9118000,
+        "rank": 18,
+        "bestChartRank": 18,
+        "url": "https://music.apple.com/au/album/keep-going/1895623582?i=6764067724&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/12/22/f2/1222f2eb-6721-db81-c369-023d3610fa54/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/4b/09/144b09d1-2460-5d9e-0c5c-9b0a11b6b830/mzaf_14544645308136876235.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/keep-going/1895623582?i=6764067724&uo=4",
+        "itunesTrackId": 6764067724,
+        "collectionName": "Keep Going - Single",
+        "primaryGenreName": "R&B/Soul",
+        "trackTimeMillis": 207086,
+        "releaseDate": "2026-04-29",
+        "rarity": "LR"
       },
       {
         "name": "I Just Might",
@@ -13238,6 +13580,25 @@
         "rarity": "LR"
       },
       {
+        "name": "New Religion",
+        "artist": "Bebe Rexha & Faithless",
+        "playcount": 9020000,
+        "rank": 20,
+        "bestChartRank": 20,
+        "url": "https://music.apple.com/au/album/new-religion/1878015313?i=1878015314&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/99/14/1d99143b-f5ce-6a98-2992-f91a050835e3/199316500523_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/9a/8a/209a8add-b82f-5288-3f6d-ad9633ffa7b8/mzaf_4960400866856307248.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/new-religion/1878015313?i=1878015314&uo=4",
+        "itunesTrackId": 1878015314,
+        "collectionName": "New Religion - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 174400,
+        "releaseDate": "2026-03-06",
+        "rarity": "LR"
+      },
+      {
         "name": "Body to Body",
         "artist": "BTS",
         "playcount": 8971000,
@@ -13926,6 +14287,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Summer Breeze",
+        "artist": "Keith Urban",
+        "playcount": 8971000,
+        "rank": 21,
+        "bestChartRank": 21,
+        "url": "https://music.apple.com/au/album/summer-breeze/1895279513?i=6763360727&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/d0/1d/e5d01d5c-18da-ff6a-2214-f90a5e7222f4/26UMGIM44897.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/b6/75/71b675c3-c896-f787-a6a3-1739a08341df/mzaf_5053745984276533166.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/summer-breeze/1895279513?i=6763360727&uo=4",
+        "itunesTrackId": 6763360727,
+        "collectionName": "flow state",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 240364,
+        "releaseDate": null,
+        "rarity": "UR"
+      },
+      {
         "name": "The Fate of Ophelia",
         "artist": "Taylor Swift",
         "playcount": 8922000,
@@ -14516,6 +14896,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 248902,
         "releaseDate": "2025-09-05",
+        "rarity": "LR"
+      },
+      {
+        "name": "Dracula (JENNIE Remix)",
+        "artist": "Tame Impala & JENNIE",
+        "playcount": 8922000,
+        "rank": 22,
+        "bestChartRank": 22,
+        "url": "https://music.apple.com/au/album/dracula/1842444456?i=1842444457&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/be/b4/36beb41f-c644-55cb-9fbb-bf0622a66653/196873644783.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/e0/26/93e02611-d12e-86e8-595a-b6d20a7847dc/mzaf_12540017880660395875.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dracula/1842444456?i=1842444457&uo=4",
+        "itunesTrackId": 1842444457,
+        "collectionName": "Dracula - Single",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 205309,
+        "releaseDate": "2025-09-24",
         "rarity": "LR"
       },
       {
@@ -15150,6 +15549,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Brand New Man",
+        "artist": "Marshall Hamburger",
+        "playcount": 8873000,
+        "rank": 23,
+        "bestChartRank": 23,
+        "url": "https://music.apple.com/au/album/brand-new-man/1891743464?i=1891743465&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/a7/88/48a78862-dc37-0339-5670-ccaa03b02b1c/824296233023_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/91/f5/c991f546-e2ef-46f6-a9e0-5f586d3f29c3/mzaf_8563241268209660313.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/brand-new-man/1891743464?i=1891743465&uo=4",
+        "itunesTrackId": 1891743465,
+        "collectionName": "Brand New Man - Single",
+        "primaryGenreName": "Pop/Rock",
+        "trackTimeMillis": 273105,
+        "releaseDate": "2026-05-01",
+        "rarity": "UR"
+      },
+      {
         "name": "Homewrecker",
         "artist": "sombr",
         "playcount": 8824000,
@@ -15757,6 +16175,25 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 174400,
         "releaseDate": "2026-03-06",
+        "rarity": "LR"
+      },
+      {
+        "name": "Karmageddon",
+        "artist": "iyah may",
+        "playcount": 8824000,
+        "rank": 24,
+        "bestChartRank": 24,
+        "url": "https://music.apple.com/au/album/karmageddon/576931719?i=576931721&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6d/29/af/6d29af4f-ecfd-7f22-69e3-97ea8298d1cc/TI37583_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b4/4f/c7/b44fc7be-ecce-aeab-b4cc-58d0eac94392/mzaf_7440463026084202339.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/karmageddon/576931719?i=576931721&uo=4",
+        "itunesTrackId": 576931721,
+        "collectionName": "Karmageddon - Single",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 190667,
+        "releaseDate": "2013-05-10",
         "rarity": "LR"
       },
       {
@@ -16429,6 +16866,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Dragon Style",
+        "artist": "Bob Dominator",
+        "playcount": 8775000,
+        "rank": 25,
+        "bestChartRank": 25,
+        "url": "https://music.apple.com/au/album/dragon-style/1893728239?i=1893728240&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/e7/07/e9e707ba-c0c5-ac89-a05e-5e2d589ad4a5/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/d7/83/fcd78301-c341-cb4a-bf19-f28ea2e3f0e7/mzaf_8840929298944527327.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dragon-style/1893728239?i=1893728240&uo=4",
+        "itunesTrackId": 1893728240,
+        "collectionName": "Dragon Style - Single",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 133320,
+        "releaseDate": "2026-04-19",
+        "rarity": "UR"
+      },
+      {
         "name": "SWIM (Instrumental)",
         "artist": "BTS",
         "playcount": 8726000,
@@ -17079,6 +17535,25 @@
         "rarity": "UR"
       },
       {
+        "name": "Mr. Know It All",
+        "artist": "Teddy Swims",
+        "playcount": 8726000,
+        "rank": 26,
+        "bestChartRank": 26,
+        "url": "https://music.apple.com/au/album/mr-know-it-all/1889387201?i=1889387207&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/e8/69/aee869b7-cc28-b6c5-f82a-d41d3e03b0f4/054391217332.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/70/5c/17705c5c-d83e-da25-afce-0c47bb4bf9d1/mzaf_5046605284961203652.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/mr-know-it-all/1889387201?i=1889387207&uo=4",
+        "itunesTrackId": 1889387207,
+        "collectionName": "Mr. Know It All - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 198425,
+        "releaseDate": "2026-04-09",
+        "rarity": "LR"
+      },
+      {
         "name": "Buses And Trains",
         "artist": "Bachelor Girl",
         "playcount": 8677000,
@@ -17710,6 +18185,25 @@
         "rarity": "LR"
       },
       {
+        "name": "I Can't Love You Anymore",
+        "artist": "Ella Langley & Morgan Wallen",
+        "playcount": 8677000,
+        "rank": 27,
+        "bestChartRank": 27,
+        "url": "https://music.apple.com/au/album/i-cant-love-you-anymore/1895159736?i=6763094377&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/bf/35/1dbf3531-4434-a183-7552-4d8eba15e756/mzaf_17703032666608891166.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/i-cant-love-you-anymore/1895159736?i=6763094377&uo=4",
+        "itunesTrackId": 6763094377,
+        "collectionName": "Dandelion",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 228837,
+        "releaseDate": "2026-04-10",
+        "rarity": "LR"
+      },
+      {
         "name": "Unstoppable",
         "artist": "Sia",
         "playcount": 8628000,
@@ -18299,6 +18793,25 @@
         "trackTimeMillis": 357753,
         "releaseDate": "1982-11-29",
         "rarity": "UR"
+      },
+      {
+        "name": "The Biggest Dick",
+        "artist": "Amy Shark",
+        "playcount": 8628000,
+        "rank": 28,
+        "bestChartRank": 28,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "previewUrl": null,
+        "trackViewUrl": null,
+        "itunesTrackId": null,
+        "collectionName": null,
+        "primaryGenreName": null,
+        "trackTimeMillis": null,
+        "releaseDate": null,
+        "rarity": "LR"
       },
       {
         "name": "Dracula (JENNIE Remix)",
@@ -19525,6 +20038,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Man I Need",
+        "artist": "Olivia Dean",
+        "playcount": 8530000,
+        "rank": 30,
+        "bestChartRank": 30,
+        "url": "https://music.apple.com/au/album/man-i-need/1817609404?i=1817609509&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/2c/6d/812c6df3-5481-5e61-b5d1-306d485b0d9d/mzaf_6058256111555931162.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/man-i-need/1817609404?i=1817609509&uo=4",
+        "itunesTrackId": 1817609509,
+        "collectionName": "The Art of Loving",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 184000,
+        "releaseDate": "2025-09-26",
+        "rarity": "LR"
+      },
+      {
         "name": "Iris",
         "artist": "The Goo Goo Dolls",
         "playcount": 8481000,
@@ -20153,7 +20685,26 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 260780,
         "releaseDate": "2026-04-28",
-        "rarity": "SR"
+        "rarity": "UR"
+      },
+      {
+        "name": "Golden",
+        "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast",
+        "playcount": 8481000,
+        "rank": 31,
+        "bestChartRank": 31,
+        "url": "https://music.apple.com/au/album/golden/1820264137?i=1820264150&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/15/42/e1154273-8ecd-5702-e6e6-597f28001681/25UMGIM82363.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/68/32/3868327b-f83f-71c7-0a0c-1813edf2b73e/mzaf_9475346657459209500.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/golden/1820264137?i=1820264150&uo=4",
+        "itunesTrackId": 1820264150,
+        "collectionName": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
+        "primaryGenreName": "K-Pop",
+        "trackTimeMillis": 194608,
+        "releaseDate": "2025-06-19",
+        "rarity": "LR"
       },
       {
         "name": "The Biggest Dick",
@@ -20782,7 +21333,7 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 260780,
         "releaseDate": "2026-04-28",
-        "rarity": "SR"
+        "rarity": "UR"
       },
       {
         "name": "Dracula (JENNIE Remix)",
@@ -20801,6 +21352,25 @@
         "primaryGenreName": "Alternative",
         "trackTimeMillis": 205309,
         "releaseDate": "2025-09-24",
+        "rarity": "LR"
+      },
+      {
+        "name": "WHERE IS MY HUSBAND!",
+        "artist": "RAYE",
+        "playcount": 8432000,
+        "rank": 32,
+        "bestChartRank": 32,
+        "url": "https://music.apple.com/au/album/where-is-my-husband/1838737596?i=1838737598&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/10/8a/69108a18-55ec-d774-a653-90b2242733db/199538765458.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/f5/24/fcf52459-e6a3-c728-c472-58766d300ef7/mzaf_12031297918382153127.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/where-is-my-husband/1838737596?i=1838737598&uo=4",
+        "itunesTrackId": 1838737598,
+        "collectionName": "WHERE IS MY HUSBAND! - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 197143,
+        "releaseDate": "2025-09-19",
         "rarity": "LR"
       },
       {
@@ -21433,6 +22003,25 @@
         "rarity": "LR"
       },
       {
+        "name": "A Bar Song (Tipsy)",
+        "artist": "Shaboozey",
+        "playcount": 8383000,
+        "rank": 33,
+        "bestChartRank": 33,
+        "url": "https://music.apple.com/au/album/a-bar-song-tipsy/1749591710?i=1749591722&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/db/81/bedb81c3-ca23-a1b9-f275-59e46ae4fdb1/197342625517_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/e5/fc/f0e5fc95-050a-9726-57ad-bc696e9d0201/mzaf_8459705202091399958.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/a-bar-song-tipsy/1749591710?i=1749591722&uo=4",
+        "itunesTrackId": 1749591722,
+        "collectionName": "Where I've Been, Isn't Where I'm Going",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 171292,
+        "releaseDate": "2024-04-12",
+        "rarity": "LR"
+      },
+      {
         "name": "Another Day Old",
         "artist": "Eddie Dalton",
         "playcount": 8334000,
@@ -22002,7 +22591,7 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 133320,
         "releaseDate": "2026-04-19",
-        "rarity": "SR"
+        "rarity": "UR"
       },
       {
         "name": "Dragons Lair",
@@ -22041,6 +22630,25 @@
         "trackTimeMillis": 129158,
         "releaseDate": "2026-04-09",
         "rarity": "SR"
+      },
+      {
+        "name": "drop dead",
+        "artist": "Olivia Rodrigo",
+        "playcount": 8334000,
+        "rank": 34,
+        "bestChartRank": 34,
+        "url": "https://music.apple.com/au/album/drop-dead/1889992111?i=1889992113&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/e2/62/d5e26246-69ac-8958-1bc3-81685b491e88/mzaf_11021387786364588348.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/drop-dead/1889992111?i=1889992113&uo=4",
+        "itunesTrackId": 1889992113,
+        "collectionName": "you seem pretty sad for a girl so in love",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 224999,
+        "releaseDate": null,
+        "rarity": "LR"
       },
       {
         "name": "Dracula",
@@ -23205,7 +23813,7 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 133320,
         "releaseDate": "2026-04-19",
-        "rarity": "SR"
+        "rarity": "UR"
       },
       {
         "name": "Beauty and a Beat (feat. Nicki Minaj)",
@@ -23262,6 +23870,25 @@
         "primaryGenreName": "Blues",
         "trackTimeMillis": 217440,
         "releaseDate": "2026-03-31",
+        "rarity": "LR"
+      },
+      {
+        "name": "Kingdom of Fear",
+        "artist": "Cameron Whitcomb",
+        "playcount": 8236000,
+        "rank": 36,
+        "bestChartRank": 36,
+        "url": "https://music.apple.com/au/album/kingdom-of-fear/1887606218?i=1887606227&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/33/73/7e337333-0802-d7b5-8848-d20fdbdf993c/075679584731.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/d9/43/e3d94346-1c64-1b28-5594-2acdffc2d09c/mzaf_8244998091623034103.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/kingdom-of-fear/1887606218?i=1887606227&uo=4",
+        "itunesTrackId": 1887606227,
+        "collectionName": "Deep Water - EP",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 161075,
+        "releaseDate": "2026-03-27",
         "rarity": "LR"
       },
       {
@@ -23896,6 +24523,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Thriller",
+        "artist": "Michael Jackson",
+        "playcount": 8187000,
+        "rank": 37,
+        "bestChartRank": 37,
+        "url": "https://music.apple.com/au/album/thriller/273048762?i=273048787&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b5/58/d3/b558d32f-24fd-c889-d544-bc4c96f6113e/dj.oinzmlgt.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/2a/b5/012ab507-1b6e-198c-0f9d-5e44a2c2b919/mzaf_16660153232571583201.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/thriller/273048762?i=273048787&uo=4",
+        "itunesTrackId": 273048787,
+        "collectionName": "Thriller (25th Anniversary) [Deluxe Edition]",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 357753,
+        "releaseDate": "1982-11-29",
+        "rarity": "UR"
+      },
+      {
         "name": "Wish Upon a Whiskey",
         "artist": "Luke Combs",
         "playcount": 8138000,
@@ -24527,6 +25173,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Lush Life",
+        "artist": "Zara Larsson",
+        "playcount": 8138000,
+        "rank": 38,
+        "bestChartRank": 38,
+        "url": "https://music.apple.com/au/album/lush-life/1201058048?i=1201058113&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/82/69/b2826914-f524-4fed-dfeb-b6df63ea6cff/886446183473.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/52/6a/77526a57-f53f-b8ba-bdc7-e74e242c7c55/mzaf_11538198025885549610.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/lush-life/1201058048?i=1201058113&uo=4",
+        "itunesTrackId": 1201058113,
+        "collectionName": "So Good",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 200647,
+        "releaseDate": "2017-03-17",
+        "rarity": "LR"
+      },
+      {
         "name": "American Girls",
         "artist": "Harry Styles",
         "playcount": 8089000,
@@ -25116,6 +25781,25 @@
         "trackTimeMillis": 174400,
         "releaseDate": "2026-03-06",
         "rarity": "LR"
+      },
+      {
+        "name": "Smooth Criminal",
+        "artist": "Michael Jackson",
+        "playcount": 8089000,
+        "rank": 39,
+        "bestChartRank": 39,
+        "url": "https://music.apple.com/au/album/smooth-criminal/159292399?i=159294551&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3d/9d/38/3d9d3811-71f0-3a0e-1ada-3004e56ff852/827969428726.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/7d/84/387d847b-0a17-d7d0-81fa-3d1e2036a0e3/mzaf_1148403634523455455.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/smooth-criminal/159292399?i=159294551&uo=4",
+        "itunesTrackId": 159294551,
+        "collectionName": "The Essential Michael Jackson",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 258635,
+        "releaseDate": "1987-08-31",
+        "rarity": "UR"
       },
       {
         "name": "Dreams",
@@ -25709,6 +26393,25 @@
         "trackTimeMillis": 293802,
         "releaseDate": "1982-11-29",
         "rarity": "UR"
+      },
+      {
+        "name": "EVERYTHING HALLELUJAH",
+        "artist": "Justin Bieber",
+        "playcount": 8040000,
+        "rank": 40,
+        "bestChartRank": 40,
+        "url": "https://music.apple.com/au/album/everything-hallelujah/1837867200?i=1837867614&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/cb/3e/e0cb3e1c-0dde-156d-d500-7943bc4ddebd/25UM1IM36272.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/87/81/e6878120-bfff-e70e-f018-d6982456c527/mzaf_2925568624401300320.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/everything-hallelujah/1837867200?i=1837867614&uo=4",
+        "itunesTrackId": 1837867614,
+        "collectionName": "SWAG II",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 248902,
+        "releaseDate": "2025-09-05",
+        "rarity": "LR"
       },
       {
         "name": "Lush Life",
@@ -26931,6 +27634,25 @@
         "trackTimeMillis": 224280,
         "releaseDate": "2024-06-21",
         "rarity": "UR"
+      },
+      {
+        "name": "Celebrate Me",
+        "artist": "IngaRose",
+        "playcount": 7942000,
+        "rank": 42,
+        "bestChartRank": 42,
+        "url": "https://music.apple.com/au/album/celebrate-me/1888967468?i=1888967469&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/73/35/2873355d-608d-8c0b-8b1f-76096879d734/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5d/ce/1a/5dce1a70-fa57-55ed-26a6-08a07460b844/mzaf_18227084901395057346.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/celebrate-me/1888967468?i=1888967469&uo=4",
+        "itunesTrackId": 1888967469,
+        "collectionName": "Celebrate Me - Single",
+        "primaryGenreName": "Blues",
+        "trackTimeMillis": 217440,
+        "releaseDate": "2026-03-31",
+        "rarity": "LR"
       },
       {
         "name": "12 to 12",
@@ -28171,7 +28893,26 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 133320,
         "releaseDate": "2026-04-19",
-        "rarity": "SR"
+        "rarity": "UR"
+      },
+      {
+        "name": "you look like you love me",
+        "artist": "Ella Langley & Riley Green",
+        "playcount": 7844000,
+        "rank": 44,
+        "bestChartRank": 44,
+        "url": "https://music.apple.com/au/album/you-look-like-you-love-me/1749121114?i=1749121123&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/33/40/62334080-6129-4d0c-086b-921cc956cb7a/196872090895.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/f6/be/14f6bec3-f232-2211-042c-743d933c9c02/mzaf_7434264055963505924.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/you-look-like-you-love-me/1749121114?i=1749121123&uo=4",
+        "itunesTrackId": 1749121123,
+        "collectionName": "hungover",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 224280,
+        "releaseDate": "2024-06-21",
+        "rarity": "UR"
       },
       {
         "name": "Papaoutai (Afro Soul)",
@@ -28727,6 +29468,25 @@
         "trackTimeMillis": 227987,
         "releaseDate": "2012-06-15",
         "rarity": "UR"
+      },
+      {
+        "name": "Dragons Lair",
+        "artist": "Bob Dominator",
+        "playcount": 7795000,
+        "rank": 45,
+        "bestChartRank": 45,
+        "url": "https://music.apple.com/au/album/dragons-lair/1892870648?i=1892870651&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/c0/f9/76c0f9f2-4f3b-e2af-65e5-f3ff5881eb03/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/da/cb/13dacbf5-e2fc-d4fa-7913-c605610759a6/mzaf_8700882327659817036.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dragons-lair/1892870648?i=1892870651&uo=4",
+        "itunesTrackId": 1892870651,
+        "collectionName": "Dragons Lair - Single",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 129158,
+        "releaseDate": "2026-04-09",
+        "rarity": "SR"
       },
       {
         "name": "Always Remember Us This Way",
@@ -29356,6 +30116,25 @@
         "trackTimeMillis": 200647,
         "releaseDate": "2017-03-17",
         "rarity": "LR"
+      },
+      {
+        "name": "Elizabeth Taylor",
+        "artist": "Taylor Swift",
+        "playcount": 7746000,
+        "rank": 46,
+        "bestChartRank": 46,
+        "url": "https://music.apple.com/au/album/elizabeth-taylor/1833328839?i=1833328842&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/e4/e3/a1e4e3a2-183e-812c-b6a7-9727176cd5e7/mzaf_8596457475474820119.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/elizabeth-taylor/1833328839?i=1833328842&uo=4",
+        "itunesTrackId": 1833328842,
+        "collectionName": "The Life of a Showgirl",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 208292,
+        "releaseDate": "2025-10-03",
+        "rarity": "SR"
       },
       {
         "name": "Drive Safe",
@@ -29989,6 +30768,25 @@
         "rarity": "UR"
       },
       {
+        "name": "Turn the Lights Off (feat. Jon)",
+        "artist": "KATO",
+        "playcount": 7697000,
+        "rank": 47,
+        "bestChartRank": 47,
+        "url": "https://music.apple.com/au/album/turn-the-lights-off-radio-edit/348594096?i=348594111&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/e9/0a/a5e90acf-84b3-f9ef-b00c-7632f64ee698/884977472622.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/a1/32/99a1321e-1b88-e392-0283-e5e14432dddd/mzaf_8019915862113618447.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/turn-the-lights-off-radio-edit/348594096?i=348594111&uo=4",
+        "itunesTrackId": 348594111,
+        "collectionName": "Turn the Lights Off - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 178947,
+        "releaseDate": "2010-01-04",
+        "rarity": "SR"
+      },
+      {
         "name": "Hopelessly Devoted To You (Australian Idol Performance)",
         "artist": "Kesha Oayda",
         "playcount": 7648000,
@@ -30558,6 +31356,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 217747,
         "releaseDate": "2016-01-29",
+        "rarity": "UR"
+      },
+      {
+        "name": "Too Sweet",
+        "artist": "Hozier",
+        "playcount": 7648000,
+        "rank": 48,
+        "bestChartRank": 48,
+        "url": "https://music.apple.com/au/album/too-sweet/1735414393?i=1735414394&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/80/95/98809581-4a0e-68a6-04de-b72492e35939/196871908191.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/61/fc/a661fcaf-f8e5-03db-36f3-31f2e196b1a5/mzaf_18300083713037280538.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/too-sweet/1735414393?i=1735414394&uo=4",
+        "itunesTrackId": 1735414394,
+        "collectionName": "Unheard - EP",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 251424,
+        "releaseDate": "2024-03-22",
         "rarity": "UR"
       },
       {
@@ -31192,6 +32009,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Beauty and a Beat (feat. Nicki Minaj)",
+        "artist": "Justin Bieber",
+        "playcount": 7599000,
+        "rank": 49,
+        "bestChartRank": 49,
+        "url": "https://music.apple.com/au/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/66/9d/db669d1d-7051-5fbd-1ddb-cf6d0b06758a/mzaf_15223103171846878304.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961&uo=4",
+        "itunesTrackId": 1440650961,
+        "collectionName": "Believe (Deluxe Edition)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 227987,
+        "releaseDate": "2012-06-15",
+        "rarity": "UR"
+      },
+      {
         "name": "Sapphire",
         "artist": "Ed Sheeran",
         "playcount": 7550000,
@@ -31782,7 +32618,7 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 133320,
         "releaseDate": "2026-04-19",
-        "rarity": "SR"
+        "rarity": "UR"
       },
       {
         "name": "I Know I Know",
@@ -31802,6 +32638,25 @@
         "trackTimeMillis": 159210,
         "releaseDate": "2026-05-01",
         "rarity": "SR"
+      },
+      {
+        "name": "Let Me Down",
+        "artist": "Cammy Barnes",
+        "playcount": 7550000,
+        "rank": 50,
+        "bestChartRank": 50,
+        "url": "https://music.apple.com/au/album/let-me-down/1893428687?i=1893428688&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/05/5a/ca055aaf-f6fd-f0f1-c853-82c37440edd9/26SYMIM28839.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/4f/80/944f807d-edeb-1bd6-edfa-52d1305c6029/mzaf_14711016331371618361.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/let-me-down/1893428687?i=1893428688&uo=4",
+        "itunesTrackId": 1893428688,
+        "collectionName": "Let Me Down - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 194211,
+        "releaseDate": "2026-05-01",
+        "rarity": "UR"
       },
       {
         "name": "Like Animals",
@@ -32430,6 +33285,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 209066,
         "releaseDate": "2026-02-05",
+        "rarity": "UR"
+      },
+      {
+        "name": "VALHALLA CALLING",
+        "artist": "Ragal Ironbull",
+        "playcount": 7501000,
+        "rank": 51,
+        "bestChartRank": 51,
+        "url": "https://music.apple.com/au/album/valhalla-calling/1890468636?i=1890468637&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/58/60/ef586014-6201-9222-6c1e-ee9453adbff3/7300349535632.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/c5/8c/1ac58ce0-416f-4ec7-75c7-ba018d9bf333/mzaf_5419206250919147627.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/valhalla-calling/1890468636?i=1890468637&uo=4",
+        "itunesTrackId": 1890468637,
+        "collectionName": "VALHALLA CALLING - Single",
+        "primaryGenreName": "Folk",
+        "trackTimeMillis": 195600,
+        "releaseDate": "2026-04-03",
         "rarity": "UR"
       },
       {
@@ -34324,6 +35198,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Crone Era",
+        "artist": "PsychWitch",
+        "playcount": 7354000,
+        "rank": 54,
+        "bestChartRank": 54,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "previewUrl": null,
+        "trackViewUrl": null,
+        "itunesTrackId": null,
+        "collectionName": null,
+        "primaryGenreName": null,
+        "trackTimeMillis": null,
+        "releaseDate": null,
+        "rarity": "SR"
+      },
+      {
         "name": "Hooligan",
         "artist": "BTS",
         "playcount": 7305000,
@@ -34915,6 +35808,25 @@
         "trackTimeMillis": 172533,
         "releaseDate": "2024-05-10",
         "rarity": "SR"
+      },
+      {
+        "name": "Iris",
+        "artist": "The Goo Goo Dolls",
+        "playcount": 7305000,
+        "rank": 55,
+        "bestChartRank": 55,
+        "url": "https://music.apple.com/au/album/iris/267536485?i=267537169&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/b4/0c/98/mzi.vhowcacb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/c4/72/d5c472a3-2cea-e2fd-a94a-5a9290667075/mzaf_15343141215451287660.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/iris/267536485?i=267537169&uo=4",
+        "itunesTrackId": 267537169,
+        "collectionName": "Greatest Hits, Vol. One: The Singles",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 289907,
+        "releaseDate": "1998-03-31",
+        "rarity": "UR"
       },
       {
         "name": "Your New Morning Alarm",
@@ -36217,6 +37129,25 @@
         "rarity": "UR"
       },
       {
+        "name": "12 to 12",
+        "artist": "sombr",
+        "playcount": 7207000,
+        "rank": 57,
+        "bestChartRank": 57,
+        "url": "https://music.apple.com/au/album/12-to-12/1828036634?i=1828036635&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/e4/44/19e44489-7f7b-3ca7-660f-98d44664bc3f/054391229144.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/5d/c4/d05dc49d-f3b6-7d3a-4e5f-56e12bcde750/mzaf_14325217487291115220.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/12-to-12/1828036634?i=1828036635&uo=4",
+        "itunesTrackId": 1828036635,
+        "collectionName": "12 to 12 - Single",
+        "primaryGenreName": "Indie Rock",
+        "trackTimeMillis": 242903,
+        "releaseDate": "2025-07-24",
+        "rarity": "UR"
+      },
+      {
         "name": "Click Clack Symphony. (feat. Hans Zimmer)",
         "artist": "RAYE",
         "playcount": 7158000,
@@ -36770,6 +37701,25 @@
         "trackTimeMillis": null,
         "releaseDate": null,
         "rarity": "SR"
+      },
+      {
+        "name": "I Was Only 19 (A Walk In the Light Green)",
+        "artist": "Redgum",
+        "playcount": 7158000,
+        "rank": 58,
+        "bestChartRank": 58,
+        "url": "https://music.apple.com/au/album/i-was-only-19-a-walk-in-the-light-green/438137386?i=438137421&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/fb/bc/18fbbc9f-3eb4-a89f-b3e3-91f86276d887/mzi.hdmibmvz.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fe/7b/24/fe7b2493-347a-a6a9-ae2a-042acd57934c/mzaf_13467646345115193790.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/i-was-only-19-a-walk-in-the-light-green/438137386?i=438137421&uo=4",
+        "itunesTrackId": 438137421,
+        "collectionName": "The Essential Redgum",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 259507,
+        "releaseDate": "2003-03-07",
+        "rarity": "UR"
       },
       {
         "name": "Be My Baby",
@@ -37344,6 +38294,25 @@
         "trackTimeMillis": 242956,
         "releaseDate": "2026-04-17",
         "rarity": "UR"
+      },
+      {
+        "name": "This Time",
+        "artist": "Jimmie Huntley Music",
+        "playcount": 7109000,
+        "rank": 59,
+        "bestChartRank": 59,
+        "url": "https://music.apple.com/au/album/this-time/1892836775?i=1892836777&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/97/d8/f997d871-53b1-d6b6-1b6f-b8f8c22c5d1a/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/83/27/068327d2-4151-da16-5c15-33df68df7169/mzaf_3325039273848379136.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/this-time/1892836775?i=1892836777&uo=4",
+        "itunesTrackId": 1892836777,
+        "collectionName": "This Time - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 217520,
+        "releaseDate": "2026-04-11",
+        "rarity": "SR"
       },
       {
         "name": "A Bar Song (Tipsy)",
@@ -37936,6 +38905,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 320905,
         "releaseDate": "1987-08-31",
+        "rarity": "SR"
+      },
+      {
+        "name": "Stargazing",
+        "artist": "Myles Smith",
+        "playcount": 7060000,
+        "rank": 60,
+        "bestChartRank": 60,
+        "url": "https://music.apple.com/au/album/stargazing/1742275516?i=1742275653&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/c3/a5/bfc3a56d-a51b-69cb-cdfc-26ee63631cb8/196872051872.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/9f/38/fc9f3868-52f1-bb3b-f692-1dca6d78c0df/mzaf_1462205118009470155.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/stargazing/1742275516?i=1742275653&uo=4",
+        "itunesTrackId": 1742275653,
+        "collectionName": "Stargazing - Single",
+        "primaryGenreName": "Singer/Songwriter",
+        "trackTimeMillis": 172533,
+        "releaseDate": "2024-05-10",
         "rarity": "SR"
       },
       {
@@ -38608,6 +39596,25 @@
         "rarity": "R"
       },
       {
+        "name": "They Don't Care About Us",
+        "artist": "Michael Jackson",
+        "playcount": 7011000,
+        "rank": 61,
+        "bestChartRank": 61,
+        "url": "https://music.apple.com/au/album/they-dont-care-about-us/310505551?i=310505569&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/8d/b1/c58db1f1-0249-7a52-b58c-6f4eb145b06a/884977149166.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/82/0c/20820c7d-a423-0bcb-434b-052050bdaf46/mzaf_8932717488434853613.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/they-dont-care-about-us/310505551?i=310505569&uo=4",
+        "itunesTrackId": 310505569,
+        "collectionName": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 284310,
+        "releaseDate": "1995-06-18",
+        "rarity": "SR"
+      },
+      {
         "name": "Wild West & Wicked (Remix)",
         "artist": "DJTEXX",
         "playcount": 6962000,
@@ -39199,6 +40206,25 @@
         "trackTimeMillis": 158320,
         "releaseDate": "2026-04-17",
         "rarity": "SR"
+      },
+      {
+        "name": "DAISIES",
+        "artist": "Justin Bieber",
+        "playcount": 6962000,
+        "rank": 62,
+        "bestChartRank": 62,
+        "url": "https://music.apple.com/au/album/daisies/1825994646?i=1825994649&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/09/36/f9093663-c05f-7f95-0a60-4e95d52fbb22/25UMGIM93915.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/5e/bc/245ebc06-7b39-dc69-f315-d59a81793601/mzaf_4045577822437565942.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/daisies/1825994646?i=1825994649&uo=4",
+        "itunesTrackId": 1825994649,
+        "collectionName": "SWAG",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 176453,
+        "releaseDate": "2025-07-11",
+        "rarity": "LR"
       },
       {
         "name": "New Religion",
@@ -40423,6 +41449,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Bottom Of Your Boots",
+        "artist": "Ella Langley",
+        "playcount": 6864000,
+        "rank": 64,
+        "bestChartRank": 64,
+        "url": "https://music.apple.com/au/album/bottom-of-your-boots/1869436835?i=1869436848&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/d7/b3/3bd7b3b3-8cab-d10c-934a-42ee6902bcbd/mzaf_16594195873383296587.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/bottom-of-your-boots/1869436835?i=1869436848&uo=4",
+        "itunesTrackId": 1869436848,
+        "collectionName": "Dandelion",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 199080,
+        "releaseDate": "2026-04-10",
+        "rarity": "SR"
+      },
+      {
         "name": "Aperture",
         "artist": "Harry Styles",
         "playcount": 6815000,
@@ -41070,6 +42115,25 @@
         "primaryGenreName": "Folk",
         "trackTimeMillis": 195600,
         "releaseDate": "2026-04-03",
+        "rarity": "UR"
+      },
+      {
+        "name": "Unstoppable",
+        "artist": "Sia",
+        "playcount": 6815000,
+        "rank": 65,
+        "bestChartRank": 65,
+        "url": "https://music.apple.com/au/album/unstoppable/1508888870?i=1508889075&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/e8/c6/77e8c61a-33d6-e0f1-29d1-d354eaa8b6e5/9332727040986_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/f8/62/36f8622e-b289-4ae9-1587-b6b011589776/mzaf_7091156276396877657.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/unstoppable/1508888870?i=1508889075&uo=4",
+        "itunesTrackId": 1508889075,
+        "collectionName": "This Is Acting (Deluxe Edition)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 217747,
+        "releaseDate": "2016-01-29",
         "rarity": "UR"
       },
       {
@@ -41740,6 +42804,25 @@
         "trackTimeMillis": 255107,
         "releaseDate": "1993-01-01",
         "rarity": "SR"
+      },
+      {
+        "name": "Homewrecker",
+        "artist": "sombr",
+        "playcount": 6766000,
+        "rank": 66,
+        "bestChartRank": 66,
+        "url": "https://music.apple.com/au/album/homewrecker/1871595252?i=1871595253&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/bf/fb/84bffb0a-023f-419f-d5f7-6636f4e5d970/054391221933.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/1b/6a/2e1b6ac5-9248-a622-1558-4ca1eb129afd/mzaf_17886671279380054774.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/homewrecker/1871595252?i=1871595253&uo=4",
+        "itunesTrackId": 1871595253,
+        "collectionName": "Homewrecker - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 209066,
+        "releaseDate": "2026-02-05",
+        "rarity": "UR"
       },
       {
         "name": "Zoo",
@@ -42774,6 +43857,25 @@
         "rarity": "UR"
       },
       {
+        "name": "Don't Stop 'Til You Get Enough",
+        "artist": "Michael Jackson",
+        "playcount": 6668000,
+        "rank": 68,
+        "bestChartRank": 68,
+        "url": "https://music.apple.com/au/album/dont-stop-til-you-get-enough/1883769984?i=1883770172&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f2/ef/54f2ef79-c668-8d6f-28cd-ae48c45009b7/196874193211.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/39/d7/fe39d75c-155a-34eb-9745-313247dab08b/mzaf_15208351175821838859.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dont-stop-til-you-get-enough/1883769984?i=1883770172&uo=4",
+        "itunesTrackId": 1883770172,
+        "collectionName": "Michael: Songs From The Motion Picture",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 365667,
+        "releaseDate": "1979-07-10",
+        "rarity": "SR"
+      },
+      {
         "name": "you look like you love me",
         "artist": "Ella Langley & Riley Green",
         "playcount": 6619000,
@@ -43365,6 +44467,25 @@
         "trackTimeMillis": 252240,
         "releaseDate": "1971-12-29",
         "rarity": "SR"
+      },
+      {
+        "name": "Fallin' (feat. Leon Thomas)",
+        "artist": "Chris Brown",
+        "playcount": 6619000,
+        "rank": 69,
+        "bestChartRank": 69,
+        "url": "https://music.apple.com/au/album/fallin-feat-leon-thomas/1895772091?i=6764419265&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/2c/95/492c9561-9df1-bdfc-ad24-00e9f2403db2/196874328361.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b6/85/e9/b685e9b5-f5dc-0723-8cf1-d12c952b7ef8/mzaf_1820791933213902519.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/fallin-feat-leon-thomas/1895772091?i=6764419265&uo=4",
+        "itunesTrackId": 6764419265,
+        "collectionName": "BROWN",
+        "primaryGenreName": "R&B/Soul",
+        "trackTimeMillis": 266277,
+        "releaseDate": null,
+        "rarity": "R"
       },
       {
         "name": "Into the Sun",
@@ -44532,6 +45653,25 @@
         "rarity": "LR"
       },
       {
+        "name": "The Door",
+        "artist": "Teddy Swims",
+        "playcount": 6521000,
+        "rank": 71,
+        "bestChartRank": 71,
+        "url": "https://music.apple.com/au/album/the-door/1691699589?i=1691699849&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/19/66/36196640-1561-dc5e-c6bc-1e5f4befa583/093624856771.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/36/89/6e368985-2b25-17d0-22b3-cc7425324368/mzaf_3152854670227610576.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-door/1691699589?i=1691699849&uo=4",
+        "itunesTrackId": 1691699849,
+        "collectionName": "I've Tried Everything But Therapy (Part 1)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 212649,
+        "releaseDate": "2024-04-17",
+        "rarity": "SR"
+      },
+      {
         "name": "The One Who's Running the Show",
         "artist": "Gooseworx",
         "playcount": 6472000,
@@ -45103,6 +46243,25 @@
         "primaryGenreName": "Blues",
         "trackTimeMillis": 244160,
         "releaseDate": "2026-03-27",
+        "rarity": "SR"
+      },
+      {
+        "name": "Conquer Yourself",
+        "artist": "Bob Dominator",
+        "playcount": 6472000,
+        "rank": 72,
+        "bestChartRank": 72,
+        "url": "https://music.apple.com/au/album/conquer-yourself/1893304830?i=1893304832&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/49/6f/03496fd7-fe66-7207-ea5d-20bd6f10eafa/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/38/57/213857af-b8b8-c6dc-8030-5103c9b56654/mzaf_16100728863342060254.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/conquer-yourself/1893304830?i=1893304832&uo=4",
+        "itunesTrackId": 1893304832,
+        "collectionName": "Conquer Yourself - Single",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 158320,
+        "releaseDate": "2026-04-17",
         "rarity": "SR"
       },
       {
@@ -45737,6 +46896,25 @@
         "rarity": "R"
       },
       {
+        "name": "All Night Long (2026)",
+        "artist": "DHENYS R J",
+        "playcount": 6423000,
+        "rank": 73,
+        "bestChartRank": 73,
+        "url": "https://music.apple.com/au/album/all-night-long-2026/1895515814?i=6763834283&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/c6/eb/c0c6eb7c-e506-4019-ec99-685a6bf94a88/8721466727745.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/c3/d4/bdc3d494-232b-c143-6fd6-66148e3c47a6/mzaf_11885924868608134838.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/all-night-long-2026/1895515814?i=6763834283&uo=4",
+        "itunesTrackId": 6763834283,
+        "collectionName": "All Night Long (2026) - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 213498,
+        "releaseDate": "2026-04-27",
+        "rarity": "R"
+      },
+      {
         "name": "Eclipse",
         "artist": "Delta Goodrem",
         "playcount": 6374000,
@@ -46289,6 +47467,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 280034,
         "releaseDate": "2025-12-19",
+        "rarity": "SR"
+      },
+      {
+        "name": "I Would Say Yes To You",
+        "artist": "Nash Blackwood",
+        "playcount": 6374000,
+        "rank": 74,
+        "bestChartRank": 74,
+        "url": "https://music.apple.com/au/album/i-would-say-yes-to-you/1895238426?i=6763262927&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/3d/d6/a03dd6ff-fe7d-37cf-1bc8-4d0e3fadd01c/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/7e/d1/2a7ed10c-14b6-243e-cbdc-cde2f9325bf5/mzaf_15609548228824872574.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/i-would-say-yes-to-you/1895238426?i=6763262927&uo=4",
+        "itunesTrackId": 6763262927,
+        "collectionName": "I Would Say Yes To You - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 198500,
+        "releaseDate": "2026-04-22",
         "rarity": "SR"
       },
       {
@@ -46921,6 +48118,25 @@
         "rarity": "R"
       },
       {
+        "name": "Never Tear Us Apart (2011 Remaster)",
+        "artist": "INXS",
+        "playcount": 6325000,
+        "rank": 75,
+        "bestChartRank": 75,
+        "url": "https://music.apple.com/au/album/never-tear-us-apart-2011-remaster/1440855131?i=1440855499&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/e8/fc/30e8fc7b-2591-5dc9-5387-3741b3f97b08/06UMGIM44563.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/58/b7/c258b713-d9c8-370c-06fd-d3ec1c66f565/mzaf_1103030677976543632.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/never-tear-us-apart-2011-remaster/1440855131?i=1440855499&uo=4",
+        "itunesTrackId": 1440855499,
+        "collectionName": "Kick ((Remastered))",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 186760,
+        "releaseDate": "1987-10-02",
+        "rarity": "R"
+      },
+      {
         "name": "2.0",
         "artist": "BTS",
         "playcount": 6276000,
@@ -47529,6 +48745,25 @@
         "trackTimeMillis": 167800,
         "releaseDate": null,
         "rarity": "LR"
+      },
+      {
+        "name": "Save You a Seat",
+        "artist": "Alex Warren",
+        "playcount": 6276000,
+        "rank": 76,
+        "bestChartRank": 76,
+        "url": "https://music.apple.com/au/album/save-you-a-seat/1737054848?i=1737055317&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/9b/cd/ae9bcd15-3887-7fb6-b2a1-2b18056565e2/075679651518.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/79/b4/5679b40e-0db3-c967-2655-188f9bcefce0/mzaf_2352981112503847612.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/save-you-a-seat/1737054848?i=1737055317&uo=4",
+        "itunesTrackId": 1737055317,
+        "collectionName": "Save You a Seat - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 197574,
+        "releaseDate": "2024-09-16",
+        "rarity": "R"
       },
       {
         "name": "The Great Divide",
@@ -48217,6 +49452,25 @@
         "rarity": "R"
       },
       {
+        "name": "I Might Bruise But I Don't Break",
+        "artist": "Ruth Slade",
+        "playcount": 6227000,
+        "rank": 77,
+        "bestChartRank": 77,
+        "url": "https://music.apple.com/au/album/i-might-bruise-but-i-dont-break/1894995149?i=6762751465&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/e5/a4/3de5a4b9-321e-ec65-45a3-c461d830b1f4/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/33/ca/0d33ca9c-042e-5abd-6811-6919bdd96924/mzaf_6248047542090160305.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/i-might-bruise-but-i-dont-break/1894995149?i=6762751465&uo=4",
+        "itunesTrackId": 6762751465,
+        "collectionName": "I Might Bruise But I Don't Break - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 207720,
+        "releaseDate": "2026-04-28",
+        "rarity": "R"
+      },
+      {
         "name": "That's How I Pray",
         "artist": "Vika & Linda",
         "playcount": 6178000,
@@ -48827,6 +50081,25 @@
         "trackTimeMillis": 190823,
         "releaseDate": "2025-10-10",
         "rarity": "UR"
+      },
+      {
+        "name": "Landslide",
+        "artist": "Fleetwood Mac",
+        "playcount": 6178000,
+        "rank": 78,
+        "bestChartRank": 78,
+        "url": "https://music.apple.com/au/album/landslide/309646617?i=309646673&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/86/ac/8286ac14-c0b5-4d8b-b156-a0865d8de8b6/mzi.eqdbmvbs.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/1a/a2/091aa220-37a3-0091-9a1b-8ef94bf60af6/mzaf_13458253563248382187.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/landslide/309646617?i=309646673&uo=4",
+        "itunesTrackId": 309646673,
+        "collectionName": "Fleetwood Mac",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 199493,
+        "releaseDate": "1975-07-11",
+        "rarity": "R"
       },
       {
         "name": "Be By You",
@@ -49458,6 +50731,25 @@
         "trackTimeMillis": 165960,
         "releaseDate": "2026-04-15",
         "rarity": "SR"
+      },
+      {
+        "name": "I Just Might",
+        "artist": "Bruno Mars",
+        "playcount": 6129000,
+        "rank": 79,
+        "bestChartRank": 79,
+        "url": "https://music.apple.com/au/album/i-just-might/1880448886?i=1880449221&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/dc/49/d0dc4927-4de0-3f97-b27c-0c9bdea2c753/075679586445.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/54/e6/8954e6e9-66a6-d85e-ee5d-647322d6b6de/mzaf_2464049530185042067.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/i-just-might/1880448886?i=1880449221&uo=4",
+        "itunesTrackId": 1880449221,
+        "collectionName": "The Romantic",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 212974,
+        "releaseDate": "2026-01-09",
+        "rarity": "LR"
       },
       {
         "name": "Running To You",
@@ -50129,6 +51421,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Training Season",
+        "artist": "Dua Lipa",
+        "playcount": 6080000,
+        "rank": 80,
+        "bestChartRank": 80,
+        "url": "https://music.apple.com/au/album/training-season/1727526670?i=1727526894&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/89/15/828915ea-d716-61c4-3de7-ef00c1f800fb/5054197853630.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/87/16/a88716e2-9474-ec4e-06d6-d3a9a3ba96c8/mzaf_6258558385119267725.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/training-season/1727526670?i=1727526894&uo=4",
+        "itunesTrackId": 1727526894,
+        "collectionName": "Training Season - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 209488,
+        "releaseDate": "2024-02-16",
+        "rarity": "R"
+      },
+      {
         "name": "Manchild",
         "artist": "Sabrina Carpenter",
         "playcount": 6031000,
@@ -50662,6 +51973,25 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 178416,
         "releaseDate": "2024-06-07",
+        "rarity": "SR"
+      },
+      {
+        "name": "STORM II",
+        "artist": "GENER8ION & Yung Lean",
+        "playcount": 6031000,
+        "rank": 81,
+        "bestChartRank": 81,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "previewUrl": null,
+        "trackViewUrl": null,
+        "itunesTrackId": null,
+        "collectionName": null,
+        "primaryGenreName": null,
+        "trackTimeMillis": null,
+        "releaseDate": null,
         "rarity": "SR"
       },
       {
@@ -51256,6 +52586,25 @@
         "trackTimeMillis": 163603,
         "releaseDate": "2022-09-01",
         "rarity": "UR"
+      },
+      {
+        "name": "The Sound of Silence (CYRIL Remix)",
+        "artist": "Disturbed",
+        "playcount": 5982000,
+        "rank": 82,
+        "bestChartRank": 82,
+        "url": "https://music.apple.com/au/album/the-sound-of-silence-cyril-remix/1728492837?i=1728492838&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a9/ca/96/a9ca964f-78f0-b6a3-d3ea-08370fad7f90/054391308696.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/3b/54/533b5474-04d1-aad3-cf67-553d2986ff32/mzaf_2843530377246070160.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-sound-of-silence-cyril-remix/1728492837?i=1728492838&uo=4",
+        "itunesTrackId": 1728492838,
+        "collectionName": "The Sound of Silence (CYRIL Remix) - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 185238,
+        "releaseDate": "2024-02-13",
+        "rarity": "SR"
       },
       {
         "name": "Steal My Sunshine",
@@ -51866,6 +53215,25 @@
         "trackTimeMillis": 289907,
         "releaseDate": "1998-03-31",
         "rarity": "UR"
+      },
+      {
+        "name": "Tennessee Whiskey",
+        "artist": "Chris Stapleton",
+        "playcount": 5933000,
+        "rank": 83,
+        "bestChartRank": 83,
+        "url": "https://music.apple.com/au/album/tennessee-whiskey/1440827477?i=1440827492&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/4b/60/e24b6016-8278-bb18-cf5d-d44bf68371da/00602547223838.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/7e/a3/e37ea341-37f0-9dcb-4d6a-e3f0a2c1ae26/mzaf_2775390428315622059.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/tennessee-whiskey/1440827477?i=1440827492&uo=4",
+        "itunesTrackId": 1440827492,
+        "collectionName": "Traveller",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 293291,
+        "releaseDate": "2015-04-23",
+        "rarity": "R"
       },
       {
         "name": "iloveitiloveitiloveit",
@@ -54181,6 +55549,25 @@
         "rarity": "R"
       },
       {
+        "name": "Enter Sandman",
+        "artist": "Metallica",
+        "playcount": 5737000,
+        "rank": 87,
+        "bestChartRank": 87,
+        "url": "https://music.apple.com/au/album/enter-sandman/1571983938?i=1571983951&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d4/d2/e1/d4d2e187-0d4b-a32c-b7e8-913af8afba2b/21UMGIM48676.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/f9/ad/41f9ad07-d420-f723-f524-32ee198c3773/mzaf_272539711037744738.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/enter-sandman/1571983938?i=1571983951&uo=4",
+        "itunesTrackId": 1571983951,
+        "collectionName": "Metallica (Deluxe Box Set)",
+        "primaryGenreName": "Metal",
+        "trackTimeMillis": 331560,
+        "releaseDate": "1991-07-29",
+        "rarity": "SR"
+      },
+      {
         "name": "Livin’ on Borrowed Time",
         "artist": "Breaking Rust",
         "playcount": 5688000,
@@ -54829,6 +56216,25 @@
         "rarity": "R"
       },
       {
+        "name": "Boston",
+        "artist": "STELLA LEFTY",
+        "playcount": 5688000,
+        "rank": 88,
+        "bestChartRank": 88,
+        "url": "https://music.apple.com/au/album/boston/1884403092?i=1884403093&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/19/59/3719593a-1c8a-e1e1-ca9d-2e8f358593d5/mzaf_8805471580179932113.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/boston/1884403092?i=1884403093&uo=4",
+        "itunesTrackId": 1884403093,
+        "collectionName": "Boston - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 170859,
+        "releaseDate": "2026-03-27",
+        "rarity": "UR"
+      },
+      {
         "name": "Aliens",
         "artist": "BTS",
         "playcount": 5639000,
@@ -55458,6 +56864,25 @@
         "rarity": "UR"
       },
       {
+        "name": "The Great Divide",
+        "artist": "Noah Kahan",
+        "playcount": 5639000,
+        "rank": 89,
+        "bestChartRank": 89,
+        "url": "https://music.apple.com/au/album/the-great-divide/1872241079?i=1872241462&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/20/6e/75206ef3-714b-1ff1-ec87-ae590ef4d2a5/mzaf_18083949440537860824.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-great-divide/1872241079?i=1872241462&uo=4",
+        "itunesTrackId": 1872241462,
+        "collectionName": "The Great Divide",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 317962,
+        "releaseDate": null,
+        "rarity": "UR"
+      },
+      {
         "name": "The Sound of Silence (CYRIL Remix)",
         "artist": "Disturbed",
         "playcount": 5590000,
@@ -56030,6 +57455,25 @@
         "trackTimeMillis": 266277,
         "releaseDate": null,
         "rarity": "R"
+      },
+      {
+        "name": "Slow Ruin",
+        "artist": "Jada Monroe",
+        "playcount": 5590000,
+        "rank": 90,
+        "bestChartRank": 90,
+        "url": "https://music.apple.com/au/album/slow-ruin/1892041646?i=1892041647&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/79/10/eb7910df-f25a-5b7d-cea5-814b5cf944ea/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/15/83/8b158337-d64b-4e12-a828-5cf78e86e659/mzaf_5049007479074516117.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/slow-ruin/1892041646?i=1892041647&uo=4",
+        "itunesTrackId": 1892041647,
+        "collectionName": "Slow Ruin - Single",
+        "primaryGenreName": "R&B/Soul",
+        "trackTimeMillis": 267720,
+        "releaseDate": "2026-04-10",
+        "rarity": "SR"
       },
       {
         "name": "Good Luck, Babe!",
@@ -56639,7 +58083,7 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 260780,
         "releaseDate": "2026-04-28",
-        "rarity": "SR"
+        "rarity": "UR"
       },
       {
         "name": "Hey Ya!",
@@ -56678,6 +58122,25 @@
         "trackTimeMillis": 241673,
         "releaseDate": "2026-04-11",
         "rarity": "LR"
+      },
+      {
+        "name": "Done (Not Angry, Just Done)",
+        "artist": "Jada Monroe",
+        "playcount": 5541000,
+        "rank": 91,
+        "bestChartRank": 91,
+        "url": "https://music.apple.com/au/album/done-not-angry-just-done/1895255029?i=6763304246&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/7a/66/e87a665f-4057-bd25-8dae-0b78640a9430/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/f4/3e/a8f43e5c-d1fd-958e-8c22-b6a84a8e4574/mzaf_13561213049294304418.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/done-not-angry-just-done/1895255029?i=6763304246&uo=4",
+        "itunesTrackId": 6763304246,
+        "collectionName": "Done (Not Angry, Just Done) - Single",
+        "primaryGenreName": "R&B/Soul",
+        "trackTimeMillis": 218280,
+        "releaseDate": "2026-04-22",
+        "rarity": "SR"
       },
       {
         "name": "they don’t know ’bout us",
@@ -57311,6 +58774,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Dreams",
+        "artist": "Fleetwood Mac",
+        "playcount": 5492000,
+        "rank": 92,
+        "bestChartRank": 92,
+        "url": "https://music.apple.com/au/album/dreams/202271826?i=202272624&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/48/f4/d248f4ae-a7e4-a48e-1588-6617de3e8d76/mzi.izeorbmm.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/87/29/cb872937-bebb-f309-821e-5459a873f1b6/mzaf_13232595752463797281.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dreams/202271826?i=202272624&uo=4",
+        "itunesTrackId": 202272624,
+        "collectionName": "Greatest Hits",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 254453,
+        "releaseDate": "1987-04-14",
+        "rarity": "SR"
+      },
+      {
         "name": "Unravelling",
         "artist": "Muse",
         "playcount": 5443000,
@@ -57885,6 +59367,25 @@
         "rarity": "R"
       },
       {
+        "name": "Unwritten",
+        "artist": "Natasha Bedingfield",
+        "playcount": 5443000,
+        "rank": 93,
+        "bestChartRank": 93,
+        "url": "https://music.apple.com/au/album/unwritten-feel-the-rain/1735013844?i=1735013849&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/19/df/e119df37-d2dc-6343-e42e-9bb9d3fddff3/196871935760.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/26/cb/b8/26cbb831-d06d-3b37-a276-d9f2ec43de36/mzaf_4844319869495185322.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/unwritten-feel-the-rain/1735013844?i=1735013849&uo=4",
+        "itunesTrackId": 1735013849,
+        "collectionName": "Unwritten (Feel The Rain) - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 130007,
+        "releaseDate": "2024-03-15",
+        "rarity": "SR"
+      },
+      {
         "name": "Untouched",
         "artist": "The Veronicas",
         "playcount": 5394000,
@@ -58455,6 +59956,25 @@
         "trackTimeMillis": 235416,
         "releaseDate": "2026-04-10",
         "rarity": "LR"
+      },
+      {
+        "name": "That's The Lesson",
+        "artist": "Jada Monroe",
+        "playcount": 5394000,
+        "rank": 94,
+        "bestChartRank": 94,
+        "url": "https://music.apple.com/au/album/thats-the-lesson/1895584279?i=6763979262&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/89/db/28/89db283b-a4cf-9e91-6a5f-877754ecc038/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/fd/94/a6fd9455-b3b7-f69a-d11d-69fde566da05/mzaf_16350179169811245383.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/thats-the-lesson/1895584279?i=6763979262&uo=4",
+        "itunesTrackId": 6763979262,
+        "collectionName": "That's The Lesson - Single",
+        "primaryGenreName": "R&B/Soul",
+        "trackTimeMillis": 234360,
+        "releaseDate": "2026-04-25",
+        "rarity": "SR"
       },
       {
         "name": "A Touch of Paradise",
@@ -59084,6 +60604,25 @@
         "trackTimeMillis": 269208,
         "releaseDate": "2000-06-26",
         "rarity": "R"
+      },
+      {
+        "name": "Thunderstruck",
+        "artist": "AC/DC",
+        "playcount": 5345000,
+        "rank": 95,
+        "bestChartRank": 95,
+        "url": "https://music.apple.com/au/album/thunderstruck/575998519?i=575998661&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bb/a2/f0/bba2f0d7-4d9e-c617-d49e-3ae02fd5d440/dj.xbkfgllk.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a0/fb/99/a0fb995a-6e93-c67b-846b-8c81a54748c9/mzaf_2311271038340188410.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/thunderstruck/575998519?i=575998661&uo=4",
+        "itunesTrackId": 575998661,
+        "collectionName": "Iron Man 2",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 293794,
+        "releaseDate": "1990-09-10",
+        "rarity": "SR"
       },
       {
         "name": "A Touch Of Paradise (Australian Idol Performance)",
@@ -60287,6 +61826,25 @@
         "rarity": "SR"
       },
       {
+        "name": "I Know I Know",
+        "artist": "STELLA LEFTY",
+        "playcount": 5247000,
+        "rank": 97,
+        "bestChartRank": 97,
+        "url": "https://music.apple.com/au/album/i-know-i-know/1894354136?i=1894354139&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0c/85/49/0c8549ef-ae37-d883-459e-5d6048286a34/075679580054.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/5f/39/d35f397c-066c-6670-782f-cbfc4b5a6a13/mzaf_5465923363668518329.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/i-know-i-know/1894354136?i=1894354139&uo=4",
+        "itunesTrackId": 1894354139,
+        "collectionName": "I Know I Know - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 159210,
+        "releaseDate": "2026-05-01",
+        "rarity": "SR"
+      },
+      {
         "name": "Thunderstruck",
         "artist": "AC/DC",
         "playcount": 5198000,
@@ -60916,6 +62474,25 @@
         "rarity": "UR"
       },
       {
+        "name": "Favour",
+        "artist": "FISHER & Tones And I",
+        "playcount": 5198000,
+        "rank": 98,
+        "bestChartRank": 98,
+        "url": "https://music.apple.com/au/album/favour/1888323879?i=1888323880&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/c4/62/3fc462bb-021a-7f65-58bc-6cfeb4eecf28/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/b4/dc/a1b4dca8-49fd-c70d-aa50-ced36c63bd90/mzaf_13578882567788502281.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/favour/1888323879?i=1888323880&uo=4",
+        "itunesTrackId": 1888323880,
+        "collectionName": "Favour - Single",
+        "primaryGenreName": "House",
+        "trackTimeMillis": 194890,
+        "releaseDate": "2026-04-03",
+        "rarity": "SR"
+      },
+      {
         "name": "Cunt of a Year (feat. Earl McCready)",
         "artist": "Dumpster Grooves After Dark",
         "playcount": 5149000,
@@ -61484,6 +63061,25 @@
         "trackTimeMillis": 198004,
         "releaseDate": "2025-10-10",
         "rarity": "SR"
+      },
+      {
+        "name": "Take Me Home, Country Roads (Original Version)",
+        "artist": "John Denver",
+        "playcount": 5149000,
+        "rank": 99,
+        "bestChartRank": 99,
+        "url": "https://music.apple.com/au/album/take-me-home-country-roads-original-version/511074105?i=511074294&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/ed/f3/52edf3b6-5b73-c52d-e3f6-4473412eec7c/886443406193.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/d1/c4/e7d1c476-fa55-0be0-adf8-5fdcc7d18f3f/mzaf_3863812668516994856.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/take-me-home-country-roads-original-version/511074105?i=511074294&uo=4",
+        "itunesTrackId": 511074294,
+        "collectionName": "Poems, Prayers & Promises",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 193937,
+        "releaseDate": "1971-04-06",
+        "rarity": "R"
       },
       {
         "name": "You'll Always Find Your Way Back Home",
@@ -62057,6 +63653,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 183960,
         "releaseDate": "1987-10-02",
+        "rarity": "SR"
+      },
+      {
+        "name": "Raindance",
+        "artist": "Dave & Tems",
+        "playcount": 5100000,
+        "rank": 100,
+        "bestChartRank": 100,
+        "url": "https://music.apple.com/au/album/raindance/1847992481?i=1847992612&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/49/24/9949241c-e52c-3018-eae8-c686013a7474/25UM1IM68216.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/1d/35/e41d35e0-8fc5-d162-ca75-217824861af3/mzaf_8964384196182600828.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/raindance/1847992481?i=1847992612&uo=4",
+        "itunesTrackId": 1847992612,
+        "collectionName": "The Boy Who Played the Harp",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 219744,
+        "releaseDate": "2025-10-24",
         "rarity": "SR"
       },
       {
@@ -63816,6 +65431,25 @@
         "rarity": "UC"
       },
       {
+        "name": "My Way",
+        "artist": "Riley Green",
+        "playcount": 4953000,
+        "rank": 103,
+        "bestChartRank": 103,
+        "url": "https://music.apple.com/au/album/my-way/1892083036?i=1892083308&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/60/09/74600943-c67a-5335-4f8c-bad8b3e5d2a8/26BMR0007851.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/56/b8/d656b8e9-28a5-5313-28d3-06282cb7da64/mzaf_8128067240056507632.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/my-way/1892083036?i=1892083308&uo=4",
+        "itunesTrackId": 1892083308,
+        "collectionName": "My Way - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 242956,
+        "releaseDate": "2026-04-17",
+        "rarity": "UR"
+      },
+      {
         "name": "All Night Long (Top 12 2026)",
         "artist": "Australian Idol",
         "playcount": 4904000,
@@ -64445,6 +66079,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Younger You (From the \"Hannah Montana 20th Anniversary Special\")",
+        "artist": "Miley Cyrus",
+        "playcount": 4904000,
+        "rank": 104,
+        "bestChartRank": 104,
+        "url": "https://music.apple.com/au/album/younger-you-from-the-hannah-montana-20th-anniversary/1887385339?i=1887385342&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/51/cc/ef51cc5a-ae32-7b83-b063-900f1d0aea09/26UMGIM34659.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/ed/28/b4ed28d4-6060-5dc2-c628-6487972a5a12/mzaf_7349063977679557910.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/younger-you-from-the-hannah-montana-20th-anniversary/1887385339?i=1887385342&uo=4",
+        "itunesTrackId": 1887385342,
+        "collectionName": "Younger You (From the \"Hannah Montana 20th Anniversary Special\") - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 167800,
+        "releaseDate": null,
+        "rarity": "LR"
+      },
+      {
         "name": "Stateside (with Zara Larsson)",
         "artist": "PinkPantheress",
         "playcount": 4855000,
@@ -64979,6 +66632,25 @@
         "trackTimeMillis": 317240,
         "releaseDate": "1982-08-03",
         "rarity": "SR"
+      },
+      {
+        "name": "Shake That (feat. Nate Dogg)",
+        "artist": "Eminem",
+        "playcount": 4855000,
+        "rank": 105,
+        "bestChartRank": 105,
+        "url": "https://music.apple.com/au/album/shake-that-feat-nate-dogg-radio-edit/1444289533?i=1444289548&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/26/66/ed/2666ed47-6b00-092d-1f85-4721ef37af1f/00602498582428.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/2d/7c/b82d7cd7-e8db-e0a6-02aa-50e6583a5233/mzaf_2894548008854643930.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/shake-that-feat-nate-dogg-radio-edit/1444289533?i=1444289548&uo=4",
+        "itunesTrackId": 1444289548,
+        "collectionName": "Shake That (Radio Edit) - Single",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 274107,
+        "releaseDate": "2005-12-06",
+        "rarity": "UC"
       },
       {
         "name": "Waiting for a Girl Like You",
@@ -65531,6 +67203,25 @@
         "primaryGenreName": "K-Pop",
         "trackTimeMillis": 138284,
         "releaseDate": "2026-04-30",
+        "rarity": "UC"
+      },
+      {
+        "name": "The Author",
+        "artist": "Brandon Lake & Nick Jonas",
+        "playcount": 4806000,
+        "rank": 106,
+        "bestChartRank": 106,
+        "url": "https://music.apple.com/au/album/the-author/1895265952?i=6763327641&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/fc/b7/4afcb799-55ad-8c99-9a7f-583769604e47/196874326381.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/52/de/8d52de52-e27c-c565-d785-009111594995/mzaf_2512498324065491650.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-author/1895265952?i=6763327641&uo=4",
+        "itunesTrackId": 6763327641,
+        "collectionName": "The Author - Single",
+        "primaryGenreName": "Inspirational",
+        "trackTimeMillis": 276652,
+        "releaseDate": "2026-05-01",
         "rarity": "UC"
       },
       {
@@ -66125,6 +67816,25 @@
         "trackTimeMillis": 249293,
         "releaseDate": "1983-07-01",
         "rarity": "SR"
+      },
+      {
+        "name": "Demons",
+        "artist": "Imagine Dragons",
+        "playcount": 4757000,
+        "rank": 107,
+        "bestChartRank": 107,
+        "url": "https://music.apple.com/au/album/demons/1440860487?i=1440860495&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f1/47/fd/f147fd03-d70a-1449-3fa4-1b1d544efdb2/12UMGIM46901.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/66/98/006698e5-bbd6-d240-421e-9d8ef065bf33/mzaf_7337368594789564350.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/demons/1440860487?i=1440860495&uo=4",
+        "itunesTrackId": 1440860495,
+        "collectionName": "Night Visions (Deluxe)",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 177507,
+        "releaseDate": "2012-09-04",
+        "rarity": "R"
       },
       {
         "name": "Lose Yourself (From \"8 Mile\")",
@@ -67976,6 +69686,25 @@
         "rarity": "UC"
       },
       {
+        "name": "Don't Worry Baby",
+        "artist": "Dom Dolla & Tiga",
+        "playcount": 4610000,
+        "rank": 110,
+        "bestChartRank": 110,
+        "url": "https://music.apple.com/au/album/dont-worry-baby/1894139876?i=6762437637&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/84/97/be849727-37d4-7f42-188d-d704e02bbea6/820200986443.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/8f/8a/958f8a42-88e5-49e5-7290-090acf66b927/mzaf_6986514516249656081.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dont-worry-baby/1894139876?i=6762437637&uo=4",
+        "itunesTrackId": 6762437637,
+        "collectionName": "Don't Worry Baby - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 207273,
+        "releaseDate": "2026-05-01",
+        "rarity": "R"
+      },
+      {
         "name": "Red Right Hand (2011 Remaster)",
         "artist": "Nick Cave & The Bad Seeds",
         "playcount": 4561000,
@@ -69217,6 +70946,25 @@
         "trackTimeMillis": 170400,
         "releaseDate": "2025-06-06",
         "rarity": "R"
+      },
+      {
+        "name": "Don't Stop Believin' (2024 Remaster)",
+        "artist": "Journey",
+        "playcount": 4512000,
+        "rank": 112,
+        "bestChartRank": 112,
+        "url": "https://music.apple.com/au/album/dont-stop-believin-2024-remaster/169003304?i=169003415&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/2d/61/712d617d-f4a4-5904-1b11-d4b4b45c47c5/828768588925.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/5c/72/97/5c72974f-6022-f760-ad82-35964fb636b5/mzaf_12752096049347330756.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dont-stop-believin-2024-remaster/169003304?i=169003415&uo=4",
+        "itunesTrackId": 169003415,
+        "collectionName": "Greatest Hits (2024 Remaster)",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 250835,
+        "releaseDate": "1981-06-03",
+        "rarity": "SR"
       },
       {
         "name": "Tennessee Whiskey",
@@ -71072,6 +72820,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Kickstart My Heart",
+        "artist": "Mötley Crüe",
+        "playcount": 4365000,
+        "rank": 115,
+        "bestChartRank": 115,
+        "url": "https://music.apple.com/au/album/kickstart-my-heart/1606706398?i=1606706536&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/22/97/7d229722-d4ea-9802-120a-5ee2cbf91dc6/4050538785579.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/39/00/11390098-0ef7-6d93-fe4c-07e7db7562cb/mzaf_7103543302996198495.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/kickstart-my-heart/1606706398?i=1606706536&uo=4",
+        "itunesTrackId": 1606706536,
+        "collectionName": "The Dirt Soundtrack",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 282920,
+        "releaseDate": "1989-08-28",
+        "rarity": "UC"
+      },
+      {
         "name": "Thrills",
         "artist": "Peking Duk & Rico Nasty",
         "playcount": 4316000,
@@ -71703,6 +73470,25 @@
         "rarity": "R"
       },
       {
+        "name": "American Pie (Full Length Version)",
+        "artist": "Don Mclean",
+        "playcount": 4316000,
+        "rank": 116,
+        "bestChartRank": 116,
+        "url": "https://music.apple.com/au/album/american-pie-full-length-version/1440834532?i=1440834619&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1a/54/65/1a546518-5709-5c11-3f30-90528331fbf6/15UMGIM65659.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/dd/79/63dd791d-7e2e-1d3a-f2fa-01c5be6b9d5e/mzaf_8148438283557855281.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/american-pie-full-length-version/1440834532?i=1440834619&uo=4",
+        "itunesTrackId": 1440834619,
+        "collectionName": "American Pie",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 513631,
+        "releaseDate": "1971-10-24",
+        "rarity": "UC"
+      },
+      {
         "name": "Nothing's Gonna Stop Us Now",
         "artist": "Starship",
         "playcount": 4267000,
@@ -72313,6 +74099,25 @@
         "trackTimeMillis": 218280,
         "releaseDate": "2026-04-22",
         "rarity": "SR"
+      },
+      {
+        "name": "Sultans of Swing",
+        "artist": "Dire Straits",
+        "playcount": 4267000,
+        "rank": 117,
+        "bestChartRank": 117,
+        "url": "https://music.apple.com/au/album/sultans-of-swing/1440653923?i=1440653939&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/2e/58/e52e5826-29dc-0a9f-12b1-fafadb0b34ad/06UMGIM33900.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/24/af/1a24affa-ef5c-d6e2-4b34-cf60b8c3fcdf/mzaf_15579867788360317815.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/sultans-of-swing/1440653923?i=1440653939&uo=4",
+        "itunesTrackId": 1440653939,
+        "collectionName": "The Best of Dire Straits & Mark Knopfler: Private Investigations",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 348520,
+        "releaseDate": "1978-05-01",
+        "rarity": "UC"
       },
       {
         "name": "Gangsta's Paradise (feat. L.V.)",
@@ -72943,6 +74748,25 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 213498,
         "releaseDate": "2026-04-27",
+        "rarity": "R"
+      },
+      {
+        "name": "Potential",
+        "artist": "sombr",
+        "playcount": 4218000,
+        "rank": 118,
+        "bestChartRank": 118,
+        "url": "https://music.apple.com/au/album/potential/1892512217?i=1892512227&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/45/67/6d4567b4-d483-d5b7-3563-0ec529b0ffde/054391217677.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/3c/24/683c24a2-5a6a-0202-0de7-e5071ec98ebc/mzaf_8554927699089867759.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/potential/1892512217?i=1892512227&uo=4",
+        "itunesTrackId": 1892512227,
+        "collectionName": "Potential - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 242517,
+        "releaseDate": "2025-08-22",
         "rarity": "UC"
       },
       {
@@ -74835,6 +76659,25 @@
         "rarity": "SR"
       },
       {
+        "name": "A Horse with No Name",
+        "artist": "America",
+        "playcount": 4071000,
+        "rank": 121,
+        "bestChartRank": 121,
+        "url": "https://music.apple.com/au/album/a-horse-with-no-name/301027593?i=301027918&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/20/c6/c4/20c6c488-4791-6c15-323f-e7ea79a01f31/mzi.dbcrqaoq.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/48/d5/7748d53a-ac64-affe-d10d-3f00d3330c41/mzaf_6432632774986116123.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/a-horse-with-no-name/301027593?i=301027918&uo=4",
+        "itunesTrackId": 301027918,
+        "collectionName": "America",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 252240,
+        "releaseDate": "1971-12-29",
+        "rarity": "SR"
+      },
+      {
         "name": "I Don't Explain",
         "artist": "Owen James",
         "playcount": 4022000,
@@ -75464,6 +77307,25 @@
         "rarity": "UR"
       },
       {
+        "name": "The Way You Make Me Feel",
+        "artist": "Michael Jackson",
+        "playcount": 4022000,
+        "rank": 122,
+        "bestChartRank": 122,
+        "url": "https://music.apple.com/au/album/the-way-you-make-me-feel/273598907?i=273598922&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/c6/c9/67c6c9b0-e879-7e4d-fcda-dc52f758ec43/888880457066.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/e2/ea/5fe2eac0-86ea-f00e-7915-a79c2c12ddde/mzaf_9593476193235006982.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-way-you-make-me-feel/273598907?i=273598922&uo=4",
+        "itunesTrackId": 273598922,
+        "collectionName": "Number Ones",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 299138,
+        "releaseDate": "1987-08-31",
+        "rarity": "R"
+      },
+      {
         "name": "See You Again (feat. Charlie Puth)",
         "artist": "Wiz Khalifa",
         "playcount": 3973000,
@@ -76071,6 +77933,25 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 201538,
         "releaseDate": "2026-05-01",
+        "rarity": "UC"
+      },
+      {
+        "name": "Scar",
+        "artist": "Eldruna",
+        "playcount": 3973000,
+        "rank": 123,
+        "bestChartRank": 123,
+        "url": "https://music.apple.com/au/album/scar/1881803058?i=1881803062&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/11/58/401158a3-40f2-b958-eb44-8fa8af05a2eb/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/42/88/3242882e-95a1-4146-dea7-02855e39859e/mzaf_6357831295733346251.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/scar/1881803058?i=1881803062&uo=4",
+        "itunesTrackId": 1881803062,
+        "collectionName": "Ulvens Pagt",
+        "primaryGenreName": "Folk",
+        "trackTimeMillis": 172024,
+        "releaseDate": "2026-03-01",
         "rarity": "UC"
       },
       {
@@ -76741,6 +78622,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Habit",
+        "artist": "Jada Monroe",
+        "playcount": 3924000,
+        "rank": 124,
+        "bestChartRank": 124,
+        "url": "https://music.apple.com/au/album/habit/1894170678?i=1894170679&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/74/65/357465e7-ec08-6fd2-90dd-57fdc35f0576/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/48/b3/4c48b367-4984-a96e-068e-53f7a2ed2016/mzaf_7018904285221092454.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/habit/1894170678?i=1894170679&uo=4",
+        "itunesTrackId": 1894170679,
+        "collectionName": "Habit - Single",
+        "primaryGenreName": "R&B/Soul",
+        "trackTimeMillis": 239880,
+        "releaseDate": "2026-04-16",
+        "rarity": "UC"
+      },
+      {
         "name": "Stargazing",
         "artist": "Myles Smith",
         "playcount": 3875000,
@@ -77330,6 +79230,25 @@
         "trackTimeMillis": 217898,
         "releaseDate": "2026-03-11",
         "rarity": "SR"
+      },
+      {
+        "name": "Step by Step in Time",
+        "artist": "Benny Rivers",
+        "playcount": 3875000,
+        "rank": 125,
+        "bestChartRank": 125,
+        "url": "https://music.apple.com/au/album/step-by-step-in-time/1890819170?i=1890819171&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/69/0b/b6690b56-d77a-a057-384a-020b1fc24880/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/d5/b6/4ed5b685-87d7-9266-52a5-2fbd52c4fe1d/mzaf_16664994765174266624.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/step-by-step-in-time/1890819170?i=1890819171&uo=4",
+        "itunesTrackId": 1890819171,
+        "collectionName": "Step by Step in Time - Single",
+        "primaryGenreName": "Blues",
+        "trackTimeMillis": 269567,
+        "releaseDate": "2026-04-12",
+        "rarity": "UC"
       },
       {
         "name": "Housebroken",
@@ -77942,6 +79861,25 @@
         "rarity": "SR"
       },
       {
+        "name": "I Had Some Help (feat. Morgan Wallen)",
+        "artist": "Post Malone",
+        "playcount": 3826000,
+        "rank": 126,
+        "bestChartRank": 126,
+        "url": "https://music.apple.com/au/album/i-had-some-help-feat-morgan-wallen/1744452421?i=1744452425&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/df/b9/84dfb96b-27c8-4d40-4780-b65ff22790e4/24UMGIM50612.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/70/04/1f7004b7-414e-a89c-0148-abdd38981be8/mzaf_10246855408392712577.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/i-had-some-help-feat-morgan-wallen/1744452421?i=1744452425&uo=4",
+        "itunesTrackId": 1744452425,
+        "collectionName": "I Had Some Help (feat. Morgan Wallen) - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 178206,
+        "releaseDate": "2024-05-10",
+        "rarity": "SR"
+      },
+      {
         "name": "Be My Baby",
         "artist": "The Ronettes",
         "playcount": 3777000,
@@ -78531,6 +80469,25 @@
         "trackTimeMillis": 190823,
         "releaseDate": "2025-12-19",
         "rarity": "UC"
+      },
+      {
+        "name": "It's a Long Way to the Top (If You Wanna Rock 'N' Roll)",
+        "artist": "AC/DC",
+        "playcount": 3777000,
+        "rank": 127,
+        "bestChartRank": 127,
+        "url": "https://music.apple.com/au/album/its-a-long-way-to-the-top-if-you-wanna-rock-n-roll/574124734?i=574124819&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/2d/a8/b5/2da8b582-64aa-d25f-2cdf-ad63a3e04920/dj.jnlhrcpf.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3c/fd/a2/3cfda2e0-e14b-f56c-6fa9-68eac2bd6033/mzaf_5314568621970145034.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/its-a-long-way-to-the-top-if-you-wanna-rock-n-roll/574124734?i=574124819&uo=4",
+        "itunesTrackId": 574124819,
+        "collectionName": "High Voltage",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 302431,
+        "releaseDate": "1975-12-01",
+        "rarity": "R"
       },
       {
         "name": "Unwritten",
@@ -79143,6 +81100,25 @@
         "rarity": "UR"
       },
       {
+        "name": "High Road",
+        "artist": "Koe Wetzel & Jessie Murph",
+        "playcount": 3728000,
+        "rank": 128,
+        "bestChartRank": 128,
+        "url": "https://music.apple.com/au/album/high-road/1758218339?i=1758218354&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/26/18/e4261828-ee72-53ca-22ab-76835e828b35/196872245721.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/10/39/411039f2-1566-5f71-bb70-46226d6ca1ba/mzaf_13674378675135211300.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/high-road/1758218339?i=1758218354&uo=4",
+        "itunesTrackId": 1758218354,
+        "collectionName": "High Road - Single",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 178416,
+        "releaseDate": "2024-06-07",
+        "rarity": "SR"
+      },
+      {
         "name": "Lose Control",
         "artist": "Teddy Swims",
         "playcount": 3679000,
@@ -79751,6 +81727,25 @@
         "trackTimeMillis": 185733,
         "releaseDate": "1969-09-26",
         "rarity": "SR"
+      },
+      {
+        "name": "Pink Pony Club",
+        "artist": "Chappell Roan",
+        "playcount": 3679000,
+        "rank": 129,
+        "bestChartRank": 129,
+        "url": "https://music.apple.com/au/album/pink-pony-club/1675173434?i=1675173768&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/41/bc/fb/41bcfb43-91d5-931d-5747-fb381803143f/23UMGIM21715.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/52/be/fc52be82-306b-6da5-286b-61056757c008/mzaf_1618848737251148796.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/pink-pony-club/1675173434?i=1675173768&uo=4",
+        "itunesTrackId": 1675173768,
+        "collectionName": "Pink Pony Club - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 258035,
+        "releaseDate": "2020-04-03",
+        "rarity": "UR"
       },
       {
         "name": "Takedown",
@@ -80879,7 +82874,7 @@
         "primaryGenreName": "Hip-Hop/Rap",
         "trackTimeMillis": 133320,
         "releaseDate": "2026-04-19",
-        "rarity": "SR"
+        "rarity": "UR"
       },
       {
         "name": "Pink Pony Club",
@@ -81551,6 +83546,25 @@
         "rarity": "SR"
       },
       {
+        "name": "First Light",
+        "artist": "Lana Del Rey",
+        "playcount": 3532000,
+        "rank": 132,
+        "bestChartRank": 132,
+        "url": "https://music.apple.com/au/album/first-light/1893438114?i=1893438278&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/08/62/ec0862d0-c438-a566-e46e-3ea0b614c31e/26UMGIM35748.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/19/ba/e119bace-ab28-5132-ccb4-29b725d514ff/mzaf_6873834717623856254.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/first-light/1893438114?i=1893438278&uo=4",
+        "itunesTrackId": 1893438278,
+        "collectionName": "First Light - Single",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 204233,
+        "releaseDate": "2026-04-16",
+        "rarity": "UR"
+      },
+      {
         "name": "Don't Tread On Me",
         "artist": "Cain Walker",
         "playcount": 3483000,
@@ -82102,6 +84116,25 @@
         "trackTimeMillis": 235040,
         "releaseDate": "2026-04-20",
         "rarity": "UC"
+      },
+      {
+        "name": "Let Them Talk (feat. Pamela)",
+        "artist": "SOUL ARCHIVE ROOM",
+        "playcount": 3483000,
+        "rank": 133,
+        "bestChartRank": 133,
+        "url": "https://music.apple.com/au/album/let-them-talk-feat-pamela/1893891665?i=1893891666&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/1d/69/8c1d6962-3a3d-ce61-d776-569b661c5ac9/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/b8/42/e0b84234-b1c6-cd1c-f84c-7e894cf31085/mzaf_9594236534237238982.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/let-them-talk-feat-pamela/1893891665?i=1893891666&uo=4",
+        "itunesTrackId": 1893891666,
+        "collectionName": "Let Them Talk (feat. Pamela) - Single",
+        "primaryGenreName": "Blues",
+        "trackTimeMillis": 241673,
+        "releaseDate": "2026-04-11",
+        "rarity": "LR"
       },
       {
         "name": "The Climb",
@@ -82754,6 +84787,25 @@
         "rarity": "UC"
       },
       {
+        "name": "Actin' Tough",
+        "artist": "Dean Turnley",
+        "playcount": 3434000,
+        "rank": 134,
+        "bestChartRank": 134,
+        "url": "https://music.apple.com/au/album/actin-tough/1890156814?i=1890156815&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/bd/51/37bd51df-35a3-933b-56e6-db49449508bd/26UMGIM18495.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/c6/4b/4fc64bd9-ce50-b17f-a6f9-7a46b63e3763/mzaf_4758404280871226534.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/actin-tough/1890156814?i=1890156815&uo=4",
+        "itunesTrackId": 1890156815,
+        "collectionName": "Actin' Tough - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 186429,
+        "releaseDate": "2026-04-03",
+        "rarity": "UC"
+      },
+      {
         "name": "Can't Touch It (Australian Idol Performance)",
         "artist": "Wanwue",
         "playcount": 3385000,
@@ -83285,6 +85337,25 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 293794,
         "releaseDate": "1990-09-10",
+        "rarity": "SR"
+      },
+      {
+        "name": "Before I Go",
+        "artist": "Silas Thorne Music",
+        "playcount": 3385000,
+        "rank": 135,
+        "bestChartRank": 135,
+        "url": "https://music.apple.com/au/album/before-i-go/1893838759?i=1893838760&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/db/7a/05db7afa-efb2-f3c4-1467-b1c5c75424c4/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/56/da/6856dad4-eef0-0f37-527d-9b44270582e1/mzaf_2647224347434691708.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/before-i-go/1893838759?i=1893838760&uo=4",
+        "itunesTrackId": 1893838760,
+        "collectionName": "Every Gray Hair",
+        "primaryGenreName": "R&B/Soul",
+        "trackTimeMillis": 165960,
+        "releaseDate": "2026-04-15",
         "rarity": "SR"
       },
       {
@@ -83936,6 +86007,25 @@
         "rarity": "UR"
       },
       {
+        "name": "The Night We Met",
+        "artist": "Lord Huron",
+        "playcount": 3336000,
+        "rank": 136,
+        "bestChartRank": 136,
+        "url": "https://music.apple.com/au/album/the-night-we-met/1806531135?i=1806531961&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/41/4a/55414a18-861a-79d1-e575-5bf8cf205dbe/886445056839_Cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/36/b7/4b36b739-1de7-e0ae-45da-9a66463127ac/mzaf_1821541347983595183.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-night-we-met/1806531135?i=1806531961&uo=4",
+        "itunesTrackId": 1806531961,
+        "collectionName": "Strange Trails",
+        "primaryGenreName": "Indie Rock",
+        "trackTimeMillis": 208227,
+        "releaseDate": "2015-02-09",
+        "rarity": "R"
+      },
+      {
         "name": "More Today Than Yesterday",
         "artist": "Spiral Starecase",
         "playcount": 3287000,
@@ -84548,6 +86638,25 @@
         "rarity": "UC"
       },
       {
+        "name": "Here Comes the Sun",
+        "artist": "The Beatles",
+        "playcount": 3287000,
+        "rank": 137,
+        "bestChartRank": 137,
+        "url": "https://music.apple.com/au/album/here-comes-the-sun/1441164426?i=1441164589&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/df/db/61/dfdb615d-47f8-06e9-9533-b96daccc029f/18UMGIM31076.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/bf/a0/e7bfa041-6e35-be4e-276e-df489781b5d4/mzaf_1668350712755343495.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/here-comes-the-sun/1441164426?i=1441164589&uo=4",
+        "itunesTrackId": 1441164589,
+        "collectionName": "Abbey Road (Remastered)",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 185733,
+        "releaseDate": "1969-09-26",
+        "rarity": "SR"
+      },
+      {
         "name": "Take Me Home, Country Roads (Original Version)",
         "artist": "John Denver",
         "playcount": 3238000,
@@ -85138,6 +87247,25 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 58140,
         "releaseDate": "2025-07-27",
+        "rarity": "SR"
+      },
+      {
+        "name": "Bad Dreams",
+        "artist": "Teddy Swims",
+        "playcount": 3238000,
+        "rank": 138,
+        "bestChartRank": 138,
+        "url": "https://music.apple.com/au/album/bad-dreams/1771020838?i=1771020950&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/c4/6e/5cc46e64-1746-114a-fd8f-1e5490946c52/093624840947.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/f3/ba/c6f3bad4-e81f-6bcc-2d34-d9038efb2f46/mzaf_17140236838124486089.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/bad-dreams/1771020838?i=1771020950&uo=4",
+        "itunesTrackId": 1771020950,
+        "collectionName": "I've Tried Everything But Therapy (Part 2)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 184578,
+        "releaseDate": "2024-09-13",
         "rarity": "SR"
       },
       {
@@ -85808,6 +87936,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Wish You Were Here",
+        "artist": "Pink Floyd",
+        "playcount": 3189000,
+        "rank": 139,
+        "bestChartRank": 139,
+        "url": "https://music.apple.com/au/album/wish-you-were-here/1065973975?i=1065973980&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/e0/ab/aae0ab6a-d906-a189-81bf-70b56aa43f7a/886445635843.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/4b/35/5e4b3554-282d-12dd-e420-728287a1d3b1/mzaf_14938061551507100947.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/wish-you-were-here/1065973975?i=1065973980&uo=4",
+        "itunesTrackId": 1065973980,
+        "collectionName": "Wish You Were Here",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 338467,
+        "releaseDate": "1975-09-12",
+        "rarity": "UC"
+      },
+      {
         "name": "Bohemian Rhapsody",
         "artist": "Queen",
         "playcount": 3140000,
@@ -86359,6 +88506,25 @@
         "trackTimeMillis": 204345,
         "releaseDate": "2017-02-01",
         "rarity": "R"
+      },
+      {
+        "name": "Dreams",
+        "artist": "The Cranberries",
+        "playcount": 3140000,
+        "rank": 140,
+        "bestChartRank": 140,
+        "url": "https://music.apple.com/au/album/dreams/1440735255?i=1440735258&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/c8/85/b6c885de-fde6-d40d-c95a-d89ede4270ae/06UMGIM09433.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/24/70/be2470f0-0a36-a7e8-10f8-7529e53e5ef7/mzaf_9647953908409059079.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dreams/1440735255?i=1440735258&uo=4",
+        "itunesTrackId": 1440735258,
+        "collectionName": "Stars: The Best of the Cranberries 1992-2002",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 255107,
+        "releaseDate": "1993-01-01",
+        "rarity": "SR"
       },
       {
         "name": "Take Me To Church (Australian Idol Performance)",
@@ -86990,6 +89156,25 @@
         "rarity": "UC"
       },
       {
+        "name": "Go (Extended Mix) [Bonus Track]",
+        "artist": "The Chemical Brothers",
+        "playcount": 3091000,
+        "rank": 141,
+        "bestChartRank": 141,
+        "url": "https://music.apple.com/au/album/reflexion-extended-mix-bonus-track/1440859085?i=1440859452&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/f4/0e/cef40e28-2cc9-2a2f-3f0b-748e7afa6221/00602547313454.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b9/d5/ce/b9d5ce11-8998-fc5c-48f9-4f1e88581c41/mzaf_4388085852078530548.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/reflexion-extended-mix-bonus-track/1440859085?i=1440859452&uo=4",
+        "itunesTrackId": 1440859452,
+        "collectionName": "Born in the Echoes (Deluxe Edition)",
+        "primaryGenreName": "Electronic",
+        "trackTimeMillis": 439318,
+        "releaseDate": "2015-07-10",
+        "rarity": "UC"
+      },
+      {
         "name": "Without Me",
         "artist": "Eminem",
         "playcount": 3042000,
@@ -87579,6 +89764,25 @@
         "trackTimeMillis": 289887,
         "releaseDate": "1979-04-23",
         "rarity": "R"
+      },
+      {
+        "name": "Set Fire to the Rain",
+        "artist": "Adele",
+        "playcount": 3042000,
+        "rank": 142,
+        "bestChartRank": 142,
+        "url": "https://music.apple.com/au/album/set-fire-to-the-rain/403037872?i=403037888&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/df/0a/f8df0ac9-ae76-9dae-86d3-4e913fc54fb1/634904152062.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bb/07/f2/bb07f23a-6aca-5f6e-df91-9a8b39d4459c/mzaf_3295230104705158760.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/set-fire-to-the-rain/403037872?i=403037888&uo=4",
+        "itunesTrackId": 403037888,
+        "collectionName": "21",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 242974,
+        "releaseDate": "2011-01-21",
+        "rarity": "UC"
       },
       {
         "name": "The Older I Get",
@@ -89448,7 +91652,7 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 197574,
         "releaseDate": "2024-09-16",
-        "rarity": "UC"
+        "rarity": "R"
       },
       {
         "name": "The Way You Make Me Feel",
@@ -89486,7 +91690,7 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 197574,
         "releaseDate": "2024-09-16",
-        "rarity": "UC"
+        "rarity": "R"
       },
       {
         "name": "Not Broken",
@@ -89525,6 +91729,25 @@
         "trackTimeMillis": 213440,
         "releaseDate": "2026-03-06",
         "rarity": "SR"
+      },
+      {
+        "name": "SHE DID IT AGAIN (feat. Zara Larsson)",
+        "artist": "Tyla",
+        "playcount": 2895000,
+        "rank": 145,
+        "bestChartRank": 145,
+        "url": "https://music.apple.com/au/album/she-did-it-again-feat-zara-larsson/1893706104?i=1893706107&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4b/07/754b0768-0ee9-9cb5-58e6-0a2c5a08569c/196874268940.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/1f/99/581f99db-7920-2b04-eff8-a2b1217092de/mzaf_67717665135529577.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/she-did-it-again-feat-zara-larsson/1893706104?i=1893706107&uo=4",
+        "itunesTrackId": 1893706107,
+        "collectionName": "SHE DID IT AGAIN (feat. Zara Larsson) - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 213242,
+        "releaseDate": "2026-04-17",
+        "rarity": "R"
       },
       {
         "name": "I Run",
@@ -90175,6 +92398,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Sister Golden Hair",
+        "artist": "America",
+        "playcount": 2846000,
+        "rank": 146,
+        "bestChartRank": 146,
+        "url": "https://music.apple.com/au/album/sister-golden-hair/150058873?i=150058668&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/46/3b/02/463b020e-9f01-3b77-1b23-5bd556c8842d/dj.jjgrabsk.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/77/bb/3077bbe9-78b8-d8d3-6434-b2b2d03dea94/mzaf_15281087559028330117.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/sister-golden-hair/150058873?i=150058668&uo=4",
+        "itunesTrackId": 150058668,
+        "collectionName": "Hearts",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 199573,
+        "releaseDate": "1975-03-19",
+        "rarity": "UC"
+      },
+      {
         "name": "You Are the Reason",
         "artist": "Calum Scott",
         "playcount": 2797000,
@@ -90766,6 +93008,25 @@
         "rarity": "UC"
       },
       {
+        "name": "PINKY UP (Clean Edit)",
+        "artist": "KATSEYE",
+        "playcount": 2797000,
+        "rank": 147,
+        "bestChartRank": 147,
+        "url": "https://music.apple.com/au/album/pinky-up-clean-edit/1891174008?i=1891174353&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/77/46/1a77460d-493c-a795-92ef-84674905409e/26UMGIM25100.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/2d/f8/8a2df8c0-e0d3-d040-5a98-958d4ad25ceb/mzaf_16340910211187354178.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/pinky-up-clean-edit/1891174008?i=1891174353&uo=4",
+        "itunesTrackId": 1891174353,
+        "collectionName": "PINKY UP (Clean Edit) - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 131437,
+        "releaseDate": "2026-04-08",
+        "rarity": "UC"
+      },
+      {
         "name": "Roam",
         "artist": "The B-52's",
         "playcount": 2748000,
@@ -91317,6 +93578,25 @@
         "trackTimeMillis": 225474,
         "releaseDate": "1999-10-26",
         "rarity": "UC"
+      },
+      {
+        "name": "Believer",
+        "artist": "Imagine Dragons",
+        "playcount": 2748000,
+        "rank": 148,
+        "bestChartRank": 148,
+        "url": "https://music.apple.com/au/album/believer/1411625594?i=1411628233&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/7a/b8/117ab805-6811-8929-18b9-0fad7baf0c25/17UMGIM98210.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/9c/8d/7d9c8d77-dc2c-6ab5-540a-063016ea0ee2/mzaf_13607919425161609621.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/believer/1411625594?i=1411628233&uo=4",
+        "itunesTrackId": 1411628233,
+        "collectionName": "Evolve",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 204345,
+        "releaseDate": "2017-02-01",
+        "rarity": "R"
       },
       {
         "name": "Why Can't This Be Love",
@@ -91931,6 +94211,25 @@
         "rarity": "UC"
       },
       {
+        "name": "Die On This Hill",
+        "artist": "SIENNA SPIRO",
+        "playcount": 2699000,
+        "rank": 149,
+        "bestChartRank": 149,
+        "url": "https://music.apple.com/au/album/die-on-this-hill/1841769601?i=1841769602&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/da/a1/f8daa172-c6b5-abc0-22c7-e1a8273f2d38/25UM1IM42518.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/62/99/a06299ec-71ae-bbab-7aea-8838292edc2d/mzaf_4661764441549262532.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/die-on-this-hill/1841769601?i=1841769602&uo=4",
+        "itunesTrackId": 1841769602,
+        "collectionName": "Die On This Hill - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 217009,
+        "releaseDate": "2025-10-10",
+        "rarity": "UR"
+      },
+      {
         "name": "The Lady in Red",
         "artist": "Chris de Burgh",
         "playcount": 2650000,
@@ -92539,6 +94838,25 @@
         "trackTimeMillis": 139434,
         "releaseDate": "1967-09-01",
         "rarity": "R"
+      },
+      {
+        "name": "Rasputin",
+        "artist": "Boney M.",
+        "playcount": 2650000,
+        "rank": 150,
+        "bestChartRank": 150,
+        "url": "https://music.apple.com/au/album/rasputin/202488178?i=202490142&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/03/e2/bc/03e2bc30-0e03-3272-bc84-3c6bac51412c/dj.vfoguazi.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1a/b7/94/1ab794ea-9846-0c13-0a52-377e65f8bfe0/mzaf_12082996562946743021.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/rasputin/202488178?i=202490142&uo=4",
+        "itunesTrackId": 202490142,
+        "collectionName": "The Magic of Boney M.",
+        "primaryGenreName": "R&B/Soul",
+        "trackTimeMillis": 266160,
+        "releaseDate": "1978-10-06",
+        "rarity": "SR"
       },
       {
         "name": "I Don't Care",
@@ -93208,6 +95526,25 @@
         "rarity": "R"
       },
       {
+        "name": "Too Late To Leave",
+        "artist": "Jada Monroe",
+        "playcount": 2601000,
+        "rank": 151,
+        "bestChartRank": 151,
+        "url": "https://music.apple.com/au/album/too-late-to-leave/1890058409?i=1890058410&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/01/67/00016788-c805-1df2-f64a-e715a2115c7b/artwork.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/42/81/d54281cb-a4d7-fdc1-12d3-f5969f5a9c1e/mzaf_4344401227660167364.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/too-late-to-leave/1890058409?i=1890058410&uo=4",
+        "itunesTrackId": 1890058410,
+        "collectionName": "Too Late To Leave - Single",
+        "primaryGenreName": "Blues",
+        "trackTimeMillis": 314160,
+        "releaseDate": "2026-04-05",
+        "rarity": "R"
+      },
+      {
         "name": "The Kill (Acoustic)",
         "artist": "Thirty Seconds to Mars",
         "playcount": 2552000,
@@ -93492,7 +95829,7 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 338467,
         "releaseDate": "1975-09-12",
-        "rarity": "C"
+        "rarity": "UC"
       },
       {
         "name": "If There's Rain",
@@ -93853,6 +96190,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 197227,
         "releaseDate": "2025-06-26",
+        "rarity": "C"
+      },
+      {
+        "name": "Another Brick In the Wall, Pt. 2",
+        "artist": "Pink Floyd",
+        "playcount": 2552000,
+        "rank": 152,
+        "bestChartRank": 152,
+        "url": "https://music.apple.com/au/album/another-brick-in-the-wall-pt-2/1065975633?i=1065975638&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/17/ec/3e17ec6d-f980-c64f-19e0-a6fd8bbf0c10/886445635850.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f8/a2/cd/f8a2cd4a-2af9-f34f-3684-89e3304c102c/mzaf_376000686139681175.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/another-brick-in-the-wall-pt-2/1065975633?i=1065975638&uo=4",
+        "itunesTrackId": 1065975638,
+        "collectionName": "The Wall",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 238947,
+        "releaseDate": "1979-11-23",
         "rarity": "C"
       },
       {
@@ -94466,6 +96822,25 @@
         "rarity": "UC"
       },
       {
+        "name": "Just The Way You Are (2026 Mix)",
+        "artist": "Milky & David Guetta",
+        "playcount": 2503000,
+        "rank": 153,
+        "bestChartRank": 153,
+        "url": "https://music.apple.com/au/album/just-the-way-you-are-2026-mix/1888479968?i=1888479970&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/53/d6/2b53d65d-46a3-8d0f-a932-53020f74c0c9/196874262863.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/11/0c/b8110ca3-1b7d-c549-714f-b5b92a5c72d6/mzaf_4811287397751220699.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/just-the-way-you-are-2026-mix/1888479968?i=1888479970&uo=4",
+        "itunesTrackId": 1888479970,
+        "collectionName": "Just The Way You Are (2026 Mix) - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 181610,
+        "releaseDate": "2026-04-03",
+        "rarity": "C"
+      },
+      {
         "name": "That’s So True",
         "artist": "Gracie Abrams",
         "playcount": 2454000,
@@ -95055,6 +97430,25 @@
         "trackTimeMillis": 270549,
         "releaseDate": "1969-11-28",
         "rarity": "C"
+      },
+      {
+        "name": "Perfect",
+        "artist": "Ed Sheeran",
+        "playcount": 2454000,
+        "rank": 154,
+        "bestChartRank": 154,
+        "url": "https://music.apple.com/au/album/perfect/1193700802?i=1193700926&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/03/4c/20034cdb-b2b1-74a7-2ec0-521ccf471bbd/190295851286.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/66/82/516682ee-7f6c-65d3-9dcf-3b4010bfd84d/mzaf_17833660519500156871.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/perfect/1193700802?i=1193700926&uo=4",
+        "itunesTrackId": 1193700926,
+        "collectionName": "÷ (Deluxe)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 263400,
+        "releaseDate": "2017-03-03",
+        "rarity": "R"
       },
       {
         "name": "Islands In the Stream",
@@ -95705,6 +98099,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Isn't She Lovely",
+        "artist": "Stevie Wonder",
+        "playcount": 2405000,
+        "rank": 155,
+        "bestChartRank": 155,
+        "url": "https://music.apple.com/au/album/isnt-she-lovely/1440788438?i=1440788554&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/eb/1f/12/eb1f12ec-474c-63aa-43af-09282f423b9d/00602537004737.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a2/23/a8/a223a8dc-826e-8bac-2e30-fa86a148ce34/mzaf_7138818373738553579.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/isnt-she-lovely/1440788438?i=1440788554&uo=4",
+        "itunesTrackId": 1440788554,
+        "collectionName": "Songs in the Key of Life",
+        "primaryGenreName": "R&B/Soul",
+        "trackTimeMillis": 394377,
+        "releaseDate": "1976-09-28",
+        "rarity": "R"
+      },
+      {
         "name": "One More Night",
         "artist": "BTS",
         "playcount": 2356000,
@@ -96293,6 +98706,25 @@
         "primaryGenreName": "R&B/Soul",
         "trackTimeMillis": 271875,
         "releaseDate": "2025-07-23",
+        "rarity": "UC"
+      },
+      {
+        "name": "Just The Way You Are",
+        "artist": "Milky & Mall Grab",
+        "playcount": 2356000,
+        "rank": 156,
+        "bestChartRank": 156,
+        "url": "https://music.apple.com/au/album/just-the-way-you-are/1872915568?i=1872915570&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d1/0e/8c/d10e8ca9-b2a8-23ba-49e5-3cc534ed4404/196874065990.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/df/80/93df80e0-3c4f-c46c-4271-2f601bbc632a/mzaf_2150445482065830701.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/just-the-way-you-are/1872915568?i=1872915570&uo=4",
+        "itunesTrackId": 1872915570,
+        "collectionName": "Just The Way You Are - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 159500,
+        "releaseDate": "2026-01-30",
         "rarity": "UC"
       },
       {
@@ -97270,7 +99702,7 @@
         "primaryGenreName": "Hard Rock",
         "trackTimeMillis": 282920,
         "releaseDate": "1989-08-28",
-        "rarity": "C"
+        "rarity": "UC"
       },
       {
         "name": "Something in the Orange",
@@ -98187,6 +100619,25 @@
         "rarity": "LR"
       },
       {
+        "name": "I Won't Back Down",
+        "artist": "Tom Petty",
+        "playcount": 2209000,
+        "rank": 159,
+        "bestChartRank": 159,
+        "url": "https://music.apple.com/au/album/i-wont-back-down/1440825367?i=1440825623&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f3/71/47/f37147d5-d029-880b-bdc1-5929c907909a/06UMGIM04214.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/96/5c/e1965c21-322d-477b-2a44-369d32a2d1d7/mzaf_10846442462386312097.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/i-wont-back-down/1440825367?i=1440825623&uo=4",
+        "itunesTrackId": 1440825623,
+        "collectionName": "Full Moon Fever",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 175933,
+        "releaseDate": "1989-04-24",
+        "rarity": "C"
+      },
+      {
         "name": "Done For",
         "artist": "Max McNown",
         "playcount": 2160000,
@@ -98775,6 +101226,25 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 220558,
         "releaseDate": "2024-03-29",
+        "rarity": "R"
+      },
+      {
+        "name": "Kryptonite",
+        "artist": "3 Doors Down",
+        "playcount": 2160000,
+        "rank": 160,
+        "bestChartRank": 160,
+        "url": "https://music.apple.com/au/album/kryptonite/1440664882?i=1440664900&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/61/2a/58/612a58ca-af10-cc8f-07ef-b3368ebc9564/07UMGIM12238.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/12/d7/4c12d750-14f9-6ebd-a4da-a79bc8b83e41/mzaf_17986687241844066254.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/kryptonite/1440664882?i=1440664900&uo=4",
+        "itunesTrackId": 1440664900,
+        "collectionName": "The Better Life",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 233933,
+        "releaseDate": "1999-01-01",
         "rarity": "R"
       },
       {
@@ -99943,6 +102413,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Die With A Smile (Australian Idol Live Performance)",
+        "artist": "Kesha Oayda",
+        "playcount": 2062000,
+        "rank": 162,
+        "bestChartRank": 162,
+        "url": "https://music.apple.com/au/album/die-with-a-smile-australian-idol-live-performance/1871063135?i=1871063138&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/c6/e7/3dc6e778-599c-1d1f-ac6c-c46f4963ff08/199806209790.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/68/16/0b681643-1c83-a9de-a7a6-906a0fe7240e/mzaf_13043242874372493785.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/die-with-a-smile-australian-idol-live-performance/1871063135?i=1871063138&uo=4",
+        "itunesTrackId": 1871063138,
+        "collectionName": "Die With A Smile (Australian Idol Live Performance) - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 117000,
+        "releaseDate": "2026-02-15",
+        "rarity": "C"
+      },
+      {
         "name": "Dinner Party",
         "artist": "Niall Horan",
         "playcount": 2013000,
@@ -100553,6 +103042,25 @@
         "rarity": "SR"
       },
       {
+        "name": "The Sound of Silence",
+        "artist": "Disturbed",
+        "playcount": 2013000,
+        "rank": 163,
+        "bestChartRank": 163,
+        "url": "https://music.apple.com/au/album/the-sound-of-silence/1006937448?i=1006937459&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/32/2b/12/322b1228-a133-3317-8d05-742669b700ec/093624926245.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a5/0b/8a/a50b8a9b-be1d-c43c-9236-e10ce4038db5/mzaf_6738321194496105228.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-sound-of-silence/1006937448?i=1006937459&uo=4",
+        "itunesTrackId": 1006937459,
+        "collectionName": "Immortalized (Deluxe Edition)",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 248487,
+        "releaseDate": "2015-08-21",
+        "rarity": "SR"
+      },
+      {
         "name": "Thinkin Bout You",
         "artist": "Flea",
         "playcount": 1964000,
@@ -101146,6 +103654,25 @@
         "rarity": "C"
       },
       {
+        "name": "Freakin’ Out",
+        "artist": "Dexter and The Moonrocks",
+        "playcount": 1964000,
+        "rank": 164,
+        "bestChartRank": 164,
+        "url": "https://music.apple.com/au/album/freakin-out/1879596114?i=1879596115&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/e7/ef/fde7efaf-0a34-1c0d-a8aa-a0c297916aba/26UMGIM21566.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/4a/1a/d54a1aeb-af70-6ec2-fe3a-2b86ce8eb6ab/mzaf_575322372478716979.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/freakin-out/1879596114?i=1879596115&uo=4",
+        "itunesTrackId": 1879596115,
+        "collectionName": "Freakin’ Out - Single",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 217898,
+        "releaseDate": "2026-03-11",
+        "rarity": "SR"
+      },
+      {
         "name": "Please",
         "artist": "BTS",
         "playcount": 1915000,
@@ -101678,6 +104205,25 @@
         "trackTimeMillis": 182020,
         "releaseDate": "2025-10-17",
         "rarity": "C"
+      },
+      {
+        "name": "Send Me On My Way",
+        "artist": "Rusted Root",
+        "playcount": 1915000,
+        "rank": 165,
+        "bestChartRank": 165,
+        "url": "https://music.apple.com/au/album/send-me-on-my-way/311570580?i=311570614&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c0/75/25/mzi.loeldhsg.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/0b/5f/bc/0b5fbca8-942b-d130-8e57-ad820c6c71a6/mzaf_10128337287251804215.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/send-me-on-my-way/311570580?i=311570614&uo=4",
+        "itunesTrackId": 311570614,
+        "collectionName": "Music from Party of Five",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 263333,
+        "releaseDate": "1992-01-01",
+        "rarity": "UC"
       },
       {
         "name": "After I'm Gone (Slow Rock)",
@@ -102250,6 +104796,25 @@
         "trackTimeMillis": 184762,
         "releaseDate": "2025-10-10",
         "rarity": "SR"
+      },
+      {
+        "name": "Born This Way",
+        "artist": "Lady Gaga",
+        "playcount": 1866000,
+        "rank": 166,
+        "bestChartRank": 166,
+        "url": "https://music.apple.com/au/album/born-this-way/1440857161?i=1440857424&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/9f/0f/429f0fd2-30bd-b64e-27fc-76d8fbbd0988/11UMGIM12476.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/d7/a2/5ed7a263-1691-2010-da59-1f4ec093b90a/mzaf_6117100412983656708.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/born-this-way/1440857161?i=1440857424&uo=4",
+        "itunesTrackId": 1440857424,
+        "collectionName": "Born This Way (Special Edition)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 260258,
+        "releaseDate": "2011-02-11",
+        "rarity": "C"
       },
       {
         "name": "You're the Voice",
@@ -102902,6 +105467,25 @@
         "rarity": "C"
       },
       {
+        "name": "Jump Around",
+        "artist": "House of Pain",
+        "playcount": 1817000,
+        "rank": 167,
+        "bestChartRank": 167,
+        "url": "https://music.apple.com/au/album/jump-around/1604628159?i=1604628161&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/ff/46/1bff4615-9327-bc85-fef3-b9334bf55c89/mzaf_4586239461601648720.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/jump-around/1604628159?i=1604628161&uo=4",
+        "itunesTrackId": 1604628161,
+        "collectionName": "House of Pain (Fine Malt Lyrics)",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 214947,
+        "releaseDate": "1992-05-05",
+        "rarity": "UC"
+      },
+      {
         "name": "Just Like Heaven",
         "artist": "The Cure",
         "playcount": 1768000,
@@ -103552,6 +106136,25 @@
         "rarity": "LR"
       },
       {
+        "name": "Zoo",
+        "artist": "シャキーラ",
+        "playcount": 1768000,
+        "rank": 168,
+        "bestChartRank": 168,
+        "url": "https://music.apple.com/au/album/zoo-feat-dream-ami/1861940083?i=1861940084&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/4f/58/754f582c-d1fd-e35d-c622-f83ee6ed1fae/25UM2IM06914.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/84/cb/dc84cb30-ff2e-bfe3-2f0a-6d5c4363d652/mzaf_3365392977122243033.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/zoo-feat-dream-ami/1861940083?i=1861940084&uo=4",
+        "itunesTrackId": 1861940084,
+        "collectionName": "Zoo (From \"Zootopia 2\"/Japanese Single Version) - Single",
+        "primaryGenreName": "Soundtrack",
+        "trackTimeMillis": 190823,
+        "releaseDate": "2025-12-19",
+        "rarity": "UC"
+      },
+      {
         "name": "The Horses",
         "artist": "Daryl Braithwaite",
         "playcount": 1719000,
@@ -104160,6 +106763,25 @@
         "trackTimeMillis": 106000,
         "releaseDate": "2026-02-16",
         "rarity": "SR"
+      },
+      {
+        "name": "The Days (NOTION Remix)",
+        "artist": "CHRYSTAL & NOTION",
+        "playcount": 1719000,
+        "rank": 169,
+        "bestChartRank": 169,
+        "url": "https://music.apple.com/au/album/the-days-notion-remix/1777119821?i=1777119822&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/b3/16/acb31671-10a6-21e1-2380-ddf7b3b796cc/24UM1IM21808.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/96/64/d0966453-7113-742c-21c4-370936a4919b/mzaf_11609215379667135377.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-days-notion-remix/1777119821?i=1777119822&uo=4",
+        "itunesTrackId": 1777119822,
+        "collectionName": "The Days (NOTION Remix) - Single",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 233229,
+        "releaseDate": "2024-11-08",
+        "rarity": "C"
       },
       {
         "name": "Don't You (Forget About Me) [12\" Version]",
@@ -104789,6 +107411,25 @@
         "trackTimeMillis": 240134,
         "releaseDate": "1991-11-26",
         "rarity": "R"
+      },
+      {
+        "name": "Lucky Man",
+        "artist": "The Verve",
+        "playcount": 1670000,
+        "rank": 170,
+        "bestChartRank": 170,
+        "url": "https://music.apple.com/au/album/lucky-man/1443258184?i=1443258331&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5c/b1/85/5cb18512-9cbd-7b84-4042-37f23bc2ae45/17UMGIM89555.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/f0/aa/e9f0aa36-a45d-c506-d9ec-2c12eaadb776/mzaf_4306079659204482936.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/lucky-man/1443258184?i=1443258331&uo=4",
+        "itunesTrackId": 1443258331,
+        "collectionName": "Urban Hymns (Deluxe / Remastered 2016)",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 293587,
+        "releaseDate": "1997-09-29",
+        "rarity": "C"
       },
       {
         "name": "Stumblin' In",
@@ -105439,6 +108080,25 @@
         "rarity": "R"
       },
       {
+        "name": "Die With A Smile",
+        "artist": "Lady Gaga & Bruno Mars",
+        "playcount": 1621000,
+        "rank": 171,
+        "bestChartRank": 171,
+        "url": "https://music.apple.com/au/album/die-with-a-smile/1762656724?i=1762656732&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/d1/46/e9d14699-9505-493e-cd27-a501095c81ff/mzaf_7283388936457278756.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/die-with-a-smile/1762656724?i=1762656732&uo=4",
+        "itunesTrackId": 1762656732,
+        "collectionName": "Die With A Smile - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 251668,
+        "releaseDate": "2024-08-16",
+        "rarity": "UR"
+      },
+      {
         "name": "Just The Way You Are",
         "artist": "Milky",
         "playcount": 1572000,
@@ -106066,6 +108726,25 @@
         "trackTimeMillis": 258035,
         "releaseDate": "2020-04-03",
         "rarity": "UR"
+      },
+      {
+        "name": "That’s So True",
+        "artist": "Gracie Abrams",
+        "playcount": 1572000,
+        "rank": 172,
+        "bestChartRank": 172,
+        "url": "https://music.apple.com/au/album/thats-so-true/1775580883?i=1775581103&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/f8/99/d2f89987-d2a5-45a5-1746-c0841c7e9843/24UM1IM17286.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/35/09/87350944-6e13-4249-dd75-70a878ced764/mzaf_11536442585660644927.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/thats-so-true/1775580883?i=1775581103&uo=4",
+        "itunesTrackId": 1775581103,
+        "collectionName": "The Secret of Us (Deluxe)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 166300,
+        "releaseDate": "2024-10-16",
+        "rarity": "R"
       },
       {
         "name": "Dancing On My Own",
@@ -106716,6 +109395,25 @@
         "rarity": "R"
       },
       {
+        "name": "Like a Prayer",
+        "artist": "Madonna",
+        "playcount": 1523000,
+        "rank": 173,
+        "bestChartRank": 173,
+        "url": "https://music.apple.com/au/album/like-a-prayer/1874757108?i=1874757282&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/55/5c/33555c2f-df24-dd08-b680-d92473948262/603497804955.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/a7/fd/75a7fdca-e495-5f01-27e6-9074e174b069/mzaf_9692377667973254377.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/like-a-prayer/1874757108?i=1874757282&uo=4",
+        "itunesTrackId": 1874757282,
+        "collectionName": "Celebration (Deluxe Version)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 342680,
+        "releaseDate": "1989-03-03",
+        "rarity": "R"
+      },
+      {
         "name": "Golden Brown",
         "artist": "The Stranglers",
         "playcount": 1474000,
@@ -107304,7 +110002,7 @@
         "primaryGenreName": "Country",
         "trackTimeMillis": 217520,
         "releaseDate": "2026-04-11",
-        "rarity": "C"
+        "rarity": "SR"
       },
       {
         "name": "Training Season",
@@ -107323,6 +110021,25 @@
         "primaryGenreName": "Pop",
         "trackTimeMillis": 209488,
         "releaseDate": "2024-02-16",
+        "rarity": "R"
+      },
+      {
+        "name": "Eclipse",
+        "artist": "Delta Goodrem",
+        "playcount": 1474000,
+        "rank": 174,
+        "bestChartRank": 174,
+        "url": "https://music.apple.com/au/album/eclipse/1878495505?i=1878495507&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/1c/48/381c4818-3628-518f-34ca-cd5ba4783320/ticket.qayzxizp.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/ae/54/80ae5467-6c33-1986-685f-1993fb6e410a/mzaf_9954156637870043373.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/eclipse/1878495505?i=1878495507&uo=4",
+        "itunesTrackId": 1878495507,
+        "collectionName": "Eclipse - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 180687,
+        "releaseDate": "2026-03-01",
         "rarity": "R"
       },
       {
@@ -107995,6 +110712,25 @@
         "rarity": "R"
       },
       {
+        "name": "Working Class Man",
+        "artist": "Jimmy Barnes",
+        "playcount": 1425000,
+        "rank": 175,
+        "bestChartRank": 175,
+        "url": "https://music.apple.com/au/album/working-class-man/81363498?i=81363443&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6f/39/24/6f3924ad-0635-1e6c-1a3b-63183bb8ad2c/mzi.hzqygfnb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/51/5a/dc/515adcf0-6178-7a31-b141-ff59b195925b/mzaf_10783433819283999347.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/working-class-man/81363498?i=81363443&uo=4",
+        "itunesTrackId": 81363443,
+        "collectionName": "Hits",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 228027,
+        "releaseDate": "1996-10-06",
+        "rarity": "UC"
+      },
+      {
         "name": "You Should Probably Leave",
         "artist": "Chris Stapleton",
         "playcount": 1376000,
@@ -108602,7 +111338,7 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 338467,
         "releaseDate": "1975-09-12",
-        "rarity": "C"
+        "rarity": "UC"
       },
       {
         "name": "Our Last Fight",
@@ -108641,6 +111377,25 @@
         "trackTimeMillis": 340707,
         "releaseDate": "2017-04-07",
         "rarity": "UR"
+      },
+      {
+        "name": "Don't Bring Me Down",
+        "artist": "Electric Light Orchestra",
+        "playcount": 1376000,
+        "rank": 176,
+        "bestChartRank": 176,
+        "url": "https://music.apple.com/au/album/dont-bring-me-down/1054530378?i=1054530387&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/c6/e3/2bc6e3f8-5d32-793f-e6e0-d56ee512e45f/886445594027.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/84/6c/89846c71-4271-1585-5bd5-d8189babb9ea/mzaf_15421019475284590950.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dont-bring-me-down/1054530378?i=1054530387&uo=4",
+        "itunesTrackId": 1054530387,
+        "collectionName": "Discovery",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 243136,
+        "releaseDate": "1979-05-31",
+        "rarity": "UC"
       },
       {
         "name": "A Sky Full of Stars",
@@ -109293,6 +112048,25 @@
         "rarity": "UC"
       },
       {
+        "name": "End of Beginning",
+        "artist": "Djo",
+        "playcount": 1327000,
+        "rank": 177,
+        "bestChartRank": 177,
+        "url": "https://music.apple.com/au/album/end-of-beginning/1632447652?i=1632448108&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/94/31/e59431de-7591-58e6-c4d4-105b6373ad6a/5056494917336_1.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/df/af/6edfaf58-f901-e9b5-840b-9ac9e37f34b7/mzaf_8465065510938624101.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/end-of-beginning/1632447652?i=1632448108&uo=4",
+        "itunesTrackId": 1632448108,
+        "collectionName": "DECIDE",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 159246,
+        "releaseDate": "2024-03-01",
+        "rarity": "SR"
+      },
+      {
         "name": "Supermarket Flowers",
         "artist": "Ed Sheeran",
         "playcount": 1278000,
@@ -109865,6 +112639,25 @@
         "trackTimeMillis": 280753,
         "releaseDate": "1987-08-31",
         "rarity": "R"
+      },
+      {
+        "name": "Manchild",
+        "artist": "Sabrina Carpenter",
+        "playcount": 1278000,
+        "rank": 178,
+        "bestChartRank": 178,
+        "url": "https://music.apple.com/au/album/manchild/1819377509?i=1819377511&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/c6/58/aec6589c-f5cf-0d81-2727-bc8775e34049/25UMGIM76990.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/b9/7d/0fb97d62-b093-2c58-a6d4-c20d987dd2c9/mzaf_9158363594364887027.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/manchild/1819377509?i=1819377511&uo=4",
+        "itunesTrackId": 1819377511,
+        "collectionName": "Manchild - Single",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 213646,
+        "releaseDate": "2025-06-05",
+        "rarity": "SR"
       },
       {
         "name": "Buses and Trains (Radio Edit)",
@@ -110534,6 +113327,25 @@
         "rarity": "R"
       },
       {
+        "name": "From the Sea",
+        "artist": "Eskimo Joe",
+        "playcount": 1229000,
+        "rank": 179,
+        "bestChartRank": 179,
+        "url": "https://music.apple.com/au/album/from-the-sea/164382998?i=164383031&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/89/e0/4189e085-8558-a19a-870d-ca77e3a228b7/mzi.cwmfwtir.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/88/de/f5/88def527-563a-a579-9b32-774b49c39b0c/mzaf_4838944705663028809.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/from-the-sea/164382998?i=164383031&uo=4",
+        "itunesTrackId": 164383031,
+        "collectionName": "A Song Is a City",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 202907,
+        "releaseDate": "2004-05-14",
+        "rarity": "C"
+      },
+      {
         "name": "Sweet Child O' Mine",
         "artist": "Guns N' Roses",
         "playcount": 1180000,
@@ -110782,7 +113594,7 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 338467,
         "releaseDate": "1975-09-12",
-        "rarity": "C"
+        "rarity": "UC"
       },
       {
         "name": "End of Beginning",
@@ -111182,6 +113994,25 @@
         "trackTimeMillis": 513631,
         "releaseDate": "1971-10-24",
         "rarity": "UC"
+      },
+      {
+        "name": "On My Way (Marry Me)",
+        "artist": "Jennifer Lopez",
+        "playcount": 1180000,
+        "rank": 180,
+        "bestChartRank": 180,
+        "url": "https://music.apple.com/au/album/on-my-way-marry-me/1627392961?i=1627393385&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/db/f1/a2/dbf1a237-f73e-9e81-539b-de4b4c596514/196589186119.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/03/22/c403229e-43ae-ebfb-6e35-4ef5eb53f59a/mzaf_2846077999033418727.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/on-my-way-marry-me/1627392961?i=1627393385&uo=4",
+        "itunesTrackId": 1627393385,
+        "collectionName": "Marry Me (Original Motion Picture Soundtrack)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 192637,
+        "releaseDate": "2021-11-18",
+        "rarity": "C"
       },
       {
         "name": "How to Save a Life",
@@ -111773,6 +114604,25 @@
         "trackTimeMillis": 190320,
         "releaseDate": "2025-06-20",
         "rarity": "C"
+      },
+      {
+        "name": "Hello Lonesome",
+        "artist": "Cody Johnson",
+        "playcount": 1131000,
+        "rank": 181,
+        "bestChartRank": 181,
+        "url": "https://music.apple.com/au/album/hello-lonesome/1892465981?i=1892466003&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/8b/71/948b7176-6740-f6bb-3019-06180d55e45f/093624826613.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/ed/e4/50ede42b-30d4-8b2a-3f5a-5c114b70b8ad/mzaf_6568175973091477203.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/hello-lonesome/1892465981?i=1892466003&uo=4",
+        "itunesTrackId": 1892466003,
+        "collectionName": "Banks Of The Trinity",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 178733,
+        "releaseDate": null,
+        "rarity": "SR"
       },
       {
         "name": "Because You Loved Me",
@@ -112383,6 +115233,25 @@
         "trackTimeMillis": 187376,
         "releaseDate": "2026-02-27",
         "rarity": "C"
+      },
+      {
+        "name": "Sweet Caroline (Single Version)",
+        "artist": "Neil Diamond",
+        "playcount": 1082000,
+        "rank": 182,
+        "bestChartRank": 182,
+        "url": "https://music.apple.com/au/album/sweet-caroline-single-version/1469586412?i=1469586793&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/46/dc/ef46dc23-467a-7a23-aefb-c3baf4ccdbbc/14UMGIM25084.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/82/da/61/82da6115-b3f0-edac-270b-0b80b6754329/mzaf_15399512564619733037.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/sweet-caroline-single-version/1469586412?i=1469586793&uo=4",
+        "itunesTrackId": 1469586793,
+        "collectionName": "All-Time Greatest Hits (Deluxe Version)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 201533,
+        "releaseDate": "1969-01-01",
+        "rarity": "SR"
       },
       {
         "name": "Ever Mine (feat. Alison Krauss)",
@@ -113033,6 +115902,25 @@
         "rarity": "C"
       },
       {
+        "name": "The Way It Is",
+        "artist": "Bruce Hornsby & The Range",
+        "playcount": 1033000,
+        "rank": 183,
+        "bestChartRank": 183,
+        "url": "https://music.apple.com/au/album/the-way-it-is/258517180?i=258517392&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f3/6f/1d/f36f1dc4-22d1-e23a-60c2-cccdd563d87d/078635590425.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/2d/6c/5d/2d6c5d7f-012f-8db2-6d63-f718eb60f9ba/mzaf_11868104005702070530.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-way-it-is/258517180?i=258517392&uo=4",
+        "itunesTrackId": 258517392,
+        "collectionName": "The Way It Is",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 297847,
+        "releaseDate": "1986-08-26",
+        "rarity": "C"
+      },
+      {
         "name": "Lost Without You",
         "artist": "Freya Ridings",
         "playcount": 984000,
@@ -113664,6 +116552,25 @@
         "rarity": "SR"
       },
       {
+        "name": "I Will Wait",
+        "artist": "Mumford & Sons",
+        "playcount": 984000,
+        "rank": 184,
+        "bestChartRank": 184,
+        "url": "https://music.apple.com/au/album/i-will-wait/1445175391?i=1445175395&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/d7/f4/77d7f41b-2120-0a5d-440e-9e9553912757/12UMGIM50435.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/24/23/7c/24237caa-e23d-5469-9d84-2cea24857b8b/mzaf_12171793057491708609.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/i-will-wait/1445175391?i=1445175395&uo=4",
+        "itunesTrackId": 1445175395,
+        "collectionName": "I Will Wait - Single",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 276720,
+        "releaseDate": "2012-08-07",
+        "rarity": "UC"
+      },
+      {
         "name": "Hunting The Wren (The Immortal Man Version)",
         "artist": "Lankum & Grian Chatten",
         "playcount": 935000,
@@ -114255,6 +117162,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Espresso",
+        "artist": "Sabrina Carpenter",
+        "playcount": 935000,
+        "rank": 185,
+        "bestChartRank": 185,
+        "url": "https://music.apple.com/au/album/espresso/1752214909?i=1752214923&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/1c/ca/a11ccab6-7d4c-e041-d028-998bcebeb709/24UMGIM61704.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/da/ff/99daffce-cdde-59c6-5ae0-7f922ce411a8/mzaf_5621292401829922816.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/espresso/1752214909?i=1752214923&uo=4",
+        "itunesTrackId": 1752214923,
+        "collectionName": "Short n' Sweet",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 175459,
+        "releaseDate": "2024-06-14",
+        "rarity": "R"
+      },
+      {
         "name": "Take On Me",
         "artist": "a-ha",
         "playcount": 886000,
@@ -114844,6 +117770,25 @@
         "trackTimeMillis": 182720,
         "releaseDate": "2026-04-17",
         "rarity": "UR"
+      },
+      {
+        "name": "Down Under",
+        "artist": "Men At Work",
+        "playcount": 886000,
+        "rank": 186,
+        "bestChartRank": 186,
+        "url": "https://music.apple.com/au/album/down-under/282960957?i=282960968&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/80/07/23/80072391-3543-cdb9-e298-08d5f0595f41/dj.uyepaoyc.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/15/1d/b6/151db6e8-a2c8-2b95-52e4-5f9e6c1c0954/mzaf_545647434728539744.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/down-under/282960957?i=282960968&uo=4",
+        "itunesTrackId": 282960968,
+        "collectionName": "Business As Usual",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 222320,
+        "releaseDate": "1981-11-09",
+        "rarity": "SR"
       },
       {
         "name": "Dandelion",
@@ -116142,6 +119087,25 @@
         "rarity": "C"
       },
       {
+        "name": "Evian",
+        "artist": "Northlane",
+        "playcount": 788000,
+        "rank": 188,
+        "bestChartRank": 188,
+        "url": "https://music.apple.com/au/album/evian/1891588449?i=1891588618&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/d4/37/c9d437ea-5f18-ee2a-cb12-9f064158600c/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/98/ee/2a98ee40-9e61-d244-d3a1-5936124eb97a/mzaf_16740067572652533982.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/evian/1891588449?i=1891588618&uo=4",
+        "itunesTrackId": 1891588618,
+        "collectionName": "Evian - Single",
+        "primaryGenreName": "Metal",
+        "trackTimeMillis": 302322,
+        "releaseDate": "2026-04-28",
+        "rarity": "SR"
+      },
+      {
         "name": "Eternity",
         "artist": "Alex Warren",
         "playcount": 739000,
@@ -116752,6 +119716,25 @@
         "rarity": "C"
       },
       {
+        "name": "Dirty Diana",
+        "artist": "Michael Jackson",
+        "playcount": 739000,
+        "rank": 189,
+        "bestChartRank": 189,
+        "url": "https://music.apple.com/au/album/dirty-diana/551515699?i=551515762&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0b/fb/b5/0bfbb592-e2ce-065a-a098-09f55cee22db/dj.iziroksp.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ea/db/91/eadb91c1-2016-1c9d-95b8-1409e91ac3f0/mzaf_10205668415538089374.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/dirty-diana/551515699?i=551515762&uo=4",
+        "itunesTrackId": 551515762,
+        "collectionName": "Bad (25th Anniversary Edition)",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 280753,
+        "releaseDate": "1987-08-31",
+        "rarity": "R"
+      },
+      {
         "name": "California Love (feat. Roger Troutman & Dr. Dre)",
         "artist": "2Pac",
         "playcount": 690000,
@@ -117284,6 +120267,25 @@
         "trackTimeMillis": 170859,
         "releaseDate": "2026-03-27",
         "rarity": "UR"
+      },
+      {
+        "name": "Mr Electric Blue",
+        "artist": "Benson Boone",
+        "playcount": 690000,
+        "rank": 190,
+        "bestChartRank": 190,
+        "url": "https://music.apple.com/au/album/mr-electric-blue/1807490612?i=1807490813&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/35/5d/cb355d50-f32a-6641-db03-a1d08ad87399/093624834960.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/da/23/07da239f-7e61-dcca-b470-1e68c8ea0ad7/mzaf_16632356159093402489.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/mr-electric-blue/1807490612?i=1807490813&uo=4",
+        "itunesTrackId": 1807490813,
+        "collectionName": "American Heart",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 190320,
+        "releaseDate": "2025-06-20",
+        "rarity": "C"
       },
       {
         "name": "If You Leave Me Now (Remastered)",
@@ -117898,6 +120900,25 @@
         "rarity": "UR"
       },
       {
+        "name": "Click Clack Symphony. (feat. Hans Zimmer)",
+        "artist": "RAYE",
+        "playcount": 641000,
+        "rank": 191,
+        "bestChartRank": 191,
+        "url": "https://music.apple.com/au/album/click-clack-symphony-feat-hans-zimmer/1871085677?i=1871085694&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/05/10/5005106d-bb8a-32db-1172-f18405cf4a46/820200038890.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/39/61/413961ee-def9-785d-142f-85c117a2aa82/mzaf_17854222635151302774.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/click-clack-symphony-feat-hans-zimmer/1871085677?i=1871085694&uo=4",
+        "itunesTrackId": 1871085694,
+        "collectionName": "THIS MUSIC MAY CONTAIN HOPE.",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 301674,
+        "releaseDate": null,
+        "rarity": "UR"
+      },
+      {
         "name": "Merry Go Round",
         "artist": "BTS",
         "playcount": 592000,
@@ -118486,6 +121507,25 @@
         "primaryGenreName": "House",
         "trackTimeMillis": 194890,
         "releaseDate": "2026-04-03",
+        "rarity": "SR"
+      },
+      {
+        "name": "Everything’s Fine",
+        "artist": "iyah may",
+        "playcount": 592000,
+        "rank": 192,
+        "bestChartRank": 192,
+        "url": null,
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": null,
+        "previewUrl": null,
+        "trackViewUrl": null,
+        "itunesTrackId": null,
+        "collectionName": null,
+        "primaryGenreName": null,
+        "trackTimeMillis": null,
+        "releaseDate": null,
         "rarity": "SR"
       },
       {
@@ -119079,7 +122119,7 @@
         "primaryGenreName": "Rock",
         "trackTimeMillis": 338467,
         "releaseDate": "1975-09-12",
-        "rarity": "C"
+        "rarity": "UC"
       },
       {
         "name": "Life for Rent",
@@ -119156,6 +122196,25 @@
         "trackTimeMillis": 191613,
         "releaseDate": "2026-04-24",
         "rarity": "C"
+      },
+      {
+        "name": "The Chain",
+        "artist": "Fleetwood Mac",
+        "playcount": 543000,
+        "rank": 193,
+        "bestChartRank": 193,
+        "url": "https://music.apple.com/au/album/the-chain/594061854?i=594061861&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/f8/31/9ef83126-c5cf-f526-c26d-0c25895e4d9b/mzaf_9883179573566934970.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-chain/594061854?i=594061861&uo=4",
+        "itunesTrackId": 594061861,
+        "collectionName": "Rumours",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 268200,
+        "releaseDate": "1977-02-04",
+        "rarity": "R"
       },
       {
         "name": "Nice To Each Other",
@@ -119789,6 +122848,25 @@
         "rarity": "SR"
       },
       {
+        "name": "Carry the Weight",
+        "artist": "Halsey",
+        "playcount": 494000,
+        "rank": 194,
+        "bestChartRank": 194,
+        "url": "https://music.apple.com/au/album/carry-the-weight/1895397523?i=6763611647&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/b6/1b/aeb61b59-592c-8182-e3b3-872b35a4bdc5/mzaf_11671489781173593445.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/carry-the-weight/1895397523?i=6763611647&uo=4",
+        "itunesTrackId": 6763611647,
+        "collectionName": "The Great Impersonator (Deluxe)",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 189462,
+        "releaseDate": "2026-05-01",
+        "rarity": "UC"
+      },
+      {
         "name": "Doomed",
         "artist": "Maphra",
         "playcount": 445000,
@@ -119826,7 +122904,7 @@
         "primaryGenreName": null,
         "trackTimeMillis": null,
         "releaseDate": null,
-        "rarity": "C"
+        "rarity": "UC"
       },
       {
         "name": "Slice of Heaven",
@@ -120415,7 +123493,7 @@
         "primaryGenreName": "Dance",
         "trackTimeMillis": 213498,
         "releaseDate": "2026-04-27",
-        "rarity": "UC"
+        "rarity": "R"
       },
       {
         "name": "Perfect",
@@ -120435,6 +123513,25 @@
         "trackTimeMillis": 263400,
         "releaseDate": "2017-03-03",
         "rarity": "R"
+      },
+      {
+        "name": "Spirit In the Sky",
+        "artist": "Norman Greenbaum",
+        "playcount": 445000,
+        "rank": 195,
+        "bestChartRank": 195,
+        "url": "https://music.apple.com/au/album/spirit-in-the-sky/1462211353?i=1462211356&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/78/c8/9178c88b-ff65-6e4b-f8af-a5ab0c938b53/14UMDIM02986.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/f6/12/a4f612d6-a4c0-f506-7afe-36530021b0af/mzaf_11107259291230519722.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/spirit-in-the-sky/1462211353?i=1462211356&uo=4",
+        "itunesTrackId": 1462211356,
+        "collectionName": "Spirit In the Sky (Deluxe Edition)",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 242893,
+        "releaseDate": "1969-01-01",
+        "rarity": "UC"
       },
       {
         "name": "Push It",
@@ -121619,6 +124716,25 @@
         "rarity": "R"
       },
       {
+        "name": "BIRDS OF A FEATHER",
+        "artist": "Billie Eilish",
+        "playcount": 347000,
+        "rank": 197,
+        "bestChartRank": 197,
+        "url": "https://music.apple.com/au/album/birds-of-a-feather/1739659134?i=1739659142&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/31/d3/3431d34e-847f-5d66-df83-0bce688d997e/mzaf_18106743962423782018.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/birds-of-a-feather/1739659134?i=1739659142&uo=4",
+        "itunesTrackId": 1739659142,
+        "collectionName": "HIT ME HARD AND SOFT",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 210373,
+        "releaseDate": "2024-05-17",
+        "rarity": "SR"
+      },
+      {
         "name": "Carry On",
         "artist": "Jungle",
         "playcount": 298000,
@@ -122286,6 +125402,25 @@
         "rarity": "R"
       },
       {
+        "name": "A Thousand Years",
+        "artist": "Christina Perri",
+        "playcount": 298000,
+        "rank": 198,
+        "bestChartRank": 198,
+        "url": "https://music.apple.com/au/album/a-thousand-years/467980710?i=467980724&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/2e/83/f52e8357-9cf4-e644-c365-3c21839f85ac/mzi.staekbjw.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/3a/e7/8e3ae749-5e13-a9ca-fef6-61d615bc3087/mzaf_5415208554281396500.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/a-thousand-years/467980710?i=467980724&uo=4",
+        "itunesTrackId": 467980724,
+        "collectionName": "The Twilight Saga: Breaking Dawn, Pt. 1 (Original Motion Picture Soundtrack) [Deluxe Version]",
+        "primaryGenreName": "Soundtrack",
+        "trackTimeMillis": 285120,
+        "releaseDate": "2011-10-18",
+        "rarity": "UR"
+      },
+      {
         "name": "Hertz",
         "artist": "Moon Byul",
         "playcount": 249000,
@@ -122936,6 +126071,25 @@
         "rarity": "C"
       },
       {
+        "name": "SWIM",
+        "artist": "BTS",
+        "playcount": 249000,
+        "rank": 199,
+        "bestChartRank": 199,
+        "url": "https://music.apple.com/au/album/swim/1868481904?i=1868482073&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/ce/b3/e7ceb389-cb23-f708-cbdb-ff874be51365/mzaf_3407006493764005509.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/swim/1868481904?i=1868482073&uo=4",
+        "itunesTrackId": 1868482073,
+        "collectionName": "ARIRANG",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 159008,
+        "releaseDate": "2026-03-20",
+        "rarity": "LR"
+      },
+      {
         "name": "Seraphim",
         "artist": "Dream On Dreamer",
         "playcount": 200000,
@@ -123563,8 +126717,27 @@
         "trackTimeMillis": 213000,
         "releaseDate": "2026-01-30",
         "rarity": "UC"
+      },
+      {
+        "name": "The Gambler",
+        "artist": "Kenny Rogers",
+        "playcount": 200000,
+        "rank": 200,
+        "bestChartRank": 200,
+        "url": "https://music.apple.com/au/album/the-gambler/1440840359?i=1440840853&uo=4",
+        "mbid": null,
+        "source": "top200_merge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/74/a2/0474a210-0239-df57-1457-96339adf1e56/13UABIM74030.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/10/af/de10af94-69c5-aede-f2f5-2939de823064/mzaf_1653661081429854804.plus.aac.p.m4a",
+        "trackViewUrl": "https://music.apple.com/au/album/the-gambler/1440840359?i=1440840853&uo=4",
+        "itunesTrackId": 1440840853,
+        "collectionName": "The Gambler",
+        "primaryGenreName": "Country",
+        "trackTimeMillis": 210600,
+        "releaseDate": "1978-11-15",
+        "rarity": "SR"
       }
     ]
   },
-  "lastMergedTop200": "2026-05-02"
+  "lastMergedTop200": "2026-05-03"
 }
