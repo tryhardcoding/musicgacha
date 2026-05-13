@@ -947,10 +947,6 @@
     "searchedAt": "2026-04-24T06:43:32.106Z",
     "region": "be"
   },
-  "green day::boulevard of broken dreams": {
-    "searchedAt": "2026-05-01T09:54:27.359Z",
-    "region": "br"
-  },
   "matuê::gorilla roxo": {
     "searchedAt": "2026-05-10T09:44:22.717Z",
     "region": "br"
@@ -1124,7 +1120,7 @@
     "region": "mx"
   },
   "la rvfleuze::argent sale - a colors show": {
-    "searchedAt": "2026-04-30T06:36:10.407Z",
+    "searchedAt": "2026-05-13T06:55:51.865Z",
     "region": "fr"
   },
   "jerome88musik::con-tent": {
@@ -1218,10 +1214,6 @@
   "el naoya::トラック野郎": {
     "searchedAt": "2026-05-01T20:42:26.783Z",
     "region": "jp"
-  },
-  "elivion::eine nacht": {
-    "searchedAt": "2026-05-02T06:14:21.988Z",
-    "region": "de"
   },
   "c.h.o.n::bunda": {
     "searchedAt": "2026-05-02T06:33:18.069Z",
@@ -1320,7 +1312,7 @@
     "region": "jp"
   },
   "bishop snow::keep the groove": {
-    "searchedAt": "2026-05-06T06:36:47.887Z",
+    "searchedAt": "2026-05-13T06:54:06.820Z",
     "region": "de"
   },
   "ganjette::j'voudrais partir": {
@@ -1566,5 +1558,13 @@
   "tupicalo::surrender": {
     "searchedAt": "2026-05-12T11:55:20.272Z",
     "region": "ca"
+  },
+  "zeroworry music::better than revenge": {
+    "searchedAt": "2026-05-13T06:51:52.466Z",
+    "region": "uk"
+  },
+  "kybba, busy signal, bounty killer & kalash::90s (feat. barrington levy)": {
+    "searchedAt": "2026-05-13T06:56:56.875Z",
+    "region": "fr"
   }
 }
