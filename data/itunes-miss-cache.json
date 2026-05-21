@@ -1436,8 +1436,8 @@
     "region": "us"
   },
   "kesha::origami!": {
-    "searchedAt": "2026-05-08T11:13:02.548Z",
-    "region": "us"
+    "searchedAt": "2026-05-21T12:46:27.250Z",
+    "region": "ca"
   },
   "lacrim::pay now": {
     "searchedAt": "2026-05-09T06:25:30.433Z",
@@ -1822,5 +1822,25 @@
   "lipe cardillo::choke me": {
     "searchedAt": "2026-05-21T11:36:03.727Z",
     "region": "br"
+  },
+  "vince staples::white flag": {
+    "searchedAt": "2026-05-21T12:44:02.786Z",
+    "region": "us"
+  },
+  "raven astrid::valhalla’s daughters | awaken your warrior soul | epic viking music": {
+    "searchedAt": "2026-05-21T12:45:10.335Z",
+    "region": "ca"
+  },
+  "lauren sanderson & fred durst::come say sum (feat. fred durst)": {
+    "searchedAt": "2026-05-21T12:45:25.974Z",
+    "region": "ca"
+  },
+  "bizarrap & peso pluma::peso pluma: bzrp music sessions, vol. 55/66": {
+    "searchedAt": "2026-05-21T12:48:31.703Z",
+    "region": "mx"
+  },
+  "chuyin::rehabilitado": {
+    "searchedAt": "2026-05-21T12:49:35.737Z",
+    "region": "mx"
   }
 }
