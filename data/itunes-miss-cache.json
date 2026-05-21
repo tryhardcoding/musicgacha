@@ -631,10 +631,6 @@
     "searchedAt": "2026-04-14T11:06:31.324Z",
     "region": "mx"
   },
-  "rawayana & manuel turizo::inglés en miami": {
-    "searchedAt": "2026-05-02T10:54:08.531Z",
-    "region": "mx"
-  },
   "muna::wannabeher": {
     "searchedAt": "2026-04-15T06:03:52.206Z",
     "region": "uk"
@@ -1504,7 +1500,7 @@
     "region": "es"
   },
   "zwangere guy::loin d'ici (from “putain”)": {
-    "searchedAt": "2026-05-11T08:12:36.392Z",
+    "searchedAt": "2026-05-21T08:24:36.400Z",
     "region": "be"
   },
   "n4mex::máquina do tempo (forró)": {
@@ -1794,5 +1790,33 @@
   "brozer::match nul": {
     "searchedAt": "2026-05-21T08:03:11.947Z",
     "region": "fr"
+  },
+  "millevoci::paradosso rosso": {
+    "searchedAt": "2026-05-21T08:08:36.235Z",
+    "region": "it"
+  },
+  "ldragoh::van ganando malparidas (dj cary remix)": {
+    "searchedAt": "2026-05-21T08:13:10.994Z",
+    "region": "es"
+  },
+  "ciscero::good to know (feat. masego, kp & ambriia)": {
+    "searchedAt": "2026-05-21T08:13:36.374Z",
+    "region": "es"
+  },
+  "haze da martian::one mic freestyle (feat. grm daily)": {
+    "searchedAt": "2026-05-21T08:14:27.129Z",
+    "region": "es"
+  },
+  "traductormental::cállate el hocico": {
+    "searchedAt": "2026-05-21T08:15:45.170Z",
+    "region": "es"
+  },
+  "dongo::papia hopi (feat. gia loutje)": {
+    "searchedAt": "2026-05-21T08:18:39.260Z",
+    "region": "nl"
+  },
+  "maes::galactic": {
+    "searchedAt": "2026-05-21T08:21:38.616Z",
+    "region": "be"
   }
 }
