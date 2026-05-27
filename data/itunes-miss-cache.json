@@ -812,7 +812,7 @@
     "region": "de"
   },
   "jeune morty::ivoire feeling": {
-    "searchedAt": "2026-04-21T06:11:16.916Z",
+    "searchedAt": "2026-05-27T08:14:56.123Z",
     "region": "fr"
   },
   "tune 7::innina tora": {
@@ -1548,7 +1548,7 @@
     "region": "ca"
   },
   "zeroworry music::better than revenge": {
-    "searchedAt": "2026-05-20T07:51:17.789Z",
+    "searchedAt": "2026-05-27T08:08:05.170Z",
     "region": "uk"
   },
   "kybba, busy signal, bounty killer & kalash::90s (feat. barrington levy)": {
@@ -1950,5 +1950,17 @@
   "siloé::esa estrella": {
     "searchedAt": "2026-05-26T08:13:30.044Z",
     "region": "es"
+  },
+  "moonspell::cross your heart": {
+    "searchedAt": "2026-05-27T08:09:18.455Z",
+    "region": "de"
+  },
+  "young chang mc::sauvage (feat. shannon)": {
+    "searchedAt": "2026-05-27T08:11:10.044Z",
+    "region": "fr"
+  },
+  "soolking::liberté (feat. ouled el bahdja)": {
+    "searchedAt": "2026-05-27T08:12:47.076Z",
+    "region": "fr"
   }
 }
