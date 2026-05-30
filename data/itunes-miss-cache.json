@@ -108,7 +108,7 @@
     "region": "de"
   },
   "francesco caggiano::un'alba senza luce": {
-    "searchedAt": "2026-05-22T08:00:14.919Z",
+    "searchedAt": "2026-05-30T07:26:58.873Z",
     "region": "it"
   },
   "olly & yanomi::paranoie": {
@@ -184,7 +184,7 @@
     "region": "fr"
   },
   "rdstw::everybody viva el duche": {
-    "searchedAt": "2026-05-11T08:01:13.134Z",
+    "searchedAt": "2026-05-30T07:27:42.837Z",
     "region": "it"
   },
   "omar courtz & ñengo flow::forever tu gantel": {
@@ -388,8 +388,8 @@
     "region": "fr"
   },
   "qlas::amg met matje (feat. mula b)": {
-    "searchedAt": "2026-04-27T07:26:45.574Z",
-    "region": "nl"
+    "searchedAt": "2026-05-30T07:42:00.716Z",
+    "region": "be"
   },
   "yeyo, novato el flow & viglezz::chichabeba": {
     "searchedAt": "2026-04-08T11:00:08.034Z",
@@ -1520,8 +1520,8 @@
     "region": "be"
   },
   "camille yembe::rien à fêter": {
-    "searchedAt": "2026-05-23T06:43:12.844Z",
-    "region": "fr"
+    "searchedAt": "2026-05-30T07:43:42.745Z",
+    "region": "be"
   },
   "papamike::despertador (feat. evandro guedes)": {
     "searchedAt": "2026-05-12T10:39:13.129Z",
@@ -1748,7 +1748,7 @@
     "region": "nl"
   },
   "lil kleine & jonna fraser::fashionweek": {
-    "searchedAt": "2026-05-20T08:12:25.349Z",
+    "searchedAt": "2026-05-30T07:39:14.885Z",
     "region": "nl"
   },
   "a$ap rocky::whiskey (release me) [feat. gorillaz & westside gunn]": {
@@ -2074,5 +2074,41 @@
   "kemmler::chagrin d’ami (feat. mosimann)": {
     "searchedAt": "2026-05-30T06:57:36.852Z",
     "region": "fr"
+  },
+  "tormento & ernia::allontanarsi (feat. leslie sackey & wado)": {
+    "searchedAt": "2026-05-30T07:27:14.529Z",
+    "region": "it"
+  },
+  "mew::vaffa*amore": {
+    "searchedAt": "2026-05-30T07:27:27.108Z",
+    "region": "it"
+  },
+  "toddla t, shocka & jafro::sf cypher 28 (feat. billy khan, monticolombi, nbposted, morgan da savage & eklipse)": {
+    "searchedAt": "2026-05-30T07:34:24.078Z",
+    "region": "es"
+  },
+  "chorizo::pene de mono": {
+    "searchedAt": "2026-05-30T07:34:33.442Z",
+    "region": "es"
+  },
+  "miero yic::mi ede weerie (kuff kaff riddim)": {
+    "searchedAt": "2026-05-30T07:37:32.714Z",
+    "region": "nl"
+  },
+  "julian brandts & the darkraver::la trompeta": {
+    "searchedAt": "2026-05-30T07:39:40.174Z",
+    "region": "nl"
+  },
+  "mc yoshi::y a une meuf (feat. mauvais djo, kokosvoice & dj syt)": {
+    "searchedAt": "2026-05-30T07:41:35.221Z",
+    "region": "be"
+  },
+  "guy2bezbar::la jeunesse dorée (feat. killa predator)": {
+    "searchedAt": "2026-05-30T07:42:09.998Z",
+    "region": "be"
+  },
+  "snoop dogg::serial killa (feat. doc, rbx & tha dogg pound)": {
+    "searchedAt": "2026-05-30T07:42:19.370Z",
+    "region": "be"
   }
 }
