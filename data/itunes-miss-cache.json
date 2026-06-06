@@ -236,7 +236,7 @@
     "region": "nl"
   },
   "ninochello::this is my house": {
-    "searchedAt": "2026-04-04T05:55:05.261Z",
+    "searchedAt": "2026-06-06T07:42:45.553Z",
     "region": "nl"
   },
   "goldband::noodgeval": {
@@ -1436,7 +1436,7 @@
     "region": "es"
   },
   "luca ferron, ninochello & gio::bon bini": {
-    "searchedAt": "2026-05-24T07:43:52.457Z",
+    "searchedAt": "2026-06-06T07:39:47.743Z",
     "region": "nl"
   },
   "bokoesam::ademnood (feat. rijck)": {
@@ -1920,7 +1920,7 @@
     "region": "es"
   },
   "siloé::esa estrella": {
-    "searchedAt": "2026-05-26T08:13:30.044Z",
+    "searchedAt": "2026-06-06T07:35:10.672Z",
     "region": "es"
   },
   "moonspell::cross your heart": {
@@ -2322,5 +2322,21 @@
   "kitschkrieg, verifiziert & kiarababa::herz an herz (mit verifiziert & kiarababa)": {
     "searchedAt": "2026-06-06T07:00:10.261Z",
     "region": "de"
+  },
+  "g.mineiro, flatpearl, jiz & succo::splinter cell": {
+    "searchedAt": "2026-06-06T07:33:26.850Z",
+    "region": "it"
+  },
+  "artie 5ive::sogno americano": {
+    "searchedAt": "2026-06-06T07:34:31.883Z",
+    "region": "it"
+  },
+  "mala gestión::noche de casino (this gambling man)": {
+    "searchedAt": "2026-06-06T07:36:28.681Z",
+    "region": "es"
+  },
+  "pozer::money and power": {
+    "searchedAt": "2026-06-06T07:47:45.901Z",
+    "region": "be"
   }
 }
