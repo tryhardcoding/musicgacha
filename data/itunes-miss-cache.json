@@ -1807,10 +1807,6 @@
     "searchedAt": "2026-05-21T12:44:02.786Z",
     "region": "us"
   },
-  "raven astrid::valhalla’s daughters | awaken your warrior soul | epic viking music": {
-    "searchedAt": "2026-06-02T21:39:39.036Z",
-    "region": "au"
-  },
   "lauren sanderson & fred durst::come say sum (feat. fred durst)": {
     "searchedAt": "2026-05-21T12:45:25.974Z",
     "region": "ca"
@@ -2410,5 +2406,9 @@
   "omar camacho::king of watches": {
     "searchedAt": "2026-06-09T12:38:35.374Z",
     "region": "mx"
+  },
+  "mous-k::le bon samaritain": {
+    "searchedAt": "2026-06-10T08:16:15.975Z",
+    "region": "fr"
   }
 }
