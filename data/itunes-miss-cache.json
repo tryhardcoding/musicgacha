@@ -1503,10 +1503,6 @@
     "searchedAt": "2026-05-12T07:27:30.252Z",
     "region": "es"
   },
-  "chris brown::look at me now (feat. lil wayne & busta rhymes)": {
-    "searchedAt": "2026-05-12T07:28:05.431Z",
-    "region": "nl"
-  },
   "broederliefde::hoog of laag": {
     "searchedAt": "2026-05-12T07:28:50.094Z",
     "region": "nl"
@@ -2582,5 +2578,9 @@
   "d12::tenderism (feat. method man)": {
     "searchedAt": "2026-06-14T20:12:48.328Z",
     "region": "au"
+  },
+  "mack flame::tessa thompson (459's and baby 9's)": {
+    "searchedAt": "2026-06-15T10:54:51.229Z",
+    "region": "nl"
   }
 }
