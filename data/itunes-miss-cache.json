@@ -1183,10 +1183,6 @@
     "searchedAt": "2026-05-01T09:53:19.487Z",
     "region": "br"
   },
-  "alanis morissette::you oughta know": {
-    "searchedAt": "2026-06-13T20:10:20.239Z",
-    "region": "au"
-  },
   "fka twigs::predictable girl": {
     "searchedAt": "2026-05-01T09:55:51.431Z",
     "region": "br"
@@ -2684,7 +2680,7 @@
     "region": "fr"
   },
   "lusovibe hit::portugal, seja onde for!": {
-    "searchedAt": "2026-06-19T09:13:20.969Z",
+    "searchedAt": "2026-06-28T07:57:08.029Z",
     "region": "fr"
   },
   "central cee::eurovision (feat. rondodasosa, baby gang, a2 anti, morad, beny jr, ashe 22 & freeze corleone)": {
@@ -3038,5 +3034,9 @@
   "inappropriate jazz::a lady should": {
     "searchedAt": "2026-06-27T20:02:25.258Z",
     "region": "au"
+  },
+  "bhz, ion miles, monk, dead dawg, big pat & longus mongus::atzenmodus": {
+    "searchedAt": "2026-06-28T07:55:45.948Z",
+    "region": "de"
   }
 }
