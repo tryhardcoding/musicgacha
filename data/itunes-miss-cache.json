@@ -240,8 +240,8 @@
     "region": "nl"
   },
   "goldband::noodgeval": {
-    "searchedAt": "2026-06-23T08:15:00.788Z",
-    "region": "be"
+    "searchedAt": "2026-07-03T07:52:32.702Z",
+    "region": "nl"
   },
   "plk::pocahontas": {
     "searchedAt": "2026-04-04T06:03:13.966Z",
@@ -924,7 +924,7 @@
     "region": "es"
   },
   "adf, ronnie flex & dj dylvn::punta cana (feat. antje, trapmoneybiggie & carel)": {
-    "searchedAt": "2026-06-25T08:09:00.348Z",
+    "searchedAt": "2026-07-03T07:57:42.796Z",
     "region": "nl"
   },
   "dre dior::bedrooms": {
@@ -2024,8 +2024,8 @@
     "region": "nl"
   },
   "mc yoshi::y a une meuf (feat. mauvais djo, kokosvoice & dj syt)": {
-    "searchedAt": "2026-05-30T07:41:35.221Z",
-    "region": "be"
+    "searchedAt": "2026-07-03T07:50:24.047Z",
+    "region": "es"
   },
   "guy2bezbar::la jeunesse dorée (feat. killa predator)": {
     "searchedAt": "2026-05-30T07:42:09.998Z",
@@ -3198,5 +3198,13 @@
   "gg3::world cup bouyon": {
     "searchedAt": "2026-07-03T07:32:36.241Z",
     "region": "fr"
+  },
+  "cho::kande (feat. la rouge)": {
+    "searchedAt": "2026-07-03T07:53:10.772Z",
+    "region": "nl"
+  },
+  "akimbo & missy::l.p.a. losse polsjes anthem": {
+    "searchedAt": "2026-07-03T07:57:11.415Z",
+    "region": "nl"
   }
 }
