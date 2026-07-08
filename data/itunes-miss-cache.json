@@ -1599,10 +1599,6 @@
     "searchedAt": "2026-05-15T12:01:45.575Z",
     "region": "mx"
   },
-  "skydxddy::darkside": {
-    "searchedAt": "2026-05-15T20:10:02.811Z",
-    "region": "au"
-  },
   "el naoya::人��": {
     "searchedAt": "2026-05-15T20:51:50.508Z",
     "region": "jp"
@@ -3007,10 +3003,6 @@
     "searchedAt": "2026-07-05T07:49:17.935Z",
     "region": "nl"
   },
-  "talk::gtfu": {
-    "searchedAt": "2026-06-27T11:27:21.746Z",
-    "region": "ca"
-  },
   "ana velázquez::ela dança": {
     "searchedAt": "2026-06-27T11:28:50.424Z",
     "region": "mx"
@@ -3338,5 +3330,13 @@
   "$tarface & tyga::gave u racks": {
     "searchedAt": "2026-07-08T07:24:13.727Z",
     "region": "be"
+  },
+  "ming leone::money machine": {
+    "searchedAt": "2026-07-08T11:45:54.996Z",
+    "region": "us"
+  },
+  "røz::pongo (feat. rvssian, rauw alejandro & wizkid) [remix]": {
+    "searchedAt": "2026-07-08T11:49:25.905Z",
+    "region": "mx"
   }
 }
