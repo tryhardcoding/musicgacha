@@ -108,7 +108,7 @@
     "region": "de"
   },
   "francesco caggiano::un'alba senza luce": {
-    "searchedAt": "2026-07-06T08:48:39.043Z",
+    "searchedAt": "2026-07-19T07:05:27.539Z",
     "region": "it"
   },
   "olly & yanomi::paranoie": {
@@ -312,8 +312,8 @@
     "region": "nl"
   },
   "mercedes nomerz::laat me draaien": {
-    "searchedAt": "2026-05-13T07:46:51.362Z",
-    "region": "nl"
+    "searchedAt": "2026-07-19T07:15:38.668Z",
+    "region": "be"
   },
   "ben plg::chaque jour un peu plus": {
     "searchedAt": "2026-04-06T06:32:45.975Z",
@@ -1816,7 +1816,7 @@
     "region": "fr"
   },
   "gsus lz::quédirán": {
-    "searchedAt": "2026-06-19T09:23:41.729Z",
+    "searchedAt": "2026-07-19T07:07:41.557Z",
     "region": "es"
   },
   "cellar kid::paradis (stadium version)": {
@@ -3618,5 +3618,9 @@
   "drunken masters & ikkimel::kein kokain": {
     "searchedAt": "2026-07-19T06:35:50.600Z",
     "region": "de"
+  },
+  "rilly8::teach me how to love you (feat. breezysoundscape)": {
+    "searchedAt": "2026-07-19T07:08:13.873Z",
+    "region": "es"
   }
 }
