@@ -248,8 +248,8 @@
     "region": "fr"
   },
   "braaheim::black betty": {
-    "searchedAt": "2026-04-04T06:04:50.015Z",
-    "region": "be"
+    "searchedAt": "2026-07-28T06:36:48.201Z",
+    "region": "fr"
   },
   "sch::jimmy twice": {
     "searchedAt": "2026-04-04T06:05:02.621Z",
@@ -1492,7 +1492,7 @@
     "region": "ca"
   },
   "zeroworry music::better than revenge": {
-    "searchedAt": "2026-07-18T06:10:40.348Z",
+    "searchedAt": "2026-07-28T06:31:49.383Z",
     "region": "uk"
   },
   "kybba, busy signal, bounty killer & kalash::90s (feat. barrington levy)": {
@@ -3914,5 +3914,9 @@
   "vidal lara::nadie pregunto por mi": {
     "searchedAt": "2026-07-27T12:55:36.631Z",
     "region": "mx"
+  },
+  "emma delune::à force d’aimer comme ça": {
+    "searchedAt": "2026-07-28T06:33:20.862Z",
+    "region": "de"
   }
 }
