@@ -3536,7 +3536,7 @@
     "region": "ca"
   },
   "drunken masters & ikkimel::kein kokain": {
-    "searchedAt": "2026-08-23T04:44:03.771Z",
+    "searchedAt": "2026-08-31T10:45:26.678Z",
     "region": "de"
   },
   "rilly8::teach me how to love you (feat. breezysoundscape)": {
@@ -3736,7 +3736,7 @@
     "region": "us"
   },
   "chase & status::disgruntled (feat. j hus & irah)": {
-    "searchedAt": "2026-08-24T04:52:09.372Z",
+    "searchedAt": "2026-08-31T10:44:25.480Z",
     "region": "uk"
   },
   "shona mcgarty::mr anxiety": {
@@ -4470,5 +4470,9 @@
   "natanael cano & crecer germán::apelativo": {
     "searchedAt": "2026-08-30T14:43:33.215Z",
     "region": "mx"
+  },
+  "rohff::lucarne (feat. tlf)": {
+    "searchedAt": "2026-08-31T10:45:52.814Z",
+    "region": "fr"
   }
 }
