@@ -2315,10 +2315,6 @@
     "searchedAt": "2026-06-22T13:42:48.607Z",
     "region": "br"
   },
-  "rawayana & manuel turizo::inglés en miami": {
-    "searchedAt": "2026-06-21T12:13:30.871Z",
-    "region": "mx"
-  },
   "cris mj::rocknroll": {
     "searchedAt": "2026-08-11T10:50:04.532Z",
     "region": "mx"
@@ -3140,7 +3136,7 @@
     "region": "ca"
   },
   "cellar kid::paraíso": {
-    "searchedAt": "2026-07-05T07:45:14.235Z",
+    "searchedAt": "2026-09-02T09:03:23.057Z",
     "region": "es"
   },
   "two boyca::sapato do boyca": {
@@ -4534,5 +4530,25 @@
   "jacklyn::wish you nothing but the worst": {
     "searchedAt": "2026-09-01T21:28:21.792Z",
     "region": "au"
+  },
+  "artie 5ive::swag music": {
+    "searchedAt": "2026-09-02T08:58:23.033Z",
+    "region": "it"
+  },
+  "sfb::jij kan chillen met mij": {
+    "searchedAt": "2026-09-02T09:07:17.223Z",
+    "region": "nl"
+  },
+  "dan pinas::ala meid": {
+    "searchedAt": "2026-09-02T09:08:24.436Z",
+    "region": "nl"
+  },
+  "kwn::all fours (feat. destin conrad)": {
+    "searchedAt": "2026-09-02T09:09:28.393Z",
+    "region": "nl"
+  },
+  "dj mad dog::last motherfucker (nekasrof remix - radio edit)": {
+    "searchedAt": "2026-09-02T09:09:37.744Z",
+    "region": "nl"
   }
 }
