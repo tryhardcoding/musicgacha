@@ -60,7 +60,7 @@
     "region": "br"
   },
   "menhir::sonerie (bonus track)": {
-    "searchedAt": "2026-08-26T04:48:11.498Z",
+    "searchedAt": "2026-09-05T08:18:38.410Z",
     "region": "fr"
   },
   "jessica brouart::regarde ce que tu as réveillé (feat. stéphanie baribeau)": {
@@ -288,7 +288,7 @@
     "region": "be"
   },
   "pa69::biertornado": {
-    "searchedAt": "2026-08-24T04:53:06.873Z",
+    "searchedAt": "2026-09-05T08:17:26.235Z",
     "region": "de"
   },
   "passi::les saigneurs du micro (feat. papillon bandana, rocca, 2 bal, nèg' marrons, les sages poètes de la rue, rockin' squat & akhenaton)": {
@@ -1924,7 +1924,7 @@
     "region": "mx"
   },
   "soli::un facho k.o": {
-    "searchedAt": "2026-06-22T09:54:26.857Z",
+    "searchedAt": "2026-09-05T08:18:47.786Z",
     "region": "fr"
   },
   "booba & matra::bzk": {
@@ -2216,7 +2216,7 @@
     "region": "mx"
   },
   "mehnersmoos & drunken masters::nachteule": {
-    "searchedAt": "2026-08-28T16:32:12.370Z",
+    "searchedAt": "2026-09-05T08:17:13.516Z",
     "region": "de"
   },
   "daniflakko, ogcale & korpe::un mechero y un librillo": {
@@ -4610,5 +4610,17 @@
   "lagos::solo fumo cuando bebo": {
     "searchedAt": "2026-09-04T14:06:42.655Z",
     "region": "mx"
+  },
+  "skynd::johnny kitagawa": {
+    "searchedAt": "2026-09-05T08:16:07.742Z",
+    "region": "uk"
+  },
+  "shindy::hinter den kulisssen": {
+    "searchedAt": "2026-09-05T08:16:57.873Z",
+    "region": "de"
+  },
+  "ninho & sativamusic::zodiac": {
+    "searchedAt": "2026-09-05T08:18:22.727Z",
+    "region": "fr"
   }
 }
