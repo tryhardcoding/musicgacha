@@ -1180,8 +1180,8 @@
     "region": "be"
   },
   "chily::rebanav 126bpm": {
-    "searchedAt": "2026-06-24T07:52:10.637Z",
-    "region": "fr"
+    "searchedAt": "2026-09-08T09:03:32.737Z",
+    "region": "it"
   },
   "playboi carti::olympian": {
     "searchedAt": "2026-05-03T07:18:40.693Z",
@@ -2804,7 +2804,7 @@
     "region": "fr"
   },
   "l0rna & rico rosa::marimandona": {
-    "searchedAt": "2026-06-25T08:03:14.824Z",
+    "searchedAt": "2026-09-08T09:06:08.875Z",
     "region": "es"
   },
   "anapology::la tuya o la mía": {
@@ -3084,8 +3084,8 @@
     "region": "nl"
   },
   "akimbo & missy::l.p.a. losse polsjes anthem": {
-    "searchedAt": "2026-07-25T06:51:56.301Z",
-    "region": "be"
+    "searchedAt": "2026-09-08T09:10:31.858Z",
+    "region": "nl"
   },
   "andré miquelotti, originaldé & mc menor geeh::vai toma no cu porra (versão agressiva) [feat. mc gl]": {
     "searchedAt": "2026-07-03T10:45:30.103Z",
@@ -4666,5 +4666,57 @@
   "máme::���らさきいろ": {
     "searchedAt": "2026-09-07T22:23:57.464Z",
     "region": "jp"
+  },
+  "dagood yl::la scopo co o' sguardo": {
+    "searchedAt": "2026-09-08T09:03:51.690Z",
+    "region": "it"
+  },
+  "leningrad::мелочи": {
+    "searchedAt": "2026-09-08T09:06:43.513Z",
+    "region": "es"
+  },
+  "leningrad::овечкин": {
+    "searchedAt": "2026-09-08T09:07:43.775Z",
+    "region": "es"
+  },
+  "ленинград::принцип": {
+    "searchedAt": "2026-09-08T09:08:05.717Z",
+    "region": "es"
+  },
+  "ленинград::аналоговнет": {
+    "searchedAt": "2026-09-08T09:08:18.337Z",
+    "region": "es"
+  },
+  "l0rna::blancanieves": {
+    "searchedAt": "2026-09-08T09:09:31.985Z",
+    "region": "es"
+  },
+  "таймер::на, сука! (из телесериала \"реальные пацаны\")": {
+    "searchedAt": "2026-09-08T09:09:44.557Z",
+    "region": "es"
+  },
+  "tren legion::pain paid off": {
+    "searchedAt": "2026-09-08T09:12:11.074Z",
+    "region": "nl"
+  },
+  "tren legion::unbreakable ii": {
+    "searchedAt": "2026-09-08T09:12:20.608Z",
+    "region": "nl"
+  },
+  "tren legion::cold heart, clear mind": {
+    "searchedAt": "2026-09-08T09:12:30.039Z",
+    "region": "nl"
+  },
+  "tren legion::kings never panic": {
+    "searchedAt": "2026-09-08T09:12:45.636Z",
+    "region": "nl"
+  },
+  "tren legion::bloodline": {
+    "searchedAt": "2026-09-08T09:12:58.068Z",
+    "region": "nl"
+  },
+  "ab7 & d.sel::gnumes gna": {
+    "searchedAt": "2026-09-08T09:13:20.068Z",
+    "region": "nl"
   }
 }
