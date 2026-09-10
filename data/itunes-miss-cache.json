@@ -3980,7 +3980,7 @@
     "region": "us"
   },
   "timal::sicario": {
-    "searchedAt": "2026-09-01T09:20:52.042Z",
+    "searchedAt": "2026-09-10T08:55:04.905Z",
     "region": "fr"
   },
   "freddie gibbs, the alchemist & anderson .paak::ensalada": {
@@ -4316,8 +4316,8 @@
     "region": "br"
   },
   "badkaz::i dreamed, remix badlaz": {
-    "searchedAt": "2026-09-01T14:33:10.576Z",
-    "region": "mx"
+    "searchedAt": "2026-09-10T08:53:04.823Z",
+    "region": "uk"
   },
   "omar camacho & la santa grifa::fúmale": {
     "searchedAt": "2026-08-25T10:33:06.495Z",
@@ -4758,5 +4758,9 @@
   "���山 雅治::光": {
     "searchedAt": "2026-09-09T22:07:43.739Z",
     "region": "jp"
+  },
+  "slipknot::arsenal": {
+    "searchedAt": "2026-09-10T08:51:54.831Z",
+    "region": "uk"
   }
 }
